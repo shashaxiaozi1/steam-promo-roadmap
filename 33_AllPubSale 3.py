@@ -8,16 +8,16 @@ Steam Publisher Sale Builder
 1. 爬取多个 Steam Publisher / Group 的 News
 2. 自动判断哪些 News 是促销 Sale
 3. 自动整理 Sale Name / Start Date / End Date / Games / URL
-4. 输出：
-   - steam_sales_output/promo_data.json       给网页读取
-   - steam_sales_output/publisher_sales.xlsx  给人工检查
-   - steam_sales_output/raw_news/*.json       原始新闻备份
+4. 只保留 end_date >= 2025-01-01 的促销
+5. 支持 manual_overrides.json 人工修正 start_date / end_date
+6. 输出：
+   - steam_sales_output/promo_data.json
+   - steam_sales_output/publisher_sales.xlsx
+   - steam_sales_output/latest_update.json
+   - steam_sales_output/raw_news/*.json
 
 运行前安装：
 pip install requests pandas openpyxl
-
-运行：
-python steam_sales_builder.py
 """
 
 import json
@@ -27,7 +27,7 @@ import html
 from pathlib import Path
 from typing import Optional, List, Dict, Any, Tuple
 from urllib.parse import urlencode, unquote
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 
 # =========================
@@ -87,6 +87,13 @@ OUTPUT_ROOT = Path("steam_sales_output")
 RAW_NEWS_DIR = OUTPUT_ROOT / "raw_news"
 PROMO_JSON = OUTPUT_ROOT / "promo_data.json"
 EXCEL_OUTPUT = OUTPUT_ROOT / "publisher_sales.xlsx"
+LATEST_UPDATE_JSON = OUTPUT_ROOT / "latest_update.json"
+
+# 只保留 2025-01-01 以后仍在进行/结束的促销
+MIN_END_DATE = "2025-01-01"
+
+# 人工修正文件，放在 repo 根目录
+MANUAL_OVERRIDES_JSON = Path("manual_overrides.json")
 
 
 # =========================
@@ -222,6 +229,11 @@ def parse_steam_ts(value: Any) -> Tuple[str, str]:
         return dt.strftime("%Y-%m-%d %H:%M:%S"), dt.strftime("%Y-%m-%d")
     except Exception:
         return str(value), str(value)
+
+
+def get_now_jst_string() -> str:
+    jst = timezone(timedelta(hours=9))
+    return datetime.now(tz=jst).strftime("%Y-%m-%d %H:%M:%S JST")
 
 
 # =========================
@@ -475,12 +487,6 @@ def normalize_sale_name(event: Dict[str, Any]) -> str:
 
 
 def extract_games_from_body(body_raw: str, body_text: str) -> List[str]:
-    """
-    第一版保守提取：
-    1. 抓 [url=Steam app/sub/bundle 页面]显示文字[/url]
-    2. 抓 bullet list 里看起来像游戏名的行
-    3. 不确定就不乱猜
-    """
     games = []
     raw = body_raw or ""
 
@@ -576,7 +582,161 @@ def event_to_promo(event: Dict[str, Any]) -> Dict[str, Any]:
         "is_sale": classification["is_sale"],
         "sale_confidence": classification["sale_confidence"],
         "sale_reason": classification["sale_reason"],
+        "manual_override_applied": False,
         "body_text": event.get("body_text", ""),
+    }
+
+
+# =========================
+# 人工修正 / 更新差分
+# =========================
+
+def promo_identity(promo: Dict[str, Any]) -> str:
+    event_id = str(promo.get("event_id", "") or "").strip()
+
+    if event_id:
+        return f"event_id::{event_id}"
+
+    return "fallback::" + "||".join([
+        str(promo.get("publisher", "") or "").strip(),
+        str(promo.get("sale_name", "") or "").strip(),
+        str(promo.get("start_date", "") or "").strip(),
+        str(promo.get("end_date", "") or "").strip(),
+    ])
+
+
+def load_existing_promos() -> List[Dict[str, Any]]:
+    if not PROMO_JSON.exists():
+        return []
+
+    try:
+        with PROMO_JSON.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        if isinstance(data, list):
+            return data
+
+        return []
+    except Exception as e:
+        print(f"Failed to load existing promo_data.json: {repr(e)}")
+        return []
+
+
+def load_manual_overrides() -> Dict[str, Any]:
+    if not MANUAL_OVERRIDES_JSON.exists():
+        template = {
+            "_comment": "Use Steam event_id as key. Only start_date and end_date are supported for now.",
+            "_example": {
+                "1234567890": {
+                    "start_date": "2026-02-13",
+                    "end_date": "2026-02-27"
+                }
+            }
+        }
+
+        with MANUAL_OVERRIDES_JSON.open("w", encoding="utf-8") as f:
+            json.dump(template, f, ensure_ascii=False, indent=2)
+
+        print(f"Created empty manual overrides file: {MANUAL_OVERRIDES_JSON}")
+        return {}
+
+    try:
+        with MANUAL_OVERRIDES_JSON.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        if not isinstance(data, dict):
+            return {}
+
+        return {
+            str(k): v
+            for k, v in data.items()
+            if not str(k).startswith("_") and isinstance(v, dict)
+        }
+
+    except Exception as e:
+        print(f"Failed to load manual_overrides.json: {repr(e)}")
+        return {}
+
+
+def apply_manual_overrides(promos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    overrides = load_manual_overrides()
+
+    if not overrides:
+        return promos
+
+    fixed_sales_count = 0
+
+    for promo in promos:
+        event_id = str(promo.get("event_id", "") or "").strip()
+
+        if not event_id:
+            continue
+
+        if event_id not in overrides:
+            continue
+
+        rule = overrides[event_id]
+        changed = False
+
+        if rule.get("start_date"):
+            promo["start_date"] = str(rule["start_date"])
+            changed = True
+
+        if rule.get("end_date"):
+            promo["end_date"] = str(rule["end_date"])
+            changed = True
+
+        if changed:
+            promo["manual_override_applied"] = True
+            fixed_sales_count += 1
+
+    print(f"Manual override sales applied: {fixed_sales_count}")
+
+    return promos
+
+
+def filter_promos_by_min_end_date(promos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    filtered = []
+
+    for promo in promos:
+        end_date = str(promo.get("end_date", "") or "").strip()
+
+        if not end_date:
+            continue
+
+        if end_date >= MIN_END_DATE:
+            filtered.append(promo)
+
+    return filtered
+
+
+def build_latest_update(
+    old_promos: List[Dict[str, Any]],
+    new_promos: List[Dict[str, Any]],
+) -> Dict[str, Any]:
+    old_keys = {promo_identity(p) for p in old_promos}
+
+    new_sales = [
+        p for p in new_promos
+        if promo_identity(p) not in old_keys
+    ]
+
+    return {
+        "updated_at": get_now_jst_string(),
+        "min_end_date": MIN_END_DATE,
+        "total_sales": len(new_promos),
+        "new_sales_count": len(new_sales),
+        "new_sales": [
+            {
+                "publisher": p.get("publisher", ""),
+                "sale_name": p.get("sale_name", ""),
+                "start_date": p.get("start_date", ""),
+                "end_date": p.get("end_date", ""),
+                "event_id": p.get("event_id", ""),
+                "source_url": p.get("source_url", ""),
+            }
+            for p in new_sales
+        ],
     }
 
 
@@ -589,6 +749,13 @@ def save_promo_json(promos: List[Dict[str, Any]]) -> None:
         json.dump(promos, f, ensure_ascii=False, indent=2)
 
     print(f"Saved promo JSON: {PROMO_JSON}")
+
+
+def save_latest_update(latest_update: Dict[str, Any]) -> None:
+    with LATEST_UPDATE_JSON.open("w", encoding="utf-8") as f:
+        json.dump(latest_update, f, ensure_ascii=False, indent=2)
+
+    print(f"Saved latest update JSON: {LATEST_UPDATE_JSON}")
 
 
 def save_excel(promos: List[Dict[str, Any]], all_review_rows: List[Dict[str, Any]]) -> None:
@@ -610,6 +777,7 @@ def save_excel(promos: List[Dict[str, Any]], all_review_rows: List[Dict[str, Any
             "Games": p["games_text"],
             "Confidence": p["sale_confidence"],
             "Reason": p["sale_reason"],
+            "Manual Override Applied": p.get("manual_override_applied", False),
             "Source Title": p["source_title"],
             "URL": p["source_url"],
             "Event Type": p["event_type_name"],
@@ -671,7 +839,7 @@ def save_excel(promos: List[Dict[str, Any]], all_review_rows: List[Dict[str, Any
                 max_len = 10
                 col_letter = get_column_letter(col_idx)
 
-                for cell in column_cells[:100]:
+                for cell in list(column_cells)[:100]:
                     value = "" if cell.value is None else str(cell.value)
                     max_len = max(max_len, min(len(value), 60))
 
@@ -697,6 +865,7 @@ def save_excel(promos: List[Dict[str, Any]], all_review_rows: List[Dict[str, Any
 def main() -> None:
     ensure_dirs()
 
+    old_promos = load_existing_promos()
     all_events: List[Dict[str, Any]] = []
 
     for company in COMPANIES:
@@ -718,6 +887,11 @@ def main() -> None:
     review_rows = [event_to_promo(e) for e in all_events]
     promos = [p for p in review_rows if p["is_sale"]]
 
+    print(f"Detected sale news before filter: {len(promos)}")
+
+    promos = apply_manual_overrides(promos)
+    promos = filter_promos_by_min_end_date(promos)
+
     promos.sort(
         key=lambda x: (
             x.get("publisher", ""),
@@ -734,16 +908,22 @@ def main() -> None:
         )
     )
 
-    print(f"Detected sale news: {len(promos)}")
+    latest_update = build_latest_update(old_promos, promos)
+
+    print(f"Detected sale news after date filter: {len(promos)}")
+    print(f"New sales this update: {latest_update['new_sales_count']}")
 
     save_promo_json(promos)
     save_excel(promos, review_rows)
+    save_latest_update(latest_update)
 
     print("\nDone.")
     print(f"Output folder: {OUTPUT_ROOT.resolve()}")
     print("Please check:")
     print(f"  1) {PROMO_JSON}")
     print(f"  2) {EXCEL_OUTPUT}")
+    print(f"  3) {LATEST_UPDATE_JSON}")
+    print(f"  4) {MANUAL_OVERRIDES_JSON}")
 
 
 if __name__ == "__main__":
