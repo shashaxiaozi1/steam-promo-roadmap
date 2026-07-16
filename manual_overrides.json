@@ -1,0 +1,9 @@
+{
+  "_comment": "Use Steam event_id as key. Only start_date and end_date are supported for now.",
+  "_example": {
+    "1234567890": {
+      "start_date": "2026-02-13",
+      "end_date": "2026-02-27"
+    }
+  }
+}
