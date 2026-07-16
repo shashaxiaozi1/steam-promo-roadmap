@@ -1200,8 +1200,8 @@
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "sale_name": "Capcom Publisher Sale",
-    "start_date": "2026-02-25",
-    "end_date": "2026-02-26",
+    "start_date": "2026-02-13",
+    "end_date": "2026-02-27",
     "start_time": "2026-02-25 18:00:00",
     "end_time": "2026-02-26 18:00:00",
     "start_date_raw": "1772042400",
@@ -1222,15 +1222,15 @@
     "is_sale": true,
     "sale_confidence": 1.0,
     "sale_reason": "title: sale, publisher sale | body: save up to, up to | discount pattern | has date range",
-    "manual_override_applied": false,
+    "manual_override_applied": true,
     "body_text": "Save up to 87% on select CAPCOM games from February 12th through February 26th during the Capcom Publisher Sale!Featured Products\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/app/1196590/Resident_Evil_Village/\nhttps://store.steampowered.com/app/883710/Resident_Evil_2/\nstore.steampowered.com/app/2246340/Monster_Hunter_Wilds/\nhttps://store.steampowered.com/app/2400430/Capcom_Fighting_Collection_2/"
   },
   {
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "sale_name": "Monster Hunter Stories Series Sale",
-    "start_date": "2026-02-25",
-    "end_date": "2026-02-26",
+    "start_date": "2026-02-13",
+    "end_date": "2026-02-27",
     "start_time": "2026-02-25 18:00:00",
     "end_time": "2026-02-26 18:00:00",
     "start_date_raw": "1772042400",
@@ -1245,7 +1245,7 @@
     "is_sale": true,
     "sale_confidence": 0.7,
     "sale_reason": "title: sale | has date range",
-    "manual_override_applied": false,
+    "manual_override_applied": true,
     "body_text": ""
   },
   {
