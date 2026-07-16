@@ -310,6 +310,7 @@ function hideTooltip() {
 
 function showDetail(item) {
   const games = Array.isArray(item.games) ? item.games : [];
+  const manual = item.manual_override_applied ? "Yes" : "No";
 
   document.getElementById("saleDetail").className = "sale-detail";
   document.getElementById("saleDetail").innerHTML = `
@@ -322,6 +323,12 @@ function showDetail(item) {
 
       <div class="detail-label">Date</div>
       <div>${formatDate(item.start_date)} - ${formatDate(item.end_date)}</div>
+
+      <div class="detail-label">Event ID</div>
+      <div><code>${escapeHtml(item.event_id || "")}</code></div>
+
+      <div class="detail-label">Manual Override</div>
+      <div>${manual}</div>
 
       <div class="detail-label">Confidence</div>
       <div>${escapeHtml(String(item.sale_confidence ?? ""))}</div>
