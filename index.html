@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steam Promo Roadmap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>Steam Promo Roadmap</h1>
+      <p>Auto-updated from Steam Publisher News</p>
+    </div>
+    <div class="status" id="status">Loading data...</div>
+  </header>
+
+  <section class="filters">
+    <div class="filter-block">
+      <div class="filter-title">
+        <span>Publisher</span>
+        <button id="publisherAll">All</button>
+        <button id="publisherNone">None</button>
+      </div>
+      <div id="publisherFilters" class="checkbox-list"></div>
+    </div>
+
+    <div class="filter-block">
+      <div class="filter-title">
+        <span>Sale</span>
+        <button id="saleAll">All</button>
+        <button id="saleNone">None</button>
+      </div>
+      <div id="saleFilters" class="checkbox-list"></div>
+    </div>
+  </section>
+
+  <section class="toolbar">
+    <button data-scale="month" class="scale-btn active">Month</button>
+    <button data-scale="week" class="scale-btn">Week</button>
+    <button data-scale="day" class="scale-btn">Day</button>
+  </section>
+
+  <main class="roadmap-wrapper">
+    <div id="roadmap" class="roadmap"></div>
+  </main>
+
+  <section class="detail-panel">
+    <h2>Sale Detail</h2>
+    <div id="saleDetail" class="sale-detail empty">
+      Click a sale block to see details.
+    </div>
+  </section>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
