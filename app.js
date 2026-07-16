@@ -59,39 +59,19 @@ function getDateRange(data) {
   ];
 }
 
-function getUnitWidth() {
-  if (scaleMode === "day") return 22;
-  if (scaleMode === "week") return 28;
-  return 70;
+function pixelsPerDay() {
+  if (scaleMode === "day") return 26;
+  if (scaleMode === "week") return 12;
+  return 6;
 }
 
 function getPosition(date, minDate) {
-  const diffDays = daysBetween(minDate, date);
-
-  if (scaleMode === "day") return diffDays * getUnitWidth();
-
-  if (scaleMode === "week") {
-    return Math.floor(diffDays / 7) * getUnitWidth();
-  }
-
-  return monthDiff(minDate, date) * getUnitWidth();
+  return daysBetween(minDate, date) * pixelsPerDay();
 }
 
 function getWidth(start, end) {
   const days = Math.max(1, daysBetween(start, end) + 1);
-
-  if (scaleMode === "day") return Math.max(60, days * getUnitWidth());
-
-  if (scaleMode === "week") {
-    return Math.max(70, Math.ceil(days / 7) * getUnitWidth());
-  }
-
-  return Math.max(80, Math.max(1, monthDiff(start, end) + 1) * getUnitWidth());
-}
-
-function monthDiff(a, b) {
-  return (b.getUTCFullYear() - a.getUTCFullYear()) * 12 +
-         (b.getUTCMonth() - a.getUTCMonth());
+  return Math.max(90, days * pixelsPerDay());
 }
 
 function getMonthStart(date) {
@@ -129,7 +109,7 @@ function renderFilters() {
   publisherBox.innerHTML = "";
 
   publishers.forEach(p => {
-    publisherBox.appendChild(makeCheckbox("publisher", p, selectedPublishers.has(p), () => {
+    publisherBox.appendChild(makeCheckbox(p, selectedPublishers.has(p), () => {
       if (selectedPublishers.has(p)) selectedPublishers.delete(p);
       else selectedPublishers.add(p);
 
@@ -151,7 +131,7 @@ function renderFilters() {
   saleBox.innerHTML = "";
 
   sales.forEach(s => {
-    saleBox.appendChild(makeCheckbox("sale", s, selectedSales.has(s), () => {
+    saleBox.appendChild(makeCheckbox(s, selectedSales.has(s), () => {
       if (selectedSales.has(s)) selectedSales.delete(s);
       else selectedSales.add(s);
       renderRoadmap();
@@ -159,7 +139,7 @@ function renderFilters() {
   });
 }
 
-function makeCheckbox(type, value, checked, onChange) {
+function makeCheckbox(value, checked, onChange) {
   const label = document.createElement("label");
   label.className = "checkbox-item";
 
@@ -181,27 +161,46 @@ function renderTimelineHeader(container, minDate, maxDate, totalWidth) {
 
   if (scaleMode === "month") {
     let cur = getMonthStart(minDate);
+
+    while (cur <= maxDate) {
+      const next = new Date(Date.UTC(cur.getUTCFullYear(), cur.getUTCMonth() + 1, 1));
+      const tick = document.createElement("div");
+      tick.className = "tick";
+      tick.style.left = `${180 + getPosition(cur, minDate)}px`;
+      tick.style.width = `${Math.max(80, daysBetween(cur, next) * pixelsPerDay())}px`;
+      tick.textContent = makeMonthLabel(cur);
+      header.appendChild(tick);
+      cur = next;
+    }
+  }
+
+  if (scaleMode === "week") {
+    let cur = new Date(minDate);
+    let index = 0;
+
     while (cur <= maxDate) {
       const tick = document.createElement("div");
       tick.className = "tick";
       tick.style.left = `${180 + getPosition(cur, minDate)}px`;
-      tick.style.width = `${getUnitWidth()}px`;
-      tick.textContent = makeMonthLabel(cur);
+      tick.style.width = `${7 * pixelsPerDay()}px`;
+      tick.textContent = index % 2 === 0 ? makeWeekLabel(cur) : "";
       header.appendChild(tick);
-      cur = new Date(Date.UTC(cur.getUTCFullYear(), cur.getUTCMonth() + 1, 1));
+      cur = addDays(cur, 7);
+      index++;
     }
-  } else {
-    const step = scaleMode === "week" ? 7 : 1;
+  }
+
+  if (scaleMode === "day") {
     let cur = new Date(minDate);
 
     while (cur <= maxDate) {
       const tick = document.createElement("div");
       tick.className = "tick";
       tick.style.left = `${180 + getPosition(cur, minDate)}px`;
-      tick.style.width = `${getUnitWidth()}px`;
-      tick.textContent = scaleMode === "week" ? makeWeekLabel(cur) : String(cur.getUTCDate());
+      tick.style.width = `${pixelsPerDay()}px`;
+      tick.textContent = cur.getUTCDate() === 1 ? makeMonthLabel(cur) : "";
       header.appendChild(tick);
-      cur = addDays(cur, step);
+      cur = addDays(cur, 1);
     }
   }
 
@@ -219,8 +218,15 @@ function renderRoadmap() {
   }
 
   const [minDate, maxDate] = getDateRange(data);
-  const totalWidth = getPosition(maxDate, minDate) + getUnitWidth() * 2;
-  roadmap.style.width = `${totalWidth + 180}px`;
+  const totalWidth = getPosition(maxDate, minDate) + 240;
+  const fullWidth = totalWidth + 180;
+
+  roadmap.style.width = `${fullWidth}px`;
+
+  const topScrollInner = document.getElementById("topScrollInner");
+  if (topScrollInner) {
+    topScrollInner.style.width = `${fullWidth}px`;
+  }
 
   renderTimelineHeader(roadmap, minDate, maxDate, totalWidth);
 
@@ -254,18 +260,19 @@ function renderRoadmap() {
       while (lanes[lane] && lanes[lane] > left) {
         lane++;
       }
-      lanes[lane] = left + width + 8;
+      lanes[lane] = left + width + 12;
 
       const block = document.createElement("div");
       block.className = "sale-block";
       block.style.left = `${left}px`;
-      block.style.top = `${18 + lane * 56}px`;
+      block.style.top = `${18 + lane * 64}px`;
       block.style.width = `${width}px`;
       block.style.background = COLORS[index % COLORS.length];
 
       block.innerHTML = `
         <div class="sale-name">${escapeHtml(item.sale_name)}</div>
-        <div class="sale-date">${formatDate(item.start_date)} - ${formatDate(item.end_date)}</div>
+        <div class="sale-date">${formatDate(item.start_date)} -</div>
+        <div class="sale-date">${formatDate(item.end_date)}</div>
       `;
 
       block.addEventListener("mousemove", e => showTooltip(e, item));
@@ -275,7 +282,7 @@ function renderRoadmap() {
       layer.appendChild(block);
     });
 
-    const rowHeight = Math.max(86, 86 + Math.max(0, lanes.length - 1) * 56);
+    const rowHeight = Math.max(100, 100 + Math.max(0, lanes.length - 1) * 64);
     row.style.minHeight = `${rowHeight}px`;
     name.style.minHeight = `${rowHeight}px`;
     layer.style.minHeight = `${rowHeight}px`;
@@ -444,6 +451,19 @@ function setupButtons() {
       renderRoadmap();
     });
   });
+
+  const wrapper = document.getElementById("roadmapWrapper");
+  const topScroll = document.getElementById("topScroll");
+
+  if (wrapper && topScroll) {
+    topScroll.addEventListener("scroll", () => {
+      wrapper.scrollLeft = topScroll.scrollLeft;
+    });
+
+    wrapper.addEventListener("scroll", () => {
+      topScroll.scrollLeft = wrapper.scrollLeft;
+    });
+  }
 }
 
 async function init() {
