@@ -1,4 +1,5 @@
 const DATA_URL = "./steam_sales_output/promo_data.json";
+const UPDATE_URL = "./steam_sales_output/latest_update.json";
 
 let rawData = [];
 let selectedPublishers = new Set();
@@ -341,6 +342,55 @@ function showDetail(item) {
   `;
 }
 
+async function loadLatestUpdate() {
+  const box = document.getElementById("latestUpdate");
+  if (!box) return;
+
+  try {
+    const res = await fetch(UPDATE_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error("latest_update.json not found");
+
+    const data = await res.json();
+    const newSales = Array.isArray(data.new_sales) ? data.new_sales : [];
+
+    box.className = "sale-detail";
+
+    box.innerHTML = `
+      <div class="detail-grid">
+        <div class="detail-label">Last updated</div>
+        <div>${escapeHtml(data.updated_at || "")}</div>
+
+        <div class="detail-label">Total sales</div>
+        <div>${escapeHtml(String(data.total_sales ?? ""))}</div>
+
+        <div class="detail-label">New sales</div>
+        <div>${escapeHtml(String(data.new_sales_count ?? 0))}</div>
+
+        <div class="detail-label">New sale list</div>
+        <div>
+          ${
+            newSales.length
+              ? `<ul class="games-list">
+                  ${newSales.map(s => `
+                    <li>
+                      <strong>${escapeHtml(s.sale_name || "")}</strong><br>
+                      ${escapeHtml(s.publisher || "")} / 
+                      ${formatDate(s.start_date || "")} - ${formatDate(s.end_date || "")}
+                    </li>
+                  `).join("")}
+                </ul>`
+              : "No new sales detected in this update."
+          }
+        </div>
+      </div>
+    `;
+  } catch (err) {
+    console.warn(err);
+    box.className = "sale-detail empty";
+    box.textContent = "Latest update data is not available yet.";
+  }
+}
+
 function escapeHtml(str) {
   return String(str ?? "")
     .replaceAll("&", "&amp;")
@@ -405,6 +455,7 @@ async function init() {
 
     renderFilters();
     renderRoadmap();
+    await loadLatestUpdate();
 
   } catch (err) {
     console.error(err);
