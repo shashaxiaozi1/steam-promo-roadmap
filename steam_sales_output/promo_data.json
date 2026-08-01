@@ -3559,5 +3559,28 @@
     "sale_reason": "title: sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Soak up the sun and these hot deals from Square Enix, including: -FINAL FANTASY XIV: Dawntrail-FINAL FANTASY VII REBIRTH-NieR:Automata™-BRAVELY DEFAULT FLYING FAIRY HD Remaster-Visions of Mana-PARANORMASIGHT: The Mermaid's Curse - Just Cause 3"
+  },
+  {
+    "publisher": "Square Enix",
+    "publisher_slug": "square_enix",
+    "sale_name": "Octopath Traveler Franchise Sale",
+    "start_date": "2026-07-29",
+    "end_date": "2026-08-12",
+    "start_time": "2026-07-29 17:02:00",
+    "end_time": "2026-08-12 17:00:00",
+    "start_date_raw": "1785344520",
+    "end_date_raw": "1786554000",
+    "games": [],
+    "games_text": "",
+    "source_title": "Octopath Traveler Franchise Sale",
+    "source_url": "https://store.steampowered.com/news/group/1012195/view/706649847851127399?l=english",
+    "event_id": "706649847851127399",
+    "event_type": 20,
+    "event_type_name": "",
+    "is_sale": true,
+    "sale_confidence": 0.7,
+    "sale_reason": "title: sale, franchise sale | has date range",
+    "manual_override_applied": false,
+    "body_text": "Eight destinies intertwine in one unforgettable journey. Which path will you take?"
   }
 ]

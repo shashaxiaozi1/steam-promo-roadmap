@@ -1,7 +1,16 @@
 {
-  "updated_at": "2026-07-16 19:03:54 JST",
+  "updated_at": "2026-08-01 16:53:42 JST",
   "min_end_date": "2025-01-01",
-  "total_sales": 144,
-  "new_sales_count": 0,
-  "new_sales": []
+  "total_sales": 145,
+  "new_sales_count": 1,
+  "new_sales": [
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Octopath Traveler Franchise Sale",
+      "start_date": "2026-07-29",
+      "end_date": "2026-08-12",
+      "event_id": "706649847851127399",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/706649847851127399?l=english"
+    }
+  ]
 }

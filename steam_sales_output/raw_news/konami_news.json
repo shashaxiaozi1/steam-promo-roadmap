@@ -4,6 +4,178 @@
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
+    "event_id": "713407148452742755",
+    "app_id": "",
+    "source_title": "“KICK BUDS” Playtest Begins!",
+    "subtitle": "see announcement body",
+    "event_type": 28,
+    "event_type_name": "",
+    "start_time_raw": "1785395640",
+    "end_time_raw": "1785399240",
+    "start_time": "2026-07-30 07:14:00",
+    "end_time": "2026-07-30 08:14:00",
+    "start_date": "2026-07-30",
+    "end_date": "2026-07-30",
+    "posttime_raw": "1785395686",
+    "updatetime_raw": "1785395686",
+    "url": "https://store.steampowered.com/news/group/39026134/view/713407148452742755?l=english",
+    "body_text": "https://store.steampowered.com/app/4039320/KICK_BUDS/\nWe’re going to run a playtest to improve “KICK BUDS”, a game we’re currently developing.\nKICK BUDS is a 3v3v3 PvP soccer action game like you’ve never seen before!\nYour feedback and opinions will be used as a reference for future product development. We really appreciate your cooperation.\nTest Period: July 30, 2026, 4:00 a.m. - August 10, 2026, 2:00 a.m. (UTC)",
+    "body_raw": "https://store.steampowered.com/app/4039320/KICK_BUDS/\nWe’re going to run a playtest to improve “KICK BUDS”, a game we’re currently developing.\nKICK BUDS is a 3v3v3 PvP soccer action game like you’ve never seen before!\nYour feedback and opinions will be used as a reference for future product development. We really appreciate your cooperation.\n\nTest Period: July 30, 2026, 4:00 a.m. - August 10, 2026, 2:00 a.m. (UTC)\n\n[previewyoutube=BlQtDG7gZ-g;full][/previewyoutube]\n\n",
+    "raw": {
+      "gid": "713407148452742755",
+      "clan_steamid": "103582791468547542",
+      "event_name": "“KICK BUDS” Playtest Begins!",
+      "event_type": 28,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1785395640,
+      "rtime32_end_time": 1785399240,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[\"This isn’t just soccer—it’s a survival battle!\",\"Ein Fußballspiel wie kein anderes. Überlebe mit einer Reihe von Regeln!\",\"Un match de football unique en son genre. Survivez à toutes sortes de règles !\",\"Un gioco di calcio senza precedenti. Adeguati a una serie di regole sregolate!\",\"세상에 없던 단 하나의 축구 게임. 변화무쌍한 규칙 속에서 살아남으세요!\",null,\"一款前所未有的足球游戏。在五花八门的规则中生存下来！\",\"獨一無二的足球體驗。在各種各樣的規則中掙扎求存！\",null,null,\"これはただのサッカーじゃない、サバイバルバトルだ！\",null,null,null,null,null,null,null,null,null,null,\"Eşi benzeri olmayan bir futbol oyunu. Türlü türlü kurallar karşısında hayatta kalın!\",\"Um futebol diferente de tudo. Sobreviva a várias regras!\",null,null,null,null,\"Un juego de fútbol sin igual. ¡Sobrevive a una variedad de reglas!\",null,null,\"Game sepak bola yang agak lain. Bertahanlah dari berbagai aturan!\",null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"10ad70ec8e15b26a491b0795b7be829c17494172.jpg\",\"a213888b852ed425d3059d6ac281a44df0864596.jpg\",\"4b3d7ee11906e141547733af40a5fbcf1753f22e.jpg\",\"69c2cfcbe55beb8eee9bb57a5b3780b1600adae5.jpg\",\"34b2a2482cc360c1ba8d6a6453b91dd925e4c034.jpg\",null,\"98f40b383e720fe44228757fe589d4717e5f71ba.jpg\",\"872638c59956bb9161888f0f312e2a05c774ea8b.jpg\",null,null,\"9701e5401fa436ace48e0783fdc410793a51cd42.jpg\",null,null,null,null,null,null,null,null,null,null,\"9f368b8a7fb89cd7cb5e9cf12efaa6a06bd27aa6.jpg\",\"cf4f13fbbf0c8eab022cf5b64cdb51f444eb2d6e.jpg\",null,null,null,null,\"38403e09227766c2eb6fd88a98b0b4f4b963d17c.jpg\",null,null,\"7f6f38785298064302294de2a05492a1d7126b0c.jpg\",null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}",
+      "announcement_body": {
+        "gid": "713407148452742756",
+        "clanid": "39026134",
+        "posterid": "0",
+        "headline": "“KICK BUDS” Playtest Begins!",
+        "posttime": 1785395686,
+        "updatetime": 1785395686,
+        "body": "https://store.steampowered.com/app/4039320/KICK_BUDS/\nWe’re going to run a playtest to improve “KICK BUDS”, a game we’re currently developing.\nKICK BUDS is a 3v3v3 PvP soccer action game like you’ve never seen before!\nYour feedback and opinions will be used as a reference for future product development. We really appreciate your cooperation.\n\nTest Period: July 30, 2026, 4:00 a.m. - August 10, 2026, 2:00 a.m. (UTC)\n\n[previewyoutube=BlQtDG7gZ-g;full][/previewyoutube]\n\n",
+        "commentcount": 0,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "583929927904097913",
+        "event_gid": "713407148452742755",
+        "voteupcount": 8,
+        "votedowncount": 0,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 0,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "583929927904097913",
+      "rtime32_last_modified": 1785501966,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1784602182,
+      "votes_up": 8,
+      "votes_down": 0,
+      "comment_type": "ForumTopic",
+      "gidfeature": "3056237435832679367",
+      "gidfeature2": "583929927904097913",
+      "video_preview_type": "youtube",
+      "video_preview_id": "BlQtDG7gZ-g",
+      "clan_steamid_original": "103582791468547542"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "Konami",
+    "publisher_slug": "konami",
+    "group_id": 39026134,
+    "event_id": "677377899168268308",
+    "app_id": "",
+    "source_title": "METAL GEAR SOLID - Master Collection Version Free Play",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1784826000",
+    "end_time_raw": "1785171600",
+    "start_time": "2026-07-23 17:00:00",
+    "end_time": "2026-07-27 17:00:00",
+    "start_date": "2026-07-23",
+    "end_date": "2026-07-27",
+    "posttime_raw": "1784826193",
+    "updatetime_raw": "1784850877",
+    "url": "https://store.steampowered.com/news/group/39026134/view/677377899168268308?l=english",
+    "body_text": "To celebrate the launch of METAL GEAR SOLID: MASTER COLLECTION Vol.2 on August 27, we’re offering a free play trial for METAL GEAR SOLID!\nThis limited-time free play will be available until July 27 at 10:00 AM (PDT).\nDon’t miss this chance to experience the world of the METAL GEAR series!\nhttps://store.steampowered.com/app/2131630/\nhttps://store.steampowered.com/app/2131640/\nhttps://store.steampowered.com/app/2131650/\nMETAL GEAR SOLID: MASTER COLLECTION Vol.2 is available for pre-order now!\nhttps://store.steampowered.com/app/3859630",
+    "body_raw": "To celebrate the launch of METAL GEAR SOLID: MASTER COLLECTION Vol.2 on August 27, we’re offering a free play trial for METAL GEAR SOLID!\nThis limited-time free play will be available until July 27 at 10:00 AM (PDT).\nDon’t miss this chance to experience the world of the METAL GEAR series!\n\nhttps://store.steampowered.com/app/2131630/\nhttps://store.steampowered.com/app/2131640/\nhttps://store.steampowered.com/app/2131650/\n\n[h3]METAL GEAR SOLID: MASTER COLLECTION Vol.2 is available for pre-order now![/h3]\nhttps://store.steampowered.com/app/3859630\n\n\n[URL=https://store.steampowered.com/sale/mgs1freeplay2026][img]{STEAM_CLAN_IMAGE}/39026134/9ee61e59e894bcb7b1cef69c78e12be551da1d3b.jpg[/img][/url]",
+    "raw": {
+      "gid": "677377899168268308",
+      "clan_steamid": "103582791468547542",
+      "event_name": "METAL GEAR SOLID - Master Collection Version Free Play",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1784826000,
+      "rtime32_end_time": 1785171600,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"ac9850b6807b69ba75863533c4867121569635bf.jpg\",\"00495124ebac082530bffbc9c2f9bbb6d341e9ee.jpg\",\"d2fdc040f8a42dbac2097386b9e9d43d5b23f74a.jpg\",\"7a7b05cb21482e9080a0493802f6fcf14f634ce4.jpg\",\"ed86b81d44eea7743a34ff6d8fd13bd65cafb066.jpg\",\"91e8306860da84f30361365defffee6f0f560f01.jpg\",\"236eb190ddf36de888bba469d717bab830317af9.jpg\",\"0db607881475c84ea4c0ea2648daeb85989e570a.jpg\",\"6bcd30808efd222df5be777321b0953bc8d7ac07.jpg\",\"c50bc3e7be797a85f842266b2eaf53f111e0aa12.jpg\",\"ac9850b6807b69ba75863533c4867121569635bf.jpg\",\"8c1592ba2de942a05ce5fac5a938e2e0f119d645.jpg\",\"505ade51596900ebc6b3300b419bd7b5e2645fb9.jpg\",\"c370db9ffde22411432cb9e1447bc47bd16ca00e.jpg\",\"49a5a30d85f6050233601e285b5b979a7656239e.jpg\",\"2123666b90466862e8131d464752aa7029f703b6.jpg\",\"dced8a72f8985aa64c2faa39fd32a0afad030056.jpg\",\"59a5ff5177351795d24fc770c206b0796b854429.jpg\",\"ec05bf86f95d2feb91f2a1afa10076a198a16190.jpg\",\"2b68237a4105b0656e8df0bdeef10c768238dd7f.jpg\",\"1aa00dda8a8b896a6bdb6bf35e29b25643cc1dad.jpg\",\"2f645d00daacfd34cfdafb8ed629bd5afda1f829.jpg\",\"d1bb5ca395898f30b72a47e32cffa0cf4b750aa3.jpg\",\"3cce2c5d63f90f1ed95ae52427e720994bfb6d2a.jpg\",\"4444dfee633d4fe667209e7d7cdcd2202036fe12.jpg\",null,\"6a7128b67941a3a0c977a590090e8611142c32c9.jpg\",\"1f8af74b10f2c37bbbcd19789fcddafe057995cd.jpg\",\"5698c8d337762f9733eb46cb1db65c44a3db4df5.jpg\",null,\"ad875a903b947a8a0e800cabc1bc3c07b80d5c42.jpg\",null],\"localized_capsule_image\":[\"8584e3ff1c6e6e9e28d1cafd2bc77a9003d273f2.jpg\",\"211a61ce494419e147bd159de8f0ce9adb7e62f8.jpg\",\"7eadcdeb6bc51f46fe3e82883909db0ea28dd98d.jpg\",\"6f3a58436c7b5ab8f2553c75ababb82af5b2b7ef.jpg\",\"271cb519307caa1e6e408a62f21c0c94f95510b6.jpg\",\"04a7de27fb7b2822dc486f8fe8d91f8c2551bb4d.jpg\",\"fcb7d7050dec43455c213dfe409f24f82aea5920.jpg\",\"557eca1dd9155721a81e1348c1d1092f26286c8f.jpg\",\"6217f2088ae82475398fe0cd4dde5cf47ff795db.jpg\",\"e2c7e116ae9387ae2d37f97fd396c10c1d40807f.jpg\",\"8584e3ff1c6e6e9e28d1cafd2bc77a9003d273f2.jpg\",\"5e59273ec8a4bbc1357e91b1f74d704abb570493.jpg\",\"6fd20f35dc9162dabc9d4d2fbac981e5c7388af6.jpg\",\"b12646e6354d892a748c8ccea4999957b744cd75.jpg\",\"b9818b9261030a0ef362c413a70e98366cc35ef9.jpg\",\"bb1cac8041d6c8de87fb6f5df26fadc7d86c6d16.jpg\",\"91d3ee0fbb58cc41c4421b3588add99ff14b010e.jpg\",\"32e1c42fcaaa01dcbfb447fc94257e4abba8fc4d.jpg\",\"b4afe51212fa97d7aa98c1c914a3afdd7a843be6.jpg\",\"2c75e68664b9d79746c21b571a9352577c314fc4.jpg\",\"77a921d3b4109f74851f6fa2576c659ba0f01df8.jpg\",\"d8d6c6df5585eff1256129cfb2a3447c7bde53cd.jpg\",\"c2216b8ba125e8140587a40f35fc6b25daed3f58.jpg\",\"aaacd184479ec21270ca7660a4a08d997f1c83cf.jpg\",\"4d2dca61578b2691407d1c247e9d8be5463fb265.jpg\",null,\"d0416ffaa41f552b1f573d5deef9aa60bebb6f69.jpg\",\"23d219c9bc2723e5979fcc9d876a0e0392199556.jpg\",\"36e6ba6d972b95557b95aac73a9d5283396c1313.jpg\",null,\"d4ac02cc2a209500b7a74af4fba3eafc72bbdefc.jpg\",null],\"bSaleEnabled\":true,\"sale_show_creator\":false,\"sale_sections\":[{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":98602,\"internal_section_data\":null,\"curator_clan_id\":39026134},{\"capsules\":[{\"id\":2131630,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"FREE WEEKEND\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":69497,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"background_gradient_top\":\"rgba(224, 191, 114, 1)\",\"background_gradient_bottom\":\"rgba(224, 191, 114, 1)\",\"label_color\":\"rgba(0, 0, 0, 1)\"},{\"capsules\":[{\"id\":886312,\"type\":\"sub\"},{\"id\":886313,\"type\":\"sub\"},{\"id\":886315,\"type\":\"sub\"},{\"id\":2131630,\"type\":\"game\"},{\"id\":2131640,\"type\":\"game\"},{\"id\":2131650,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_261\",\"section_type\":\"items\",\"unique_id\":80115,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"border_width\":3,\"border_color\":\"rgba(229, 207, 132, 1)\"},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":85659,\"internal_section_data\":null,\"curator_clan_id\":44656967}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"a6b116868ad056e0a8168af463780b7b662c1e55.jpg\",\"76ebd6a14dc8e3ece6cdbb6d801a1e91d42520ef.jpg\",\"4293e2a18f9f7040873c151c5b0668ff85fe6329.jpg\",\"5ba3bb9bd1f9d8e79702fe20efa1d1cc69b4c38f.jpg\",\"56f10183b9267c6e1c7f109a1e70b7a0af250444.jpg\",\"842214ca613ba5e4d07bd3b49da71e4c3ba32b7a.jpg\",\"6426bf4d1446ecda2d6505e94260dcac49c1738c.jpg\",\"12b9a8d950c6ff59b13372571d15c4cff1cdb034.jpg\",\"13703ff1b21358ff465e676735cdba1d7ca60329.jpg\",\"4cb75b828d9831ecaef735fba53428ddb68b647c.jpg\",\"a6b116868ad056e0a8168af463780b7b662c1e55.jpg\",\"4e5292cae8884674b81bd1725d8e85d3b845e02c.jpg\",\"5750fa49ec7474b56818d2000ddc10af6eac3809.jpg\",\"0302ec47a59ae2a002f913d85d97acbb7daf8c2f.jpg\",\"7f5f18a21596c0f5ad32ab609356811609e2824d.jpg\",\"72af6512b34e7f90a6b8cb785276fb40f4a48739.jpg\",\"222d88f6cdc75d7e05c4e186dc3f86ede5ec9af7.jpg\",\"d4ed009e10fddd2283b66ed6af9408821572437e.jpg\",\"8cfe628c2e4e07a83411be595efc25bdc4e9ad62.jpg\",\"3a346d6e2f8693586bc8cecdf81f73f5213d1128.jpg\",\"3cf03900d487fcc8724b75d8a62de1628f293f45.jpg\",\"b738d4f22af2ce9876fa7728c71d7f17bc36d981.jpg\",\"bfcb084006714019e05d4f01bc9a0f4254b088be.jpg\",\"cc75cc8410e3140ea2ab1c727073defe20082cc8.jpg\",\"76bcb21f4f2663b2304b121c51bd6a49429cc670.jpg\",null,\"08481043d5af707f99162fdca1853a7e57750a42.jpg\",\"36a734a64d24f46740eb45bf9cff4f0163dc3d34.jpg\",\"fad361046415b459ca6966bdbed0c78c17786c52.jpg\",null,\"df2d94de93149ed4b3695d06422a661584555d29.jpg\",null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"526b483ea00081fcb55340fa8747891ef3eaee51.jpg\",\"f4c93264a93e71892b10f31ff6b513fc609d6d5e.jpg\",\"085d6e9ce6ec11b186041c0a16c94e59ce198696.jpg\",\"7e4529e3303b722bef2584f6087dcfa34274ef3a.jpg\",\"3d510cc759c74c0dcab10e1d4341e4fed1bd4ee8.jpg\",\"685219528d2996252f336dc6d796252b94864ff7.jpg\",\"5471ecd09261887c140a92b321b64b75d3fdd309.jpg\",\"0f1357b6136de8b172876cb386a4e3babfec49fd.jpg\",\"25b9133d8a6df3e7661c9be43b5053126c03233d.jpg\",\"978adae833b2015187ee12ad86171f2c9c53e39e.jpg\",\"526b483ea00081fcb55340fa8747891ef3eaee51.jpg\",\"e4f91f438fbf5fd323578df065b9d28f15340ad7.jpg\",\"562c88264a81c5bc085470d46e74d1ee95720514.jpg\",\"0e7ee48b0530da75b2586dcd5f6466a36f1aa46a.jpg\",\"f99a0db6102237b5df92ee8f260ca33a3b10b93a.jpg\",\"c2263568a93ad2a942e6b63efa62c08acabb07b8.jpg\",\"fa938b6073f8619d1d7f9e23aa08fcd2b9a6f9de.jpg\",\"5c124093aa1f24167aae429519951c473c106294.jpg\",\"1904ceea3fd6a5ab24463c4cc1d79ea8811394c3.jpg\",\"e96b89cc8fad0ba525f44f5e0ac20e3445f324e9.jpg\",\"b3555cdc0ce8edf3afd461e3930f70288b2d4694.jpg\",\"027a7def1040367139a91bca9f66e2adae4da0d7.jpg\",\"76dfe79fbfa20fbb02f1639068b9f7bc961cad8c.jpg\",\"eaa19a100aab55f2bdabd4ccf968031ec251f4b3.jpg\",\"30d0ea0e132ef966f5b0a2f134bc84109b7e3f00.jpg\",null,\"07669a58f194a75a82f89df9fa49172b5cd75211.jpg\",\"0b9dd212ab49e8327fe926e6a203c928ce7d0fde.jpg\",\"58307349a69cfd1f6ff8e79e5fd02f5ef2d2fe93.jpg\",null,\"5ac7f1e587805e10618b29d72181f783500a6e97.jpg\",null],\"localized_sale_product_mobile_banner\":[\"74f5b71637b19f8135888b19ea3aeb67abb59c9c.jpg\",\"c7015334d213e382a3cc6b6fcf8570d34ed18155.jpg\",\"b62c692e6e4dfba8341bf1a4873c1129535ceac2.jpg\",\"55aca50c0ad9ebde3f6ec1ea5c362f2bee3ea1d8.jpg\",\"555dbe4d0bf750bec51e7f493f1fe12f500c22d8.jpg\",\"aced2bf70ed0e26a6c577dfde01989618f6e4279.jpg\",\"28ccb04c91fb596e6c545c3812adf08ea4961fcb.jpg\",\"bc47f94db80458eeac132317c28a004a7e37a3d5.jpg\",\"2dc5f795baed0cd6dbcbd526c476bac335b3f67c.jpg\",\"b60ff786cef4cdc3c07c416ece397146cb794b66.jpg\",\"74f5b71637b19f8135888b19ea3aeb67abb59c9c.jpg\",\"294dc08b99f679cffcb5af6b040f961f9f43b847.jpg\",\"b663535b091d01d96234e08d0c26e5f4a09ecc44.jpg\",\"550f5e3d6df2bc2221ed14936b420a28f2b0cebb.jpg\",\"00ba18d64c367b9d778f61308c1713a1a9a13ad2.jpg\",\"53f4ab2cae8a4db2ce0b439852d8bd8eebeba715.jpg\",\"28a190e27e0cc50397949a742e572ea341dee7e4.jpg\",\"5f1b76d3b783098af09fd327c08794ac4e6f5b2c.jpg\",\"ca51324521f30f8f715a1f43f81641596804f493.jpg\",\"0173a5530aae348105c52d1aa2fd1daa0d02dfdd.jpg\",\"939e1080de0f2dd71354aa18ff2152f7554939bd.jpg\",\"0a1c4ed0b2dad0f7fc20b70d58a6f45489f3ab9c.jpg\",\"2b060f93911fc74a121d136c080056a48826c430.jpg\",\"819bfd10495f2f45c360a9ab12b8f9dc0f8cdb1d.jpg\",\"b1df6f8c9a2eb4f1640bf73557c9586dea9b48e7.jpg\",null,\"1fe9735c27fd32f58903b2b643d532790e7f25e2.jpg\",\"1d01631c63b8a70f928c9f2b5e4a78f222674e73.jpg\",\"a1d477ac28fc4025f1a58a4219323d3c76c73995.jpg\",null,\"56670c97d98dafc90fb5d09bdb2527f85c118099.jpg\",null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(0, 0, 0, 1)\",\"sale_header_offset\":550,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_vanity_id\":\"mgs1freeplay2026\",\"sale_presenters\":[{\"unique_id\":21360,\"localized_presenter_name\":[\"KONAMI\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/Konami/\"}],\"sale_vanity_id_valve_approved_for_sale_subpath\":true}",
+      "announcement_body": {
+        "gid": "677377899168268309",
+        "clanid": "39026134",
+        "posterid": "0",
+        "headline": "METAL GEAR SOLID - Master Collection Version Free Play",
+        "posttime": 1784826193,
+        "updatetime": 1784850877,
+        "body": "To celebrate the launch of METAL GEAR SOLID: MASTER COLLECTION Vol.2 on August 27, we’re offering a free play trial for METAL GEAR SOLID!\nThis limited-time free play will be available until July 27 at 10:00 AM (PDT).\nDon’t miss this chance to experience the world of the METAL GEAR series!\n\nhttps://store.steampowered.com/app/2131630/\nhttps://store.steampowered.com/app/2131640/\nhttps://store.steampowered.com/app/2131650/\n\n[h3]METAL GEAR SOLID: MASTER COLLECTION Vol.2 is available for pre-order now![/h3]\nhttps://store.steampowered.com/app/3859630\n\n\n[URL=https://store.steampowered.com/sale/mgs1freeplay2026][img]{STEAM_CLAN_IMAGE}/39026134/9ee61e59e894bcb7b1cef69c78e12be551da1d3b.jpg[/img][/url]",
+        "commentcount": 6,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "594062392368951304",
+        "event_gid": "677377899168268308",
+        "voteupcount": 59,
+        "votedowncount": 1,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 0,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "594062392368951304",
+      "rtime32_last_modified": 1785548954,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 1445207,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1783664209,
+      "votes_up": 59,
+      "votes_down": 1,
+      "comment_type": "ForumTopic",
+      "gidfeature": "3056237435832679367",
+      "gidfeature2": "594062392368951304",
+      "clan_steamid_original": "103582791468547542"
+    }
+  },
+  {
+    "index": 3,
+    "publisher": "Konami",
+    "publisher_slug": "konami",
+    "group_id": 39026134,
     "event_id": "713402709657518101",
     "app_id": "",
     "source_title": "KONAMI Summer Sale 2026 is now on!",
@@ -55,7 +227,7 @@
         "forum_topic_id": "573793658843820478",
         "event_gid": "713402709657518101",
         "voteupcount": 21,
-        "votedowncount": 0,
+        "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -67,7 +239,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "573793658843820478",
-      "rtime32_last_modified": 1783580615,
+      "rtime32_last_modified": 1785095101,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1438083,
@@ -77,7 +249,7 @@
       "unlisted": 0,
       "rtime_created": 1779859911,
       "votes_up": 21,
-      "votes_down": 0,
+      "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "573793658843820478",
@@ -85,7 +257,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 4,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -139,8 +311,8 @@
         "hidden": 0,
         "forum_topic_id": "840627927552984899",
         "event_gid": "540009684293124137",
-        "voteupcount": 34,
-        "votedowncount": 1,
+        "voteupcount": 33,
+        "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -152,7 +324,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "840627927552984899",
-      "rtime32_last_modified": 1781523124,
+      "rtime32_last_modified": 1785059220,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1430932,
@@ -161,8 +333,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1775610856,
-      "votes_up": 34,
-      "votes_down": 1,
+      "votes_up": 33,
+      "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "840627927552984899",
@@ -170,7 +342,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 5,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -225,7 +397,7 @@
         "forum_topic_id": "806849193885849330",
         "event_gid": "498350300536504373",
         "voteupcount": 43,
-        "votedowncount": 4,
+        "votedowncount": 5,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -237,7 +409,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "806849193885849330",
-      "rtime32_last_modified": 1781523129,
+      "rtime32_last_modified": 1785059223,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1429430,
@@ -247,7 +419,7 @@
       "unlisted": 0,
       "rtime_created": 0,
       "votes_up": 43,
-      "votes_down": 4,
+      "votes_down": 5,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "806849193885849330",
@@ -255,7 +427,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 6,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -309,8 +481,8 @@
         "hidden": 0,
         "forum_topic_id": "809099128025037713",
         "event_gid": "498350753733149607",
-        "voteupcount": 14,
-        "votedowncount": 0,
+        "voteupcount": 15,
+        "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -322,7 +494,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "809099128025037713",
-      "rtime32_last_modified": 1776872307,
+      "rtime32_last_modified": 1785059224,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -331,8 +503,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 14,
-      "votes_down": 0,
+      "votes_up": 15,
+      "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "809099128025037713",
@@ -340,7 +512,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 7,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -395,7 +567,7 @@
         "forum_topic_id": "809097865497536567",
         "event_gid": "505102986181083398",
         "voteupcount": 20,
-        "votedowncount": 1,
+        "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -407,7 +579,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "809097865497536567",
-      "rtime32_last_modified": 1775833704,
+      "rtime32_last_modified": 1785059226,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1423980,
@@ -417,7 +589,7 @@
       "unlisted": 0,
       "rtime_created": 0,
       "votes_up": 20,
-      "votes_down": 1,
+      "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "809097865497536567",
@@ -425,7 +597,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 8,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -480,7 +652,7 @@
         "forum_topic_id": "809097865497429303",
         "event_gid": "510733750483550849",
         "voteupcount": 12,
-        "votedowncount": 0,
+        "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -492,7 +664,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "809097865497429303",
-      "rtime32_last_modified": 1774462918,
+      "rtime32_last_modified": 1785059229,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -502,7 +674,7 @@
       "unlisted": 0,
       "rtime_created": 0,
       "votes_up": 12,
-      "votes_down": 0,
+      "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "809097865497429303",
@@ -512,7 +684,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 9,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -567,7 +739,7 @@
         "forum_topic_id": "748296282477440184",
         "event_gid": "589544308975075533",
         "voteupcount": 106,
-        "votedowncount": 6,
+        "votedowncount": 7,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -579,7 +751,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "748296282477440184",
-      "rtime32_last_modified": 1776132644,
+      "rtime32_last_modified": 1785059231,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -589,7 +761,7 @@
       "unlisted": 0,
       "rtime_created": 0,
       "votes_up": 106,
-      "votes_down": 6,
+      "votes_down": 7,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "748296282477440184",
@@ -597,7 +769,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 10,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -652,7 +824,7 @@
         "forum_topic_id": "758429196899979012",
         "event_gid": "493842084753572671",
         "voteupcount": 128,
-        "votedowncount": 3,
+        "votedowncount": 4,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -664,7 +836,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "758429196899979012",
-      "rtime32_last_modified": 1781025268,
+      "rtime32_last_modified": 1785059234,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -674,7 +846,7 @@
       "unlisted": 0,
       "rtime_created": 0,
       "votes_up": 128,
-      "votes_down": 3,
+      "votes_down": 4,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "758429196899979012",
@@ -684,7 +856,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 11,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -769,7 +941,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 12,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -854,7 +1026,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 13,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -939,7 +1111,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 14,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1024,7 +1196,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 15,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1109,7 +1281,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 16,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1194,7 +1366,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 17,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1279,7 +1451,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 18,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1364,7 +1536,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 19,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1449,7 +1621,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 20,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1534,7 +1706,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 21,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1619,7 +1791,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 22,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1704,7 +1876,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 23,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1791,7 +1963,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 24,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1876,7 +2048,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 25,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1961,7 +2133,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 26,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2048,7 +2220,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 27,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2135,7 +2307,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 28,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2220,7 +2392,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 29,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2305,7 +2477,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 30,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2390,7 +2562,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 31,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2475,7 +2647,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 32,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2562,7 +2734,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 33,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2647,7 +2819,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 34,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2732,7 +2904,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 35,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2817,7 +2989,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 36,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2902,7 +3074,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 37,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2987,7 +3159,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 38,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3072,7 +3244,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 39,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3157,7 +3329,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 40,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3242,7 +3414,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 41,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3326,7 +3498,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 42,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3411,7 +3583,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 43,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3495,7 +3667,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 44,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3580,7 +3752,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 45,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3665,7 +3837,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 46,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3750,7 +3922,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 47,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3835,7 +4007,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 48,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3920,7 +4092,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 49,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4005,7 +4177,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 50,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4090,7 +4262,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 51,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4175,7 +4347,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 52,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4260,7 +4432,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 53,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4345,7 +4517,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 54,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4430,7 +4602,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 55,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4515,7 +4687,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 56,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4600,7 +4772,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 57,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4685,7 +4857,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 58,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4770,7 +4942,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 59,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4855,7 +5027,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 60,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4940,7 +5112,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 61,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5025,7 +5197,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 62,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5110,7 +5282,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 63,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5195,7 +5367,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 64,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5280,7 +5452,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 65,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5365,7 +5537,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 66,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5450,7 +5622,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 67,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5533,7 +5705,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 68,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
