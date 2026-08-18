@@ -8,7 +8,7 @@ Steam Publisher Sale Builder
 1. 爬取多个 Steam Publisher / Group 的 News
 2. 自动判断哪些 News 是促销 Sale
 3. 自动整理 Sale Name / Start Date / End Date / Games / URL
-4. 只保留 end_date >= 2025-01-01 的促销
+4. 只保留 end_date >= 2023-12-01 的促销
 5. 支持 manual_overrides.json 人工修正 start_date / end_date
 6. 输出：
    - steam_sales_output/promo_data.json
@@ -89,8 +89,11 @@ PROMO_JSON = OUTPUT_ROOT / "promo_data.json"
 EXCEL_OUTPUT = OUTPUT_ROOT / "publisher_sales.xlsx"
 LATEST_UPDATE_JSON = OUTPUT_ROOT / "latest_update.json"
 
-# 只保留 2025-01-01 以后仍在进行/结束的促销
-MIN_END_DATE = "2025-01-01"
+# 只保留 2023-12-01 以后仍在进行/结束的促销
+MIN_END_DATE = "2023-12-01"
+
+# 爬虫翻页停止线：如果某页所有 event 都早于这个日期，则停止继续翻页
+CRAWL_STOP_DATE = "2023-12-01"
 
 # 人工修正文件，放在 repo 根目录
 MANUAL_OVERRIDES_JSON = Path("manual_overrides.json")
@@ -229,6 +232,61 @@ def parse_steam_ts(value: Any) -> Tuple[str, str]:
         return dt.strftime("%Y-%m-%d %H:%M:%S"), dt.strftime("%Y-%m-%d")
     except Exception:
         return str(value), str(value)
+
+
+def steam_ts_to_date(value: Any) -> str:
+    if value is None or value == "":
+        return ""
+
+    try:
+        ts = int(value)
+        dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+        return dt.strftime("%Y-%m-%d")
+    except Exception:
+        return ""
+
+
+def get_event_candidate_date(item: Dict[str, Any]) -> str:
+    """
+    用于判断是否继续翻页。
+    优先使用 end_time，其次 start_time，再其次 last_modified。
+    """
+    announcement_body = item.get("announcement_body") or {}
+
+    candidates = [
+        item.get("rtime32_end_time"),
+        item.get("rtime32_start_time"),
+        item.get("rtime32_last_modified"),
+        announcement_body.get("updatetime"),
+        announcement_body.get("posttime"),
+    ]
+
+    for value in candidates:
+        date_str = steam_ts_to_date(value)
+        if date_str:
+            return date_str
+
+    return ""
+
+
+def should_stop_after_page(events: List[Dict[str, Any]]) -> bool:
+    """
+    如果当前页所有能识别日期的 event 都早于 CRAWL_STOP_DATE，就停止继续翻页。
+    这是保守停止线，避免无限爬很旧的数据。
+    """
+    dates = []
+
+    for item in events:
+        d = get_event_candidate_date(item)
+        if d:
+            dates.append(d)
+
+    if not dates:
+        return False
+
+    newest_date_in_page = max(dates)
+
+    return newest_date_in_page < CRAWL_STOP_DATE
 
 
 def get_now_jst_string() -> str:
@@ -378,6 +436,10 @@ def crawl_company(company: Dict[str, Any]) -> List[Dict[str, Any]]:
             if MAX_ITEMS_PER_COMPANY is not None and len(all_items) >= MAX_ITEMS_PER_COMPANY:
                 save_raw_company_news(company, all_items)
                 return all_items[:MAX_ITEMS_PER_COMPANY]
+
+        if should_stop_after_page(events):
+            print(f"Reached crawl stop date before {CRAWL_STOP_DATE}. Stop crawling this publisher.")
+            break
 
         if new_count == 0:
             print("No new events. Stop.")
