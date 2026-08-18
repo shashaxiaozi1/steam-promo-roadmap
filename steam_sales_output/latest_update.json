@@ -1,16 +1,800 @@
 {
-  "updated_at": "2026-08-01 16:53:42 JST",
-  "min_end_date": "2025-01-01",
-  "total_sales": 145,
-  "new_sales_count": 1,
+  "updated_at": "2026-08-18 11:54:37 JST",
+  "min_end_date": "2023-12-01",
+  "total_sales": 244,
+  "new_sales_count": 99,
   "new_sales": [
     {
+      "publisher": "Bandai Namco",
+      "sale_name": "Tales of Franchise Sale",
+      "start_date": "2023-12-04",
+      "end_date": "2023-12-08",
+      "event_id": "3871469509813503206",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/3871469509813503206?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "Dragon Ball Franchise Sale",
+      "start_date": "2023-12-07",
+      "end_date": "2023-12-11",
+      "event_id": "3904121240227983392",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/3904121240227983392?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "Little Nightmares Franchise Sale!",
+      "start_date": "2023-12-11",
+      "end_date": "2023-12-16",
+      "event_id": "3904121240228471143",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/3904121240228471143?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "BANDAI NAMCO Winter Sale 2023 is now live!",
+      "start_date": "2023-12-21",
+      "end_date": "2024-01-04",
+      "event_id": "3895114675655882749",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/3895114675655882749?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "BANDAI NAMCO SPRING SALE 2024",
+      "start_date": "2024-03-07",
+      "end_date": "2024-03-21",
+      "event_id": "4125931133687850905",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4125931133687850905?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "BANDAI NAMCO Golden Week Sale 2024 🎏",
+      "start_date": "2024-04-25",
+      "end_date": "2024-05-06",
+      "event_id": "4190112496535752172",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4190112496535752172?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "Little Nightmares Franchise Sale!",
+      "start_date": "2024-06-10",
+      "end_date": "2024-06-17",
+      "event_id": "4183360901864833080",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4183360901864833080?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "BANDAI NAMCO Summer Sale 2024☀️",
+      "start_date": "2024-06-21",
+      "end_date": "2024-07-11",
+      "event_id": "6852870308435380501",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/6852870308435380501?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "Dragon Ball Franchise Sale",
+      "start_date": "2024-07-11",
+      "end_date": "2024-07-18",
+      "event_id": "4258798098430010413",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4258798098430010413?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "ONE PIECE Franchise Sale 2024",
+      "start_date": "2024-08-05",
+      "end_date": "2024-08-12",
+      "event_id": "4362383426838905116",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4362383426838905116?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "ROBOT GAME SALE 2024",
+      "start_date": "2024-08-09",
+      "end_date": "2024-08-16",
+      "event_id": "4362383426837457956",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4362383426837457956?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "Tales of Franchise Sale 2024",
+      "start_date": "2024-08-29",
+      "end_date": "2024-09-05",
+      "event_id": "4274565771153104730",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4274565771153104730?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "Naruto Franchise Sale",
+      "start_date": "2024-09-16",
+      "end_date": "2024-09-23",
+      "event_id": "4617966511041153940",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4617966511041153940?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "TOKYO GAME SHOW 2024 SALE",
+      "start_date": "2024-09-24",
+      "end_date": "2024-09-30",
+      "event_id": "4687773573345603239",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4687773573345603239?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "BANDAI NAMCO Autumn Sale 🍂",
+      "start_date": "2024-11-27",
+      "end_date": "2024-12-04",
+      "event_id": "4473857033339142458",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4473857033339142458?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "BANDAI NAMCO Publisher Sale 2024 🎮",
+      "start_date": "2024-12-12",
+      "end_date": "2024-12-19",
+      "event_id": "4473857033339142464",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/4473857033339142464?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom TGA Sale",
+      "start_date": "2023-12-07",
+      "end_date": "2023-12-21",
+      "event_id": "5321624234763857841",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/5321624234763857841?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Holiday Sale",
+      "start_date": "2023-12-21",
+      "end_date": "2024-01-04",
+      "event_id": "3873722747063707162",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/3873722747063707162?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom New Year Sale",
+      "start_date": "2024-01-04",
+      "end_date": "2024-01-18",
+      "event_id": "3873722747064321725",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/3873722747064321725?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Winter Sale",
+      "start_date": "2024-01-24",
+      "end_date": "2024-01-30",
+      "event_id": "3873722747064324483",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/3873722747064324483?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Publisher Sale",
+      "start_date": "2024-02-29",
+      "end_date": "2024-03-14",
+      "event_id": "3859086513556474347",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/3859086513556474347?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Publisher Sale",
+      "start_date": "2024-03-17",
+      "end_date": "2024-03-21",
+      "event_id": "7409056619633009348",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/7409056619633009348?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Golden Week Sale",
+      "start_date": "2024-04-15",
+      "end_date": "2024-04-29",
+      "event_id": "4132686533138893358",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4132686533138893358?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Golden Week Sale",
+      "start_date": "2024-04-29",
+      "end_date": "2024-05-08",
+      "event_id": "4130436630489232099",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4130436630489232099?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Monster Hunter Franchise Sale",
+      "start_date": "2024-05-29",
+      "end_date": "2024-06-12",
+      "event_id": "4212631768944070055",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4212631768944070055?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Street Fighter Sale",
+      "start_date": "2024-06-03",
+      "end_date": "2024-06-17",
+      "event_id": "4176604235128793751",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4176604235128793751?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Mid-Year Deals",
+      "start_date": "2024-06-07",
+      "end_date": "2024-06-21",
+      "event_id": "4182233099913668659",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4182233099913668659?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Summer Sale",
+      "start_date": "2024-06-27",
+      "end_date": "2024-07-11",
+      "event_id": "4166471769771040936",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4166471769771040936?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Street Fighter Sale",
+      "start_date": "2024-07-17",
+      "end_date": "2024-07-31",
+      "event_id": "4256546298576893665",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4256546298576893665?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Mid-Summer Sale",
+      "start_date": "2024-07-22",
+      "end_date": "2024-08-05",
+      "event_id": "4256546298576891332",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4256546298576891332?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Monster Hunter Gamescom Sale",
+      "start_date": "2024-08-12",
+      "end_date": "2024-08-25",
+      "event_id": "7089312000157829027",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/7089312000157829027?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Dead Rising Franchise Sale",
+      "start_date": "2024-08-30",
+      "end_date": "2024-09-13",
+      "event_id": "4256546298592311136",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4256546298592311136?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Marvel vs. Capcom Sale",
+      "start_date": "2024-08-30",
+      "end_date": "2024-09-13",
+      "event_id": "4589818379022828979",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4589818379022828979?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom TGS Sale",
+      "start_date": "2024-09-16",
+      "end_date": "2024-09-29",
+      "event_id": "7089312000157836078",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/7089312000157836078?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom TGS Sale",
+      "start_date": "2024-09-29",
+      "end_date": "2024-10-08",
+      "event_id": "4586441947208912121",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4586441947208912121?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Halloween Deals",
+      "start_date": "2024-10-29",
+      "end_date": "2024-11-12",
+      "event_id": "4509883560989334065",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4509883560989334065?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Single's Day Sale",
+      "start_date": "2024-11-07",
+      "end_date": "2024-11-21",
+      "event_id": "4544786821143515693",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4544786821143515693?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom Black Friday Deals",
+      "start_date": "2024-11-27",
+      "end_date": "2024-12-04",
+      "event_id": "4471605233526505736",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4471605233526505736?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Capcom The Game Awards Sale",
+      "start_date": "2024-12-12",
+      "end_date": "2024-12-19",
+      "event_id": "4471606502586582068",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4471606502586582068?l=english"
+    },
+    {
+      "publisher": "Capcom",
+      "sale_name": "Resident Evil Franchise Sale",
+      "start_date": "2024-12-16",
+      "end_date": "2024-12-19",
+      "event_id": "4471606502586583657",
+      "source_url": "https://store.steampowered.com/news/group/33273264/view/4471606502586583657?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Winter Sale",
+      "start_date": "2023-12-21",
+      "end_date": "2024-01-04",
+      "event_id": "3869217710016398762",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/3869217710016398762?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Spring Festival Sale",
+      "start_date": "2024-02-06",
+      "end_date": "2024-02-19",
+      "event_id": "3859086513574886537",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/3859086513574886537?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "FATAL FRAME / PROJECT ZERO Franchise Sale",
+      "start_date": "2024-03-05",
+      "end_date": "2024-03-14",
+      "event_id": "4062878835620953960",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4062878835620953960?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Spring Sale",
+      "start_date": "2024-03-14",
+      "end_date": "2024-03-21",
+      "event_id": "4062878835620936572",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4062878835620936572?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "1st Anniversary of Atelier Ryza 3! Atelier \"Secret\" Series Sale",
+      "start_date": "2024-03-21",
+      "end_date": "2024-03-25",
+      "event_id": "4177721259410703571",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4177721259410703571?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Easter Sale",
+      "start_date": "2024-03-25",
+      "end_date": "2024-04-08",
+      "event_id": "7409056619624651513",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/7409056619624651513?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Golden Week Sale",
+      "start_date": "2024-04-25",
+      "end_date": "2024-05-09",
+      "event_id": "4214880391864743431",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4214880391864743431?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO SUMMER SALE",
+      "start_date": "2024-06-27",
+      "end_date": "2024-07-11",
+      "event_id": "6850618508609659971",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/6850618508609659971?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Fighting Games Fest",
+      "start_date": "2024-07-15",
+      "end_date": "2024-07-22",
+      "event_id": "4256546298592531994",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4256546298592531994?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Summer Joy Sale",
+      "start_date": "2024-07-22",
+      "end_date": "2024-08-05",
+      "event_id": "4256546298600931256",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4256546298600931256?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO NOBUNAGA'S AMBITION Franchise Sale",
+      "start_date": "2024-08-08",
+      "end_date": "2024-08-22",
+      "event_id": "4360131627021257058",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4360131627021257058?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Publisher Sale",
+      "start_date": "2024-09-23",
+      "end_date": "2024-10-07",
+      "event_id": "4193495269565980543",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4193495269565980543?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Romance of the Three Kingdoms Sale",
+      "start_date": "2024-11-07",
+      "end_date": "2024-11-11",
+      "event_id": "7490140434864194081",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/7490140434864194081?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Autumn Sale",
+      "start_date": "2024-11-13",
+      "end_date": "2024-11-27",
+      "event_id": "4544787455883083782",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4544787455883083782?l=english"
+    },
+    {
+      "publisher": "Koei Tecmo",
+      "sale_name": "KOEI TECMO Autumn Sale",
+      "start_date": "2024-11-27",
+      "end_date": "2024-12-04",
+      "event_id": "4471605233526505475",
+      "source_url": "https://store.steampowered.com/news/group/33016879/view/4471605233526505475?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "KONAMI Winter Sale 2023",
+      "start_date": "2023-12-21",
+      "end_date": "2024-01-04",
+      "event_id": "6479049341176343351",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/6479049341176343351?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "SUPER BOMBERMAN R 2 KONAMI Winter Sale 2023!",
+      "start_date": "2023-12-21",
+      "end_date": "2024-01-04",
+      "event_id": "3878226346701283041",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/3878226346701283041?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "KONAMI SPRING SALE 2024",
+      "start_date": "2024-03-14",
+      "end_date": "2024-03-21",
+      "event_id": "4044863966190781322",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/4044863966190781322?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "KONAMI GOLDEN WEEK SALE 2024",
+      "start_date": "2024-04-25",
+      "end_date": "2024-05-06",
+      "event_id": "7047640220332288081",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/7047640220332288081?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "SUPER BOMBERMAN R 2 Special Sale !",
+      "start_date": "2024-05-28",
+      "end_date": "2024-05-31",
+      "event_id": "4194617370630081742",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/4194617370630081742?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "KONAMI SUMMER SALE 2024",
+      "start_date": "2024-06-27",
+      "end_date": "2024-07-11",
+      "event_id": "4194617370612007675",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/4194617370612007675?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "KONAMI Publisher Sale 2024",
+      "start_date": "2024-09-23",
+      "end_date": "2024-10-07",
+      "event_id": "4044863966194393423",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/4044863966194393423?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "CASTLEVANIA FAIR",
+      "start_date": "2024-10-21",
+      "end_date": "2024-10-25",
+      "event_id": "4194617370615294788",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/4194617370615294788?l=english"
+    },
+    {
+      "publisher": "Konami",
+      "sale_name": "KONAMI BLACK FRIDAY SALE 2024",
+      "start_date": "2024-11-27",
+      "end_date": "2024-12-04",
+      "event_id": "4461472134359679046",
+      "source_url": "https://store.steampowered.com/news/group/39026134/view/4461472134359679046?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA Winter Sale 2023",
+      "start_date": "2023-12-21",
+      "end_date": "2024-01-04",
+      "event_id": "3717214876931991012",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/3717214876931991012?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Sonic Franchise Sale",
+      "start_date": "2024-01-29",
+      "end_date": "2024-02-05",
+      "event_id": "3904122044545926150",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/3904122044545926150?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Year of The Dragon Sale",
+      "start_date": "2024-02-06",
+      "end_date": "2024-02-15",
+      "event_id": "3904122044545958035",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/3904122044545958035?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA Spring Sale",
+      "start_date": "2024-03-14",
+      "end_date": "2024-03-21",
+      "event_id": "3904122044545929943",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/3904122044545929943?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "ALIEN DAY SALE",
+      "start_date": "2024-04-23",
+      "end_date": "2024-05-01",
+      "event_id": "4113548131861469784",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4113548131861469784?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA Golden Week Sale",
+      "start_date": "2024-04-25",
+      "end_date": "2024-05-06",
+      "event_id": "4179977494757211894",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4179977494757211894?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Total War Historical Franchise Sale",
+      "start_date": "2024-05-02",
+      "end_date": "2024-05-09",
+      "event_id": "4113548131858092849",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4113548131858092849?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "ENDLESS™ LEGEND FREE GIVEAWAY + FRANCHISE SALE",
+      "start_date": "2024-05-16",
+      "end_date": "2024-05-23",
+      "event_id": "4202498669764345739",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4202498669764345739?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Two Point Campus sale",
+      "start_date": "2024-05-20",
+      "end_date": "2024-05-27",
+      "event_id": "4202498669765064877",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4202498669765064877?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA Summer Sale",
+      "start_date": "2024-06-27",
+      "end_date": "2024-07-11",
+      "event_id": "4179977494757218633",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4179977494757218633?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Total War: WARHAMMER Franchise Sale",
+      "start_date": "2024-07-25",
+      "end_date": "2024-08-01",
+      "event_id": "4239657800029791224",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4239657800029791224?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Persona Franchise Sale",
+      "start_date": "2024-08-12",
+      "end_date": "2024-08-19",
+      "event_id": "4365760492630417674",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4365760492630417674?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA ALIEN SALE",
+      "start_date": "2024-08-12",
+      "end_date": "2024-08-19",
+      "event_id": "4239657800022529513",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4239657800022529513?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Two Point Franchise Sale",
+      "start_date": "2024-08-12",
+      "end_date": "2024-08-19",
+      "event_id": "4239657800029815674",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4239657800029815674?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA Publisher Sale",
+      "start_date": "2024-09-19",
+      "end_date": "2024-09-26",
+      "event_id": "6100774879124475601",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/6100774879124475601?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Total War: WARHAMMER Franchise Sale",
+      "start_date": "2024-09-19",
+      "end_date": "2024-09-19",
+      "event_id": "4606706877650436637",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4606706877650436637?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Like a Dragon Franchise Sale",
+      "start_date": "2024-10-24",
+      "end_date": "2024-11-07",
+      "event_id": "4177731402323665762",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4177731402323665762?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA Halloween Sale",
+      "start_date": "2024-10-28",
+      "end_date": "2024-11-04",
+      "event_id": "4691152540827287389",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4691152540827287389?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Total War Historical Franchise Sale",
+      "start_date": "2024-11-11",
+      "end_date": "2024-11-18",
+      "event_id": "4606706877650448877",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4606706877650448877?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA Autumn Sale",
+      "start_date": "2024-11-27",
+      "end_date": "2024-12-04",
+      "event_id": "4483989494757851237",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4483989494757851237?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Total War: WARHAMMER Franchise Sale",
+      "start_date": "2024-12-12",
+      "end_date": "2024-12-19",
+      "event_id": "4474984202298722978",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/4474984202298722978?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Persona Anime Broadcast Sale",
+      "start_date": "2026-08-10",
+      "end_date": "2026-08-10",
+      "event_id": "690891053318800712",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/690891053318800712?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "SEGA Publisher Sale 2026",
+      "start_date": "2026-08-13",
+      "end_date": "2026-08-27",
+      "event_id": "671748057601149156",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/671748057601149156?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Total War Warhammer Franchise Sale",
+      "start_date": "2026-08-13",
+      "end_date": "2026-08-20",
+      "event_id": "707778917650401439",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/707778917650401439?l=english"
+    },
+    {
       "publisher": "Square Enix",
-      "sale_name": "Octopath Traveler Franchise Sale",
-      "start_date": "2026-07-29",
-      "end_date": "2026-08-12",
-      "event_id": "706649847851127399",
-      "source_url": "https://store.steampowered.com/news/group/1012195/view/706649847851127399?l=english"
+      "sale_name": "Square Enix Winter Sale",
+      "start_date": "2023-12-14",
+      "end_date": "2024-01-04",
+      "event_id": "3881603425811958983",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/3881603425811958983?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Square Enix Winter Sale",
+      "start_date": "2024-01-02",
+      "end_date": "2024-01-04",
+      "event_id": "3879352711878335747",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/3879352711878335747?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Square Enix Lunar New Year Sale",
+      "start_date": "2024-02-05",
+      "end_date": "2024-02-12",
+      "event_id": "3958168241602797538",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/3958168241602797538?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "FINAL FANTASY Franchise Sale",
+      "start_date": "2024-02-08",
+      "end_date": "2024-02-12",
+      "event_id": "3958168241602792831",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/3958168241602792831?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Square Enix Publisher Sale 2024",
+      "start_date": "2024-03-14",
+      "end_date": "2024-03-25",
+      "event_id": "4146197964537025340",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/4146197964537025340?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Square Enix Publisher Sale 2024",
+      "start_date": "2024-03-21",
+      "end_date": "2024-03-25",
+      "event_id": "6500455393118883794",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/6500455393118883794?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Square Enix Golden Week Sale",
+      "start_date": "2024-04-25",
+      "end_date": "2024-05-08",
+      "event_id": "4209250892338376684",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/4209250892338376684?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Square Enix Summer Sale",
+      "start_date": "2024-06-27",
+      "end_date": "2024-07-11",
+      "event_id": "6360852049148007003",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/6360852049148007003?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Square Enix TGS Sale 2024",
+      "start_date": "2024-09-16",
+      "end_date": "2024-09-30",
+      "event_id": "4583062979591830576",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/4583062979591830576?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Square Enix Autumn Sale",
+      "start_date": "2024-11-27",
+      "end_date": "2024-12-04",
+      "event_id": "4447961335474421842",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/4447961335474421842?l=english"
+    },
+    {
+      "publisher": "Square Enix",
+      "sale_name": "Kingdom Hearts Franchise Sale",
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-20",
+      "event_id": "525371083049664797",
+      "source_url": "https://store.steampowered.com/news/group/1012195/view/525371083049664797?l=english"
     }
   ]
 }
