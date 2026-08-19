@@ -25,7 +25,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Check out these deals on Tales of games in this week's Midweek Deal!\nhttps://store.steampowered.com/app/740130/Tales_of_Arise/\nhttps://store.steampowered.com/app/429660/Tales_of_Berseria/\nhttps://store.steampowered.com/app/372360/Tales_of_Symphonia/\nhttps://store.steampowered.com/app/738540/Tales_of_Vesperia_Definitive_Edition/\nhttps://store.steampowered.com/app/351970/Tales_of_Zestiria/\nAnd don't forget our latest DLC release, the Beyond the Dawn expansion!\nhttps://store.steampowered.com/app/2391960/Tales_of_Arise__Beyond_the_Dawn_Expansion/"
   },
@@ -47,8 +47,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Franchise Sale 2023"
   },
@@ -75,7 +75,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "https://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/860510/Little_Nightmares_II/\nhttps://store.steampowered.com/app/424840/Little_Nightmares/"
   },
@@ -108,9 +108,41 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, winter sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "❄️ Winter has come and with it many great deals ❄️\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/1245620/ELDEN_RING/\nhttps://store.steampowered.com/app/851850/DRAGON_BALL_Z_KAKAROT/\nhttps://store.steampowered.com/app/2391960/Tales_of_Arise__Beyond_the_Dawn_Expansion/\nhttps://store.steampowered.com/app/1368130/Park_Beyond/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/1778820/TEKKEN_8/\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/\nhttps://store.steampowered.com/app/1877020/Jujutsu_Kaisen_Cursed_Clash/\nhttps://store.steampowered.com/app/1979440/SAND_LAND/\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/"
+  },
+  {
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
+    "sale_name": "BANDAI NAMCO LUNAR NEW YEAR 2024",
+    "start_date": "2024-02-08",
+    "end_date": "2024-02-22",
+    "start_time": "2024-02-08 18:00:00",
+    "end_time": "2024-02-22 18:00:00",
+    "start_date_raw": "1707415200",
+    "end_date_raw": "1708624800",
+    "games": [
+      "ARMORED CORE VI FIRES OF RUBICON",
+      "DARK SOULS III",
+      "Little Nightmares I  II",
+      "DRAGON BALL Z KAKAROT",
+      "DRAGON BALL Sparking ZERO",
+      "SAND LAND",
+      "Little Nightmares III",
+      "SYNDUALITY Echo of Ada"
+    ],
+    "games_text": "ARMORED CORE VI FIRES OF RUBICON\nDARK SOULS III\nLittle Nightmares I  II\nDRAGON BALL Z KAKAROT\nDRAGON BALL Sparking ZERO\nSAND LAND\nLittle Nightmares III\nSYNDUALITY Echo of Ada",
+    "source_title": "BANDAI NAMCO LUNAR NEW YEAR 2024",
+    "source_url": "https://store.steampowered.com/news/group/33042543/view/3861338313403541169?l=english",
+    "event_id": "3861338313403541169",
+    "event_type": 20,
+    "event_type_name": "",
+    "is_sale": true,
+    "sale_confidence": 0.95,
+    "sale_reason": "title: lunar new year | body: deal, deals | has date range",
+    "manual_override_applied": false,
+    "body_text": "🐲 Enjoy many great deals to celebrate the year of the dragon 🐲\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/\nhttps://store.steampowered.com/app/374320/DARK_SOULS_III/\nhttps://store.steampowered.com/bundle/25271/Little_Nightmares_I__II/\nhttps://store.steampowered.com/app/851850/DRAGON_BALL_Z_KAKAROT/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/\nhttps://store.steampowered.com/app/1979440/SAND_LAND/\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1245480/SYNDUALITY_Echo_of_Ada/"
   },
   {
     "publisher": "Bandai Namco",
@@ -141,7 +173,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, spring sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "🌸 Spring is coming and many Deals are already here 🌸\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/1020790/NARUTO_X_BORUTO_Ultimate_Ninja_STORM_CONNECTIONS/\nhttps://store.steampowered.com/bundle/25271/Little_Nightmares_I__II/\nhttps://store.steampowered.com/app/454650/DRAGON_BALL_XENOVERSE_2/\nhttps://store.steampowered.com/app/1368130/Park_Beyond/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/2778590/ELDEN_RING_Shadow_of_the_Erdtree_Premium_Bundle/\nhttps://store.steampowered.com/app/1979440/SAND_LAND/\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1245480/SYNDUALITY_Echo_of_Ada/"
   },
@@ -175,10 +207,33 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, golden week, golden week sale | body: golden week | has date range",
     "manual_override_applied": false,
     "body_text": "Golden Week holidays is starting in Japan, it's a great time to enjoy JRPGs or games based on your favorite anime!\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/1979440/SAND_LAND/\nhttps://store.steampowered.com/app/1778820/TEKKEN_8/\nhttps://store.steampowered.com/bundle/25271/Little_Nightmares_I__II/\nhttps://store.steampowered.com/app/740130/Tales_of_Arise/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/2778590/ELDEN_RING_Shadow_of_the_Erdtree_Premium_Bundle/\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1858630/SWORD_ART_ONLINE_Fractured_Daydream/\nhttps://store.steampowered.com/app/1245480/SYNDUALITY_Echo_of_Ada/\nhttps://store.steampowered.com/app/1672500/GUNDAM_BREAKER_4/\nhttps://store.steampowered.com/app/1477940/Unknown_9_Awakening/"
+  },
+  {
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
+    "sale_name": "Dark Souls Franchise",
+    "start_date": "2024-05-09",
+    "end_date": "2024-05-16",
+    "start_time": "2024-05-09 17:00:00",
+    "end_time": "2024-05-16 17:00:00",
+    "start_date_raw": "1715274000",
+    "end_date_raw": "1715878800",
+    "games": [],
+    "games_text": "",
+    "source_title": "Dark Souls Franchise",
+    "source_url": "https://store.steampowered.com/news/group/33042543/view/4200246229539996150?l=english",
+    "event_id": "4200246229539996150",
+    "event_type": 20,
+    "event_type_name": "",
+    "is_sale": true,
+    "sale_confidence": 0.95,
+    "sale_reason": "title: dark souls franchise, franchise | body: dark souls franchise, franchise | has date range",
+    "manual_override_applied": false,
+    "body_text": "Dark Souls Franchise"
   },
   {
     "publisher": "Bandai Namco",
@@ -203,7 +258,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "https://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/860510/Little_Nightmares_II/\nhttps://store.steampowered.com/app/424840/Little_Nightmares/"
   },
@@ -239,7 +294,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, summer sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "🌴 Summer has come and with it many great deals 🌴\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/1778820/8/\nhttps://store.steampowered.com/app/1979440/SAND_LAND/\nhttps://store.steampowered.com/app/851850/Z_KAKAROT/\nhttps://store.steampowered.com/bundle/25271/Little_Nightmares_I__II/\nhttps://store.steampowered.com/app/740130/Tales_of_Arise/\nhttps://store.steampowered.com/app/678960/CODE_VEIN/\nhttps://store.steampowered.com/app/775500/SCARLET_NEXUS/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1477940/Unknown_9_Awakening/\nhttps://store.steampowered.com/app/1245480/SYNDUALITY_Echo_of_Ada/\nhttps://store.steampowered.com/app/1689620/BLEACH_Rebirth_of_Souls/"
   },
@@ -261,8 +316,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Franchise Sale 2024"
   },
@@ -284,8 +339,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Celebrate ONE PIECE with this franchise sale! Save now!"
   },
@@ -345,7 +400,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Check out these deals on Tales of games in this week's Deal!\nhttps://store.steampowered.com/app/740130/Tales_of_Arise/\nhttps://store.steampowered.com/app/429660/Tales_of_Berseria/\nhttps://store.steampowered.com/app/372360/Tales_of_Symphonia/\nhttps://store.steampowered.com/app/738540/Tales_of_Vesperia_Definitive_Edition/\nhttps://store.steampowered.com/app/351970/Tales_of_Zestiria/\nAnd don't forget our latest DLC release, the Beyond the Dawn expansion!\nhttps://store.steampowered.com/app/2391960/Tales_of_Arise__Beyond_the_Dawn_Expansion/"
   },
@@ -372,7 +427,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Get ready for the release of NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS with these deals on previous Naruto games in this week's Midweek Deal!\nhttps://store.steampowered.com/app/1020790/NARUTO_X_BORUTO_Ultimate_Ninja_STORM_CONNECTIONS/\nhttps://store.steampowered.com/bundle/4308/NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_Legacy/\nhttps://store.steampowered.com/app/633230/NARUTO_TO_BORUTO_SHINOBI_STRIKER/"
   },
@@ -409,6 +464,29 @@
   {
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
+    "sale_name": "Dark Souls Franchise",
+    "start_date": "2024-10-01",
+    "end_date": "2024-10-10",
+    "start_time": "2024-10-01 22:24:00",
+    "end_time": "2024-10-10 17:00:00",
+    "start_date_raw": "1727821440",
+    "end_date_raw": "1728579600",
+    "games": [],
+    "games_text": "",
+    "source_title": "Dark Souls Franchise",
+    "source_url": "https://store.steampowered.com/news/group/33042543/view/7125346423946014188?l=english",
+    "event_id": "7125346423946014188",
+    "event_type": 20,
+    "event_type_name": "",
+    "is_sale": true,
+    "sale_confidence": 0.95,
+    "sale_reason": "title: dark souls franchise, franchise | body: dark souls franchise, franchise | has date range",
+    "manual_override_applied": false,
+    "body_text": "Dark Souls Franchise"
+  },
+  {
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
     "sale_name": "BANDAI NAMCO Autumn Sale 🍂",
     "start_date": "2024-11-27",
     "end_date": "2024-12-04",
@@ -439,7 +517,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, autumn sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "🍁 Autumn has come and with it many great deals 🍁\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/\nhttps://store.steampowered.com/app/374320/DARK_SOULS_III/\nhttps://store.steampowered.com/app/335300/DARK_SOULS_II_Scholar_of_the_First_Sin/\nhttps://store.steampowered.com/app/1778820/TEKKEN_8/\nhttps://store.steampowered.com/app/1477940/Unknown_9_Awakening/\nhttps://store.steampowered.com/app/860510/Little_Nightmares_II/\nhttps://store.steampowered.com/app/424840/Little_Nightmares/\nhttps://store.steampowered.com/app/502500/ACE_COMBAT_7_SKIES_UNKNOWN/\nhttps://store.steampowered.com/app/851850/DRAGON_BALL_Z_KAKAROT/\nhttps://store.steampowered.com/app/454650/DRAGON_BALL_XENOVERSE_2/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1245480/SYNDUALITY_Echo_of_Ada/\nhttps://store.steampowered.com/app/1689620/BLEACH_Rebirth_of_Souls/"
   },
@@ -520,7 +598,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, winter sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "❄️ Winter has come and with it many great deals ❄️\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/1245620/ELDEN_RING/\nhttps://store.steampowered.com/app/1778820/TEKKEN_8/\nhttps://store.steampowered.com/app/454650/DRAGON_BALL_XENOVERSE_2/\nhttps://store.steampowered.com/app/1477940/Unknown_9_Awakening/\nhttps://store.steampowered.com/app/851850/DRAGON_BALL_Z_KAKAROT/\nhttps://store.steampowered.com/app/502500/ACE_COMBAT_7_SKIES_UNKNOWN/\nhttps://store.steampowered.com/app/860510/Little_Nightmares_II/\nhttps://store.steampowered.com/app/1089090/ONE_PIECE_PIRATE_WARRIORS_4/\nhttps://store.steampowered.com/app/740130/Tales_of_Arise/\nhttps://store.steampowered.com/app/424840/Little_Nightmares/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1245480/SYNDUALITY_Echo_of_Ada/\nhttps://store.steampowered.com/app/1689620/BLEACH_Rebirth_of_Souls/"
   },
@@ -550,7 +628,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, new year sale, lunar new year, lunar new year sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "🐍 Enjoy many great deals to celebrate the year of the snake 🐍\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/374320/DARK_SOULS_III/\nhttps://store.steampowered.com/app/1672500/GUNDAM_BREAKER_4/\nhttps://store.steampowered.com/app/502500/ACE_COMBAT_7_SKIES_UNKNOWN/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/2622380/ELDEN_RING_NIGHTREIGN/\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1689620/BLEACH_Rebirth_of_Souls/"
   },
@@ -580,7 +658,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, spring sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "🌷🍃🌼 Enjoy many great deals to celebrate the arrival of Spring 🌼🍃🌷\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/\nhttps://store.steampowered.com/app/1245620/ELDEN_RING/\nhttps://store.steampowered.com/bundle/25271/Little_Nightmares_I__II/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/2622380/ELDEN_RING_NIGHTREIGN/\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1689620/BLEACH_Rebirth_of_Souls/"
   },
@@ -611,7 +689,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: deal, deals, golden week | has date range",
     "manual_override_applied": false,
     "body_text": "🎏 Enjoy many great deals to celebrate the Golden Week 🎏\nPick up some of our biggest hits now!\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/\nhttps://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/\nhttps://store.steampowered.com/app/860510/Little_Nightmares_II/\nDon't miss out on our future releases!\nhttps://store.steampowered.com/app/2622380/ELDEN_RING_NIGHTREIGN/\nhttps://store.steampowered.com/app/1392860/Little_Nightmares_III/\nhttps://store.steampowered.com/app/1909950/SUPER_ROBOT_WARS_Y/\nhttps://store.steampowered.com/app/1859430/Shadow_Labyrinth/?curator_clanid=33042543"
   },
@@ -633,8 +711,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, dark souls franchise, franchise | body: dark souls franchise, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Dark Souls Franchise"
   },
@@ -665,7 +743,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, summer sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "🍧Summer has come and with it many attractive deals!🍧\nPick up some of our biggest hits now! Don't miss out on our future releases!"
   },
@@ -717,7 +795,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Get ready with these deals on Naruto games !"
   },
@@ -739,8 +817,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Franchise Sale 2025"
   },
@@ -771,7 +849,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, autumn sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Sweater weather has arrived, autumn will settle in, and with it many attractive deals! 🍂Pick up some of our biggest hits now!Don't miss out on our future releases!"
   },
@@ -794,7 +872,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, black friday, black friday sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -855,7 +933,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, winter sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Winter has come and with it many great deals"
   },
@@ -878,7 +956,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, new year sale, lunar new year, lunar new year sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -900,8 +978,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, dark souls franchise, franchise | body: dark souls franchise, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Dark Souls Franchise"
   },
@@ -924,7 +1002,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 90% with this ONE PIECE Franchise Sale!"
   },
@@ -953,7 +1031,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, spring sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "🌼Don't miss out on these deals🌼"
   },
@@ -975,8 +1053,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Franchise Sale 2026"
   },
@@ -1001,8 +1079,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Super Robot Wars Franchise Sale"
   },
@@ -1034,7 +1112,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: deal, deals, golden week | has date range",
     "manual_override_applied": false,
     "body_text": "🎏 Enjoy many great deals to celebrate the Golden Week 🎏\nPick up these titles today!\nDon't miss out on our future releases!"
   },
@@ -1057,7 +1135,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Celebrate PAC-MAY!"
   },
@@ -1082,7 +1160,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: on sale, now on sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: on sale, now on sale | has date range",
     "manual_override_applied": false,
     "body_text": "Celebrate 30 years of Tales of Series!Thank you for being a part of this incredible journey. Relive your favorite adventures or discover new ones now on sale!🌟FEATURED TITLES🌟"
   },
@@ -1109,8 +1187,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, summer sale | body: summer sale | has date range",
     "manual_override_applied": false,
     "body_text": "Pick up some of our biggest hits now in the BANDAI NAMCO Summer Sale! ☀️"
   },
@@ -1170,7 +1248,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, holiday sale | body: save up to, up to, holiday sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from Dec 21st, 2023 through Jan 4th, 2024 during the Capcom Holiday Sale!\nFeatured Products\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/\nhttps://store.steampowered.com/app/2183650/MEGA_MAN_X_DiVE_Offline/\nhttps://store.steampowered.com/bundle/37391/MEGA_MAN_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/bundle/32602/Capcom_Arcade_Stadium_Complete_Pack/\nhttps://store.steampowered.com/sub/821963/\nhttps://store.steampowered.com/app/582010/Monster_Hunter_World/\nhttps://store.steampowered.com/app/367500/Dragons_Dogma_Dark_Arisen/"
   },
@@ -1199,7 +1277,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, new year sale | body: save up to, up to, new year sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% on select CAPCOM games from Jan 4th through Jan 18th during the Capcom New Year Sale!\nFeatured Products\nhttps://store.steampowered.com/sub/821963/\nhttps://store.steampowered.com/bundle/37391/MEGA_MAN_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/app/2183650/MEGA_MAN_X_DiVE_Offline/\nhttps://store.steampowered.com/bundle/32602/Capcom_Arcade_Stadium_Complete_Pack/\nhttps://store.steampowered.com/app/1967430/Ghost_Trick_Phantom_Detective/\nhttps://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/"
   },
@@ -1228,7 +1306,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, winter sale | body: save up to, up to, winter sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from Jan 24th through Jan 30th during the Capcom Winter Sale!\nFeatured Products\nhttps://store.steampowered.com/app/367500/Dragons_Dogma_Dark_Arisen/\nhttps://store.steampowered.com/app/1286320/Exoprimal/\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/bundle/13013/Monster_Hunter_World_Iceborne_Master_Edition/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/"
   },
@@ -1320,7 +1398,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to, discounts | discount pattern | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: save up to, up to, discounts, golden week | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from April 15th through April 29th during the Capcom Golden Week Sale! Make sure to check back on April 24th for discounts on more titles!\nFeatured Products\nhttps://store.steampowered.com/bundle/40832/Capcom_Mystery_Adventure_Double_Pack/\nhttps://store.steampowered.com/app/1446780/MONSTER_HUNTER_RISE/\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/app/1286320/Exoprimal/"
   },
@@ -1349,7 +1427,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: save up to, up to, golden week | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 84% on select CAPCOM games from April 29th through May 8th during the Capcom Golden Week Sale!\nFeatured Products\nhttps://store.steampowered.com/bundle/40832/Capcom_Mystery_Adventure_Double_Pack/\nhttps://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/\nhttps://store.steampowered.com/app/1967430/Ghost_Trick_Phantom_Detective/\nhttps://store.steampowered.com/app/601150/Devil_May_Cry_5/\nhttps://store.steampowered.com/app/367500/Dragons_Dogma_Dark_Arisen/"
   },
@@ -1379,7 +1457,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 75% on Monster Hunter titles from May 29th to June 12th!\nFeatured\nhttps://store.steampowered.com/bundle/39170/MONSTER_HUNTER_20TH_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/bundle/39039/MONSTER_HUNTER_20TH_ANNIVERSARY_COMPLETE_PACK/\nhttps://store.steampowered.com/app/582010/Monster_Hunter_World/\nhttps://store.steampowered.com/bundle/13009/Monster_Hunter_World_Iceborne_Digital_Deluxe/\nhttps://store.steampowered.com/app/1446780/MONSTER_HUNTER_RISE/\nhttps://store.steampowered.com/app/1880360/Monster_Hunter_Rise_Sunbreak/"
   },
@@ -1465,7 +1543,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, summer sale | body: save up to, up to, summer sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from June 27th through July 11th during the Capcom Summer Sale!\nFeatured Products\nhttps://store.steampowered.com/app/582010/Monster_Hunter_World/\nhttps://store.steampowered.com/bundle/39170/MONSTER_HUNTER_20TH_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/bundle/42743/DEAD_RISING_LEGACY_PACK/\nhttps://store.steampowered.com/bundle/39039/MONSTER_HUNTER_20TH_ANNIVERSARY_COMPLETE_PACK/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/\nhttps://store.steampowered.com/app/2054970/Dragons_Dogma_2/\nhttps://store.steampowered.com/app/2187220/Apollo_Justice_Ace_Attorney_Trilogy/"
   },
@@ -1521,7 +1599,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, summer sale | body: save up to, up to, summer sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 84% on select CAPCOM games from July 22nd through August 5th during the Capcom Mid-Summer Sale!\nFeatured Products\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/app/2187220/Apollo_Justice_Ace_Attorney_Trilogy/\nhttps://store.steampowered.com/sub/1045545/\nhttps://store.steampowered.com/sub/821963/\nhttps://store.steampowered.com/bundle/38408/Mega_Man_Cyber_World_Pack/\nhttps://store.steampowered.com/app/601150/Devil_May_Cry_5/\nhttps://store.steampowered.com/bundle/42743/DEAD_RISING_LEGACY_PACK/"
   },
@@ -1576,7 +1654,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% on these Dead Rising titles from August 30th through September 13th.\nFeatured Products\nhttps://store.steampowered.com/bundle/42743/DEAD_RISING_LEGACY_PACK/"
   },
@@ -1632,7 +1710,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to, discounts | discount pattern | has date range",
+    "sale_reason": "title: sale, tgs sale | body: save up to, up to, discounts | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from September 16th through September 29th during the Capcom TGS Sale! Make sure to check back on September 24th for discounts on more titles!\nFeatured Products\nhttps://store.steampowered.com/bundle/39039/MONSTER_HUNTER_20TH_ANNIVERSARY_SERIES_PACK/\nhttps://store.steampowered.com/bundle/39170/MONSTER_HUNTER_20TH_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/bundle/13013/Monster_Hunter_World_Iceborne_Master_Edition/\nhttps://store.steampowered.com/app/2356560/Monster_Hunter_Stories/\nhttps://store.steampowered.com/sub/1044762/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/\nhttps://store.steampowered.com/app/2054970/Dragons_Dogma_2/"
   },
@@ -1658,7 +1736,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, tgs sale | body: save up to, up to, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 75% on select titles from the Monster Hunter and Ace Attorney franchises from September 29th through October 8th during the Capcom TGS Sale!\nFeatured Products\nhttps://store.steampowered.com/bundle/39039/MONSTER_HUNTER_20TH_ANNIVERSARY_SERIES_PACK/\nhttps://store.steampowered.com/bundle/39170/MONSTER_HUNTER_20TH_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/sub/1045545/"
   },
@@ -1744,8 +1822,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.65,
-    "sale_reason": "body: save up to, up to, deal, deals | discount pattern | has date range",
+    "sale_confidence": 1.0,
+    "sale_reason": "title: black friday | body: save up to, up to, deal, deals, black friday | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from November 27th through December 4th during Capcom Black Friday Deals!\nFeatured Products\nhttps://store.steampowered.com/bundle/39039/MONSTER_HUNTER_20TH_ANNIVERSARY_SERIES_PACK/\nhttps://store.steampowered.com/bundle/39170/MONSTER_HUNTER_20TH_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/sub/1045545/\nhttps://store.steampowered.com/app/2356560/Monster_Hunter_Stories/\nhttps://store.steampowered.com/bundle/13013/Monster_Hunter_World_Iceborne_Master_Edition/\nhttps://store.steampowered.com/sub/1142889/\nhttps://store.steampowered.com/bundle/42743/DEAD_RISING_LEGACY_PACK/"
   },
@@ -1800,7 +1878,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 75% on Resident Evil titles from December 16th to December 19th!"
   },
@@ -1829,8 +1907,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.65,
-    "sale_reason": "body: save up to, up to, deal, deals | discount pattern | has date range",
+    "sale_confidence": 1.0,
+    "sale_reason": "title: holiday deals | body: save up to, up to, deal, deals, holiday deals | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from December 19th through January 2nd during Capcom Holiday Deals!\nFeatured Products\nhttps://store.steampowered.com/app/2634890/MARVEL_vs_CAPCOM_Fighting_Collection_Arcade_Classics/\nhttps://store.steampowered.com/app/2401970/Ace_Attorney_Investigations_Collection/\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/sub/692569/\nhttps://store.steampowered.com/bundle/47948/MEGA_MAN_X__ZERO_PACK/\nhttps://store.steampowered.com/bundle/39039/\nMONSTER_HUNTER_20TH_ANNIVERSARY_SERIES_PACK/\nhttps://store.steampowered.com/bundle/39170/MONSTER_HUNTER_20TH_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/app/587620/Okami_HD/"
   },
@@ -1862,7 +1940,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, new year sale, lunar new year, lunar new year sale | body: save up to, up to, new year sale, lunar new year | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from January 27th through February 10th during the Capcom Lunar New Year Sale!\nFeatured Products\nhttps://store.steampowered.com/app/2527390/Dead_Rising_Deluxe_Remaster/\nhttps://store.steampowered.com/app/2401970/Ace_Attorney_Investigations_Collection/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/sub/692569/\nhttps://store.steampowered.com/app/582010/Monster_Hunter_World/\nhttps://store.steampowered.com/bundle/39039/MONSTER_HUNTER_20TH_ANNIVERSARY_SERIES_PACK/\nhttps://store.steampowered.com/bundle/39170/MONSTER_HUNTER_20TH_ANNIVERSARY_PACK/\nhttps://store.steampowered.com/bundle/47948/MEGA_MAN_X__ZERO_PACK/"
   },
@@ -1892,7 +1970,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, spring sale | body: save up to, up to, spring sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from March 12th through March 24th during the Capcom Spring Sale!\nFeatured Products\nhttps://store.steampowered.com/app/1196590/Resident_Evil_Village/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/\nhttps://store.steampowered.com/app/2401970/Ace_Attorney_Investigations_Collection/\nhttps://store.steampowered.com/app/2356560/Monster_Hunter_Stories/\nhttps://store.steampowered.com/bundle/34883/MEGA_MAN_PACK/\nhttps://store.steampowered.com/bundle/42743/DEAD_RISING_LEGACY_PACK/"
   },
@@ -1919,8 +1997,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.65,
-    "sale_reason": "body: save up to, up to, % off | discount pattern | has date range",
+    "sale_confidence": 1.0,
+    "sale_reason": "title: franchise | body: save up to, up to, % off | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 75% off all Devil May Cry titles from April 2nd at 10 AM PST to April 16th at 10 AM PST!\nFeatured Products\nhttps://store.steampowered.com/bundle/50849/?snr=2_groups_partnerevents__100703\nhttps://store.steampowered.com/app/601150/Devil_May_Cry_5/\nhttps://store.steampowered.com/app/329050/Devil_May_Cry_4_Special_Edition/\nhttps://store.steampowered.com/app/631510/Devil_May_Cry_HD_Collection/\nhttps://store.steampowered.com/app/220440/DmC_Devil_May_Cry/"
   },
@@ -1950,7 +2028,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: save up to, up to, golden week, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from April 23th through May 6th during the Capcom Golden Week Sale!\nFeatured Products\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/app/2054970/Dragons_Dogma_2/\nhttps://store.steampowered.com/app/582010/Monster_Hunter_World/\nhttps://store.steampowered.com/bundle/39039/Monster_Hunter_Series_Pack/\nhttps://store.steampowered.com/bundle/39170/Monster_Hunter_World__Monster_Hunter_Rise_Pack/\nhttps://store.steampowered.com/bundle/52975/DEAD_RISING_FRANCHISE_PACK/\nhttps://store.steampowered.com/sub/1257696/"
   },
@@ -2033,7 +2111,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, summer sale | body: save up to, up to, summer sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from July 30th through August 13th during the Capcom Mid-Summer Sale!Featured Products\nhttps://store.steampowered.com/app/2634890/MARVEL_vs_CAPCOM_Fighting_Collection_Arcade_Classics/\nhttps://store.steampowered.com/app/885150/Capcom_Beat_Em_Up_Bundle/\nhttps://store.steampowered.com/app/586200/Street_Fighter_30th_Anniversary_Collection/\nhttps://store.steampowered.com/app/1277400/Monster_Hunter_Stories_2_Wings_of_Ruin/\nhttps://store.steampowered.com/app/742300/Mega_Man_11/\nhttps://store.steampowered.com/sub/821963/"
   },
@@ -2060,7 +2138,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, series sale | has date range",
     "manual_override_applied": false,
     "body_text": "https://store.steampowered.com/app/2356560/Monster_Hunter_Stories/\nhttps://store.steampowered.com/bundle/21793/Monster_Hunter_Stories_2_Wings_of_Ruin_Deluxe_Edition/\nhttps://store.steampowered.com/app/1277400/Monster_Hunter_Stories_2_Wings_of_Ruin/\nhttps://store.steampowered.com/sub/1038991/\nhttps://store.steampowered.com/sub/1038990/"
   },
@@ -2167,7 +2245,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 75% on Resident Evil titles from September 23rd to October 6th!"
   },
@@ -2218,7 +2296,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, series sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -2246,7 +2324,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, black friday, black friday sale | body: save up to, up to, black friday | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from November 18th through December 2nd during the Capcom Black Friday Sale!Featured Products\nhttps://store.steampowered.com/app/601150/Devil_May_Cry_5/\nhttps://store.steampowered.com/app/2054970/Dragons_Dogma_2/\nhttps://store.steampowered.com/app/2510710/KunitsuGami_Path_of_the_Goddess/\nhttps://store.steampowered.com/app/3046600/Onimusha_2_Samurais_Destiny/\nhttps://store.steampowered.com/sub/1212169/"
   },
@@ -2308,8 +2386,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.65,
-    "sale_reason": "body: save up to, up to, deal, deals | discount pattern | has date range",
+    "sale_confidence": 1.0,
+    "sale_reason": "title: holiday deals | body: save up to, up to, deal, deals, holiday deals | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from December 18th through January 5th during Capcom Holiday Deals!Featured Products\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/\nhttps://store.steampowered.com/app/742300/Mega_Man_11/\nhttps://store.steampowered.com/app/3046600/Onimusha_2_Samurais_Destiny/\nhttps://store.steampowered.com/app/601150/Devil_May_Cry_5/\nhttps://store.steampowered.com/app/363440/Mega_Man_Legacy_Collection/\nhttps://store.steampowered.com/app/495050/Mega_Man_Legacy_Collection_2/\nhttps://store.steampowered.com/bundle/4102/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/\nhttps://store.steampowered.com/sub/692569/\nhttps://store.steampowered.com/bundle/39039/"
   },
@@ -2340,8 +2418,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.65,
-    "sale_reason": "body: save up to, up to, deal, deals | discount pattern | has date range",
+    "sale_confidence": 1.0,
+    "sale_reason": "title: holiday deals | body: save up to, up to, deal, deals, holiday deals | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from December 18th through January 5th during Capcom Holiday Deals!Featured Products\nhttps://store.steampowered.com/app/2050650/Resident_Evil_4/\nhttps://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/\nhttps://store.steampowered.com/app/742300/Mega_Man_11/\nhttps://store.steampowered.com/app/3046600/Onimusha_2_Samurais_Destiny/\nhttps://store.steampowered.com/app/601150/Devil_May_Cry_5/\nhttps://store.steampowered.com/app/363440/Mega_Man_Legacy_Collection/\nhttps://store.steampowered.com/app/495050/Mega_Man_Legacy_Collection_2/\nhttps://store.steampowered.com/bundle/4102/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/\nhttps://store.steampowered.com/sub/692569/\nhttps://store.steampowered.com/bundle/39039/"
   },
@@ -2370,7 +2448,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, new year sale | body: save up to, up to, new year sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from January 5th through January 13th during the Capcom New Year Sale!Featured Products\nhttps://store.steampowered.com/app/601150/Devil_May_Cry_5/\nhttps://store.steampowered.com/app/1196590/Resident_Evil_Village/\nhttps://store.steampowered.com/app/2054970/Dragons_Dogma_2/\nhttps://store.steampowered.com/app/3046600/Onimusha_2_Samurais_Destiny/\nhttps://store.steampowered.com/sub/1212169/\nhttps://store.steampowered.com/sub/1045545/\nhttps://store.steampowered.com/app/2187220/Apollo_Justice_Ace_Attorney_Trilogy/"
   },
@@ -2422,7 +2500,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, series sale | has date range",
     "manual_override_applied": true,
     "body_text": ""
   },
@@ -2468,7 +2546,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, spring sale | body: save up to, up to, spring sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 90% on select CAPCOM games from April 1st through April 15th during the Capcom Spring Sale!Featured Products"
   },
@@ -2494,7 +2572,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: save up to, up to, golden week | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 87% on select CAPCOM games from April 20th through May 4th during the Capcom Golden Week Sale!Featured Products\nhttps://store.steampowered.com/app/1685750/Capcom_Fighting_Collection/\nhttps://store.steampowered.com/app/1364780/Street_Fighter_6/\nhttps://store.steampowered.com/app/2054970\nhttps://store.steampowered.com/app/367500"
   },
@@ -2523,7 +2601,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to, % off | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to, % off, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 85% off all Devil May Cry titles from May 11th at 10 AM PDT to May 25th at 10 AM PDT!\nFeatured Products\nhttps://store.steampowered.com/bundle/30036/Devil_May_Cry_Franchise_Pack/\nhttps://store.steampowered.com/app/601150/Devil_May_Cry_5/\nhttps://store.steampowered.com/app/329050/Devil_May_Cry_4_Special_Edition/\nhttps://store.steampowered.com/app/631510/Devil_May_Cry_HD_Collection/\nhttps://store.steampowered.com/app/220440/DmC_Devil_May_Cry/"
   },
@@ -2575,7 +2653,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% on Resident Evil titles from June 4th to June 18th!"
   },
@@ -2625,7 +2703,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, summer sale | body: save up to, up to, summer sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 90% on select CAPCOM games from June 25th through July 9th during the Capcom Summer Sale!Featured Products"
   },
@@ -2648,7 +2726,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, winter sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 77% on select KOEI TECMO titles!"
   },
@@ -2693,8 +2771,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Save 30% with FATAL FRAME / PROJECT ZERO Franchise!\nhttps://store.steampowered.com/app/1732190/_/\nhttps://store.steampowered.com/app/2130460/_/"
   },
@@ -2717,7 +2795,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, spring sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% on select KOEI TECMO titles!"
   },
@@ -2740,7 +2818,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, series sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save Up To 60% on Atelier \"Secret\" Series!"
   },
@@ -2786,7 +2864,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 77% on select KOEI TECMO titles!"
   },
@@ -2809,7 +2887,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, summer sale | body: save up to, up to, summer sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% with the KOEI TECMO Summer Sale!"
   },
@@ -2878,7 +2956,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 50% with the KOEI TECMO NOBUNAGA'S AMBITION Franchise Sale!"
   },
@@ -2947,7 +3025,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, autumn sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% with KOEI TECMO titles!"
   },
@@ -2970,7 +3048,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, autumn sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% with KOEI TECMO titles!"
   },
@@ -2993,7 +3071,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, holiday sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 85% on select KOEI TECMO titles!"
   },
@@ -3039,7 +3117,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% on Nioh Franchise!"
   },
@@ -3062,7 +3140,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 70% with Atelier Franchise!"
   },
@@ -3085,7 +3163,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale, franchise sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: save up to, up to, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 60% on Samurai Warriors Franchise!"
   },
@@ -3108,7 +3186,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, spring sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 85% on select KOEI TECMO titles!"
   },
@@ -3154,7 +3232,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 80% on select KOEI TECMO titles!"
   },
@@ -3200,7 +3278,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, summer sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 85% on select KOEI TECMO titles!"
   },
@@ -3223,7 +3301,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale | body: save up to, up to, franchise | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Save up to 70% on Dynasty Warriors Franchise!"
   },
@@ -3246,7 +3324,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, tokyo game show sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO GAMES TOKYO GAME SHOW SALESave up to 85% on select KOEI TECMO titles!"
   },
@@ -3269,7 +3347,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, tokyo game show sale | body: save up to, up to | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO GAMES TOKYO GAME SHOW SALESave up to 85% on select KOEI TECMO titles!"
   },
@@ -3292,7 +3370,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: on sale, now on sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: on sale, now on sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO Romance of the Three Kingdoms Franchise now on sale!"
   },
@@ -3315,7 +3393,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, black friday, black friday sale | body: save up to, up to, black friday | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO BLACK FRIDAY SALESave up to 85% on select KOEI TECMO titles!"
   },
@@ -3338,7 +3416,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: on sale, now on sale | has date range",
+    "sale_reason": "title: sale, franchise | body: on sale, now on sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO Romance of the Three Kingdoms Franchise now on sale!"
   },
@@ -3384,7 +3462,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, winter sale | body: save up to, up to, winter sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO Winter SaleSave up to 90% on select KOEI TECMO titles!"
   },
@@ -3430,7 +3508,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, spring sale | body: save up to, up to, spring sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO Spring SaleSave up to 85% on select KOEI TECMO titles!"
   },
@@ -3483,7 +3561,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, summer sale | body: save up to, up to, summer sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO Early Summer SaleSave up to 85% on select KOEI TECMO titles!"
   },
@@ -3506,7 +3584,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: save up to, up to | discount pattern | has date range",
+    "sale_reason": "title: sale, summer sale | body: save up to, up to, summer sale | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "KOEI TECMO Summer SaleSave up to 85% on select KOEI TECMO titles!"
   },
@@ -3529,7 +3607,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": "Featured titles！\nhttps://store.steampowered.com/sub/886312/\nhttps://store.steampowered.com/sub/886313/\nhttps://store.steampowered.com/sub/886315/\nhttps://store.steampowered.com/app/1913740/\nhttps://store.steampowered.com/app/1812560/\nhttps://store.steampowered.com/app/1659600/\nhttps://store.steampowered.com/app/1552550/\nUpcoming Titles！\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/2235020/\nhttps://store.steampowered.com/app/1248080/\nhttps://store.steampowered.com/app/2124490/"
   },
@@ -3554,7 +3632,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal | has date range",
+    "sale_reason": "title: sale, winter sale | body: deal, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": "Check out the deal on SUPER BOMBERMAN R 2 in KONAMI Winter Sale 2023! Save 30％!\nhttps://store.steampowered.com/app/1913740/SUPER_BOMBERMAN_R_2/"
   },
@@ -3577,7 +3655,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 1.0,
-    "sale_reason": "title: sale | body: % off | discount pattern | has date range",
+    "sale_reason": "title: sale, spring sale | body: % off | discount pattern | has date range",
     "manual_override_applied": false,
     "body_text": "Featured titles！\nhttps://store.steampowered.com/sub/886312/\nhttps://store.steampowered.com/sub/886313/\nhttps://store.steampowered.com/sub/886315/\nhttps://store.steampowered.com/app/287700/\nhttps://store.steampowered.com/sub/235460/\nhttps://store.steampowered.com/app/1913740/\nhttps://store.steampowered.com/app/1659600/\nhttps://store.steampowered.com/app/1552550/\nGet 10% off with the early bird discount！\nhttps://store.steampowered.com/app/2235020/\nUpcoming Titles！\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/1248080/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/news/group/39026134/view/4044863966190781322"
   },
@@ -3600,7 +3678,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | has date range",
     "manual_override_applied": false,
     "body_text": "Featured titles！\nhttps://store.steampowered.com/sub/886312/\nhttps://store.steampowered.com/sub/886313/\nhttps://store.steampowered.com/sub/886315/\nhttps://store.steampowered.com/app/287700/\nhttps://store.steampowered.com/app/1323470/\nhttps://store.steampowered.com/app/1552550/\nhttps://store.steampowered.com/app/702700/\nUpcoming Titles！\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/1248080/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/news/group/39026134/view/7047640220332288081"
   },
@@ -3648,7 +3726,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, summer sale | has date range",
     "manual_override_applied": false,
     "body_text": "Featured titles！\nhttps://store.steampowered.com/sub/886312/\nhttps://store.steampowered.com/sub/886313/\nhttps://store.steampowered.com/sub/886315/\nhttps://store.steampowered.com/app/287700/\nhttps://store.steampowered.com/app/235460/\nhttps://store.steampowered.com/app/2235020/\nhttps://store.steampowered.com/sub/235460/\nhttps://store.steampowered.com/app/1913740/\nhttps://store.steampowered.com/app/1659600/\nhttps://store.steampowered.com/app/1552550/\nUpcoming Titles！\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/1248080/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/2051010/\nhttps://store.steampowered.com/news/group/39026134/view/4194617370612007675"
   },
@@ -3717,7 +3795,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, black friday, black friday sale | has date range",
     "manual_override_applied": false,
     "body_text": "Featured titles！\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/2369900/\nhttps://store.steampowered.com/sub/886312/\nhttps://store.steampowered.com/sub/886313/\nhttps://store.steampowered.com/sub/886315/\nhttps://store.steampowered.com/app/287700/\nhttps://store.steampowered.com/app/235460/\nhttps://store.steampowered.com/app/2235020/\nhttps://store.steampowered.com/app/1248080/\nUpcoming Titles！\nhttps://store.steampowered.com/app/1932640/\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/3125750/"
   },
@@ -3740,7 +3818,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, holiday sale | has date range",
     "manual_override_applied": false,
     "body_text": "Featured titles！\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/2369900/\nhttps://store.steampowered.com/sub/886312/\nhttps://store.steampowered.com/sub/886313/\nhttps://store.steampowered.com/sub/886315/\nhttps://store.steampowered.com/app/287700/\nhttps://store.steampowered.com/app/235460/\nhttps://store.steampowered.com/app/2235020/\nUpcoming Titles！\nhttps://store.steampowered.com/app/3013550/\nhttps://store.steampowered.com/app/1932640/\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/3125750/"
   },
@@ -3786,7 +3864,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, spring sale | has date range",
     "manual_override_applied": false,
     "body_text": "Featured titles！\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/2051010/\nhttps://store.steampowered.com/app/2369900/\nhttps://store.steampowered.com/sub/886312/\nhttps://store.steampowered.com/sub/886313/\nhttps://store.steampowered.com/sub/886315/\nhttps://store.steampowered.com/sub/132506/\nhttps://store.steampowered.com/app/235460/\nUpcoming Titles！\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/1880610/\nhttps://store.steampowered.com/app/3125750/"
   },
@@ -3809,7 +3887,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: discounts, limited time | has date range",
+    "sale_reason": "title: sale, summer sale | body: discounts, limited time | has date range",
     "manual_override_applied": false,
     "body_text": "It’s Time to Duel with discounts on your favorite Yu-Gi-Oh! titles. Save big on select titles including Yu-Gi-Oh! EARLY DAYS COLLECTION for a limited time."
   },
@@ -3832,7 +3910,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, summer sale | has date range",
     "manual_override_applied": false,
     "body_text": "Don't miss out on this opportunity to enjoy KONAMI games!\nFeatured titles！\nhttps://store.steampowered.com/app/1932640/\nhttps://store.steampowered.com/app/1880610/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/3013550/\nUpcoming Titles！\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/3668850/\nhttps://store.steampowered.com/app/3125750/\nhttps://store.steampowered.com/app/2897590/"
   },
@@ -3855,7 +3933,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, tokyo game show sale | has date range",
     "manual_override_applied": false,
     "body_text": "Don't miss out on this opportunity to enjoy KONAMI games!\nFeatured titles！\nhttps://store.steampowered.com/app/1932640/\nhttps://store.steampowered.com/app/3125750/\nhttps://store.steampowered.com/app/2897590/\nhttps://store.steampowered.com/app/3013550/\nNew Release!\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2417610/"
   },
@@ -3901,7 +3979,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, holiday sale | has date range",
     "manual_override_applied": false,
     "body_text": "Don't miss out on this opportunity to enjoy KONAMI games!\nFeatured titles！\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2124490/\nComing Soon！\nhttps://store.steampowered.com/app/3668850/\nhttps://store.steampowered.com/app/3907380/\nhttps://store.steampowered.com/app/3907350/\nhttps://store.steampowered.com/app/2989180/"
   },
@@ -3947,7 +4025,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, spring sale | has date range",
     "manual_override_applied": false,
     "body_text": "Don't miss out on this opportunity to enjoy KONAMI games!\nFeatured titles！\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/1932640/\nComing Soon！\nhttps://store.steampowered.com/app/3859630/\nhttps://store.steampowered.com/app/1636440/\nhttps://store.steampowered.com/app/4231820/\nhttps://store.steampowered.com/app/2989180/\nhttps://store.steampowered.com/app/3652140/\nhttps://store.steampowered.com/app/3668850/\nhttps://store.steampowered.com/app/3907350/\nhttps://store.steampowered.com/app/3907380/"
   },
@@ -3970,7 +4048,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | has date range",
     "manual_override_applied": false,
     "body_text": "Don't miss out on this opportunity to enjoy KONAMI games!\nFeatured titles！\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2124490/\nNew Release！\nhttps://store.steampowered.com/app/2989180/\nComing Soon！\nhttps://store.steampowered.com/app/3859630/\nhttps://store.steampowered.com/app/1636440/\nhttps://store.steampowered.com/app/4231820/\nhttps://store.steampowered.com/app/3652140/\nhttps://store.steampowered.com/app/3668850/\nhttps://store.steampowered.com/app/3907350/\nhttps://store.steampowered.com/app/3907380/"
   },
@@ -3993,7 +4071,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, summer sale | has date range",
     "manual_override_applied": false,
     "body_text": "Don't miss out on this opportunity to enjoy KONAMI games!\nFeatured titles！\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/2417610/\nhttps://store.steampowered.com/app/2989180/\nhttps://store.steampowered.com/app/1932640/\nUpcoming Titles！\nhttps://store.steampowered.com/app/3859630/\nhttps://store.steampowered.com/app/1636440/\nhttps://store.steampowered.com/app/4231820/\nhttps://store.steampowered.com/app/3668850/\nhttps://store.steampowered.com/app/3907350/\nhttps://store.steampowered.com/app/3907380/"
   },
@@ -4016,7 +4094,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4039,7 +4117,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4085,7 +4163,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, spring sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4131,7 +4209,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4154,7 +4232,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4178,8 +4256,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "ENDLESS™ LEGEND FREE GIVEAWAY + FRANCHISE SALE\nhttps://store.steampowered.com/app/289130/ENDLESS_Legend/"
   },
@@ -4225,7 +4303,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, summer sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4248,7 +4326,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4271,7 +4349,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4317,7 +4395,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4363,7 +4441,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4386,7 +4464,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4409,7 +4487,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, halloween sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4432,7 +4510,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4455,7 +4533,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, autumn sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4478,7 +4556,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4501,7 +4579,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4547,7 +4625,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4593,7 +4671,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4616,7 +4694,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4639,7 +4717,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4662,7 +4740,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4685,7 +4763,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, spring sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4708,7 +4786,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4731,7 +4809,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4754,7 +4832,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4777,7 +4855,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4800,7 +4878,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, summer sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4846,7 +4924,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4869,7 +4947,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4938,7 +5016,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, autumn sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -4961,7 +5039,30 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
+    "manual_override_applied": false,
+    "body_text": ""
+  },
+  {
+    "publisher": "SEGA",
+    "publisher_slug": "sega",
+    "sale_name": "SEGA Black Friday",
+    "start_date": "2025-11-20",
+    "end_date": "2025-12-04",
+    "start_time": "2025-11-20 18:00:00",
+    "end_time": "2025-12-04 18:00:00",
+    "start_date_raw": "1763661600",
+    "end_date_raw": "1764871200",
+    "games": [],
+    "games_text": "",
+    "source_title": "SEGA Black Friday",
+    "source_url": "https://store.steampowered.com/news/group/32528477/view/715635575916332327?l=english",
+    "event_id": "715635575916332327",
+    "event_type": 20,
+    "event_type_name": "",
+    "is_sale": true,
+    "sale_confidence": 0.7,
+    "sale_reason": "title: black friday | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -5030,7 +5131,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -5099,7 +5200,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, spring sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -5122,7 +5223,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: discounts | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: discounts | has date range",
     "manual_override_applied": false,
     "body_text": "In this epic Total War sale, immerse yourself in the ultimate strategy gaming experience, with discounts on some of our most iconic games.Total War games give you the chance to leave your own mark on history. Featuring a mix of turn-based empire building and colossal real-time land and naval battles, experience some of history's most thrilling and tumultuous eras, from Ancient Rome and Medieval Europe to feudal Japan and the Three Kingdoms period in China."
   },
@@ -5145,7 +5246,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -5168,7 +5269,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -5191,7 +5292,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": ""
   },
@@ -5286,7 +5387,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "https://store.steampowered.com/app/2486820\nhttps://store.steampowered.com/app/2513280\nhttps://store.steampowered.com/app/584400\nhttps://store.steampowered.com/app/1237320\nhttps://store.steampowered.com/app/2022670"
   },
@@ -5309,7 +5410,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, summer sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Featured Deals\nhttps://store.steampowered.com/app/3937550\nhttps://store.steampowered.com/app/1142710\nhttps://store.steampowered.com/app/2185060\nhttps://store.steampowered.com/app/2161700\nhttps://store.steampowered.com/app/3551340\nhttps://store.steampowered.com/app/2486820\nClick here for more deals"
   },
@@ -5332,7 +5433,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, summer sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Featured Deals\nhttps://store.steampowered.com/app/3937550\nhttps://store.steampowered.com/app/1142710\nhttps://store.steampowered.com/app/2185060\nhttps://store.steampowered.com/app/2161700\nhttps://store.steampowered.com/app/3551340\nhttps://store.steampowered.com/app/2486820\nClick here for more deals"
   },
@@ -5440,7 +5541,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/?curator_clanid=32991376\nhttps://store.steampowered.com/bundle/80339/Total_War_WARHAMMER_III__Lords_of_the_End_Times/?curator_clanid=32528477\nhttps://store.steampowered.com/app/4199910/Total_War_WARHAMMER_40000/?curator_clanid=32528477"
   },
@@ -5463,7 +5564,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": "It's that time of year once again! Celebrate the holidays with games like:\nOCTOPATH TRAVELER II\nFINAL FANTASY VII REMAKE INTERGRADE\nNieR Replicant ver.1.22474487139...\nCRISIS CORE –FINAL FANTASY VII– REUNION\nInfinity Strash: DRAGON QUEST The Adventure of Dai\nSTRANGER OF PARADISE FINAL FANTASY ORIGIN\n...and more!\nSale ends January 4, 2023 (10:00 am PST)"
   },
@@ -5486,7 +5587,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": "It's that time of year once again! Celebrate the holidays with games like:\nOCTOPATH TRAVELER II\nFINAL FANTASY VII REMAKE INTERGRADE\nNieR Replicant ver.1.22474487139...\nCRISIS CORE –FINAL FANTASY VII– REUNION\nInfinity Strash: DRAGON QUEST The Adventure of Dai\nSTRANGER OF PARADISE FINAL FANTASY ORIGIN\n...and more!\nSale ends January 4, 2023 (10:00 am PST)"
   },
@@ -5508,8 +5609,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, new year sale, lunar new year, lunar new year sale | body: lunar new year | has date range",
     "manual_override_applied": false,
     "body_text": "The year of the dragon is upon us! Ring in the Lunar New Year with sales across our catalogue like:\nCRISIS CORE –FINAL FANTASY VII– REUNION\nFINAL FANTASY VII REMAKE INTERGRADE\nFINAL FANTASY XV\nSTRANGER OF PARADISE FINAL FANTASY ORIGIN\n...and more!"
   },
@@ -5531,8 +5632,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: lunar new year | has date range",
     "manual_override_applied": false,
     "body_text": "Ring in the Lunar New Year with sales across our FINAL FANTASY catalogue like:\nCRISIS CORE –FINAL FANTASY VII– REUNION\nFINAL FANTASY VII REMAKE INTERGRADE\nFINAL FANTASY XV\nSTRANGER OF PARADISE FINAL FANTASY ORIGIN\n...and more!"
   },
@@ -5601,7 +5702,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: deal, deals, golden week | has date range",
     "manual_override_applied": false,
     "body_text": "Take part in the Golden Week festivities with Square Enix! Celebrate with deals across storied brands like FINAL FANTASY, NieR, DRAGON QUEST, and more!\nFind these games and more in the Square Enix Golden Week sale!\nSale ends May 8, 2024 (10:00 am PDT)"
   },
@@ -5623,8 +5724,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, summer sale | body: summer sale | has date range",
     "manual_override_applied": false,
     "body_text": "Begin your journey on Destiny Island in the games that started it all with KINGDOM HEARTS HD 1.5+2.5 ReMIX\nEnroll in a summer course and take on the Mark of Mastery exam in KINGDOM HEARTS HD 2.8 Final Chapter Prologue\nEnd your vacation on a high note by witnessing the conclusion of the Dark Seeker Saga in KINGDOM HEARTS III + Re Mind\nExperience all this and more in the Square Enix summer sale!\n© Disney. © Disney/Pixar. Developed by SQUARE ENIX\nSale ends July 11, 2024 (10:00 am PDT)"
   },
@@ -5647,7 +5748,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, tgs sale | body: deal, deals, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "The Tokyo Game Show is here! Square Enix invites you to play games from some of Japan's most iconic brands in the Square Enix TGS Sale. Find great deals on legendary franchises like NieR, FINAL FANTASY, and so many more.\nSale ends September 30, 2024 (10:00 am PDT)"
   },
@@ -5670,7 +5771,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, autumn sale | body: deal, deals, autumn sale | has date range",
     "manual_override_applied": false,
     "body_text": "Embark to the land of Valisthea and beyond in the Square Enix Autumn Sale. Immerse yourself in an instant classic and find great deals on games from throughout Square Enix's storied history.\nSale ends December 4, 2024 (10:00 am PST)"
   },
@@ -5693,7 +5794,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": "2024 is almost over! End the year on a high note with games like:\nFINAL FANTASY XVI\nLife is Strange: Double Exposure\nVisions of Mana\nKINGDOM HEARTS -HD 1.5+2.5 ReMIX-\nRomancing SaGa 2: Revenge of the Seven\nCRISIS CORE –FINAL FANTASY VII– REUNION\n...and more!\nSale ends January 2, 2025 (10:00 am PST)"
   },
@@ -5716,7 +5817,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: discounts | has date range",
+    "sale_reason": "title: sale, new year sale, lunar new year, lunar new year sale | body: discounts | has date range",
     "manual_override_applied": false,
     "body_text": "The year of the snake has arrived! Take part in the new year's celebration with huge discounts across the Square Enix catalogue."
   },
@@ -5738,8 +5839,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, publisher sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, publisher sale | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Square Enix's biggest and best games are on Steam! Explore unforgettable experiences across critically-acclaimed franchises including FINAL FANTASY, KINGDOM HEARTS, NieR, and more!\nSale ends March 24th (10:00 am PDT)"
   },
@@ -5762,7 +5863,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | body: deal, deals, golden week, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Golden Week is here! Celebrate the 15th anniversary of the NieR Franchise and find great deals across the Square Enix library in the Square Enix Golden Week Sale!"
   },
@@ -5785,7 +5886,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, summer sale | has date range",
     "manual_override_applied": false,
     "body_text": "Surf the waves at Costa Del Sol this summer with Cloud and friends in FINAL FANTASY VII REBIRTH! -Play the game that started it all, the classic FINAL FANTASY VII.-Dive into Zack Fair's gripping backstory in CRISIS CORE –FINAL FANTASY VII– REUNION.-Explore the outskirts of Midgar as Yuffie on her jampacked adventure in FINAL FANTASY VII REMAKE INTERGRADE."
   },
@@ -5808,7 +5909,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: on sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: on sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Discover the legend of the powerful crystal within the FINAL FANTASY franchise on sale."
   },
@@ -5830,8 +5931,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Discover epic turn-based RPGs with stunning HD-2D visuals in the OCTOPATH TRAVELER series. Don’t miss your chance to save during the Franchise sale!"
   },
@@ -5853,8 +5954,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Glory to Mankind! Experience the groundbreaking tales of NieR Replicant and NieR:Automata offered in the NieR Franchise Sale."
   },
@@ -5877,7 +5978,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Witness Sora together with his friends as they go on a magical adventure defeating the Heartless in the popular KINGDOM HEARTS series."
   },
@@ -5900,7 +6001,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, tgs sale | has date range",
     "manual_override_applied": false,
     "body_text": "Take next-gen gaming to another level at the Tokyo Game Show! Save big on the latest RPGs from Square Enix like FINAL FANTASY VII REBIRTH, FINAL FANTASY XVI, DRAGON QUEST III HD-2D Remake, and much more."
   },
@@ -5923,7 +6024,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, black friday, black friday sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Sweater weather is here! Find great deals on fall favorites like DRAGON QUEST III HD-2D Remake, FINAL FANTASY VII REMAKE INTERGRADE, Life is Strange: True Colors, PowerWash Simulator, and more!"
   },
@@ -5946,7 +6047,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": "Wrap up the year with Square Enix's hottest titles like FINAL FANTASY VII REBIRTH, FINAL FANTASY XVI, OCTOPATH TRAVELER II, Life is Strange: Double Exposure, and more!"
   },
@@ -5969,7 +6070,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, winter sale | has date range",
     "manual_override_applied": false,
     "body_text": "Step inside Square Enix's winter wonderland and discover frosted favorites, such as, FINAL FANTASY XVI, Life is Strange: Double Exposure, NieR:Automata, KINGDOM HEARTS -HD 1.5+2.5 ReMIX-, Life is Strange Remastered Collection, and more!"
   },
@@ -6038,9 +6139,32 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale | has date range",
+    "sale_reason": "title: sale, golden week, golden week sale | has date range",
     "manual_override_applied": false,
     "body_text": "Discover heroic stories born in Japan including FINAL FANTASY, NieR, KINGDOM HEARTS, OCTOPATH TRAVELER, and more, now at golden prices."
+  },
+  {
+    "publisher": "Square Enix",
+    "publisher_slug": "square_enix",
+    "sale_name": "DRAGON QUEST 40th Celebration",
+    "start_date": "2026-05-26",
+    "end_date": "2026-06-02",
+    "start_time": "2026-05-26 17:10:00",
+    "end_time": "2026-06-02 17:00:00",
+    "start_date_raw": "1779815400",
+    "end_date_raw": "1780419600",
+    "games": [],
+    "games_text": "",
+    "source_title": "DRAGON QUEST 40th Celebration",
+    "source_url": "https://store.steampowered.com/news/group/1012195/view/492715550584079089?l=english",
+    "event_id": "492715550584079089",
+    "event_type": 20,
+    "event_type_name": "",
+    "is_sale": true,
+    "sale_confidence": 0.7,
+    "sale_reason": "title: dragon quest 40th celebration | has date range",
+    "manual_override_applied": false,
+    "body_text": "Four decades of heroes, hope and Slimes. Save big on beloved DRAGON QUEST titles like: -DRAGON QUEST - HD-2D Erdrick Trilogy Collection-DRAGON QUEST MONSTERS: The Dark Prince-DRAGON QUEST TREASURES -DRAGON QUEST BUILDERS 2-DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition"
   },
   {
     "publisher": "Square Enix",
@@ -6060,8 +6184,8 @@
     "event_type": 20,
     "event_type_name": "",
     "is_sale": true,
-    "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_confidence": 0.95,
+    "sale_reason": "title: sale, franchise sale, franchise | body: franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Save big on iconic titles during Square Enix's FINAL FANTASY Franchise Sale!"
   },
@@ -6084,7 +6208,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale | body: deal, deals | has date range",
+    "sale_reason": "title: sale, summer sale | body: deal, deals | has date range",
     "manual_override_applied": false,
     "body_text": "Soak up the sun and these hot deals from Square Enix, including: -FINAL FANTASY XIV: Dawntrail-FINAL FANTASY VII REBIRTH-NieR:Automata™-BRAVELY DEFAULT FLYING FAIRY HD Remaster-Visions of Mana-PARANORMASIGHT: The Mermaid's Curse - Just Cause 3"
   },
@@ -6107,7 +6231,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.7,
-    "sale_reason": "title: sale, franchise sale | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | has date range",
     "manual_override_applied": false,
     "body_text": "Eight destinies intertwine in one unforgettable journey. Which path will you take?"
   },
@@ -6130,7 +6254,7 @@
     "event_type_name": "",
     "is_sale": true,
     "sale_confidence": 0.95,
-    "sale_reason": "title: sale, franchise sale | body: on sale, ends on | has date range",
+    "sale_reason": "title: sale, franchise sale, franchise | body: on sale, ends on | has date range",
     "manual_override_applied": false,
     "body_text": "Join Sora and his beloved friends on a magical adventure — the KINGDOM HEARTS saga on sale now!"
   }
