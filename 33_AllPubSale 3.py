@@ -76,7 +76,6 @@ COMPANIES = [
 API_URL = "https://store.steampowered.com/events/ajaxgetpartnereventspageable/"
 LANGUAGE = "english"
 
-# None = 全量爬取。测试时可以改成 200。
 MAX_ITEMS_PER_COMPANY: Optional[int] = None
 
 PAGE_COUNT = 100
@@ -89,13 +88,9 @@ PROMO_JSON = OUTPUT_ROOT / "promo_data.json"
 EXCEL_OUTPUT = OUTPUT_ROOT / "publisher_sales.xlsx"
 LATEST_UPDATE_JSON = OUTPUT_ROOT / "latest_update.json"
 
-# 只保留 2023-12-01 以后仍在进行/结束的促销
 MIN_END_DATE = "2023-12-01"
-
-# 爬虫翻页停止线：如果某页所有 event 都早于这个日期，则停止继续翻页
 CRAWL_STOP_DATE = "2023-12-01"
 
-# 人工修正文件，放在 repo 根目录
 MANUAL_OVERRIDES_JSON = Path("manual_overrides.json")
 
 
@@ -107,12 +102,40 @@ STRONG_TITLE_KEYWORDS = [
     "sale",
     "publisher sale",
     "franchise sale",
+    "series sale",
     "weekend deal",
     "daily deal",
     "midweek deal",
     "special promotion",
     "discount",
     "discounts",
+
+    # Seasonal / major retail keywords
+    "black friday",
+    "black friday sale",
+    "cyber monday",
+    "holiday sale",
+    "holiday deals",
+    "winter sale",
+    "spring sale",
+    "summer sale",
+    "autumn sale",
+    "fall sale",
+    "golden week",
+    "golden week sale",
+    "new year sale",
+    "lunar new year",
+    "lunar new year sale",
+    "halloween sale",
+    "tgs sale",
+    "tokyo game show sale",
+
+    # Event-style sale titles that may not contain "sale"
+    "dragon quest 40th celebration",
+    "autumn game festival",
+    "game festival",
+    "dark souls franchise",
+    "franchise",
 ]
 
 BODY_SALE_KEYWORDS = [
@@ -134,6 +157,28 @@ BODY_SALE_KEYWORDS = [
     "grab",
     "deal",
     "deals",
+
+    # Additional promo wording
+    "black friday",
+    "cyber monday",
+    "holiday deals",
+    "holiday sale",
+    "winter sale",
+    "spring sale",
+    "summer sale",
+    "autumn sale",
+    "fall sale",
+    "golden week",
+    "new year sale",
+    "lunar new year",
+    "halloween sale",
+
+    # Event-style sale titles that may not contain "sale"
+    "dragon quest 40th celebration",
+    "autumn game festival",
+    "game festival",
+    "dark souls franchise",
+    "franchise",
 ]
 
 NEGATIVE_KEYWORDS = [
@@ -216,13 +261,6 @@ def clean_text(text: str) -> str:
 
 
 def parse_steam_ts(value: Any) -> Tuple[str, str]:
-    """
-    返回：
-    - datetime string: YYYY-MM-DD HH:MM:SS
-    - date string: YYYY-MM-DD
-
-    使用 UTC，避免本机 / GitHub Actions 时区不同导致日期差一天。
-    """
     if value is None or value == "":
         return "", ""
 
@@ -247,10 +285,6 @@ def steam_ts_to_date(value: Any) -> str:
 
 
 def get_event_candidate_date(item: Dict[str, Any]) -> str:
-    """
-    用于判断是否继续翻页。
-    优先使用 end_time，其次 start_time，再其次 last_modified。
-    """
     announcement_body = item.get("announcement_body") or {}
 
     candidates = [
@@ -270,10 +304,6 @@ def get_event_candidate_date(item: Dict[str, Any]) -> str:
 
 
 def should_stop_after_page(events: List[Dict[str, Any]]) -> bool:
-    """
-    如果当前页所有能识别日期的 event 都早于 CRAWL_STOP_DATE，就停止继续翻页。
-    这是保守停止线，避免无限爬很旧的数据。
-    """
     dates = []
 
     for item in events:
