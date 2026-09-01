@@ -4,6 +4,266 @@
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
+    "event_id": "706654920914240960",
+    "app_id": "",
+    "source_title": "Daily Deals: Gundam Franchise Sale",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1788196140",
+    "end_time_raw": "1788890400",
+    "start_time": "2026-08-31 17:09:00",
+    "end_time": "2026-09-08 18:00:00",
+    "start_date": "2026-08-31",
+    "end_date": "2026-09-08",
+    "posttime_raw": "1788196169",
+    "updatetime_raw": "1788196169",
+    "url": "https://store.steampowered.com/news/group/33042543/view/706654920914240960?l=english",
+    "body_text": "Daily Deals: Gundam Franchise Sale",
+    "body_raw": "Daily Deals: Gundam Franchise Sale",
+    "raw": {
+      "gid": "706654920914240960",
+      "clan_steamid": "103582791462563951",
+      "event_name": "Daily Deals: Gundam Franchise Sale",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1788196140,
+      "rtime32_end_time": 1788890400,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"a54d8f7d4802602e30207d3f4b3af76d2b33e94d.png\",\"eb567e3e9a41f823736211a9f1543d3de7997e8d.jpg\",\"59b43964c3d93951dea875c24f60d7f67caadb2c.jpg\",\"c03bb56ed81a9a6b4deb41d5dca4e74d6a038601.jpg\",\"7d0545732ba2edf4e65227ab0aa1c5676b2698f4.jpg\",\"f693944cac6d937cbb9aa7c6198229eaa64b095e.jpg\",\"8721415d9ef91d0fc4d42296d875e13b4eed8e93.jpg\",\"6e0a86513649e45ff1916ec6bb66694546b98e4f.jpg\",\"4561b6ba67d831a450b7b3af3aa5001ab7546174.jpg\",\"3d4c824a59f0bcfa5f16ce8fede2336996603490.jpg\",\"666e08b4d48c142e672452b4d678acd0b0fa7396.jpg\",\"a8e3603f15acc197018b7fb6b19ac7ec47b4746f.jpg\",\"65a119fc00e215448fd969a1f129ed76eabea632.jpg\",\"8d0fc30ca6dc1a3a9c56fe821429b60180a7f8a8.jpg\",\"f943504f03ba3f59cf838b2cc8c6277d7e4b5f49.jpg\",\"ae8ae409414ac59dd92cf3d71702622b742dbc4f.jpg\",\"43752061a6ab5eaa4dd581237672dc792f4d0379.jpg\",\"da33b2956b832686db61fd3736489bce7223424f.jpg\",\"4ae2c0712d88e9f50c51417cfbbab52491bf7915.jpg\",\"c0bd227a4e45cee7bfb1d5b2d9cdca68793a4765.jpg\",\"d97886e11f937c6613a9cc0f131aa57846ae966a.jpg\",\"72b3846266b8594724da315a564c96a57523f47e.jpg\",\"439d512a1315406a3296562b0d5a0aa19c23b8f6.jpg\",\"a23d54af380dfbf2953486934b555d879e4247bb.jpg\",\"1288f63f34c3132d362e922af9f84cac6da0b6db.jpg\",null,\"ce1d9260ee3c3d92b9d6ddccca792c186d3c49b4.jpg\",\"b1b47a99a6d400cefaf77f7444867dee7b84db1d.jpg\",\"08dab076144e62973030f8079ef6cb55ebcaf8b9.jpg\",null,\"4a1090183a31a8c31a867d1d554f92634d4127d6.jpg\",null],\"localized_capsule_image\":[\"2ce68b5ab72a882d7b119948d33b474d7299d157.png\",\"9b8722c9428714de1495385b88c32a09cd703c5f.jpg\",\"ae6f3da250a5386779e2f354b33c22251d144ea1.jpg\",\"0639c6a8135e1fd418e73817c14cb03c94f6eef6.jpg\",\"fd6883950e3914030b46aaa969a654bbddff871a.jpg\",\"870dc8133d7f6d6ca4a55ffc7a3fd1e867056de1.jpg\",\"49e1accb7162fe8d5f20a5004c4777f714e54529.jpg\",\"1859e5f60dc8a22cb43670dcc8c05895d9c46951.jpg\",\"8515f6c7072fd87ab082636a930b322a2f426fa6.jpg\",\"109dc539fce9a7c6d93971325b4cde52532d571d.jpg\",\"8572a07fc0aef24fee4a771ab1aa8182cd7f5bb6.jpg\",\"678511bf139c7ce16b84d188579d86ccbe1e6e09.jpg\",\"17d9d8dfb84dd4883fea43853626a37cd14a10cf.jpg\",\"e9872a6e659c3e209476ef19f572bf7ecb3d1549.jpg\",\"93e3c4c032c00f48cf1ba34f7a5e9a56694684fb.jpg\",\"726fd079ed1e22d680045b8f65ba493956df8a97.jpg\",\"1d5908d9904e70a88eb0bd30e79e9b711f9c2e7c.jpg\",\"5f66da1e7a2e715f59cdf3d0fbb64cbe586b0d06.jpg\",\"1f99805964aaedc26c84758ff8e3a618d99b4d77.jpg\",\"d4f492dc918fb47df40878adc675b8f1d9330064.jpg\",\"2ab5de71fcf4b7f65249e57477078b9ade6cb27d.jpg\",\"ca47e1b36bde63cda8da08f6c65d8cbca105f95e.jpg\",\"5388d7821dec84dfda06ee116400b6ccb5e2cb5c.jpg\",\"55a95d758477a5b156fcf520294994a17e0f94d8.jpg\",\"458c4e679118fe178607787b79411857dd6f26b0.jpg\",null,\"d04f87f4e229551f8b431dc044f1248929659a5d.jpg\",\"cb519a0dc0854313396a6dd04078e30c84ebbb38.jpg\",\"3374a9197e84b37504261d27f20527b23fac9be8.jpg\",null,\"b4c7b86fee637d332886fe9e04b1414ac9aa721e.jpg\",null],\"bSaleEnabled\":true,\"sale_show_creator\":false,\"sale_sections\":[{\"capsules\":[{\"id\":594633,\"type\":\"sub\"},{\"id\":668461,\"type\":\"sub\"},{\"id\":212347,\"type\":\"sub\"},{\"id\":253146,\"type\":\"sub\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,\"\\u304a\\u3059\\u3059\\u3081\\u30bf\\u30a4\\u30c8\\u30eb\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":43297,\"internal_section_data\":null,\"capsules_per_row_array\":[5],\"carousel_rows\":1,\"show_as_carousel\":true,\"background_gradient_top\":\"rgba(224, 100, 71, 1)\",\"background_gradient_bottom\":\"rgba(210, 99, 76, 0.41)\",\"internal_section_title\":\"TOP TITLES\",\"capsule_style_per_row_array\":[\"tall\"]},{\"capsules\":[{\"id\":1028461,\"type\":\"sub\"},{\"id\":1028464,\"type\":\"sub\"},{\"id\":1028425,\"type\":\"sub\"},{\"id\":1028428,\"type\":\"sub\"},{\"id\":1028431,\"type\":\"sub\"},{\"id\":1028434,\"type\":\"sub\"},{\"id\":1028437,\"type\":\"sub\"},{\"id\":1028443,\"type\":\"sub\"},{\"id\":1028446,\"type\":\"sub\"},{\"id\":1028449,\"type\":\"sub\"},{\"id\":1028452,\"type\":\"sub\"}],\"events\":[],\"links\":[],\"localized_label\":[\"GUNDAM BREAKER4 DLC\",null,null,null,null,null,null,null,null,null,\"\\u30ac\\u30f3\\u30c0\\u30e0\\u30d6\\u30ec\\u30a4\\u30ab\\u30fc4 DLC\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":58621,\"background_gradient_bottom\":\"rgba(89, 89, 196, 0.41)\",\"background_gradient_top\":\"rgba(87, 92, 202, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":2,\"show_as_carousel\":true,\"internal_section_title\":\"GUNDAM BREAKER 4 DLC\",\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":400463,\"type\":\"sub\"},{\"id\":439043,\"type\":\"sub\"},{\"id\":400415,\"type\":\"sub\"},{\"id\":400421,\"type\":\"sub\"},{\"id\":400430,\"type\":\"sub\"},{\"id\":400442,\"type\":\"sub\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,\"SD GUNDAM G GENERATION CROSS RAYS DLC\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":31084,\"background_gradient_bottom\":\"rgba(149, 206, 74, 0.43)\",\"background_gradient_top\":\"rgba(163, 220, 71, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":2,\"show_as_carousel\":true,\"internal_section_title\":\"SD GUNDAM G GENERATION CROSS RAYS DLC\",\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":698365,\"type\":\"sub\"},{\"id\":821988,\"type\":\"sub\"},{\"id\":698368,\"type\":\"sub\"},{\"id\":698371,\"type\":\"sub\"},{\"id\":698374,\"type\":\"sub\"}],\"events\":[],\"links\":[],\"localized_label\":[\"SD GUNDAM BATTLE ALLIANCE DLC\",null,null,null,null,null,null,null,null,null,\"SD\\u30ac\\u30f3\\u30c0\\u30e0 \\u30d0\\u30c8\\u30eb\\u30a2\\u30e9\\u30a4\\u30a2\\u30f3\\u30b9 DLC\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":41355,\"background_gradient_bottom\":\"rgba(75, 199, 151, 0.43)\",\"background_gradient_top\":\"rgba(71, 220, 156, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":2,\"show_as_carousel\":true,\"internal_section_title\":\"SD GUNDAM BATTLE ALLIANCE DLC\",\"capsule_style_per_row_array\":null}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"b1ad7bf20f021cf2f8b9470f02c3b80668d3b25c.jpg\",\"a374454291a01367271f9f0ad0e8ce447fbc736e.jpg\",\"45433f2a5d74809ebec6810e96349c1e0486a252.jpg\",\"5ff12b642f3433bce3dde0e6718f8bf1da8e7faf.jpg\",\"53696c1d91d961ea9276b9d4cb968e8c4f8a0b1c.jpg\",\"14ffee00f186f17aa61d128bf31a1c0c83b56cf2.jpg\",\"f28727c4bb4eaf9b8bf1dbfd975e6f0bf0e3408f.jpg\",\"6e354fac886e7010fe1e57961fc0cac2296ac691.jpg\",\"76a8b5a5d48ef6b38c8c28bd7736252b563ecc46.jpg\",\"2aca7f4761a95169c347e71e516ed10bdce79e64.jpg\",\"556f3bcbc67ec46dd0806f16563eba003333d770.jpg\",\"2460bcb747d2ff881a7684dc39c301edaace4d55.jpg\",\"72a99f9602890114c911436866724ef1458f36ab.jpg\",\"b2ce4aea6cc77d3fdd6c58850688e82c3dc23f49.jpg\",\"1c29caa74e2e32bca30748c204e586f197937855.jpg\",\"d7b85e316c201343e2ab5adc973ec97c06e3f712.jpg\",\"bf89f283bd1c273a6391dec8f0be98a82aa2a7f7.jpg\",\"17364d34114811e846aa236604f5944989451e95.jpg\",\"39bda0b32faa0b9c1753659b329a0ad59dff83e8.jpg\",\"21fbf5389470c866133f0527755bc6ddad529d65.jpg\",\"adce46d0a7876fd4652b1fc8c6b5f129ce9b20dc.jpg\",\"959b6b96de0a583f9c8bb3abe87a125031bc367c.jpg\",\"8af5a05be8fde812a5dabcf319b53eb172cdcce1.jpg\",\"a4defe754eed5349f4b4ac2cc06a52a6a709eef4.jpg\",\"316c6fd62c877b0a71bacd01d04f4b353e9a51e5.jpg\",null,\"f6380223b7f9c4689f810978626764033fe45ffc.jpg\",\"a0644866e8cbebb99052d9a03055faa4a463b23c.jpg\",\"6d70c68e7272de76b2257d72687ecd0bb50ad62d.jpg\",null,\"e5479608c8b2400144b42965b234a25ff64171a8.jpg\",null],\"localized_sale_product_mobile_banner\":[\"7bd8c6c360a1aba89966e46f04f8656d7d9e8e7e.jpg\",\"772b184c35e43a594593cc76761545538167736e.jpg\",\"24b095f5aae23dc400b12e91efbfeac3afc67079.jpg\",\"b3188c51177248d9d6e9933ce1e3a45cb35c0200.jpg\",\"3d95063bb2061c0708bfd2e5a819d6f495d14b87.jpg\",\"d59dcbb7f32dd8c0f32a76b11a72cbed1eba5ea7.jpg\",\"7755bfe0a797baaf97cc2c8f1e09b0d39d52c0e1.jpg\",\"8b6e08b3d108f89efb8d9e7b8a9e698d9fda79a9.jpg\",\"fc5598969e5c71b69a79d99e79409525a35575e6.jpg\",\"82d380382c4566af4603063572e5529129602694.jpg\",\"12ef4e354d1dbb859b7363a25ca801357a858e15.jpg\",\"d00e518f5f1ad349b926d1e586bfbec38bbd38fc.jpg\",\"9516394e1a507dc5b044de8698b517fd4abedd1f.jpg\",\"12fed27c858625dbe6f2b451d8aebfeb6d5def1a.jpg\",\"6dcaf5c6d469a29a8b8e6494e040eeffbf7bcda3.jpg\",\"31011275938152b9e2237a9971a7e8f29cf0fc17.jpg\",\"b150ad244c9d7b3245726086e0bc61067ab42202.jpg\",\"e837ae1c04f4d06ba6b5f9ab35d311f3b886b41a.jpg\",\"99aa4f631db64b268e09937a46671a08bd983459.jpg\",\"28b9e3f005735d21a6fe398e16ab5c98a1781f7f.jpg\",\"06f50ee09909857f1462d9fbc247d2bf02398444.jpg\",\"674961ecdd51f266bd78ef845bf89a17ef6059d9.jpg\",\"adf1522c7a2e8288e59204f946c02ea0879e3695.jpg\",\"44fb3e01bae6e04b62f6e4cc764c844b51ea309c.jpg\",\"f89a3ff05c9108edc8a8e20ceef652990be793ac.jpg\",null,\"64c61c760a0c3622cbc160e5177baec982ed7640.jpg\",\"6f49ae2cf740660e252fea4f8ab0a0f0c31e763c.jpg\",\"dc40eba815ee74412795d92b78f4e218af19c414.jpg\",null,\"cd78f3b8b4bab96267b71deaaeb32b4e8fac6a71.jpg\",null],\"localized_sale_logo\":[\"5318ac3764edf2590d20bc78d2024cd225ee254b.png\",\"1f76d252de77899cb001d9988e5b3eb0ba664b83.png\",\"e44cd2954ccf19c6d7af3dae9c19f59e8b373012.png\",\"5fbd5de8344a86674ff3ba8bf53a34bdf65e3203.png\",\"25c16a21f3b2c9374ef736b05819389f75d9a9f5.png\",\"ce438b0257414f33b4eac9e3023e9fa3b80028e6.png\",\"a3869a869db65111a14009ccb53bfe6a6d28e5e1.png\",\"a85e5c77f91d85d4f3de1ccccffcb14b4f7cdc57.png\",\"e9e8e4c2907053e904f2ed0635b809cd027e5a07.png\",\"a7c732126f3acb7618111c26475d3adad5147249.png\",\"96c02c24df70d7856f2aa54172437b11a9c7f459.png\",\"244fce69a5e3cfc233dcd64e6aae119ee83359c2.png\",\"39e7cfb246702f56859fab7a84fb59c9b7cdc5c8.png\",\"f9a61801d454139b22a8ceb74aedb2d4a44dcb2c.png\",\"836cdc5ed2fc964c9fe06548bdeb649fa333e3a2.png\",\"64ffda40ce1d3b97c5ea08a1956d9794c61e6cc1.png\",\"3ac28a62e34d20df972921c1259421266001cc68.png\",\"19aeb7f6790fd42335c302cd82eaccacfbed524e.png\",\"64661b2945c632176967c890c4662651e7ce11e9.png\",\"f8baa03f88e2dab51d25e2180a739909242efd1e.png\",\"003995211e6133bf89637079a5831084047dc083.png\",\"bb59c5d097883babf89d2f710800d2b26837c060.png\",\"01c70a69d424533a190e7878d615956d0b063ad1.png\",\"5530820a269019c2d896a45082193f4b0e4ea7d3.png\",\"0ae7ff7cac26af221eaf2cf6cb295f78396b9a11.png\",null,\"3caaee4782437f945364353c3bb91d614adba12d.png\",\"be5724280594cb04bd6ea583367ef019239c54ca.png\",\"473934f0daa2ad0267b8562aa6b07a83f860cc07.png\",null,\"014453efd1b72ea41a8d5fef272070915e851d20.png\",null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(0, 0, 0, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_associated_advertising_appid\":4909960,\"sale_presenters\":[{\"unique_id\":73880,\"localized_presenter_name\":[\"Bandai Namco Entertainment\",null,null,null,null,null,null,null,null,null,\"Bandai Namco Entertainment\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https:\\/\\/store.steampowered.com\\/publisher\\/BANDAINAMCO\\/\"}],\"sale_vanity_id\":\"GundamFranchise\",\"sale_vanity_id_valve_approved_for_sale_subpath\":true}",
+      "announcement_body": {
+        "gid": "706654920914240961",
+        "clanid": "33042543",
+        "posterid": "0",
+        "headline": "Daily Deals: Gundam Franchise Sale",
+        "posttime": 1788196169,
+        "updatetime": 1788196169,
+        "body": "Daily Deals: Gundam Franchise Sale",
+        "commentcount": 0,
+        "tags": [
+          "autocreate_promotools",
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "586184554739657357",
+        "event_gid": "706654920914240960",
+        "voteupcount": 19,
+        "votedowncount": 2,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1788196140,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "586184554739657357",
+      "rtime32_last_modified": 1788219012,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 1452082,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1787591733,
+      "votes_up": 19,
+      "votes_down": 2,
+      "comment_type": "ForumTopic",
+      "gidfeature": "2518023667595816241",
+      "gidfeature2": "586184554739657357",
+      "clan_steamid_original": "103582791462563951"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
+    "group_id": 33042543,
+    "event_id": "690892955941077793",
+    "app_id": "",
+    "source_title": "Thanks for visiting us at Gamescom 2026!",
+    "subtitle": "see announcement body",
+    "event_type": 28,
+    "event_type_name": "",
+    "start_time_raw": "1788184800",
+    "end_time_raw": "1788187260",
+    "start_time": "2026-08-31 14:00:00",
+    "end_time": "2026-08-31 14:41:00",
+    "start_date": "2026-08-31",
+    "end_date": "2026-08-31",
+    "posttime_raw": "1788184815",
+    "updatetime_raw": "1788184815",
+    "url": "https://store.steampowered.com/news/group/33042543/view/690892955941077793?l=english",
+    "body_text": "That’s a wrap on another epic Gamescom! Thanks for flying, fighting, and lurking in the shadows with us!\n🩸 The Blood of Dawnwalker | September 3rd\n🛩️ ACE COMBAT 8: WINGS OF THEVE | October 2nd\n⚡ DRAGON BALL XENOVERSE 3 | 2027",
+    "body_raw": "[h1]That’s a wrap on another epic Gamescom! Thanks for flying, fighting, and lurking in the shadows with us![/h1]\n \n[h2]🩸 [url=https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/][b]The Blood of Dawnwalker[/b][/url] | [i]September 3rd[/i]\n🛩️ [url=https://store.steampowered.com/app/2288340/ACE_COMBAT_8_WINGS_OF_THEVE/][b]ACE COMBAT 8: WINGS OF THEVE[/b][/url] | [i]October 2nd[/i]\n⚡ [url=https://store.steampowered.com/app/1857810/DRAGON_BALL_XENOVERSE_3/][b]DRAGON BALL XENOVERSE 3[/b][/url] | [i]2027[/i][/h2]\n\n[previewyoutube=K_x-S4YE-jo;full][/previewyoutube]",
+    "raw": {
+      "gid": "690892955941077793",
+      "clan_steamid": "103582791462563951",
+      "event_name": "Thanks for visiting us at Gamescom 2026!",
+      "event_type": 28,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1788184800,
+      "rtime32_end_time": 1788187260,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"That’s a wrap on another epic Gamescom! Thanks for flying, fighting, and lurking in the shadows with us!\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"a37b5e0168bb18ddde50e91d082bda80b0ea9c18.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}",
+      "announcement_body": {
+        "gid": "690892955941077794",
+        "clanid": "33042543",
+        "posterid": "0",
+        "headline": "Thanks for visiting us at Gamescom 2026!",
+        "posttime": 1788184815,
+        "updatetime": 1788184815,
+        "body": "[h1]That’s a wrap on another epic Gamescom! Thanks for flying, fighting, and lurking in the shadows with us![/h1]\n \n[h2]🩸 [url=https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/][b]The Blood of Dawnwalker[/b][/url] | [i]September 3rd[/i]\n🛩️ [url=https://store.steampowered.com/app/2288340/ACE_COMBAT_8_WINGS_OF_THEVE/][b]ACE COMBAT 8: WINGS OF THEVE[/b][/url] | [i]October 2nd[/i]\n⚡ [url=https://store.steampowered.com/app/1857810/DRAGON_BALL_XENOVERSE_3/][b]DRAGON BALL XENOVERSE 3[/b][/url] | [i]2027[/i][/h2]\n\n[previewyoutube=K_x-S4YE-jo;full][/previewyoutube]",
+        "commentcount": 0,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "586184554739644559",
+        "event_gid": "690892955941077793",
+        "voteupcount": 28,
+        "votedowncount": 0,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 0,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "586184554739644559",
+      "rtime32_last_modified": 1788219632,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1788183611,
+      "votes_up": 28,
+      "votes_down": 0,
+      "comment_type": "ForumTopic",
+      "gidfeature": "2518023667595816241",
+      "gidfeature2": "586184554739644559",
+      "video_preview_type": "youtube",
+      "video_preview_id": "K_x-S4YE-jo",
+      "clan_steamid_original": "103582791462563951"
+    }
+  },
+  {
+    "index": 3,
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
+    "group_id": 33042543,
+    "event_id": "690892955941077490",
+    "app_id": "",
+    "source_title": "Discover our Gamescom 2026 booth!",
+    "subtitle": "see announcement body",
+    "event_type": 28,
+    "event_type_name": "",
+    "start_time_raw": "1787939400",
+    "end_time_raw": "1787942400",
+    "start_time": "2026-08-28 17:50:00",
+    "end_time": "2026-08-28 18:40:00",
+    "start_date": "2026-08-28",
+    "end_date": "2026-08-28",
+    "posttime_raw": "1787939420",
+    "updatetime_raw": "1787939420",
+    "url": "https://store.steampowered.com/news/group/33042543/view/690892955941077490?l=english",
+    "body_text": "Come visit us in Hall 6.1 and immerse yourself in the worlds of DRAGON BALL XENOVERSE 3, The Blood of Dawnwalker, and ACE COMBAT 8: WINGS OF THEVE.\nhttps://store.steampowered.com/app/1857810/DRAGON_BALL_XENOVERSE_3/\nhttps://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/\nhttps://store.steampowered.com/app/2288340/ACE_COMBAT_8_WINGS_OF_THEVE/",
+    "body_raw": "[h2]Come visit us in [b]Hall 6.1[/b] and immerse yourself in the worlds of [i]DRAGON BALL XENOVERSE 3[/i], [i]The Blood of Dawnwalker[/i], and [i]ACE COMBAT 8: WINGS OF THEVE[/i].[/h2]\n\n[previewyoutube=821smT3yTT4;full][/previewyoutube]\n\nhttps://store.steampowered.com/app/1857810/DRAGON_BALL_XENOVERSE_3/\n\nhttps://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/\n\nhttps://store.steampowered.com/app/2288340/ACE_COMBAT_8_WINGS_OF_THEVE/\n\n",
+    "raw": {
+      "gid": "690892955941077490",
+      "clan_steamid": "103582791462563951",
+      "event_name": "Discover our Gamescom 2026 booth!",
+      "event_type": 28,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1787939400,
+      "rtime32_end_time": 1787942400,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"Come visit us in Hall 6.1 and immerse yourself in the worlds of DRAGON BALL XENOVERSE 3, The Blood of Dawnwalker, and ACE COMBAT 8: WINGS OF THEVE.\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"e979dc8aa049d1e6265e28154a134b5dab4e47ec.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}",
+      "announcement_body": {
+        "gid": "690892955941077491",
+        "clanid": "33042543",
+        "posterid": "0",
+        "headline": "Discover our Gamescom 2026 booth!",
+        "posttime": 1787939420,
+        "updatetime": 1787939420,
+        "body": "[h2]Come visit us in [b]Hall 6.1[/b] and immerse yourself in the worlds of [i]DRAGON BALL XENOVERSE 3[/i], [i]The Blood of Dawnwalker[/i], and [i]ACE COMBAT 8: WINGS OF THEVE[/i].[/h2]\n\n[previewyoutube=821smT3yTT4;full][/previewyoutube]\n\nhttps://store.steampowered.com/app/1857810/DRAGON_BALL_XENOVERSE_3/\n\nhttps://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/\n\nhttps://store.steampowered.com/app/2288340/ACE_COMBAT_8_WINGS_OF_THEVE/\n\n",
+        "commentcount": 0,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "586184264603929754",
+        "event_gid": "690892955941077490",
+        "voteupcount": 28,
+        "votedowncount": 0,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 0,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "586184264603929754",
+      "rtime32_last_modified": 1788209515,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1787938838,
+      "votes_up": 28,
+      "votes_down": 0,
+      "comment_type": "ForumTopic",
+      "gidfeature": "2518023667595816241",
+      "gidfeature2": "586184264603929754",
+      "video_preview_type": "youtube",
+      "video_preview_id": "821smT3yTT4",
+      "clan_steamid_original": "103582791462563951"
+    }
+  },
+  {
+    "index": 4,
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
+    "group_id": 33042543,
     "event_id": "677378985461547178",
     "app_id": "",
     "source_title": "Join us at Gamescom 2026!",
@@ -44,7 +304,7 @@
         "posttime": 1784707254,
         "updatetime": 1784710937,
         "body": "[h2]It's time to reveal the games we'll be bringing to Gamescom 2026![/h2]\n\n[h1][b]🔥 [url=https://store.steampowered.com/app/1857810/DRAGON_BALL_XENOVERSE_3/]DRAGON BALL XENOVERSE 3[/url]\n\n🌙 [url=https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/]The Blood of Dawnwalker[/url]\n\n✈️ [url=https://store.steampowered.com/app/2288340/ACE_COMBAT_8_WINGS_OF_THEVE/]ACE COMBAT 8: WINGS OF THEVE[/url][/b][/h1]\n\n[h3][i][b]When?[/b][/i] 26-30th August 2026\n[i][b]Where?[/b][/i] Koelnmesse, Cologne, Germany – Bandai Namco Booth – Hall 6\n\n[i]Find out more on [b][url=https://bnent.eu/Gamescom-2026]our dedicated Gamescom 2026 page[/url][/b][/i][/h3]\n\n[url=bnent.eu/Gamescom-2026][img]{STEAM_CLAN_IMAGE}/33042543/e979dc8aa049d1e6265e28154a134b5dab4e47ec.png[/img][/url]",
-        "commentcount": 0,
+        "commentcount": 1,
         "tags": [
           "curator",
           "curator_public",
@@ -54,7 +314,7 @@
         "hidden": 0,
         "forum_topic_id": "585055193116215691",
         "event_gid": "677378985461547178",
-        "voteupcount": 41,
+        "voteupcount": 42,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -67,7 +327,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "585055193116215691",
-      "rtime32_last_modified": 1786865258,
+      "rtime32_last_modified": 1787633814,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -76,7 +336,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1784705070,
-      "votes_up": 41,
+      "votes_up": 42,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -85,7 +345,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 5,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -139,7 +399,7 @@
         "hidden": 0,
         "forum_topic_id": "563661652036196847",
         "event_gid": "667243351111635475",
-        "voteupcount": 48,
+        "voteupcount": 49,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -152,7 +412,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "563661652036196847",
-      "rtime32_last_modified": 1786899851,
+      "rtime32_last_modified": 1787586458,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -161,7 +421,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1783338792,
-      "votes_up": 48,
+      "votes_up": 49,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -170,7 +430,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 6,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -255,7 +515,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 7,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -336,7 +596,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 8,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -422,7 +682,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 9,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -507,7 +767,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 10,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -592,7 +852,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 11,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -673,7 +933,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 12,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -758,7 +1018,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 13,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -843,7 +1103,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 14,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -897,7 +1157,7 @@
         "hidden": 0,
         "forum_topic_id": "760680996704218782",
         "event_gid": "532120880970468803",
-        "voteupcount": 124,
+        "voteupcount": 125,
         "votedowncount": 8,
         "ban_check_result": 0,
         "banned": 0
@@ -910,7 +1170,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "760680996704218782",
-      "rtime32_last_modified": 1778333433,
+      "rtime32_last_modified": 1788215147,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1418701,
@@ -919,7 +1179,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 124,
+      "votes_up": 125,
       "votes_down": 8,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -928,7 +1188,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 15,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1013,7 +1273,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 16,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1098,7 +1358,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 17,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1183,7 +1443,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 18,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1268,7 +1528,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 19,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1353,7 +1613,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 20,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1434,7 +1694,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 21,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1519,7 +1779,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 22,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1604,7 +1864,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 23,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1689,7 +1949,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 24,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1774,7 +2034,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 25,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1859,7 +2119,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 26,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1944,7 +2204,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 27,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2029,7 +2289,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 28,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2114,7 +2374,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 29,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2199,7 +2459,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 30,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2284,7 +2544,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 31,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2369,7 +2629,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 32,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2454,7 +2714,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 33,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2535,7 +2795,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 34,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2620,7 +2880,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 35,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2705,7 +2965,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 36,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2786,7 +3046,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 37,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2871,7 +3131,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 38,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2952,7 +3212,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 39,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3037,7 +3297,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 40,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3122,7 +3382,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 41,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3207,7 +3467,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 42,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3292,7 +3552,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 43,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3377,7 +3637,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 44,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3462,7 +3722,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 45,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3547,7 +3807,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 46,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3632,7 +3892,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 47,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3717,7 +3977,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 48,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3800,7 +4060,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 49,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3885,7 +4145,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 50,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3970,7 +4230,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 51,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4055,7 +4315,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 52,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4140,7 +4400,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 53,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4225,7 +4485,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 54,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4310,7 +4570,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 55,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4397,7 +4657,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 56,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4482,7 +4742,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 57,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4567,7 +4827,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 58,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4652,7 +4912,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 59,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4737,7 +4997,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 60,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4822,7 +5082,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 61,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4907,7 +5167,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 62,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4992,7 +5252,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 63,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5075,7 +5335,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 64,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5160,7 +5420,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 65,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5245,7 +5505,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 66,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5330,7 +5590,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 67,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5415,7 +5675,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 68,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5500,7 +5760,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 69,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5585,7 +5845,7 @@
     }
   },
   {
-    "index": 67,
+    "index": 70,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5670,7 +5930,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 71,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5755,7 +6015,7 @@
     }
   },
   {
-    "index": 69,
+    "index": 72,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5838,7 +6098,7 @@
     }
   },
   {
-    "index": 70,
+    "index": 73,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5921,7 +6181,7 @@
     }
   },
   {
-    "index": 71,
+    "index": 74,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6007,7 +6267,7 @@
     }
   },
   {
-    "index": 72,
+    "index": 75,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6090,7 +6350,7 @@
     }
   },
   {
-    "index": 73,
+    "index": 76,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6175,7 +6435,7 @@
     }
   },
   {
-    "index": 74,
+    "index": 77,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6260,7 +6520,7 @@
     }
   },
   {
-    "index": 75,
+    "index": 78,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6345,7 +6605,7 @@
     }
   },
   {
-    "index": 76,
+    "index": 79,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6431,7 +6691,7 @@
     }
   },
   {
-    "index": 77,
+    "index": 80,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6514,7 +6774,7 @@
     }
   },
   {
-    "index": 78,
+    "index": 81,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6597,7 +6857,7 @@
     }
   },
   {
-    "index": 79,
+    "index": 82,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6682,7 +6942,7 @@
     }
   },
   {
-    "index": 80,
+    "index": 83,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6767,7 +7027,7 @@
     }
   },
   {
-    "index": 81,
+    "index": 84,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6852,7 +7112,7 @@
     }
   },
   {
-    "index": 82,
+    "index": 85,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6937,7 +7197,7 @@
     }
   },
   {
-    "index": 83,
+    "index": 86,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7022,7 +7282,7 @@
     }
   },
   {
-    "index": 84,
+    "index": 87,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7107,7 +7367,7 @@
     }
   },
   {
-    "index": 85,
+    "index": 88,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7192,7 +7452,7 @@
     }
   },
   {
-    "index": 86,
+    "index": 89,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7277,7 +7537,7 @@
     }
   },
   {
-    "index": 87,
+    "index": 90,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,

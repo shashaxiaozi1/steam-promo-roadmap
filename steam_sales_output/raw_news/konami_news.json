@@ -4,6 +4,91 @@
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
+    "event_id": "669500224005210872",
+    "app_id": "",
+    "source_title": "Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1787878680",
+    "end_time_raw": "1788220800",
+    "start_time": "2026-08-28 00:58:00",
+    "end_time": "2026-09-01 00:00:00",
+    "start_date": "2026-08-28",
+    "end_date": "2026-09-01",
+    "posttime_raw": "1787878691",
+    "updatetime_raw": "1787878691",
+    "url": "https://store.steampowered.com/news/group/39026134/view/669500224005210872?l=english",
+    "body_text": "Duelists from all over the world have gathered in Ariake, Japan to compete in the Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026.​​See Duelists climb from the start of the event on August 28 JST all the way to the Championship Matches on August 30 JST. ​Livestreams start each day at 9:00 AM JST from August 28 – August 30.​​The event is scheduled to take place across 4 categories between the Yu-Gi-Oh! TRADING CARD GAME, Yu-Gi-Oh! DUEL LINKS (SPEED DUELformat), Yu-Gi-OH! DUEL LINKS (RUSH DUEL format) and Yu-Gi-Oh! MASTER DUEL.​​Root for your favorite Duelists and don’t forget to claim rewards in Yu-Gi-Oh! MASTER DUEL to celebrate the WORLD CHAMPIONSHIP 2026! ​​To celebrate the Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026 and to thank all of our players for their continued support, we will be holding aspecial login bonus campaign during the event period. ​​By logging in you can obtain a specially illustrated Blue-Eyes Ultimate Dragon (Royal Finish), Polymerization (Normal Finish), as well astickets that can be used to open selected card packs.​​Duelists can also purchase the WORLD CHAMPIONSHIP 2026 Commemorative set which includes 2 UR card guaranteed! ​",
+    "body_raw": "[p]Duelists from all over the world have gathered in Ariake, Japan to compete in the Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026.​[/p][p]​[/p][p]See Duelists climb from the start of the event on August 28 JST all the way to the Championship Matches on August 30 JST. ​[/p][p]Livestreams start each day at 9:00 AM JST from August 28 – August 30.​[/p][p]​[/p][p]The event is scheduled to take place across 4 categories between the Yu-Gi-Oh! TRADING CARD GAME, [i]Yu-Gi-Oh! DUEL LINKS (SPEED DUELformat), Yu-Gi-OH! DUEL LINKS (RUSH DUEL format) [/i]and [i]Yu-Gi-Oh! MASTER DUEL.[/i]​[/p][p]​[/p][p]Root for your favorite Duelists and don’t forget to claim rewards in [i]Yu-Gi-Oh! MASTER DUEL [/i]to celebrate the WORLD CHAMPIONSHIP 2026! ​[/p][p]​[/p][p]To celebrate the Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026 and to thank all of our players for their continued support, we will be holding aspecial login bonus campaign during the event period. ​[/p][p]​[/p][p]By logging in you can obtain a specially illustrated [b]Blue-Eyes Ultimate Dragon[/b] (Royal Finish), [b]Polymerization [/b](Normal Finish), as well astickets that can be used to open selected card packs.​[/p][p]​[img src=\"{STEAM_CLAN_IMAGE}/39026134/16419fed8d3676b4504f1aa31aa522a149a9c97f.png\"][/img][/p][p]Duelists can also purchase the WORLD CHAMPIONSHIP 2026 Commemorative set which includes 2 UR card guaranteed! ​[/p]",
+    "raw": {
+      "gid": "669500224005210872",
+      "clan_steamid": "103582791468547542",
+      "event_name": "Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1787878680,
+      "rtime32_end_time": 1788220800,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[\"The Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026 Is Here!​\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"Tune in from August 28 – 30 for High-Level Dueling Action​\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"0b6aa668651a9bbaf9f5e4f1f2b01316e16a8719.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"cff8cd1f067433cc1902a5155fe74e3ae0ee8ca5.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":true,\"sale_show_creator\":true,\"sale_sections\":[{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"text_section\",\"unique_id\":41464,\"internal_section_data\":null,\"text_section_contents\":[\"Duelists from all over the world have gathered in Ariake, Japan to compete in the Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026.​\\n\\nSee Duelists climb from the start of the event on August 28 JST all the way to the Championship Matches on August 30 JST. ​\\n\\nLivestreams start each day at 9:00 AM JST from August 28 – August 30.​\\n\\nThe event is scheduled to take place across 4 categories between the Yu-Gi-Oh! TRADING CARD GAME, [i]Yu-Gi-Oh! DUEL LINKS[/i] (SPEED DUELformat), [i]Yu-Gi-OH! DUEL LINKS[/i] (RUSH DUEL format) and [i]Yu-Gi-Oh! MASTER DUEL[/i].\"],\"collapse_header_space\":true,\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(35, 67, 78, 1)\",\"border_color\":\"rgba(213, 187, 90, 1)\",\"border_width\":1},{\"capsules\":[{\"id\":1449850,\"type\":\"game\"},{\"id\":601510,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":56926,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":1,\"show_as_carousel\":true,\"single_item_style\":\"library\",\"capsule_style_per_row_array\":null},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":73688,\"internal_section_data\":null,\"curator_clan_id\":41401724}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"675d4a7e16a8d669fc65ed61219a55569328f1bd.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"769528405a3bc7df74dbb5ec2b5e879171d3903e.jpg\",\"db9a6e4645606bf75bef12c06b684633a351300f.jpg\",\"e739542f71c2793e9c2d0df0292e2105f5a11759.jpg\",\"77ebdc62beb5941af5999b7836425914a2210fac.jpg\",\"9c1ff10502d65752fa7337307f4772c9a30df7fd.jpg\",\"38cd14be77552b6412090bd2fa3420a837550b26.jpg\",\"ca513c5a81925426afc2877d8d7b2f139f35eebb.jpg\",\"dd17c744fdbb9096360303f7636bfb6fa64e79dc.jpg\",\"19cb98aa39e93acb7fa0b1774148a893a381f839.jpg\",\"3334d8c853afdcfb32e925f50123ecc17978382d.jpg\",\"1e37b6833ded3c4507f324cf9bc71db2eb373585.jpg\",\"11661a0272f72d8a210df147cb56434032c01277.jpg\",\"b2b8b7e01f30b09ad68197e9a1e8ce4b159a3097.jpg\",\"6a29b960e1164abce52c0d905d6a559420820ec4.jpg\",\"01bb33ae3aec44c3baa1e789f444f736cbe36aa7.jpg\",\"4907f523274b3752bc6f1dd0978e3d358ee08698.jpg\",\"8e7325de88bc306d2af1c892d3f4c3cf4a698e56.jpg\",\"53cf292adedffd069404aec941a7159e5da93874.jpg\",\"1ffe074d6904708c3a551aa7ea01a73fbdf32602.jpg\",\"a606c28ed685b0c191aac559fcb92a919e572698.jpg\",\"3fa5985b685284ebafd8dff089339bcaedaec756.jpg\",\"3bc43bdbe946d3bdd92f1e8a681be476cdb69344.jpg\",\"9948d23d9b7bf3addacedae96808dd1b9f15904a.jpg\",\"45772c9ebdceb72de35165f328d6763cb3cac4fa.jpg\",\"80627d244fc4155ac88b7fd5bf9f39df9ae9030d.jpg\",null,\"bdd8dc19703ce4d7de2c1b9ef2e3e2b11239310b.jpg\",\"c9d5fa881517c3668f737517f7f80e2ce46d0e26.jpg\",\"e6acd68510b8aa30316e0e1610352952f7f025eb.jpg\",null,\"887c8c0339d67418b006923f62e10309aee899ba.jpg\",null],\"localized_sale_product_mobile_banner\":[\"f9e3098d65db6f2fccc48c4f85f0b20c3ee3bec7.jpg\",\"8675e218ac2dce0055fc34f2e56f877ade9bb86b.jpg\",\"1f0cd76c5e17e74a73c6f276727bce7608ad6339.jpg\",\"2bc1ea488fc43015fe77005c274684a983eb39dc.jpg\",\"4821d2bc2dc75976ddf7c5d3f08ca661ec308c9c.jpg\",\"acdac5fde5695f46bf9a7b222192383d7652b84e.jpg\",\"a4028294cb35680b4db68722bb0f186ae2e9c3cc.jpg\",\"fed6fbd021c6bbab2e5035b378d657fbbc3b0e65.jpg\",\"7eaaaadd2aa7c1aad2829b6ac1b6ff03674d8eae.jpg\",\"cc5c72b12e76ea08b96dfaf8c81d0b9d8816a594.jpg\",\"4f8fefa0540ef98bad64287453ea370e6c646122.jpg\",\"25c0204560e24690bd979144f3cf026274876f99.jpg\",\"fa011616bf96894c35609e554579fc73e1a7d161.jpg\",\"abd2a8856c8eef75cd1c9d17ec2a479183012e99.jpg\",\"06b29640152198f2c615b200bff5fa177ef47a42.jpg\",\"53962827e9d39d1a5a4ec18871e417f2e000e003.jpg\",\"51a4e382a62f2bd01fccb15a2a1312e824d773ee.jpg\",\"486df375cc521ab9721467b2d1dea28789b4d644.jpg\",\"688b8fdd46b785baa6ef9676357b52664ae775b2.jpg\",\"5a07fcf749bc9288ad13900bf75d75382ab7d1e4.jpg\",\"5f6649204adfd50e57fba781df49e6d152248461.jpg\",\"a37e7c3960a03d8e48902c78a484dfee0d304f20.jpg\",\"5bdc3d9f44de220c867f948a3f378f971b75eb24.jpg\",\"ee79779dee662562d4531ac1e22a90b21581e7ab.jpg\",\"f4106b86ac4192a348815a9fd8faaad40027b7e5.jpg\",null,\"85eeca4e0da54f28e18d9bffe5f704a101227537.jpg\",\"4b6a1ea8a0b4bf55589cee45af23e6d442baeb8a.jpg\",\"b0266dad7165a493e146c24595ac4e38cdddb5a2.jpg\",null,\"f5cdd00f8a2cfb7d10322eaea2e9436e41b4d22f.jpg\",null],\"localized_sale_logo\":[\"c1eb31b44ceb6665645a35528503ef47b3feee0e.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(0, 0, 0, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":true,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_simple\",\"localized_broadcast_title\":[\"Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[1728378144],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"associated_appid\":1449850,\"broadcast_language\":[0],\"broadcast_priority\":[\"primary\"],\"broadcast_display_wide_player\":true,\"sale_vanity_id\":\"WorldChampionship2026\",\"sale_presenters\":[{\"unique_id\":33905,\"localized_presenter_name\":[\"KONAMI\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/Konami/?curator_clanid=39026134\"}],\"sale_background_repeat\":\"no-repeat\",\"sale_carousel_arrow_style\":\"single\",\"sale_carousel_breadcrumb_style\":\"pill\",\"sale_background_img_groups\":{\"enabled\":false,\"groups\":[{\"background_id\":74604,\"localized_background_art\":[],\"num_sections\":1,\"scaling_setting\":\"cover\",\"gradient_setting\":\"top-to-bottom\"}],\"last_group_until_cover_section_until_end\":false},\"sale_vanity_id_valve_approved_for_sale_subpath\":true}",
+      "announcement_body": {
+        "gid": "669500224005210873",
+        "clanid": "39026134",
+        "posterid": "0",
+        "headline": "Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026",
+        "posttime": 1787878691,
+        "updatetime": 1787878691,
+        "body": "[p]Duelists from all over the world have gathered in Ariake, Japan to compete in the Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026.​[/p][p]​[/p][p]See Duelists climb from the start of the event on August 28 JST all the way to the Championship Matches on August 30 JST. ​[/p][p]Livestreams start each day at 9:00 AM JST from August 28 – August 30.​[/p][p]​[/p][p]The event is scheduled to take place across 4 categories between the Yu-Gi-Oh! TRADING CARD GAME, [i]Yu-Gi-Oh! DUEL LINKS (SPEED DUELformat), Yu-Gi-OH! DUEL LINKS (RUSH DUEL format) [/i]and [i]Yu-Gi-Oh! MASTER DUEL.[/i]​[/p][p]​[/p][p]Root for your favorite Duelists and don’t forget to claim rewards in [i]Yu-Gi-Oh! MASTER DUEL [/i]to celebrate the WORLD CHAMPIONSHIP 2026! ​[/p][p]​[/p][p]To celebrate the Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026 and to thank all of our players for their continued support, we will be holding aspecial login bonus campaign during the event period. ​[/p][p]​[/p][p]By logging in you can obtain a specially illustrated [b]Blue-Eyes Ultimate Dragon[/b] (Royal Finish), [b]Polymerization [/b](Normal Finish), as well astickets that can be used to open selected card packs.​[/p][p]​[img src=\"{STEAM_CLAN_IMAGE}/39026134/16419fed8d3676b4504f1aa31aa522a149a9c97f.png\"][/img][/p][p]Duelists can also purchase the WORLD CHAMPIONSHIP 2026 Commemorative set which includes 2 UR card guaranteed! ​[/p]",
+        "commentcount": 0,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "591813764140154321",
+        "event_gid": "669500224005210872",
+        "voteupcount": 26,
+        "votedowncount": 2,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1787878680,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "591813764140154321",
+      "rtime32_last_modified": 1788150925,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 1451698,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1787270885,
+      "votes_up": 26,
+      "votes_down": 2,
+      "comment_type": "ForumTopic",
+      "gidfeature": "3056237435832679367",
+      "gidfeature2": "591813764140154321",
+      "clan_steamid_original": "103582791468547542"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "Konami",
+    "publisher_slug": "konami",
+    "group_id": 39026134,
     "event_id": "713407148452742755",
     "app_id": "",
     "source_title": "“KICK BUDS” Playtest Begins!",
@@ -54,8 +139,8 @@
         "hidden": 0,
         "forum_topic_id": "583929927904097913",
         "event_gid": "713407148452742755",
-        "voteupcount": 10,
-        "votedowncount": 0,
+        "voteupcount": 12,
+        "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -67,7 +152,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "583929927904097913",
-      "rtime32_last_modified": 1785919036,
+      "rtime32_last_modified": 1788150927,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -76,8 +161,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1784602182,
-      "votes_up": 10,
-      "votes_down": 0,
+      "votes_up": 12,
+      "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "583929927904097913",
@@ -87,7 +172,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 3,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -141,7 +226,7 @@
         "hidden": 0,
         "forum_topic_id": "594062392368951304",
         "event_gid": "677377899168268308",
-        "voteupcount": 64,
+        "voteupcount": 66,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -154,7 +239,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "594062392368951304",
-      "rtime32_last_modified": 1786224683,
+      "rtime32_last_modified": 1788150931,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1445207,
@@ -163,7 +248,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1783664209,
-      "votes_up": 64,
+      "votes_up": 66,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -172,7 +257,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 4,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -226,7 +311,7 @@
         "hidden": 0,
         "forum_topic_id": "573793658843820478",
         "event_gid": "713402709657518101",
-        "voteupcount": 22,
+        "voteupcount": 23,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -239,7 +324,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "573793658843820478",
-      "rtime32_last_modified": 1786852694,
+      "rtime32_last_modified": 1788150938,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1438083,
@@ -248,7 +333,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1779859911,
-      "votes_up": 22,
+      "votes_up": 23,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -257,7 +342,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 5,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -311,7 +396,7 @@
         "hidden": 0,
         "forum_topic_id": "840627927552984899",
         "event_gid": "540009684293124137",
-        "voteupcount": 33,
+        "voteupcount": 34,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -324,7 +409,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "840627927552984899",
-      "rtime32_last_modified": 1785059220,
+      "rtime32_last_modified": 1788150941,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1430932,
@@ -333,7 +418,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1775610856,
-      "votes_up": 33,
+      "votes_up": 34,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -342,7 +427,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 6,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -396,7 +481,7 @@
         "hidden": 0,
         "forum_topic_id": "806849193885849330",
         "event_gid": "498350300536504373",
-        "voteupcount": 43,
+        "voteupcount": 44,
         "votedowncount": 5,
         "ban_check_result": 0,
         "banned": 0
@@ -409,7 +494,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "806849193885849330",
-      "rtime32_last_modified": 1785059223,
+      "rtime32_last_modified": 1788150945,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1429430,
@@ -418,7 +503,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 43,
+      "votes_up": 44,
       "votes_down": 5,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -427,7 +512,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 7,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -481,7 +566,7 @@
         "hidden": 0,
         "forum_topic_id": "809099128025037713",
         "event_gid": "498350753733149607",
-        "voteupcount": 15,
+        "voteupcount": 16,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -494,7 +579,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "809099128025037713",
-      "rtime32_last_modified": 1785059224,
+      "rtime32_last_modified": 1788150948,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -503,7 +588,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 15,
+      "votes_up": 16,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -512,7 +597,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 8,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -566,7 +651,7 @@
         "hidden": 0,
         "forum_topic_id": "809097865497536567",
         "event_gid": "505102986181083398",
-        "voteupcount": 20,
+        "voteupcount": 22,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -579,7 +664,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "809097865497536567",
-      "rtime32_last_modified": 1785059226,
+      "rtime32_last_modified": 1788215019,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1423980,
@@ -588,7 +673,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 20,
+      "votes_up": 22,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -597,7 +682,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 9,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -651,8 +736,8 @@
         "hidden": 0,
         "forum_topic_id": "809097865497429303",
         "event_gid": "510733750483550849",
-        "voteupcount": 12,
-        "votedowncount": 1,
+        "voteupcount": 13,
+        "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -664,7 +749,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "809097865497429303",
-      "rtime32_last_modified": 1785059229,
+      "rtime32_last_modified": 1788150958,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -673,8 +758,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 12,
-      "votes_down": 1,
+      "votes_up": 13,
+      "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "809097865497429303",
@@ -684,7 +769,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 10,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -728,7 +813,7 @@
         "posttime": 1770956380,
         "updatetime": 1770956380,
         "body": "[p][b]Fear the truth behind the static. [/b] [/p][p align=\"justify\"] [/p][p align=\"justify\"][b]SILENT HILL: Townfall arrives in 2026 [/b] [/p][p align=\"justify\"][b]Wishlist now on Steam and get ready for release later this year. [/b] [/p][p align=\"justify\"][dynamiclink href=\"https://store.steampowered.com/app/1636440/SILENT_HILL_Townfall/\"][/dynamiclink][/p][p align=\"justify\"] [b]Simon Ordell is called back to the island of St. Amelia to ‘put things right’, encountering a town lying quiet beneath a heavy fog, seemingly abandoned but not at rest.[/b] [/p][p align=\"justify\"][b] [/b] [/p][p align=\"justify\"][b]A full-length, self-contained psychological horror set in an isolated corner of Scotland, 1996.[/b] [/p][p align=\"justify\"][img src=\"{STEAM_CLAN_IMAGE}/45986206/100531989c6eb2d8333de7c2a4686cf3fd5b7e31.jpg\"][/img]   [/p][p][/p][p align=\"justify\"][b]Watch the Official Reveal Trailer now and face a new nightmare.[/b] [/p][previewyoutube=\"ROgBBbPVM0c;full\"][/previewyoutube]",
-        "commentcount": 17,
+        "commentcount": 18,
         "tags": [
           "curator",
           "curator_public",
@@ -738,8 +823,8 @@
         "hidden": 0,
         "forum_topic_id": "748296282477440184",
         "event_gid": "589544308975075533",
-        "voteupcount": 106,
-        "votedowncount": 7,
+        "voteupcount": 107,
+        "votedowncount": 8,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -751,7 +836,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "748296282477440184",
-      "rtime32_last_modified": 1785059231,
+      "rtime32_last_modified": 1788150961,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -760,8 +845,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 106,
-      "votes_down": 7,
+      "votes_up": 107,
+      "votes_down": 8,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "748296282477440184",
@@ -769,7 +854,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 11,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -823,7 +908,7 @@
         "hidden": 0,
         "forum_topic_id": "758429196899979012",
         "event_gid": "493842084753572671",
-        "voteupcount": 128,
+        "voteupcount": 129,
         "votedowncount": 4,
         "ban_check_result": 0,
         "banned": 0
@@ -836,7 +921,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "758429196899979012",
-      "rtime32_last_modified": 1785059234,
+      "rtime32_last_modified": 1788150965,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -845,7 +930,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 128,
+      "votes_up": 129,
       "votes_down": 4,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -856,7 +941,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 12,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -910,7 +995,7 @@
         "hidden": 0,
         "forum_topic_id": "767436134178493910",
         "event_gid": "491588382403592199",
-        "voteupcount": 52,
+        "voteupcount": 53,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -923,7 +1008,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "767436134178493910",
-      "rtime32_last_modified": 1773779536,
+      "rtime32_last_modified": 1788150968,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1417968,
@@ -932,7 +1017,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 52,
+      "votes_up": 53,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -941,7 +1026,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 13,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -995,7 +1080,7 @@
         "hidden": 0,
         "forum_topic_id": "767435762118546191",
         "event_gid": "509604049186719368",
-        "voteupcount": 28,
+        "voteupcount": 29,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1008,7 +1093,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "767435762118546191",
-      "rtime32_last_modified": 1773162075,
+      "rtime32_last_modified": 1788150970,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -1017,7 +1102,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 28,
+      "votes_up": 29,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -1026,7 +1111,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 14,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1080,7 +1165,7 @@
         "hidden": 0,
         "forum_topic_id": "689744229450218223",
         "event_gid": "519731440617783534",
-        "voteupcount": 28,
+        "voteupcount": 29,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1093,7 +1178,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "689744229450218223",
-      "rtime32_last_modified": 1773779759,
+      "rtime32_last_modified": 1788150974,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1412074,
@@ -1102,7 +1187,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 28,
+      "votes_up": 29,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -1111,7 +1196,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 15,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1165,7 +1250,7 @@
         "hidden": 0,
         "forum_topic_id": "678483003219014068",
         "event_gid": "521980066604778348",
-        "voteupcount": 50,
+        "voteupcount": 51,
         "votedowncount": 10,
         "ban_check_result": 0,
         "banned": 0
@@ -1178,7 +1263,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "678483003219014068",
-      "rtime32_last_modified": 1773779896,
+      "rtime32_last_modified": 1788150977,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1405716,
@@ -1187,7 +1272,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 50,
+      "votes_up": 51,
       "votes_down": 10,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -1196,7 +1281,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 16,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1250,7 +1335,7 @@
         "hidden": 0,
         "forum_topic_id": "598538509149741329",
         "event_gid": "538864124750200848",
-        "voteupcount": 36,
+        "voteupcount": 37,
         "votedowncount": 5,
         "ban_check_result": 0,
         "banned": 0
@@ -1263,7 +1348,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "598538509149741329",
-      "rtime32_last_modified": 1771612422,
+      "rtime32_last_modified": 1788150980,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1398426,
@@ -1272,7 +1357,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 36,
+      "votes_up": 37,
       "votes_down": 5,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -1281,7 +1366,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 17,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1335,7 +1420,7 @@
         "hidden": 0,
         "forum_topic_id": "603039786130824642",
         "event_gid": "538862856947368193",
-        "voteupcount": 20,
+        "voteupcount": 21,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -1348,7 +1433,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "603039786130824642",
-      "rtime32_last_modified": 1771612424,
+      "rtime32_last_modified": 1788150982,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1396962,
@@ -1357,7 +1442,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 20,
+      "votes_up": 21,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -1366,7 +1451,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 18,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1420,7 +1505,7 @@
         "hidden": 0,
         "forum_topic_id": "603038271247909386",
         "event_gid": "538860954058752322",
-        "voteupcount": 10,
+        "voteupcount": 11,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -1433,7 +1518,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "603038271247909386",
-      "rtime32_last_modified": 1771612429,
+      "rtime32_last_modified": 1788150990,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -1442,7 +1527,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 10,
+      "votes_up": 11,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -1451,7 +1536,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 19,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1505,7 +1590,7 @@
         "hidden": 0,
         "forum_topic_id": "603037883163525756",
         "event_gid": "538860954058753769",
-        "voteupcount": 16,
+        "voteupcount": 17,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1518,7 +1603,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "603037883163525756",
-      "rtime32_last_modified": 1771612431,
+      "rtime32_last_modified": 1788150992,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -1527,7 +1612,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 16,
+      "votes_up": 17,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -1536,7 +1621,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 20,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1621,7 +1706,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 21,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1706,7 +1791,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 22,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1791,7 +1876,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 23,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1876,7 +1961,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 24,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1963,7 +2048,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 25,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2048,7 +2133,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 26,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2133,7 +2218,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 27,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2220,7 +2305,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 28,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2307,7 +2392,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 29,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2392,7 +2477,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 30,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2477,7 +2562,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 31,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2562,7 +2647,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 32,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2647,7 +2732,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 33,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2734,7 +2819,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 34,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2819,7 +2904,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 35,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2904,7 +2989,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 36,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2989,7 +3074,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 37,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3074,7 +3159,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 38,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3159,7 +3244,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 39,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3244,7 +3329,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 40,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3329,7 +3414,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 41,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3414,7 +3499,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 42,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3498,7 +3583,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 43,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3583,7 +3668,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 44,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3667,7 +3752,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 45,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3752,7 +3837,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 46,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3837,7 +3922,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 47,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3922,7 +4007,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 48,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4007,7 +4092,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 49,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4092,7 +4177,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 50,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4177,7 +4262,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 51,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4262,7 +4347,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 52,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4347,7 +4432,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 53,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4432,7 +4517,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 54,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4517,7 +4602,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 55,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4602,7 +4687,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 56,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4687,7 +4772,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 57,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4772,7 +4857,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 58,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4857,7 +4942,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 59,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4942,7 +5027,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 60,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5027,7 +5112,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 61,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5112,7 +5197,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 62,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5197,7 +5282,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 63,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5282,7 +5367,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 64,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5367,7 +5452,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 65,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5452,7 +5537,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 66,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5537,7 +5622,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 67,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5622,7 +5707,7 @@
     }
   },
   {
-    "index": 67,
+    "index": 68,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5705,7 +5790,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 69,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
