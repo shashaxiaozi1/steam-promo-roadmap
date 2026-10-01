@@ -4,6 +4,91 @@
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
+    "event_id": "703279123228786830",
+    "app_id": "",
+    "source_title": "Ondeh Ondeh Kaya's Tasty Tale, coming 2027 🥄",
+    "subtitle": "see announcement body",
+    "event_type": 28,
+    "event_type_name": "",
+    "start_time_raw": "1789030800",
+    "end_time_raw": "1789034400",
+    "start_time": "2026-09-10 09:00:00",
+    "end_time": "2026-09-10 10:00:00",
+    "start_date": "2026-09-10",
+    "end_date": "2026-09-10",
+    "posttime_raw": "1789030817",
+    "updatetime_raw": "1789030872",
+    "url": "https://store.steampowered.com/news/group/33042543/view/703279123228786830?l=english",
+    "body_text": "Taste the tempo in Ondeh Ondeh Kaya's Tasty Tale, coming 2027!\nListen to the world and harness the power of the Ondeh to solve enchanting puzzles and overcome eccentric foes in this charming rhythm and puzzle action-adventure!",
+    "body_raw": "[h2]Taste the tempo in [i]Ondeh Ondeh Kaya's Tasty Tale[/i], coming [b]2027[/b]![/h2]\n\n[h3]Listen to the world and harness the power of the Ondeh to solve enchanting puzzles and overcome eccentric foes in this charming rhythm and puzzle action-adventure![/h3]\n\n[previewyoutube=\"_nDhS_YouCk;full\"][/previewyoutube][p][/p][p][dynamiclink href=\"https://store.steampowered.com/app/4013150/Ondeh_Ondeh_Kayas_Tasty_Tale/\"][/dynamiclink]",
+    "raw": {
+      "gid": "703279123228786830",
+      "clan_steamid": "103582791462563951",
+      "event_name": "Ondeh Ondeh Kaya's Tasty Tale, coming 2027 🥄",
+      "event_type": 28,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1789030800,
+      "rtime32_end_time": 1789034400,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[\"Taste the Tempo!\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"Listen to the world and harness the power of the Ondeh to solve enchanting puzzles and overcome eccentric foes in this charming rhythm and puzzle action-adventure!\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"441d0bad5fc17daa765db950dca83cd738e0b345.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}",
+      "announcement_body": {
+        "gid": "703279123228786831",
+        "clanid": "33042543",
+        "posterid": "0",
+        "headline": "Ondeh Ondeh Kaya's Tasty Tale, coming 2027 🥄",
+        "posttime": 1789030817,
+        "updatetime": 1789030872,
+        "body": "[h2]Taste the tempo in [i]Ondeh Ondeh Kaya's Tasty Tale[/i], coming [b]2027[/b]![/h2]\n\n[h3]Listen to the world and harness the power of the Ondeh to solve enchanting puzzles and overcome eccentric foes in this charming rhythm and puzzle action-adventure![/h3]\n\n[previewyoutube=\"_nDhS_YouCk;full\"][/previewyoutube][p][/p][p][dynamiclink href=\"https://store.steampowered.com/app/4013150/Ondeh_Ondeh_Kayas_Tasty_Tale/\"][/dynamiclink]",
+        "commentcount": 2,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "617710833111161953",
+        "event_gid": "703279123228786830",
+        "voteupcount": 20,
+        "votedowncount": 2,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1789030800,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "617710833111161953",
+      "rtime32_last_modified": 1790516932,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1789030787,
+      "votes_up": 20,
+      "votes_down": 2,
+      "comment_type": "ForumTopic",
+      "gidfeature": "2518023667595816241",
+      "gidfeature2": "617710833111161953",
+      "clan_steamid_original": "103582791462563951"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
+    "group_id": 33042543,
     "event_id": "706654920914240960",
     "app_id": "",
     "source_title": "Daily Deals: Gundam Franchise Sale",
@@ -44,7 +129,7 @@
         "posttime": 1788196169,
         "updatetime": 1788196169,
         "body": "Daily Deals: Gundam Franchise Sale",
-        "commentcount": 0,
+        "commentcount": 1,
         "tags": [
           "autocreate_promotools",
           "curator",
@@ -55,8 +140,8 @@
         "hidden": 0,
         "forum_topic_id": "586184554739657357",
         "event_gid": "706654920914240960",
-        "voteupcount": 19,
-        "votedowncount": 2,
+        "voteupcount": 59,
+        "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -68,7 +153,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "586184554739657357",
-      "rtime32_last_modified": 1788219012,
+      "rtime32_last_modified": 1790325340,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1452082,
@@ -77,8 +162,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1787591733,
-      "votes_up": 19,
-      "votes_down": 2,
+      "votes_up": 59,
+      "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
       "gidfeature2": "586184554739657357",
@@ -86,7 +171,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 3,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -140,7 +225,7 @@
         "hidden": 0,
         "forum_topic_id": "586184554739644559",
         "event_gid": "690892955941077793",
-        "voteupcount": 28,
+        "voteupcount": 41,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -153,7 +238,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "586184554739644559",
-      "rtime32_last_modified": 1788219632,
+      "rtime32_last_modified": 1789294431,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -162,7 +247,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1788183611,
-      "votes_up": 28,
+      "votes_up": 41,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -173,7 +258,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 4,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -227,7 +312,7 @@
         "hidden": 0,
         "forum_topic_id": "586184264603929754",
         "event_gid": "690892955941077490",
-        "voteupcount": 28,
+        "voteupcount": 30,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -240,7 +325,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "586184264603929754",
-      "rtime32_last_modified": 1788209515,
+      "rtime32_last_modified": 1789082626,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -249,7 +334,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1787938838,
-      "votes_up": 28,
+      "votes_up": 30,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -260,7 +345,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 5,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -314,7 +399,7 @@
         "hidden": 0,
         "forum_topic_id": "585055193116215691",
         "event_gid": "677378985461547178",
-        "voteupcount": 42,
+        "voteupcount": 43,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -327,7 +412,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "585055193116215691",
-      "rtime32_last_modified": 1787633814,
+      "rtime32_last_modified": 1789082627,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -336,7 +421,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1784705070,
-      "votes_up": 42,
+      "votes_up": 43,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -345,7 +430,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 6,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -399,7 +484,7 @@
         "hidden": 0,
         "forum_topic_id": "563661652036196847",
         "event_gid": "667243351111635475",
-        "voteupcount": 49,
+        "voteupcount": 50,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -412,7 +497,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "563661652036196847",
-      "rtime32_last_modified": 1787586458,
+      "rtime32_last_modified": 1789082628,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -421,7 +506,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1783338792,
-      "votes_up": 49,
+      "votes_up": 50,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -430,7 +515,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 7,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -484,7 +569,7 @@
         "hidden": 0,
         "forum_topic_id": "563660559683306070",
         "event_gid": "673996212918028452",
-        "voteupcount": 51,
+        "voteupcount": 54,
         "votedowncount": 12,
         "ban_check_result": 0,
         "banned": 0
@@ -497,7 +582,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "563660559683306070",
-      "rtime32_last_modified": 1785734902,
+      "rtime32_last_modified": 1790325750,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1438869,
@@ -506,7 +591,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1780304501,
-      "votes_up": 51,
+      "votes_up": 54,
       "votes_down": 12,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -515,7 +600,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 8,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -565,7 +650,7 @@
         "hidden": 0,
         "forum_topic_id": "562533727113335203",
         "event_gid": "673994944978879526",
-        "voteupcount": 53,
+        "voteupcount": 54,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -578,7 +663,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "562533727113335203",
-      "rtime32_last_modified": 1784040149,
+      "rtime32_last_modified": 1789082630,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1436494,
@@ -587,7 +672,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1779089721,
-      "votes_up": 53,
+      "votes_up": 54,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -596,7 +681,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 9,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -651,7 +736,7 @@
         "hidden": 0,
         "forum_topic_id": "833873371400817246",
         "event_gid": "490469454386301046",
-        "voteupcount": 67,
+        "voteupcount": 68,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -664,7 +749,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "833873371400817246",
-      "rtime32_last_modified": 1783647258,
+      "rtime32_last_modified": 1789082631,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1435541,
@@ -673,7 +758,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 67,
+      "votes_up": 68,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -682,7 +767,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 10,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -736,7 +821,7 @@
         "hidden": 0,
         "forum_topic_id": "807975131067638491",
         "event_gid": "493847788110483113",
-        "voteupcount": 61,
+        "voteupcount": 62,
         "votedowncount": 8,
         "ban_check_result": 0,
         "banned": 0
@@ -749,7 +834,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "807975131067638491",
-      "rtime32_last_modified": 1782017904,
+      "rtime32_last_modified": 1789212081,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1431588,
@@ -758,7 +843,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1776053955,
-      "votes_up": 61,
+      "votes_up": 62,
       "votes_down": 8,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -767,7 +852,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 11,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -821,7 +906,7 @@
         "hidden": 0,
         "forum_topic_id": "802345327968586642",
         "event_gid": "617697508773068811",
-        "voteupcount": 46,
+        "voteupcount": 47,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -834,7 +919,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "802345327968586642",
-      "rtime32_last_modified": 1782888347,
+      "rtime32_last_modified": 1789212086,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1432014,
@@ -843,7 +928,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1776316057,
-      "votes_up": 46,
+      "votes_up": 47,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -852,7 +937,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 12,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -902,7 +987,7 @@
         "hidden": 0,
         "forum_topic_id": "802344996812520118",
         "event_gid": "519740949754019848",
-        "voteupcount": 63,
+        "voteupcount": 65,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -915,7 +1000,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "802344996812520118",
-      "rtime32_last_modified": 1781818758,
+      "rtime32_last_modified": 1789212068,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1425798,
@@ -924,7 +1009,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 63,
+      "votes_up": 65,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -933,7 +1018,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 13,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -987,7 +1072,7 @@
         "hidden": 0,
         "forum_topic_id": "807971965590717239",
         "event_gid": "538880617623847266",
-        "voteupcount": 62,
+        "voteupcount": 63,
         "votedowncount": 9,
         "ban_check_result": 0,
         "banned": 0
@@ -1000,7 +1085,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "807971965590717239",
-      "rtime32_last_modified": 1782096555,
+      "rtime32_last_modified": 1789082634,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1424869,
@@ -1009,7 +1094,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 62,
+      "votes_up": 63,
       "votes_down": 9,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1018,7 +1103,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 14,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1072,7 +1157,7 @@
         "hidden": 0,
         "forum_topic_id": "801215627149984706",
         "event_gid": "500596849929879931",
-        "voteupcount": 82,
+        "voteupcount": 83,
         "votedowncount": 6,
         "ban_check_result": 0,
         "banned": 0
@@ -1085,7 +1170,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801215627149984706",
-      "rtime32_last_modified": 1782184354,
+      "rtime32_last_modified": 1789082643,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1424650,
@@ -1094,7 +1179,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 82,
+      "votes_up": 83,
       "votes_down": 6,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1103,7 +1188,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 15,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1157,7 +1242,7 @@
         "hidden": 0,
         "forum_topic_id": "760680996704218782",
         "event_gid": "532120880970468803",
-        "voteupcount": 125,
+        "voteupcount": 126,
         "votedowncount": 8,
         "ban_check_result": 0,
         "banned": 0
@@ -1170,7 +1255,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "760680996704218782",
-      "rtime32_last_modified": 1788215147,
+      "rtime32_last_modified": 1789212143,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1418701,
@@ -1179,7 +1264,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 125,
+      "votes_up": 126,
       "votes_down": 8,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1188,7 +1273,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 16,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1273,7 +1358,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 17,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1358,7 +1443,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 18,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1443,7 +1528,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 19,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1497,7 +1582,7 @@
         "hidden": 0,
         "forum_topic_id": "679608596889203356",
         "event_gid": "544498064741632964",
-        "voteupcount": 89,
+        "voteupcount": 90,
         "votedowncount": 12,
         "ban_check_result": 0,
         "banned": 0
@@ -1510,7 +1595,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "679608596889203356",
-      "rtime32_last_modified": 1773779910,
+      "rtime32_last_modified": 1789212225,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1406398,
@@ -1519,7 +1604,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 89,
+      "votes_up": 90,
       "votes_down": 12,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1528,7 +1613,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 20,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1613,7 +1698,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 21,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1694,7 +1779,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 22,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1779,7 +1864,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 23,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1864,7 +1949,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 24,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1918,7 +2003,7 @@
         "hidden": 0,
         "forum_topic_id": "598530977514477507",
         "event_gid": "535473741718618726",
-        "voteupcount": 95,
+        "voteupcount": 96,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -1931,7 +2016,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "598530977514477507",
-      "rtime32_last_modified": 1773416193,
+      "rtime32_last_modified": 1790311463,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1387957,
@@ -1940,7 +2025,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 95,
+      "votes_up": 96,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1949,7 +2034,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 25,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2034,7 +2119,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 26,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2088,7 +2173,7 @@
         "hidden": 0,
         "forum_topic_id": "598525509935077126",
         "event_gid": "535474378243048046",
-        "voteupcount": 145,
+        "voteupcount": 146,
         "votedowncount": 5,
         "ban_check_result": 0,
         "banned": 0
@@ -2101,7 +2186,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "598525509935077126",
-      "rtime32_last_modified": 1773019128,
+      "rtime32_last_modified": 1790441123,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1379242,
@@ -2110,7 +2195,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 145,
+      "votes_up": 146,
       "votes_down": 5,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -2119,7 +2204,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 27,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2204,7 +2289,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 28,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2289,7 +2374,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 29,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2374,7 +2459,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 30,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2459,7 +2544,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 31,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2544,7 +2629,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 32,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2629,7 +2714,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 33,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2714,7 +2799,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 34,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2795,7 +2880,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 35,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2880,7 +2965,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 36,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2965,7 +3050,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 37,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3046,7 +3131,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 38,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3131,7 +3216,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 39,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3212,7 +3297,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 40,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3297,7 +3382,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 41,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3382,7 +3467,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 42,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3467,7 +3552,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 43,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3552,7 +3637,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 44,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3637,7 +3722,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 45,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3722,7 +3807,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 46,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3807,7 +3892,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 47,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3892,7 +3977,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 48,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3977,7 +4062,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 49,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4060,7 +4145,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 50,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4145,7 +4230,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 51,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4230,7 +4315,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 52,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4315,7 +4400,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 53,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4400,7 +4485,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 54,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4485,7 +4570,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 55,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4570,7 +4655,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 56,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4657,7 +4742,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 57,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4742,7 +4827,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 58,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4827,7 +4912,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 59,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4912,7 +4997,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 60,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4997,7 +5082,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 61,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5082,7 +5167,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 62,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5167,7 +5252,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 63,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5252,7 +5337,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 64,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5335,7 +5420,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 65,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5420,7 +5505,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 66,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5505,7 +5590,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 67,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5590,7 +5675,7 @@
     }
   },
   {
-    "index": 67,
+    "index": 68,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5675,7 +5760,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 69,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5760,7 +5845,7 @@
     }
   },
   {
-    "index": 69,
+    "index": 70,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5845,7 +5930,7 @@
     }
   },
   {
-    "index": 70,
+    "index": 71,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5930,7 +6015,7 @@
     }
   },
   {
-    "index": 71,
+    "index": 72,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6015,7 +6100,7 @@
     }
   },
   {
-    "index": 72,
+    "index": 73,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6098,7 +6183,7 @@
     }
   },
   {
-    "index": 73,
+    "index": 74,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6181,7 +6266,7 @@
     }
   },
   {
-    "index": 74,
+    "index": 75,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6267,7 +6352,7 @@
     }
   },
   {
-    "index": 75,
+    "index": 76,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6350,7 +6435,7 @@
     }
   },
   {
-    "index": 76,
+    "index": 77,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6435,7 +6520,7 @@
     }
   },
   {
-    "index": 77,
+    "index": 78,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6520,7 +6605,7 @@
     }
   },
   {
-    "index": 78,
+    "index": 79,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6605,7 +6690,7 @@
     }
   },
   {
-    "index": 79,
+    "index": 80,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6691,7 +6776,7 @@
     }
   },
   {
-    "index": 80,
+    "index": 81,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6774,7 +6859,7 @@
     }
   },
   {
-    "index": 81,
+    "index": 82,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6857,7 +6942,7 @@
     }
   },
   {
-    "index": 82,
+    "index": 83,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6942,7 +7027,7 @@
     }
   },
   {
-    "index": 83,
+    "index": 84,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7027,7 +7112,7 @@
     }
   },
   {
-    "index": 84,
+    "index": 85,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7112,7 +7197,7 @@
     }
   },
   {
-    "index": 85,
+    "index": 86,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7197,7 +7282,7 @@
     }
   },
   {
-    "index": 86,
+    "index": 87,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7282,7 +7367,7 @@
     }
   },
   {
-    "index": 87,
+    "index": 88,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7367,7 +7452,7 @@
     }
   },
   {
-    "index": 88,
+    "index": 89,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7452,7 +7537,7 @@
     }
   },
   {
-    "index": 89,
+    "index": 90,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7537,7 +7622,7 @@
     }
   },
   {
-    "index": 90,
+    "index": 91,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,

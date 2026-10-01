@@ -4,6 +4,91 @@
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
+    "event_id": "681884487904133672",
+    "app_id": "",
+    "source_title": "ATLUS Developer Sale",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1790269200",
+    "end_time_raw": "1790874000",
+    "start_time": "2026-09-24 17:00:00",
+    "end_time": "2026-10-01 17:00:00",
+    "start_date": "2026-09-24",
+    "end_date": "2026-10-01",
+    "posttime_raw": "1790269257",
+    "updatetime_raw": "1790269257",
+    "url": "https://store.steampowered.com/news/group/32528477/view/681884487904133672?l=english",
+    "body_text": "On Promotion!Pre-order Now!Wishlist Now!",
+    "body_raw": "[p][b]On Promotion![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2161700/3/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1687950/5/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2679460/_/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1875830/V_Vengeance/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2288350/RAIDOU_Remastered/\"][/dynamiclink][/p][p][b]Pre-order Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2963950/4/\"][/dynamiclink][/p][p][b]Wishlist Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2649560/6/\"][/dynamiclink][/p]",
+    "raw": {
+      "gid": "681884487904133672",
+      "clan_steamid": "103582791462049885",
+      "event_name": "ATLUS Developer Sale",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1790269200,
+      "rtime32_end_time": 1790874000,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"fe548b73672a5015de638b25f863547defa75660.jpg\",\"d97a5c786f922096429b7a90cf92294084f9162c.jpg\",\"5f247be8190d1a00e1dbceb2875aadc14f7250d1.jpg\",\"e9836640460056019de017dfcefcb58ddf32b608.jpg\",\"29e8cf8cfb5db0a4ca011b47fa07323ad9ddb0f3.png\",\"4efcf02e1fd0b0f323bc6c24c530efda60e41af1.jpg\",\"dfd7373bd6eede01339da0cdbed87c3a576c19c2.jpg\",\"7dd4f34ac50e4297925a6a2784c9baeb796accc4.jpg\",\"d8cf1a8ba9ac0cf3a6e515d571099e38056963df.jpg\",\"bfafa54e0660aab32e33477ac18df28c6d4ac1aa.jpg\",\"88ca7dd72a7b8b8a0791f10758aabf1d477bb23e.jpg\",\"ed5104fcae4b4011d696a43a2835228bb0812c1f.jpg\",\"0ea703ff66f59fd0bf596419471a060696d9b04b.jpg\",\"a71be775d1fc9b8f0559c59355ba3664f35e9a43.jpg\",\"aae92c4de1fb73e02138e4512046b96023236a13.jpg\",\"12d61271451f3045f4ffdcda2be53055c3902292.jpg\",\"bb746d4e1730e73943fd355246b5b6cdb7430e00.jpg\",\"6865880e354ff575718da4003ec054ee87ea1644.jpg\",\"0ce4297684d28d2ca68fac4b4c68cfd9ffa22945.jpg\",\"2b646b90a2dbf82e2568c71ab00fd9e86be15055.jpg\",\"e2ffd1db4ae221f65b8395ee2e99e2111e59343e.jpg\",\"312d96cd40db7103141bb74befa118c0ad4681ab.jpg\",\"9b48d846e76e9fde28a6d1a56aea7302b6dbe01c.jpg\",\"2206f67487f668e9308788e30d1b67fbcb0f06a9.jpg\",\"3106c9aea98d6383513d310964db57edfdd62fb2.jpg\",null,\"1f45a2690e48cb54035fede10841d214e87aab01.jpg\",\"1b0883ddea21c00c3868fbe38dcc8d69388e41c0.jpg\",\"86360fcdcf33823faa768097b0bbdf0ef67eaee0.jpg\",null,\"d18cea053ac84633280eb6ad88b84bd8a3eac76f.jpg\",null],\"localized_capsule_image\":[\"f9b81f4a4b19a9c011674e37f05f9f588b64ae7c.jpg\",\"9a3266d3bc83857828e9ca3e49dd4e920fc207a4.jpg\",\"2b65e791dc5f972214f5d271b83a3dd0a473a06b.jpg\",\"8debc892b718a043dee32ef7b5ee303f7d7a1b98.jpg\",\"50454b9c795b0090c64fe90a4e26d79dd25ed208.png\",\"0cf1f4da76d27a369c1284bc33bcc36001ebc139.jpg\",\"820cb302ecd28dd4472f7f52eff7e245190ffa53.jpg\",\"0f2d2928440e6a445ba747e992a93b1623ec661e.jpg\",\"635a114be40eba3f148bbd46fd582d6af62e33d3.jpg\",\"a78985da55403f1d8b39635888e3abc2be8a5ebc.jpg\",\"59215dc8c4be75778c8c443f082e53af13b216a9.jpg\",\"95c96d01575f70c4d36eceb1570116b84d132daf.jpg\",\"1a015a16f208589ac6193f8c09360b981e1df382.jpg\",\"de4b66e93b430fe5d990586d66a4d11060ee4211.jpg\",\"7f690dbf34ad4668a843c5e4a1dd8053c1d5db10.jpg\",\"5d5f26efad3735a66761d763b44ac0408513ce41.jpg\",\"b27347588e7d454d509890010b8aa0f571bd7579.jpg\",\"5d8bec728101976a00946bc3f73ba11eb05c0a93.jpg\",\"0175b7ba5e9d226750ff708ba22e4f53664b2787.jpg\",\"1ab60e1970614331f8cd7036b8f7c1f02f2ba54e.jpg\",\"e1e7e72c802038f60899aee8cb6f4941e991963d.jpg\",\"4e75238f0bcdc1fd1e26effaabea0f570807d3df.jpg\",\"58bec9d8d8469afc7b025cd570d264e04c246b8d.jpg\",\"d0cd966974a3a594b6a5b3a0b0c7be4010148031.jpg\",\"72a21adc5ca41784d0171ebbe41ad12b1ee94526.jpg\",null,\"b10df0c6ab0b5305186666c0ae5a81cef08ec5f8.jpg\",\"8311130d3c911a7d454769f9369d7f36431b4e6f.jpg\",\"da76fb6233170bd6e9640b861d6215de278f0102.jpg\",null,\"b52431c17811b10eafcaf25ab1621978ae30fa1f.jpg\",null],\"bSaleEnabled\":true,\"sale_show_creator\":true,\"sale_sections\":[{\"capsules\":[{\"id\":2161700,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Discover the meaning of life with Persona 3 Reload\",\"\",\"\",\"\",\"삶이란 무엇인지, 그 의미를 『페르소나3 리로드』에서 찾아보자.\",\"\",\"在《女神异闻录３ Reload》中寻找生命的意义吧。\",\"在《女神異聞錄３ Reload》找到生存的意義。\",null,null,\"生きる意味を、『ペルソナ３ リロード』で見つけよう。\",null,null,null,null,null,null,null,null,null,null,null,\"\",null,null,null,null,\"\",null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":1,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"background_gradient_top\":\"rgba(42, 125, 159, 1)\",\"background_gradient_bottom\":\"rgba(20, 61, 78, 1)\",\"default_subtitle\":\"\",\"localized_subtitle\":[\"Now 70% off - DEEPEST DISCOUNT EVER!\",null,null,null,null,null,null,null,null,null,\"過去最大割引の70％OFFでセール実施中！\"]},{\"capsules\":[],\"events\":[],\"links\":[{\"url\":null,\"localized_link_capsule\":[\"413091ad50a7c468968e7747a91007f31b0783da.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]}],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"links\",\"unique_id\":2,\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(44, 139, 178, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":true,\"disable_background\":true,\"hide_section\":true},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"tabs\",\"unique_id\":3,\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\",\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"internal_section_data\":null,\"tabs\":[{\"unique_id\":1,\"default_label\":\"\",\"localized_label\":[\"All\",null,null,null,null,null,null,null,null,null,\"すべて\"],\"capsules\":[]},{\"unique_id\":3,\"default_label\":\"\",\"localized_label\":[\"PERSONA SERIES\",null,null,null,null,null,null,null,null,null,\"ペルソナ\"],\"capsules\":[],\"sale_tag_filter\":null},{\"unique_id\":5,\"default_label\":\"\",\"localized_label\":[\"COMING SOON\",null,null,null,null,null,null,null,null,null,\"近日登場\"],\"capsules\":[],\"sale_tag_filter\":null,\"store_filter\":null},{\"unique_id\":4,\"default_label\":\"\",\"localized_label\":[\"METAPHOR\",null,null,null,null,null,null,null,null,null,\"メタファー：リファンタジオ\"],\"capsules\":[],\"sale_tag_filter\":{\"clauses\":[]},\"store_filter\":null},{\"unique_id\":6,\"default_label\":\"\",\"localized_label\":[\"SMT\",null,null,null,null,null,null,null,null,null,\"真・女神転生\"],\"capsules\":[],\"sale_tag_filter\":null},{\"unique_id\":2,\"default_label\":\"\",\"localized_label\":[\"MORE ATLUS\",null,null,null,null,null,null,null,null,null,\"その他の作品\"],\"capsules\":[],\"sale_tag_filter\":{\"clauses\":[]},\"store_filter\":null},{\"unique_id\":7,\"default_label\":\"\",\"localized_label\":[\"BUNDLES\",null,null,null,null,null,null,null,null,null,\"バンドル\"],\"capsules\":[]},{\"unique_id\":8,\"default_label\":\"\",\"localized_label\":[\"BEST BARGAINS\",null,null,null,null,null,null,null,null,null,\"お買い得タイトル\"],\"capsules\":[]}],\"disable_background\":false,\"tab_highlight_label_color\":\"rgba(255, 0, 0, 1)\",\"label_color\":\"rgba(255, 31, 35, 1)\"},{\"capsules\":[{\"id\":2161700,\"type\":\"game\"},{\"id\":1687950,\"type\":\"game\"},{\"id\":2679460,\"type\":\"game\"},{\"id\":1875830,\"type\":\"game\"},{\"id\":2288350,\"type\":\"game\"},{\"id\":1113000,\"type\":\"game\"},{\"id\":2254740,\"type\":\"game\"},{\"id\":1602010,\"type\":\"game\"},{\"id\":1382330,\"type\":\"game\"},{\"id\":1809700,\"type\":\"game\"},{\"id\":1413480,\"type\":\"game\"},{\"id\":1777620,\"type\":\"game\"},{\"id\":1868180,\"type\":\"game\"},{\"id\":1868170,\"type\":\"game\"},{\"id\":1810820,\"type\":\"game\"},{\"id\":893180,\"type\":\"game\"},{\"id\":29538,\"type\":\"bundle\"},{\"id\":35030,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"ON SALE NOW!\",null,null,null,null,null,null,null,null,null,\"セール実施中！\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":4,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"background_gradient_top\":\"rgba(209, 45, 38, 1)\",\"background_gradient_bottom\":\"rgba(127, 30, 25, 1)\",\"label_color\":\"rgba(255, 255, 255, 1)\",\"use_random_order\":false,\"carousel_auto_advance\":true,\"cap_item_count\":0,\"hide_section_if_too_few_items\":false,\"show_on_tabs\":[1]},{\"capsules\":[{\"id\":35030,\"type\":\"bundle\"},{\"id\":43918,\"type\":\"bundle\"},{\"id\":48129,\"type\":\"bundle\"},{\"id\":23986,\"type\":\"bundle\"},{\"id\":29538,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"BUNDLES\",null,null,null,null,null,null,null,null,null,\"お得なバンドルもチェック！\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":5,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":true,\"default_subtitle\":\"\",\"capsule_style_per_row_array\":null,\"background_gradient_top\":\"rgba(130, 31, 26, 1)\",\"background_gradient_bottom\":\"rgba(208, 45, 38, 1)\",\"carousel_auto_advance\":true,\"show_on_tabs\":[1,7]},{\"capsules\":[{\"id\":2963950,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"WANT TO BE THE FIRST TO PLAY THE NEXT BIG ATLUS TITLE? PRE-ORDER PERSONA 4 REVIVAL!\",\"\",\"\",\"\",\"아틀러스의 최신작을 가장 먼저 체험하고 싶다면,\\n지금 바로 『페르소나4 리바이벌』을 예약!\",\"\",\"想要第一时间体验ATLUS最新作品的玩家，\\n现在就预购《女神异闻录４ Revival》吧！\",\"想搶先體驗ATLUS最新作品的你，\\n馬上預購《女神異聞錄４ Revival》吧！\",null,null,\"いち早くアトラス最新作を体験したいあなたへ。\\n『ペルソナ４ リバイバル』を今すぐ予約しよう！\",null,null,null,null,null,null,null,null,null,null,null,\"\",null,null,null,null,\"\",null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":6,\"background_gradient_bottom\":\"rgba(218, 156, 55, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"background_gradient_top\":\"rgba(245, 207, 118, 1)\",\"label_color\":\"rgba(0, 0, 11, 1)\",\"show_on_tabs\":[1,5]},{\"capsules\":[{\"id\":2649560,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_18\",\"section_type\":\"items\",\"unique_id\":7,\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(74, 99, 60, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[1,5],\"hide_section\":true},{\"capsules\":[{\"id\":1687950,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"New to Persona? Discover why Persona 5 Royal is one of the most celebrated JRPGs of all time.\",\"\",\"\",\"\",\"『페르소나』 시리즈를 처음 플레이하는 분도 대환영!\\n전 세계에서 높은 평가를 받은 『페르소나5 더 로열』의 매력을\\n꼭 체험해 보세요.\",\"\",\"首次接触《女神异闻录》系列的玩家也可尽情享受游戏的乐趣！\\n快来体验在全球广受好评的\\n《女神异闻录５ 皇家版》的魅力吧。\",\"也非常歡迎初次遊玩《女神異聞錄》系列的玩家！\\n請務必體驗\\n在全世界廣受好評的《女神異聞錄５ 皇家版》所帶來的獨特魅力。\",null,null,\"『ペルソナ』シリーズを初めて遊ぶ方も大歓迎！\\n世界中で高い評価を受けた『ペルソナ５ ザ・ロイヤル』の魅力を、\\nぜひ体験してみてください。\",null,null,null,null,null,null,null,null,null,null,null,\"\",null,null,null,null,\"\",null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":8,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"background_gradient_top\":\"rgba(154, 28, 21, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"show_on_tabs\":[1,3]},{\"capsules\":[],\"events\":[],\"links\":[{\"url\":\"https://store.steampowered.com/app/1687950/Persona_5_Royal/\",\"localized_link_capsule\":[\"e8ca5083bce46fd49d40f6ca16ff465de75cb22d.jpg\",\"60098275389f6ad1133b4762151f1e3a7c46fa68.png\",\"e8ae38c9952279d0f4491fc29a35ab989d582ebe.png\",\"b7fcc2dd65e1bf7b468944e54342f99ac5513b84.png\",\"979635025d28dfff747bb4d42ad14a47fa98bb2f.jpg\",\"5367ae860cc47d381dc17b316207fe878bfcbf4b.png\",\"6ee67585af04ca316a41e9a19f62ebabee1791dc.jpg\",\"947c51377142ce0e36e0b2f825d46e45f1051cb7.jpg\",null,null,\"4125620488f12819312a4d1adc7df91a3b530d2e.jpg\",null,null,null,null,null,null,null,null,null,null,null,\"515e02c8e298cf22be47d6305b226b2aabae83f5.png\",null,null,null,null,\"de78ce8786e5a71b62d447951b2e8b93365820a5.png\",null,null,null,null]},{\"url\":\"https://store.steampowered.com/app/2161700/Persona_3_Reload/\",\"localized_link_capsule\":[\"1523cdc7308991dd0096b6c9047defeb0b3894ba.jpg\",\"bce1b3a5f14e7075d55986c02fe7f32c737be725.png\",\"9f99a420621219b734b2bef5168c9054bd5811f1.png\",\"f5aadf6a1ab9eb90f9b911563cea759dd063c053.png\",\"774b27ef707e0e85a14ca5312a2469c194e17a69.jpg\",\"38c53a8e3dace73f468ffdfca4dd08a9e5be47e3.png\",\"8ab4beeb33f80f2766c3f726a30f180eb3492531.jpg\",\"15dfec16f57808b20e1fee5bafd20aa2f7c22d46.jpg\",null,null,\"b3258eda6df3df3b440cebc3a277b72de26df737.jpg\",null,null,null,null,null,null,null,null,null,null,null,\"b1ca9a73c9c48f54ee618a3cd35718e9ae3569e3.png\",null,null,null,null,\"0439bd26072f850a4d18e2e5d1eed943e51bf854.png\",null,null,null,null]},{\"url\":\"https://store.steampowered.com/app/1113000/Persona_4_Golden/\",\"localized_link_capsule\":[\"9e8612c9fd7749b85aa8055b4e579e7ebfb7f5db.jpg\",\"1331673c51851c82b0cbb0bec062f425bcdd464b.png\",\"7084b22da13b4f22df18edc23957df992f1c8389.png\",\"92865828fd5693b1cad4cfc32a695678a77bc0a5.png\",\"baeab75f748d06e17b176101323b689cf96613f3.jpg\",\"2d587878d6c79181d848d3a25e2d75cb8d76dd89.png\",\"4de8695e45b8bf4e0c79eec1a54139decd3429fb.jpg\",\"c80a2f11284bf2082c5767df0b9e51d23f7e217c.jpg\",null,null,\"3087de08e8a6e083300894363c96ef196771d8e4.jpg\",null,null,null,null,null,null,null,null,null,null,null,\"e07138159034cea27a9ccdd2b4541a807155bb9f.png\",null,null,null,null,\"912413cb34a76e30c3f1335e03898d086e228d36.png\",null,null,null,null]}],\"localized_label\":[\"What's your vibe? Each Persona Game is a standalone experience.\",\"\",\"\",\"\",\"어떤 작품으로 시작해도 부담 없이 즐길 수 있도록\\n각각 독립된 이야기로 구성되어 있습니다.\",\"\",\"从哪一部作品开始游玩都无妨。\\n每一部都有独立且完整的故事。\",\"從哪部作品開始遊玩都沒問題。\\n每一部皆為獨立的完整故事，可視為單一作品單獨享受。\",null,null,\"どの作品から始めても大丈夫。\\nそれぞれが独立した物語として楽しめます。\",null,null,null,null,null,null,null,null,null,null,null,\"\",null,null,null,null,\"\",null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"links\",\"unique_id\":9,\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":true,\"internal_section_title\":\"\",\"carousel_auto_advance\":true,\"show_on_tabs\":[1,3]},{\"capsules\":[{\"id\":2161700,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Discover the meaning of life with Persona 3 Reload\",\"\",\"\",\"\",\"삶이란 무엇인지, 그 의미를 『페르소나3 리로드』에서 찾아보자.\",\"\",\"在《女神异闻录３ Reload》中寻找生命的意义吧。\",\"在《女神異聞錄３ Reload》找到生存的意義。\",null,null,\"生きる意味を、『ペルソナ３ リロード』で見つけよう。\",null,null,null,null,null,null,null,null,null,null,null,\"\",null,null,null,null,\"\",null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":10,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"background_gradient_top\":\"rgba(42, 125, 159, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"show_on_tabs\":[1,3],\"hide_section\":true},{\"capsules\":[{\"id\":1113000,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Solve the mysteries within the Midnight Channel in Persona 4 Golden\",\"\",\"\",\"\",\"『페르소나4 더 골든』에서 심야 텔레비전의 수수께끼를 밝혀내자.\",\"\",\"在《女神异闻录４ 黄金版》中解开“深夜电视”的谜团吧。\",\"在《女神異聞錄４ 黃金版》解開「深夜電視」的謎題。\",null,null,\"『ペルソナ４ ザ・ゴールデン』で「マヨナカテレビ」の謎を解き明かそう。\",null,null,null,null,null,null,null,null,null,null,null,\"\",null,null,null,null,\"\",null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":11,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"background_gradient_top\":\"rgba(238, 226, 49, 1)\",\"label_color\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(7, 7, 1, 1)\",\"show_on_tabs\":[1,3]},{\"capsules\":[],\"events\":[],\"links\":[{\"url\":\"https://store.steampowered.com/app/1602010/Persona_4_Arena_Ultimax/\",\"localized_link_capsule\":[\"a1d4c033ba226a254481ddaa9c02edb694a3adc2.png\",\"c9d0f07e797d19960cab265283d5e1a0faa8926e.jpg\",\"9c8671ce1b5d302a7ad5184b5bd4a964dd8d89bf.jpg\",\"1aed0e980f21d6da8d20f44c24949f5c7c5a8b43.jpg\",\"f2fba433fdf494d79997b667fe264dd8bd62eaf1.jpg\",\"17bc2b5b539348948a11220986b932e42c3e1f9f.jpg\",\"fe18deac57e601086ae9bceb4674fb8c5eaec772.jpg\",\"b5ff75615fef998b1c1a24b00dd0c62259e34dd0.jpg\",null,null,\"18625726e27fcae429f6e3ee42a0a94d5b1bf1ce.jpg\",null,null,null,null,null,null,null,null,null,null,null,\"e56dd55b326bfec888321332c08fa9523802ddd6.jpg\",null,null,null,null,\"1a0349b72c6b6b5c8fa034c05528db7a81590a73.jpg\",null,null,null,null]},{\"url\":\"https://store.steampowered.com/app/1382330/Persona_5_Strikers/\",\"localized_link_capsule\":[\"49142eb103247ec9dc6ecba31dea166bcf735f29.png\",\"6a1a378ac3168326f5636858cbee20ec9c364470.jpg\",\"ec6535b1edb8643d3153852c47ea87bca6b7c506.jpg\",\"107cc52a253a49a4be85ac0ffde8deb446308e93.jpg\",\"b8b7bec955e0d1aaec8c4240b9f825803224b0ee.jpg\",\"5d61f8509eb85ed4e0e1dacf2b8c153189396b8a.jpg\",\"0ddf5286943332dbf7942e45650b21bff18c15b5.jpg\",\"38878c77b36064a64d55c4d328d65bc2cb938856.jpg\",null,null,\"a47b6e67de2d3e79a307270da067771a6dd1611f.jpg\",null,null,null,null,null,null,null,null,null,null,null,\"b38b42d3fb408c46531ecb5883d4e177abbf6d71.jpg\",null,null,null,null,\"154484e88b8455c22fd1eb6d14d3ad69e0f55ff8.jpg\",null,null,null,null]},{\"url\":\"https://store.steampowered.com/app/3061570/Persona5_The_Phantom_X/?curator_clanid=37895402\",\"localized_link_capsule\":[\"7635300386fba57c81cc38bd005832b1a0875fd5.png\",\"35d5d1cfcb3212258e96bd5da754fcecfa39c811.jpg\",\"90d0806bd1ee0da82b4e82c657b90a854bab01ce.jpg\",\"fbe73eb4b819751b282abf851aef6a7d924c082c.jpg\",\"e7d64d4c5611414796c45a6f25b632073182337c.jpg\",\"0d412b429efb91b6beed116fe0c526fbac2d30ea.jpg\",\"5266f8ff030a76cc6bd5bd00fa7d2a567407de45.jpg\",\"41cc0ac0f019c8174c3d2a31f50b9f871cc6ef5f.jpg\",null,null,\"61384a0687f0d46af7d05b973e9d2aecd632e0f3.jpg\",null,null,null,null,null,null,null,null,null,null,null,\"2ddbe583e3f28b3493d3b67771d3dc2338439d86.jpg\",null,null,null,null,\"e85b81d94a007da585c3bfd090d99f3b46a3018d.jpg\",null,null,null,null]},{\"url\":\"https://store.steampowered.com/app/2254740/Persona_5_Tactica/?curator_clanid=37895402\",\"localized_link_capsule\":[\"24c0eadd1348b5844d5b86dd286bddfada4f5e7a.png\",\"2aa8d54a904f74b52603e6ac923eb45148565a98.png\",\"fdbae99f8bbd5dad6b165163986926a61d5710ab.png\",\"edae6577cc65c033772e98d32c9605bbe6f6fa0c.png\",\"ea45bf7c510899afdab19e43ca647de7d55729eb.jpg\",\"6080eeda94203bb5515e1996c7c12d81266b7664.png\",\"9f932cbbd6d1dc97f13d1355ae531f704cb2c068.jpg\",\"49a62709f322f633800775387e829366e213f0fb.jpg\",null,null,\"051678fa509b6c2155e194c0e00ba93fe4bac094.jpg\",null,null,null,null,null,null,null,null,null,null,null,\"0af29f5de36a60c43d04dd9a66dbc5b1f49a6a6f.png\",null,null,null,null,\"41a4cfb5c3f79452331f512b9b940d593560f7c7.png\",null,null,null,null]}],\"localized_label\":[\"Experience the world of Persona in various genres!\",\"\",\"\",\"\",\"다양한 장르로 그려진 『페르소나』의 세계를 체험해 보자!\",\"\",\"快来体验以各种不同游戏类型呈现的《女神异闻录》世界吧！\",\"體驗各種不同遊戲類型所呈現的《女神異聞錄》世界吧！\",null,null,\"さまざまなジャンルで描かれる、『ペルソナ』の世界を体験しよう！\",null,null,null,null,null,null,null,null,null,null,null,\"\",null,null,null,null,\"\",null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"links\",\"unique_id\":12,\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":true,\"internal_section_title\":\"\",\"carousel_auto_advance\":true,\"use_random_order\":true,\"random_order_top_x\":4,\"show_on_tabs\":[1,3]},{\"capsules\":[{\"id\":3358440,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Try before you buy - Saved data carries over to the full version of the game!\",\"\",\"\",\"\",\"구매 전에 미리 체험해 보세요. 체험판 저장 데이터는 제품판으로 인계할 수 있습니다!\",\"\",\"购买之前不妨先试玩一下——体验版的游玩数据可继承至正式版！\",\"購買前先試玩看看吧──體驗版遊戲的保存資料可直接繼承至正式版遊戲中使用！\",null,null,\"購入前にお試しを―体験版のデータは製品版にそのまま引き継げます！\",null,null,null,null,null,null,null,null,null,null,null,\"\",null,null,null,null,\"\",null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":13,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"bordered\",\"background_gradient_top\":\"rgba(44, 139, 178, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"show_on_tabs\":[1,3]},{\"capsules\":[{\"id\":3061570,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":14,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[3]},{\"capsules\":[{\"id\":2679460,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":15,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(255, 255, 255, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[4]},{\"capsules\":[{\"id\":2679460,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"trailercarousel\",\"unique_id\":16,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(255, 255, 255, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[4]},{\"capsules\":[{\"id\":2649560,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"trailercarousel\",\"unique_id\":17,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[5],\"hide_section\":true},{\"capsules\":[{\"id\":2288350,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":18,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(70, 83, 139, 1)\",\"background_gradient_top\":\"rgba(111, 131, 220, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[2]},{\"capsules\":[{\"id\":1875830,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":19,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(79, 9, 16, 1)\",\"background_gradient_top\":\"rgba(165, 20, 32, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[6]},{\"capsules\":[{\"id\":2963950,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"trailercarousel\",\"unique_id\":20,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(218, 156, 55, 1)\",\"background_gradient_top\":\"rgba(245, 207, 118, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[5]},{\"capsules\":[{\"id\":1868180,\"type\":\"game\"},{\"id\":1868170,\"type\":\"game\"},{\"id\":1810820,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":89120,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(4, 121, 61, 1)\",\"background_gradient_top\":\"rgba(8, 227, 112, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[2],\"capsule_style_per_row_array\":[\"tall\"]},{\"capsules\":[{\"id\":1777620,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":36907,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(90, 90, 88, 1)\",\"background_gradient_top\":\"rgba(175, 175, 173, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[2]},{\"capsules\":[{\"id\":2649560,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_18\",\"section_type\":\"items\",\"unique_id\":24,\"background_gradient_bottom\":\"rgba(33, 48, 26, 1)\",\"background_gradient_top\":\"rgba(74, 99, 60, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[1,5]},{\"capsules\":[{\"id\":2649560,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"trailercarousel\",\"unique_id\":25,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(33, 48, 26, 1)\",\"background_gradient_top\":\"rgba(74, 99, 60, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[5]},{\"capsules\":[{\"id\":893180,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":16942,\"label_color\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(127, 27, 64, 1)\",\"background_gradient_top\":\"rgba(254, 45, 123, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[2]},{\"capsules\":[{\"id\":1464776,\"type\":\"sub\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":20752,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(255, 255, 255, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[4]},{\"capsules\":[{\"id\":1041844,\"type\":\"sub\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":29640,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(255, 255, 255, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[4]},{\"capsules\":[{\"id\":1875830,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"trailercarousel\",\"unique_id\":28,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(79, 9, 16, 1)\",\"background_gradient_top\":\"rgba(165, 20, 32, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[6]},{\"capsules\":[{\"id\":1413480,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":30,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(151, 146, 56, 1)\",\"background_gradient_top\":\"rgba(226, 219, 82, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[6]},{\"capsules\":[{\"id\":1413480,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"trailercarousel\",\"unique_id\":31,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(151, 146, 56, 1)\",\"background_gradient_top\":\"rgba(226, 219, 82, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[6]},{\"capsules\":[{\"id\":1113000,\"type\":\"game\"},{\"id\":1809700,\"type\":\"game\"},{\"id\":1602010,\"type\":\"game\"},{\"id\":893180,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":32661,\"label_color\":\"rgba(0, 0, 11, 1)\",\"background_gradient_bottom\":\"rgba(53, 52, 21, 1)\",\"background_gradient_top\":\"rgba(255, 255, 21, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":true,\"show_on_tabs\":[8]}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"14942aabf009bbabedbf29477155df6e095ec1b2.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"1ecc5ebce46a5c61869a482d2ce09142831c8bb4.jpg\",\"4f9a4f6b8a069165a52947a3affc7aaa8023c3cb.jpg\",\"ace5d5975d99590b82a4c22450bcc14d826d85e7.jpg\",\"84762a9ac26f74f371beb5af46d93ed046698c19.jpg\",\"7e2e5d6c26b62ae87658e27e7fc2ecfe871f52d7.png\",\"5ad27867659de333fb206a9147b1ffafe9d1e57b.jpg\",\"7fb9aec7db185971c009c82c8a9fe771f307cee5.jpg\",\"0fa76f6a4849e78eeda7bf54b3ca5f44032b3d63.jpg\",\"804c1403e330df952f0b7b580c95705aeca1b68e.jpg\",\"00f782cce6570e8b2705f03ecc81f1c358ba9ea5.jpg\",\"8c5aec4acfe1d4c214c80c34376d541266e8fc28.jpg\",\"33bcaabc41b1d742a38f6a94a68ba2220f832060.jpg\",\"72a305bfb5f08d38a152f0f2d98786c2c00b9c17.jpg\",\"32893b928c6be42c60b9f9a09ede1ff0ca9e0152.jpg\",\"53d58d4cbd5b08cb62a636f56cb1cd215a763f8e.jpg\",\"6094d169a6104454e3700908ceb6ca320613882b.jpg\",\"ef6b18541ecb613dd4df6a60b537cc91e1f3a014.jpg\",\"0675c93f9ca096c9fea1f46cd1c06db15206ab72.jpg\",\"1ebcdeb4adf4fa537e9fa358512515827a692f0f.jpg\",\"9156694bdee4d77de557ad5b90c8e47efa314555.jpg\",\"c0debc60c47d565d74c09d2df178b7c43a3fb401.jpg\",\"07de3a6b3d013f1edccd0f09f34b75d8fec3bc23.jpg\",\"036d6f58529b89134c61f18d9833761bcda0f431.jpg\",\"e611a1c5ff1cbf5d7a8fd53490aff45e9c7309f3.jpg\",\"c4211d39586477c48f4c84c839c4dcbf3e6622e4.jpg\",null,\"1da2dcf76d655a3915295a33cfebbb78d7d6bc1e.jpg\",\"a0ce2f10627ee101ae0b83b3a77e7217dd9eacbf.jpg\",\"59e23502aec41abcd0a29101f5631d217111cf81.jpg\",null,\"8dd7e161bba5c82a916f8202b57de713283c2cef.jpg\",null],\"localized_sale_product_mobile_banner\":[\"cac8c2d7b8a5cf021abecbee755b2a307632fe78.jpg\",\"3d0e5260d1e7415f90691c2b66920a813493f16f.jpg\",\"30cdefa4be205bae6c238c6f47b170b0c5130488.jpg\",\"64ef901ef8ee8871a268711d5f9ca8cd822616ea.jpg\",\"4d2d7b702b809a2e64f7014ac931901caee2992a.jpg\",\"83b35127f440739014006a650e621d89a714c318.jpg\",\"3bd609b31517495f0df497ca72c86a8e8c80a79a.jpg\",\"e6943c15b6b66921a034185e5cc473e112eea507.jpg\",\"38c2b6dc181c0089296f11918cdd63aa9be74323.jpg\",\"1a2c4fd3cb78d7e9a5f4b986aa71fe51099c2ee4.jpg\",\"ce7a33403814cadcc774d4c9f9888cc52ee5d77d.jpg\",\"c332765a76170c02854b131e99c0a7560f484d7e.jpg\",\"b5fae6a2a3b0f109043065edce8ace4f9a448b48.jpg\",\"7f6465f8ce163708c121e7e6c867822872c05fc3.jpg\",\"f89cba27abe09efb747a3ea63e62b0304119bb87.jpg\",\"f165dbf17169f90f79452331959cc5bd5954600f.jpg\",\"74b2cf59d342132362f2c28bad19d4bea28de50f.jpg\",\"8dc2fb1b3d822e1ffb86acd8533e1c2c3f14b6db.jpg\",\"164fc519e695a73a582901dc001b87905fd38e63.jpg\",\"2ea21edcb9337f5cbdde042e517f3783ec29dd82.jpg\",\"301d9ff06e31c416fcbdbee5aa827ea9a88b6634.jpg\",\"61ee83ee6535b5ff0a68d527eea76411db1c97f0.jpg\",\"16a493e39487168da23f03a9895c3c79e26300df.jpg\",\"7d72022d4dc0c24c87f3f88e65efa5d61beaa693.jpg\",\"91cd2f29acaa500995bd75b7b88e5131123cbaa2.jpg\",null,\"81ea0672ddbbbf1c09ea0139153cf291102be41b.jpg\",\"971a6e463e6d41852dfece516ab94e30ba489fc3.jpg\",\"38fcaf759dee6c589ad4f5da5272266745b99f5a.jpg\",null,\"2d1a5976758ac8cb3d001d81d09a8145907aaf13.jpg\",null],\"localized_sale_logo\":[\"308c1d3b2377a9ba4a2218778c5c5a866e837295.png\",\"991fb7c14e5fa230eee9345921b6c2172d9c45fa.png\",\"cf024d19373438f2d5a297e3bf93861a129f2f27.png\",\"81187d611c782ac6a3b37099680885d642ebbdf3.png\",\"fc4dacdb0f3a13b5e0ae0e04568c8eeafd2158de.png\",\"18bccc73dfefd59f3b19d0f5c8c8db18712d11db.png\",\"1278c0b8d779846224607454dab585c05a8d3686.png\",\"501f752973ab68afc22a0d6740ab0610063e9f06.png\",\"862687b8828d8a1a58bd3e97cf6f15a17eed5f36.png\",\"262be1c6e7eae5e2254c8f139c862d788b20a575.png\",\"0fadaa13a179e44cca8fc45b9ad6a23b22baa92e.png\",\"9bd6b881a6c6d49dd2571dcd3e5aef85dbb84df5.png\",\"ba65371b5d9ae04d51d3e48f3b1b6304efb58e14.png\",\"194a7f0ecacfc1fdf3be16f96f5fcddd2456f8d7.png\",\"509ec320836eb517b130122926984ac419f957e4.png\",\"f44d981ccd1c472feeb4ea57f73464974951074d.png\",\"e43490332df17ac5dadb524e181a2d413c51efb5.png\",\"30229c10a2dff05f82f04d02947e4f7de1572621.png\",\"8bad66f98c11cd28ad8c084a8c02da03a5c2c978.png\",\"b126fcba1c1be9114f09b86956949ea1c1e6178d.png\",\"1ec70a2ab6a08d51a19a4f5cac9a532a8a5098e2.png\",\"29146e9a3c0913301ec5d5003883355e9e27d402.png\",\"9278afaaa6b74e2577ee4415d1b4aad748d5e37d.png\",\"a533142af21577411ac0a0e78371dd3fe20770dc.png\",\"603df30758b84586da0648acc0ca1f6cd3d0abb0.png\",null,\"35a699f857d483b08ebeec5c9f214ff821c20bfa.png\",\"d8e20e1681acf50793fb10f438bf72992f5ab20a.png\",\"5ac8550b7ba1f91c25d54560278ec9dfd94a04b4.png\",null,\"4f02f35fc21348f40c40a50a10b22ea67b128852.png\",null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(0, 0, 0, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_vanity_id\":\"ATLUSSale2026\",\"sale_presenters\":[{\"unique_id\":13603,\"localized_presenter_name\":[\"SEGA\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/Sega\"},{\"unique_id\":47842,\"localized_presenter_name\":[\"ATLUS\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/ATLUS\"}],\"sale_creator_home_filter_listid\":\"122828\",\"sale_background_img_groups\":{\"enabled\":false,\"groups\":[{\"background_id\":24511,\"localized_background_art\":[],\"num_sections\":1,\"scaling_setting\":\"cover\",\"gradient_setting\":\"top-to-bottom\"}],\"last_group_until_cover_section_until_end\":false},\"sale_vanity_id_valve_approved_for_sale_subpath\":true,\"sale_associated_advertising_appid\":5104300}",
+      "announcement_body": {
+        "gid": "681884487904133673",
+        "clanid": "32528477",
+        "posterid": "0",
+        "headline": "ATLUS Developer Sale",
+        "posttime": 1790269257,
+        "updatetime": 1790269257,
+        "body": "[p][b]On Promotion![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2161700/3/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1687950/5/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2679460/_/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1875830/V_Vengeance/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2288350/RAIDOU_Remastered/\"][/dynamiclink][/p][p][b]Pre-order Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2963950/4/\"][/dynamiclink][/p][p][b]Wishlist Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2649560/6/\"][/dynamiclink][/p]",
+        "commentcount": 0,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "587312703065008066",
+        "event_gid": "681884487904133672",
+        "voteupcount": 71,
+        "votedowncount": 2,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1790269200,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "587312703065008066",
+      "rtime32_last_modified": 1790822411,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 1453503,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1786568726,
+      "votes_up": 71,
+      "votes_down": 2,
+      "comment_type": "ForumTopic",
+      "gidfeature": "3820784351273759933",
+      "gidfeature2": "587312703065008066",
+      "clan_steamid_original": "103582791462049885"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "SEGA",
+    "publisher_slug": "sega",
+    "group_id": 32528477,
     "event_id": "707778917650401439",
     "app_id": "",
     "source_title": "Total War Warhammer Franchise Sale",
@@ -44,7 +129,7 @@
         "posttime": 1786640574,
         "updatetime": 1786644672,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/c1f50deee0b46430cb9678bf26106c0a2aee4016.png[/img]\n\nhttps://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/?curator_clanid=32991376\n\nhttps://store.steampowered.com/bundle/80339/Total_War_WARHAMMER_III__Lords_of_the_End_Times/?curator_clanid=32528477\n\nhttps://store.steampowered.com/app/4199910/Total_War_WARHAMMER_40000/?curator_clanid=32528477\n\n\n\n",
-        "commentcount": 1,
+        "commentcount": 2,
         "tags": [
           "curator",
           "curator_public",
@@ -54,7 +139,7 @@
         "hidden": 0,
         "forum_topic_id": "216887925459195742",
         "event_gid": "707778917650401439",
-        "voteupcount": 45,
+        "voteupcount": 47,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -67,7 +152,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "216887925459195742",
-      "rtime32_last_modified": 1787960109,
+      "rtime32_last_modified": 1790325429,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1449016,
@@ -76,7 +161,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1785791304,
-      "votes_up": 45,
+      "votes_up": 47,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -85,7 +170,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 3,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -129,7 +214,7 @@
         "posttime": 1786640557,
         "updatetime": 1787236864,
         "body": "[p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/32528477/067ef4e03a5d21294587781596837cdcb29f4f1a.png\"][/img][/p]",
-        "commentcount": 2,
+        "commentcount": 3,
         "tags": [
           "curator",
           "curator_public",
@@ -139,7 +224,7 @@
         "hidden": 0,
         "forum_topic_id": "216887925459195706",
         "event_gid": "671748057601149156",
-        "voteupcount": 110,
+        "voteupcount": 114,
         "votedowncount": 5,
         "ban_check_result": 0,
         "banned": 0
@@ -152,7 +237,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "216887925459195706",
-      "rtime32_last_modified": 1788214766,
+      "rtime32_last_modified": 1790716275,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1449327,
@@ -161,7 +246,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1783619811,
-      "votes_up": 110,
+      "votes_up": 114,
       "votes_down": 5,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -170,7 +255,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 4,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -224,7 +309,7 @@
         "hidden": 0,
         "forum_topic_id": "591812126801476006",
         "event_gid": "690891053318800712",
-        "voteupcount": 29,
+        "voteupcount": 30,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -237,7 +322,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "591812126801476006",
-      "rtime32_last_modified": 1787898709,
+      "rtime32_last_modified": 1790240462,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -246,7 +331,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1786386066,
-      "votes_up": 29,
+      "votes_up": 30,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -255,7 +340,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 5,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -340,7 +425,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 6,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -394,7 +479,7 @@
         "hidden": 0,
         "forum_topic_id": "562534659773336381",
         "event_gid": "712276809750676052",
-        "voteupcount": 109,
+        "voteupcount": 110,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -407,7 +492,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "562534659773336381",
-      "rtime32_last_modified": 1785734829,
+      "rtime32_last_modified": 1790325617,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1442963,
@@ -416,7 +501,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1779963253,
-      "votes_up": 109,
+      "votes_up": 110,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -425,7 +510,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 7,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -510,7 +595,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 8,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -564,7 +649,7 @@
         "hidden": 0,
         "forum_topic_id": "571541224066056904",
         "event_gid": "676246847634800716",
-        "voteupcount": 85,
+        "voteupcount": 86,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -577,7 +662,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "571541224066056904",
-      "rtime32_last_modified": 1787553982,
+      "rtime32_last_modified": 1790325619,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1440187,
@@ -586,7 +671,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1778797583,
-      "votes_up": 85,
+      "votes_up": 86,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -595,7 +680,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 9,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -680,7 +765,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 10,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -734,7 +819,7 @@
         "hidden": 0,
         "forum_topic_id": "570414055657992942",
         "event_gid": "541134950190023683",
-        "voteupcount": 71,
+        "voteupcount": 72,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -747,7 +832,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "570414055657992942",
-      "rtime32_last_modified": 1787401618,
+      "rtime32_last_modified": 1790325621,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1438112,
@@ -756,7 +841,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 71,
+      "votes_up": 72,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -765,7 +850,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 11,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -819,7 +904,7 @@
         "hidden": 0,
         "forum_topic_id": "659359514129335016",
         "event_gid": "712276809750676698",
-        "voteupcount": 43,
+        "voteupcount": 44,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -832,7 +917,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "659359514129335016",
-      "rtime32_last_modified": 1784322116,
+      "rtime32_last_modified": 1789550513,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -841,7 +926,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1780059200,
-      "votes_up": 43,
+      "votes_up": 44,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -850,7 +935,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 12,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -936,7 +1021,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 13,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -953,7 +1038,7 @@
     "start_date": "2026-05-05",
     "end_date": "2026-05-12",
     "posttime_raw": "1778000406",
-    "updatetime_raw": "1778058221",
+    "updatetime_raw": "1789663843",
     "url": "https://store.steampowered.com/news/group/32528477/view/525374559117901929?l=english",
     "body_text": "",
     "body_raw": "[img]{STEAM_CLAN_IMAGE}/32528477/0e5bcf4f230c26a016578a31b5b60aa37a51d925.jpg[/img]",
@@ -971,14 +1056,14 @@
       "creator_steamid": "0",
       "last_update_steamid": "0",
       "event_notes": "see announcement body",
-      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"ed971a953c0d7eb153421b821c8ba268c20700a5.jpg\",\"d5d67ec1f46b2e2636f5f5a0c0551fc8d5592ae2.jpg\",\"aee22e5164c465a93e92c85da73850c13e1e13be.jpg\",\"48360aa59056a3f82557fa713b580f828af681fc.jpg\",\"a1e1342f410c084eb7926a921ecb4997ee75348a.jpg\",\"3cb83112de64e5fd400128b2570122a0b0edd0d7.jpg\",\"369580cfdd3310ee38f8ccf6b0309d796b2f60d3.jpg\",\"10d2c7ffa470d42541be6da0c74c5fd5b3714259.jpg\",\"59e18b312417cfb79db780f41470a81ff38f2502.jpg\",\"3760366cdac443da59f54aa78221e55eed993d91.jpg\",\"b9757da13fb83d51033cb9a6a0e99a14103776aa.jpg\",\"defc06599fb0fdef66104c353f97f08196cbd881.jpg\",\"1e8a2ff877b02481e9c79eac509978e83d0301be.jpg\",\"8f3bfdc3cf4875c7e7108cd3e2217066b9fbb2d6.jpg\",\"ccba4604b131ccea328cba9b635af5ce8e871009.jpg\",\"11b4d1f51e9c57d21a2e0cdf13a821612182c3c2.jpg\",\"8045b04622b0f6dfca4e7b64073ef89e535e8dfa.jpg\",\"b1d23375fb756e12e8d28b2cfc8f5d4f817f05c9.jpg\",\"2d70a8fcb121108cb87ff56e45c7de215c00497b.jpg\",\"5bbc75ec46c43cc2746e3719a8d7a1a5193fe9e6.jpg\",\"d3800db0a5b8eb227930889b23fb6fe08133aaf4.jpg\",\"9b00b1c06ac8c6d5d00d741d2572175e9646848e.jpg\",\"2a8e2254964d9725e46f161546081dd94580f461.jpg\",\"e8723846af4c523be6298c32a8afd75c5dd54f14.jpg\",\"8f35b53a7f930ed7b14e64d1042bdd0e18a4f6c1.jpg\",null,\"771d287a211b0d11070042b9d0c2c437a19d6681.jpg\",\"588a03fc3112c91897d8ceb9e89453cc604e9ddc.jpg\",\"6e7eac80d9f85a26ed4aba89f13c14c0f5e652d7.jpg\",null,\"0b4e1cc3b6d3e0d323f818c03d229e762dbd7689.jpg\"],\"localized_capsule_image\":[\"0e5bcf4f230c26a016578a31b5b60aa37a51d925.jpg\",\"cf4316728fbccd3cf1a24ead34da0d9a4beb5d34.jpg\",\"a4565a6dc8277566894e6bba8a14c81a1141eac4.jpg\",\"9d673e2c006b35bace800f6d94ad63d9847ff76f.jpg\",\"19717d72a6e538c4f2c2eb7f92d4e29596106308.jpg\",\"eb64e8ea6d974f974ff3af87bea08fde418f94d9.jpg\",\"aa72e1db1babf81426be71e90b4c98f8d0cb657d.jpg\",\"fb235962244d70090e1249ee75a43de2fd78abf2.jpg\",\"c240d5e2d9c126c3ffeb7a99d85fd9feb3d54d82.jpg\",\"2bb9127776711c728ca73f30d5ce50d1705d9256.jpg\",\"228c85f759632aa23d49007ea7bc3d96ab53544b.jpg\",\"7e8f04b2f91e831f27875326dfaf3ca29be28051.jpg\",\"2b6e1abcc3034bd1eb128fc4a27fa38253d5b442.jpg\",\"72e30717767d23c14d6b87aa4c44ee77bdb84879.jpg\",\"3d2dd1fda3966ad30fc76ff96c93f2a8ec38212b.jpg\",\"695d4bbaa044c455562ea82ea143e5e07c1c4902.jpg\",\"774db8a0cc59085e0e88279d8da857fcbb1863d5.jpg\",\"299d58ce856ae480e22df3a5db8c051ef9f654f2.jpg\",\"76eadce80086b1c05c5b52ec3d95b2440ff262d6.jpg\",\"11578bc8c917c0639c07fb63cd19a62d733e22fb.jpg\",\"de63d347808b9bdfcdb4d410a4392939091bc709.jpg\",\"0323042cd3a084299ab3c9b401571d21870ba7a1.jpg\",\"3d1101b52c662512eccca3addc59603d29e66ea2.jpg\",\"6a11cba76885c88059d8c7a641a6d5de785244cc.jpg\",\"7bd1b097f5396c69d79c2bf6c0960c89511271c1.jpg\",null,\"2c3b1d118fb61fa8dca8edd299125d6a971f36c0.jpg\",\"30a4bb7a7221e42bb3db84417211af062fb649c4.jpg\",\"16d855c67723d3eaf8545c9de4306fa48ccac18e.jpg\",null,\"abedd85625b10cd3d0e99cfb7ebf6990c7b46fbc.jpg\"],\"bSaleEnabled\":true,\"sale_show_creator\":true,\"sale_sections\":[{\"capsules\":[{\"id\":2185060,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_30\",\"section_type\":\"items\",\"unique_id\":59107,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"background_gradient_bottom\":\"rgba(7, 53, 0, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\"},{\"capsules\":[{\"id\":4114070,\"type\":\"dlc\"},{\"id\":2185060,\"type\":\"game\"},{\"id\":3804850,\"type\":\"game\"},{\"id\":3592600,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":84834,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"trailer_carousel_auto_advance_msec\":30000,\"background_gradient_bottom\":\"rgba(4, 66, 81, 1)\"},{\"capsules\":[{\"id\":4114070,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Museum: Arty-Facts\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":67917,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(4, 66, 81, 1)\",\"background_gradient_top\":\"rgba(12, 212, 202, 0)\",\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\"},{\"capsules\":[{\"id\":67812,\"type\":\"bundle\"},{\"id\":56132,\"type\":\"bundle\"},{\"id\":33357,\"type\":\"bundle\"},{\"id\":22708,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Bundles\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":13427,\"internal_section_data\":null,\"capsules_per_row_array\":[5],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\"],\"background_gradient_bottom\":\"rgba(232, 180, 19, 1)\"},{\"capsules\":[{\"id\":60097,\"type\":\"bundle\"},{\"id\":57436,\"type\":\"bundle\"},{\"id\":62166,\"type\":\"bundle\"},{\"id\":57760,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point digiverse Collection\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":11,\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_bottom\":\"rgba(80, 123, 9, 1)\",\"background_gradient_top\":\"rgba(8, 33, 3, 0)\",\"internal_section_data\":null,\"capsules_per_row_array\":[5],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\"]},{\"capsules\":[{\"id\":67812,\"type\":\"bundle\"},{\"id\":1067228,\"type\":\"sub\"},{\"id\":2185060,\"type\":\"game\"},{\"id\":4114070,\"type\":\"dlc\"},{\"id\":3804850,\"type\":\"dlc\"},{\"id\":3592600,\"type\":\"game\"},{\"id\":2999850,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Museum\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":75515,\"internal_section_data\":null,\"capsules_per_row_array\":[3,2,3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\",\"grid\",\"grid\"],\"background_gradient_bottom\":\"rgba(13, 61, 3, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\"},{\"capsules\":[{\"id\":22708,\"type\":\"bundle\"},{\"id\":535930,\"type\":\"game\"},{\"id\":1901750,\"type\":\"game\"},{\"id\":1003310,\"type\":\"game\"},{\"id\":1096580,\"type\":\"game\"},{\"id\":1498090,\"type\":\"game\"},{\"id\":1196150,\"type\":\"game\"},{\"id\":1377080,\"type\":\"game\"},{\"id\":966690,\"type\":\"game\"},{\"id\":1035020,\"type\":\"game\"},{\"id\":1144500,\"type\":\"game\"},{\"id\":1376920,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Hospital\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":49732,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(52, 177, 158, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":true},{\"capsules\":[{\"id\":33357,\"type\":\"bundle\"},{\"id\":1649080,\"type\":\"game\"},{\"id\":2195430,\"type\":\"game\"},{\"id\":1884560,\"type\":\"game\"},{\"id\":1907450,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Campus\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":75286,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(79, 26, 108, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":true},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":91802,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(79, 26, 108, 1)\",\"internal_section_data\":null,\"disable_background\":true,\"curator_clan_id\":33980359}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"a2bb5e9baa7bf638977f2683ae194030a41405a6.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"e1dd2f32d4be6f94eaac4c0366fd0ad95ce437f2.jpg\",\"7ee6a8bd6d4b08e936d22a3639a63117131aba83.jpg\",\"36014a370aff24307093f02321a8588cd1c7e196.jpg\",\"286f2b4278485e7b83ef237891d0929de3e709b7.jpg\",\"bb7e905df9308e78d83b23a9f36a73564a4e1903.jpg\",\"1afee04041fb4ab47fc0ddf2f74c8bba43da2102.jpg\",\"d7884c01d048bc85208d3e73120e3752a520f647.jpg\",\"5176354d430c9e04a55ddb085e9d6ce1a20148d8.jpg\",\"75c297ec1bde0a149be2ffbe08c3c943ce2766c0.jpg\",\"e3fa7438f8b69a8879c4031091f817dcb38518f5.jpg\",\"baa9e5c45ec62c3e7fc77df8a2ecea478352d4b5.jpg\",\"aa68a21cecb387b6792b7883f559245452ad1292.jpg\",\"60a85685baee6aa57eed371f00b556fb9a5bf545.jpg\",\"194a3ecfbbb72282f9513dd99b6588ce5617d69a.jpg\",\"3334efa7c4b363ae232f5aa841c7657e4b0d8aa9.jpg\",\"f1e72e50d418332ce9e8a9e0814c991fcb0fc264.jpg\",\"5beecba48b3401563021bc2a84c5ab493d81776c.jpg\",\"c98c8ea762361e2e37ee8b63f32a3ddb80c51a64.jpg\",\"ea99b51ecfd2d61a6ca0ca4197703152f99bf496.jpg\",\"5daf7ab12c27fc3ece73d313785aa1e5b9c9c2b1.jpg\",\"fe01b1c3ca0b10a3b5aed45b95c1015459334924.jpg\",\"9400cddd48de0161d8d404cdeca21a2cbc7b3b88.jpg\",\"6fdc24a9bbaccc8417c53b3744121b0a183a9f75.jpg\",\"7d14f4eadce758f6215cb88c55ca96b0eeb99b37.jpg\",\"8f68c099a121812ceca8fd720a3d7bc3cc130e93.jpg\",null,\"b6c7fb438a1380eda89766341c9967a16737c23f.jpg\",\"110154663539ef7a84d713b880bf53830e0751fc.jpg\",\"059597e95bbf0ebe0ead2d542a9513fed5413b0e.jpg\",null,\"909a5e50acc38e27f62e4206e8deef0d2d9c368d.jpg\"],\"localized_sale_product_mobile_banner\":[\"b14373938fe470f04dbc76a016402ba22509dd6f.jpg\",\"dfd0475f0b4d0e849f1343a30f3a5fd597b80f39.jpg\",\"2a2a86d8c449f9b9004b31eee6702bc88eaf0d28.jpg\",\"c6e82e403a8ff92bff001aba8696006f4f3dfaef.jpg\",\"117985b1b6df045827eff62cb7c34aa922c15a2a.jpg\",\"fb6c3281d4a9e7d776850e10e95cfe5965bf62dc.jpg\",\"213d8a3f6387ebd7e71c1f81d74e61880f1d55a4.jpg\",\"4c9a170bc1201ea54e4b1f315b8131e1ea1992df.jpg\",\"e77f2c796d82b081c1e5574324a5c94c7f5a03c3.jpg\",\"ed4b99ce458ee589302ff7112330af3ce10b55e1.jpg\",\"0001aa15d28a5eeb828cff702bde90efb86f0d10.jpg\",\"23a4cbe1a159f1938dd3afe63547a3ed81abc916.jpg\",\"4e445172b43d9374e0dbbc194dbc8be79246a419.jpg\",\"5711741d2a18c5f28625072220ef4e1661c03b00.jpg\",\"9b029507a0f9c5d1c35321b80c408803831e383f.jpg\",\"35f1b81ebbd424585ecaf79ee041ccfaf6a303e4.jpg\",\"9c22e03a47335d0570b9d4e0aada25e2c4aec043.jpg\",\"72ef56465d1eb490360bf3170e0a067fa76749f1.jpg\",\"1a1a5130b775a72966ccfa7aa0c78f584603703e.jpg\",\"5e985e062753d6d857b6812949b26a240efdd21a.jpg\",\"7ca2496acd38916098331ec3d585843ce61c7604.jpg\",\"8f569b31d24d3523a9140cb6f5b1c36aaf754963.jpg\",\"7719a8cc91c0fc73d91cba7f3079f752b8341744.jpg\",\"9763a7361d0f4a2cd971eef186153255d0320f35.jpg\",\"e0783581d1d920925a556f8ea123b843e745d1a9.jpg\",null,\"73f519af889b7c07dd1384d3aed33ca11dcde573.jpg\",\"b7f57d65dd3a9d321fcc1c74715274da78e81288.jpg\",\"f8dc76914de394ef6bd39edeceeae3b69009fb05.jpg\",null,\"a09884e7daa85815ddf96a5a9482589be6f74f4f.jpg\"],\"localized_sale_logo\":[\"46ea620be285afa62fc691835053f1d214119a9c.png\",\"7dee26a8662be3acf94c88a10268a649f02b6f56.png\",\"82e9ff24c16b5bab873768732a9d4ff54b0dedc3.png\",\"fface0d0707ba7a35e78f7b3cf79cb6e28df7730.png\",\"91cb5376a5e190aff4824764998d7a3aaacba1bf.png\",\"589af7d844772f8c7ed2e57be3527841cd250932.png\",\"889d6d3f4ce5d125e20f1fa395f95405745cc9c8.png\",\"0c1496c1d39a6d0e4059cfc69cd2f77823a6526a.png\",\"f082656a344a62f03f01a8e940b7318205b74b99.png\",\"6743721e0bc3a85e33c3e66a69e8ad1f3926b0ef.png\",\"81a0f7f356a62e79f5613e759d43a0eb73be36b4.png\",\"3445635611c28b4a3209653fc7019f4cc60390f9.png\",\"589a14333c069600f9d01971c048eec54ff48335.png\",\"0d8d94157b05606e4a69a651b179a4cd26369f27.png\",\"f436709300fc0e220e083ea80b7c77e91c4c9d68.png\",\"22b1db83ebf21ce6cef9879a299d9bdfda18af91.png\",\"773542d3f378f4069adc18a3e4d5e861428d1aca.png\",\"31e5d4a940418accaeb41fc301a97029bbfb5709.png\",\"5df92c93a25bde2d53c047eb8365ab7c223670ac.png\",\"387b9f50686177e2fb4bbc5e70fc4d60ee638547.png\",\"15fe2f3d9c9c1fab91f00058c8ff5b2dd73fe5ac.png\",\"e9fddd80795409d313eb582e33d94fc22e7643aa.png\",\"6b8ffbfa6eb4641b8e2b40c53de38f6cce0cd3cc.png\",\"32a397552e508008abd0f304747c0ff5185461ce.png\",\"df27f82d023d256baa6a26c79bda0eea3895a96d.png\",null,\"48629c68d7e50bc3c9f7d4f830b8d4e696597d47.png\",\"ac64ecef1136de649eb5e14cbe5e942b40b1e14f.png\",\"51481d5d9788ac1961bbb8a6965ad3a2c331710e.png\",null,\"7223a402bbf5f315e21b0525a5845aa0fe37d16e.png\"],\"sale_font\":\"\",\"sale_background_color\":\"rgba(9, 37, 2, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_presenters\":[{\"unique_id\":81777,\"localized_presenter_name\":[\"SEGA\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https:\\/\\/store.steampowered.com\\/publisher\\/Sega\"},{\"unique_id\":18103,\"localized_presenter_name\":[\"Two Point Studios\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https:\\/\\/store.steampowered.com\\/developer\\/TwoPointStudios\"}],\"sale_associated_advertising_appid\":3147010,\"clone_from_event_gid\":\"526469173966014031\",\"clone_from_sale_enabled\":true,\"sale_vanity_id\":\"TPF\"}",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"ed971a953c0d7eb153421b821c8ba268c20700a5.jpg\",\"d5d67ec1f46b2e2636f5f5a0c0551fc8d5592ae2.jpg\",\"aee22e5164c465a93e92c85da73850c13e1e13be.jpg\",\"48360aa59056a3f82557fa713b580f828af681fc.jpg\",\"a1e1342f410c084eb7926a921ecb4997ee75348a.jpg\",\"3cb83112de64e5fd400128b2570122a0b0edd0d7.jpg\",\"369580cfdd3310ee38f8ccf6b0309d796b2f60d3.jpg\",\"10d2c7ffa470d42541be6da0c74c5fd5b3714259.jpg\",\"59e18b312417cfb79db780f41470a81ff38f2502.jpg\",\"3760366cdac443da59f54aa78221e55eed993d91.jpg\",\"b9757da13fb83d51033cb9a6a0e99a14103776aa.jpg\",\"defc06599fb0fdef66104c353f97f08196cbd881.jpg\",\"1e8a2ff877b02481e9c79eac509978e83d0301be.jpg\",\"8f3bfdc3cf4875c7e7108cd3e2217066b9fbb2d6.jpg\",\"ccba4604b131ccea328cba9b635af5ce8e871009.jpg\",\"11b4d1f51e9c57d21a2e0cdf13a821612182c3c2.jpg\",\"8045b04622b0f6dfca4e7b64073ef89e535e8dfa.jpg\",\"b1d23375fb756e12e8d28b2cfc8f5d4f817f05c9.jpg\",\"2d70a8fcb121108cb87ff56e45c7de215c00497b.jpg\",\"5bbc75ec46c43cc2746e3719a8d7a1a5193fe9e6.jpg\",\"d3800db0a5b8eb227930889b23fb6fe08133aaf4.jpg\",\"9b00b1c06ac8c6d5d00d741d2572175e9646848e.jpg\",\"2a8e2254964d9725e46f161546081dd94580f461.jpg\",\"e8723846af4c523be6298c32a8afd75c5dd54f14.jpg\",\"8f35b53a7f930ed7b14e64d1042bdd0e18a4f6c1.jpg\",null,\"771d287a211b0d11070042b9d0c2c437a19d6681.jpg\",\"588a03fc3112c91897d8ceb9e89453cc604e9ddc.jpg\",\"6e7eac80d9f85a26ed4aba89f13c14c0f5e652d7.jpg\",null,\"0b4e1cc3b6d3e0d323f818c03d229e762dbd7689.jpg\",null],\"localized_capsule_image\":[\"0e5bcf4f230c26a016578a31b5b60aa37a51d925.jpg\",\"cf4316728fbccd3cf1a24ead34da0d9a4beb5d34.jpg\",\"a4565a6dc8277566894e6bba8a14c81a1141eac4.jpg\",\"9d673e2c006b35bace800f6d94ad63d9847ff76f.jpg\",\"19717d72a6e538c4f2c2eb7f92d4e29596106308.jpg\",\"eb64e8ea6d974f974ff3af87bea08fde418f94d9.jpg\",\"aa72e1db1babf81426be71e90b4c98f8d0cb657d.jpg\",\"fb235962244d70090e1249ee75a43de2fd78abf2.jpg\",\"c240d5e2d9c126c3ffeb7a99d85fd9feb3d54d82.jpg\",\"2bb9127776711c728ca73f30d5ce50d1705d9256.jpg\",\"228c85f759632aa23d49007ea7bc3d96ab53544b.jpg\",\"7e8f04b2f91e831f27875326dfaf3ca29be28051.jpg\",\"2b6e1abcc3034bd1eb128fc4a27fa38253d5b442.jpg\",\"72e30717767d23c14d6b87aa4c44ee77bdb84879.jpg\",\"3d2dd1fda3966ad30fc76ff96c93f2a8ec38212b.jpg\",\"695d4bbaa044c455562ea82ea143e5e07c1c4902.jpg\",\"774db8a0cc59085e0e88279d8da857fcbb1863d5.jpg\",\"299d58ce856ae480e22df3a5db8c051ef9f654f2.jpg\",\"76eadce80086b1c05c5b52ec3d95b2440ff262d6.jpg\",\"11578bc8c917c0639c07fb63cd19a62d733e22fb.jpg\",\"de63d347808b9bdfcdb4d410a4392939091bc709.jpg\",\"0323042cd3a084299ab3c9b401571d21870ba7a1.jpg\",\"3d1101b52c662512eccca3addc59603d29e66ea2.jpg\",\"6a11cba76885c88059d8c7a641a6d5de785244cc.jpg\",\"7bd1b097f5396c69d79c2bf6c0960c89511271c1.jpg\",null,\"2c3b1d118fb61fa8dca8edd299125d6a971f36c0.jpg\",\"30a4bb7a7221e42bb3db84417211af062fb649c4.jpg\",\"16d855c67723d3eaf8545c9de4306fa48ccac18e.jpg\",null,\"abedd85625b10cd3d0e99cfb7ebf6990c7b46fbc.jpg\",null],\"bSaleEnabled\":true,\"sale_show_creator\":true,\"sale_sections\":[{\"capsules\":[{\"id\":2185060,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_30\",\"section_type\":\"items\",\"unique_id\":59107,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"background_gradient_bottom\":\"rgba(7, 53, 0, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\"},{\"capsules\":[{\"id\":4114070,\"type\":\"dlc\"},{\"id\":2185060,\"type\":\"game\"},{\"id\":3804850,\"type\":\"game\"},{\"id\":3592600,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":84834,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"trailer_carousel_auto_advance_msec\":30000,\"background_gradient_bottom\":\"rgba(4, 66, 81, 1)\"},{\"capsules\":[{\"id\":4114070,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Museum: Arty-Facts\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":67917,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(4, 66, 81, 1)\",\"background_gradient_top\":\"rgba(12, 212, 202, 0)\",\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\"},{\"capsules\":[{\"id\":67812,\"type\":\"bundle\"},{\"id\":56132,\"type\":\"bundle\"},{\"id\":33357,\"type\":\"bundle\"},{\"id\":22708,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Bundles\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":13427,\"internal_section_data\":null,\"capsules_per_row_array\":[5],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\"],\"background_gradient_bottom\":\"rgba(232, 180, 19, 1)\"},{\"capsules\":[{\"id\":60097,\"type\":\"bundle\"},{\"id\":57436,\"type\":\"bundle\"},{\"id\":62166,\"type\":\"bundle\"},{\"id\":81280,\"type\":\"bundle\"},{\"id\":1868140,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point digiverse Collection\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":11,\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_bottom\":\"rgba(80, 123, 9, 1)\",\"background_gradient_top\":\"rgba(8, 33, 3, 0)\",\"internal_section_data\":null,\"capsules_per_row_array\":[5],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\"]},{\"capsules\":[{\"id\":67812,\"type\":\"bundle\"},{\"id\":1067228,\"type\":\"sub\"},{\"id\":2185060,\"type\":\"game\"},{\"id\":4114070,\"type\":\"dlc\"},{\"id\":3804850,\"type\":\"dlc\"},{\"id\":3592600,\"type\":\"game\"},{\"id\":2999850,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Museum\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":75515,\"internal_section_data\":null,\"capsules_per_row_array\":[3,2,3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\",\"grid\",\"grid\"],\"background_gradient_bottom\":\"rgba(13, 61, 3, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\"},{\"capsules\":[{\"id\":22708,\"type\":\"bundle\"},{\"id\":535930,\"type\":\"game\"},{\"id\":1901750,\"type\":\"game\"},{\"id\":1003310,\"type\":\"game\"},{\"id\":1096580,\"type\":\"game\"},{\"id\":1498090,\"type\":\"game\"},{\"id\":1196150,\"type\":\"game\"},{\"id\":1377080,\"type\":\"game\"},{\"id\":966690,\"type\":\"game\"},{\"id\":1035020,\"type\":\"game\"},{\"id\":1144500,\"type\":\"game\"},{\"id\":1376920,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Hospital\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":49732,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(52, 177, 158, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":true},{\"capsules\":[{\"id\":33357,\"type\":\"bundle\"},{\"id\":1649080,\"type\":\"game\"},{\"id\":2195430,\"type\":\"game\"},{\"id\":1884560,\"type\":\"game\"},{\"id\":1907450,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Campus\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":75286,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(79, 26, 108, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":true},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":91802,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(79, 26, 108, 1)\",\"internal_section_data\":null,\"disable_background\":true,\"curator_clan_id\":33980359}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"a2bb5e9baa7bf638977f2683ae194030a41405a6.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"e1dd2f32d4be6f94eaac4c0366fd0ad95ce437f2.jpg\",\"7ee6a8bd6d4b08e936d22a3639a63117131aba83.jpg\",\"36014a370aff24307093f02321a8588cd1c7e196.jpg\",\"286f2b4278485e7b83ef237891d0929de3e709b7.jpg\",\"bb7e905df9308e78d83b23a9f36a73564a4e1903.jpg\",\"1afee04041fb4ab47fc0ddf2f74c8bba43da2102.jpg\",\"d7884c01d048bc85208d3e73120e3752a520f647.jpg\",\"5176354d430c9e04a55ddb085e9d6ce1a20148d8.jpg\",\"75c297ec1bde0a149be2ffbe08c3c943ce2766c0.jpg\",\"e3fa7438f8b69a8879c4031091f817dcb38518f5.jpg\",\"baa9e5c45ec62c3e7fc77df8a2ecea478352d4b5.jpg\",\"aa68a21cecb387b6792b7883f559245452ad1292.jpg\",\"60a85685baee6aa57eed371f00b556fb9a5bf545.jpg\",\"194a3ecfbbb72282f9513dd99b6588ce5617d69a.jpg\",\"3334efa7c4b363ae232f5aa841c7657e4b0d8aa9.jpg\",\"f1e72e50d418332ce9e8a9e0814c991fcb0fc264.jpg\",\"5beecba48b3401563021bc2a84c5ab493d81776c.jpg\",\"c98c8ea762361e2e37ee8b63f32a3ddb80c51a64.jpg\",\"ea99b51ecfd2d61a6ca0ca4197703152f99bf496.jpg\",\"5daf7ab12c27fc3ece73d313785aa1e5b9c9c2b1.jpg\",\"fe01b1c3ca0b10a3b5aed45b95c1015459334924.jpg\",\"9400cddd48de0161d8d404cdeca21a2cbc7b3b88.jpg\",\"6fdc24a9bbaccc8417c53b3744121b0a183a9f75.jpg\",\"7d14f4eadce758f6215cb88c55ca96b0eeb99b37.jpg\",\"8f68c099a121812ceca8fd720a3d7bc3cc130e93.jpg\",null,\"b6c7fb438a1380eda89766341c9967a16737c23f.jpg\",\"110154663539ef7a84d713b880bf53830e0751fc.jpg\",\"059597e95bbf0ebe0ead2d542a9513fed5413b0e.jpg\",null,\"909a5e50acc38e27f62e4206e8deef0d2d9c368d.jpg\",null],\"localized_sale_product_mobile_banner\":[\"b14373938fe470f04dbc76a016402ba22509dd6f.jpg\",\"dfd0475f0b4d0e849f1343a30f3a5fd597b80f39.jpg\",\"2a2a86d8c449f9b9004b31eee6702bc88eaf0d28.jpg\",\"c6e82e403a8ff92bff001aba8696006f4f3dfaef.jpg\",\"117985b1b6df045827eff62cb7c34aa922c15a2a.jpg\",\"fb6c3281d4a9e7d776850e10e95cfe5965bf62dc.jpg\",\"213d8a3f6387ebd7e71c1f81d74e61880f1d55a4.jpg\",\"4c9a170bc1201ea54e4b1f315b8131e1ea1992df.jpg\",\"e77f2c796d82b081c1e5574324a5c94c7f5a03c3.jpg\",\"ed4b99ce458ee589302ff7112330af3ce10b55e1.jpg\",\"0001aa15d28a5eeb828cff702bde90efb86f0d10.jpg\",\"23a4cbe1a159f1938dd3afe63547a3ed81abc916.jpg\",\"4e445172b43d9374e0dbbc194dbc8be79246a419.jpg\",\"5711741d2a18c5f28625072220ef4e1661c03b00.jpg\",\"9b029507a0f9c5d1c35321b80c408803831e383f.jpg\",\"35f1b81ebbd424585ecaf79ee041ccfaf6a303e4.jpg\",\"9c22e03a47335d0570b9d4e0aada25e2c4aec043.jpg\",\"72ef56465d1eb490360bf3170e0a067fa76749f1.jpg\",\"1a1a5130b775a72966ccfa7aa0c78f584603703e.jpg\",\"5e985e062753d6d857b6812949b26a240efdd21a.jpg\",\"7ca2496acd38916098331ec3d585843ce61c7604.jpg\",\"8f569b31d24d3523a9140cb6f5b1c36aaf754963.jpg\",\"7719a8cc91c0fc73d91cba7f3079f752b8341744.jpg\",\"9763a7361d0f4a2cd971eef186153255d0320f35.jpg\",\"e0783581d1d920925a556f8ea123b843e745d1a9.jpg\",null,\"73f519af889b7c07dd1384d3aed33ca11dcde573.jpg\",\"b7f57d65dd3a9d321fcc1c74715274da78e81288.jpg\",\"f8dc76914de394ef6bd39edeceeae3b69009fb05.jpg\",null,\"a09884e7daa85815ddf96a5a9482589be6f74f4f.jpg\",null],\"localized_sale_logo\":[\"46ea620be285afa62fc691835053f1d214119a9c.png\",\"7dee26a8662be3acf94c88a10268a649f02b6f56.png\",\"82e9ff24c16b5bab873768732a9d4ff54b0dedc3.png\",\"fface0d0707ba7a35e78f7b3cf79cb6e28df7730.png\",\"91cb5376a5e190aff4824764998d7a3aaacba1bf.png\",\"589af7d844772f8c7ed2e57be3527841cd250932.png\",\"889d6d3f4ce5d125e20f1fa395f95405745cc9c8.png\",\"0c1496c1d39a6d0e4059cfc69cd2f77823a6526a.png\",\"f082656a344a62f03f01a8e940b7318205b74b99.png\",\"6743721e0bc3a85e33c3e66a69e8ad1f3926b0ef.png\",\"81a0f7f356a62e79f5613e759d43a0eb73be36b4.png\",\"3445635611c28b4a3209653fc7019f4cc60390f9.png\",\"589a14333c069600f9d01971c048eec54ff48335.png\",\"0d8d94157b05606e4a69a651b179a4cd26369f27.png\",\"f436709300fc0e220e083ea80b7c77e91c4c9d68.png\",\"22b1db83ebf21ce6cef9879a299d9bdfda18af91.png\",\"773542d3f378f4069adc18a3e4d5e861428d1aca.png\",\"31e5d4a940418accaeb41fc301a97029bbfb5709.png\",\"5df92c93a25bde2d53c047eb8365ab7c223670ac.png\",\"387b9f50686177e2fb4bbc5e70fc4d60ee638547.png\",\"15fe2f3d9c9c1fab91f00058c8ff5b2dd73fe5ac.png\",\"e9fddd80795409d313eb582e33d94fc22e7643aa.png\",\"6b8ffbfa6eb4641b8e2b40c53de38f6cce0cd3cc.png\",\"32a397552e508008abd0f304747c0ff5185461ce.png\",\"df27f82d023d256baa6a26c79bda0eea3895a96d.png\",null,\"48629c68d7e50bc3c9f7d4f830b8d4e696597d47.png\",\"ac64ecef1136de649eb5e14cbe5e942b40b1e14f.png\",\"51481d5d9788ac1961bbb8a6965ad3a2c331710e.png\",null,\"7223a402bbf5f315e21b0525a5845aa0fe37d16e.png\",null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(9, 37, 2, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_presenters\":[{\"unique_id\":81777,\"localized_presenter_name\":[\"SEGA\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/publisher/Sega\"},{\"unique_id\":18103,\"localized_presenter_name\":[\"Two Point Studios\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/TwoPointStudios\"}],\"sale_associated_advertising_appid\":3147010,\"clone_from_event_gid\":\"526469173966014031\",\"clone_from_sale_enabled\":true,\"sale_vanity_id\":\"TPF\"}",
       "announcement_body": {
         "gid": "525374559117901930",
         "clanid": "32528477",
         "posterid": "0",
         "headline": "Two Point Franchise Sale",
         "posttime": 1778000406,
-        "updatetime": 1778058221,
+        "updatetime": 1789663843,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/0e5bcf4f230c26a016578a31b5b60aa37a51d925.jpg[/img]",
         "commentcount": 0,
         "tags": [
@@ -1003,7 +1088,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "845130993320940961",
-      "rtime32_last_modified": 1781013125,
+      "rtime32_last_modified": 1789663843,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1433547,
@@ -1021,7 +1106,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 14,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1075,7 +1160,7 @@
         "hidden": 0,
         "forum_topic_id": "801219731626561591",
         "event_gid": "524241382256149029",
-        "voteupcount": 50,
+        "voteupcount": 51,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1088,7 +1173,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801219731626561591",
-      "rtime32_last_modified": 1786796520,
+      "rtime32_last_modified": 1789212084,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1420977,
@@ -1097,7 +1182,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 50,
+      "votes_up": 51,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1106,7 +1191,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 15,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1160,7 +1245,7 @@
         "hidden": 0,
         "forum_topic_id": "801219731626561128",
         "event_gid": "516365786249429993",
-        "voteupcount": 60,
+        "voteupcount": 61,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1173,7 +1258,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801219731626561128",
-      "rtime32_last_modified": 1787317947,
+      "rtime32_last_modified": 1789212062,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1431098,
@@ -1182,7 +1267,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1775729067,
-      "votes_up": 60,
+      "votes_up": 61,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1191,7 +1276,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 16,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1245,7 +1330,7 @@
         "hidden": 0,
         "forum_topic_id": "801219731626560377",
         "event_gid": "532129019170128186",
-        "voteupcount": 54,
+        "voteupcount": 55,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1258,7 +1343,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801219731626560377",
-      "rtime32_last_modified": 1786366915,
+      "rtime32_last_modified": 1789212081,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1431957,
@@ -1267,7 +1352,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1776273046,
-      "votes_up": 54,
+      "votes_up": 55,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1276,7 +1361,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 17,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1330,7 +1415,7 @@
         "hidden": 0,
         "forum_topic_id": "801219096906719099",
         "event_gid": "698756599936713304",
-        "voteupcount": 43,
+        "voteupcount": 44,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1343,7 +1428,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801219096906719099",
-      "rtime32_last_modified": 1778078503,
+      "rtime32_last_modified": 1789212086,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1429076,
@@ -1352,7 +1437,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 43,
+      "votes_up": 44,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1361,7 +1446,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 18,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1446,7 +1531,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 19,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1531,7 +1616,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 20,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1616,7 +1701,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 21,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1701,7 +1786,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 22,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1786,7 +1871,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 23,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1871,7 +1956,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 24,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1956,7 +2041,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 25,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2041,7 +2126,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 26,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2126,7 +2211,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 27,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2211,7 +2296,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 28,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2296,7 +2381,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 29,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2381,7 +2466,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 30,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2466,7 +2551,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 31,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2551,7 +2636,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 32,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2636,7 +2721,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 33,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2721,7 +2806,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 34,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2806,7 +2891,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 35,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2891,7 +2976,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 36,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2976,7 +3061,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 37,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3061,7 +3146,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 38,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3146,7 +3231,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 39,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3231,7 +3316,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 40,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3316,7 +3401,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 41,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3401,7 +3486,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 42,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3486,7 +3571,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 43,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3571,7 +3656,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 44,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3656,7 +3741,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 45,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3741,7 +3826,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 46,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3826,7 +3911,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 47,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3911,7 +3996,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 48,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3996,7 +4081,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 49,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4081,7 +4166,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 50,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4125,7 +4210,7 @@
         "posttime": 1733328548,
         "updatetime": 1736933357,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/ae9833acfd3be873b7e9f1522576b2543444e5ee.jpg[/img]",
-        "commentcount": 1,
+        "commentcount": 0,
         "tags": [
           "curator",
           "curator_public",
@@ -4166,7 +4251,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 51,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4251,7 +4336,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 52,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4336,7 +4421,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 53,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4421,7 +4506,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 54,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4506,7 +4591,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 55,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4591,7 +4676,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 56,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4635,7 +4720,7 @@
         "posttime": 1728570370,
         "updatetime": 1728643376,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/ae9833acfd3be873b7e9f1522576b2543444e5ee.jpg[/img]",
-        "commentcount": 3,
+        "commentcount": 2,
         "tags": [
           "curator",
           "curator_public",
@@ -4658,7 +4743,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "6497096716248301074",
-      "rtime32_last_modified": 1758391704,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1344816,
@@ -4676,7 +4761,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 57,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4720,7 +4805,7 @@
         "posttime": 1726764926,
         "updatetime": 1727078586,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/4c4f017554d9eea8408e5a3cc0b799ee1f03ecca.jpg[/img]",
-        "commentcount": 10,
+        "commentcount": 9,
         "tags": [
           "curator",
           "curator_public",
@@ -4743,7 +4828,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "4853280859657332829",
-      "rtime32_last_modified": 1758391705,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1338628,
@@ -4761,7 +4846,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 58,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4846,7 +4931,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 59,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4890,7 +4975,7 @@
         "posttime": 1723482057,
         "updatetime": 1748429020,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/216acc1d9106e429a63b5b4427cd5371d8e7bc5d.jpg[/img]",
-        "commentcount": 5,
+        "commentcount": 4,
         "tags": [
           "curator",
           "curator_public",
@@ -4913,7 +4998,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "4517759395051277243",
-      "rtime32_last_modified": 1753797790,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1333721,
@@ -4931,7 +5016,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 60,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4975,7 +5060,7 @@
         "posttime": 1723482055,
         "updatetime": 1723645080,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/26851a41dc15b60a70a11b1befdd8fa8997fde02.jpg[/img]",
-        "commentcount": 2,
+        "commentcount": 1,
         "tags": [
           "curator",
           "curator_public",
@@ -4998,7 +5083,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "4517759395051277190",
-      "rtime32_last_modified": 1753797785,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1331942,
@@ -5016,7 +5101,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 61,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5060,7 +5145,7 @@
         "posttime": 1723481921,
         "updatetime": 1723481954,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/dcbf142b2b7c778a965a64f861a16f7f60d3010c.png[/img]",
-        "commentcount": 0,
+        "commentcount": -1,
         "tags": [
           "curator",
           "curator_public",
@@ -5101,7 +5186,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 62,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5145,7 +5230,7 @@
         "posttime": 1721926258,
         "updatetime": 1721926258,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/8278a3208f6c4dfc63aa1a7890963b25e056183f.png[/img]",
-        "commentcount": 1,
+        "commentcount": 0,
         "tags": [
           "curator",
           "curator_public",
@@ -5186,7 +5271,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 63,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5271,7 +5356,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 64,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5315,7 +5400,7 @@
         "posttime": 1718902120,
         "updatetime": 1718902973,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/dcc875ab4fc294d44d3afc3a04c33ae4f2c91500.png[/img]\n\n[img]{STEAM_CLAN_IMAGE}/32528477/980386bf69722c51edf083569886d36a2f8edf7a.gif[/img]\n\n[img]{STEAM_CLAN_IMAGE}/32528477/5ad1d4d71da2055c0cd2c24fc41bef28be324a75.png[/img]\n",
-        "commentcount": 3,
+        "commentcount": 2,
         "tags": [
           "curator",
           "curator_public",
@@ -5338,7 +5423,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "4354498956236153561",
-      "rtime32_last_modified": 1753798431,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1326665,
@@ -5356,7 +5441,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 65,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5441,7 +5526,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 66,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5526,7 +5611,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 67,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5570,7 +5655,7 @@
         "posttime": 1714669214,
         "updatetime": 1728907894,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/b18635e3a8f896ca39bc760cc90da76a345ff1e9.jpg[/img]",
-        "commentcount": 5,
+        "commentcount": 4,
         "tags": [
           "curator",
           "curator_public",
@@ -5593,7 +5678,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "4356746316588809853",
-      "rtime32_last_modified": 1753798676,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1314868,
@@ -5611,7 +5696,7 @@
     }
   },
   {
-    "index": 67,
+    "index": 68,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5696,7 +5781,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 69,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5781,7 +5866,7 @@
     }
   },
   {
-    "index": 69,
+    "index": 70,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5866,7 +5951,7 @@
     }
   },
   {
-    "index": 70,
+    "index": 71,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5953,7 +6038,7 @@
     }
   },
   {
-    "index": 71,
+    "index": 72,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6040,7 +6125,7 @@
     }
   },
   {
-    "index": 72,
+    "index": 73,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6125,7 +6210,7 @@
     }
   },
   {
-    "index": 73,
+    "index": 74,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6210,7 +6295,7 @@
     }
   },
   {
-    "index": 74,
+    "index": 75,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6297,7 +6382,7 @@
     }
   },
   {
-    "index": 75,
+    "index": 76,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6382,7 +6467,7 @@
     }
   },
   {
-    "index": 76,
+    "index": 77,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6467,7 +6552,7 @@
     }
   },
   {
-    "index": 77,
+    "index": 78,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6511,7 +6596,7 @@
         "posttime": 1704380879,
         "updatetime": 1706181508,
         "body": "[url=https://store.steampowered.com/app/2072450/Like_a_Dragon_Infinite_Wealth/][img]{STEAM_CLAN_IMAGE}/32528477/ff5e44156e90728263b092e532a1a637d90e095c.png[/img][/url]\n\n[previewyoutube=o4XReZJrQ6s;full][/previewyoutube]\n\n[url=https://store.steampowered.com/app/2072450/Like_a_Dragon_Infinite_Wealth/][img]{STEAM_CLAN_IMAGE}/32528477/5f5cec912c35f002a2e92906035bfb76e168d9ee.png[/img][/url]",
-        "commentcount": 6,
+        "commentcount": 5,
         "tags": [
           "curator",
           "curator_public",
@@ -6534,7 +6619,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "4031350479981451887",
-      "rtime32_last_modified": 1753810522,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1303346,
@@ -6554,7 +6639,7 @@
     }
   },
   {
-    "index": 78,
+    "index": 79,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6639,7 +6724,7 @@
     }
   },
   {
-    "index": 79,
+    "index": 80,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6724,7 +6809,7 @@
     }
   },
   {
-    "index": 80,
+    "index": 81,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6809,7 +6894,7 @@
     }
   },
   {
-    "index": 81,
+    "index": 82,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6894,7 +6979,7 @@
     }
   },
   {
-    "index": 82,
+    "index": 83,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6979,7 +7064,7 @@
     }
   },
   {
-    "index": 83,
+    "index": 84,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7064,7 +7149,7 @@
     }
   },
   {
-    "index": 84,
+    "index": 85,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7108,7 +7193,7 @@
         "posttime": 1694708618,
         "updatetime": 1695132042,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/ee3ddc501eaeb4b8b6ca799e641ff252f73ec0a1.jpg[/img]\n\nExplore the SEGA Wonderland from the 14th - 21st of September! \n\n[previewyoutube=V-ipxPojzdM;full][/previewyoutube]\n\nDiscover discounts across many SEGA franchises & limited timed bundles with an extra bundle discount.",
-        "commentcount": 2,
+        "commentcount": 1,
         "tags": [
           "curator",
           "curator_public",
@@ -7131,7 +7216,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "5291222404429333947",
-      "rtime32_last_modified": 1753811080,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1282806,
@@ -7151,7 +7236,7 @@
     }
   },
   {
-    "index": 85,
+    "index": 86,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7195,7 +7280,7 @@
         "posttime": 1694381287,
         "updatetime": 1694604893,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/082d471d4ad6a36498df272f140abf511816b59f.png[/img]",
-        "commentcount": 2,
+        "commentcount": 1,
         "tags": [
           "curator",
           "curator_public",
@@ -7218,7 +7303,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "3821922749515826911",
-      "rtime32_last_modified": 1753811084,
+      "rtime32_last_modified": 1790442944,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1289065,
@@ -7236,7 +7321,7 @@
     }
   },
   {
-    "index": 86,
+    "index": 87,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7280,7 +7365,7 @@
         "posttime": 1692881686,
         "updatetime": 1695378476,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/bb9bec75427dcb8d98994c296e35d3d0fbb4d63b.png[/img]",
-        "commentcount": 5,
+        "commentcount": 4,
         "tags": [
           "curator",
           "curator_public",
@@ -7303,7 +7388,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "3821921031519081601",
-      "rtime32_last_modified": 1753811123,
+      "rtime32_last_modified": 1790442944,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1283887,
@@ -7321,7 +7406,7 @@
     }
   },
   {
-    "index": 87,
+    "index": 88,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7406,7 +7491,7 @@
     }
   },
   {
-    "index": 88,
+    "index": 89,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7491,7 +7576,7 @@
     }
   },
   {
-    "index": 89,
+    "index": 90,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7576,7 +7661,7 @@
     }
   },
   {
-    "index": 90,
+    "index": 91,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7661,7 +7746,7 @@
     }
   },
   {
-    "index": 91,
+    "index": 92,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7705,7 +7790,7 @@
         "posttime": 1688058532,
         "updatetime": 1718921121,
         "body": "Company of Heroes Franchise",
-        "commentcount": 6,
+        "commentcount": 5,
         "tags": [
           "curator",
           "curator_public",
@@ -7728,7 +7813,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "3800523859687648611",
-      "rtime32_last_modified": 1753811353,
+      "rtime32_last_modified": 1790442943,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1276175,
@@ -7746,7 +7831,7 @@
     }
   },
   {
-    "index": 92,
+    "index": 93,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7831,7 +7916,7 @@
     }
   },
   {
-    "index": 93,
+    "index": 94,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7916,7 +8001,7 @@
     }
   },
   {
-    "index": 94,
+    "index": 95,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -8001,7 +8086,7 @@
     }
   },
   {
-    "index": 95,
+    "index": 96,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,

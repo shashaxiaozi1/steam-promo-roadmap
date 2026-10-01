@@ -4,6 +4,91 @@
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
+    "event_id": "675130991105278915",
+    "app_id": "",
+    "source_title": "Onimusha Way of the Sword out now!",
+    "subtitle": "see announcement body",
+    "event_type": 28,
+    "event_type_name": "",
+    "start_time_raw": "1788515460",
+    "end_time_raw": "1788519060",
+    "start_time": "2026-09-04 09:51:00",
+    "end_time": "2026-09-04 10:51:00",
+    "start_date": "2026-09-04",
+    "end_date": "2026-09-04",
+    "posttime_raw": "1788515499",
+    "updatetime_raw": "1788515499",
+    "url": "https://store.steampowered.com/news/group/33273264/view/675130991105278915?l=english",
+    "body_text": "An Oni Gauntlet-wielding samurai makes a stand in Kyoto against the encroaching Genma menace. Through gritty, blood-soaked brawls, he searches for his reason to fight. What fate awaits at the end of his path?",
+    "body_raw": "[p]An Oni Gauntlet-wielding samurai makes a stand in Kyoto against the encroaching Genma menace. Through gritty, blood-soaked brawls, he searches for his reason to fight. What fate awaits at the end of his path?\n[/p][previewyoutube=\"Gbmd6YFm5oU;full\"][/previewyoutube][p]\n[/p][hr][/hr][p][dynamiclink href=\"https://store.steampowered.com/app/2638890/_Way_of_the_Sword/\"][/dynamiclink][/p]",
+    "raw": {
+      "gid": "675130991105278915",
+      "clan_steamid": "103582791462794672",
+      "event_name": "Onimusha Way of the Sword out now!",
+      "event_type": 28,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1788515460,
+      "rtime32_end_time": 1788519060,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"df05570d110891a316ec9ff12624b8c6479b77a7.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}",
+      "announcement_body": {
+        "gid": "675130991105278916",
+        "clanid": "33273264",
+        "posterid": "0",
+        "headline": "Onimusha Way of the Sword out now!",
+        "posttime": 1788515499,
+        "updatetime": 1788515499,
+        "body": "[p]An Oni Gauntlet-wielding samurai makes a stand in Kyoto against the encroaching Genma menace. Through gritty, blood-soaked brawls, he searches for his reason to fight. What fate awaits at the end of his path?\n[/p][previewyoutube=\"Gbmd6YFm5oU;full\"][/previewyoutube][p]\n[/p][hr][/hr][p][dynamiclink href=\"https://store.steampowered.com/app/2638890/_Way_of_the_Sword/\"][/dynamiclink][/p]",
+        "commentcount": 2,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "589562598193862179",
+        "event_gid": "675130991105278915",
+        "voteupcount": 49,
+        "votedowncount": 0,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 0,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "589562598193862179",
+      "rtime32_last_modified": 1789992207,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1788515483,
+      "votes_up": 49,
+      "votes_down": 0,
+      "comment_type": "ForumTopic",
+      "gidfeature": "2287213008794582442",
+      "gidfeature2": "589562598193862179",
+      "clan_steamid_original": "103582791462794672"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "Capcom",
+    "publisher_slug": "capcom",
+    "group_id": 33273264,
     "event_id": "702144344758420803",
     "app_id": "",
     "source_title": "Capcom Summer Sale",
@@ -44,7 +129,7 @@
         "posttime": 1782406859,
         "updatetime": 1782941316,
         "body": "[img]{STEAM_CLAN_IMAGE}/33273264/e7b9cb196eb3c05993e223b3aa21f16fcf6bd491.jpg[/img][p]Save up to 90% on select CAPCOM games from June 25th through July 9th during the Capcom Summer Sale![/p][p][u]Featured Products[/u]\n[/p]\n",
-        "commentcount": 2,
+        "commentcount": 3,
         "tags": [
           "curator",
           "curator_public",
@@ -54,8 +139,8 @@
         "hidden": 0,
         "forum_topic_id": "567038259400699420",
         "event_gid": "702144344758420803",
-        "voteupcount": 50,
-        "votedowncount": 1,
+        "voteupcount": 57,
+        "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -67,7 +152,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "567038259400699420",
-      "rtime32_last_modified": 1787868628,
+      "rtime32_last_modified": 1790325783,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1440056,
@@ -76,8 +161,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1780946321,
-      "votes_up": 50,
-      "votes_down": 1,
+      "votes_up": 57,
+      "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "2287213008794582442",
       "gidfeature2": "567038259400699420",
@@ -85,7 +170,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 3,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -139,7 +224,7 @@
         "hidden": 0,
         "forum_topic_id": "573791755377558479",
         "event_gid": "501730356423034330",
-        "voteupcount": 168,
+        "voteupcount": 170,
         "votedowncount": 5,
         "ban_check_result": 0,
         "banned": 0
@@ -152,7 +237,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "573791755377558479",
-      "rtime32_last_modified": 1786865539,
+      "rtime32_last_modified": 1790325781,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1433745,
@@ -161,7 +246,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1777413142,
-      "votes_up": 168,
+      "votes_up": 170,
       "votes_down": 5,
       "comment_type": "ForumTopic",
       "gidfeature": "2287213008794582442",
@@ -170,7 +255,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 4,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -224,7 +309,7 @@
         "hidden": 0,
         "forum_topic_id": "573791755377448988",
         "event_gid": "655979278033224780",
-        "voteupcount": 215,
+        "voteupcount": 216,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -237,7 +322,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "573791755377448988",
-      "rtime32_last_modified": 1788114502,
+      "rtime32_last_modified": 1789389985,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1434527,
@@ -246,7 +331,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1777922762,
-      "votes_up": 215,
+      "votes_up": 216,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "2287213008794582442",
@@ -255,7 +340,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 5,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -309,7 +394,7 @@
         "hidden": 0,
         "forum_topic_id": "839503389267066914",
         "event_gid": "501730356423034328",
-        "voteupcount": 75,
+        "voteupcount": 76,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -322,7 +407,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "839503389267066914",
-      "rtime32_last_modified": 1784541011,
+      "rtime32_last_modified": 1790325899,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1433744,
@@ -331,7 +416,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1777412996,
-      "votes_up": 75,
+      "votes_up": 76,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "2287213008794582442",
@@ -340,7 +425,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 6,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -390,7 +475,7 @@
         "hidden": 0,
         "forum_topic_id": "832746626412021375",
         "event_gid": "527623698118607557",
-        "voteupcount": 125,
+        "voteupcount": 126,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -403,7 +488,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "832746626412021375",
-      "rtime32_last_modified": 1784781373,
+      "rtime32_last_modified": 1790441032,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1429877,
@@ -412,7 +497,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 125,
+      "votes_up": 126,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "2287213008794582442",
@@ -421,7 +506,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 7,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -506,7 +591,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 8,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -591,7 +676,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 9,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -645,7 +730,7 @@
         "hidden": 0,
         "forum_topic_id": "805720165777048935",
         "event_gid": "528747518463314443",
-        "voteupcount": 341,
+        "voteupcount": 342,
         "votedowncount": 15,
         "ban_check_result": 0,
         "banned": 0
@@ -658,7 +743,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "805720165777048935",
-      "rtime32_last_modified": 1784163326,
+      "rtime32_last_modified": 1790326015,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1425654,
@@ -667,7 +752,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 341,
+      "votes_up": 342,
       "votes_down": 15,
       "comment_type": "ForumTopic",
       "gidfeature": "2287213008794582442",
@@ -676,7 +761,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 10,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -761,7 +846,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 11,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -846,7 +931,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 12,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -931,7 +1016,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 13,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1016,7 +1101,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 14,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1101,7 +1186,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 15,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1186,7 +1271,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 16,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1271,7 +1356,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 17,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1356,7 +1441,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 18,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1441,7 +1526,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 19,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1526,7 +1611,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 20,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1611,7 +1696,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 21,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1696,7 +1781,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 22,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1781,7 +1866,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 23,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1868,7 +1953,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 24,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -1953,7 +2038,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 25,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2038,7 +2123,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 26,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2123,7 +2208,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 27,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2208,7 +2293,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 28,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2295,7 +2380,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 29,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2376,7 +2461,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 30,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2461,7 +2546,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 31,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2547,7 +2632,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 32,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2632,7 +2717,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 33,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2717,7 +2802,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 34,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2804,7 +2889,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 35,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2889,7 +2974,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 36,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -2976,7 +3061,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 37,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3061,7 +3146,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 38,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3146,7 +3231,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 39,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3233,7 +3318,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 40,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3318,7 +3403,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 41,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3403,7 +3488,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 42,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3488,7 +3573,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 43,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3573,7 +3658,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 44,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3658,7 +3743,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 45,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3743,7 +3828,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 46,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3828,7 +3913,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 47,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3913,7 +3998,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 48,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -3998,7 +4083,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 49,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4085,7 +4170,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 50,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4170,7 +4255,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 51,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4255,7 +4340,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 52,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4340,7 +4425,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 53,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4425,7 +4510,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 54,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4510,7 +4595,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 55,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4595,7 +4680,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 56,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4680,7 +4765,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 57,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4765,7 +4850,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 58,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4850,7 +4935,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 59,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -4935,7 +5020,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 60,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5020,7 +5105,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 61,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5105,7 +5190,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 62,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5190,7 +5275,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 63,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5275,7 +5360,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 64,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5360,7 +5445,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 65,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5445,7 +5530,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 66,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5528,7 +5613,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 67,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5614,7 +5699,7 @@
     }
   },
   {
-    "index": 67,
+    "index": 68,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5697,7 +5782,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 69,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5782,7 +5867,7 @@
     }
   },
   {
-    "index": 69,
+    "index": 70,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5863,7 +5948,7 @@
     }
   },
   {
-    "index": 70,
+    "index": 71,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -5946,7 +6031,7 @@
     }
   },
   {
-    "index": 71,
+    "index": 72,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6031,7 +6116,7 @@
     }
   },
   {
-    "index": 72,
+    "index": 73,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6116,7 +6201,7 @@
     }
   },
   {
-    "index": 73,
+    "index": 74,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6201,7 +6286,7 @@
     }
   },
   {
-    "index": 74,
+    "index": 75,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6286,7 +6371,7 @@
     }
   },
   {
-    "index": 75,
+    "index": 76,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6371,7 +6456,7 @@
     }
   },
   {
-    "index": 76,
+    "index": 77,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6456,7 +6541,7 @@
     }
   },
   {
-    "index": 77,
+    "index": 78,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6541,7 +6626,7 @@
     }
   },
   {
-    "index": 78,
+    "index": 79,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6626,7 +6711,7 @@
     }
   },
   {
-    "index": 79,
+    "index": 80,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6711,7 +6796,7 @@
     }
   },
   {
-    "index": 80,
+    "index": 81,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6794,7 +6879,7 @@
     }
   },
   {
-    "index": 81,
+    "index": 82,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6879,7 +6964,7 @@
     }
   },
   {
-    "index": 82,
+    "index": 83,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -6964,7 +7049,7 @@
     }
   },
   {
-    "index": 83,
+    "index": 84,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7047,7 +7132,7 @@
     }
   },
   {
-    "index": 84,
+    "index": 85,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7133,7 +7218,7 @@
     }
   },
   {
-    "index": 85,
+    "index": 86,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7218,7 +7303,7 @@
     }
   },
   {
-    "index": 86,
+    "index": 87,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7301,7 +7386,7 @@
     }
   },
   {
-    "index": 87,
+    "index": 88,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7386,7 +7471,7 @@
     }
   },
   {
-    "index": 88,
+    "index": 89,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7471,7 +7556,7 @@
     }
   },
   {
-    "index": 89,
+    "index": 90,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7554,7 +7639,7 @@
     }
   },
   {
-    "index": 90,
+    "index": 91,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7639,7 +7724,7 @@
     }
   },
   {
-    "index": 91,
+    "index": 92,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7724,7 +7809,7 @@
     }
   },
   {
-    "index": 92,
+    "index": 93,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7809,7 +7894,7 @@
     }
   },
   {
-    "index": 93,
+    "index": 94,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7894,7 +7979,7 @@
     }
   },
   {
-    "index": 94,
+    "index": 95,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -7980,7 +8065,7 @@
     }
   },
   {
-    "index": 95,
+    "index": 96,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8065,7 +8150,7 @@
     }
   },
   {
-    "index": 96,
+    "index": 97,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8150,7 +8235,7 @@
     }
   },
   {
-    "index": 97,
+    "index": 98,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8235,7 +8320,7 @@
     }
   },
   {
-    "index": 98,
+    "index": 99,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8320,7 +8405,7 @@
     }
   },
   {
-    "index": 99,
+    "index": 100,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8406,7 +8491,7 @@
     }
   },
   {
-    "index": 100,
+    "index": 101,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8489,7 +8574,7 @@
     }
   },
   {
-    "index": 101,
+    "index": 102,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8572,7 +8657,7 @@
     }
   },
   {
-    "index": 102,
+    "index": 103,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8657,7 +8742,7 @@
     }
   },
   {
-    "index": 103,
+    "index": 104,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8742,7 +8827,7 @@
     }
   },
   {
-    "index": 104,
+    "index": 105,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8828,7 +8913,7 @@
     }
   },
   {
-    "index": 105,
+    "index": 106,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8913,7 +8998,7 @@
     }
   },
   {
-    "index": 106,
+    "index": 107,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -8996,7 +9081,7 @@
     }
   },
   {
-    "index": 107,
+    "index": 108,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9081,7 +9166,7 @@
     }
   },
   {
-    "index": 108,
+    "index": 109,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9166,7 +9251,7 @@
     }
   },
   {
-    "index": 109,
+    "index": 110,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9249,7 +9334,7 @@
     }
   },
   {
-    "index": 110,
+    "index": 111,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9330,7 +9415,7 @@
     }
   },
   {
-    "index": 111,
+    "index": 112,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9415,7 +9500,7 @@
     }
   },
   {
-    "index": 112,
+    "index": 113,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9496,7 +9581,7 @@
     }
   },
   {
-    "index": 113,
+    "index": 114,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9581,7 +9666,7 @@
     }
   },
   {
-    "index": 114,
+    "index": 115,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9666,7 +9751,7 @@
     }
   },
   {
-    "index": 115,
+    "index": 116,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9747,7 +9832,7 @@
     }
   },
   {
-    "index": 116,
+    "index": 117,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9832,7 +9917,7 @@
     }
   },
   {
-    "index": 117,
+    "index": 118,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9913,7 +9998,7 @@
     }
   },
   {
-    "index": 118,
+    "index": 119,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -9998,7 +10083,7 @@
     }
   },
   {
-    "index": 119,
+    "index": 120,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -10083,7 +10168,7 @@
     }
   },
   {
-    "index": 120,
+    "index": 121,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -10168,7 +10253,7 @@
     }
   },
   {
-    "index": 121,
+    "index": 122,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -10253,7 +10338,7 @@
     }
   },
   {
-    "index": 122,
+    "index": 123,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -10338,7 +10423,7 @@
     }
   },
   {
-    "index": 123,
+    "index": 124,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,
@@ -10419,7 +10504,7 @@
     }
   },
   {
-    "index": 124,
+    "index": 125,
     "publisher": "Capcom",
     "publisher_slug": "capcom",
     "group_id": 33273264,

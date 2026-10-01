@@ -4,6 +4,179 @@
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
+    "event_id": "683012290458421584",
+    "app_id": "",
+    "source_title": "Castlevania Franchise Sale",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1790272320",
+    "end_time_raw": "1791478800",
+    "start_time": "2026-09-24 17:52:00",
+    "end_time": "2026-10-08 17:00:00",
+    "start_date": "2026-09-24",
+    "end_date": "2026-10-08",
+    "posttime_raw": "1790272357",
+    "updatetime_raw": "1790300148",
+    "url": "https://store.steampowered.com/news/group/39026134/view/683012290458421584?l=english",
+    "body_text": "Castlevania Franchise Sale is now live on Steam, featuring selected titles from the Castlevania series!",
+    "body_raw": "[h3]Castlevania Franchise Sale is now live on Steam, featuring selected titles from the Castlevania series! [/h3]\n",
+    "raw": {
+      "gid": "683012290458421584",
+      "clan_steamid": "103582791468547542",
+      "event_name": "Castlevania Franchise Sale",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1790272320,
+      "rtime32_end_time": 1791478800,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"8d56a8d55f7a3e21aba39a6e1bc6bd0dc63164fc.jpg\",\"eb8d3c8c52cf7ac75a1681933c70b96765a46e14.jpg\",\"dfc029c0b7ec0c3dc288c779654a3eb8b7338780.jpg\",\"3921d49411ea3b5f6e8342cec9fb4e2281a6f405.jpg\",\"c1a8f7597fc91899a80707a06f3e8332028a305e.jpg\",\"fc66064fdaea47ca5d943e134c32e6d6b07a28f9.jpg\",\"044162898c3a0a2dab30c577eb6152442b87b9b5.jpg\",\"b5ffbe11c3506355449d015ba1fd989257725664.jpg\",\"8a609ea94e4a4a65d0b3566fc97ca1486ad1d009.jpg\",\"35f82f1f5b32f96b5f4f8a8d91b8e4ef42d3b9f4.jpg\",\"440ae3371b47886e0f7edbd4dceb4c3febc8e8c2.jpg\",\"2554b1ebb231980708ec2f2f8d7b0ebd0364e4c9.jpg\",\"1d19caa40f9b24dd02302e2af9fb236d5313f61c.jpg\",\"fd799c05bb826a62b8cd704ac80aba453698c019.jpg\",\"2fef7b006dba9e0400aef4c7c074d5da813c9c24.jpg\",\"ed9949abb788a6bea3b0fc1f491e2bb8935e35ee.jpg\",\"65dd0c257d0bd8e46dc9c85436158feb4cfe5bbf.jpg\",\"22063b4e753a3df60382a6e56a55500bc94b3e7a.jpg\",\"62fda381313a354cf398468c83136d035bf33f0a.jpg\",\"d279af1c09b44e5bc3eb7bdb58350ca70b535b9f.jpg\",\"7e39a6c9474f2611d124aa09a501e8c8fd5b4c25.jpg\",\"7068a5f1004325b5ddcdd25f9d665f842718a3b5.jpg\",\"b7852536e5c935567030f0caf77048e1c37e685f.jpg\",\"6da05c62c418aa14fa975dedc702579ba4129538.jpg\",\"a350399f373d811aa32f9958c220bc630a68a199.jpg\",null,\"b4c726fccf9ce57101bcc91c138fa4015847c8f1.jpg\",\"3978c3acf6fdd42dcb008ebf7d26d5e38fad51b5.jpg\",\"61c0ba16a8839e70508268154b0adcf4b3144f01.jpg\",null,\"4878fb06ad73379e57951bb28eb2018a53daec18.jpg\",null],\"localized_capsule_image\":[\"e24b4475259d4a761561cf314ec90b9ffebc8406.jpg\",\"a769649ee770ec1eb86f2f3d9526c3a60338ef82.jpg\",\"4ec1d28d0a1a202892c3d201b19ba67426de400f.jpg\",\"bb2b4f736465d6db6efd663e714d93297f7dc80f.jpg\",\"c5d52fe138fce317bb20759a8b4e0ea59a688fc3.jpg\",\"37db76221c040490b367ccee052447d13297bf32.jpg\",\"70c785953d3842dcebc2e84762395da83e0d6060.jpg\",\"9961d00043c91f945227611109aefe3cd2054748.jpg\",\"0991a4057f1d0ce9fc9744fdfac6c1f3538bd5a6.jpg\",\"1097ba54cfb9012f6606ce509c5e06b698180d48.jpg\",\"6d3dc60358a50c9e32ee8191d28b1ab53eaace87.jpg\",\"aebe523abbb29507938f0be0252915bb2c350c80.jpg\",\"a695c61ee7598f80e6b3b4c459f897424a4e79f4.jpg\",\"0da499bb9e33d2058f2c1bb42319dc0a4708240d.jpg\",\"c8f59040779aacca09de3120e5c83f8b0837984b.jpg\",\"ae4343dedbb39c1f85bcf6354de33062a3fe9405.jpg\",\"83a265594c53d2b2593175ffb7f757740aafb9c3.jpg\",\"9b819973d8d6250f9cac0e8c78b85e02ee08b5b0.jpg\",\"a1f46556078cf3858e3637fa42adfa8af9910cb9.jpg\",\"30c13b8f070c937935d315b0dd3d93210364ab48.jpg\",\"283f499a5efcbf65dc92c5dbe61279fd1eead6bc.jpg\",\"460c71f5976b0ef3c1936943a8bf62726893aa15.jpg\",\"9a69764844aed763e4006802f70b93eaed1679d2.jpg\",\"8ad64aca55a93c449daa810e6182e29a204547bf.jpg\",\"c275353083f8c76e6a9d45d2ffba2cfb63dbc4dc.jpg\",null,\"a052e096301f90ae774542d51edab0bcea23e542.jpg\",\"42ccc9cd38fd1bd4886a027e27e0f3d857a87e68.jpg\",\"587be67dfd3a62dd23e87191a4ee06b1c03ee923.jpg\",null,\"2e376c76cb24c7c1289205a46f8ab34dd6e3ba6e.jpg\",null],\"bSaleEnabled\":true,\"sale_show_creator\":false,\"sale_sections\":[{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":42030,\"internal_section_data\":null,\"curator_clan_id\":41173416},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"tabs\",\"unique_id\":96835,\"internal_section_data\":null,\"tabs\":[{\"unique_id\":1,\"default_label\":\"\",\"localized_label\":[\"ALL\"],\"capsules\":[]},{\"unique_id\":2,\"default_label\":\"\",\"localized_label\":[\"Castlevania Series\"],\"capsules\":[]},{\"unique_id\":3,\"default_label\":\"\",\"localized_label\":[\"Collaboration Bundles\"],\"capsules\":[]},{\"unique_id\":4,\"default_label\":\"\",\"localized_label\":[\"DLC\"],\"capsules\":[]},{\"unique_id\":5,\"default_label\":\"\",\"localized_label\":[\"STEAM DECK\"],\"capsules\":[]}],\"background_gradient_top\":\"rgba(63, 45, 69, 1)\",\"background_gradient_bottom\":\"rgba(63, 45, 69, 1)\",\"tab_highlight_label_color\":\"rgba(250, 215, 108, 1)\"},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":85253,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"smart_section\":true,\"smart_section_type\":\"wishlist\",\"sale_tag_filter\":null,\"capsule_style_per_row_array\":null,\"background_gradient_top\":\"rgba(101, 67, 128, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\",\"show_on_tabs\":[1],\"smart_section_max_apps\":3},{\"capsules\":[{\"id\":4231820,\"type\":\"game\"},{\"id\":2369900,\"type\":\"game\"},{\"id\":1552550,\"type\":\"game\"},{\"id\":1018010,\"type\":\"game\"},{\"id\":282530,\"type\":\"game\"},{\"id\":239250,\"type\":\"game\"},{\"id\":234080,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Castlevania Series\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":15477,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[1],\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"label_color\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":86903,\"type\":\"bundle\"},{\"id\":86905,\"type\":\"bundle\"},{\"id\":86906,\"type\":\"bundle\"},{\"id\":86907,\"type\":\"bundle\"},{\"id\":86908,\"type\":\"bundle\"},{\"id\":86909,\"type\":\"bundle\"},{\"id\":40229,\"type\":\"bundle\"},{\"id\":44839,\"type\":\"bundle\"},{\"id\":44843,\"type\":\"bundle\"},{\"id\":44304,\"type\":\"bundle\"},{\"id\":24867,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Collaboration Bundles\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":76620,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[1],\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\"},{\"capsules\":[{\"id\":273153,\"type\":\"game\"},{\"id\":273152,\"type\":\"game\"},{\"id\":273151,\"type\":\"game\"},{\"id\":273150,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Downloadable Content\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":44560,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[1],\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\"},{\"capsules\":[{\"id\":4231820,\"type\":\"game\"},{\"id\":2369900,\"type\":\"game\"},{\"id\":1552550,\"type\":\"game\"},{\"id\":1018010,\"type\":\"game\"},{\"id\":282530,\"type\":\"game\"},{\"id\":239250,\"type\":\"game\"},{\"id\":234080,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_260\",\"section_type\":\"items\",\"unique_id\":10929,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"use_random_order\":true,\"random_order_top_x\":7,\"cap_item_count\":3,\"show_on_tabs\":[1],\"background_gradient_top\":\"rgba(213, 52, 88, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":4231820,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_24\",\"section_type\":\"items\",\"unique_id\":91426,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[1],\"background_gradient_top\":\"rgba(216, 64, 98, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":4231820,\"type\":\"game\"},{\"id\":2369900,\"type\":\"game\"},{\"id\":1552550,\"type\":\"game\"},{\"id\":1018010,\"type\":\"game\"},{\"id\":282530,\"type\":\"game\"},{\"id\":239250,\"type\":\"game\"},{\"id\":234080,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_260\",\"section_type\":\"items\",\"unique_id\":16278,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"use_random_order\":true,\"random_order_top_x\":7,\"cap_item_count\":3,\"show_on_tabs\":[2],\"background_gradient_top\":\"rgba(213, 52, 88, 1)\",\"background_gradient_bottom\":\"rgba(241, 226, 229, 1)\"},{\"capsules\":[{\"id\":4231820,\"type\":\"game\"},{\"id\":2369900,\"type\":\"game\"},{\"id\":1552550,\"type\":\"game\"},{\"id\":1018010,\"type\":\"game\"},{\"id\":282530,\"type\":\"game\"},{\"id\":239250,\"type\":\"game\"},{\"id\":234080,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Castlevania Series\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":93445,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[2],\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\"},{\"capsules\":[{\"id\":86903,\"type\":\"bundle\"},{\"id\":86905,\"type\":\"bundle\"},{\"id\":86906,\"type\":\"bundle\"},{\"id\":86907,\"type\":\"bundle\"},{\"id\":86908,\"type\":\"bundle\"},{\"id\":86909,\"type\":\"bundle\"},{\"id\":40229,\"type\":\"bundle\"},{\"id\":44839,\"type\":\"bundle\"},{\"id\":44843,\"type\":\"bundle\"},{\"id\":44304,\"type\":\"bundle\"},{\"id\":24867,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_260\",\"section_type\":\"items\",\"unique_id\":34724,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"use_random_order\":true,\"random_order_top_x\":11,\"cap_item_count\":3,\"show_on_tabs\":[3],\"background_gradient_top\":\"rgba(213, 52, 88, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":86903,\"type\":\"bundle\"},{\"id\":86905,\"type\":\"bundle\"},{\"id\":86906,\"type\":\"bundle\"},{\"id\":86907,\"type\":\"bundle\"},{\"id\":86908,\"type\":\"bundle\"},{\"id\":86909,\"type\":\"bundle\"},{\"id\":40229,\"type\":\"bundle\"},{\"id\":44839,\"type\":\"bundle\"},{\"id\":44843,\"type\":\"bundle\"},{\"id\":44304,\"type\":\"bundle\"},{\"id\":24867,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Collaboration Bundles\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":76007,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[3],\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\"},{\"capsules\":[{\"id\":273153,\"type\":\"game\"},{\"id\":273152,\"type\":\"game\"},{\"id\":273151,\"type\":\"game\"},{\"id\":273150,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_260\",\"section_type\":\"items\",\"unique_id\":21965,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"use_random_order\":true,\"random_order_top_x\":4,\"cap_item_count\":3,\"show_on_tabs\":[4],\"background_gradient_top\":\"rgba(213, 52, 88, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":273153,\"type\":\"game\"},{\"id\":273152,\"type\":\"game\"},{\"id\":273151,\"type\":\"game\"},{\"id\":273150,\"type\":\"game\"},{\"id\":2149730,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Downloadable Content\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":43202,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[4],\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\"},{\"capsules\":[{\"id\":4231820,\"type\":\"game\"},{\"id\":2369900,\"type\":\"game\"},{\"id\":1552550,\"type\":\"game\"},{\"id\":1018010,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_260\",\"section_type\":\"items\",\"unique_id\":63174,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"use_random_order\":true,\"random_order_top_x\":4,\"cap_item_count\":3,\"show_on_tabs\":[5],\"background_gradient_top\":\"rgba(213, 52, 88, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":4231820,\"type\":\"game\"},{\"id\":2369900,\"type\":\"game\"},{\"id\":1552550,\"type\":\"game\"},{\"id\":1018010,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Steam Deck\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":75581,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[5],\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\"},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"text_section\",\"unique_id\":17514,\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"internal_section_data\":null,\"text_section_contents\":[\"[previewyoutube=ZI5U5Nlxf1Q;full][/previewyoutube]\",null,null,null,null,null,null,null,null,null,\"[previewyoutube=U9hmHw0JFUc;full][/previewyoutube]\"],\"show_on_tabs\":[1]}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"e40d9d56272c0aa92a1e2107454f858b92402c04.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"f6ffdda9501ddf78d4d5086e952007c91e37379a.jpg\",\"ba7d5f375230a26cb76a8979a33f5611f2808f97.jpg\",\"ecec07f556b5084926175e5c44e96f1e36cd1742.jpg\",\"39b419b39736a65439cc39fb31c13234a203b232.jpg\",\"dbfb146114cc9e295b8432cd7711fd4f40d0b15c.jpg\",\"298834ad7a362b97284b2f774a65eccc09d49666.jpg\",\"65f4f95b276ed0e863db4029a7b666a3d3f33c23.jpg\",\"3a9f0537e041dd37ce90d1f2d200879e34fe0db1.jpg\",\"e0918becb49bb666ff03baf4fe9d1c282796b109.jpg\",\"07cb95e14a32742fab0803bf918c685a41f48360.jpg\",\"d83fd80196e527c3d49d375ce0aabcf007a3beb7.jpg\",\"9c455e8eae8357947a63b4ae75e80f6e85530b9a.jpg\",\"0b061280c4343c57d76800928b927e1f068ecbc7.jpg\",\"820ee0178622c24dcd5688dc55d42a123b0d6476.jpg\",\"20eb21b42e56e3c768e101a812c56328d8845a1d.jpg\",\"075063a33e359cd27f15a859936f862c73800ca6.jpg\",\"130f6a726a2323b248b99a7350b59c68e4d0178c.jpg\",\"a3855d1653b2194dec817e1595606a735a870815.jpg\",\"9f6c1eaa57101eec67bd5f593d8d55aaaa2ada1c.jpg\",\"b3484b5811aeafe01c25571df9759a13540ca529.jpg\",\"577a97de9bba0aff53b51b4441ada71cf4705ddc.jpg\",\"c2f462f5d44d07ea31c2548189c8ec5dca062ac2.jpg\",\"a0c451ddadac4e8c4f01c6a700e53e92b347a7ad.jpg\",\"9f3a99313f9eb6be7cdaeb6374ac63cd96e18acb.jpg\",\"fb0a299acb6c118fcbe0b7622ca338839a7a3762.jpg\",null,\"b155f6418c2ff01661cb18c20ba558c41d994468.jpg\",\"e9c13e0f68c055a973a3b5dc0b5fcb5b34dbd756.jpg\",\"199b15105fafc4dca04b2365b6476220f8382477.jpg\",null,\"6b6263e705627b0e23f6841c98f1e3d09181f5da.jpg\",null],\"localized_sale_product_mobile_banner\":[\"7ae007bf2e5158e2ac5b351b1df468d2fdab488b.jpg\",\"151d8000449596ed5ce3bde33a4cb6952cab4df3.jpg\",\"0cd65f2279d8b7e2a0a5da59551c575ff9bc01f7.jpg\",\"ba5ed26284cd2c22886fd8dabdac031122180aff.jpg\",\"fb9847a5adc28576c1dc94e6f6d69c68d9511939.jpg\",\"d922cbdf945ac1758c85ea5b0b33dfb78b7d3ba6.jpg\",\"ab9fb09263a6e67babc9d8a39df056f3eb91c676.jpg\",\"b5183c7751b77a4c70d132c9f2856aa1164c75f6.jpg\",\"a7af84785c18e270b06b5adb80b8d4608741c1e7.jpg\",\"211769dfb55583961c8953ef7380b565d4286cb1.jpg\",\"ecf0a9cd47e488e008186ee0a22f3159904d1325.jpg\",\"d2e434c3a6062e48ea5670585a7541c1a43967a0.jpg\",\"edd8fa82cfdeb4824f315d089419353f2d32b715.jpg\",\"0ec0aba6d6d13ff97b2ba405a9ce8546423bce7f.jpg\",\"6283e05361715b7c363dc54977fdaf45a8f96efe.jpg\",\"8c5f8e8735a9d7e63307375a5c9cd9297167642d.jpg\",\"e52cde97dedfc662e783308712dd5fc739590a0b.jpg\",\"17ccf8625a37348a6f4601a8c0dd8e272f5d3bd4.jpg\",\"513471d9beac31b1e24576f522e9c87e15b0cca2.jpg\",\"a97b024740ce7d0232c103604d08b4d71379c517.jpg\",\"49add720505b40d070a5012e25d9374669299dbf.jpg\",\"4ef8b0d46e9afb9537469698c6b713c3477d9279.jpg\",\"a0c9919157f036c250abc0b99b3ace57d96b4ca6.jpg\",\"40d6fc9eb70f420207b0a43e1379994640fe9201.jpg\",\"cc5bc83dd96022a1908d0ef125f912751b5cdc9c.jpg\",null,\"86b927ea7b9c8e31a585e0f91b043f9bbf002f3a.jpg\",\"86335e2e42eef562e83f1c086147ac247007e468.jpg\",\"9fa70df5543762bb6b7aab3e677717cc5e809c46.jpg\",null,\"93a3a6b9c17c87601324b11b61719539aa00fc90.jpg\",null],\"localized_sale_logo\":[\"0d3a98c7d75d59600bbb0e5a6fc15d6d8ae6fd3d.png\",\"40e09b18f5d708c02748e4150e860de6eeca369a.png\",\"534388b6c9704ff4211e6bf4ed00325f543c2c80.png\",\"240a613aa96ec3e6069d197d8b8843ee14a14dec.png\",\"06a20c7fb4a4ce45521f005d043c62f17b66d95c.png\",\"e3cb3145504ebc0ce9828be152da3ed8c62e5ff0.png\",\"ea72309b5134f28992509ef1c19c84bb08997162.png\",\"64e823f93b07d1af0eff0ed429e5b7dd75293c5b.png\",\"5950da5fe4fc41b74638df3a6137cba71ee4babd.png\",\"a9d491e347146b4f27012b91b7d3e55148bd4402.png\",\"092a7ce64b0ed2145be85cc57d4a9ea0fdf2d723.png\",\"6ef582ce71246a1b11b68eeaa00fa1572009c26a.png\",\"16c992b65c131b3c429a3d983ecd57aa0b28a5b6.png\",\"c4af6ebafdb906ccaaae3fa4b4e7f91a93661362.png\",\"2b8cd9dfa93662e6b10d64d10b8abddc9dd39bf1.png\",\"51e5b501d9f1aeb6a820869800a248511853f915.png\",\"4f885a43d0bc0dc52a3203f3f5467ee443532b50.png\",\"78fb3b947530f30a15b97c9fa4eac99a63bc97c1.png\",\"782d723a94f598904d20a3f98b0466aa1ad0e70f.png\",\"8f29e9b15b8ee98743971f9a987c7bdf6d4626e1.png\",\"e8a0803e5084237e079f7d06fb6ac9db3d85b952.png\",\"a4b8d14061d336e5fb4a7ccaa5398f4bc0596713.png\",\"4ec7056fefb6b1e8ee9d02945ca2912d1e16dd09.png\",\"cd2a4510e5581d8147686ac9d786ba6c6f67ed21.png\",\"75d57063ac5386b1c51a1dfe08d582d88988fd4a.png\",null,\"aedfe9bcb9d2a9e69733a19155c3d2384050b753.png\",\"edbda2949b99e61c0a57f765befc3287b767f97e.png\",\"d9cd5e6509e69ad888169b1e8ddf950d9767e27e.png\",null,\"99a12cd10cff512cf05916bac9dd5cd3f1334378.png\",null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(0, 0, 0, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_associated_advertising_appid\":5221960,\"sale_presenters\":[{\"unique_id\":40308,\"localized_presenter_name\":[\"KONAMI\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/Konami/\"}],\"sale_vanity_id\":\"CastlevaniaFranchiseSale2026\",\"sale_creator_home_filter_listid\":\"68718\",\"sale_vanity_id_valve_approved_for_sale_subpath\":true}",
+      "announcement_body": {
+        "gid": "683012290458421585",
+        "clanid": "39026134",
+        "posterid": "0",
+        "headline": "Castlevania Franchise Sale",
+        "posttime": 1790272357,
+        "updatetime": 1790300148,
+        "body": "[h3]Castlevania Franchise Sale is now live on Steam, featuring selected titles from the Castlevania series! [/h3]\n",
+        "commentcount": 0,
+        "tags": [
+          "autocreate_promotools",
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "590690402783398179",
+        "event_gid": "683012290458421584",
+        "voteupcount": 55,
+        "votedowncount": 1,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1790272320,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "590690402783398179",
+      "rtime32_last_modified": 1790753136,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 1454468,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1788902976,
+      "votes_up": 55,
+      "votes_down": 1,
+      "comment_type": "ForumTopic",
+      "gidfeature": "3056237435832679367",
+      "gidfeature2": "590690402783398179",
+      "clan_steamid_original": "103582791468547542"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "Konami",
+    "publisher_slug": "konami",
+    "group_id": 39026134,
+    "event_id": "713407148452742627",
+    "app_id": "",
+    "source_title": "KONAMI PRESS START Title Showcase",
+    "subtitle": "see announcement body",
+    "event_type": 11,
+    "event_type_name": "",
+    "start_time_raw": "1788446700",
+    "end_time_raw": "1789491600",
+    "start_time": "2026-09-03 14:45:00",
+    "end_time": "2026-09-15 17:00:00",
+    "start_date": "2026-09-03",
+    "end_date": "2026-09-15",
+    "posttime_raw": "1788446733",
+    "updatetime_raw": "1789013159",
+    "url": "https://store.steampowered.com/news/group/39026134/view/713407148452742627?l=english",
+    "body_text": "Survey underway\nPre-Order\nhttps://store.steampowered.com/app/1636440/\nhttps://store.steampowered.com/app/4231820/\nKONAMI PRESS START SALE is also underway!\nOn sale until September 15 at 10:00 AM (PT)\nDon't miss out on this opportunity to enjoy KONAMI games!\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/1932640/\nhttps://store.steampowered.com/app/3652140/",
+    "body_raw": "[previewyoutube=us-U1NKynio;full][/previewyoutube]\n　\n[h2]Survey underway[/h2]\n[url=https://www.konami.com/games/konami-press-start/survey/][img]{STEAM_CLAN_IMAGE}/39026134/f9c523cffc679d30b03866c33da99bcef9d78235.png[/img][/url]\n\n\n[h2]Pre-Order[/h2]\nhttps://store.steampowered.com/app/1636440/\nhttps://store.steampowered.com/app/4231820/\n\n\n[h2]KONAMI PRESS START SALE is also underway![/h2]\n[h3]On sale until September 15 at 10:00 AM (PT)[/h3]\n[h3]Don't miss out on this opportunity to enjoy KONAMI games![/h3]\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/1932640/\nhttps://store.steampowered.com/app/3652140/\n\n[url=https://store.steampowered.com/sale/KONAMIPressStart2026][img]{STEAM_CLAN_IMAGE}/39026134/4f4affa456ccefcf3ff1cc05ce524b861688dd97.jpg[/img][/url]",
+    "raw": {
+      "gid": "713407148452742627",
+      "clan_steamid": "103582791468547542",
+      "event_name": "KONAMI PRESS START Title Showcase",
+      "event_type": 11,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1788446700,
+      "rtime32_end_time": 1789491600,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"KONAMI PRESS START SALE is also underway!　Don't miss out on this opportunity to enjoy KONAMI games!\",\"KONAMI PRESS START Sale läuft jetzt!　Verpass nicht diese Gelegenheit, KONAMI-Spiele zu erleben!\",\"Les soldes de KONAMI PRESS START commencent !　Ne ratez pas cette opportunité d’obtenir des jeux KONAMI!\",null,null,\"¡Las rebajas de KONAMI PRESS START ya están aquí!　¡No dejes escapar esta oportunidad de disfrutar de los juegos de KONAMI!\",\"「KONAMI PRESS START SALE」活动正在举行！享受KONAMI游戏的无穷乐趣，机不可失！\",\"「KONAMI PRESS START SALE」活動正在舉行！　享受KONAMI遊戲的無窮樂趣，機不可失！\",null,null,\"KONAMI PRESS START SALEも開催中！　KONAMIのゲームをお楽しみいただけるチャンスをお見逃しなく！\",null,null,null,null,null,null,null,null,null,null,null,\"A Promoção de KONAMI PRESS START já começou!　Não perca esta oportunidade de curtir os jogos da KONAMI!\",null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"fbd969150adb2f0f2457d6d4e1bebf7184db11df.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"97831e2915ab9e7ae5b897788519dfef5f6cf0d0.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":true,\"sale_show_creator\":false,\"sale_sections\":[{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"tabs\",\"unique_id\":71858,\"internal_section_data\":null,\"tabs\":[{\"unique_id\":1,\"default_label\":\"\",\"localized_label\":[\"HOME\"],\"capsules\":[]},{\"unique_id\":6,\"default_label\":\"\",\"localized_label\":[\"SILENT HILL\"],\"capsules\":[]},{\"unique_id\":4,\"default_label\":\"\",\"localized_label\":[\"METAL GEAR\"],\"capsules\":[]},{\"unique_id\":5,\"default_label\":\"\",\"localized_label\":[\"CASTLEVANIA\"],\"capsules\":[]},{\"unique_id\":8,\"default_label\":\"\",\"localized_label\":[\"Yu-Gi-Oh!\"],\"capsules\":[]},{\"unique_id\":9,\"default_label\":\"\",\"localized_label\":[\"CONTRA\"],\"capsules\":[]},{\"unique_id\":2,\"default_label\":\"#Sale_default_label_261\",\"localized_label\":null,\"capsules\":[]},{\"unique_id\":7,\"default_label\":\"\",\"localized_label\":[\"MORE GAMES\"],\"capsules\":[]},{\"unique_id\":3,\"default_label\":\"#Sale_default_label_28\",\"localized_label\":null,\"capsules\":[]}],\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_bottom\":\"rgba(0, 0, 0, 1)\",\"background_gradient_top\":\"rgba(0, 0, 0, 1)\",\"tab_highlight_label_color\":\"rgba(235, 0, 5, 1)\"},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"text_section\",\"unique_id\":32174,\"internal_section_data\":null,\"show_on_tabs\":[1],\"text_section_contents\":[\"[previewyoutube=us-U1NKynio;full][/previewyoutube]\",null,null,null,null,null,null,null,null,null,\"[previewyoutube=QbPKkX1tsRU;full][/previewyoutube]\"],\"border_width\":3,\"border_color\":\"rgba(255, 253, 253, 1)\",\"background_gradient_top\":\"rgba(249, 247, 247, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"text_section\",\"unique_id\":60314,\"internal_section_data\":null,\"text_section_contents\":[null,null,null,null,null,null,null,null,null,null,\"[url=https://www.konami.com/games/konami-press-start/survey/][img]{STEAM_CLAN_IMAGE}/39026134/f9c523cffc679d30b03866c33da99bcef9d78235.png[/img][/url]\"],\"show_on_tabs\":[1]},{\"capsules\":[{\"id\":1636440,\"type\":\"game\"},{\"id\":4231820,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_268\",\"section_type\":\"items\",\"unique_id\":48289,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[1]},{\"capsules\":[{\"id\":3353450,\"type\":\"game\"},{\"id\":3353430,\"type\":\"game\"},{\"id\":4965860,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_103\",\"section_type\":\"items\",\"unique_id\":85022,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[1]},{\"capsules\":[{\"id\":2947440,\"type\":\"game\"},{\"id\":2124490,\"type\":\"game\"},{\"id\":886312,\"type\":\"sub\"},{\"id\":886313,\"type\":\"sub\"},{\"id\":886315,\"type\":\"sub\"},{\"id\":1522855,\"type\":\"sub\"},{\"id\":1522857,\"type\":\"sub\"},{\"id\":1522860,\"type\":\"sub\"},{\"id\":3652140,\"type\":\"game\"},{\"id\":1932640,\"type\":\"game\"},{\"id\":2989180,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_267\",\"section_type\":\"items\",\"unique_id\":61758,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[1]},{\"capsules\":[{\"id\":1636440,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_23\",\"section_type\":\"items\",\"unique_id\":40008,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[6],\"border_color\":\"rgba(255, 255, 255, 1)\",\"border_width\":3},{\"capsules\":[{\"id\":2947440,\"type\":\"game\"},{\"id\":2124490,\"type\":\"game\"},{\"id\":19000,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":99078,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[6]},{\"capsules\":[{\"id\":1412913,\"type\":\"sub\"},{\"id\":1412918,\"type\":\"sub\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":99463,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[6],\"single_item_style\":\"bordered\",\"prefer_demo_store_page\":false,\"show_as_demos\":false},{\"capsules\":[{\"id\":3859630,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_281\",\"section_type\":\"items\",\"unique_id\":68710,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[4],\"border_width\":3,\"border_color\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":1191461,\"type\":\"sub\"},{\"id\":886312,\"type\":\"sub\"},{\"id\":886313,\"type\":\"sub\"},{\"id\":886315,\"type\":\"sub\"},{\"id\":2131630,\"type\":\"game\"},{\"id\":2131640,\"type\":\"game\"},{\"id\":2131650,\"type\":\"game\"},{\"id\":132479,\"type\":\"sub\"},{\"id\":132506,\"type\":\"sub\"},{\"id\":311340,\"type\":\"game\"},{\"id\":287700,\"type\":\"game\"},{\"id\":235460,\"type\":\"game\"},{\"id\":543900,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":45922,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[4]},{\"capsules\":[{\"id\":66684,\"type\":\"bundle\"},{\"id\":66685,\"type\":\"bundle\"},{\"id\":66687,\"type\":\"bundle\"},{\"id\":66688,\"type\":\"bundle\"},{\"id\":66679,\"type\":\"bundle\"},{\"id\":66680,\"type\":\"bundle\"},{\"id\":66681,\"type\":\"bundle\"},{\"id\":66682,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"BUNDLE\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":16937,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"compactlist\",\"show_on_tabs\":[4]},{\"capsules\":[{\"id\":4231820,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_23\",\"section_type\":\"items\",\"unique_id\":64417,\"border_color\":\"rgba(255, 255, 255, 1)\",\"border_width\":3,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"show_on_tabs\":[5],\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\"},{\"capsules\":[{\"id\":2369900,\"type\":\"game\"},{\"id\":1552550,\"type\":\"game\"},{\"id\":1018010,\"type\":\"game\"},{\"id\":282530,\"type\":\"game\"},{\"id\":234080,\"type\":\"game\"},{\"id\":239250,\"type\":\"game\"},{\"id\":273153,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":42784,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[5]},{\"capsules\":[{\"id\":40229,\"type\":\"bundle\"},{\"id\":44304,\"type\":\"bundle\"},{\"id\":24867,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"BUNDLE\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":15680,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"compactlist\",\"show_on_tabs\":[5],\"default_subtitle\":\"\",\"localized_subtitle\":[null]},{\"capsules\":[{\"id\":4416300,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_23\",\"section_type\":\"items\",\"unique_id\":32668,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\",\"show_on_tabs\":[8],\"border_width\":3,\"border_color\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":1449850,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":73043,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[8],\"single_item_style\":\"library\"},{\"capsules\":[{\"id\":3013550,\"type\":\"game\"},{\"id\":1150640,\"type\":\"game\"},{\"id\":480650,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":31,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"use_random_order\":false,\"cap_item_count\":0,\"show_on_tabs\":[8]},{\"capsules\":[{\"id\":523500,\"type\":\"game\"},{\"id\":523501,\"type\":\"game\"},{\"id\":523502,\"type\":\"game\"},{\"id\":523503,\"type\":\"game\"},{\"id\":523504,\"type\":\"game\"},{\"id\":523505,\"type\":\"game\"},{\"id\":523506,\"type\":\"game\"},{\"id\":523507,\"type\":\"game\"},{\"id\":523508,\"type\":\"game\"},{\"id\":523510,\"type\":\"game\"},{\"id\":523511,\"type\":\"game\"},{\"id\":523521,\"type\":\"game\"},{\"id\":523530,\"type\":\"game\"},{\"id\":523531,\"type\":\"game\"},{\"id\":523532,\"type\":\"game\"},{\"id\":523533,\"type\":\"game\"},{\"id\":523534,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":32,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"use_random_order\":false,\"cap_item_count\":0,\"show_on_tabs\":[8]},{\"capsules\":[{\"id\":2235020,\"type\":\"game\"},{\"id\":3099720,\"type\":\"music\"},{\"id\":1018020,\"type\":\"game\"},{\"id\":1020540,\"type\":\"game\"},{\"id\":1065660,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":34,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[9],\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":39625,\"type\":\"bundle\"},{\"id\":39616,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"BUNDLE\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":41586,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[9],\"capsule_style_per_row_array\":null,\"single_item_style\":\"library\"},{\"capsules\":[{\"id\":3668850,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_18\",\"section_type\":\"items\",\"unique_id\":57421,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[7],\"border_width\":3,\"border_color\":\"rgba(255, 255, 255, 1)\",\"single_item_style\":\"library\"},{\"capsules\":[{\"id\":3907350,\"type\":\"game\"},{\"id\":3907380,\"type\":\"game\"},{\"id\":3756010,\"type\":\"game\"},{\"id\":1812560,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":28513,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[7]},{\"capsules\":[{\"id\":4128400,\"type\":\"game\"},{\"id\":1665460,\"type\":\"game\"},{\"id\":1449850,\"type\":\"game\"},{\"id\":601510,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"items\",\"unique_id\":41694,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[3]},{\"capsules\":[{\"id\":2947440,\"type\":\"game\"},{\"id\":2124490,\"type\":\"game\"},{\"id\":19000,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Silent Series\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":58362,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"show_on_tabs\":[2],\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":1191461,\"type\":\"sub\"},{\"id\":886315,\"type\":\"sub\"},{\"id\":886312,\"type\":\"sub\"},{\"id\":886313,\"type\":\"sub\"},{\"id\":132479,\"type\":\"sub\"},{\"id\":132506,\"type\":\"sub\"},{\"id\":543900,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"METAL GEAR SERIES\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":72947,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[2],\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":3013550,\"type\":\"game\"},{\"id\":1150640,\"type\":\"game\"},{\"id\":480650,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Yu-Gi-Oh! Series\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":23,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"use_random_order\":false,\"cap_item_count\":0,\"show_on_tabs\":[2]},{\"capsules\":[{\"id\":523500,\"type\":\"game\"},{\"id\":523501,\"type\":\"game\"},{\"id\":523502,\"type\":\"game\"},{\"id\":523503,\"type\":\"game\"},{\"id\":523504,\"type\":\"game\"},{\"id\":523505,\"type\":\"game\"},{\"id\":523506,\"type\":\"game\"},{\"id\":523507,\"type\":\"game\"},{\"id\":523508,\"type\":\"game\"},{\"id\":523510,\"type\":\"game\"},{\"id\":523511,\"type\":\"game\"},{\"id\":523521,\"type\":\"game\"},{\"id\":523530,\"type\":\"game\"},{\"id\":523531,\"type\":\"game\"},{\"id\":523532,\"type\":\"game\"},{\"id\":523533,\"type\":\"game\"},{\"id\":523534,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":24,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"use_random_order\":false,\"cap_item_count\":0,\"show_on_tabs\":[2]},{\"capsules\":[{\"id\":2235020,\"type\":\"game\"},{\"id\":3099720,\"type\":\"music\"},{\"id\":1018020,\"type\":\"game\"},{\"id\":1020540,\"type\":\"game\"},{\"id\":1065660,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Contra Series\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":34884,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[2],\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":3652140,\"type\":\"game\"},{\"id\":1522855,\"type\":\"sub\"},{\"id\":1522857,\"type\":\"sub\"},{\"id\":1522860,\"type\":\"sub\"},{\"id\":2989180,\"type\":\"game\"},{\"id\":1932640,\"type\":\"game\"},{\"id\":3125750,\"type\":\"game\"},{\"id\":1913740,\"type\":\"game\"},{\"id\":702700,\"type\":\"game\"},{\"id\":2897590,\"type\":\"game\"},{\"id\":1880610,\"type\":\"game\"},{\"id\":3270570,\"type\":\"music\"},{\"id\":2728190,\"type\":\"game\"},{\"id\":2728200,\"type\":\"game\"},{\"id\":1248080,\"type\":\"game\"},{\"id\":2217570,\"type\":\"music\"},{\"id\":1323470,\"type\":\"game\"},{\"id\":1659600,\"type\":\"game\"},{\"id\":1018000,\"type\":\"game\"},{\"id\":605800,\"type\":\"game\"},{\"id\":650510,\"type\":\"game\"},{\"id\":1647200,\"type\":\"game\"},{\"id\":1715980,\"type\":\"game\"},{\"id\":19030,\"type\":\"game\"},{\"id\":19020,\"type\":\"game\"},{\"id\":19080,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Others\",\"Others\",\"Others\",null,null,\"Others\",\"Others\",\"Others\",null,null,\"Others\",null,null,null,null,null,null,null,null,null,null,null,\"Others\",null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":18,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[2],\"capsule_style_per_row_array\":null,\"use_random_order\":false,\"cap_item_count\":0,\"random_order_top_x\":23},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":41750,\"internal_section_data\":null,\"curator_clan_id\":39026134,\"show_on_tabs\":[1]},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":62632,\"internal_section_data\":null,\"curator_clan_id\":43125015,\"show_on_tabs\":[6]},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":10713,\"internal_section_data\":null,\"curator_clan_id\":44656967,\"show_on_tabs\":[4]},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":51777,\"internal_section_data\":null,\"curator_clan_id\":41173416,\"show_on_tabs\":[5]},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":25824,\"internal_section_data\":null,\"curator_clan_id\":41401724,\"show_on_tabs\":[8]},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":32787,\"internal_section_data\":null,\"curator_clan_id\":44638619,\"show_on_tabs\":[9]},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":20845,\"internal_section_data\":null,\"curator_clan_id\":45635528,\"show_on_tabs\":[7]},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":40788,\"internal_section_data\":null,\"curator_clan_id\":41173470,\"show_on_tabs\":[7]}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"997aa57dd370dd068f4ed30b9b54b09ebab0d1ee.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"0502ea251a844c462b71c75b28654a24bb373bd0.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[\"49c16040467bcf42b753086513ef826b85b5a641.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[\"0c411ecdec5607af1b9257701eda8263363f7c3e.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(212, 0, 12, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_vanity_id\":\"KONAMIPressStart2026\",\"sale_vanity_id_valve_approved_for_sale_subpath\":true,\"sale_background_repeat\":\"repeat-y\",\"sale_presenters\":[{\"unique_id\":99260,\"localized_presenter_name\":[\"KONAMI\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/Konami/\"}]}",
+      "announcement_body": {
+        "gid": "713407148452742628",
+        "clanid": "39026134",
+        "posterid": "0",
+        "headline": "KONAMI PRESS START Title Showcase",
+        "posttime": 1788446733,
+        "updatetime": 1789013159,
+        "body": "[previewyoutube=us-U1NKynio;full][/previewyoutube]\n　\n[h2]Survey underway[/h2]\n[url=https://www.konami.com/games/konami-press-start/survey/][img]{STEAM_CLAN_IMAGE}/39026134/f9c523cffc679d30b03866c33da99bcef9d78235.png[/img][/url]\n\n\n[h2]Pre-Order[/h2]\nhttps://store.steampowered.com/app/1636440/\nhttps://store.steampowered.com/app/4231820/\n\n\n[h2]KONAMI PRESS START SALE is also underway![/h2]\n[h3]On sale until September 15 at 10:00 AM (PT)[/h3]\n[h3]Don't miss out on this opportunity to enjoy KONAMI games![/h3]\nhttps://store.steampowered.com/app/2947440/\nhttps://store.steampowered.com/app/2124490/\nhttps://store.steampowered.com/app/1932640/\nhttps://store.steampowered.com/app/3652140/\n\n[url=https://store.steampowered.com/sale/KONAMIPressStart2026][img]{STEAM_CLAN_IMAGE}/39026134/4f4affa456ccefcf3ff1cc05ce524b861688dd97.jpg[/img][/url]",
+        "commentcount": 1,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "591814398006397175",
+        "event_gid": "713407148452742627",
+        "voteupcount": 25,
+        "votedowncount": 2,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1788446700,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "591814398006397175",
+      "rtime32_last_modified": 1790520408,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 1451182,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1784583464,
+      "votes_up": 25,
+      "votes_down": 2,
+      "comment_type": "ForumTopic",
+      "gidfeature": "3056237435832679367",
+      "gidfeature2": "591814398006397175",
+      "video_preview_type": "youtube",
+      "video_preview_id": "us-U1NKynio",
+      "clan_steamid_original": "103582791468547542"
+    }
+  },
+  {
+    "index": 3,
+    "publisher": "Konami",
+    "publisher_slug": "konami",
+    "group_id": 39026134,
     "event_id": "669500224005210872",
     "app_id": "",
     "source_title": "Yu-Gi-Oh! WORLD CHAMPIONSHIP 2026",
@@ -54,8 +227,8 @@
         "hidden": 0,
         "forum_topic_id": "591813764140154321",
         "event_gid": "669500224005210872",
-        "voteupcount": 26,
-        "votedowncount": 2,
+        "voteupcount": 42,
+        "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -67,7 +240,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "591813764140154321",
-      "rtime32_last_modified": 1788150925,
+      "rtime32_last_modified": 1790325346,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1451698,
@@ -76,8 +249,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1787270885,
-      "votes_up": 26,
-      "votes_down": 2,
+      "votes_up": 42,
+      "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "591813764140154321",
@@ -85,7 +258,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 4,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -172,7 +345,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 5,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -226,8 +399,8 @@
         "hidden": 0,
         "forum_topic_id": "594062392368951304",
         "event_gid": "677377899168268308",
-        "voteupcount": 66,
-        "votedowncount": 1,
+        "voteupcount": 67,
+        "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -239,7 +412,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "594062392368951304",
-      "rtime32_last_modified": 1788150931,
+      "rtime32_last_modified": 1790507900,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1445207,
@@ -248,8 +421,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1783664209,
-      "votes_up": 66,
-      "votes_down": 1,
+      "votes_up": 67,
+      "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
       "gidfeature2": "594062392368951304",
@@ -257,7 +430,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 6,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -342,7 +515,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 7,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -396,7 +569,7 @@
         "hidden": 0,
         "forum_topic_id": "840627927552984899",
         "event_gid": "540009684293124137",
-        "voteupcount": 34,
+        "voteupcount": 35,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -409,7 +582,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "840627927552984899",
-      "rtime32_last_modified": 1788150941,
+      "rtime32_last_modified": 1789211678,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1430932,
@@ -418,7 +591,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1775610856,
-      "votes_up": 34,
+      "votes_up": 35,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3056237435832679367",
@@ -427,7 +600,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 8,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -512,7 +685,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 9,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -597,7 +770,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 10,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -682,7 +855,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 11,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -769,7 +942,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 12,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -854,7 +1027,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 13,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -941,7 +1114,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 14,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1026,7 +1199,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 15,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1111,7 +1284,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 16,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1196,7 +1369,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 17,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1281,7 +1454,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 18,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1366,7 +1539,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 19,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1451,7 +1624,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 20,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1536,7 +1709,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 21,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1621,7 +1794,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 22,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1706,7 +1879,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 23,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1791,7 +1964,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 24,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1876,7 +2049,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 25,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -1961,7 +2134,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 26,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2048,7 +2221,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 27,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2133,7 +2306,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 28,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2218,7 +2391,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 29,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2305,7 +2478,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 30,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2392,7 +2565,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 31,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2477,7 +2650,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 32,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2562,7 +2735,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 33,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2647,7 +2820,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 34,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2732,7 +2905,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 35,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2776,7 +2949,7 @@
         "posttime": 1739514131,
         "updatetime": 1739752098,
         "body": "[b]★Standard Edition★[/b]\nhttps://store.steampowered.com/app/2417610/METAL_GEAR_SOLID_D_SNAKE_EATER/\n\n[b]★Digital Deluxe Edition★[/b]\nhttps://store.steampowered.com/sub/1191462/\n\n[b]●Release Date Trailer[/b]\nCheck out the latest footage.\n[previewyoutube=KflwVzVIk_o;full][/previewyoutube]\n\n[b]●Digital Deluxe Edition[/b]\n[img]{STEAM_CLAN_IMAGE}/44190330/46f11e702bde3e441665b38bbaa3ea58800f9405.png[/img]\nThe Digital Deluxe Edition includes both the game and the Sneaking DLC Pack at a reduced price.\n\nIncludes:\n●METAL GEAR SOLID Δ: SNAKE EATER\n●Sneaking DLC Pack\n・Uniform: Battle Dress (PW ver.)\n・Uniform: Sneaking Suit (PW ver.)\n・Uniform: Crocodile Suit\n・Uniform: Naked Woodland\n・Uniform: Naked Ammunition Belt\n・Uniform: Gold\n・Face: Glasses\n・Face: Sunglasses\n・Equipment: Kerotan Mask\n・Equipment: GA-KO Mask\n\nBonus Content\n・Uniform: White Tuxedo\n*This content is also obtainable through in-game progress.\n\n★Digital Deluxe Edition Exclusive Pre-Order Bonus★\n・48-Hours Early Access\n*Begins 48 hours in advance of release date.\n\n[img]{STEAM_CLAN_IMAGE}/44190330/f40d9c9673605d92506f93ada117aa91c20d34e0.png[/img]\n\n[b]●The minigame from the original game is also back![/b]\n[img]{STEAM_CLAN_IMAGE}/44190330/79ebc2f02a4547377d7300d0b586a83273bea55d.png[/img]\n[img]{STEAM_CLAN_IMAGE}/44190330/71d5a2e288537f56d2281e5cc778903811b3b1c6.png[/img]\nIn this mode, you'll play as Snake, and round up all the escaped Pipo Monkeys running amok in each stage!\n\nAnd more…",
-        "commentcount": 2,
+        "commentcount": 3,
         "tags": [
           "curator",
           "curator_public",
@@ -2799,7 +2972,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "783166115771649429",
-      "rtime32_last_modified": 1771612667,
+      "rtime32_last_modified": 1788789284,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -2819,7 +2992,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 36,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2904,7 +3077,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 37,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -2989,7 +3162,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 38,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3074,7 +3247,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 39,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3159,7 +3332,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 40,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3244,7 +3417,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 41,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3329,7 +3502,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 42,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3414,7 +3587,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 43,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3499,7 +3672,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 44,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3583,7 +3756,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 45,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3668,7 +3841,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 46,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3752,7 +3925,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 47,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3837,7 +4010,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 48,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -3922,7 +4095,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 49,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4007,7 +4180,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 50,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4092,7 +4265,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 51,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4177,7 +4350,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 52,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4262,7 +4435,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 53,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4347,7 +4520,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 54,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4432,7 +4605,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 55,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4517,7 +4690,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 56,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4602,7 +4775,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 57,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4687,7 +4860,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 58,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4772,7 +4945,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 59,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4857,7 +5030,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 60,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -4942,7 +5115,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 61,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5027,7 +5200,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 62,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5112,7 +5285,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 63,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5197,7 +5370,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 64,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5282,7 +5455,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 65,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5367,7 +5540,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 66,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5452,7 +5625,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 67,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5537,7 +5710,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 68,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5622,7 +5795,7 @@
     }
   },
   {
-    "index": 67,
+    "index": 69,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5707,7 +5880,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 70,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,
@@ -5790,7 +5963,7 @@
     }
   },
   {
-    "index": 69,
+    "index": 71,
     "publisher": "Konami",
     "publisher_slug": "konami",
     "group_id": 39026134,

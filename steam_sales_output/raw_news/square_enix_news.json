@@ -4,6 +4,176 @@
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
+    "event_id": "693140950130622585",
+    "app_id": "",
+    "source_title": "NieR Franchise Sale 2026",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1790269200",
+    "end_time_raw": "1791478800",
+    "start_time": "2026-09-24 17:00:00",
+    "end_time": "2026-10-08 17:00:00",
+    "start_date": "2026-09-24",
+    "end_date": "2026-10-08",
+    "posttime_raw": "1790269258",
+    "updatetime_raw": "1790269258",
+    "url": "https://store.steampowered.com/news/group/1012195/view/693140950130622585?l=english",
+    "body_text": "Glory to Mankind! Experience the groundbreaking tales of NieR Replicant and NieR:Automata offered in the NieR Franchise Sale.",
+    "body_raw": "[p]Glory to Mankind! Experience the groundbreaking tales of NieR Replicant and NieR:Automata offered in the NieR Franchise Sale.[/p]",
+    "raw": {
+      "gid": "693140950130622585",
+      "clan_steamid": "103582791430533603",
+      "event_name": "NieR Franchise Sale 2026",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1790269200,
+      "rtime32_end_time": 1791478800,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"Hack and slash through a dystopian universe during the NieR Franchise Sale.\",\"K\\u00e4mpfe dich durch ein dystopisches Universum mit den NieR-Angeboten.\",\"Taillez-vous un chemin dans un monde dystopique pendant les promos sur la franchise NieR.\",\"Fatti strada a colpi di spada in un universo distopico durante i saldi della serie NieR.\",\"\\ud2b9\\ubcc4 \\ud560\\uc778\\uac00\\uc5d0 \\ub9cc\\ub098\\ub294 \\u300cNieR\\u300d \\uc2dc\\ub9ac\\uc988. \\ub514\\uc2a4\\ud1a0\\ud53c\\uc544 \\uc138\\uacc4\\uad00\\uc5d0\\uc11c \\ubab0\\ub824\\ub4dc\\ub294 \\uc801\\ub4e4\\uc744 \\uc4f0\\ub7ec\\ud2b8\\ub9ac\\uc138\\uc694.\",\"\\u00c1brete camino a espadazos por un universo dist\\u00f3pico durante las rebajas de la serie NieR.\",\"\\u201cNieR\\u201d\\u7cfb\\u5217\\u7279\\u4ef7\\u3002\\u5728\\u8fd9\\u4e2a\\u53cd\\u4e4c\\u6258\\u90a6\\u4e16\\u754c\\u6a2a\\u626b\\u88ad\\u6765\\u7684\\u654c\\u4eba\\u5427\\u3002\",\"\\u300cNieR\\u300d\\u7cfb\\u5217\\u7279\\u50f9\\u3002\\u5728\\u53cd\\u70cf\\u6258\\u90a6\\u4e16\\u754c\\u6a6b\\u6383\\u8972\\u4f86\\u7684\\u6575\\u4eba\\u5427\\u3002\",null,null,\"\\u300eNieR\\u300f\\u30b7\\u30ea\\u30fc\\u30ba\\u3092\\u7279\\u5225\\u4fa1\\u683c\\u3067\\u3054\\u63d0\\u4f9b\\u3057\\u307e\\u3059\\u3002\\u30c7\\u30a3\\u30b9\\u30c8\\u30d4\\u30a2\\u7684\\u4e16\\u754c\\u3067\\u8972\\u3044\\u6765\\u308b\\u6575\\u3092\\u306a\\u304e\\u5012\\u3057\\u3066\\u3044\\u304d\\u307e\\u3057\\u3087\\u3046\\u3002\",null,null,null,null,null,null,null,null,null,null,null,\"Enfrente seus inimigos em um universo dist\\u00f3pico com a Promo\\u00e7\\u00e3o da Franquia NieR.\",null,null,null,null,\"\\u00c1brete camino a tajos por un universo dist\\u00f3pico durante la oferta de la franquicia NieR.\",null,null,null,null],\"localized_title_image\":[\"4466346cdb714cbf91dace7f813538c83a971b4e.png\",\"59759a8e0cfd14239bad9c52583b022887069974.jpg\",\"788d15b04d269b356aa5dc5c6ba64c3336b8f7e2.jpg\",\"5cf2bfcbf923147804a90c1d97816293335456d3.jpg\",\"ab1c04a0299f405b227cfc48a4d09ecd32758f4b.jpg\",\"a3571dcc3d3d0c655a42f991fe7c3607af1e6725.jpg\",\"a4dcb6782bc8b3241215d319159908fdd780fed4.jpg\",\"8875ce85db6b00c54e46c6dbb0b4fb119bfffcfa.jpg\",\"f0d3b0660b0aea9ec3cb962216e1f1e67994e71e.jpg\",\"ba979d0db05e8dd30333e8639acc9277c963a3bc.jpg\",\"fbd690aa7f97371ee3e86f8989c2642492baa377.jpg\",\"faeb39822b6fed12da7dafea4539432b93dc767c.jpg\",\"86801085017ebe1055b2d55dc6b6f902e2234a20.jpg\",\"31829301a3db081c4b732b0ac63f5e20e6b081b8.jpg\",\"afd4236eea77de5776a06d98e739de89f51e9cb1.jpg\",\"44c963af367b667d03016965d0361734b1b3d716.jpg\",\"424bf34055c980b1e68c412f85998bc3cb24ff35.jpg\",\"fe9789e2d46c67902414dc068ffb340b15ab60f2.jpg\",\"b495eba4e0cf818fa300d911ec04562bb2d7fcc5.jpg\",\"e5da4a73b00d50568e27ff0b41584629ba7afb10.jpg\",\"524989c38b6e4eefea9e2c9f076a1c450f371128.jpg\",\"5104e5a642bfa181814254a6b63ca81877e9c3b9.jpg\",\"9e8003a22594ba266b8cb367f51a9abb3286aca3.jpg\",\"b158d3e3b5183ff876a116c65c5524c1b1b93c42.jpg\",\"68d6b95def348dab5a29d87635efefb82651baba.jpg\",null,\"234f2e60f5fb221283333ad6004710e74a45e3a9.jpg\",\"8214137cbf0e99fed2242b193879d655996dbfb6.jpg\",\"7133537b8912cdefa69402d5e0974e61a0d438ca.jpg\",null,\"7716be1a17a4cafdc85b2e501448e13c808a22de.jpg\",null],\"localized_capsule_image\":[\"10a4da5cd5ea55ccb0d229c53d3779ef8b2637d0.png\",\"ee5ee13493e43289aebe2c0c73f5c6dc69cefe01.jpg\",\"c1e658c248fd7e1b49cbd1b0ad134e8cc62c5b7e.jpg\",\"9ce34c661ede6d2c9ce994c5cc0a26ddf414ae64.jpg\",\"281f00cb848dc090ecb04ad089e177f619a7d8fe.jpg\",\"b99a72fded83e65343fbe905bb1287f3219575b0.jpg\",\"b9cdd786cae4440cf6255cebf2ff11cf744af010.jpg\",\"c2f203d9847d890c14333e8aec9e4768e04c3322.jpg\",\"2905807afa890cf77aeb85ad88961e2fedfe77ac.jpg\",\"269e04513120ef3aa0fec43244b74414135a553b.jpg\",\"6a042b293de74592e03615ec221d707ef3e171fb.jpg\",\"133db212c8421c7a0339d7408649240dfea69f3e.jpg\",\"6bea5252a3d0bd0f835e4ab49be4d7d1c554ab6f.jpg\",\"0d832e40ee592888beb4c5eaf5ac94b68fc1d837.jpg\",\"951a7a5472ffa952f88de6ad73c46c69c77fcba9.jpg\",\"b0c3a841790892b827e87213e5e3807dc931b495.jpg\",\"6272d56fc441bd57ca1d82b2df7877bb99e15096.jpg\",\"bdb9d840134d7d7bcfd64983345220392fcf116f.jpg\",\"ae6f51c48b70a2259456b7ba50966e0810837aec.jpg\",\"fa5db1eb74c6206a99f5260d2f9b8d6725696103.jpg\",\"169dd0db8aeeab6b032fd798b6caf11e3613d1bc.jpg\",\"60dba9818acf4254ba1dff040f2264f1004ebf4e.jpg\",\"0e609698958f04c1c0b4fd3f365bacf4982e33d7.jpg\",\"4c0d25b6e511f7e4645fb5f83d457cc177fe80da.jpg\",\"3cf68636c3392cbcdf06e90843b1022ba36362be.jpg\",null,\"f468c969bd43d069a8d5fc715ff886b111ce3c02.jpg\",\"62f83eb0ca57ac8469c5bfe1ee92a075d0b58bdf.jpg\",\"6654f04c45862791ba16415c08f75b6ce349bd60.jpg\",null,\"64733f521cd34f09a0040b79163ff8c677ba474e.jpg\",null],\"bSaleEnabled\":true,\"sale_show_creator\":true,\"sale_sections\":[{\"capsules\":[{\"id\":524220,\"type\":\"game\"},{\"id\":1113560,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"trailercarousel\",\"unique_id\":82633,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"background_gradient_top\":\"rgba(173, 167, 167, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\"},{\"capsules\":[{\"id\":524220,\"type\":\"game\"},{\"id\":1113560,\"type\":\"game\"},{\"id\":580600,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_146\",\"section_type\":\"items\",\"unique_id\":92512,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":3,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"background_gradient_top\":\"rgba(54, 152, 173, 1)\",\"background_gradient_bottom\":\"rgba(255, 255, 255, 1)\",\"single_item_style\":\"bordered\"}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"7b02d703ba6454ede402da689d0f5e460f28ffdb.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"dd13c396956bc4701763c0daf570d653e098f855.jpg\",\"e21589c475213bdeb6b6062645dd55343f68e18d.jpg\",\"71f3a6528c5b5d929f0d7a8770460eaee419659d.jpg\",\"8d1171cab073a638e20e43f0c9167f5294a85228.jpg\",\"6e4ba254907d70e2ee5efd359e305caa4a4beab5.jpg\",\"9667e7f204f22acd9e8fe023ea1afb09ad5a8e4b.jpg\",\"8ed06cb5d6aeb5a763f594145e33db1e8f6a33bf.jpg\",\"37d7d9a239f4c58b26a6f0a3afc188039bb7f7c4.jpg\",\"c25943ad9cc3f5b5e56c8cb2b5a64df990c166da.jpg\",\"1a9b6c6b7cda6b1c849f212aa5c72ddea8659cc4.jpg\",\"4ebafd0eb1af9da1480e8e7d12c96d496006590b.jpg\",\"9444140b57a6abfa26b9b7d12d6460b23c5d912d.jpg\",\"732e092646a759e0db6a929b12d7017850578bf2.jpg\",\"affc359ad81ff334b04c574f8d4b1b062aa10e60.jpg\",\"4601d5be05fd240c739039515b89a50ef2110958.jpg\",\"9f6a22ac64b3fe21c40e04c9e1292d32027728d5.jpg\",\"6390dbc58ca1dcb31c918b0ca898a7039e2a49eb.jpg\",\"c64b3e47984b83e146d2708885523c6d60bff2e5.jpg\",\"840d243b7156b0abf812fe57c50b585f82685f29.jpg\",\"be38ccd9be7a24225d42eb995401164dbcf574cd.jpg\",\"4614cdfa6f2b5f4808ffbeb65c9192cb46a97600.jpg\",\"e0698a4db116f093a3a59b191742b2bd97d3b769.jpg\",\"7060562d231175d5f3544e74e61c17d2097845be.jpg\",\"79b91fefacd3a6cd95490606adf823928e3298d9.jpg\",\"ea12a2c42df2f84c818266b8c37b2d2de06f449a.jpg\",null,\"4327bee8d63947a2c974d3a82a19f7a325c9500b.jpg\",\"30c2b9716bf3ff3714cdcec0e73cb67f4ad526f4.jpg\",\"f71dd8b50cc0605f8bdb92271cf0e2bf0dabf374.jpg\",null,\"4eb2d5a5c7721bd238ec10a5a87b363156782eed.jpg\",null],\"localized_sale_product_mobile_banner\":[\"2da2d93895ea08432e0403e4af90fb8e13d1f04f.png\",\"49535fc7e0854b39286e5a7880e65b1048c84def.jpg\",\"018accf62c5456b3f08c988431b633d15874b7d4.jpg\",\"479f6c9f584a020c12409782adf2cef4a5ad2188.jpg\",\"9963b4124424ec38670f96c1e9a1a927e37e2b83.jpg\",\"e2435ad96f87502f8a284f8ba06e773e75759b58.jpg\",\"02b0c7690e0b0d4bf8642ea16a230eb9e96b83a5.jpg\",\"5d6130e0a561e80934dba0db1328056a88dc25b2.jpg\",\"ca5071a0e58b932381959d786dd9d654d6980fd0.jpg\",\"0d0315ee178a2b6eee1e83efa72c22042baf1e32.jpg\",\"f682c5c43146fb3d73fe0a434bf251c820eeb610.jpg\",\"f8f04d41f06e728beb0882c493ffa63c76ffddc7.jpg\",\"77e1f6c9b8d3090d9bbb0ec6b6e867a63bfd72f9.jpg\",\"8cdbacab47af0e43e787b33f41755de4060ee67e.jpg\",\"fc4cc551f18a36d84a1335bfd48cd973ef739de5.jpg\",\"15bbf962274c0b935af24afb681edc677f3acf31.jpg\",\"20e66112e22f6c2113db836337f6bb5fd16bfef8.jpg\",\"2aac48ec07ac93bbce081643b1afe59adf05c51f.jpg\",\"b9ab67dc7c03c6a08a168e10d5f8f002f29239f3.jpg\",\"f575665a196be28d43ab79c453659134184c95e9.jpg\",\"39d85d1015084c9fcc108158f935e044ee7bc0e6.jpg\",\"6b242fc856bb53ca7d11677ca486bb3240e1e09a.jpg\",\"f2901ec283311549648e3b76e3cd6092d4158719.jpg\",\"c2b2eecd1042fdfad1d1a5e88d06e4dd691c5960.jpg\",\"df731ac121d2122907ba5f516a1b39211127a495.jpg\",null,\"e197c990f0b1a28487d48fad93f15f710a2f85f8.jpg\",\"787372b8e02926580ad4d80d04dc43e221293a1e.jpg\",\"e91c3d5de76f983156baf64464b11766e8eb78d6.jpg\",null,\"4f8c167706da931a1e56920c420e0435f273567a.jpg\",null],\"localized_sale_logo\":[\"fb7a91aea11dcff8813d0f3baccadd4184334611.png\",\"8380dda4c9276cb1f66a2ac45061b43df93307b1.png\",\"d4f9f4891a67ee9c17e98c17dfab292a2a43ce0a.png\",\"0ced353e829a4e9d334e9082a14a2f56ac07f0a7.png\",\"f1dde354fdb90c7e7690ae181ff20661ce219430.png\",\"29c51c6f244881db33c94856f9282fd34e80e249.png\",\"bc7b53fe9df78cdb5cc9b0fd3d0f93cf1c1bbc57.png\",\"47637da605d1e86f43afb32ec5a053ed71adce69.png\",\"de13c8eaab44bb4bfe3835e938606826991532d1.png\",\"681fbb24778f3dd266fb9c1f4c9f51ca2bab831d.png\",\"a7cc22b3f813e2f1419ebbfe405297983e6658e7.png\",\"701cd49a54924964120b2185658b1c8c205e6556.png\",\"06c65cbc9a240bbf0ab35135d08467c3eac074cf.png\",\"51b4e11ffaf0f6ca4b14bb5d1278a0c166266156.png\",\"3ff9982400dc8ffe967c042c38982e971c57572d.png\",\"f50ddea80eff1a5b6a6197ecbef24392113cfb51.png\",\"cb0a4eae9fbfb4cdaa24edf78a763fd2ef644858.png\",\"f643f731dea8cc839ab7a15dd2dfc77222edcd5e.png\",\"02f16c43965e0ba1cf7dcc8e6c4047fc306d35ae.png\",\"05d352aa6f5abc33caab57310988cbd458f9b41a.png\",\"11b92c89401aefa6ccf4ab51b0c64025dd1e09e1.png\",\"8582e2457b209a71a7864d0122cc7ffe5bbfcf14.png\",\"5d3c66d658f7f14de05fd529892463b69c1771b9.png\",\"1bcc8052ab35b8c1ccfc8b8ac66f6eed9869d859.png\",\"09fe35e13394c2b62e2476c217464b547e8ab2b3.png\",null,\"fd3467520f09e6cf5eb95ac9b08dc292925f4d19.png\",\"cddc20e7437de86e613ebe365ad85fc8f0d92159.png\",\"2714924e285b90365ee8517f4317392199db26a7.png\",null,\"e7ad052cbe727d08c8c7de886a71c04f621540c7.png\",null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(0, 1, 0, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_vanity_id\":\"nier_2026\",\"sale_presenters\":[{\"unique_id\":32441,\"localized_presenter_name\":[\"Square Enix\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https:\\/\\/store.steampowered.com\\/publisher\\/squareenix\"}],\"sale_vanity_id_valve_approved_for_sale_subpath\":true,\"sale_associated_advertising_appid\":3815010}",
+      "announcement_body": {
+        "gid": "693140950130622586",
+        "clanid": "1012195",
+        "posterid": "0",
+        "headline": "NieR Franchise Sale 2026",
+        "posttime": 1790269258,
+        "updatetime": 1790269258,
+        "body": "[p]Glory to Mankind! Experience the groundbreaking tales of NieR Replicant and NieR:Automata offered in the NieR Franchise Sale.[/p]",
+        "commentcount": 3,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "581683203528607400",
+        "event_gid": "693140950130622585",
+        "voteupcount": 80,
+        "votedowncount": 3,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1790269200,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "581683203528607400",
+      "rtime32_last_modified": 1790778649,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 1446604,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1784139529,
+      "votes_up": 80,
+      "votes_down": 3,
+      "comment_type": "ForumTopic",
+      "gidfeature": "1869497226794899856",
+      "gidfeature2": "581683203528607400",
+      "clan_steamid_original": "103582791430533603"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "Square Enix",
+    "publisher_slug": "square_enix",
+    "group_id": 1012195,
+    "event_id": "714537487845819710",
+    "app_id": "",
+    "source_title": "Square Enix Tokyo Game Show Sale",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1789750800",
+    "end_time_raw": "1790874000",
+    "start_time": "2026-09-18 17:00:00",
+    "end_time": "2026-10-01 17:00:00",
+    "start_date": "2026-09-18",
+    "end_date": "2026-10-01",
+    "posttime_raw": "1789750975",
+    "updatetime_raw": "1789752186",
+    "url": "https://store.steampowered.com/news/group/1012195/view/714537487845819710?l=english",
+    "body_text": "Join Cloud and his allies in their battle against Shinra. Save on FINAL FANTASY VII REMAKE INTERGRADE and FINAL FANTASY VII REBIRTH for a limited time!https://store.steampowered.com/publisher/squareenix",
+    "body_raw": "[p]Join Cloud and his allies in their battle against Shinra. Save on FINAL FANTASY VII REMAKE INTERGRADE and FINAL FANTASY VII REBIRTH for a limited time![/p][p][/p][p][url=\"https://store.steampowered.com/publisher/squareenix\"]https://store.steampowered.com/publisher/squareenix[/url][/p]",
+    "raw": {
+      "gid": "714537487845819710",
+      "clan_steamid": "103582791430533603",
+      "event_name": "Square Enix Tokyo Game Show Sale",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1789750800,
+      "rtime32_end_time": 1790874000,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"Celebrate Tokyo Game Show 2026 with the iconic FINAL FANTASY VII REMAKE series from Square Enix!\",\"Feiere die Tokyo Game Show 2026 mit der kultigen FINAL FANTASY VII REMAKE-Reihe von Square Enix!\",\"Célébrez le Tokyo Game Show 2026 avec la série emblématique FINAL FANTASY VII REMAKE de Square Enix !\",\"Festeggia il Tokyo Game Show 2026 con l'inconfondibile serie remake di FINAL FANTASY VII di SQUARE ENIX!\",\"TOKYO GAME SHOW 2026의 화제작! 최신작 발매에 앞서 「FINAL FANTASY VII 리메이크 시리즈」 할인율 UP!\",\"¡Celebra el Tokyo Game Show 2026 con la inconfundible serie remake de FINAL FANTASY VII de Square Enix!\",\"东京电玩展2026引爆话题！新作上市前，“FINAL FANTASY VII REMAKE”系列折扣力度UP！\",\"東京電玩展2026熱議不斷！新作發售前，「FINAL FANTASY VII REMAKE」系列折扣再加碼！\",null,null,\"東京ゲームショウ2026でも話題沸騰！最新作発売を前に『FINAL FANTASY VII REMAKE』シリーズが割引率UP！\",null,null,null,null,null,null,null,null,null,null,null,\"Comemore a Tokyo Game Show 2026 com a incrível série FINAL FANTASY VII REMAKE, da Square Enix!\",null,null,null,null,\"¡Celebra el Tokyo Game Show 2026 con la icónica serie FINAL FANTASY VII REMAKE de Square Enix!\",null,null,null,null],\"localized_title_image\":[\"c6a58235eabab906cdc0251be064ae4edd6b281c.png\",\"b3383005bc3b5c2a29cf08bab1de69dfe3d2041c.png\",\"f3023dfe3433f1d2aba9031bb4c2dc4a01f2b574.png\",\"a201fa10761be9b1c24ede609d306f3dd35a1e53.png\",\"8a1a03a1218af2ae03253341850f831918cb298f.png\",\"7854af1a9032683240684b3492677325f6e8ccf9.png\",\"954fa74655c9ebf757145b13a7af8f1c920e921c.png\",\"abec884bb07f869555680ea714306ea9e49f1034.png\",null,null,\"a36d31fd31815d48e5a2d5b12055f3054ec38aa6.png\",null,null,null,null,null,null,null,null,null,null,null,\"36934e1c837feb84089e6e94b9b372bb7223b00d.png\",null,null,null,null,\"408613c50e2803111bff92bcad495134d7617edf.png\",null,null,null,null],\"localized_capsule_image\":[\"746655a147fe90f9fcba0c886efa56152b132401.png\",\"abc7599bfbd1b44d329ce12e2613f27ca539521a.png\",\"3181e1211dcf2e27fabfd0f22ca7827e7395113c.png\",\"16e05d073b993eff51987bbe3ac2627ae06d5d21.png\",\"8b97f105c18213cb37f2a5ee6f69a6cb4f642411.png\",\"0976b865669d6a4272686bf1052b55238fd1bd6c.png\",\"e8e2d36fbe86dd4e8c7336b9cb8b249607d446cb.png\",\"3cf076228a4941ccff0373b586562435768bb92c.png\",null,null,\"b5740a8b6d97dc269acf5f830a70cb6ba15332e8.png\",null,null,null,null,null,null,null,null,null,null,null,\"8e01fcea16232928b5b1f09b7d2ca9953d5ba9d5.png\",null,null,null,null,\"4178c40632086a27e420642286be6ae7c783eef4.png\",null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}",
+      "announcement_body": {
+        "gid": "714537487845819711",
+        "clanid": "1012195",
+        "posterid": "0",
+        "headline": "Square Enix Tokyo Game Show Sale",
+        "posttime": 1789750975,
+        "updatetime": 1789752186,
+        "body": "[p]Join Cloud and his allies in their battle against Shinra. Save on FINAL FANTASY VII REMAKE INTERGRADE and FINAL FANTASY VII REBIRTH for a limited time![/p][p][/p][p][url=\"https://store.steampowered.com/publisher/squareenix\"]https://store.steampowered.com/publisher/squareenix[/url][/p]",
+        "commentcount": 1,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "569297738797328763",
+        "event_gid": "714537487845819710",
+        "voteupcount": 59,
+        "votedowncount": 1,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1789750800,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "569297738797328763",
+      "rtime32_last_modified": 1790687272,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1788556533,
+      "votes_up": 59,
+      "votes_down": 1,
+      "comment_type": "ForumTopic",
+      "gidfeature": "1869497226794899856",
+      "gidfeature2": "569297738797328763",
+      "clan_steamid_original": "103582791430533603"
+    }
+  },
+  {
+    "index": 3,
+    "publisher": "Square Enix",
+    "publisher_slug": "square_enix",
+    "group_id": 1012195,
     "event_id": "525371083049664797",
     "app_id": "",
     "source_title": "Kingdom Hearts Franchise Sale",
@@ -44,7 +214,7 @@
         "posttime": 1786554083,
         "updatetime": 1786989757,
         "body": "[p]Join Sora and his beloved friends on a magical adventure — the KINGDOM HEARTS saga on sale now![/p]",
-        "commentcount": 1,
+        "commentcount": 3,
         "tags": [
           "curator",
           "curator_public",
@@ -54,7 +224,7 @@
         "hidden": 0,
         "forum_topic_id": "581679396200435314",
         "event_gid": "525371083049664797",
-        "voteupcount": 105,
+        "voteupcount": 114,
         "votedowncount": 4,
         "ban_check_result": 0,
         "banned": 0
@@ -67,7 +237,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "581679396200435314",
-      "rtime32_last_modified": 1788038631,
+      "rtime32_last_modified": 1790325448,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1446599,
@@ -76,7 +246,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 105,
+      "votes_up": 114,
       "votes_down": 4,
       "comment_type": "ForumTopic",
       "gidfeature": "1869497226794899856",
@@ -85,7 +255,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 4,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -139,7 +309,7 @@
         "hidden": 0,
         "forum_topic_id": "581678128090371877",
         "event_gid": "706649847851127399",
-        "voteupcount": 96,
+        "voteupcount": 104,
         "votedowncount": 4,
         "ban_check_result": 0,
         "banned": 0
@@ -152,7 +322,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "581678128090371877",
-      "rtime32_last_modified": 1787805020,
+      "rtime32_last_modified": 1790325501,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1445686,
@@ -161,7 +331,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1783359490,
-      "votes_up": 96,
+      "votes_up": 104,
       "votes_down": 4,
       "comment_type": "ForumTopic",
       "gidfeature": "1869497226794899856",
@@ -170,7 +340,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 5,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -224,7 +394,7 @@
         "hidden": 0,
         "forum_topic_id": "572667758936983502",
         "event_gid": "702145613257509008",
-        "voteupcount": 101,
+        "voteupcount": 105,
         "votedowncount": 4,
         "ban_check_result": 0,
         "banned": 0
@@ -237,7 +407,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "572667758936983502",
-      "rtime32_last_modified": 1787987145,
+      "rtime32_last_modified": 1790325692,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1441470,
@@ -246,7 +416,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1781710154,
-      "votes_up": 101,
+      "votes_up": 105,
       "votes_down": 4,
       "comment_type": "ForumTopic",
       "gidfeature": "1869497226794899856",
@@ -255,7 +425,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 6,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -309,8 +479,8 @@
         "hidden": 0,
         "forum_topic_id": "564785190210262017",
         "event_gid": "525371083049664794",
-        "voteupcount": 188,
-        "votedowncount": 6,
+        "voteupcount": 194,
+        "votedowncount": 7,
         "ban_check_result": 0,
         "banned": 0
       },
@@ -322,7 +492,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "564785190210262017",
-      "rtime32_last_modified": 1787978988,
+      "rtime32_last_modified": 1790693858,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1438914,
@@ -331,8 +501,8 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 188,
-      "votes_down": 6,
+      "votes_up": 194,
+      "votes_down": 7,
       "comment_type": "ForumTopic",
       "gidfeature": "1869497226794899856",
       "gidfeature2": "564785190210262017",
@@ -340,7 +510,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 7,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -394,7 +564,7 @@
         "hidden": 0,
         "forum_topic_id": "834999789639772508",
         "event_gid": "492715550584079089",
-        "voteupcount": 146,
+        "voteupcount": 148,
         "votedowncount": 11,
         "ban_check_result": 0,
         "banned": 0
@@ -407,7 +577,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "834999789639772508",
-      "rtime32_last_modified": 1786447746,
+      "rtime32_last_modified": 1789652530,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1433860,
@@ -416,7 +586,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 146,
+      "votes_up": 148,
       "votes_down": 11,
       "comment_type": "ForumTopic",
       "gidfeature": "1869497226794899856",
@@ -425,7 +595,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 8,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -510,7 +680,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 9,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -597,7 +767,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 10,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -651,7 +821,7 @@
         "hidden": 0,
         "forum_topic_id": "803467726262750588",
         "event_gid": "535497844504658852",
-        "voteupcount": 126,
+        "voteupcount": 128,
         "votedowncount": 7,
         "ban_check_result": 0,
         "banned": 0
@@ -664,7 +834,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "803467726262750588",
-      "rtime32_last_modified": 1781338302,
+      "rtime32_last_modified": 1788783781,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1421886,
@@ -673,7 +843,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 126,
+      "votes_up": 128,
       "votes_down": 7,
       "comment_type": "ForumTopic",
       "gidfeature": "1869497226794899856",
@@ -682,7 +852,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 11,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -736,7 +906,7 @@
         "hidden": 0,
         "forum_topic_id": "689747399827126888",
         "event_gid": "296807800440358869",
-        "voteupcount": 152,
+        "voteupcount": 153,
         "votedowncount": 6,
         "ban_check_result": 0,
         "banned": 0
@@ -749,7 +919,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "689747399827126888",
-      "rtime32_last_modified": 1781375452,
+      "rtime32_last_modified": 1788431462,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1418816,
@@ -758,7 +928,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 152,
+      "votes_up": 153,
       "votes_down": 6,
       "comment_type": "ForumTopic",
       "gidfeature": "1869497226794899856",
@@ -767,7 +937,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 12,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -821,7 +991,7 @@
         "hidden": 0,
         "forum_topic_id": "690870129357072215",
         "event_gid": "535494039313580563",
-        "voteupcount": 96,
+        "voteupcount": 97,
         "votedowncount": 5,
         "ban_check_result": 0,
         "banned": 0
@@ -834,7 +1004,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "690870129357072215",
-      "rtime32_last_modified": 1781373030,
+      "rtime32_last_modified": 1788292410,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1412294,
@@ -843,7 +1013,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 96,
+      "votes_up": 97,
       "votes_down": 5,
       "comment_type": "ForumTopic",
       "gidfeature": "1869497226794899856",
@@ -852,7 +1022,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 13,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -937,7 +1107,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 14,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1022,7 +1192,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 15,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1107,7 +1277,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 16,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1192,7 +1362,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 17,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1277,7 +1447,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 18,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1362,7 +1532,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 19,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1447,7 +1617,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 20,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1532,7 +1702,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 21,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1617,7 +1787,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 22,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1704,7 +1874,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 23,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1789,7 +1959,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 24,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1874,7 +2044,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 25,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -1959,7 +2129,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 26,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2044,7 +2214,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 27,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2129,7 +2299,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 28,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2214,7 +2384,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 29,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2299,7 +2469,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 30,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2384,7 +2554,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 31,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2469,7 +2639,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 32,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2554,7 +2724,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 33,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2639,7 +2809,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 34,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2724,7 +2894,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 35,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2809,7 +2979,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 36,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2894,7 +3064,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 37,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -2979,7 +3149,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 38,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3064,7 +3234,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 39,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3149,7 +3319,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 40,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3234,7 +3404,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 41,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3319,7 +3489,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 42,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3406,7 +3576,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 43,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3491,7 +3661,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 44,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3576,7 +3746,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 45,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3661,7 +3831,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 46,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3746,7 +3916,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 47,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3831,7 +4001,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 48,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -3916,7 +4086,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 49,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4001,7 +4171,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 50,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4086,7 +4256,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 51,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4171,7 +4341,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 52,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4256,7 +4426,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 53,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4341,7 +4511,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 54,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4426,7 +4596,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 55,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4511,7 +4681,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 56,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4596,7 +4766,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 57,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4681,7 +4851,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 58,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4768,7 +4938,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 59,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4853,7 +5023,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 60,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -4938,7 +5108,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 61,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -5019,7 +5189,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 62,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -5104,7 +5274,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 63,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -5185,7 +5355,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 64,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -5266,7 +5436,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 65,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
@@ -5347,7 +5517,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 66,
     "publisher": "Square Enix",
     "publisher_slug": "square_enix",
     "group_id": 1012195,
