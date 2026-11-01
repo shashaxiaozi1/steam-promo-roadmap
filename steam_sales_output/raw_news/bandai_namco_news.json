@@ -4,6 +4,176 @@
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
+    "event_id": "676259427855108264",
+    "app_id": "",
+    "source_title": "Last call for the BANDAI NAMCO Autumn Sale! 🍂",
+    "subtitle": "see announcement body",
+    "event_type": 28,
+    "event_type_name": "",
+    "start_time_raw": "1791298800",
+    "end_time_raw": "1791302400",
+    "start_time": "2026-10-06 15:00:00",
+    "end_time": "2026-10-06 16:00:00",
+    "start_date": "2026-10-06",
+    "end_date": "2026-10-06",
+    "posttime_raw": "1791298855",
+    "updatetime_raw": "1791298855",
+    "url": "https://store.steampowered.com/news/group/33042543/view/676259427855108264?l=english",
+    "body_text": "Fall is here, and our STEAM AUTUMN SALE has arrived! 🍂\nSave up to 90% on your favorite titles.\nDon't miss your chance. The sale ends on October 8!",
+    "body_raw": "[h1]Fall is here, and our STEAM AUTUMN SALE has arrived! 🍂[/h1]\n\n[h2][url=https://store.steampowered.com/developer/BANDAINAMCO/]Save [i][b]up to 90%[/b][/i] on your favorite titles.[/url] \n\nDon't miss your chance. [i][b]The sale ends on October 8[/b][/i]![/h2]\n\n[url=https://store.steampowered.com/developer/BANDAINAMCO/][img]{STEAM_CLAN_IMAGE}/33042543/d0befa5571fbcee33a6a266865e43d27c010dd31.png[/img][/url]",
+    "raw": {
+      "gid": "676259427855108264",
+      "clan_steamid": "103582791462563951",
+      "event_name": "Last call for the BANDAI NAMCO Autumn Sale! 🍂",
+      "event_type": 28,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1791298800,
+      "rtime32_end_time": 1791302400,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"Save up to 90% on your favorite titles. Don't miss your chance. The sale ends on October 8!\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"7191a3d68487f727a064461985d7900e9a3bd9f8.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"d0befa5571fbcee33a6a266865e43d27c010dd31.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}",
+      "announcement_body": {
+        "gid": "676259427855108265",
+        "clanid": "33042543",
+        "posterid": "0",
+        "headline": "Last call for the BANDAI NAMCO Autumn Sale! 🍂",
+        "posttime": 1791298855,
+        "updatetime": 1791298855,
+        "body": "[h1]Fall is here, and our STEAM AUTUMN SALE has arrived! 🍂[/h1]\n\n[h2][url=https://store.steampowered.com/developer/BANDAINAMCO/]Save [i][b]up to 90%[/b][/i] on your favorite titles.[/url] \n\nDon't miss your chance. [i][b]The sale ends on October 8[/b][/i]![/h2]\n\n[url=https://store.steampowered.com/developer/BANDAINAMCO/][img]{STEAM_CLAN_IMAGE}/33042543/d0befa5571fbcee33a6a266865e43d27c010dd31.png[/img][/url]",
+        "commentcount": 0,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "583936001036290424",
+        "event_gid": "676259427855108264",
+        "voteupcount": 43,
+        "votedowncount": 0,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1791298800,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "583936001036290424",
+      "rtime32_last_modified": 1793396877,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1791277345,
+      "votes_up": 43,
+      "votes_down": 0,
+      "comment_type": "ForumTopic",
+      "gidfeature": "2518023667595816241",
+      "gidfeature2": "583936001036290424",
+      "clan_steamid_original": "103582791462563951"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
+    "group_id": 33042543,
+    "event_id": "675132895796398421",
+    "app_id": "",
+    "source_title": "BANDAI NAMCO Autumn Sale 2026 🍂🍁",
+    "subtitle": "see announcement body",
+    "event_type": 28,
+    "event_type_name": "",
+    "start_time_raw": "1790934000",
+    "end_time_raw": "1790937001",
+    "start_time": "2026-10-02 09:40:00",
+    "end_time": "2026-10-02 10:30:01",
+    "start_date": "2026-10-02",
+    "end_date": "2026-10-02",
+    "posttime_raw": "1790934038",
+    "updatetime_raw": "1790934101",
+    "url": "https://store.steampowered.com/news/group/33042543/view/675132895796398421?l=english",
+    "body_text": "Pick up some of our biggest hits now in the BANDAI NAMCO Autumn Sale!\nhttps://store.steampowered.com/app/1984270/Digimon_Story_Time_Stranger/\nhttps://store.steampowered.com/app/2362060/CODE_VEIN_II/\nhttps://store.steampowered.com/app/2244210/Echoes_of_Aincrad/\nhttps://store.steampowered.com/app/1778820/TEKKEN_8/\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/",
+    "body_raw": "[h1]Pick up some of our biggest hits now in the [url=https://store.steampowered.com/publisher/BANDAINAMCO]BANDAI NAMCO Autumn Sale[/url]![/h1]\n\n[url=https://store.steampowered.com/publisher/BANDAINAMCO][img]{STEAM_CLAN_IMAGE}/33042543/95a22089df8fb39190f961d3abab28ad9d6c4b86.png[/img][/url]\n\nhttps://store.steampowered.com/app/1984270/Digimon_Story_Time_Stranger/\nhttps://store.steampowered.com/app/2362060/CODE_VEIN_II/\nhttps://store.steampowered.com/app/2244210/Echoes_of_Aincrad/\nhttps://store.steampowered.com/app/1778820/TEKKEN_8/\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/",
+    "raw": {
+      "gid": "675132895796398421",
+      "clan_steamid": "103582791462563951",
+      "event_name": "BANDAI NAMCO Autumn Sale 2026 🍂🍁",
+      "event_type": 28,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1790934000,
+      "rtime32_end_time": 1790937001,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[\"\",null,null,null,\"\",null,\"\",\"\",null,null,\"\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"Pick up some of our biggest hits now in the BANDAI NAMCO Autumn Sale!\",null,null,null,\"\",null,\"\",\"\",null,null,\"\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"7191a3d68487f727a064461985d7900e9a3bd9f8.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"95a22089df8fb39190f961d3abab28ad9d6c4b86.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"tabs\",\"unique_id\":76400,\"internal_section_data\":null,\"tabs\":[{\"unique_id\":3,\"default_label\":\"\",\"localized_label\":[\"Featured\",null,null,null,\"추천\",null,\"精选\",\"精選\",null,null,\"注目\"],\"capsules\":[]},{\"unique_id\":2,\"default_label\":\"\",\"localized_label\":[\"Deep Discounts\",null,null,null,\"대폭 할인\",null,\"超值折扣\",\"超值折扣\",null,null,\"大幅割引\"],\"capsules\":[]},{\"unique_id\":4,\"default_label\":\"\",\"localized_label\":[\"Upcoming\",null,null,null,\"출시 예정\",null,\"即将推出\",\"即將推出\",null,null,\"近日登場\"],\"capsules\":[]},{\"unique_id\":5,\"default_label\":\"\",\"localized_label\":[\"Mecha\",null,null,null,\"메카\",null,\"机甲\",\"機甲\",null,null,\"メカ\"],\"capsules\":[]},{\"unique_id\":6,\"default_label\":\"\",\"localized_label\":[\"Anime\",null,null,null,\"애니메이션\",null,\"动漫\",\"動漫\",null,null,\"アニメ\"],\"capsules\":[]},{\"unique_id\":7,\"default_label\":\"\",\"localized_label\":[\"Steam Deck Verified\",null,null,null,\"Steam Deck 인증됨\",null,\"Steam Deck 已验证\",\"Steam Deck 已驗證\",null,null,\"Steam Deck認証済み\"],\"capsules\":[]}],\"internal_section_title\":\"Tabs\",\"tab_highlight_label_color\":\"rgba(255, 238, 8, 1)\"},{\"capsules\":[{\"id\":2622380,\"type\":\"game\"},{\"id\":1778820,\"type\":\"game\"},{\"id\":1984270,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Hottest Deals\",null,null,null,\"인기 타이틀​\",null,\"首选\",\"首選\",null,null,\"ピックアップタイトル\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":40212,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":true,\"internal_section_title\":\"TOP TITLES\",\"capsule_style_per_row_array\":[\"tall\"],\"background_gradient_top\":\"rgba(251, 240, 69, 1)\",\"background_gradient_bottom\":\"rgba(90, 235, 162, 1)\",\"label_color\":\"rgba(68, 88, 246, 1)\",\"show_on_tabs\":[3],\"default_subtitle\":\"\",\"background_image\":null,\"background_repeat\":\"no-repeat\"},{\"capsules\":[{\"id\":454650,\"type\":\"game\"},{\"id\":678960,\"type\":\"game\"},{\"id\":1042550,\"type\":\"game\"},{\"id\":1245480,\"type\":\"game\"},{\"id\":899440,\"type\":\"game\"},{\"id\":755500,\"type\":\"game\"},{\"id\":544750,\"type\":\"game\"},{\"id\":991560,\"type\":\"game\"},{\"id\":1058450,\"type\":\"game\"},{\"id\":351970,\"type\":\"game\"},{\"id\":425220,\"type\":\"game\"},{\"id\":438490,\"type\":\"game\"},{\"id\":331600,\"type\":\"game\"},{\"id\":714080,\"type\":\"game\"},{\"id\":571720,\"type\":\"game\"},{\"id\":735580,\"type\":\"game\"},{\"id\":299950,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Up to 95% Off\",null,null,null,\"대폭 할인\",null,\"超值折扣\",\"超值折扣​\",null,null,\"大幅割引\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":26075,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"smart_section\":false,\"sale_tag_filter\":null,\"label_color\":\"rgba(236, 88, 165, 1)\",\"show_on_tabs\":[3],\"internal_section_title\":\"Deep Discounts\",\"background_gradient_top\":\"rgba(90, 235, 162, 1)\",\"background_gradient_bottom\":\"rgba(226, 125, 54, 1)\"},{\"capsules\":[{\"id\":2288340,\"type\":\"game\"},{\"id\":2244210,\"type\":\"game\"},{\"id\":3751260,\"type\":\"game\"},{\"id\":2172910,\"type\":\"game\"},{\"id\":3905010,\"type\":\"game\"},{\"id\":1963680,\"type\":\"game\"},{\"id\":1857810,\"type\":\"game\"},{\"id\":3470960,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,\"発売予定タイトル\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":22889,\"label_color\":\"rgba(19, 18, 18, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"internal_section_title\":\"Upcoming Trailer\",\"show_on_tabs\":[4],\"show_as_demos\":true},{\"capsules\":[{\"id\":1888160,\"type\":\"game\"},{\"id\":2362060,\"type\":\"game\"},{\"id\":1392860,\"type\":\"game\"},{\"id\":1790600,\"type\":\"game\"},{\"id\":860510,\"type\":\"game\"},{\"id\":502500,\"type\":\"game\"},{\"id\":1089090,\"type\":\"game\"},{\"id\":2331020,\"type\":\"game\"},{\"id\":2362050,\"type\":\"game\"},{\"id\":1689620,\"type\":\"game\"},{\"id\":1909950,\"type\":\"game\"},{\"id\":1880620,\"type\":\"game\"},{\"id\":1372110,\"type\":\"game\"},{\"id\":1672500,\"type\":\"game\"},{\"id\":1020790,\"type\":\"game\"},{\"id\":2383200,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Don't Miss out on these too!\",null,null,null,\"기타 추천 타이틀\",null,\"其他超值优惠\",\"其他超值優惠\",null,null,\"おすすめタイトル\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":82111,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":3,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"internal_section_title\":\"Our Catalogue\",\"show_on_tabs\":[3],\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_top\":\"rgba(226, 125, 54, 1)\",\"background_gradient_bottom\":\"rgba(251, 240, 69, 1)\"},{\"capsules\":[{\"id\":2288340,\"type\":\"game\"},{\"id\":2244210,\"type\":\"game\"},{\"id\":3905010,\"type\":\"game\"},{\"id\":3751260,\"type\":\"game\"},{\"id\":2172910,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"PRE-ORDER NOW\",null,null,null,\"지금 예약 구매하기​\",null,\"立即预购\",\"立即預購\",null,null,\"プレオーダー受付中！\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":35667,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":true,\"internal_section_title\":\"PRE-ORDER NOW\",\"capsule_style_per_row_array\":null,\"label_color\":\"rgba(68, 88, 246, 1)\",\"show_on_tabs\":[3,4],\"background_gradient_top\":\"rgba(251, 240, 69, 1)\",\"background_gradient_bottom\":\"rgba(90, 235, 162, 1)\",\"show_as_demos\":true},{\"capsules\":[{\"id\":1857810,\"type\":\"game\"},{\"id\":1963680,\"type\":\"game\"},{\"id\":3470960,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"WISHLIST NOW\",null,null,null,\"찜 목록에 추가하기​\",null,\"愿望单\",\"願望清單\",null,null,\"今すぐウィッシュリスト登録！\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":16573,\"internal_section_data\":null,\"capsules_per_row_array\":[1],\"carousel_rows\":1,\"show_as_carousel\":false,\"internal_section_title\":\"WISHLIST NOW\",\"label_color\":\"rgba(236, 88, 165, 1)\",\"show_on_tabs\":[3,4],\"single_item_style\":\"library\",\"capsule_style_per_row_array\":null,\"background_gradient_top\":\"rgba(90, 235, 162, 1)\",\"background_gradient_bottom\":\"rgba(9, 111, 250, 1)\"},{\"capsules\":[{\"id\":454650,\"type\":\"game\"},{\"id\":678960,\"type\":\"game\"},{\"id\":1245480,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"As low as it gets\",null,null,null,\"역대 최저가\",null,\"历史低价\",\"歷史低價​\",null,null,\"大幅割引！\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":69040,\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_bottom\":\"rgba(90, 235, 162, 1)\",\"background_gradient_top\":\"rgba(226, 125, 54, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":true,\"internal_section_title\":\"Headline Deep Discount\",\"show_on_tabs\":[2],\"capsule_style_per_row_array\":[\"tall\"],\"default_subtitle\":\"\"},{\"capsules\":[{\"id\":1058450,\"type\":\"game\"},{\"id\":714080,\"type\":\"game\"},{\"id\":438490,\"type\":\"game\"},{\"id\":899440,\"type\":\"game\"},{\"id\":425220,\"type\":\"game\"},{\"id\":331600,\"type\":\"game\"},{\"id\":755500,\"type\":\"game\"},{\"id\":589360,\"type\":\"game\"},{\"id\":798460,\"type\":\"game\"},{\"id\":389730,\"type\":\"game\"},{\"id\":991560,\"type\":\"game\"},{\"id\":544750,\"type\":\"game\"},{\"id\":351970,\"type\":\"game\"},{\"id\":571720,\"type\":\"game\"},{\"id\":735580,\"type\":\"game\"},{\"id\":245280,\"type\":\"game\"},{\"id\":299950,\"type\":\"game\"},{\"id\":1126750,\"type\":\"game\"},{\"id\":871980,\"type\":\"game\"},{\"id\":775500,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Other great deals\",null,null,null,\"더 많은 할인 혜택​\",null,\"更多超值折扣\",\"更多超值折扣\",null,null,\"おすすめタイトル\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":53402,\"label_color\":\"rgba(230, 91, 160, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"internal_section_title\":\"Deep Discounts (Tab only)\",\"show_on_tabs\":[2],\"capsule_style_per_row_array\":null,\"background_gradient_top\":\"rgba(90, 235, 162, 1)\",\"background_gradient_bottom\":\"rgba(9, 111, 250, 1)\"},{\"capsules\":[{\"id\":1963680,\"type\":\"game\"},{\"id\":1888160,\"type\":\"game\"},{\"id\":1909950,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":14142,\"label_color\":\"rgba(19, 18, 18, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[5],\"internal_section_title\":\"Mecha Trailer\"},{\"capsules\":[{\"id\":1963680,\"type\":\"game\"},{\"id\":1888160,\"type\":\"game\"},{\"id\":1909950,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Hottest Mechas this summer\",null,null,null,\"올여름 가장 핫한 메카!​\",null,\"今夏最火机甲！\",\"今夏最火機甲！\",null,null,\"おすすめメカタイトル！\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":53952,\"label_color\":\"rgba(236, 88, 165, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":true,\"show_on_tabs\":[5],\"internal_section_title\":\"Mecha Hero Title\",\"capsule_style_per_row_array\":[\"tall\"],\"background_gradient_top\":\"rgba(90, 235, 162, 1)\",\"background_gradient_bottom\":\"rgba(251, 240, 69, 1)\"},{\"capsules\":[{\"id\":1909950,\"type\":\"game\"},{\"id\":898750,\"type\":\"game\"},{\"id\":1031510,\"type\":\"game\"},{\"id\":1031500,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Sun, Sand & Super Robots\",null,null,null,\"태양, 모래사장, 그리고 슈퍼 로봇!​\",null,\"阳光、沙滩与超级机甲\",\"陽光、沙灘與超級機甲！\",null,null,\"スーパーロボット大戦シリーズ\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":49359,\"label_color\":\"rgba(68, 88, 246, 1)\",\"background_gradient_bottom\":\"rgba(226, 125, 54, 1)\",\"background_gradient_top\":\"rgba(251, 240, 69, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"internal_section_title\":\"Super robots franchise\",\"show_on_tabs\":[5],\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":1672500,\"type\":\"game\"},{\"id\":1857740,\"type\":\"game\"},{\"id\":824550,\"type\":\"game\"},{\"id\":1367080,\"type\":\"game\"},{\"id\":728530,\"type\":\"game\"},{\"id\":738530,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Gundam under the Sun\",null,null,null,\" 태양 아래의 건담​\",null,\"阳光下的高达\",\"陽光下的鋼彈\",null,null,\"ガンダムシリーズ\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":60017,\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_bottom\":\"rgba(9, 111, 250, 1)\",\"background_gradient_top\":\"rgba(226, 125, 54, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"show_on_tabs\":[5],\"internal_section_title\":\"Gundam Franchise\"},{\"capsules\":[{\"id\":1984270,\"type\":\"game\"},{\"id\":1089090,\"type\":\"game\"},{\"id\":1790600,\"type\":\"game\"},{\"id\":1689620,\"type\":\"game\"},{\"id\":2362050,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":43656,\"label_color\":\"rgba(0, 119, 27, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[6],\"internal_section_title\":\"Anime Trailer\"},{\"capsules\":[{\"id\":1984270,\"type\":\"game\"},{\"id\":1089090,\"type\":\"game\"},{\"id\":1790600,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,\"売上上位\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":84651,\"label_color\":\"rgba(68, 88, 246, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":true,\"default_subtitle\":\"\",\"internal_section_title\":\"Anime Top Seller\",\"capsule_style_per_row_array\":[\"tall\"],\"show_on_tabs\":[6],\"background_gradient_top\":\"rgba(251, 240, 69, 1)\",\"background_gradient_bottom\":\"rgba(226, 125, 54, 1)\"},{\"capsules\":[{\"id\":2244210,\"type\":\"game\"},{\"id\":1858630,\"type\":\"game\"},{\"id\":626690,\"type\":\"game\"},{\"id\":1009290,\"type\":\"game\"},{\"id\":1566880,\"type\":\"game\"},{\"id\":840720,\"type\":\"game\"},{\"id\":607890,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Sword Art Online Franchise\",null,null,null,\"소드 아트 온라인\",null,\"刀剑神域\",\"刀劍神域\",null,null,\"アニメ\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":73231,\"label_color\":\"rgba(255, 255, 255, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":true,\"show_on_tabs\":[6],\"internal_section_title\":\"Anime TItles\",\"background_gradient_top\":\"rgba(226, 125, 54, 1)\",\"background_gradient_bottom\":\"rgba(90, 235, 162, 1)\",\"show_as_demos\":true,\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":2362050,\"type\":\"game\"},{\"id\":1020790,\"type\":\"game\"},{\"id\":349040,\"type\":\"game\"},{\"id\":1372110,\"type\":\"game\"},{\"id\":1909950,\"type\":\"game\"},{\"id\":1689620,\"type\":\"game\"},{\"id\":1672500,\"type\":\"game\"},{\"id\":1492730,\"type\":\"game\"},{\"id\":1858630,\"type\":\"game\"},{\"id\":756530,\"type\":\"game\"},{\"id\":1163550,\"type\":\"game\"},{\"id\":1877020,\"type\":\"game\"},{\"id\":2170370,\"type\":\"game\"},{\"id\":991560,\"type\":\"game\"},{\"id\":2197680,\"type\":\"game\"},{\"id\":714080,\"type\":\"game\"},{\"id\":2213190,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Other Great Titles\",null,null,null,\"다른 훌륭한 게임들​\",null,\"其他精彩游戏\",\"其他精彩遊戲​\",null,null,\"アニメ\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":18,\"label_color\":\"rgba(236, 88, 165, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"show_on_tabs\":[6],\"internal_section_title\":\"Anime TItles\",\"background_gradient_top\":\"rgba(90, 235, 162, 1)\",\"background_gradient_bottom\":\"rgba(9, 111, 250, 1)\"},{\"capsules\":[{\"id\":1984270,\"type\":\"game\"},{\"id\":1392860,\"type\":\"game\"},{\"id\":1909950,\"type\":\"game\"},{\"id\":1880620,\"type\":\"game\"},{\"id\":851850,\"type\":\"game\"},{\"id\":2324290,\"type\":\"game\"},{\"id\":2331020,\"type\":\"game\"},{\"id\":2246670,\"type\":\"game\"},{\"id\":2288630,\"type\":\"game\"},{\"id\":424840,\"type\":\"game\"},{\"id\":1859430,\"type\":\"game\"},{\"id\":2146170,\"type\":\"game\"},{\"id\":1910090,\"type\":\"game\"},{\"id\":3004100,\"type\":\"game\"},{\"id\":2530980,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Good on the go\",null,null,null,\"어디서나 즐기기 좋은 게임​\",null,\"随时畅玩\",\"隨時暢玩\",null,null,\"どこでも楽しめる\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":33729,\"label_color\":\"rgba(236, 88, 165, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[5,3,2],\"carousel_rows\":2,\"show_as_carousel\":false,\"default_subtitle\":\"\",\"internal_section_title\":\"Steamdeck Verified\",\"capsule_style_per_row_array\":[\"tall\",\"grid\",\"grid\"],\"show_on_tabs\":[7],\"background_gradient_top\":\"rgba(90, 235, 162, 1)\",\"background_gradient_bottom\":\"rgba(9, 111, 250, 1)\"},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":92890,\"internal_section_data\":null,\"curator_clan_id\":33042543,\"label_color\":\"rgba(19, 18, 18, 1)\"}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"d1b7013f68025610918347f73c1f03c5803a1313.jpg\",null,null,null,\"a98581f69036f6afd7b4758c1997f5006d55bb38.png\",null,\"a98581f69036f6afd7b4758c1997f5006d55bb38.png\",\"a98581f69036f6afd7b4758c1997f5006d55bb38.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"c90020eaaae666bba8ecc2193e183e283b8c4875.jpg\",null,null,null,\"6480d5ea357d23dedd03f663069d7a78f86ba952.jpg\",null,\"adbfdc5251fc85d6be3e6f5874e4e2934054e197.jpg\",\"b4e79dc6d43f07f472fb602d38c51887d643b982.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[\"ae1d96cc3f3b6d20a0bc27cd378ffab1c17ff58f.jpg\",null,null,null,\"1ac5f1e13b00d2bc3c566f6c5a608cefd6d42bcb.jpg\",null,\"0a33c50290ec15ad4a92e6511debfdd4ad1cdc9e.jpg\",\"aee8e99d807a0d526c03a548d915baea39d88da5.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[\"6ea082584c725157ff72272669ae68dbcecd2237.png\",null,null,null,\"cc1e7cebd8f00a7499d77a05d5daf2bba1a2e50a.png\",null,\"7893674b45c7f13f4675031f14e7e317d0cec1e8.png\",\"fab26642494f6668199d76f45e35568f78498c5b.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_carousel_arrow_color\":\"rgba(230, 219, 219, 1)\",\"sale_presenters\":[{\"unique_id\":5635,\"localized_presenter_name\":[\"Bandai Namco Entertainment\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/BANDAINAMCO\"}],\"clone_from_event_gid\":\"673996212918028452\",\"clone_from_sale_enabled\":true,\"tagged_items\":[{\"capsule\":{\"id\":735580,\"type\":\"game\"},\"tags\":[\"[Store] Adventure\",\"[Store] World War I\",\"[Store] Casual\",\"[Store] Historical\",\"[Store] Story Rich\",\"[Store] Singleplayer\",\"[Store] War\",\"[Store] Walking Simulator\",\"[Store] Atmospheric\",\"[Store] Great Soundtrack\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Third Person\",\"[Store] Stylized\",\"[Store] Choices Matter\"]},{\"capsule\":{\"id\":2288340,\"type\":\"game\"},\"tags\":[\"[Store] Flight\",\"[Store] Shooter\",\"[Store] Action\",\"[Store] Military\",\"[Store] Wargame\",\"[Store] Vehicular Combat\",\"[Store] War\",\"[Store] Cinematic\",\"[Store] Story Rich\",\"[Store] Singleplayer\",\"[Feature] Coming Soon\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Realistic\",\"[Store] 3D Platformer\",\"[Store] Online Co-Op\",\"[Store] Multiplayer\",\"[Store] Arcade\",\"[Store] Great Soundtrack\",\"[Store] Casual\",\"[Store] Co-op\",\"[Store] PvP\",\"[Store] Jet\"]},{\"capsule\":{\"id\":502500,\"type\":\"game\"},\"tags\":[\"[Store] Flight\",\"[Store] Jet\",\"[Store] Military\",\"[Store] War\",\"[Store] Arcade\",\"[Store] Shooter\",\"[Store] Cinematic\",\"[Store] 3D\",\"[Store] PvP\",\"[Store] Action\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Multiplayer\",\"[Store] Simulation\",\"[Store] Story Rich\",\"[Store] First-Person\",\"[Store] Third Person\",\"[Store] Great Soundtrack\",\"[Store] Singleplayer\",\"[Store] Silent Protagonist\",\"[Store] Sci-fi\",\"[Store] Realistic\"]},{\"capsule\":{\"id\":714080,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Anime\",\"[Store] Fighting\",\"[Store] Magic\",\"[Store] Multiplayer\",\"[Store] Third-Person Shooter\",\"[Store] Singleplayer\",\"[Store] Open World\",\"[Store] Story Rich\",\"[Store] Online Co-Op\",\"[Feature] Discounted\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Co-op\",\"[Store] Adventure\",\"[Store] RPG\",\"[Store] Fantasy\",\"[Store] MOBA\",\"[Store] Nudity\",\"[Store] Sexual Content\"]},{\"capsule\":{\"id\":1689620,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Anime\",\"[Store] 3D Fighter\",\"[Store] 3D\",\"[Store] PvP\",\"[Store] Swordplay\",\"[Store] Multiplayer\",\"[Store] Comic Book\",\"[Store] Combat\",\"[Store] Story Rich\",\"[Feature] Steam Deck Playable\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Singleplayer\",\"[Store] PvE\",\"[Store] Dark Fantasy\",\"[Store] Fighting\",\"[Store] Drama\",\"[Store] Great Soundtrack\",\"[Store] Local Multiplayer\",\"[Store] Nudity\",\"[Store] Sexual Content\",\"[Store] Souls-like\"]},{\"capsule\":{\"id\":2362060,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] RPG\",\"[Store] Souls-like\",\"[Store] Action RPG\",\"[Store] Anime\",\"[Store] Character Customization\",\"[Store] Singleplayer\",\"[Store] JRPG\",\"[Store] Open World\",\"[Store] Vampire\",\"[Feature] Has Demo\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Female Protagonist\",\"[Store] Difficult\",\"[Store] Story Rich\",\"[Store] Political\",\"[Store] Sexual Content\",\"[Store] Atmospheric\",\"[Store] Politics\",\"[Store] Dark Fantasy\",\"[Store] Psychological Horror\",\"[Store] Multiplayer\"]},{\"capsule\":{\"id\":678960,\"type\":\"game\"},\"tags\":[\"[Store] Souls-like\",\"[Store] Anime\",\"[Store] Character Customization\",\"[Store] Action RPG\",\"[Store] JRPG\",\"[Store] Co-op\",\"[Store] Third Person\",\"[Store] Singleplayer\",\"[Store] Action\",\"[Store] Difficult\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Violence or Gore\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] RPG\",\"[Store] Vampire\",\"[Store] Multiplayer\",\"[Store] Dark Fantasy\",\"[Store] Post-apocalyptic\",\"[Store] Online Co-Op\",\"[Store] Hack and Slash\",\"[Store] Violent\",\"[Store] Adventure\",\"[Store] Gore\"]},{\"capsule\":{\"id\":1163550,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Sports\",\"[Store] Football (Soccer)\",\"[Store] RPG\",\"[Store] Action\",\"[Store] Multiplayer\",\"[Store] Casual\",\"[Store] Character Customization\",\"[Store] Competitive\",\"[Store] Funny\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Singleplayer\",\"[Store] Arcade\",\"[Store] 4 Player Local\",\"[Store] Co-op\",\"[Store] PvP\",\"[Store] Online Co-Op\",\"[Store] Story Rich\",\"[Store] Management\",\"[Store] Fighting\",\"[Store] Trading Card Game\"]},{\"capsule\":{\"id\":2213190,\"type\":\"game\"},\"tags\":[\"[Store] Strategy\",\"[Store] Casual\",\"[Store] Social Deduction\",\"[Store] Multiplayer\",\"[Store] Word Game\",\"[Store] Top-Down\",\"[Store] Psychological\",\"[Store] Anime\",\"[Store] Immersive Sim\",\"[Store] Noir\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Dark\",\"[Store] Survival\",\"[Store] PvP\",\"[Store] Character Customization\",\"[Store] Tactical\"]},{\"capsule\":{\"id\":1492730,\"type\":\"game\"},\"tags\":[\"[Store] Farming Sim\",\"[Store] Cute\",\"[Store] Life Sim\",\"[Store] RPG\",\"[Store] Anime\",\"[Store] Nature\",\"[Store] Simulation\",\"[Store] Casual\",\"[Store] Atmospheric\",\"[Store] Multiplayer\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Relaxing\",\"[Store] Singleplayer\",\"[Store] Cartoon\",\"[Store] Fishing\",\"[Store] Colorful\",\"[Store] Crafting\",\"[Store] Resource Management\",\"[Store] Farming\",\"[Store] Agriculture\",\"[Store] Immersive Sim\"]},{\"capsule\":{\"id\":851850,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] RPG\",\"[Store] Anime\",\"[Store] Open World\",\"[Store] Fighting\",\"[Store] Singleplayer\",\"[Store] Multiplayer\",\"[Store] Story Rich\",\"[Store] Adventure\",\"[Store] JRPG\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Controller\",\"[Store] Action RPG\",\"[Store] Fantasy\",\"[Store] Beat 'em up\",\"[Store] Third Person\",\"[Store] Dragons\",\"[Store] Atmospheric\",\"[Store] Character Customization\",\"[Store] Difficult\",\"[Store] Great Soundtrack\"]},{\"capsule\":{\"id\":1790600,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Multiplayer\",\"[Store] Action\",\"[Store] 3D Fighter\",\"[Store] Local Multiplayer\",\"[Store] Fighting\",\"[Store] PvP\",\"[Store] Combat\",\"[Store] Martial Arts\",\"[Store] Singleplayer\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] HDR\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Competitive\",\"[Store] 3D\",\"[Store] Physics\",\"[Store] Third Person\",\"[Store] 2.5D\",\"[Store] Co-op\",\"[Store] PvE\",\"[Store] Open World\",\"[Store] Action-Adventure\",\"[Store] Spectacle fighter\"]},{\"capsule\":{\"id\":1984270,\"type\":\"game\"},\"tags\":[\"[Store] RPG\",\"[Store] JRPG\",\"[Store] Creature Collector\",\"[Store] Party-Based RPG\",\"[Store] Anime\",\"[Store] 3D\",\"[Store] Collectathon\",\"[Store] Cute\",\"[Store] Time Travel\",\"[Store] Fantasy\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Turn-Based Combat\",\"[Store] Emotional\",\"[Store] Pixel Graphics\",\"[Store] Alternate History\",\"[Store] Modern\",\"[Store] Mythology\",\"[Store] Character Customization\",\"[Store] Singleplayer\",\"[Store] Story Rich\",\"[Store] Team-Based\"]},{\"capsule\":{\"id\":871980,\"type\":\"game\"},\"tags\":[\"[Store] Visual Novel\",\"[Store] Tactical RPG\",\"[Store] Anime\",\"[Store] JRPG\",\"[Store] Story Rich\",\"[Store] Turn-Based Tactics\",\"[Store] Mystery\",\"[Store] Singleplayer\",\"[Store] Drama\",\"[Store] Psychological\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Survival\",\"[Store] Soundtrack\",\"[Store] Emotional\",\"[Store] Text-Based\",\"[Store] RPG\",\"[Store] Isometric\",\"[Store] Turn-Based Strategy\",\"[Store] Strategy RPG\",\"[Store] 2.5D\",\"[Store] Simulation\"]},{\"capsule\":{\"id\":2622380,\"type\":\"game\"},\"tags\":[\"[Store] Souls-like\",\"[Store] Online Co-Op\",\"[Store] Multiplayer\",\"[Store] Roguelike\",\"[Store] Co-op\",\"[Store] Singleplayer\",\"[Store] PvE\",\"[Store] Third Person\",\"[Store] Action\",\"[Store] Roguelite\",\"[Feature] Steam Deck Playable\",\"[Feature] Violence or Gore\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Action RPG\",\"[Store] Open World\",\"[Store] RPG\",\"[Store] Dark\",\"[Store] 3D\",\"[Store] Violent\",\"[Store] Survival\",\"[Store] Lore-Rich\",\"[Store] Story Rich\",\"[Store] Dating Sim\"]},{\"capsule\":{\"id\":1245620,\"type\":\"game\"},\"tags\":[\"[Store] Souls-like\",\"[Store] Open World\",\"[Store] Dark Fantasy\",\"[Store] RPG\",\"[Store] Difficult\",\"[Store] Action RPG\",\"[Store] Multiplayer\",\"[Store] Third Person\",\"[Store] Fantasy\",\"[Store] Singleplayer\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Violence or Gore\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Online Co-Op\",\"[Store] Action\",\"[Store] Co-op\",\"[Store] Atmospheric\",\"[Store] Great Soundtrack\",\"[Store] PvP\",\"[Store] Violent\",\"[Store] 3D\",\"[Store] Character Customization\",\"[Store] Family Friendly\"]},{\"capsule\":{\"id\":245280,\"type\":\"game\"},\"tags\":[\"[Store] Adventure\",\"[Store] Action\",\"[Store] Post-apocalyptic\",\"[Store] Story Rich\",\"[Store] Singleplayer\",\"[Store] Hack and Slash\",\"[Store] Third Person\",\"[Store] Action-Adventure\",\"[Store] Sci-fi\",\"[Store] Atmospheric\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Robots\",\"[Store] Platformer\",\"[Store] Parkour\",\"[Store] Great Soundtrack\",\"[Store] 3D Platformer\",\"[Store] Linear\",\"[Store] Controller\",\"[Store] Female Protagonist\",\"[Store] 3D Vision\",\"[Store] Nudity\"]},{\"capsule\":{\"id\":2244210,\"type\":\"game\"},\"tags\":[\"[Store] JRPG\",\"[Store] Anime\",\"[Store] Action RPG\",\"[Store] Hack and Slash\",\"[Store] 3D\",\"[Store] Fantasy\",\"[Store] Singleplayer\",\"[Store] RPG\",\"[Store] Realistic\",\"[Store] Dark\",\"[Feature] Coming Soon\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Action\",\"[Store] Futuristic\",\"[Store] Souls-like\",\"[Store] Character Customization\",\"[Store] Open World\",\"[Store] MMORPG\",\"[Store] Multiplayer\"]},{\"capsule\":{\"id\":299950,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Psychological Horror\",\"[Store] Mystery\",\"[Store] FPS\",\"[Store] Story Rich\",\"[Store] First-Person\",\"[Store] Thriller\",\"[Store] Detective\",\"[Store] Indie\",\"[Store] Horror\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Psychological\",\"[Store] Dark\",\"[Store] Shooter\",\"[Store] Great Soundtrack\",\"[Store] Exploration\",\"[Store] Adventure\",\"[Store] Mature\",\"[Store] Drama\",\"[Store] Walking Simulator\",\"[Store] Psychedelic\"]},{\"capsule\":{\"id\":438490,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Action\",\"[Store] Character Customization\",\"[Store] RPG\",\"[Store] Hunting\",\"[Store] Co-op\",\"[Store] Hack and Slash\",\"[Store] JRPG\",\"[Store] Multiplayer\",\"[Store] Singleplayer\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Great Soundtrack\",\"[Store] Post-apocalyptic\",\"[Store] Story Rich\",\"[Store] Third Person\",\"[Store] Online Co-Op\",\"[Store] Atmospheric\",\"[Store] Female Protagonist\",\"[Store] Nudity\",\"[Store] Open World\",\"[Store] Mature\"]},{\"capsule\":{\"id\":899440,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Action\",\"[Store] Character Customization\",\"[Store] Hack and Slash\",\"[Store] Hunting\",\"[Store] Multiplayer\",\"[Store] Co-op\",\"[Store] JRPG\",\"[Store] RPG\",\"[Store] Online Co-Op\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Singleplayer\",\"[Store] Action RPG\",\"[Store] Third Person\",\"[Store] Post-apocalyptic\",\"[Store] Great Soundtrack\",\"[Store] Story Rich\",\"[Store] Adventure\",\"[Store] Female Protagonist\",\"[Store] Sexual Content\",\"[Store] Souls-like\"]},{\"capsule\":{\"id\":1672500,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Robots\",\"[Store] Hack and Slash\",\"[Store] Mechs\",\"[Store] RPG\",\"[Store] Action RPG\",\"[Store] Co-op\",\"[Store] 3D\",\"[Store] Anime\",\"[Store] Character Customization\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Multiplayer\",\"[Store] Singleplayer\",\"[Store] Sexual Content\"]},{\"capsule\":{\"id\":1372110,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Action\",\"[Store] Fighting\",\"[Store] PvP\",\"[Store] Multiplayer\",\"[Store] 3D Fighter\",\"[Store] 2D Fighter\",\"[Store] Memes\",\"[Store] Great Soundtrack\",\"[Store] Colorful\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] 2D\",\"[Store] 3D\",\"[Store] Violent\",\"[Store] Story Rich\",\"[Store] Local Co-Op\",\"[Store] 2.5D\",\"[Store] Arcade\",\"[Store] Controller\",\"[Store] 2D Platformer\",\"[Store] Nudity\"]},{\"capsule\":{\"id\":1877020,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Anime\",\"[Store] 3D Fighter\",\"[Store] Multiplayer\",\"[Store] 3D\",\"[Store] Online Co-Op\",\"[Store] PvP\",\"[Store] Co-op\",\"[Store] 3D Platformer\",\"[Store] PvE\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Nudity or Sexual Content\",\"[Feature] Violence or Gore\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Singleplayer\",\"[Store] Gore\",\"[Store] Violent\",\"[Store] Fighting\",\"[Store] Psychological Horror\"]},{\"capsule\":{\"id\":860510,\"type\":\"game\"},\"tags\":[\"[Store] Horror\",\"[Store] Adventure\",\"[Store] Singleplayer\",\"[Store] Puzzle\",\"[Store] Dark\",\"[Store] Atmospheric\",\"[Store] Psychological Horror\",\"[Store] Story Rich\",\"[Store] Multiplayer\",\"[Store] Stealth\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Puzzle Platformer\",\"[Store] Action-Adventure\",\"[Store] Indie\",\"[Store] Platformer\",\"[Store] Great Soundtrack\",\"[Store] 2.5D\",\"[Store] Co-op\",\"[Store] Thriller\",\"[Store] Action\",\"[Store] Violent\"]},{\"capsule\":{\"id\":1392860,\"type\":\"game\"},\"tags\":[\"[Store] Co-op\",\"[Store] Adventure\",\"[Store] Horror\",\"[Store] Multiplayer\",\"[Store] Puzzle\",\"[Store] Atmospheric\",\"[Store] Online Co-Op\",\"[Store] Platformer\",\"[Store] Singleplayer\",\"[Store] Co-op Campaign\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Psychological Horror\",\"[Store] Dark\",\"[Store] Action\",\"[Store] Story Rich\",\"[Store] Stealth\",\"[Store] 2.5D\",\"[Store] Exploration\",\"[Store] Indie\",\"[Store] Great Soundtrack\",\"[Store] Local Co-Op\"]},{\"capsule\":{\"id\":424840,\"type\":\"game\"},\"tags\":[\"[Store] Horror\",\"[Store] Atmospheric\",\"[Store] Adventure\",\"[Store] Singleplayer\",\"[Store] Puzzle Platformer\",\"[Store] Dark\",\"[Store] Puzzle\",\"[Store] Indie\",\"[Store] Story Rich\",\"[Store] Stealth\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Psychological Horror\",\"[Store] Platformer\",\"[Store] Great Soundtrack\",\"[Store] 2.5D\",\"[Store] Third Person\",\"[Store] Survival Horror\",\"[Store] Female Protagonist\",\"[Store] Short\",\"[Store] Multiplayer\",\"[Store] Action\"]},{\"capsule\":{\"id\":2362050,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] 3D Fighter\",\"[Store] Anime\",\"[Store] 3D\",\"[Store] Multiplayer\",\"[Store] PvP\",\"[Store] Singleplayer\",\"[Store] Open World\",\"[Store] Superhero\",\"[Store] Psychological Horror\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\"]},{\"capsule\":{\"id\":1058450,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Anime\",\"[Store] Fighting\",\"[Store] Multiplayer\",\"[Store] Superhero\",\"[Store] 3D Fighter\",\"[Store] Character Customization\",\"[Store] Local Multiplayer\",\"[Store] Controller\",\"[Store] Open World\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Story Rich\",\"[Store] Singleplayer\"]},{\"capsule\":{\"id\":1126750,\"type\":\"game\"},\"tags\":[\"[Store] Casual\",\"[Store] Puzzle\",\"[Store] Action\",\"[Store] Arcade\",\"[Store] Multiplayer\",\"[Store] Singleplayer\",\"[Store] 4 Player Local\",\"[Store] Local Multiplayer\",\"[Store] 2D\",\"[Store] Cartoony\",\"[Feature] Steam Deck Playable\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Colorful\",\"[Store] Old School\",\"[Store] Great Soundtrack\",\"[Store] Anime\",\"[Store] Cute\"]},{\"capsule\":{\"id\":349040,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Fighting\",\"[Store] Action\",\"[Store] Multiplayer\",\"[Store] Ninja\",\"[Store] Adventure\",\"[Store] Story Rich\",\"[Store] Local Multiplayer\",\"[Store] Singleplayer\",\"[Store] Third Person\",\"[Feature] Steam Deck Playable\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Great Soundtrack\",\"[Store] Open World\",\"[Store] Fantasy\",\"[Store] Co-op\",\"[Store] Atmospheric\",\"[Store] Online Co-Op\",\"[Store] Local Co-Op\",\"[Store] Beat 'em up\",\"[Store] Memes\",\"[Store] Heist\"]},{\"capsule\":{\"id\":1020790,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Anime\",\"[Store] Adventure\",\"[Store] 3D Fighter\",\"[Store] Multiplayer\",\"[Store] Ninja\",\"[Store] Fighting\",\"[Store] Action-Adventure\",\"[Store] Singleplayer\",\"[Store] PvP\",\"[Feature] Steam Deck Playable\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Open World\",\"[Store] Character Customization\",\"[Store] Co-op\",\"[Store] Story Rich\",\"[Store] Controller\",\"[Store] Local Co-Op\",\"[Store] Atmospheric\"]},{\"capsule\":{\"id\":798460,\"type\":\"game\"},\"tags\":[\"[Store] RPG\",\"[Store] Adventure\",\"[Store] JRPG\",\"[Store] Action\",\"[Store] Anime\",\"[Store] Creature Collector\",\"[Store] Great Soundtrack\",\"[Store] Singleplayer\",\"[Store] Story Rich\",\"[Store] Fantasy\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Open World\",\"[Store] Cute\",\"[Store] Turn-Based Combat\",\"[Store] Magic\",\"[Store] Exploration\",\"[Store] Turn-Based\",\"[Store] Colorful\",\"[Store] Family Friendly\",\"[Store] Action RPG\",\"[Store] Atmospheric\"]},{\"capsule\":{\"id\":589360,\"type\":\"game\"},\"tags\":[\"[Store] RPG\",\"[Store] JRPG\",\"[Store] Anime\",\"[Store] Adventure\",\"[Store] Open World\",\"[Store] Singleplayer\",\"[Store] Fantasy\",\"[Store] Story Rich\",\"[Store] Cute\",\"[Store] Action RPG\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Great Soundtrack\",\"[Store] Hack and Slash\",\"[Store] Dungeon Crawler\",\"[Store] City Builder\",\"[Store] Action\",\"[Store] Strategy\",\"[Store] Cartoony\",\"[Store] Exploration\",\"[Store] Multiplayer\",\"[Store] Survival\"]},{\"capsule\":{\"id\":755500,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Adventure\",\"[Store] Anime\",\"[Store] Open World\",\"[Store] Singleplayer\",\"[Store] Multiplayer\",\"[Store] Pirates\",\"[Store] Fighting\",\"[Store] Story Rich\",\"[Store] Third Person\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] RPG\",\"[Store] Fantasy\",\"[Store] JRPG\",\"[Store] Co-op\",\"[Store] Atmospheric\"]},{\"capsule\":{\"id\":1089090,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Hack and Slash\",\"[Store] Beat 'em up\",\"[Store] Pirates\",\"[Store] Fighting\",\"[Store] Split Screen\",\"[Store] Action\",\"[Store] PvP\",\"[Store] Arcade\",\"[Store] Multiplayer\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Musou\",\"[Store] Co-op\",\"[Store] Adventure\",\"[Store] RPG\",\"[Store] Local Co-Op\",\"[Store] Online Co-Op\",\"[Store] Singleplayer\",\"[Store] Comedy\",\"[Store] Controller\",\"[Store] Open World\"]},{\"capsule\":{\"id\":991560,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Anime\",\"[Store] Fighting\",\"[Store] Character Customization\",\"[Store] Arcade\",\"[Store] Superhero\",\"[Store] Casual\",\"[Store] Open World\",\"[Store] Multiplayer\",\"[Store] 3D Fighter\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Third Person\",\"[Store] RPG\"]},{\"capsule\":{\"id\":1880620,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] 3D\",\"[Store] Adventure\",\"[Store] Singleplayer\",\"[Store] Historical\",\"[Store] Controller\",\"[Store] Character Customization\",\"[Store] Multiplayer\",\"[Store] Casual\",\"[Store] Tutorial\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Great Soundtrack\",\"[Store] Story Rich\",\"[Store] Cute\",\"[Store] Funny\",\"[Store] Colorful\",\"[Store] Surreal\",\"[Store] Family Friendly\"]},{\"capsule\":{\"id\":425220,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Action\",\"[Store] Fighting\",\"[Store] Multiplayer\",\"[Store] Pirates\",\"[Store] Singleplayer\",\"[Store] Local Multiplayer\",\"[Store] Beat 'em up\",\"[Store] Co-op\",\"[Store] Story Rich\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] PvP\",\"[Store] 3D Fighter\",\"[Store] RPG\",\"[Store] Split Screen\"]},{\"capsule\":{\"id\":331600,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Action\",\"[Store] Pirates\",\"[Store] Hack and Slash\",\"[Store] Adventure\",\"[Store] Fighting\",\"[Store] Beat 'em up\",\"[Store] Multiplayer\",\"[Store] Musou\",\"[Store] Third Person\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Singleplayer\",\"[Store] Local Co-Op\",\"[Store] Comedy\",\"[Store] Story Rich\",\"[Store] Co-op\",\"[Store] JRPG\",\"[Store] Funny\",\"[Store] Controller\",\"[Store] Great Soundtrack\",\"[Store] Open World\"]},{\"capsule\":{\"id\":571720,\"type\":\"game\"},\"tags\":[\"[Store] Adventure\",\"[Store] Action\",\"[Store] Anime\",\"[Store] Singleplayer\",\"[Store] Fighting\",\"[Store] Open World\",\"[Store] Pirates\",\"[Store] Hack and Slash\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\"]},{\"capsule\":{\"id\":2324290,\"type\":\"game\"},\"tags\":[\"[Store] Action-Adventure\",\"[Store] Action\",\"[Store] Adventure\",\"[Store] Platformer\",\"[Store] Arcade\",\"[Store] 3D Platformer\",\"[Store] 3D\",\"[Store] Cartoony\",\"[Store] Anime\",\"[Store] Quick-Time Events\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Casual\",\"[Store] Fantasy\",\"[Store] Comic Book\",\"[Store] Retro\",\"[Store] Singleplayer\",\"[Store] Family Friendly\",\"[Store] Local Multiplayer\",\"[Store] Local Co-Op\",\"[Store] Co-op\",\"[Store] Multiplayer\"]},{\"capsule\":{\"id\":2383200,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Rhythm\",\"[Store] Action RPG\",\"[Store] Action-Adventure\",\"[Store] Beat 'em up\",\"[Store] 2D Platformer\",\"[Store] Action RTS\",\"[Store] Hack and Slash\",\"[Store] Side Scroller\",\"[Store] Tactical RPG\",\"[Feature] Steam Deck Playable\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] 2D\",\"[Store] Cute\",\"[Store] Fantasy\",\"[Store] Tactical\",\"[Store] Atmospheric\",\"[Store] PvE\",\"[Store] Character Customization\",\"[Store] Combat\",\"[Store] Singleplayer\",\"[Store] Story Rich\"]},{\"capsule\":{\"id\":775500,\"type\":\"game\"},\"tags\":[\"[Store] Anime\",\"[Store] Action\",\"[Store] RPG\",\"[Store] JRPG\",\"[Store] Action RPG\",\"[Store] Adventure\",\"[Store] Sci-fi\",\"[Store] Action-Adventure\",\"[Store] Combat\",\"[Store] Character Action Game\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Open World\",\"[Store] Fighting\",\"[Store] Fantasy\",\"[Store] Interactive Fiction\",\"[Store] Futuristic\",\"[Store] Character Customization\",\"[Store] Singleplayer\",\"[Store] Strategy RPG\",\"[Store] Hack and Slash\",\"[Store] Souls-like\"]},{\"capsule\":{\"id\":544750,\"type\":\"game\"},\"tags\":[\"[Store] Fighting\",\"[Store] Action\",\"[Store] Character Customization\",\"[Store] Multiplayer\",\"[Store] Fantasy\",\"[Store] Swordplay\",\"[Store] Local Multiplayer\",\"[Store] 3D Fighter\",\"[Store] Arcade\",\"[Store] Nudity\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Singleplayer\",\"[Store] Competitive\",\"[Store] Female Protagonist\",\"[Store] Great Soundtrack\",\"[Store] Medieval\",\"[Store] Anime\",\"[Store] Sexual Content\",\"[Store] Story Rich\",\"[Store] Beat 'em up\",\"[Store] Memes\"]},{\"capsule\":{\"id\":2170370,\"type\":\"game\"},\"tags\":[\"[Store] Cute\",\"[Store] Funny\",\"[Store] Adventure\",\"[Store] Anime\",\"[Store] Family Friendly\",\"[Store] Animation & Modeling\",\"[Store] Singleplayer\",\"[Store] Souls-like\",\"[Store] Female Protagonist\",\"[Store] Minigames\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Gore\"]},{\"capsule\":{\"id\":1909950,\"type\":\"game\"},\"tags\":[\"[Store] RPG\",\"[Store] Simulation\",\"[Store] Strategy\",\"[Store] JRPG\",\"[Store] Turn-Based Strategy\",\"[Store] Visual Novel\",\"[Store] Tactical RPG\",\"[Store] Turn-Based Combat\",\"[Store] Turn-Based Tactics\",\"[Store] 2D\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Anime\",\"[Store] Isometric\",\"[Store] Mechs\",\"[Store] Top-Down\",\"[Store] Sci-fi\",\"[Store] Robots\",\"[Store] Lore-Rich\",\"[Store] Story Rich\",\"[Store] Singleplayer\",\"[Store] Sexual Content\"]},{\"capsule\":{\"id\":1858630,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] RPG\",\"[Store] Multiplayer\",\"[Store] Action RPG\",\"[Store] Anime\",\"[Store] Casual\",\"[Store] Online Co-Op\",\"[Store] Singleplayer\",\"[Store] Hack and Slash\",\"[Store] Third-Person Shooter\",\"[Feature] Steam Deck Playable\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] 3D\",\"[Store] Fantasy\",\"[Store] Swordplay\",\"[Store] Magic\",\"[Store] Character Customization\",\"[Store] PvE\",\"[Store] Story Rich\",\"[Store] MMORPG\",\"[Store] JRPG\",\"[Store] Co-op\"]},{\"capsule\":{\"id\":389730,\"type\":\"game\"},\"tags\":[\"[Store] Fighting\",\"[Store] Action\",\"[Store] Multiplayer\",\"[Store] Competitive\",\"[Store] Arcade\",\"[Store] Local Multiplayer\",\"[Store] Controller\",\"[Store] 3D Fighter\",\"[Store] Great Soundtrack\",\"[Store] Singleplayer\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] eSports\",\"[Store] Character Customization\",\"[Store] Sports\",\"[Store] Difficult\",\"[Store] Anime\",\"[Store] Story Rich\",\"[Store] Beat 'em up\",\"[Store] Third Person\",\"[Store] 2D Fighter\",\"[Store] Atmospheric\"]},{\"capsule\":{\"id\":1778820,\"type\":\"game\"},\"tags\":[\"[Store] Fighting\",\"[Store] 3D Fighter\",\"[Store] Multiplayer\",\"[Store] Action\",\"[Store] Local Multiplayer\",\"[Store] PvP\",\"[Store] eSports\",\"[Store] Arcade\",\"[Store] Singleplayer\",\"[Store] Competitive\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Character Customization\",\"[Store] Martial Arts\",\"[Store] Sexual Content\",\"[Store] Anime\",\"[Store] Great Soundtrack\",\"[Store] Controller\",\"[Store] Difficult\",\"[Store] Casual\",\"[Store] Gambling\",\"[Store] Story Rich\"]},{\"capsule\":{\"id\":756530,\"type\":\"game\"},\"tags\":[\"[Store] Action\",\"[Store] Anime\",\"[Store] Violent\",\"[Store] Gore\",\"[Store] Character Customization\",\"[Store] Multiplayer\",\"[Store] Singleplayer\",\"[Store] Hack and Slash\",\"[Store] Horror\",\"[Store] Co-op\",\"[Feature] Steam Deck Playable\",\"[Feature] Violence or Gore\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] JRPG\",\"[Store] Adventure\",\"[Store] Third Person\",\"[Store] Nudity\"]},{\"capsule\":{\"id\":2288630,\"type\":\"game\"},\"tags\":[\"[Store] Casual\",\"[Store] Rhythm\",\"[Store] Singleplayer\",\"[Store] Multiplayer\",\"[Store] PvP\",\"[Store] Music\",\"[Store] Cute\",\"[Store] Anime\",\"[Store] Difficult\",\"[Store] Arcade\",\"[Feature] Has Demo\",\"[Feature] Steam Deck Playable\",\"[Feature] Steam Deck Verified\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Coop\",\"[AppType] game\"]},{\"capsule\":{\"id\":351970,\"type\":\"game\"},\"tags\":[\"[Store] JRPG\",\"[Store] Anime\",\"[Store] RPG\",\"[Store] Fantasy\",\"[Store] Story Rich\",\"[Store] Open World\",\"[Store] Action RPG\",\"[Store] Adventure\",\"[Store] Great Soundtrack\",\"[Store] Singleplayer\",\"[Feature] Steam Deck Playable\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Remote Play\",\"[Feature] Remote Play Together\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Action\",\"[Store] Co-op\",\"[Store] Multiplayer\",\"[Store] Action-Adventure\",\"[Store] Local Co-Op\",\"[Store] Atmospheric\",\"[Store] Cute\",\"[Store] Hack and Slash\",\"[Store] Third Person\",\"[Store] Character Customization\"]},{\"capsule\":{\"id\":2197680,\"type\":\"game\"},\"tags\":[\"[Store] Side Scroller\",\"[Store] Action RPG\",\"[Store] Anime\",\"[Store] City Builder\",\"[Store] JRPG\",\"[Store] Beat 'em up\",\"[Store] Base Building\",\"[Store] Fantasy\",\"[Store] Story Rich\",\"[Store] Action\",\"[Feature] Steam Deck Playable\",\"[Feature] Discounted\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] RPG\",\"[Store] Retro\",\"[Store] Colorful\",\"[Store] Singleplayer\",\"[Store] Adventure\",\"[Store] Soundtrack\",\"[Store] Building\",\"[Store] Multiplayer\",\"[Store] Great Soundtrack\",\"[Store] Gun Customization\"]},{\"capsule\":{\"id\":3751260,\"type\":\"game\"},\"tags\":[\"[Store] RPG\",\"[Store] Open World\",\"[Store] Dark Fantasy\",\"[Store] Adventure\",\"[Store] Action RPG\",\"[Store] Third Person\",\"[Store] Action\",\"[Store] Fantasy\",\"[Store] Singleplayer\",\"[Store] Atmospheric\",\"[Feature] Coming Soon\",\"[Feature] Nudity or Sexual Content\",\"[Feature] Violence or Gore\",\"[Feature] Full Controller\",\"[Feature] Xbox Controller\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] Time Management\",\"[Store] Story Rich\",\"[Store] Combat\",\"[Store] Action-Adventure\",\"[Store] Mature\",\"[Store] Choices Matter\",\"[Store] Vampire\",\"[Store] Realistic\",\"[Store] Historical\",\"[Store] Multiple Endings\"]},{\"capsule\":{\"id\":2482940,\"type\":\"game\"},\"tags\":[\"[Store] Adventure\",\"[Store] Action\",\"[Store] Puzzle\",\"[Store] Atmospheric\",\"[Store] Psychological Horror\",\"[Store] Story Rich\",\"[Store] Stealth\",\"[Store] Exploration\",\"[Store] 3D Platformer\",\"[Store] Horror\",\"[Feature] Coming Soon\",\"[Feature] VR\",\"[Feature] VR Only\",\"[Feature] Has Trailer\",\"[AppType] game\",\"[Store] First-Person\",\"[Store] VR\",\"[Store] Singleplayer\"]}]}",
+      "announcement_body": {
+        "gid": "675132895796398422",
+        "clanid": "33042543",
+        "posterid": "0",
+        "headline": "BANDAI NAMCO Autumn Sale 2026 🍂🍁",
+        "posttime": 1790934038,
+        "updatetime": 1790934101,
+        "body": "[h1]Pick up some of our biggest hits now in the [url=https://store.steampowered.com/publisher/BANDAINAMCO]BANDAI NAMCO Autumn Sale[/url]![/h1]\n\n[url=https://store.steampowered.com/publisher/BANDAINAMCO][img]{STEAM_CLAN_IMAGE}/33042543/95a22089df8fb39190f961d3abab28ad9d6c4b86.png[/img][/url]\n\nhttps://store.steampowered.com/app/1984270/Digimon_Story_Time_Stranger/\nhttps://store.steampowered.com/app/2362060/CODE_VEIN_II/\nhttps://store.steampowered.com/app/2244210/Echoes_of_Aincrad/\nhttps://store.steampowered.com/app/1778820/TEKKEN_8/\nhttps://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/",
+        "commentcount": 0,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "583935635494269236",
+        "event_gid": "675132895796398421",
+        "voteupcount": 37,
+        "votedowncount": 0,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1790934000,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "583935635494269236",
+      "rtime32_last_modified": 1793503493,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1790687234,
+      "votes_up": 37,
+      "votes_down": 0,
+      "comment_type": "ForumTopic",
+      "gidfeature": "2518023667595816241",
+      "gidfeature2": "583935635494269236",
+      "clan_steamid_original": "103582791462563951"
+    }
+  },
+  {
+    "index": 3,
+    "publisher": "Bandai Namco",
+    "publisher_slug": "bandai_namco",
+    "group_id": 33042543,
     "event_id": "703279123228786830",
     "app_id": "",
     "source_title": "Ondeh Ondeh Kaya's Tasty Tale, coming 2027 🥄",
@@ -85,7 +255,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 4,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -140,7 +310,7 @@
         "hidden": 0,
         "forum_topic_id": "586184554739657357",
         "event_gid": "706654920914240960",
-        "voteupcount": 59,
+        "voteupcount": 60,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -153,7 +323,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "586184554739657357",
-      "rtime32_last_modified": 1790325340,
+      "rtime32_last_modified": 1792711528,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1452082,
@@ -162,7 +332,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1787591733,
-      "votes_up": 59,
+      "votes_up": 60,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -171,7 +341,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 5,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -225,7 +395,7 @@
         "hidden": 0,
         "forum_topic_id": "586184554739644559",
         "event_gid": "690892955941077793",
-        "voteupcount": 41,
+        "voteupcount": 42,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -238,7 +408,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "586184554739644559",
-      "rtime32_last_modified": 1789294431,
+      "rtime32_last_modified": 1791273565,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -247,7 +417,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1788183611,
-      "votes_up": 41,
+      "votes_up": 42,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -258,7 +428,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 6,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -345,7 +515,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 7,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -430,7 +600,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 8,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -515,7 +685,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 9,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -569,7 +739,7 @@
         "hidden": 0,
         "forum_topic_id": "563660559683306070",
         "event_gid": "673996212918028452",
-        "voteupcount": 54,
+        "voteupcount": 56,
         "votedowncount": 12,
         "ban_check_result": 0,
         "banned": 0
@@ -582,7 +752,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "563660559683306070",
-      "rtime32_last_modified": 1790325750,
+      "rtime32_last_modified": 1792709743,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1438869,
@@ -591,7 +761,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1780304501,
-      "votes_up": 54,
+      "votes_up": 56,
       "votes_down": 12,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -600,7 +770,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 10,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -644,13 +814,13 @@
         "posttime": 1781629224,
         "updatetime": 1781666004,
         "body": "[h1]Celebrate 30 years of Tales of Series![/h1][h3][i]Thank you for being a part of this incredible journey.[/i] [/h3][h3]Relive your favorite adventures or discover new ones now on sale![/h3][p][/p][h1][b]🌟FEATURED TITLES🌟[/b][/h1][p][dynamiclink href=\"https://store.steampowered.com/app/2331020/_/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2530980/_/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/740130/Tales_of_ARISE/\"][/dynamiclink][/p]",
-        "commentcount": 3,
+        "commentcount": 4,
         "tags": [],
         "language": 0,
         "hidden": 0,
         "forum_topic_id": "562533727113335203",
         "event_gid": "673994944978879526",
-        "voteupcount": 54,
+        "voteupcount": 55,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -663,7 +833,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "562533727113335203",
-      "rtime32_last_modified": 1789082630,
+      "rtime32_last_modified": 1792710841,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1436494,
@@ -672,7 +842,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1779089721,
-      "votes_up": 54,
+      "votes_up": 55,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -681,7 +851,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 11,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -736,7 +906,7 @@
         "hidden": 0,
         "forum_topic_id": "833873371400817246",
         "event_gid": "490469454386301046",
-        "voteupcount": 68,
+        "voteupcount": 69,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -749,7 +919,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "833873371400817246",
-      "rtime32_last_modified": 1789082631,
+      "rtime32_last_modified": 1792710712,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1435541,
@@ -758,7 +928,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 68,
+      "votes_up": 69,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -767,7 +937,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 12,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -821,7 +991,7 @@
         "hidden": 0,
         "forum_topic_id": "807975131067638491",
         "event_gid": "493847788110483113",
-        "voteupcount": 62,
+        "voteupcount": 63,
         "votedowncount": 8,
         "ban_check_result": 0,
         "banned": 0
@@ -834,7 +1004,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "807975131067638491",
-      "rtime32_last_modified": 1789212081,
+      "rtime32_last_modified": 1792710622,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1431588,
@@ -843,7 +1013,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1776053955,
-      "votes_up": 62,
+      "votes_up": 63,
       "votes_down": 8,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -852,7 +1022,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 13,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -906,7 +1076,7 @@
         "hidden": 0,
         "forum_topic_id": "802345327968586642",
         "event_gid": "617697508773068811",
-        "voteupcount": 47,
+        "voteupcount": 48,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -919,7 +1089,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "802345327968586642",
-      "rtime32_last_modified": 1789212086,
+      "rtime32_last_modified": 1792710621,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1432014,
@@ -928,7 +1098,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1776316057,
-      "votes_up": 47,
+      "votes_up": 48,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -937,7 +1107,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 14,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -987,7 +1157,7 @@
         "hidden": 0,
         "forum_topic_id": "802344996812520118",
         "event_gid": "519740949754019848",
-        "voteupcount": 65,
+        "voteupcount": 66,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -1000,7 +1170,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "802344996812520118",
-      "rtime32_last_modified": 1789212068,
+      "rtime32_last_modified": 1792710623,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1425798,
@@ -1009,7 +1179,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 65,
+      "votes_up": 66,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1018,7 +1188,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 15,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1072,7 +1242,7 @@
         "hidden": 0,
         "forum_topic_id": "807971965590717239",
         "event_gid": "538880617623847266",
-        "voteupcount": 63,
+        "voteupcount": 64,
         "votedowncount": 9,
         "ban_check_result": 0,
         "banned": 0
@@ -1085,7 +1255,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "807971965590717239",
-      "rtime32_last_modified": 1789082634,
+      "rtime32_last_modified": 1792709593,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1424869,
@@ -1094,7 +1264,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 63,
+      "votes_up": 64,
       "votes_down": 9,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1103,7 +1273,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 16,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1157,7 +1327,7 @@
         "hidden": 0,
         "forum_topic_id": "801215627149984706",
         "event_gid": "500596849929879931",
-        "voteupcount": 83,
+        "voteupcount": 84,
         "votedowncount": 6,
         "ban_check_result": 0,
         "banned": 0
@@ -1170,7 +1340,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801215627149984706",
-      "rtime32_last_modified": 1789082643,
+      "rtime32_last_modified": 1792710066,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1424650,
@@ -1179,7 +1349,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 83,
+      "votes_up": 84,
       "votes_down": 6,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1188,7 +1358,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 17,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1242,7 +1412,7 @@
         "hidden": 0,
         "forum_topic_id": "760680996704218782",
         "event_gid": "532120880970468803",
-        "voteupcount": 126,
+        "voteupcount": 127,
         "votedowncount": 8,
         "ban_check_result": 0,
         "banned": 0
@@ -1255,7 +1425,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "760680996704218782",
-      "rtime32_last_modified": 1789212143,
+      "rtime32_last_modified": 1792709981,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1418701,
@@ -1264,7 +1434,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 126,
+      "votes_up": 127,
       "votes_down": 8,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1273,7 +1443,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 18,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1327,7 +1497,7 @@
         "hidden": 0,
         "forum_topic_id": "760680996704218778",
         "event_gid": "501717677002196328",
-        "voteupcount": 79,
+        "voteupcount": 80,
         "votedowncount": 11,
         "ban_check_result": 0,
         "banned": 0
@@ -1340,7 +1510,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "760680996704218778",
-      "rtime32_last_modified": 1775167614,
+      "rtime32_last_modified": 1792709855,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1414968,
@@ -1349,7 +1519,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 79,
+      "votes_up": 80,
       "votes_down": 11,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1358,7 +1528,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 19,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1443,7 +1613,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 20,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1528,7 +1698,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 21,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1613,7 +1783,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 22,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1698,7 +1868,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 23,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1779,7 +1949,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 24,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1833,7 +2003,7 @@
         "hidden": 0,
         "forum_topic_id": "517472842924010594",
         "event_gid": "658207707628569049",
-        "voteupcount": 67,
+        "voteupcount": 68,
         "votedowncount": 10,
         "ban_check_result": 0,
         "banned": 0
@@ -1846,7 +2016,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "517472842924010594",
-      "rtime32_last_modified": 1773780088,
+      "rtime32_last_modified": 1793359434,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1399212,
@@ -1855,7 +2025,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 67,
+      "votes_up": 68,
       "votes_down": 10,
       "comment_type": "ForumTopic",
       "gidfeature": "2518023667595816241",
@@ -1864,7 +2034,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 25,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -1949,7 +2119,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 26,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2034,7 +2204,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 27,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2119,7 +2289,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 28,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2204,7 +2374,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 29,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2289,7 +2459,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 30,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2374,7 +2544,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 31,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2459,7 +2629,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 32,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2544,7 +2714,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 33,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2629,7 +2799,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 34,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2714,7 +2884,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 35,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2799,7 +2969,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 36,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2880,7 +3050,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 37,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -2965,7 +3135,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 38,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3050,7 +3220,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 39,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3131,7 +3301,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 40,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3216,7 +3386,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 41,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3297,7 +3467,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 42,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3382,7 +3552,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 43,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3467,7 +3637,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 44,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3552,7 +3722,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 45,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3637,7 +3807,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 46,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3722,7 +3892,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 47,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3807,7 +3977,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 48,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3892,7 +4062,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 49,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -3977,7 +4147,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 50,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4062,7 +4232,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 51,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4145,7 +4315,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 52,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4230,7 +4400,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 53,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4315,7 +4485,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 54,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4400,7 +4570,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 55,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4485,7 +4655,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 56,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4570,7 +4740,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 57,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4655,7 +4825,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 58,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4742,7 +4912,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 59,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4827,7 +4997,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 60,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4912,7 +5082,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 61,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -4997,7 +5167,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 62,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5082,7 +5252,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 63,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5167,7 +5337,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 64,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5252,7 +5422,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 65,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5337,7 +5507,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 66,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5420,7 +5590,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 67,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5505,7 +5675,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 68,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5590,7 +5760,7 @@
     }
   },
   {
-    "index": 67,
+    "index": 69,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5675,7 +5845,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 70,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5760,7 +5930,7 @@
     }
   },
   {
-    "index": 69,
+    "index": 71,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5845,7 +6015,7 @@
     }
   },
   {
-    "index": 70,
+    "index": 72,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -5930,7 +6100,7 @@
     }
   },
   {
-    "index": 71,
+    "index": 73,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6015,7 +6185,7 @@
     }
   },
   {
-    "index": 72,
+    "index": 74,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6100,7 +6270,7 @@
     }
   },
   {
-    "index": 73,
+    "index": 75,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6183,7 +6353,7 @@
     }
   },
   {
-    "index": 74,
+    "index": 76,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6266,7 +6436,7 @@
     }
   },
   {
-    "index": 75,
+    "index": 77,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6352,7 +6522,7 @@
     }
   },
   {
-    "index": 76,
+    "index": 78,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6435,7 +6605,7 @@
     }
   },
   {
-    "index": 77,
+    "index": 79,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6520,7 +6690,7 @@
     }
   },
   {
-    "index": 78,
+    "index": 80,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6605,7 +6775,7 @@
     }
   },
   {
-    "index": 79,
+    "index": 81,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6690,7 +6860,7 @@
     }
   },
   {
-    "index": 80,
+    "index": 82,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6776,7 +6946,7 @@
     }
   },
   {
-    "index": 81,
+    "index": 83,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6859,7 +7029,7 @@
     }
   },
   {
-    "index": 82,
+    "index": 84,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -6942,7 +7112,7 @@
     }
   },
   {
-    "index": 83,
+    "index": 85,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7027,7 +7197,7 @@
     }
   },
   {
-    "index": 84,
+    "index": 86,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7112,7 +7282,7 @@
     }
   },
   {
-    "index": 85,
+    "index": 87,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7197,7 +7367,7 @@
     }
   },
   {
-    "index": 86,
+    "index": 88,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7282,7 +7452,7 @@
     }
   },
   {
-    "index": 87,
+    "index": 89,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7367,7 +7537,7 @@
     }
   },
   {
-    "index": 88,
+    "index": 90,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7452,7 +7622,7 @@
     }
   },
   {
-    "index": 89,
+    "index": 91,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7537,7 +7707,7 @@
     }
   },
   {
-    "index": 90,
+    "index": 92,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,
@@ -7622,7 +7792,7 @@
     }
   },
   {
-    "index": 91,
+    "index": 93,
     "publisher": "Bandai Namco",
     "publisher_slug": "bandai_namco",
     "group_id": 33042543,

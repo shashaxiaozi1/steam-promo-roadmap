@@ -4,6 +4,176 @@
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
+    "event_id": "681884487904135294",
+    "app_id": "",
+    "source_title": "Two Point Franchise Sale 2026",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1791478800",
+    "end_time_raw": "1792083600",
+    "start_time": "2026-10-08 17:00:00",
+    "end_time": "2026-10-15 17:00:00",
+    "start_date": "2026-10-08",
+    "end_date": "2026-10-15",
+    "posttime_raw": "1791478833",
+    "updatetime_raw": "1791481027",
+    "url": "https://store.steampowered.com/news/group/32528477/view/681884487904135294?l=english",
+    "body_text": "Two Point Franchise Sale 2026\nFeatured deal\nhttps://store.steampowered.com/app/2185060/Two_Point_Museum/\nJust released\nhttps://store.steampowered.com/app/4511680/Two_Point_Museum_Rides__Relics/",
+    "body_raw": "Two Point Franchise Sale 2026\n\nFeatured deal\n\nhttps://store.steampowered.com/app/2185060/Two_Point_Museum/\n\nJust released\n\nhttps://store.steampowered.com/app/4511680/Two_Point_Museum_Rides__Relics/\n\n\n",
+    "raw": {
+      "gid": "681884487904135294",
+      "clan_steamid": "103582791462049885",
+      "event_name": "Two Point Franchise Sale 2026",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1791478800,
+      "rtime32_end_time": 1792083600,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"fe85e35e5f50a0c3eb15cd8824f7556d4b08e82d.jpg\",\"1fc5edaa55bf49ae7a19a2d193f5f63abc834f56.jpg\",\"2747d55942cd17200dbfad38ccd3d653e6bb3825.jpg\",\"99f46b9737de47641da6a7e78d5638480badd60e.jpg\",\"f89edf0ccd1433de7ce532275b239bb7c27ac93b.jpg\",\"dc65d2ac6b2f49c2952bc952b8bcd36e0b046e13.jpg\",\"dc9c6cf0f594b558af83e7bbce3e737722fe66f8.jpg\",\"d695099b1037b14765dfaf1197543fa373b7f785.jpg\",\"b872823dd9c3bdd57f5ca87244cfe8b8337fa54e.jpg\",\"0ad4873f080575a18e3f805015542ceef5459534.jpg\",\"ca11ba1dddc41226effd64f47c5b810d2b54330e.jpg\",\"662dd2b66368d14fc129924cc6dec5e081f4ada6.jpg\",\"17a4fa45f37733c6a9bf613a7d3c0e7e101e1b87.jpg\",\"6c6de018581193bdfc3f5855aa57cfc911b8becb.jpg\",\"1a2de3bc0c336b7f000c4959efead0a9dd4c840c.jpg\",\"9b8fbc424f2692b4130420a8cfad705ab3a1b01c.jpg\",\"14b9e5cb7f3366b06c70e0b060189cc6002eeea2.jpg\",\"60571af141ba870945c9d5b55c0c3b9ccd003b19.jpg\",\"cf801624e989e3285cdfaca1536dd0fb4e8a9161.jpg\",\"f7f49229bb19fe7fc8c241136734e09881187725.jpg\",\"b04ef1bf90bd5db45bbfe32103f1df21ea94c614.jpg\",\"0078ed30c585904c0d59b638587cdd996de3cde2.jpg\",\"d0710d950a2d57786998a60e58ec03288290da1b.jpg\",\"6111142a85bc4a64e607d50921d7f3b6e39a179f.jpg\",\"6174281a89f9e29d46f9bf04ac7ca8e64a525c5c.jpg\",null,\"485583c89957ae3ac395816a78d36c38b4fa09b0.jpg\",\"4342b8cadca81753a9a9a29e71dd0e0ee0a47ed6.jpg\",\"b3b81e662bbb2f71bc838260461e290910576a9e.jpg\",null,\"e51bd929c183f8b7e630b147e0bd9f743b12de72.jpg\",null],\"localized_capsule_image\":[\"a8f96654e5f1a7d8fd57f74f7893acd14dcaeb44.jpg\",\"3de76be0966f8543f012d988a9d69b5ac603c3fc.jpg\",\"7e8940b6262fa4e034483ebc8cf0599bc2ed940c.jpg\",\"a4b2f030f4a7b6275d2ea72273049cf533a6ccf5.jpg\",\"b4e02e000f209fe0452aafb6cf5cbc2f1b757a09.jpg\",\"b3b24814f365723cb03f10c3a114b23b02751317.jpg\",\"f955a4b86e336c1ad1a41bce6f32b1a19be0a639.jpg\",\"76b543cb5bad74c34c3ff6a7b74296e25a57fdd4.jpg\",\"b9f2dc34daa19d47ec511552822832b6a1f90b99.jpg\",\"8f271b4ae1a0b4275d6a25573051a5342b6caeeb.jpg\",\"6edbec40df820766426f128f2dcc34da7d7fa95a.jpg\",\"3392786db1bb8104f67e41674af4f0ef217f5d3f.jpg\",\"103fe6bb3419fc7f70244d21b00df9538214f3c9.jpg\",\"c6b90fd60e75bba5c6906073338e38798737ff02.jpg\",\"e0c6b9a7edba6960e858773032c0d37751cec41c.jpg\",\"bdaaaef2ee2c668ac2ff4863774aa947b35317b1.jpg\",\"a2cf65bd5d1e506f6bad1e401a3f7b65b9d32474.jpg\",\"3d8e51e9be25f54d6efe7909194d079d064d8592.jpg\",\"bbfaed8cfae0991454fff8f4e61dcb5374574e2c.jpg\",\"67d7aecd4062c8debdae109a20c5ee97a99bf820.jpg\",\"f70996d43a9eec581ef6099348fa534d1e6c2857.jpg\",\"504c25d1a29e5a1b3494af161c668a5d0fd4b66b.jpg\",\"a3a42ad7d8c6b60ddca1c2dd9126401913ad76e1.jpg\",\"f68cf827292b29e9e9c55eaa995a95535900056a.jpg\",\"cc429aba9c009cabf7bdc0909bbd137e3cf7518b.jpg\",null,\"937e1519c3d6b37c6717acdb459d7004e1ba72a6.jpg\",\"fb2d3541a54170b40b50d4f64bd0c6f42eec29ae.jpg\",\"1ac2e538ffff87b94687892c18e6ed86f8f7f706.jpg\",null,\"a6bd4780c8ecbcfa4afb81450c35aab2867c52da.jpg\",null],\"bSaleEnabled\":true,\"sale_show_creator\":false,\"sale_sections\":[{\"capsules\":[{\"id\":2185060,\"type\":\"game\"},{\"id\":4511680,\"type\":\"dlc\"},{\"id\":535930,\"type\":\"game\"},{\"id\":1649080,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_30\",\"section_type\":\"items\",\"unique_id\":1,\"internal_section_data\":null,\"capsules_per_row_array\":[4,4,4],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\",\"grid\",\"grid\"],\"single_item_style\":\"library\",\"background_gradient_bottom\":\"rgba(7, 53, 0, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\"},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"unselected_empty\",\"unique_id\":19984,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(7, 53, 0, 1)\"},{\"capsules\":[{\"id\":4511680,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_25\",\"section_type\":\"trailercarousel\",\"unique_id\":46140,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(141, 45, 154, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null},{\"capsules\":[{\"id\":4511680,\"type\":\"dlc\"}],\"events\":[],\"links\":[{\"url\":null,\"localized_link_capsule\":[\"59506a166031d6c845f5e791b044b51f0f3301e3.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]}],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":85829,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(141, 45, 154, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":true,\"text_section_contents\":[\"[previewyoutube=dDJFr0HOht8;full][/previewyoutube]\"],\"background_gradient_top\":\"rgba(141, 45, 154, 1)\",\"collapse_header_space\":true},{\"capsules\":[{\"id\":67812,\"type\":\"bundle\"},{\"id\":56132,\"type\":\"bundle\"},{\"id\":33357,\"type\":\"bundle\"},{\"id\":22708,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Bundles\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":5,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(232, 180, 19, 1)\"},{\"capsules\":[{\"id\":85286,\"type\":\"bundle\"},{\"id\":60097,\"type\":\"bundle\"},{\"id\":57436,\"type\":\"bundle\"},{\"id\":62166,\"type\":\"bundle\"},{\"id\":81280,\"type\":\"bundle\"},{\"id\":67753,\"type\":\"bundle\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point digiverse Collection\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":6,\"label_color\":\"rgba(255, 255, 255, 1)\",\"background_gradient_bottom\":\"rgba(80, 123, 9, 1)\",\"background_gradient_top\":\"rgba(8, 33, 3, 0)\",\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\"]},{\"capsules\":[{\"id\":2185060,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Museum\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":24218,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(13, 61, 3, 1)\",\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"collapse_header_space\":false},{\"capsules\":[{\"id\":67812,\"type\":\"bundle\"},{\"id\":1067228,\"type\":\"sub\"},{\"id\":2185060,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":7,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\"],\"background_gradient_bottom\":\"rgba(13, 61, 3, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_top\":\"rgba(13, 61, 3, 1)\",\"collapse_header_space\":true},{\"capsules\":[{\"id\":4511680,\"type\":\"dlc\"},{\"id\":4114070,\"type\":\"dlc\"},{\"id\":3804850,\"type\":\"dlc\"},{\"id\":3592600,\"type\":\"game\"},{\"id\":2999850,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Museum DLC\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":9,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\",\"grid\",\"grid\"],\"background_gradient_bottom\":\"rgba(141, 45, 154, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_top\":\"rgba(13, 61, 3, 0)\",\"collapse_header_space\":false},{\"capsules\":[{\"id\":4511680,\"type\":\"game\"},{\"id\":4114070,\"type\":\"dlc\"},{\"id\":3804850,\"type\":\"dlc\"},{\"id\":3592600,\"type\":\"game\"},{\"id\":2999850,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":10,\"internal_section_data\":null,\"capsules_per_row_array\":[5],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":[\"tall\"],\"background_gradient_bottom\":\"rgba(141, 45, 154, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_top\":\"rgba(141, 45, 154, 1)\",\"collapse_header_space\":true,\"disable_background\":false},{\"capsules\":[{\"id\":22708,\"type\":\"bundle\"},{\"id\":535930,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Hospital\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":11,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(52, 177, 158, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":false},{\"capsules\":[{\"id\":22708,\"type\":\"bundle\"},{\"id\":535930,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":12,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(52, 177, 158, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":false,\"collapse_header_space\":true,\"background_gradient_top\":\"rgba(52, 177, 158, 1)\"},{\"capsules\":[{\"id\":1901750,\"type\":\"game\"},{\"id\":1003310,\"type\":\"game\"},{\"id\":1096580,\"type\":\"game\"},{\"id\":1498090,\"type\":\"game\"},{\"id\":1196150,\"type\":\"game\"},{\"id\":1377080,\"type\":\"game\"},{\"id\":966690,\"type\":\"game\"},{\"id\":1035020,\"type\":\"game\"},{\"id\":1144500,\"type\":\"game\"},{\"id\":1376920,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Hospital\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":13,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(52, 177, 158, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":false},{\"capsules\":[{\"id\":1901750,\"type\":\"game\"},{\"id\":1003310,\"type\":\"game\"},{\"id\":1096580,\"type\":\"game\"},{\"id\":1498090,\"type\":\"game\"},{\"id\":1196150,\"type\":\"game\"},{\"id\":1377080,\"type\":\"game\"},{\"id\":966690,\"type\":\"game\"},{\"id\":1035020,\"type\":\"game\"},{\"id\":1144500,\"type\":\"game\"},{\"id\":1376920,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":14,\"internal_section_data\":null,\"capsules_per_row_array\":[4],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(52, 177, 158, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":false,\"collapse_header_space\":true,\"background_gradient_top\":\"rgba(52, 177, 158, 1)\"},{\"capsules\":[{\"id\":33357,\"type\":\"bundle\"},{\"id\":1649080,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Campus\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":15,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(79, 26, 108, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":false},{\"capsules\":[{\"id\":33357,\"type\":\"bundle\"},{\"id\":1649080,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":16,\"internal_section_data\":null,\"capsules_per_row_array\":[2],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(79, 26, 108, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":false,\"collapse_header_space\":true,\"background_gradient_top\":\"rgba(79, 26, 108, 1)\"},{\"capsules\":[{\"id\":1884560,\"type\":\"dlc\"},{\"id\":2195430,\"type\":\"dlc\"},{\"id\":1907450,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[\"Two Point Campus DLC\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"trailercarousel\",\"unique_id\":18,\"internal_section_data\":null,\"capsules_per_row_array\":[2,3,4,3],\"carousel_rows\":2,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(79, 26, 108, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":false,\"collapse_header_space\":false,\"background_gradient_top\":\"rgba(79, 26, 108, 1)\"},{\"capsules\":[{\"id\":1884560,\"type\":\"dlc\"},{\"id\":2195430,\"type\":\"dlc\"},{\"id\":1907450,\"type\":\"dlc\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"\",\"section_type\":\"items\",\"unique_id\":19,\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":false,\"capsule_style_per_row_array\":null,\"background_gradient_bottom\":\"rgba(79, 26, 108, 1)\",\"label_color\":\"rgba(249, 242, 163, 1)\",\"hide_section\":false,\"collapse_header_space\":true,\"background_gradient_top\":\"rgba(79, 26, 108, 1)\"},{\"capsules\":[{\"id\":3550890,\"type\":\"game\"},{\"id\":2312070,\"type\":\"game\"},{\"id\":1257570,\"type\":\"game\"}],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label_34\",\"section_type\":\"items\",\"unique_id\":52399,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(13, 61, 3, 1)\",\"background_gradient_top\":\"rgba(79, 26, 108, 0)\",\"internal_section_data\":null,\"capsules_per_row_array\":[3],\"carousel_rows\":1,\"show_as_carousel\":true,\"capsule_style_per_row_array\":null},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":23762,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(13, 61, 3, 1)\",\"background_gradient_top\":\"rgba(79, 26, 108, 0)\",\"internal_section_data\":null,\"curator_clan_id\":33980359,\"collapse_header_space\":false,\"disable_background\":true},{\"capsules\":[],\"events\":[],\"links\":[],\"localized_label\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_label_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"default_label\":\"#Sale_default_label\",\"section_type\":\"curator\",\"unique_id\":69506,\"label_color\":\"rgba(249, 242, 163, 1)\",\"background_gradient_bottom\":\"rgba(13, 61, 3, 1)\",\"background_gradient_top\":\"rgba(79, 26, 108, 0)\",\"internal_section_data\":null,\"curator_clan_id\":32528477,\"disable_background\":true}],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[\"e593c0a7668c64ee220ee37345681a5adcadcfbc.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[\"54d563c4454dad66f76ad21457f8a6f3f8b85645.jpg\",\"acd5dd0595a8c68fb359a2b75597f6e8ec4a2d03.jpg\",\"a813925590b3be1c40a718174caf0d542804af31.jpg\",\"641a3b8f89b073e0d5b673daa1c1f3d479804773.jpg\",\"82c4817cb8dbda512b83f201bc66c6b4af778203.jpg\",\"7f4215c4fa25a5b4a5f5e8b3688491305e15d4bf.jpg\",\"91d4e5a9346d93045516088f5b8cfb0d76a0a24d.jpg\",\"93ee0dc6273fd4387f69e2de92ba693062933305.jpg\",\"42f4d52827ff70e803fe668762131f24c4fd43d7.jpg\",\"1b8123545b418c266827784f9b39bb4d612c4f5e.jpg\",\"622b29fe0c2707d693986c880a280bdad6f7e1e0.jpg\",\"a445480428f6f943f270f33a6c151e8de5986fc4.jpg\",\"abbe95c1ec59a2e6a1ff9b15189335331f5a2a5e.jpg\",\"ab8649db302e7c9d6abf8995d1dd77efa2e81aa7.jpg\",\"7e1874227ae44f71f8cfc102b0a8a7d2a9e6e0a7.jpg\",\"81891beb7923c284ff5ce05f20a57df30167b4fa.jpg\",\"f324c63a31a7813b86161ec9ea0b9f362b8ab1d1.jpg\",\"1d429bd6b26c5a95fe563e8e82b6b5e2b1c417bd.jpg\",\"23580364aa366d892f9313bd95265ddbcb62086f.jpg\",\"169b8bedbafa9988e985b14fae70876e9d27a0bf.jpg\",\"1b74073e50398f10e44e72afaaf1e1dd3afc3a1e.jpg\",\"caf543cc4151fe40496f3cc9a58e1077990c1dce.jpg\",\"4ae4a5c08d606a4ca6bc2537c2508cd9153b2e02.jpg\",\"20a31c6bd726c4ec73e3a8c359d769c02736c387.jpg\",\"f227796838d608efb69616d11f023aca3a033ede.jpg\",null,\"503e9e0a422d59c5c08adb0396d4ee0996abd636.jpg\",\"3a40e8e893043f3f668240864c5c5df75601f82b.jpg\",\"c425dd639e739268316803840e8a961123380f1d.jpg\",null,\"c741da2a0516da42d530c41672f508ec5fdd5247.jpg\",null],\"localized_sale_product_mobile_banner\":[\"cb92e89ed556bd730c243a9b937784f02a1b87e5.jpg\",\"3114e91a1c8bafe3e41900828a7cdf428aa969b7.jpg\",\"c37525a33d4f628c142d5c45472f72b610cd456b.jpg\",\"e32918e827abb0bd4e6cf6cbbc083490ff6fb026.jpg\",\"ca01e3c868fce21e93a6f590b410ec51a21fce5f.jpg\",\"51ee9fd5f96d453dd7e6b922487d8cd1c78b6f8b.jpg\",\"d4bd8477fef0ca938d8007db5f32e4bdb98531bb.jpg\",\"0d8c007bf9832360672b8f674a6195739b691acd.jpg\",\"5e885478a6fc24aafbb2676ed96a928d5a6d2548.jpg\",\"8b4771856bba986422e8165e0b493c4838309db7.jpg\",\"ab89fd35bf95df254efc4b5f312209de45f32a1f.jpg\",\"b8788821e9d8e03e09af1a1d40750909c30c0113.jpg\",\"ce704d45c7d134a4d5dfb883ad59d5921aeee3c4.jpg\",\"45a261550a218cb809e169d32f54cd8b38b097a6.jpg\",\"4b6cf421f72a93aeea3bb1d454ae17dcc3c02d2e.jpg\",\"225cd94ef7589f445d67a44dd7f4260f64de0061.jpg\",\"295c675d60637372fc5f3849bc2815d06fc05c24.jpg\",\"9ad97e194d5d4348c1ca94950d1acaf211e62d36.jpg\",\"f1d7f6b2c1d7eb34e95bdb6657520836b9bc3d54.jpg\",\"4d62710faf6d595f4bc2f87c1460961999eb7271.jpg\",\"f75e20b2cc592c96009d872433f84848885fc408.jpg\",\"558c813e4d282abcef725c59816e846896930139.jpg\",\"18e5fbd43eabbf3a1fa29c1088a204b78f791174.jpg\",\"15c82755a5540fc692d122c95449cc5ba3615078.jpg\",\"7e019f3c66696b2de4b4b02c31540f9aae8abb58.jpg\",null,\"41cd0ae6274f6729195b5d7d24123e575eab8e4c.jpg\",\"bea6253f46d1ab55f5eeba166635f1d1ee7adf93.jpg\",\"d0f6e3e0d413134321dcac4325623e143687c37f.jpg\",null,\"53df5c4bf5792e07e9c30ec14a3e904838e6c87b.jpg\",null],\"localized_sale_logo\":[\"8c427c9ab9064234538dd723932b7b64fc2c7c39.png\",\"668a56b16acdd9115cec0f388ee5ea1a58f9cb14.png\",\"112fe803b4b3586bab13ab2248608e072dc0245b.png\",\"cdbbffa32cc4e4e024bcfae29155e6d3277a499c.png\",\"02e3a2a9f209519743eaded175bcea44c7fa9739.png\",\"9f1a765d614bbf330ceb8f47e3a656aa4bc055ca.png\",\"a4670d9d84b8b73e09ed696a313e4b082933eb77.png\",\"7d6f249caa8251f480e9d8606a0c767acc40b01b.png\",\"d577950fc4f61890f4fd6a5af004d2048e70f583.png\",\"04a4187da86ad365638e997207fa1a2063ad1433.png\",\"edbbe63575417ff456253b3dda1e7dd7c91ca188.png\",\"863559f194d40a385246d150127dae8740816ff7.png\",\"6634b716cc4cc194ec9e313ab2580e99c1e225e8.png\",\"a31592bb4899ea4ae8074a7b85ef7896b7091294.png\",\"c87bed8c1deb5d70882e9b6c57b4c4ebd34b30ab.png\",\"7a4564ccf2e387391a7894b81fb1f79017cdc5a2.png\",\"237fc7b8a13b9dac1f4980ce3a17c0e43bd54074.png\",\"82f7f3104d9ff925432aaf127974109f5f0e6b4a.png\",\"6ef214c452468b99b52860975ee87e3612003df7.png\",\"a784d6866b03d249ef5717faf064d665ebb87717.png\",\"7ddac4e3b929715c590330563c292c0c72c40a64.png\",\"9988d48db47d49d943970ecc53dd9b56f8079e40.png\",\"8ccfa2ecab8c0ca94c0b7e7ac8070e6756149987.png\",\"a406d937e1030c947c9773451597ecc31d222a6d.png\",\"515b45ff76d11e085bc91ea289190e4afc22cf90.png\",null,\"945d2239fc835e303bfdf7689801227fd5e965b5.png\",\"c98508fc4babe628a7988db7612c9ddd521d9003.png\",\"7eeecc675c7881088a3eb71dd9a4b6fda4399fbe.png\",null,\"1ee59e82ce2debb69e06885dd3b930071cec7fca.png\",null],\"sale_font\":\"\",\"sale_background_color\":\"rgba(3, 23, 28, 1)\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"sale_vanity_id\":\"TwoPointFranchiseSale2026\",\"sale_presenters\":[{\"unique_id\":62617,\"localized_presenter_name\":[\"SEGA\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"url\":\"https://store.steampowered.com/developer/Sega\"}],\"sale_vanity_id_valve_approved_for_sale_subpath\":true,\"sale_associated_advertising_appid\":3147010}",
+      "announcement_body": {
+        "gid": "681884487904135295",
+        "clanid": "32528477",
+        "posterid": "0",
+        "headline": "Two Point Franchise Sale 2026",
+        "posttime": 1791478833,
+        "updatetime": 1791481027,
+        "body": "Two Point Franchise Sale 2026\n\nFeatured deal\n\nhttps://store.steampowered.com/app/2185060/Two_Point_Museum/\n\nJust released\n\nhttps://store.steampowered.com/app/4511680/Two_Point_Museum_Rides__Relics/\n\n\n",
+        "commentcount": 1,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "587313969629526865",
+        "event_gid": "681884487904135294",
+        "voteupcount": 39,
+        "votedowncount": 0,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 1791478800,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "587313969629526865",
+      "rtime32_last_modified": 1792783640,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 1455518,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1786663334,
+      "votes_up": 39,
+      "votes_down": 0,
+      "comment_type": "ForumTopic",
+      "gidfeature": "3820784351273759933",
+      "gidfeature2": "587313969629526865",
+      "clan_steamid_original": "103582791462049885"
+    }
+  },
+  {
+    "index": 2,
+    "publisher": "SEGA",
+    "publisher_slug": "sega",
+    "group_id": 32528477,
+    "event_id": "683014827293017053",
+    "app_id": "",
+    "source_title": "SEGA / ATLUS AUTUMN SALE",
+    "subtitle": "see announcement body",
+    "event_type": 20,
+    "event_type_name": "",
+    "start_time_raw": "1790932860",
+    "end_time_raw": "1791478800",
+    "start_time": "2026-10-02 09:21:00",
+    "end_time": "2026-10-08 17:00:00",
+    "start_date": "2026-10-02",
+    "end_date": "2026-10-08",
+    "posttime_raw": "1790932425",
+    "updatetime_raw": "1790935253",
+    "url": "https://store.steampowered.com/news/group/32528477/view/683014827293017053?l=english",
+    "body_text": "On Promotion!Pre-order Now!Wishlist Now!SEGA / ATLUS AUTUMN SALE Page",
+    "body_raw": "[p][b]On Promotion![/b][/p][h3][dynamiclink href=\"https://store.steampowered.com/app/2988580/Yakuza_0_Directors_Cut/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2486820/Sonic_Racing_CrossWorlds/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2185060/Two_Point_Museum/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1687950/Persona_5_Royal/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2161700/Persona_3_Reload/\"][/dynamiclink][/h3][p][b]Pre-order Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/4260840/STRANGER_THAN_HEAVEN/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2963950/Persona_4_Revival/\"][/dynamiclink][/p][p][b]Wishlist Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2924540/Crazy_Taxi_World_Tour/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/4199910/Total_War_WARHAMMER_40000/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/4665290/Alien_Isolation_2/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/4511680/Two_Point_Museum_Rides__Relics/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2649560/Persona_6/\"][/dynamiclink][/p][p][b]SEGA / ATLUS AUTUMN SALE Page[/b] [img src=\"{STEAM_CLAN_IMAGE}/32528477/1e2e381a505cb0f24110238f29240f2225aa6b91.jpg\"][/img] [/p]",
+    "raw": {
+      "gid": "683014827293017053",
+      "clan_steamid": "103582791462049885",
+      "event_name": "SEGA / ATLUS AUTUMN SALE",
+      "event_type": 20,
+      "appid": 0,
+      "server_address": null,
+      "server_password": null,
+      "rtime32_start_time": 1790932860,
+      "rtime32_end_time": 1791478800,
+      "comment_count": 0,
+      "creator_steamid": "0",
+      "last_update_steamid": "0",
+      "event_notes": "see announcement body",
+      "jsondata": "{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"7f5f8280799fa937b80ce5a9adfd814cd4b055ed.jpg\",null,null,null,\"a6f19639308cf8394ab7465253c9bd942d9f1475.jpg\",null,\"ef343f59f72eaa93c0dc12b9e3b74232868f85e3.jpg\",\"6017eefcea10ef7886aca60d29706eff882b6f30.jpg\",null,null,\"68362737f5aa80a4283091c67d24d7a251f88a2b.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"1e2e381a505cb0f24110238f29240f2225aa6b91.jpg\",null,null,null,\"bfa9468decb7c6ef49b68b7aded31b311cafa6ba.jpg\",null,\"0f1adf512a0a901858a8a55fe34b6b13d585ad6a.jpg\",\"3a002f4aefbbe2b2f1cc796741d53566ea9d18f8.jpg\",null,null,\"b30d2ead457acc6ed21ef6216b8f778c99ce7821.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}",
+      "announcement_body": {
+        "gid": "683014827293017054",
+        "clanid": "32528477",
+        "posterid": "0",
+        "headline": "SEGA / ATLUS AUTUMN SALE",
+        "posttime": 1790932425,
+        "updatetime": 1790935253,
+        "body": "[p][b]On Promotion![/b][/p][h3][dynamiclink href=\"https://store.steampowered.com/app/2988580/Yakuza_0_Directors_Cut/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2486820/Sonic_Racing_CrossWorlds/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2185060/Two_Point_Museum/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1687950/Persona_5_Royal/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2161700/Persona_3_Reload/\"][/dynamiclink][/h3][p][b]Pre-order Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/4260840/STRANGER_THAN_HEAVEN/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2963950/Persona_4_Revival/\"][/dynamiclink][/p][p][b]Wishlist Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2924540/Crazy_Taxi_World_Tour/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/4199910/Total_War_WARHAMMER_40000/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/4665290/Alien_Isolation_2/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/4511680/Two_Point_Museum_Rides__Relics/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/2649560/Persona_6/\"][/dynamiclink][/p][p][b]SEGA / ATLUS AUTUMN SALE Page[/b] [img src=\"{STEAM_CLAN_IMAGE}/32528477/1e2e381a505cb0f24110238f29240f2225aa6b91.jpg\"][/img] [/p]",
+        "commentcount": 1,
+        "tags": [
+          "curator",
+          "curator_public",
+          "audience_followers"
+        ],
+        "language": 0,
+        "hidden": 0,
+        "forum_topic_id": "587313335212799072",
+        "event_gid": "683014827293017053",
+        "voteupcount": 49,
+        "votedowncount": 0,
+        "ban_check_result": 0,
+        "banned": 0
+      },
+      "published": 1,
+      "hidden": 0,
+      "rtime32_visibility_start": 0,
+      "rtime32_visibility_end": 0,
+      "broadcaster_accountid": 0,
+      "follower_count": 0,
+      "ignore_count": 0,
+      "forum_topic_id": "587313335212799072",
+      "rtime32_last_modified": 1791975431,
+      "news_post_gid": "0",
+      "rtime_mod_reviewed": 0,
+      "featured_app_tagid": 0,
+      "referenced_appids": [],
+      "build_id": 0,
+      "build_branch": "",
+      "unlisted": 0,
+      "rtime_created": 1790929878,
+      "votes_up": 49,
+      "votes_down": 0,
+      "comment_type": "ForumTopic",
+      "gidfeature": "3820784351273759933",
+      "gidfeature2": "587313335212799072",
+      "clan_steamid_original": "103582791462049885"
+    }
+  },
+  {
+    "index": 3,
+    "publisher": "SEGA",
+    "publisher_slug": "sega",
+    "group_id": 32528477,
     "event_id": "681884487904133672",
     "app_id": "",
     "source_title": "ATLUS Developer Sale",
@@ -54,7 +224,7 @@
         "hidden": 0,
         "forum_topic_id": "587312703065008066",
         "event_gid": "681884487904133672",
-        "voteupcount": 71,
+        "voteupcount": 81,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -67,7 +237,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "587312703065008066",
-      "rtime32_last_modified": 1790822411,
+      "rtime32_last_modified": 1792588372,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1453503,
@@ -76,7 +246,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1786568726,
-      "votes_up": 71,
+      "votes_up": 81,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -85,7 +255,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 4,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -129,7 +299,7 @@
         "posttime": 1786640574,
         "updatetime": 1786644672,
         "body": "[img]{STEAM_CLAN_IMAGE}/32528477/c1f50deee0b46430cb9678bf26106c0a2aee4016.png[/img]\n\nhttps://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/?curator_clanid=32991376\n\nhttps://store.steampowered.com/bundle/80339/Total_War_WARHAMMER_III__Lords_of_the_End_Times/?curator_clanid=32528477\n\nhttps://store.steampowered.com/app/4199910/Total_War_WARHAMMER_40000/?curator_clanid=32528477\n\n\n\n",
-        "commentcount": 2,
+        "commentcount": 3,
         "tags": [
           "curator",
           "curator_public",
@@ -139,7 +309,7 @@
         "hidden": 0,
         "forum_topic_id": "216887925459195742",
         "event_gid": "707778917650401439",
-        "voteupcount": 47,
+        "voteupcount": 49,
         "votedowncount": 1,
         "ban_check_result": 0,
         "banned": 0
@@ -152,7 +322,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "216887925459195742",
-      "rtime32_last_modified": 1790325429,
+      "rtime32_last_modified": 1792711410,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1449016,
@@ -161,7 +331,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1785791304,
-      "votes_up": 47,
+      "votes_up": 49,
       "votes_down": 1,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -170,7 +340,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 5,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -224,7 +394,7 @@
         "hidden": 0,
         "forum_topic_id": "216887925459195706",
         "event_gid": "671748057601149156",
-        "voteupcount": 114,
+        "voteupcount": 115,
         "votedowncount": 5,
         "ban_check_result": 0,
         "banned": 0
@@ -237,7 +407,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "216887925459195706",
-      "rtime32_last_modified": 1790716275,
+      "rtime32_last_modified": 1792711408,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1449327,
@@ -246,7 +416,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1783619811,
-      "votes_up": 114,
+      "votes_up": 115,
       "votes_down": 5,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -255,7 +425,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 6,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -309,7 +479,7 @@
         "hidden": 0,
         "forum_topic_id": "591812126801476006",
         "event_gid": "690891053318800712",
-        "voteupcount": 30,
+        "voteupcount": 31,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -322,7 +492,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "591812126801476006",
-      "rtime32_last_modified": 1790240462,
+      "rtime32_last_modified": 1791233181,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 0,
@@ -331,7 +501,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1786386066,
-      "votes_up": 30,
+      "votes_up": 31,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -340,7 +510,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 7,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -425,7 +595,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 8,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -479,7 +649,7 @@
         "hidden": 0,
         "forum_topic_id": "562534659773336381",
         "event_gid": "712276809750676052",
-        "voteupcount": 110,
+        "voteupcount": 111,
         "votedowncount": 3,
         "ban_check_result": 0,
         "banned": 0
@@ -492,7 +662,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "562534659773336381",
-      "rtime32_last_modified": 1790325617,
+      "rtime32_last_modified": 1792711002,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1442963,
@@ -501,7 +671,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1779963253,
-      "votes_up": 110,
+      "votes_up": 111,
       "votes_down": 3,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -510,7 +680,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 9,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -595,7 +765,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 10,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -649,7 +819,7 @@
         "hidden": 0,
         "forum_topic_id": "571541224066056904",
         "event_gid": "676246847634800716",
-        "voteupcount": 86,
+        "voteupcount": 88,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -662,7 +832,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "571541224066056904",
-      "rtime32_last_modified": 1790325619,
+      "rtime32_last_modified": 1792711003,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1440187,
@@ -671,7 +841,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1778797583,
-      "votes_up": 86,
+      "votes_up": 88,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -680,7 +850,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 11,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -765,7 +935,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 12,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -850,7 +1020,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 13,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -935,7 +1105,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 14,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -990,7 +1160,7 @@
         "hidden": 0,
         "forum_topic_id": "841754670748806877",
         "event_gid": "645845003826889550",
-        "voteupcount": 48,
+        "voteupcount": 49,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -1003,7 +1173,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "841754670748806877",
-      "rtime32_last_modified": 1784322117,
+      "rtime32_last_modified": 1792710716,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1432699,
@@ -1012,7 +1182,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1776768824,
-      "votes_up": 48,
+      "votes_up": 49,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1021,7 +1191,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 15,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1075,7 +1245,7 @@
         "hidden": 0,
         "forum_topic_id": "845130993320940961",
         "event_gid": "525374559117901929",
-        "voteupcount": 43,
+        "voteupcount": 44,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1088,7 +1258,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "845130993320940961",
-      "rtime32_last_modified": 1789663843,
+      "rtime32_last_modified": 1792710678,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1433547,
@@ -1097,7 +1267,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1777288680,
-      "votes_up": 43,
+      "votes_up": 44,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1106,7 +1276,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 16,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1160,7 +1330,7 @@
         "hidden": 0,
         "forum_topic_id": "801219731626561591",
         "event_gid": "524241382256149029",
-        "voteupcount": 51,
+        "voteupcount": 52,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1173,7 +1343,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801219731626561591",
-      "rtime32_last_modified": 1789212084,
+      "rtime32_last_modified": 1792710615,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1420977,
@@ -1182,7 +1352,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 51,
+      "votes_up": 52,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1191,7 +1361,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 17,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1245,7 +1415,7 @@
         "hidden": 0,
         "forum_topic_id": "801219731626561128",
         "event_gid": "516365786249429993",
-        "voteupcount": 61,
+        "voteupcount": 62,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1258,7 +1428,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801219731626561128",
-      "rtime32_last_modified": 1789212062,
+      "rtime32_last_modified": 1792710614,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1431098,
@@ -1267,7 +1437,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1775729067,
-      "votes_up": 61,
+      "votes_up": 62,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1276,7 +1446,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 18,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1330,7 +1500,7 @@
         "hidden": 0,
         "forum_topic_id": "801219731626560377",
         "event_gid": "532129019170128186",
-        "voteupcount": 55,
+        "voteupcount": 56,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1343,7 +1513,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801219731626560377",
-      "rtime32_last_modified": 1789212081,
+      "rtime32_last_modified": 1792710616,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1431957,
@@ -1352,7 +1522,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 1776273046,
-      "votes_up": 55,
+      "votes_up": 56,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1361,7 +1531,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 19,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1405,7 +1575,7 @@
         "posttime": 1776358108,
         "updatetime": 1776358108,
         "body": "[p][img src=\"{STEAM_CLAN_IMAGE}/32528477/ace4dc74a0d0ecc92e366b45325019b8e8ef5da3.jpg\"][/img][/p][p]In this epic Total War sale, immerse yourself in the ultimate strategy gaming experience, with discounts on some of our most iconic games.[/p][p]Total War games give you the chance to leave your own mark on history. Featuring a mix of turn-based empire building and colossal real-time land and naval battles, experience some of history's most thrilling and tumultuous eras, from Ancient Rome and Medieval Europe to feudal Japan and the Three Kingdoms period in China. [/p][p][/p]",
-        "commentcount": 1,
+        "commentcount": 2,
         "tags": [
           "curator",
           "curator_public",
@@ -1415,7 +1585,7 @@
         "hidden": 0,
         "forum_topic_id": "801219096906719099",
         "event_gid": "698756599936713304",
-        "voteupcount": 44,
+        "voteupcount": 45,
         "votedowncount": 2,
         "ban_check_result": 0,
         "banned": 0
@@ -1428,7 +1598,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801219096906719099",
-      "rtime32_last_modified": 1789212086,
+      "rtime32_last_modified": 1792710618,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1429076,
@@ -1437,7 +1607,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 44,
+      "votes_up": 45,
       "votes_down": 2,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1446,7 +1616,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 20,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1500,7 +1670,7 @@
         "hidden": 0,
         "forum_topic_id": "801216566149667035",
         "event_gid": "503977086274240601",
-        "voteupcount": 47,
+        "voteupcount": 48,
         "votedowncount": 0,
         "ban_check_result": 0,
         "banned": 0
@@ -1513,7 +1683,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "801216566149667035",
-      "rtime32_last_modified": 1782387224,
+      "rtime32_last_modified": 1792709568,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1424688,
@@ -1522,7 +1692,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 47,
+      "votes_up": 48,
       "votes_down": 0,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1531,7 +1701,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 21,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1585,7 +1755,7 @@
         "hidden": 0,
         "forum_topic_id": "755051497180507063",
         "event_gid": "518609345891532953",
-        "voteupcount": 123,
+        "voteupcount": 124,
         "votedowncount": 7,
         "ban_check_result": 0,
         "banned": 0
@@ -1598,7 +1768,7 @@
       "follower_count": 0,
       "ignore_count": 0,
       "forum_topic_id": "755051497180507063",
-      "rtime32_last_modified": 1778078507,
+      "rtime32_last_modified": 1792709983,
       "news_post_gid": "0",
       "rtime_mod_reviewed": 0,
       "featured_app_tagid": 1417145,
@@ -1607,7 +1777,7 @@
       "build_branch": "",
       "unlisted": 0,
       "rtime_created": 0,
-      "votes_up": 123,
+      "votes_up": 124,
       "votes_down": 7,
       "comment_type": "ForumTopic",
       "gidfeature": "3820784351273759933",
@@ -1616,7 +1786,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 22,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1701,7 +1871,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 23,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1786,7 +1956,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 24,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1871,7 +2041,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 25,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -1956,7 +2126,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 26,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2041,7 +2211,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 27,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2126,7 +2296,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 28,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2211,7 +2381,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 29,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2296,7 +2466,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 30,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2381,7 +2551,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 31,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2466,7 +2636,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 32,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2551,7 +2721,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 33,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2636,7 +2806,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 34,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2721,7 +2891,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 35,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2806,7 +2976,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 36,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2891,7 +3061,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 37,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -2976,7 +3146,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 38,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3061,7 +3231,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 39,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3146,7 +3316,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 40,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3231,7 +3401,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 41,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3316,7 +3486,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 42,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3401,7 +3571,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 43,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3486,7 +3656,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 44,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3571,7 +3741,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 45,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3656,7 +3826,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 46,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3741,7 +3911,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 47,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3826,7 +3996,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 48,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3911,7 +4081,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 49,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -3996,7 +4166,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 50,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4081,7 +4251,7 @@
     }
   },
   {
-    "index": 49,
+    "index": 51,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4166,7 +4336,7 @@
     }
   },
   {
-    "index": 50,
+    "index": 52,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4251,7 +4421,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 53,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4336,7 +4506,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 54,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4421,7 +4591,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 55,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4506,7 +4676,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 56,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4591,7 +4761,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 57,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4676,7 +4846,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 58,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4761,7 +4931,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 59,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4846,7 +5016,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 60,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -4931,7 +5101,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 61,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5016,7 +5186,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 62,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5101,7 +5271,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 63,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5186,7 +5356,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 64,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5271,7 +5441,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 65,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5356,7 +5526,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 66,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5441,7 +5611,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 67,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5526,7 +5696,7 @@
     }
   },
   {
-    "index": 66,
+    "index": 68,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5611,7 +5781,7 @@
     }
   },
   {
-    "index": 67,
+    "index": 69,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5696,7 +5866,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 70,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5781,7 +5951,7 @@
     }
   },
   {
-    "index": 69,
+    "index": 71,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5866,7 +6036,7 @@
     }
   },
   {
-    "index": 70,
+    "index": 72,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -5951,7 +6121,7 @@
     }
   },
   {
-    "index": 71,
+    "index": 73,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6038,7 +6208,7 @@
     }
   },
   {
-    "index": 72,
+    "index": 74,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6125,7 +6295,7 @@
     }
   },
   {
-    "index": 73,
+    "index": 75,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6210,7 +6380,7 @@
     }
   },
   {
-    "index": 74,
+    "index": 76,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6295,7 +6465,7 @@
     }
   },
   {
-    "index": 75,
+    "index": 77,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6382,7 +6552,7 @@
     }
   },
   {
-    "index": 76,
+    "index": 78,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6467,7 +6637,7 @@
     }
   },
   {
-    "index": 77,
+    "index": 79,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6552,7 +6722,7 @@
     }
   },
   {
-    "index": 78,
+    "index": 80,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6639,7 +6809,7 @@
     }
   },
   {
-    "index": 79,
+    "index": 81,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6724,7 +6894,7 @@
     }
   },
   {
-    "index": 80,
+    "index": 82,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6809,7 +6979,7 @@
     }
   },
   {
-    "index": 81,
+    "index": 83,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6894,7 +7064,7 @@
     }
   },
   {
-    "index": 82,
+    "index": 84,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -6979,7 +7149,7 @@
     }
   },
   {
-    "index": 83,
+    "index": 85,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7064,7 +7234,7 @@
     }
   },
   {
-    "index": 84,
+    "index": 86,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7149,7 +7319,7 @@
     }
   },
   {
-    "index": 85,
+    "index": 87,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7236,7 +7406,7 @@
     }
   },
   {
-    "index": 86,
+    "index": 88,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7321,7 +7491,7 @@
     }
   },
   {
-    "index": 87,
+    "index": 89,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7406,7 +7576,7 @@
     }
   },
   {
-    "index": 88,
+    "index": 90,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7491,7 +7661,7 @@
     }
   },
   {
-    "index": 89,
+    "index": 91,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7576,7 +7746,7 @@
     }
   },
   {
-    "index": 90,
+    "index": 92,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7661,7 +7831,7 @@
     }
   },
   {
-    "index": 91,
+    "index": 93,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7746,7 +7916,7 @@
     }
   },
   {
-    "index": 92,
+    "index": 94,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7831,7 +8001,7 @@
     }
   },
   {
-    "index": 93,
+    "index": 95,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -7916,7 +8086,7 @@
     }
   },
   {
-    "index": 94,
+    "index": 96,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -8001,7 +8171,7 @@
     }
   },
   {
-    "index": 95,
+    "index": 97,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,
@@ -8086,7 +8256,7 @@
     }
   },
   {
-    "index": 96,
+    "index": 98,
     "publisher": "SEGA",
     "publisher_slug": "sega",
     "group_id": 32528477,

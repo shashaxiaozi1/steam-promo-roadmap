@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-01 12:56:38 JST",
+  "updated_at": "2026-11-01 13:08:07 JST",
   "min_end_date": "2023-12-01",
-  "total_sales": 254,
+  "total_sales": 258,
   "new_sales_count": 4,
   "new_sales": [
     {
-      "publisher": "Konami",
-      "sale_name": "Castlevania Franchise Sale",
-      "start_date": "2026-09-24",
-      "end_date": "2026-10-08",
-      "event_id": "683012290458421584",
-      "source_url": "https://store.steampowered.com/news/group/39026134/view/683012290458421584?l=english"
+      "publisher": "Bandai Namco",
+      "sale_name": "BANDAI NAMCO Autumn Sale 2026 🍂🍁",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-02",
+      "event_id": "675132895796398421",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/675132895796398421?l=english"
+    },
+    {
+      "publisher": "Bandai Namco",
+      "sale_name": "Last call for the BANDAI NAMCO Autumn Sale! 🍂",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-06",
+      "event_id": "676259427855108264",
+      "source_url": "https://store.steampowered.com/news/group/33042543/view/676259427855108264?l=english"
     },
     {
       "publisher": "SEGA",
-      "sale_name": "ATLUS Developer Sale",
-      "start_date": "2026-09-24",
-      "end_date": "2026-10-01",
-      "event_id": "681884487904133672",
-      "source_url": "https://store.steampowered.com/news/group/32528477/view/681884487904133672?l=english"
-    },
-    {
-      "publisher": "Square Enix",
-      "sale_name": "Square Enix Tokyo Game Show Sale",
-      "start_date": "2026-09-18",
-      "end_date": "2026-10-01",
-      "event_id": "714537487845819710",
-      "source_url": "https://store.steampowered.com/news/group/1012195/view/714537487845819710?l=english"
-    },
-    {
-      "publisher": "Square Enix",
-      "sale_name": "NieR Franchise Sale 2026",
-      "start_date": "2026-09-24",
+      "sale_name": "SEGA / ATLUS AUTUMN SALE",
+      "start_date": "2026-10-02",
       "end_date": "2026-10-08",
-      "event_id": "693140950130622585",
-      "source_url": "https://store.steampowered.com/news/group/1012195/view/693140950130622585?l=english"
+      "event_id": "683014827293017053",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/683014827293017053?l=english"
+    },
+    {
+      "publisher": "SEGA",
+      "sale_name": "Two Point Franchise Sale 2026",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-15",
+      "event_id": "681884487904135294",
+      "source_url": "https://store.steampowered.com/news/group/32528477/view/681884487904135294?l=english"
     }
   ]
 }
