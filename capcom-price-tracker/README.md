@@ -13,6 +13,21 @@
 - 每天两次：09:17、21:17 日本时间（cron 为 00:17、12:17 UTC）。GitHub 的实际启动可能延迟。
 - **不补齐采样间隔，不声称知道折扣的准确开始/结束时间。** 每天热力图代表这一天任一成功采样发现促销；最大折扣为当天观测到的最大值。
 
+## 发售日元数据
+
+`catalog.csv` 还包含 49 款作品的 Steam 发售日，按 AppID 与 2026-10-02 的
+`CAPCOM_Release_Presale_Analysis.xlsx` 研究表逐项匹配。该研究表以 Steam
+`IStoreBrowseService/GetItems/v1/` 的登记时间为主；《Monster Hunter: World》采用
+Steam 官方发售公告修正日期。每行的 `release_date_source` 记录来源。
+
+- `steam_registered_at_utc`：原研究记录的 Steam 登记时间（UTC）。
+- `steam_release_date_utc`：原研究核定的 UTC 发售日，保留例外修正。
+- `steam_release_date_jst`：登记时间换算成日本时间后的日期，对应 Power BI 的 `date_jst`。
+
+**当前仅补充主清单元数据**：采集与汇总程序尚未按发售日排除预售作品，
+`daily_publishers.csv` 的分母仍是当天成功监测的全部购买包。
+启用发售日口径及历史首次促销资格需要后续单独修改汇总逻辑；现有 Power BI CSV 格式未变。
+
 ## 数据文件
 
 | 路径 | 内容 |
