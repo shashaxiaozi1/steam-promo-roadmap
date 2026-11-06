@@ -144,7 +144,19 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def rollups(rows: list[dict]) -> tuple[list[dict], list[dict]]:
+def rollups(rows: list[dict], catalog: list[dict] | None = None) -> tuple[list[dict], list[dict]]:
+    if catalog is not None:
+        # Preserve historical samples, but only display runs that covered today's full cohort.
+        expected = {(x["publisher"], str(x["appid"])) for x in catalog}
+        by_run: dict[str, list[dict]] = {}
+        for row in rows:
+            by_run.setdefault(row["run_id"], []).append(row)
+        complete = {
+            run_id for run_id, samples in by_run.items()
+            if len(samples) == len(expected)
+            and {(x["publisher"], str(x["appid"])) for x in samples} == expected
+        }
+        rows = [x for x in rows if x["run_id"] in complete]
     by_game: dict[tuple, list[dict]] = {}
     for x in rows:
         by_game.setdefault((x["date_jst"], x["publisher"], str(x["appid"])), []).append(x)
@@ -204,7 +216,7 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     if any(x["run_id"] == run_id for x in old):
         raise CollectionError(f"Run already in history: {run_id}")
     combined = sorted(old + rows, key=lambda x: (x["run_id"], int(x["appid"])))
-    games, pubs = rollups(combined)
+    games, pubs = rollups(combined, catalog)
     atomic_csv(snapshot, SNAPSHOT_FIELDS, rows)
     atomic_csv(output / "powerbi" / "snapshots.csv", SNAPSHOT_FIELDS, combined)
     atomic_csv(output / "powerbi" / "daily_games.csv", GAME_FIELDS, games)

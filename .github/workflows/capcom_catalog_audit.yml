@@ -1,0 +1,40 @@
+name: Validate CAPCOM catalog and US packages
+
+on:
+  pull_request:
+    paths:
+      - 'capcom-price-tracker/catalog.csv'
+      - 'capcom-price-tracker/collector.py'
+      - 'capcom-price-tracker/tests/**'
+      - '.github/workflows/capcom_catalog_audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check collector logic
+        run: python3 -m unittest discover -s capcom-price-tracker/tests -v
+      - name: Validate every pinned package in US dollars without publishing data
+        run: |
+          python3 - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          from tempfile import TemporaryDirectory
+
+          path = Path("capcom-price-tracker/collector.py")
+          spec = importlib.util.spec_from_file_location("collector", path)
+          collector = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(collector)
+          catalog = collector.load_catalog()
+          with TemporaryDirectory() as directory:
+              result = collector.collect(catalog, Path(directory))
+          print(f"US package audit passed: {result['rows']} valid game/package/price rows")
+          PY

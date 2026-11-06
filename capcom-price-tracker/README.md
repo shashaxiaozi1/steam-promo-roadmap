@@ -1,13 +1,13 @@
-# CAPCOM Steam 美国区促销追踪：最小版
+# CAPCOM Steam 美国区促销追踪
 
-本目录追踪 `catalog.csv` 中固定的 49 个购买包。每次运行分别请求 Steam 商店的
+本目录追踪 `catalog.csv` 中固定的 73 个购买包。每次运行分别请求 Steam 商店的
 `packagedetails?packageids=...&cc=us&l=english`，记录**当时观察到的**美元原价、现价、折扣。
 不使用 Steam Web API Key。该商店接口没有公开的长期可用性承诺。
 
 ## 口径
 
-- 49 个付费购买包计入分母。`excluded.csv` 中的 3 款下架/仅合集游戏和 2 款免费本体不计入。
-- Revelations 2 固定为 Deluxe Edition，Package ID `84647`；DMC5 固定为通常销售的 + Vergil，Package ID `613144`。
+- 2026-11-06 核对发行商页面的 82 款：原有 49 款 + 补入 24 款 = 当前 73 款付费游戏。另 9 个条目为 4 个免费/工具/试玩、4 个日本区 Z 版本和 1 个美国区停止本体购买（Street Fighter X Tekken），不计入分母。`excluded.csv` 也记录了早已排除的其他下架条目。
+- Revelations 2 固定为 Deluxe Edition，Package ID `84647`；DMC5 固定为通常销售的 + Vergil，Package ID `613144`。新增 Resident Evil 5 当前可购 Gold Edition（`62118`）、Resident Evil 6 当前可购 Complete（`50980`）为明确标注的版本例外。
 - 不根据 App 页面的 `price_overview` 猜版本，直接请求固定购买包，且核验其包含目标 AppID。
 - 有任意购买包请求/价格失败，整次运行不更新 Power BI 表；失败的原始响应留作诊断。
 - 每天两次：09:17、21:17 日本时间（cron 为 00:17、12:17 UTC）。GitHub 的实际启动可能延迟。
@@ -15,14 +15,14 @@
 
 ## 发售日元数据
 
-`catalog.csv` 还包含 49 款作品的 Steam 发售日，按 AppID 与 2026-10-02 的
+`catalog.csv` 包含 73 款作品的 Steam 发售日。原有 49 款按 AppID 与 2026-10-02 的
 `CAPCOM_Release_Presale_Analysis.xlsx` 研究表逐项匹配。该研究表以 Steam
 `IStoreBrowseService/GetItems/v1/` 的登记时间为主；《Monster Hunter: World》采用
-Steam 官方发售公告修正日期。每行的 `release_date_source` 记录来源。
+Steam 官方发售公告修正日期。新增 24 款的 UTC 日期取自各游戏的 SteamDB 页面，\n`steam_registered_at_utc` 留空；每行的 `release_date_source` 记录来源。
 
-- `steam_registered_at_utc`：原研究记录的 Steam 登记时间（UTC）。
+- `steam_registered_at_utc`：原研究记录的 Steam 登记时间（UTC）；新增旧作暂无该值。
 - `steam_release_date_utc`：原研究核定的 UTC 发售日，保留例外修正。
-- `steam_release_date_jst`：登记时间换算成日本时间后的日期，对应 Power BI 的 `date_jst`。
+- `steam_release_date_jst`：发售时刻换算成日本时间后的日期；新增 24 款按 SteamDB 的 UTC 时刻计算。
 
 **当前仅补充主清单元数据**：采集与汇总程序尚未按发售日排除预售作品，
 `daily_publishers.csv` 的分母仍是当天成功监测的全部购买包。
@@ -33,13 +33,12 @@ Steam 官方发售公告修正日期。每行的 `release_date_source` 记录来
 | 路径 | 内容 |
 |---|---|
 | `data/raw/<run_id>.jsonl` | 每次请求完整响应、请求 URL、响应头及观察时间 |
-| `data/snapshots/<run_id>.csv` | 49 款各一行的不可变采样快照 |
+| `data/snapshots/<run_id>.csv` | 当次清单各一行的不可变采样快照 |
 | `data/powerbi/snapshots.csv` | 所有历史采样，便于分析一天内变化 |
 | `data/powerbi/daily_games.csv` | 日期 × 游戏；当天最高折扣、最低观察售价、采样次数 |
 | `data/powerbi/daily_publishers.csv` | 日期 × 发行商；当天至少一次处于促销的游戏数 / 监测游戏数 |
 
-新运行时写新 raw 和 snapshot 文件，随后重建三个 Power BI 用的 CSV。目录中所有历史文件保留在 Git。
-只有从本次开始采到的真实历史；第一天只有一个日期列，后续运行才逐步形成热力图。
+新运行时写新 raw 和 snapshot 文件，随后重建三个 Power BI 用的 CSV。目录中所有历史采样文件保留在 Git；`snapshots.csv` 也保留旧 49 款原始观察值。\n`daily_games.csv` 和 `daily_publishers.csv` 只使用**覆盖当前完整 AppID 清单的运行**重算。\n因此第一次 73 款成功采样后，旧 49 款口径的日期会从两张热力图中消失，新口径从该日开始累计；切换前请勿把旧页面的比例与新页面直接比较。\n日后再次增减清单也会重新开始可比口径；价格历史不会被伪造或回填。
 
 ## 运行与验证
 
