@@ -1,6 +1,11 @@
 name: CAPCOM US price snapshots
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'capcom-price-tracker/catalog.csv'
+      - 'capcom-price-tracker/collector.py'
   workflow_dispatch:
   schedule:
     # 09:17 and 21:17 Japan time; GitHub schedules are best-effort.
