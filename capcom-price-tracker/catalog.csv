@@ -1,14 +1,38 @@
 publisher,appid,game_name,package_id,tracked_edition,steam_registered_at_utc,steam_release_date_utc,steam_release_date_jst,release_date_source
+CAPCOM,6510,Lost Planet: Extreme Condition,375,Base,,2007-06-26,2007-06-27,https://steamdb.info/app/6510/info/
+CAPCOM,21690,Resident Evil 5,62118,Gold Edition,,2009-09-15,2009-09-15,https://steamdb.info/app/21690/info/
+CAPCOM,45740,Dead Rising 2,6007,Base,,2010-09-28,2010-09-28,https://steamdb.info/app/45740/info/
+CAPCOM,45760,Ultra Street Fighter IV,50773,Base,,2014-08-07,2014-08-07,https://steamdb.info/app/45760/info/
+CAPCOM,45770,Dead Rising 2: Off the Record,50977,Base,,2011-10-11,2011-10-12,https://steamdb.info/app/45770/info/
+CAPCOM,220440,DmC: Devil May Cry,18995,Base,,2013-01-24,2013-01-24,https://steamdb.info/app/220440/info/
+CAPCOM,221040,Resident Evil 6,50980,Complete,,2013-03-22,2013-03-22,https://steamdb.info/app/221040/info/
+CAPCOM,222480,Resident Evil Revelations,27841,Base,,2013-05-20,2013-05-20,https://steamdb.info/app/222480/info/
+CAPCOM,226720,Lost Planet 3,30633,Base,,2013-08-26,2013-08-26,https://steamdb.info/app/226720/info/
+CAPCOM,235210,STRIDER,38650,Base,,2014-02-19,2014-02-20,https://steamdb.info/app/235210/info/
+CAPCOM,254700,Resident Evil 4 (2005),39187,Base,,2014-02-28,2014-02-28,https://steamdb.info/app/254700/info/
+CAPCOM,265550,Dead Rising 3 Apocalypse Edition,50756,Base,,2014-09-05,2014-09-06,https://steamdb.info/app/265550/info/
 CAPCOM,287290,Resident Evil Revelations 2,84647,Deluxe Edition,2015-02-25T05:11:00Z,2015-02-25,2015-02-25,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
 CAPCOM,304240,Resident Evil,57566,Base,2015-01-20T04:57:15Z,2015-01-20,2015-01-20,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
 CAPCOM,329050,Devil May Cry 4 Special Edition,67596,Base,2015-06-23T15:55:00Z,2015-06-23,2015-06-24,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
 CAPCOM,339340,Resident Evil 0,88042,Base,2016-01-19T18:00:00Z,2016-01-19,2016-01-20,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
+CAPCOM,357190,ULTIMATE MARVEL VS. CAPCOM 3,63263,Base,,2017-03-07,2017-03-07,https://steamdb.info/app/357190/info/
+CAPCOM,363440,Mega Man Legacy Collection,65318,Base,,2015-08-25,2015-08-25,https://steamdb.info/app/363440/info/
+CAPCOM,367500,Dragon's Dogma: Dark Arisen,66608,Base,,2016-01-15,2016-01-16,https://steamdb.info/app/367500/info/
+CAPCOM,390340,Umbrella Corps,107528,Standard Edition,,2016-06-21,2016-06-22,https://steamdb.info/app/390340/info/
 CAPCOM,418370,Resident Evil 7 Biohazard,131416,Base,2017-01-24T05:00:00Z,2017-01-24,2017-01-24,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
+CAPCOM,427190,Dead Rising,88075,Base,,2016-09-13,2016-09-14,https://steamdb.info/app/427190/info/
+CAPCOM,493840,Marvel vs. Capcom: Infinite,112284,Standard Edition,,2017-09-19,2017-09-20,https://steamdb.info/app/493840/info/
+CAPCOM,495050,Mega Man Legacy Collection 2,112763,Base,,2017-08-10,2017-08-10,https://steamdb.info/app/495050/info/
+CAPCOM,543460,Dead Rising 4,133831,Base,,2017-03-14,2017-03-15,https://steamdb.info/app/543460/info/
 CAPCOM,582010,Monster Hunter: World,281619,Base,2018-08-08T16:00:00Z,2018-08-09,2018-08-09,https://store.steampowered.com/oldnews/42811
+CAPCOM,586200,Street Fighter 30th Anniversary Collection,251489,Base,,2018-05-29,2018-05-30,https://steamdb.info/app/586200/info/
 CAPCOM,587620,Okami HD,227415,Base,2017-12-12T18:19:00Z,2017-12-12,2017-12-13,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
 CAPCOM,601150,Devil May Cry 5,613144,Base + Vergil,2019-03-08T00:00:00Z,2019-03-08,2019-03-08,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
 CAPCOM,631510,Devil May Cry HD Collection,171907,Base,2018-03-13T16:00:00Z,2018-03-13,2018-03-14,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
 CAPCOM,742300,Mega Man 11,217483,Base,2018-10-02T17:00:00Z,2018-10-02,2018-10-03,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
+CAPCOM,743890,Mega Man X Legacy Collection,218113,Base,,2018-07-24,2018-07-25,https://steamdb.info/app/743890/info/
+CAPCOM,743900,Mega Man X Legacy Collection 2,218116,Base,,2018-07-24,2018-07-25,https://steamdb.info/app/743900/info/
+CAPCOM,761600,Onimusha: Warlords,225016,Base,,2019-01-15,2019-01-16,https://steamdb.info/app/761600/info/
 CAPCOM,787480,Phoenix Wright: Ace Attorney Trilogy,237900,Base,2019-04-09T16:02:19Z,2019-04-09,2019-04-10,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
 CAPCOM,883710,Resident Evil 2,280800,Base,2019-01-25T05:00:00Z,2019-01-25,2019-01-25,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
 CAPCOM,885150,Capcom Beat 'Em Up Bundle,281354,Base,2018-10-10T17:00:00Z,2018-10-10,2018-10-11,https://api.steampowered.com/IStoreBrowseService/GetItems/v1/
