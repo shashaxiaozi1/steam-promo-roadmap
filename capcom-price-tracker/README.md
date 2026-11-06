@@ -15,14 +15,14 @@
 
 ## 发售日元数据
 
-`catalog.csv` 还包含 49 款作品的 Steam 发售日，按 AppID 与 2026-10-02 的
+`catalog.csv` 包含 73 款作品的 Steam 发售日。原有 49 款按 AppID 与 2026-10-02 的
 `CAPCOM_Release_Presale_Analysis.xlsx` 研究表逐项匹配。该研究表以 Steam
 `IStoreBrowseService/GetItems/v1/` 的登记时间为主；《Monster Hunter: World》采用
-Steam 官方发售公告修正日期。每行的 `release_date_source` 记录来源。
+Steam 官方发售公告修正日期。新增 24 款的 UTC 日期取自各游戏的 SteamDB 页面，\n`steam_registered_at_utc` 留空；每行的 `release_date_source` 记录来源。
 
-- `steam_registered_at_utc`：原研究记录的 Steam 登记时间（UTC）。
+- `steam_registered_at_utc`：原研究记录的 Steam 登记时间（UTC）；新增旧作暂无该值。
 - `steam_release_date_utc`：原研究核定的 UTC 发售日，保留例外修正。
-- `steam_release_date_jst`：登记时间换算成日本时间后的日期，对应 Power BI 的 `date_jst`。
+- `steam_release_date_jst`：发售时刻换算成日本时间后的日期；新增 24 款按 SteamDB 的 UTC 时刻计算。
 
 **当前仅补充主清单元数据**：采集与汇总程序尚未按发售日排除预售作品，
 `daily_publishers.csv` 的分母仍是当天成功监测的全部购买包。
