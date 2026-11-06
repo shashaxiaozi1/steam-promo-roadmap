@@ -54,6 +54,20 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(len(collector.read_csv(self.data / "powerbi/snapshots.csv")), 4)
         self.assertEqual(len(list((self.data / "snapshots").glob("*.csv"))), 2)
 
+    def test_catalog_expansion_resets_displayed_denominator_but_keeps_raw_history(self):
+        old_catalog = self.catalog[:1]
+        collector.collect(old_catalog, self.data,
+                          lambda pid: response(pid, 1, "2026-10-30T00:00:00+00:00"),
+                          "20261030T000000Z")
+        collector.collect(self.catalog, self.data,
+                          lambda pid: response(pid, pid // 10, "2026-10-31T00:00:00+00:00"),
+                          "20261031T000000Z")
+        self.assertEqual(len(collector.read_csv(self.data / "powerbi/snapshots.csv")), 3)
+        pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
+        self.assertEqual([(x["date_jst"], x["games_monitored"]) for x in pubs],
+                         [("2026-10-31", "2")])
+        self.assertEqual(len(collector.read_csv(self.data / "powerbi/daily_games.csv")), 2)
+
     def test_missing_package_does_not_publish_partial_heatmap(self):
         def fetch(pid):
             r = response(pid, pid // 10, "2026-10-30T00:00:00+00:00")
