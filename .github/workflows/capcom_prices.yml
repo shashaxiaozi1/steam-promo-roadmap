@@ -6,10 +6,13 @@ on:
     paths:
       - 'capcom-price-tracker/catalog.csv'
       - 'capcom-price-tracker/collector.py'
+      - 'capcom-price-tracker/discovery.py'
+      - '.github/workflows/capcom_prices.yml'
   workflow_dispatch:
   schedule:
     # 09:17 and 21:17 Japan time; GitHub schedules are best-effort.
-    - cron: '17 0,12 * * *'
+    - cron: '17 0 * * *'
+    - cron: '17 12 * * *'
 
 permissions:
   contents: write
@@ -29,8 +32,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collect pinned US packages
-        run: python3 capcom-price-tracker/collector.py
+      - name: Collect US prices and check for new releases in the morning run
+        env:
+          CHECK_NEW_RELEASES: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
+        run: |
+          args=()
+          if [ "$CHECK_NEW_RELEASES" = "true" ]; then
+            args+=(--discover)
+          fi
+          python3 capcom-price-tracker/collector.py "${args[@]}"
       - name: Save failed-run responses for diagnosis
         if: failure()
         uses: actions/upload-artifact@v4
@@ -39,11 +49,11 @@ jobs:
           path: capcom-price-tracker/data/raw/*.jsonl
           if-no-files-found: ignore
           retention-days: 30
-      - name: Commit append-only snapshots and Power BI exports
+      - name: Commit verified catalog additions with snapshots and Power BI exports
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add capcom-price-tracker/data
+          git add capcom-price-tracker/catalog.csv capcom-price-tracker/data
           if ! git diff --cached --quiet; then
             git commit -m "data: update CAPCOM price snapshots"
             git push

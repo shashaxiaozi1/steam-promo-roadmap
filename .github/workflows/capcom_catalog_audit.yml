@@ -5,7 +5,9 @@ on:
     paths:
       - 'capcom-price-tracker/catalog.csv'
       - 'capcom-price-tracker/collector.py'
+      - 'capcom-price-tracker/discovery.py'
       - 'capcom-price-tracker/tests/**'
+      - '.github/workflows/capcom_prices.yml'
       - '.github/workflows/capcom_catalog_audit.yml'
 
 permissions:
@@ -22,19 +24,18 @@ jobs:
           python-version: '3.12'
       - name: Check collector logic
         run: python3 -m unittest discover -s capcom-price-tracker/tests -v
-      - name: Validate every pinned package in US dollars without publishing data
+      - name: Validate live US prices and publisher discovery without publishing data
         run: |
-          python3 - <<'PY'
-          import importlib.util
-          from pathlib import Path
-          from tempfile import TemporaryDirectory
+          temp_dir="$(mktemp -d)"
+          cp capcom-price-tracker/catalog.csv "$temp_dir/catalog.csv"
+          python3 capcom-price-tracker/collector.py --discover --catalog "$temp_dir/catalog.csv" --output "$temp_dir/data"
+          python3 - "$temp_dir/data/discovery/latest.json" <<'PY'
+          import json
+          import sys
 
-          path = Path("capcom-price-tracker/collector.py")
-          spec = importlib.util.spec_from_file_location("collector", path)
-          collector = importlib.util.module_from_spec(spec)
-          spec.loader.exec_module(collector)
-          catalog = collector.load_catalog()
-          with TemporaryDirectory() as directory:
-              result = collector.collect(catalog, Path(directory))
-          print(f"US package audit passed: {result['rows']} valid game/package/price rows")
+          with open(sys.argv[1], encoding="utf-8") as f:
+              report = json.load(f)
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          if report["errors"] or report["appids_seen"] < 30:
+              sys.exit("Steam publisher search did not return the expected coverage")
           PY
