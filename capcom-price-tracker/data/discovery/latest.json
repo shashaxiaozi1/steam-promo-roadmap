@@ -1,0 +1,135 @@
+{
+  "run_id": "20261109T022154Z",
+  "sources": {
+    "Capcom": 26,
+    "CAPCOM Co., Ltd.": 52,
+    "Capcom U.S.A., Inc.": 1
+  },
+  "appids_seen": 79,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 21660,
+      "status": "review",
+      "game_name": "Street Fighter® IV",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Jul 7, 2009",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 21670,
+      "status": "review",
+      "game_name": "Bionic Commando",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Jul 28, 2009",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 21680,
+      "status": "review",
+      "game_name": "Bionic Commando: Rearmed",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Jul 28, 2009",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 45720,
+      "status": "review",
+      "game_name": "Lost Planet: Extreme Condition Colonies Edition",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Feb 11, 2010",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 45750,
+      "status": "review",
+      "game_name": "Lost Planet® 2",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Oct 15, 2010",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 228300,
+      "status": "review",
+      "game_name": "Remember Me",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Jun 3, 2013",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 229480,
+      "status": "review",
+      "game_name": "Dungeons & Dragons: Chronicles of Mystara",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Jun 18, 2013",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 237630,
+      "status": "review",
+      "game_name": "DuckTales: Remastered",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Aug 13, 2013",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 525040,
+      "status": "review",
+      "game_name": "The Disney Afternoon Collection",
+      "steam_publishers": [
+        "Capcom"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Apr 18, 2017",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 4223290,
+      "status": "pending",
+      "game_name": "Mega Man: Dual Override",
+      "steam_publishers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 4824610,
+      "status": "pending",
+      "game_name": "Resident Evil Veronica",
+      "steam_publishers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
