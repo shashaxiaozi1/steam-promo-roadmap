@@ -20,6 +20,9 @@ import urllib.request
 ROOT = Path(__file__).resolve().parent
 CATALOG = ROOT / "catalog.csv"
 DATA = ROOT / "data"
+# First successful run after the one-time 49 → 73 reconciliation. Older
+# observations remain in snapshots.csv but do not re-enter the published series.
+REPORT_START_RUN_ID = "20261106T061310Z"
 SNAPSHOT_FIELDS = [
     "run_id", "observed_at_utc", "date_jst", "publisher", "appid", "game_name",
     "tracked_edition", "package_id", "currency", "list_price_usd",
@@ -57,10 +60,14 @@ def load_catalog(path: Path = CATALOG) -> list[dict]:
 
 
 def fetch_package(package_id: int) -> dict:
-    global _next_request
     url = "https://store.steampowered.com/api/packagedetails?" + urllib.parse.urlencode(
         {"packageids": package_id, "cc": "us", "l": "english"}
     )
+    return {"package_id": package_id, **fetch_json(url)}
+
+
+def fetch_json(url: str) -> dict:
+    global _next_request
     last = None
     for attempt in range(1, 4):
         with _pace_lock:
@@ -68,7 +75,7 @@ def fetch_package(package_id: int) -> dict:
             if pause:
                 time.sleep(pause)
             _next_request = time.monotonic() + 1.25
-        request = {"package_id": package_id, "url": url, "attempt": attempt}
+        request = {"url": url, "attempt": attempt}
         try:
             headers = {"User-Agent": "CapcomPriceTracker/0.1", "Accept": "application/json"}
             with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30) as response:
@@ -144,19 +151,7 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def rollups(rows: list[dict], catalog: list[dict] | None = None) -> tuple[list[dict], list[dict]]:
-    if catalog is not None:
-        # Preserve historical samples, but only display runs that covered today's full cohort.
-        expected = {(x["publisher"], str(x["appid"])) for x in catalog}
-        by_run: dict[str, list[dict]] = {}
-        for row in rows:
-            by_run.setdefault(row["run_id"], []).append(row)
-        complete = {
-            run_id for run_id, samples in by_run.items()
-            if len(samples) == len(expected)
-            and {(x["publisher"], str(x["appid"])) for x in samples} == expected
-        }
-        rows = [x for x in rows if x["run_id"] in complete]
+def rollups(rows: list[dict]) -> tuple[list[dict], list[dict]]:
     by_game: dict[tuple, list[dict]] = {}
     for x in rows:
         by_game.setdefault((x["date_jst"], x["publisher"], str(x["appid"])), []).append(x)
@@ -190,7 +185,11 @@ def rollups(rows: list[dict], catalog: list[dict] | None = None) -> tuple[list[d
     return games, publishers
 
 
-def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_id: str | None = None) -> dict:
+def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_id: str | None = None,
+            *, discover=None, catalog_path: Path | None = None,
+            report_start: str = REPORT_START_RUN_ID) -> dict:
+    if discover is not None and catalog_path is None:
+        raise CollectionError("Discovery requires a writable catalog path")
     run_id = run_id or dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     if not (len(run_id) == 16 and run_id.endswith("Z") and run_id[8] == "T"):
         raise CollectionError("Invalid run_id")
@@ -212,25 +211,82 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
             errors.append(str(exc))
     if errors:
         raise CollectionError(f"Incomplete run ({len(errors)} errors); raw saved at {raw}: " + "; ".join(errors))
+    if len({row["date_jst"] for row in rows}) != 1:
+        raise CollectionError(f"Run crossed midnight JST; raw saved at {raw}; retry for a full day")
     old = read_csv(output / "powerbi" / "snapshots.csv")
     if any(x["run_id"] == run_id for x in old):
         raise CollectionError(f"Run already in history: {run_id}")
+    additions = []
+    discovery_report = None
+    if discover is not None:
+        proposed, discovery_report = discover({int(x["appid"]) for x in catalog})
+        used_packages = {int(x["package_id"]) for x in catalog}
+        used_apps = {int(x["appid"]) for x in catalog}
+        with raw.open("a", encoding="utf-8") as f:
+            for item, decision in proposed:
+                pid, appid = int(item["package_id"]), int(item["appid"])
+                if pid in used_packages or appid in used_apps:
+                    decision.update(status="review", reason="package_or_app_already_tracked")
+                    continue
+                response = fetch(pid)
+                f.write(json.dumps({"appid": appid, **response}, ensure_ascii=False) + "\n")
+                try:
+                    row = parse_price(item, response, run_id)
+                    package = response["body"][str(pid)]["data"]
+                    if {a.get("id") for a in package["apps"]} != {appid}:
+                        raise CollectionError("package_contains_other_apps")
+                    if package["price"]["final"] <= 0:
+                        raise CollectionError("no_positive_USD_purchase_price")
+                    if package["price"]["final"] != decision["store_option_price_cents"]:
+                        raise CollectionError("purchase_option_and_package_price_differ")
+                    if row["date_jst"] != rows[0]["date_jst"]:
+                        raise CollectionError("first_price_crossed_midnight_JST")
+                except (CollectionError, KeyError, TypeError, ValueError, AttributeError) as exc:
+                    decision.update(status="review", reason=str(exc))
+                    continue
+                rows.append(row)
+                additions.append(item)
+                used_packages.add(pid)
+                used_apps.add(appid)
+                decision.update(status="added", first_sample_date_jst=row["date_jst"])
     combined = sorted(old + rows, key=lambda x: (x["run_id"], int(x["appid"])))
-    games, pubs = rollups(combined, catalog)
+    games, pubs = rollups([x for x in combined if x["run_id"] >= report_start])
+    if additions:
+        with catalog_path.open(newline="", encoding="utf-8-sig") as f:
+            catalog_fields = next(csv.reader(f))
+        catalog_fields = list(dict.fromkeys([*catalog_fields, "steam_store_release_date"]))
+        atomic_csv(catalog_path, catalog_fields, catalog + additions)
+    if discovery_report is not None:
+        report_path = output / "discovery" / "latest.json"
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(json.dumps(
+            {"run_id": run_id, **discovery_report}, ensure_ascii=False, indent=2
+        ) + "\n", encoding="utf-8")
     atomic_csv(snapshot, SNAPSHOT_FIELDS, rows)
     atomic_csv(output / "powerbi" / "snapshots.csv", SNAPSHOT_FIELDS, combined)
     atomic_csv(output / "powerbi" / "daily_games.csv", GAME_FIELDS, games)
     atomic_csv(output / "powerbi" / "daily_publishers.csv", PUBLISHER_FIELDS, pubs)
     return {"run_id": run_id, "rows": len(rows), "on_sale": sum(x["is_on_sale"] for x in rows),
-            "raw": str(raw), "snapshot": str(snapshot), "history_rows": len(combined)}
+            "raw": str(raw), "snapshot": str(snapshot), "history_rows": len(combined),
+            "added_appids": [int(x["appid"]) for x in additions],
+            "discovery_errors": (discovery_report or {}).get("errors", [])}
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--catalog", type=Path, default=CATALOG)
     parser.add_argument("--output", type=Path, default=DATA)
+    parser.add_argument("--discover", action="store_true", help="Check Steam for eligible CAPCOM releases")
     args = parser.parse_args()
     try:
-        print(json.dumps(collect(load_catalog(args.catalog), args.output), ensure_ascii=False))
+        catalog = load_catalog(args.catalog)
+        discover = None
+        if args.discover:
+            from discovery import scan
+            excluded = {int(x["appid"]) for x in read_csv(ROOT / "excluded.csv")}
+            names = tuple(item["game_name"] for item in catalog)
+            discover = lambda known: scan(known | excluded, fetch_json, tracked_names=names)
+        print(json.dumps(collect(catalog, args.output, discover=discover,
+                                 catalog_path=args.catalog), ensure_ascii=False))
     except CollectionError as exc:
         parser.exit(1, str(exc) + "\n")
