@@ -2,9 +2,12 @@ import csv
 import importlib.util
 import json
 from pathlib import Path
+import sys
 import tempfile
 import unittest
 from urllib.parse import parse_qs, urlsplit
+
+sys.path.insert(0, str(Path(__file__).parents[1]))
 
 
 def load_module(name):
@@ -147,6 +150,62 @@ class CollectorTests(unittest.TestCase):
         with self.assertRaises(collector.CollectionError):
             collector.parse_price(self.catalog[0], r, "20261030T000000Z")
 
+    def test_confirmed_delisting_removes_active_row_and_preserves_history(self):
+        path = self.data / "catalog.csv"
+        collector.atomic_csv(path, list(self.catalog[0]), self.catalog)
+
+        def app_response(url, *, outage=False, alternate=False):
+            appid = int(parse_qs(urlsplit(url).query)["appids"][0])
+            if outage:
+                return {"http_status": 429}
+            groups = [{"subs": [{"packageid": 999 if alternate else 10}]}] if appid == 1 or alternate else []
+            data = {"steam_appid": appid, "type": "game", "is_free": False,
+                    "release_date": {"coming_soon": False}, "package_groups": groups}
+            return {"http_status": 200, "body": {str(appid): {"success": True, "data": data}}}
+
+        def run(date, hour="00", app=app_response):
+            stamp = date + "T" + hour + ":00:00+00:00"
+            def fetch(pid):
+                return {**response(pid, pid // 10, stamp), "http_status": 200}
+            return collector.collect(collector.load_catalog(path), self.data, fetch,
+                                     date.replace("-", "") + "T" + hour + "0000Z",
+                                     catalog_path=path, availability_request=app)
+
+        run("2026-11-09")
+        run("2026-11-09", "12")  # Same JST date must not advance the count.
+        run("2026-11-10", app=lambda url: app_response(url, outage=True))
+        run("2026-11-11")
+        self.assertEqual(len(collector.load_catalog(path)), 2)
+        result = run("2026-11-12")
+        self.assertEqual(result["retired_appids"], [2])
+        self.assertEqual([x["appid"] for x in collector.load_catalog(path)], ["1"])
+        pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
+        self.assertEqual([x["games_monitored"] for x in pubs], ["2", "2", "2", "1"])
+        state = collector.read_state(collector.lifecycle_path(self.data, "CAPCOM"))
+        self.assertEqual(state["retired"]["2"]["evidence"]["dates"], ["2026-11-09", "2026-11-11", "2026-11-12"])
+        self.assertEqual(state["retired"]["2"]["effective_date_jst"], "2026-11-12")
+
+    def test_alternate_offer_or_endpoint_error_is_not_delisting(self):
+        from availability import purchase_signal
+        item = self.catalog[1]
+        good = {"http_status": 200, "body": {"2": {"success": True, "data": {
+            "steam_appid": 2, "type": "game", "is_free": False, "release_date": {"coming_soon": False},
+            "package_groups": [{"subs": [{"packageid": 999}]}],
+        }}}}
+        package_missing = {"http_status": 200, "body": {"20": {"success": False}}}
+        self.assertEqual(purchase_signal(item, good, package_missing), "available")
+        self.assertEqual(purchase_signal(item, {"http_status": 429}, package_missing), "unknown")
+        self.assertEqual(purchase_signal(item, {"http_status": 200, "body": {"2": {"success": False}}},
+                                         {"http_status": 503}), "unknown")
+
+    def test_publishers_share_exports_without_changing_prior_publisher_rows(self):
+        fetch = lambda pid: response(pid, pid // 10, "2026-11-10T00:00:00+00:00")
+        collector.collect(self.catalog, self.data, fetch, "20261110T000000Z")
+        bandai = [{**self.catalog[0], "publisher": "BANDAI NAMCO", "appid": "3", "package_id": "30"}]
+        collector.collect(bandai, self.data, fetch, "20261110T000100Z")
+        pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
+        self.assertEqual([(x["publisher"], x["games_monitored"]) for x in pubs],
+                         [("BANDAI NAMCO", "1"), ("CAPCOM", "2")])
 
 if __name__ == "__main__":
     unittest.main()
