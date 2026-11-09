@@ -6,10 +6,11 @@ on:
     paths:
       - 'capcom-price-tracker/catalog.csv'
       - 'capcom-price-tracker/catalog_bandai.csv'
-      - 'capcom-price-tracker/availability.py'
       - 'capcom-price-tracker/collector.py'
       - 'capcom-price-tracker/discovery.py'
+      - 'capcom-price-tracker/availability.py'
       - '.github/workflows/capcom_prices.yml'
+      - '.github/workflows/steam_us_collect_publisher.yml'
   workflow_dispatch:
   schedule:
     # 09:17 and 21:17 Japan time; GitHub schedules are best-effort.
@@ -24,63 +25,20 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect:
-    runs-on: ubuntu-latest
-    timeout-minutes: 35
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Collect CAPCOM
-        id: capcom
-        continue-on-error: true
-        env:
-          CHECK_NEW_RELEASES: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
-          CHECK_AVAILABILITY: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
-        run: |
-          args=(--publisher 'CAPCOM')
-          if [ "$CHECK_NEW_RELEASES" = "true" ]; then
-            args+=(--discover)
-          fi
-          if [ "$CHECK_AVAILABILITY" = "true" ]; then
-            args+=(--audit-availability)
-          fi
-          python3 capcom-price-tracker/collector.py "${args[@]}"
-      - name: Collect BANDAI NAMCO
-        id: bandai
-        continue-on-error: true
-        env:
-          CHECK_NEW_RELEASES: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
-          CHECK_AVAILABILITY: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
-        run: |
-          args=(--publisher 'BANDAI NAMCO')
-          if [ "$CHECK_NEW_RELEASES" = "true" ]; then
-            args+=(--discover)
-          fi
-          if [ "$CHECK_AVAILABILITY" = "true" ]; then
-            args+=(--audit-availability)
-          fi
-          python3 capcom-price-tracker/collector.py "${args[@]}"
-      - name: Save failed-run responses for diagnosis
-        if: steps.capcom.outcome == 'failure' || steps.bandai.outcome == 'failure'
-        uses: actions/upload-artifact@v4
-        with:
-          name: steam-us-failed-run-raw
-          path: capcom-price-tracker/data/raw/*.jsonl
-          if-no-files-found: ignore
-          retention-days: 30
-      - name: Commit successful publisher samples and availability evidence
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add capcom-price-tracker/catalog.csv capcom-price-tracker/catalog_bandai.csv capcom-price-tracker/data
-          if ! git diff --cached --quiet; then
-            git commit -m "data: update Steam US publisher snapshots"
-            git push
-          fi
-      - name: Report publisher failures after saving successful data
-        if: steps.capcom.outcome == 'failure' || steps.bandai.outcome == 'failure'
-        run: exit 1
+  bandai:
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/steam_us_collect_publisher.yml
+    with:
+      publisher: BANDAI NAMCO
+      slug: bandai
+      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
+      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
+  capcom:
+    needs: bandai
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    uses: ./.github/workflows/steam_us_collect_publisher.yml
+    with:
+      publisher: CAPCOM
+      slug: capcom
+      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
+      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
