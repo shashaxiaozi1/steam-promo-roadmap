@@ -1,0 +1,41 @@
+{
+  "run_id": "20261109T063335Z",
+  "sources": {
+    "Bandai Namco Entertainment": 38,
+    "Bandai Namco Entertainment Inc.": 33,
+    "BANDAI NAMCO Entertainment": 60,
+    "BANDAI NAMCO Entertainment Inc.": 2,
+    "Bandai Namco Entertainment ": 38,
+    "BANDAI NAMCO Entertainment ": 60,
+    "Bandai Namco Games Inc.": 0,
+    "Namco Bandai Games Inc.": 0
+  },
+  "appids_seen": 133,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 1857810,
+      "status": "pending",
+      "game_name": "DRAGON BALL XENOVERSE 3",
+      "steam_publishers": [
+        "Bandai Namco Entertainment Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2303000,
+      "status": "pending",
+      "game_name": "MOBILE SUIT GUNDAM BATTLE OPERATION 3",
+      "steam_publishers": [
+        "Bandai Namco Entertainment Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
