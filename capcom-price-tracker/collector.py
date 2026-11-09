@@ -49,6 +49,39 @@ def timestamp() -> str:
     return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
 
+def write_json(path: Path, data: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, name = tempfile.mkstemp(prefix=".tmp-", dir=path.parent, text=True)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        os.replace(name, path)
+    finally:
+        if os.path.exists(name):
+            os.unlink(name)
+
+
+def lifecycle_path(output: Path, publisher: str) -> Path:
+    return output / "lifecycle" / (publisher.lower().replace(" ", "_") + ".json")
+
+
+def read_state(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def report_rows(rows: list[dict], output: Path, report_start: str, current_state: dict | None = None) -> list[dict]:
+    stops = {}
+    states = [read_state(p) for p in (output / "lifecycle").glob("*.json")]
+    if current_state is not None:
+        states.append(current_state)
+    for state in states:
+        for appid, entry in state.get("retired", {}).items():
+            stops[(entry["catalog_entry"]["publisher"], appid)] = entry["effective_date_jst"]
+    return [x for x in rows if x["run_id"] >= report_start
+            and x["date_jst"] < stops.get((x["publisher"], str(x["appid"])), "9999-12-31")]
+
+
 def load_catalog(path: Path = CATALOG) -> list[dict]:
     with path.open(newline="", encoding="utf-8-sig") as f:
         items = list(csv.DictReader(f))
@@ -187,9 +220,15 @@ def rollups(rows: list[dict]) -> tuple[list[dict], list[dict]]:
 
 def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_id: str | None = None,
             *, discover=None, catalog_path: Path | None = None,
-            report_start: str = REPORT_START_RUN_ID) -> dict:
-    if discover is not None and catalog_path is None:
-        raise CollectionError("Discovery requires a writable catalog path")
+            report_start: str = REPORT_START_RUN_ID, availability_request=None) -> dict:
+    if (discover is not None or availability_request is not None) and catalog_path is None:
+        raise CollectionError("Catalog updates require a writable catalog path")
+    publishers = {x["publisher"] for x in catalog}
+    if len(publishers) != 1:
+        raise CollectionError("Collect one publisher at a time")
+    publisher = next(iter(publishers))
+    state_path = lifecycle_path(output, publisher)
+    state = read_state(state_path)
     run_id = run_id or dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     if not (len(run_id) == 16 and run_id.endswith("Z") and run_id[8] == "T"):
         raise CollectionError("Invalid run_id")
@@ -203,8 +242,24 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     with raw.open("x", encoding="utf-8") as f:
         for item, response in zip(catalog, responses):
             f.write(json.dumps({"appid": int(item["appid"]), **response}, ensure_ascii=False) + "\n")
+    confirmed = []
+    if availability_request is not None:
+        from availability import JST, assess
+        run_date = dt.datetime.strptime(run_id, "%Y%m%dT%H%M%SZ").replace(tzinfo=dt.timezone.utc).astimezone(JST).date()
+        state, confirmed, checks = assess(catalog, responses, availability_request, state, run_date.isoformat())
+        with raw.open("a", encoding="utf-8") as f:
+            for item, signal, response in checks:
+                if signal != "available":
+                    f.write(json.dumps({"appid": int(item["appid"]), "availability_signal": signal,
+                                        **response}, ensure_ascii=False) + "\n")
+        # Persist evidence even when a price failure prevents publishing this run.
+        write_json(state_path, state)
+    removed = {int(x["appid"]) for x in confirmed}
+    active = [item for item in catalog if int(item["appid"]) not in removed]
     rows, errors = [], []
     for item, response in zip(catalog, responses):
+        if int(item["appid"]) in removed:
+            continue
         try:
             rows.append(parse_price(item, response, run_id))
         except (CollectionError, KeyError, TypeError) as exc:
@@ -219,7 +274,8 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     additions = []
     discovery_report = None
     if discover is not None:
-        proposed, discovery_report = discover({int(x["appid"]) for x in catalog})
+        known = {int(x["appid"]) for x in catalog} | {int(x) for x in state.get("retired", {})}
+        proposed, discovery_report = discover(known)
         used_packages = {int(x["package_id"]) for x in catalog}
         used_apps = {int(x["appid"]) for x in catalog}
         with raw.open("a", encoding="utf-8") as f:
@@ -250,18 +306,20 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
                 used_apps.add(appid)
                 decision.update(status="added", first_sample_date_jst=row["date_jst"])
     combined = sorted(old + rows, key=lambda x: (x["run_id"], int(x["appid"])))
-    games, pubs = rollups([x for x in combined if x["run_id"] >= report_start])
-    if additions:
+    if confirmed:
+        from availability import retire
+        retire(state, confirmed)
+    games, pubs = rollups(report_rows(combined, output, report_start, state))
+    if additions or confirmed:
         with catalog_path.open(newline="", encoding="utf-8-sig") as f:
             catalog_fields = next(csv.reader(f))
         catalog_fields = list(dict.fromkeys([*catalog_fields, "steam_store_release_date"]))
-        atomic_csv(catalog_path, catalog_fields, catalog + additions)
+        atomic_csv(catalog_path, catalog_fields, active + additions)
+    if confirmed:
+        write_json(state_path, state)
     if discovery_report is not None:
-        report_path = output / "discovery" / "latest.json"
-        report_path.parent.mkdir(parents=True, exist_ok=True)
-        report_path.write_text(json.dumps(
-            {"run_id": run_id, **discovery_report}, ensure_ascii=False, indent=2
-        ) + "\n", encoding="utf-8")
+        name = "latest.json" if publisher == "CAPCOM" else "bandai_namco.json"
+        write_json(output / "discovery" / name, {"run_id": run_id, **discovery_report})
     atomic_csv(snapshot, SNAPSHOT_FIELDS, rows)
     atomic_csv(output / "powerbi" / "snapshots.csv", SNAPSHOT_FIELDS, combined)
     atomic_csv(output / "powerbi" / "daily_games.csv", GAME_FIELDS, games)
@@ -269,24 +327,34 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     return {"run_id": run_id, "rows": len(rows), "on_sale": sum(x["is_on_sale"] for x in rows),
             "raw": str(raw), "snapshot": str(snapshot), "history_rows": len(combined),
             "added_appids": [int(x["appid"]) for x in additions],
+            "publisher": publisher, "retired_appids": sorted(removed),
             "discovery_errors": (discovery_report or {}).get("errors", [])}
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--catalog", type=Path, default=CATALOG)
+    parser.add_argument("--catalog", type=Path)
     parser.add_argument("--output", type=Path, default=DATA)
-    parser.add_argument("--discover", action="store_true", help="Check Steam for eligible CAPCOM releases")
+    parser.add_argument("--publisher", choices=("CAPCOM", "BANDAI NAMCO"), default="CAPCOM")
+    parser.add_argument("--discover", action="store_true", help="Check Steam for eligible releases")
+    parser.add_argument("--audit-availability", action="store_true", help="Check the active US purchase offers")
     args = parser.parse_args()
     try:
-        catalog = load_catalog(args.catalog)
+        bandai = args.publisher == "BANDAI NAMCO"
+        catalog_path = args.catalog or (ROOT / "catalog_bandai.csv" if bandai else CATALOG)
+        catalog = load_catalog(catalog_path)
+        if any(row["publisher"] != args.publisher for row in catalog):
+            raise CollectionError("Catalog publisher does not match --publisher")
         discover = None
         if args.discover:
             from discovery import scan
-            excluded = {int(x["appid"]) for x in read_csv(ROOT / "excluded.csv")}
+            excluded_path = ROOT / ("excluded_bandai.csv" if bandai else "excluded.csv")
+            excluded = {int(x["appid"]) for x in read_csv(excluded_path)}
             names = tuple(item["game_name"] for item in catalog)
-            discover = lambda known: scan(known | excluded, fetch_json, tracked_names=names)
+            discover = lambda known: scan(known | excluded, fetch_json, tracked_names=names, publisher=args.publisher)
         print(json.dumps(collect(catalog, args.output, discover=discover,
-                                 catalog_path=args.catalog), ensure_ascii=False))
+                                 catalog_path=catalog_path,
+                                 availability_request=fetch_json if args.audit_availability else None),
+                         ensure_ascii=False))
     except CollectionError as exc:
         parser.exit(1, str(exc) + "\n")

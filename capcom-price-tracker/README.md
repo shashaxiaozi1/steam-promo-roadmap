@@ -1,6 +1,6 @@
-# CAPCOM Steam 美国区促销追踪
+# Steam 美国区促销追踪：CAPCOM 与 BANDAI NAMCO
 
-本目录追踪 `catalog.csv` 中经核验的 CAPCOM 游戏购买包，首批为 73 款。每次运行分别请求 Steam 商店的
+本目录追踪经核验的 Steam 美国区游戏购买包：`catalog.csv` 为 CAPCOM，`catalog_bandai.csv` 为 BANDAI NAMCO。每次运行分别请求 Steam 商店的
 `packagedetails?packageids=...&cc=us&l=english`，记录**当时观察到的**美元原价、现价、折扣。
 不使用 Steam Web API Key。该商店接口没有公开的长期可用性承诺。
 
@@ -82,3 +82,11 @@ Power Query 把第一行提升为标题；`date_jst` 设为日期，`appid` 和 
 如需表格显示当天是否促销，也可在游戏层使用 `is_on_sale_any`。两层的日期均按日本时间分组。
 Power BI Service 发布之后，仍需在语义模型中单独配置**计划刷新**；GitHub 更新 CSV 不会主动推送到报表。
 Power BI Desktop 的“刷新”可以先手动验证链路。历史 CSV 会随采样增加；此 MVP 暂不做两年滚动窗口或三日合并。
+
+## 万代南梦宫与下架处理
+
+- 万代南梦宫以 Steam 商店 Publisher 署名为准，D3PUBLISHER 等单独主体不并入。首批清单 127 款，包括明确选择的《Tales of ARISE》Beyond the Dawn Edition（954140）与《DARK SOULS II》DX9 Bundle（58135）。Star Trek（203250）留在排除表，不采价。尚未开售的作品可继续由查新发现。
+- 每天 09:17 JST 的任务对两个发行商的有效 AppID 检查美国区购买选项；每天 09:17、21:17 JST 均采价。手动运行也检查购买选项。
+- 最近五个日本日期里，三个不同日期的有效 Steam 响应都明确显示美国区不可购，且同发行商其他作品的响应通过健康检查，才将该 AppID 从有效清单移入 `data/lifecycle/` 记录。一次缺价、限流、网络故障和仍存在其他购买包均不触发移除；批量异常会暂停下架判断。重新上架需复核购买包后手动恢复。
+- 从确认下架的日本日期起，不再计入该发行商当日分子和分母；原始价格记录与此前日期保留。有效清单中仍有作品采价失败时，不发布该发行商该轮的部分汇总。另一发行商可独立更新。
+- 两家写入相同的 Power BI 日表，原有地址和列不变。万代仅从首个有效采样日开始出现，未采样日期不填 0。

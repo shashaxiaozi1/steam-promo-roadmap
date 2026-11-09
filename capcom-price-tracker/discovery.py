@@ -1,4 +1,4 @@
-"""Find new CAPCOM AppIDs in the US Steam storefront and propose standard packages."""
+"""Find new publisher AppIDs in the US Steam storefront and propose standard packages."""
 
 from __future__ import annotations
 
@@ -13,6 +13,15 @@ from urllib.parse import urlencode, urlsplit
 STORE = "https://store.steampowered.com"
 PUBLISHER_ALIASES = ("Capcom", "CAPCOM Co., Ltd.", "Capcom U.S.A., Inc.")
 AUTO_RELEASE_FROM = dt.date(2026, 11, 6)
+PUBLISHER_CONFIG = {
+    "CAPCOM": (PUBLISHER_ALIASES, AUTO_RELEASE_FROM),
+    "BANDAI NAMCO": ((
+        "Bandai Namco Entertainment", "Bandai Namco Entertainment Inc.",
+        "BANDAI NAMCO Entertainment", "BANDAI NAMCO Entertainment Inc.",
+        "Bandai Namco Entertainment ", "BANDAI NAMCO Entertainment ",
+        "Bandai Namco Games Inc.", "Namco Bandai Games Inc.",
+    ), dt.date(2026, 11, 9)),
+}
 PAGE_SIZE = 50
 MAX_RESULTS_PER_ALIAS = 500
 
@@ -104,7 +113,8 @@ def standard_options(app: dict, title: str) -> dict[int, int]:
     return options
 
 
-def evaluate(appid: int, app: dict, decision: dict) -> dict | None:
+def evaluate(appid: int, app: dict, decision: dict, publisher: str = "CAPCOM") -> dict | None:
+    aliases, release_from = PUBLISHER_CONFIG[publisher]
     title = app.get("name")
     if type(app.get("steam_appid")) is not int or app["steam_appid"] != appid or not isinstance(title, str) or not title.strip():
         raise DiscoveryError("app_identity_not_verified")
@@ -118,7 +128,7 @@ def evaluate(appid: int, app: dict, decision: dict) -> dict | None:
     decision["steam_publishers"] = publishers
     if not isinstance(publishers, list) or not (
         {name_key(x) for x in publishers if isinstance(x, str)}
-        & {name_key(x) for x in PUBLISHER_ALIASES}
+        & {name_key(x) for x in aliases}
     ):
         raise DiscoveryError("publisher_not_verified")
     if re.search(r"\b(?:Z\s*Version|Deluxe Edition|Gold Edition|Ultimate Edition|Premium Edition|Complete Edition)\s*$|グロテスク", title, re.I):
@@ -130,7 +140,7 @@ def evaluate(appid: int, app: dict, decision: dict) -> dict | None:
     decision.update(coming_soon=release["coming_soon"], steam_store_release_date=date_text)
     if not release["coming_soon"]:
         date = release_date(date_text)
-        if date is None or date < AUTO_RELEASE_FROM:
+        if date is None or date < release_from:
             raise DiscoveryError("older_or_undated_title_requires_review")
     options = standard_options(app, title)
     decision["standard_package_ids"] = sorted(options)
@@ -142,24 +152,25 @@ def evaluate(appid: int, app: dict, decision: dict) -> dict | None:
     pid, cents = next(iter(options.items()))
     decision.update(package_id=pid, store_option_price_cents=cents)
     return {
-        "publisher": "CAPCOM", "appid": appid, "game_name": title,
+        "publisher": publisher, "appid": appid, "game_name": title,
         "package_id": pid, "tracked_edition": "Base",
         "steam_store_release_date": date_text,
         "release_date_source": f"{STORE}/app/{appid}/?cc=us&l=english",
     }
 
 
-def scan(known: set[int], request, *, tracked_names: tuple[str, ...] = ()) -> tuple[list, dict]:
+def scan(known: set[int], request, *, tracked_names: tuple[str, ...] = (),
+         publisher: str = "CAPCOM") -> tuple[list, dict]:
     found: set[int] = set()
     errors: list[dict] = []
     sources = {}
-    for publisher in PUBLISHER_ALIASES:
+    for alias in PUBLISHER_CONFIG[publisher][0]:
         try:
-            ids = search_publisher(publisher, request)
-            sources[publisher] = len(ids)
+            ids = search_publisher(alias, request)
+            sources[alias] = len(ids)
             found.update(ids)
         except (DiscoveryError, ValueError) as exc:
-            errors.append({"publisher": publisher, "reason": str(exc)})
+            errors.append({"publisher": alias, "reason": str(exc)})
     candidates = []
     proposed = []
     names = {name_key(x) for x in tracked_names}
@@ -174,7 +185,7 @@ def scan(known: set[int], request, *, tracked_names: tuple[str, ...] = ()) -> tu
             decision["reason"] = "US_app_details_unavailable"
             continue
         try:
-            item = evaluate(appid, entry["data"], decision)
+            item = evaluate(appid, entry["data"], decision, publisher)
         except DiscoveryError as exc:
             decision["reason"] = str(exc)
             continue

@@ -1,22 +1,26 @@
-name: Validate CAPCOM catalog and US packages
-
+name: Validate Steam US publisher catalogs
 on:
   pull_request:
     paths:
-      - 'capcom-price-tracker/catalog.csv'
-      - 'capcom-price-tracker/collector.py'
-      - 'capcom-price-tracker/discovery.py'
-      - 'capcom-price-tracker/tests/**'
+      - 'capcom-price-tracker/**'
       - '.github/workflows/capcom_prices.yml'
       - '.github/workflows/capcom_catalog_audit.yml'
-
 permissions:
   contents: read
-
 jobs:
   audit:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - publisher: CAPCOM
+            catalog: catalog.csv
+            discovery: latest.json
+          - publisher: BANDAI NAMCO
+            catalog: catalog_bandai.csv
+            discovery: bandai_namco.json
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,17 +29,30 @@ jobs:
       - name: Check collector logic
         run: python3 -m unittest discover -s capcom-price-tracker/tests -v
       - name: Validate live US prices and publisher discovery without publishing data
+        env:
+          PUBLISHER: ${{ matrix.publisher }}
+          CATALOG: ${{ matrix.catalog }}
+          DISCOVERY: ${{ matrix.discovery }}
         run: |
           temp_dir="$(mktemp -d)"
-          cp capcom-price-tracker/catalog.csv "$temp_dir/catalog.csv"
-          python3 capcom-price-tracker/collector.py --discover --catalog "$temp_dir/catalog.csv" --output "$temp_dir/data"
-          python3 - "$temp_dir/data/discovery/latest.json" <<'PY'
+          cp "capcom-price-tracker/$CATALOG" "$temp_dir/catalog.csv"
+          python3 capcom-price-tracker/collector.py --publisher "$PUBLISHER" --discover --catalog "$temp_dir/catalog.csv" --output "$temp_dir/data"
+          PYTHONPATH=capcom-price-tracker python3 - "$temp_dir/data/discovery/$DISCOVERY" "$temp_dir/catalog.csv" <<'PY'
           import json
           import sys
+          from pathlib import Path
+          from availability import app_url, purchase_signal
+          from collector import fetch_json, fetch_package, load_catalog
 
           with open(sys.argv[1], encoding="utf-8") as f:
               report = json.load(f)
           print(json.dumps(report, ensure_ascii=False, indent=2))
           if report["errors"] or report["appids_seen"] < 30:
               sys.exit("Steam publisher search did not return the expected coverage")
+          item = load_catalog(Path(sys.argv[2]))[-1]
+          signal = purchase_signal(item, fetch_json(app_url(int(item["appid"]))),
+                                   fetch_package(int(item["package_id"])))
+          print(f"Live US availability probe: AppID {item['appid']} = {signal}")
+          if signal != "available":
+              sys.exit("Live US purchase offer could not be verified for the control app")
           PY
