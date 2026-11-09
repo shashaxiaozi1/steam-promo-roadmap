@@ -16,13 +16,13 @@ PUBLISHERS = (
     "Namco Bandai Games", "Namco Bandai Games Inc.",
 )
 ACCEPTED = {name_key(s) for s in PUBLISHERS}
-# The search input can separate publisher names that differ only by case.
-SEARCH_NAMES = ("BANDAI NAMCO Entertainment", "BANDAI NAMCO Entertainment Inc.",
-                "BANDAI NAMCO ENTERTAINMENT", "BANDAI NAMCO ENTERTAINMENT INC.",
-                "Bandai Namco Entertainment, Inc.", "BANDAI NAMCO Games",
-                "BANDAI NAMCO Games Inc.", "NAMCO BANDAI Games",
-                "NAMCO BANDAI Games Inc.")
-ALREADY_AUDITED = {335300, 374320, 454650, 502500, 525480, 570940, 633230, 678950, 678960, 740130, 814000, 824550, 851850, 871980, 898750, 1020790, 1245480, 1245620, 1276760, 1367080, 1372110, 1392860, 1492730, 1530160, 1566880, 1607250, 1665130, 1672500, 1689620, 1730680, 1730700, 1778820, 1790600, 1857740, 1857810, 1858630, 1859430, 1859470, 1877020, 1880620, 1888160, 1909950, 1910090, 1963680, 1979440, 1984270, 2072560, 2146170, 2170370, 2172910, 2197680, 2213190, 2244210, 2246670, 2288340, 2288630, 2303000, 2324290, 2331020, 2362050, 2362060, 2371630, 2383200, 2530980, 2622380, 2730810, 2918150, 3004100, 3470960, 3751260, 3905010}
+# Public Steam AppIDs for listings that can be missed by publisher search or
+# whose US purchase option has a different label from the storefront title.
+DIRECT_APPIDS = (203250, 211420, 228400, 234670, 236430, 236470, 239720,
+                 245280, 348710, 351970, 378860, 468000, 740130, 816020,
+                 958400, 2149010, 2482940)
+PREFERRED_LABEL_CHECKS = {234670: 31826, 236430: 58135, 245280: 30287,
+                          351970: 72381, 740130: 954140}
 
 
 def audit(appid, search_names):
@@ -62,6 +62,10 @@ def audit(appid, search_names):
     except DiscoveryError as e:
         return result("review", str(e))
     row["standard_ids"] = sorted(options)
+    if not options and appid in PREFERRED_LABEL_CHECKS:
+        pid = PREFERRED_LABEL_CHECKS[appid]
+        options = {p: cents for p, _, cents in row["purchase_options"]
+                   if p == pid and type(cents) is int and cents > 0}
     if len(options) != 1:
         return result("review", "standard_US_package_ambiguous")
     pid, cents = next(iter(options.items()))
@@ -85,19 +89,8 @@ def audit(appid, search_names):
 
 
 def main():
-    found = {}
-    sources = {}
-    errors = {}
-    for alias in SEARCH_NAMES:
-        try:
-            ids = search_publisher(alias, fetch_json)
-            sources[alias] = len(ids)
-            for appid in ids - ALREADY_AUDITED:
-                found.setdefault(appid, []).append(alias)
-        except (DiscoveryError, ValueError) as e:
-            errors[alias] = str(e)
-    print("BNE_META " + json.dumps(dict(sources=sources, errors=errors, appids=len(found),
-                                        checked_at=timestamp()), ensure_ascii=False), flush=True)
+    found = {appid: ["direct public Steam listing"] for appid in DIRECT_APPIDS}
+    print("BNE_META " + json.dumps(dict(appids=len(found), checked_at=timestamp())), flush=True)
     for appid, names in sorted(found.items()):
         try:
             row = audit(appid, names)
