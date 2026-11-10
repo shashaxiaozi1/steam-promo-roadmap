@@ -1,6 +1,8 @@
-# Steam 美国区促销追踪：CAPCOM 与 BANDAI NAMCO
+# Steam 美国区促销追踪
 
-本目录追踪经核验的 Steam 美国区游戏购买包：`catalog.csv` 为 CAPCOM，`catalog_bandai.csv` 为 BANDAI NAMCO。每次运行分别请求 Steam 商店的
+本目录追踪经核验的 Steam 美国区游戏购买包：
+`catalog.csv` 为 CAPCOM，`catalog_bandai.csv` 为 BANDAI NAMCO，
+`catalog_konami.csv` 为 KONAMI，`catalog_koei_tecmo.csv` 为 KOEI TECMO。每次运行分别请求 Steam 商店的
 `packagedetails?packageids=...&cc=us&l=english`，记录**当时观察到的**美元原价、现价、折扣。
 不使用 Steam Web API Key。该商店接口没有公开的长期可用性承诺。
 
@@ -29,8 +31,8 @@ Steam 官方发售公告修正日期。新增 24 款的 UTC 日期取自各游�
 
 ## 自动发现新作
 
-- 每天通过 Steam 美国区商店搜索检查 CAPCOM 的已知发行商名称，按 AppID 去重。`excluded.csv` 和主清单中的 AppID 不会被重新收录。
-- 已确认发行商的付费本体，如即将推出或商店日期不早于 2026-11-06，且只有一个可辨认的标准购买包，会继续核验该包只含目标 AppID、美元价格有效并与商店购买选项一致。首次采价成功后，主清单和当次数据一起提交。
+- 每天通过 Steam 美国区商店搜索检查各发行商的已知名称，按 AppID 去重。对应排除表和主清单中的 AppID 不会被重新收录。
+- 已确认发行商的付费本体，如即将推出或商店日期不早于该发行商的追踪起点，且只有一个可辨认的标准购买包，会继续核验该包只含目标 AppID、美元价格有效并与商店购买选项一致。首次采价成功后，主清单和当次数据一起提交。
 - 已开放美国区付费预购的本体可加入；仅有商店页的作品保留为 `pending`。旧作、版本不明确、地区或价格无法核验的候选留为 `review`，请查看 `data/discovery/latest.json`。免费本体、DLC 等非目标类型标为 `excluded`。
 - 折扣比例从新作首次采价成功的日本日期起包含该游戏。当天若采到折扣，同时计入分子；以前的日期保留原来的分母。不会推断未观察到的价格或折扣。
 
@@ -75,9 +77,9 @@ Power Query 把第一行提升为标题；`date_jst` 设为日期，`appid` 和 
 `max_discount_percent`、`games_monitored`、`games_on_sale` 设为整数，`sale_share` 设为小数/百分比。
 
 1. **发行商层**：插入矩阵，行=`publisher`，列=`date_jst`，值=`sale_share`（汇总选择最大值），
-   将值格式设为百分比，并对值设置背景色条件格式：0 为浅灰、1 为深红；关闭合计。当前只会有 CAPCOM 一行。
+   将值格式设为百分比，并对值设置背景色条件格式：0 为浅灰、1 为深红；关闭合计。
 2. **游戏层**：另一个矩阵，行=`game_name`，列=`date_jst`，值=`max_discount_percent`（最大值），
-   背景色条件格式：0 为浅灰、100 为深红；在此页加 `publisher` 切片器。第一版只含 CAPCOM，未来新增发行商无需改版式。
+   背景色条件格式：0 为浅灰、100 为深红；在此页加 `daily_games[publisher]` 切片器。
 
 如需表格显示当天是否促销，也可在游戏层使用 `is_on_sale_any`。两层的日期均按日本时间分组。
 Power BI Service 发布之后，仍需在语义模型中单独配置**计划刷新**；GitHub 更新 CSV 不会主动推送到报表。
@@ -86,7 +88,13 @@ Power BI Desktop 的“刷新”可以先手动验证链路。历史 CSV 会随�
 ## 万代南梦宫与下架处理
 
 - 万代南梦宫以 Steam 商店 Publisher 署名为准，D3PUBLISHER 等单独主体不并入。首批清单 127 款，包括明确选择的《Tales of ARISE》Beyond the Dawn Edition（954140）与《DARK SOULS II》DX9 Bundle（58135）。Star Trek（203250）留在排除表，不采价。尚未开售的作品可继续由查新发现。
-- 每天 09:17 JST 的任务对两个发行商的有效 AppID 检查美国区购买选项；每天 09:17、21:17 JST 均采价。手动运行也检查购买选项。
+- 每天 09:17 JST 的任务对各发行商的有效 AppID 检查美国区购买选项；每天 09:17、21:17 JST 均采价。手动运行也检查购买选项。
 - 最近五个日本日期里，三个不同日期的有效 Steam 响应都明确显示美国区不可购，且同发行商其他作品的响应通过健康检查，才将该 AppID 从有效清单移入 `data/lifecycle/` 记录。一次缺价、限流、网络故障和仍存在其他购买包均不触发移除；批量异常会暂停下架判断。重新上架需复核购买包后手动恢复。
 - 从确认下架的日本日期起，不再计入该发行商当日分子和分母；原始价格记录与此前日期保留。有效清单中仍有作品采价失败时，不发布该发行商该轮的部分汇总。另一发行商可独立更新。
-- 两家写入相同的 Power BI 日表，原有地址和列不变。万代仅从首个有效采样日开始出现，未采样日期不填 0。
+- 各发行商使用单独的 Actions runner，依次写入相同的 Power BI 日表，原有地址和列不变。新增发行商从首个有效采样日开始出现，未采样日期不填 0。
+
+## KONAMI 与 KOEI TECMO
+
+- 首批清单用已有 AppID 与 Steam 美国区搜索结果核对。以商店 Publisher 署名为准：`KONAMI` 和 `KOEI TECMO GAMES CO., LTD.`。不因开发商或母公司相同而并入其他发行商的游戏。
+- 2026-11-10 首批核对了 64 个 KONAMI 候选、116 个 KOEI TECMO 候选，分别收入 53 和 107 个标准购买包。共享一个购买包的附属 AppID 不单独计数。
+- 付费预购按普通采价处理；观察到折扣即计入促销。免费本体、试玩和非本体内容不计入。没有可验证的标准购买包时暂不采价；待确认项见 `publisher_onboarding_20261110.csv`，以后也可以用各发行商自己的查新报告复核。

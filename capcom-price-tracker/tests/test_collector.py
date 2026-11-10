@@ -101,6 +101,10 @@ class CollectorTests(unittest.TestCase):
             title = f"Game {appid}"
             subs = [{"packageid": appid * 10, "option_text": f"Pre-Purchase {title} - $5.00",
                      "is_free_license": False, "price_in_cents_with_discount": 500}]
+            if appid == 3:
+                subs[0]["option_text"] = f"{title} with Pre-purchase Bonus - $5.00"
+                subs.append({**subs[0], "packageid": 31,
+                             "option_text": f"{title} Deluxe Edition with Pre-purchase Bonus - $5.00"})
             if appid == 5:
                 subs.append({**subs[0], "packageid": 51})
             if appid == 8:
@@ -201,11 +205,35 @@ class CollectorTests(unittest.TestCase):
     def test_publishers_share_exports_without_changing_prior_publisher_rows(self):
         fetch = lambda pid: response(pid, pid // 10, "2026-11-10T00:00:00+00:00")
         collector.collect(self.catalog, self.data, fetch, "20261110T000000Z")
-        bandai = [{**self.catalog[0], "publisher": "BANDAI NAMCO", "appid": "3", "package_id": "30"}]
-        collector.collect(bandai, self.data, fetch, "20261110T000100Z")
+        new_publishers = ("BANDAI NAMCO", "KONAMI", "KOEI TECMO")
+        for index, publisher in enumerate(new_publishers, 3):
+            items = [{**self.catalog[0], "publisher": publisher, "appid": str(index), "package_id": str(index * 10)}]
+            path = self.data / collector.PUBLISHER_FILES[publisher][0]
+            collector.atomic_csv(path, list(items[0]), items)
+            collector.collect(items, self.data, fetch, f"20261110T000{index}00Z",
+                              discover=lambda known: ([], {"appids_seen": len(known)}),
+                              catalog_path=path)
+        reports = sorted(p.name for p in (self.data / "discovery").glob("*.json"))
+        self.assertEqual(reports, ["bandai_namco.json", "koei_tecmo.json", "konami.json"])
         pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
         self.assertEqual([(x["publisher"], x["games_monitored"]) for x in pubs],
-                         [("BANDAI NAMCO", "1"), ("CAPCOM", "2")])
+                         [("BANDAI NAMCO", "1"), ("CAPCOM", "2"),
+                          ("KOEI TECMO", "1"), ("KONAMI", "1")])
+
+    def test_new_publishers_require_matching_store_publisher(self):
+        app = {
+            "steam_appid": 3, "name": "New Game", "type": "game", "is_free": False,
+            "release_date": {"coming_soon": False, "date": "Nov 10, 2026"},
+            "package_groups": [{"subs": [{"packageid": 30, "option_text": "New Game - $5.00",
+                                         "is_free_license": False, "price_in_cents_with_discount": 500}]}],
+        }
+        for publisher, store_name in (("KONAMI", "KONAMI"), ("KOEI TECMO", "KOEI TECMO GAMES CO., LTD.")):
+            with self.subTest(publisher=publisher):
+                item = discovery.evaluate(3, {**app, "publishers": [store_name]}, {}, publisher)
+                self.assertEqual((item["publisher"], item["package_id"]), (publisher, 30))
+                with self.assertRaisesRegex(discovery.DiscoveryError, "publisher_not_verified"):
+                    discovery.evaluate(3, {**app, "developers": [store_name],
+                                           "publishers": ["Other Publisher"]}, {}, publisher)
 
 if __name__ == "__main__":
     unittest.main()
