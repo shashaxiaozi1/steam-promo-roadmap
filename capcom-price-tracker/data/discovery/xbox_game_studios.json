@@ -1,0 +1,92 @@
+{
+  "run_id": "20261110T084132Z",
+  "sources": {
+    "Xbox Game Studios": 78,
+    "Microsoft Studios": 1,
+    "Microsoft Game Studios": 0
+  },
+  "appids_seen": 79,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 214560,
+      "status": "review",
+      "game_name": "Mark of the Ninja",
+      "steam_publishers": [
+        "Microsoft Studios"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 241540,
+      "status": "review",
+      "game_name": "State of Decay",
+      "steam_publishers": [
+        "Xbox Game Studios"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Nov 5, 2013",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 261570,
+      "status": "review",
+      "game_name": "Ori and the Blind Forest",
+      "steam_publishers": [
+        "Xbox Game Studios"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 10, 2015",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 847360,
+      "status": "review",
+      "game_name": "Super Lucky's Tale",
+      "steam_publishers": [
+        "Xbox Game Studios"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Sep 14, 2018",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 1340720,
+      "status": "pending",
+      "game_name": "State of Decay 3",
+      "steam_publishers": [
+        "Xbox Game Studios"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2439280,
+      "status": "pending",
+      "game_name": "Clockwork Revolution",
+      "steam_publishers": [
+        "Xbox Game Studios"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 3676410,
+      "status": "pending",
+      "game_name": "Senua",
+      "steam_publishers": [
+        "Xbox Game Studios"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
