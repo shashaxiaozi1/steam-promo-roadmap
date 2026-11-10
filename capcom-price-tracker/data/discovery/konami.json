@@ -1,9 +1,9 @@
 {
-  "run_id": "20261110T011825Z",
+  "run_id": "20261110T022546Z",
   "sources": {
-    "KONAMI": 64
+    "KONAMI": 63
   },
-  "appids_seen": 64,
+  "appids_seen": 63,
   "errors": [],
   "candidates": [
     {
