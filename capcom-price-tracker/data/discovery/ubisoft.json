@@ -1,0 +1,73 @@
+{
+  "run_id": "20261110T083416Z",
+  "sources": {
+    "Ubisoft": 153,
+    "Ubisoft Entertainment": 6,
+    "Ubisoft Entertainment SA": 0
+  },
+  "appids_seen": 159,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 15160,
+      "status": "review",
+      "game_name": "Petz® Horsez® 2",
+      "steam_publishers": [],
+      "reason": "publisher_not_verified"
+    },
+    {
+      "appid": 15350,
+      "status": "review",
+      "game_name": "Brain Spa",
+      "steam_publishers": [],
+      "reason": "publisher_not_verified"
+    },
+    {
+      "appid": 619880,
+      "status": "review",
+      "game_name": "ATOMEGA",
+      "steam_publishers": [
+        "Ubisoft"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Sep 19, 2017",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 1924600,
+      "status": "pending",
+      "game_name": "March of Giants",
+      "steam_publishers": [
+        "Ubisoft"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 3621390,
+      "status": "pending",
+      "game_name": "Tom Clancy’s Rainbow Six Tactics",
+      "steam_publishers": [
+        "Ubisoft"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 3809850,
+      "status": "pending",
+      "game_name": "Heroes of Might and Magic III Remake",
+      "steam_publishers": [
+        "Ubisoft"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
