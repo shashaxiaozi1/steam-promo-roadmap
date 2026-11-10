@@ -1,0 +1,244 @@
+{
+  "run_id": "20261110T083030Z",
+  "sources": {
+    "Electronic Arts": 175,
+    "EA": 0,
+    "Electronic Arts Inc.": 0
+  },
+  "appids_seen": 175,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 17480,
+      "status": "review",
+      "game_name": "Command & Conquer™ Red Alert™ 3",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Jan 8, 2009",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 24790,
+      "status": "review",
+      "game_name": "Command & Conquer 3 Tiberium Wars™",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Nov 13, 2009",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 24800,
+      "status": "review",
+      "game_name": "Command & Conquer: Red Alert 3 - Uprising",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Oct 6, 2009",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 24810,
+      "status": "review",
+      "game_name": "Command & Conquer™ 3: Kane’s Wrath",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Nov 13, 2009",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 47700,
+      "status": "review",
+      "game_name": "Command & Conquer™ 4 Tiberian Twilight",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 16, 2010",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 47920,
+      "status": "review",
+      "game_name": "Shift 2 Unleashed",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 29, 2011",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 102500,
+      "status": "review",
+      "game_name": "Kingdoms of Amalur: Reckoning™",
+      "steam_publishers": [
+        "38 Studios",
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 1289670,
+      "status": "review",
+      "game_name": "EA Play",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Aug 31, 2020",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 1506830,
+      "status": "review",
+      "game_name": "FIFA 22",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Oct 1, 2021",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2229830,
+      "status": "review",
+      "game_name": "Command & Conquer™ and The Covert Operations™",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 7, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2229840,
+      "status": "review",
+      "game_name": "Command & Conquer Red Alert™, Counterstrike™ and The Aftermath™",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 7, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2229850,
+      "status": "review",
+      "game_name": "Command & Conquer Red Alert™ 2 and Yuri’s Revenge™",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 7, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2229870,
+      "status": "review",
+      "game_name": "Command & Conquer™ Generals",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 7, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2229880,
+      "status": "review",
+      "game_name": "Command & Conquer™ Tiberian Sun™ and Firestorm™",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 7, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2229890,
+      "status": "review",
+      "game_name": "Command & Conquer Renegade™",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 7, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2488620,
+      "status": "review",
+      "game_name": "F1® 24",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "May 31, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2582560,
+      "status": "review",
+      "game_name": "EA SPORTS™ Madden NFL 25",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Aug 15, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2669320,
+      "status": "review",
+      "game_name": "EA SPORTS FC™ 25",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Sep 26, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2732960,
+      "status": "review",
+      "game_name": "Command & Conquer™ Generals Zero Hour",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 7, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2995920,
+      "status": "review",
+      "game_name": "It Takes Two Friend's Pass",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "May 25, 2021",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 3052150,
+      "status": "review",
+      "game_name": "Split Fiction - Friend's Pass",
+      "steam_publishers": [
+        "Electronic Arts"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 6, 2025",
+      "reason": "older_or_undated_title_requires_review"
+    }
+  ]
+}
