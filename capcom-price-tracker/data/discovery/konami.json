@@ -1,0 +1,46 @@
+{
+  "run_id": "20261110T011825Z",
+  "sources": {
+    "KONAMI": 64
+  },
+  "appids_seen": 64,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 3353430,
+      "status": "pending",
+      "game_name": "Rhapsody in Scarlet",
+      "steam_publishers": [
+        "KONAMI"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 3353450,
+      "status": "pending",
+      "game_name": "Rev. NOiR",
+      "steam_publishers": [
+        "KONAMI"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 4965860,
+      "status": "pending",
+      "game_name": "PROJECT ZIRCON -A Roguelike Card Game-",
+      "steam_publishers": [
+        "KONAMI"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
