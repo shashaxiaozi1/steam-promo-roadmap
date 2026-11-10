@@ -1,0 +1,110 @@
+{
+  "run_id": "20261110T083918Z",
+  "sources": {
+    "KRAFTON, Inc.": 32,
+    "KRAFTON": 0,
+    "KRAFTON Inc.": 0
+  },
+  "appids_seen": 32,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 2161710,
+      "status": "pending",
+      "game_name": "NO LAW",
+      "steam_publishers": [
+        "KRAFTON, Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2643540,
+      "status": "pending",
+      "game_name": "Age Twisters",
+      "steam_publishers": [
+        "KRAFTON, Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2686570,
+      "status": "pending",
+      "game_name": "Waltz and Jam",
+      "steam_publishers": [
+        "Flyway Games, Inc.",
+        "KRAFTON, Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Dec 3, 2026",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2726580,
+      "status": "pending",
+      "game_name": "PUBG: DED.NET",
+      "steam_publishers": [
+        "KRAFTON, Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2778110,
+      "status": "pending",
+      "game_name": "Project ZETA",
+      "steam_publishers": [
+        "KRAFTON, Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2801940,
+      "status": "pending",
+      "game_name": "Scavenger T.O.M",
+      "steam_publishers": [
+        "ReLU Games, Inc.",
+        "KRAFTON, Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 3251280,
+      "status": "pending",
+      "game_name": "Rivals Hover League",
+      "steam_publishers": [
+        "KRAFTON, Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 4077740,
+      "status": "pending",
+      "game_name": "PUBG: Black Budget",
+      "steam_publishers": [
+        "KRAFTON, Inc."
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
