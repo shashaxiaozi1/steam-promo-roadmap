@@ -2,12 +2,12 @@ publisher,appid,game_name,status,package_id,steam_store_release_date,release_dat
 SEGA,4560,Company of Heroes - Legacy Edition,related_product_or_legacy_app,,"Jul 17, 2007",https://store.steampowered.com/app/4560/?cc=us&l=english,US Complete Pack contains multiple games; the separately available base game is audited under AppID 228200.
 SEGA,4700,Total War: MEDIEVAL II – Definitive Edition,verified,460,"Nov 15, 2006",https://store.steampowered.com/app/4700/?cc=us&l=english,Current full-game US offer: Total War: Medieval II - Definitive Edition; included expansion/DLC is not counted separately.
 SEGA,4770,Rome: Total War™ - Alexander,no_US_purchase_offer,,"Aug 28, 2007",https://store.steampowered.com/app/4770/?cc=us&l=english,
-SEGA,9340,Company of Heroes: Opposing Fronts,verified,504,"Sep 24, 2007",https://store.steampowered.com/app/9340/?cc=us&l=english,
+SEGA,9340,Company of Heroes: Opposing Fronts,user_excluded_relic_divestiture,504,"Sep 24, 2007",https://store.steampowered.com/app/9340/?cc=us&l=english,User requested exclusion after the sale of Relic; existing price observations are retained.
 SEGA,10460,The Club™,verified,641,"Feb 20, 2008",https://store.steampowered.com/app/10460/?cc=us&l=english,
 SEGA,10500,Total War: EMPIRE – Definitive Edition,verified,17092,"Mar 4, 2009",https://store.steampowered.com/app/10500/?cc=us&l=english,Current full-game US offer: Total War: EMPIRE - Definitive Edition; included expansion/DLC is not counted separately.
 SEGA,10520,Beijing 2008™ - The Official Video Game of the Olympic Games,publisher_not_verified,,"Aug 14, 2008",https://store.steampowered.com/app/10520/?cc=us&l=english,
 SEGA,10680,Aliens vs. Predator™,verified,2967,"Feb 16, 2010",https://store.steampowered.com/app/10680/?cc=us&l=english,
-SEGA,20540,Company of Heroes: Tales of Valor,verified,1527,"Apr 8, 2009",https://store.steampowered.com/app/20540/?cc=us&l=english,
+SEGA,20540,Company of Heroes: Tales of Valor,user_excluded_relic_divestiture,1527,"Apr 8, 2009",https://store.steampowered.com/app/20540/?cc=us&l=english,User requested exclusion after the sale of Relic; existing price observations are retained.
 SEGA,22230,Rock of Ages,verified,8861,"Sep 7, 2011",https://store.steampowered.com/app/22230/?cc=us&l=english,
 SEGA,34010,Alpha Protocol™,verified,4437,"Jun 1, 2010",https://store.steampowered.com/app/34010/?cc=us&l=english,
 SEGA,34030,Total War: NAPOLEON – Definitive Edition,verified,17093,"Feb 25, 2010",https://store.steampowered.com/app/34030/?cc=us&l=english,Current full-game US offer: Total War: NAPOLEON - Definitive Edition; included expansion/DLC is not counted separately.
