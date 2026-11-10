@@ -28,6 +28,13 @@ PUBLISHERS = {
     "WARNER BROS. GAMES": ("warner_bros_games", "2026-11-10", (
         "Warner Bros. Games", "Warner Bros. Interactive Entertainment", "WB Games", "Warner Bros. Interactive",
     )),
+    "ELECTRONIC ARTS": ("electronic_arts", "2026-11-10", ("Electronic Arts", "EA", "Electronic Arts Inc.")),
+    "UBISOFT": ("ubisoft", "2026-11-10", ("Ubisoft", "Ubisoft Entertainment", "Ubisoft Entertainment SA")),
+    "ACTIVISION": ("activision", "2026-11-10", (
+        "Activision", "Activision Publishing", "Activision Publishing, Inc.",
+        "Activision (Excluding Japan and Asia)",
+    )),
+    "KRAFTON, INC.": ("krafton", "2026-11-10", ("KRAFTON, Inc.", "KRAFTON", "KRAFTON Inc.")),
 }
 
 PUBLISHER_CONFIG = {
