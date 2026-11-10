@@ -4,7 +4,7 @@
 `catalog.csv` 为 CAPCOM，`catalog_bandai.csv` 为 BANDAI NAMCO，
 `catalog_konami.csv` 为 KONAMI，`catalog_koei_tecmo.csv` 为 KOEI TECMO，
 `catalog_sega.csv` 为 SEGA，`catalog_square_enix.csv` 为 SQUARE ENIX；
-第一批接入 Paradox Interactive 和 Valve；第二批接入 Focus Entertainment、2K、Rockstar Games 和 Warner Bros. Games；第三批接入 Electronic Arts、Ubisoft、Activision 和 KRAFTON。当前启用的发行商见 `publisher_config.py`。
+第一批接入 Paradox Interactive 和 Valve；第二批接入 Focus Entertainment、2K、Rockstar Games 和 Warner Bros. Games；第三批接入 Electronic Arts、Ubisoft、Activision 和 KRAFTON。第四批接入 Bethesda Softworks、Xbox Game Studios 和 PlayStation Publishing LLC。当前启用的发行商见 `publisher_config.py`。
 每次运行分别请求 Steam 商店的
 `packagedetails?packageids=...&cc=us&l=english`，记录**当时观察到的**美元原价、现价、折扣。
 不使用 Steam Web API Key。该商店接口没有公开的长期可用性承诺。
@@ -123,6 +123,6 @@ Power BI Desktop 的“刷新”可以先手动验证链路。历史 CSV 会随�
 
 第一批保留 Paradox Interactive 72 款、Valve 18 款，详见 `publisher_onboarding_west_batch1_20261110.csv`。
 
-第二批核对了 231 个 Steam AppID，纳入 Focus Entertainment 72 款、2K 79 款、Rockstar Games 13 款、Warner Bros. Games 51 款。详见 `publisher_onboarding_west_batch2_20261110.csv`。第三批核对了 437 个 Steam AppID，纳入 Electronic Arts 146 款、Ubisoft 141 款、Activision 66 款、KRAFTON 20 款。详见 `publisher_onboarding_west_batch3_20261110.csv`。后续批次是待核验清单，不会自动启动。
+第二批核对了 231 个 Steam AppID，纳入 Focus Entertainment 72 款、2K 79 款、Rockstar Games 13 款、Warner Bros. Games 51 款。详见 `publisher_onboarding_west_batch2_20261110.csv`。第三批核对了 437 个 Steam AppID，纳入 Electronic Arts 146 款、Ubisoft 141 款、Activision 66 款、KRAFTON 20 款。详见 `publisher_onboarding_west_batch3_20261110.csv`。第四批核对了 178 个 Steam AppID，纳入 Bethesda Softworks 56 款、Xbox Game Studios 68 款、PlayStation Publishing LLC 24 款。详见 `publisher_onboarding_west_batch4_20261110.csv`。
 
 永久免费游玩（Free to Play）的本体不采价，也不进入促销率分母；付费本体限时降到零仍属于促销。
