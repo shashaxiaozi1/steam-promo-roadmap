@@ -2,7 +2,8 @@
 
 本目录追踪经核验的 Steam 美国区游戏购买包：
 `catalog.csv` 为 CAPCOM，`catalog_bandai.csv` 为 BANDAI NAMCO，
-`catalog_konami.csv` 为 KONAMI，`catalog_koei_tecmo.csv` 为 KOEI TECMO。每次运行分别请求 Steam 商店的
+`catalog_konami.csv` 为 KONAMI，`catalog_koei_tecmo.csv` 为 KOEI TECMO，
+`catalog_sega.csv` 为 SEGA，`catalog_square_enix.csv` 为 SQUARE ENIX。每次运行分别请求 Steam 商店的
 `packagedetails?packageids=...&cc=us&l=english`，记录**当时观察到的**美元原价、现价、折扣。
 不使用 Steam Web API Key。该商店接口没有公开的长期可用性承诺。
 
@@ -32,7 +33,8 @@ Steam 官方发售公告修正日期。新增 24 款的 UTC 日期取自各游�
 ## 自动发现新作
 
 - 每天通过 Steam 美国区商店搜索检查各发行商的已知名称，按 AppID 去重。对应排除表和主清单中的 AppID 不会被重新收录。
-- 已确认发行商的付费本体，如即将推出或商店日期不早于该发行商的追踪起点，且只有一个可辨认的标准购买包，会继续核验该包只含目标 AppID、美元价格有效并与商店购买选项一致。首次采价成功后，主清单和当次数据一起提交。
+- 已确认发行商的付费本体，如即将推出或商店日期不早于该发行商的追踪起点，优先选唯一可核验的标准购买包。没有标准版时，对可识别的完整特别版按**美区原价**排序，选择原价最低的一版；独立 DLC、升级包、试玩和其他作品的捆绑包不参与选择。特别版的附属 App 必须能核验为本体 DLC；原价并列或无法确认时保留待核对。
+- 选定购买包的美元价格须有效并与商店购买选项一致。首次采价成功后，主清单和当次数据一起提交。特别版的选择理由同时保存到清单的 `tracking_note` 和当轮查新报告；Power BI 导出列不变。
 - 已开放美国区付费预购的本体可加入；仅有商店页的作品保留为 `pending`。旧作、版本不明确、地区或价格无法核验的候选留为 `review`，请查看 `data/discovery/latest.json`。免费本体、DLC 等非目标类型标为 `excluded`。
 - 折扣比例从新作首次采价成功的日本日期起包含该游戏。当天若采到折扣，同时计入分子；以前的日期保留原来的分母。不会推断未观察到的价格或折扣。
 
@@ -97,4 +99,11 @@ Power BI Desktop 的“刷新”可以先手动验证链路。历史 CSV 会随�
 
 - 首批清单用已有 AppID 与 Steam 美国区搜索结果核对。以商店 Publisher 署名为准：`KONAMI` 和 `KOEI TECMO GAMES CO., LTD.`。不因开发商或母公司相同而并入其他发行商的游戏。
 - 2026-11-10 首批核对了 64 个 KONAMI 候选、116 个 KOEI TECMO 候选，分别收入 53 和 107 个标准购买包。共享一个购买包的附属 AppID 不单独计数。
-- 付费预购按普通采价处理；观察到折扣即计入促销。免费本体、试玩和非本体内容不计入。没有可验证的标准购买包时暂不采价；待确认项见 `publisher_onboarding_20261110.csv`，以后也可以用各发行商自己的查新报告复核。
+- 付费预购按普通采价处理；观察到折扣即计入促销。免费本体、试玩和非本体内容不计入。核对结果见 `publisher_onboarding_20261110.csv`。
+- KOEI TECMO 另补入已确认的 `DYNASTY WARRIORS 9 Special Weapon Edition`（414762）、`WARRIORS OROCHI 4 Ultimate`（426467）及 `NINJA GAIDEN: Master Collection`（575623）。合集的三个 AppID 只按一个购买包计数。
+
+## SEGA 与 SQUARE ENIX
+
+- 按 Steam 商店的 Publisher 署名归属，署名含 `SEGA` 或 `Square Enix` 的作品分别纳入；仅为开发方或仅由其他发行方署名的作品不并入。审核来源是已有 AppID 与 Steam 美国区搜索结果。
+- 2026-11-10 首批核对了 126 个 SEGA 候选和 166 个 SQUARE ENIX 候选，分别纳入 107 和 146 个可验证的购买包。
+- 首批购买包、版本例外和暂不纳入的原因见 `publisher_onboarding_sega_square_enix_20261110.csv`，长期版本说明保存在各自的 catalog。

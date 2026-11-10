@@ -149,6 +149,65 @@ class CollectorTests(unittest.TestCase):
         self.assertFalse((self.data / "powerbi/snapshots.csv").exists())
         self.assertTrue((self.data / "raw/20261030T000000Z.jsonl").exists())
 
+    def test_fallback_uses_us_list_price_and_preserves_the_reason(self):
+        path = self.data / "catalog.csv"
+        collector.atomic_csv(path, list(self.catalog[0]) + ["release_date_source"], self.catalog)
+        observed = "2026-11-10T00:00:00+00:00"
+        app = {
+            "steam_appid": 3, "name": "Third Game", "type": "game", "is_free": False,
+            "publishers": ["Capcom"], "release_date": {"coming_soon": False, "date": "Nov 10, 2026"},
+            "package_groups": [{"subs": [
+                {"packageid": 30, "option_text": "Third Game Special Weapon Edition - $15.00",
+                 "is_free_license": False, "price_in_cents_with_discount": 1500},
+                {"packageid": 31, "option_text": "Third Game Deluxe Edition - $10.00",
+                 "is_free_license": False, "price_in_cents_with_discount": 1000},
+                {"packageid": 32, "option_text": "Third Game Deluxe Upgrade - $3.00",
+                 "is_free_license": False, "price_in_cents_with_discount": 300},
+            ]}],
+        }
+        decision = {}
+        item = discovery.evaluate(3, app, decision)
+
+        def fetch(pid):
+            if pid in (10, 20):
+                return response(pid, pid // 10, observed)
+            if pid == 30:
+                r = response(pid, 3, observed, 0, 1500)
+                r["body"][str(pid)]["data"]["price"]["initial"] = 1500
+                r["body"][str(pid)]["data"]["apps"].append({"id": 99})
+                return r
+            self.assertEqual(pid, 31)
+            r = response(pid, 3, observed, 50, 1000)
+            r["body"][str(pid)]["data"]["price"]["initial"] = 2000
+            return r
+
+        def store(url):
+            self.assertEqual(parse_qs(urlsplit(url).query)["appids"], ["99"])
+            return {"body": {"99": {"success": True, "data": {
+                "steam_appid": 99, "type": "dlc", "fullgame": {"appid": "3"},
+            }}}}
+
+        collector.collect(self.catalog, self.data, fetch, "20261110T000000Z", catalog_path=path,
+                          discover=lambda known: ([(item, decision)], {"candidates": [decision]}),
+                          edition_request=store)
+        saved = collector.load_catalog(path)[-1]
+        self.assertEqual(saved["package_id"], "30")
+        self.assertIn("US list price $15.00", saved["tracking_note"])
+        self.assertEqual(decision["status"], "added")
+        games = collector.read_csv(self.data / "powerbi/daily_games.csv")
+        self.assertEqual(games[-1]["is_on_sale_any"], "0")
+
+        with self.assertRaisesRegex(collector.CollectionError, "unverified_or_unrelated_apps"):
+            collector.choose_edition(item, decision["edition_options"], fetch, lambda url: {},
+                                     "20261110T000000Z")
+        app["package_groups"][0]["subs"].append({
+            "packageid": 33, "option_text": "Third Game - $20.00",
+            "is_free_license": False, "price_in_cents_with_discount": 2000,
+        })
+        standard_decision = {}
+        self.assertEqual(discovery.evaluate(3, app, standard_decision)["package_id"], 33)
+        self.assertNotIn("edition_options", standard_decision)
+
     def test_package_without_target_app_is_rejected(self):
         r = response(10, 999, "2026-10-30T00:00:00+00:00")
         with self.assertRaises(collector.CollectionError):

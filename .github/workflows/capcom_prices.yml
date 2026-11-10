@@ -60,3 +60,21 @@ jobs:
       slug: koei-tecmo
       discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
       audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
+  sega:
+    needs: koei_tecmo
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    uses: ./.github/workflows/steam_us_collect_publisher.yml
+    with:
+      publisher: SEGA
+      slug: sega
+      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
+      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
+  square_enix:
+    needs: sega
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    uses: ./.github/workflows/steam_us_collect_publisher.yml
+    with:
+      publisher: SQUARE ENIX
+      slug: square-enix
+      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
+      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}

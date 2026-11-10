@@ -124,9 +124,9 @@ KOEI TECMO,628890,NOBUNAGA'S AMBITION: Taishi,verified,222846,"Nov 29, 2017",htt
 KOEI TECMO,636570,Nights of Azure 2: Bride of the New Moon,verified,174955,"Oct 24, 2017",https://store.steampowered.com/app/636570/?cc=us&l=english,
 KOEI TECMO,658260,BLUE REFLECTION,verified,186085,"Sep 26, 2017",https://store.steampowered.com/app/658260/?cc=us&l=english,
 KOEI TECMO,724310,Kawanakajima no Kassen,verified,210539,"Dec 5, 2017",https://store.steampowered.com/app/724310/?cc=us&l=english,
-KOEI TECMO,730310,DYNASTY WARRIORS 9,only_nonstandard_US_offers,,"Feb 13, 2018",https://store.steampowered.com/app/730310/?cc=us&l=english,Only alternate editions or trial; needs a version decision
+KOEI TECMO,730310,DYNASTY WARRIORS 9,verified,414762,"Feb 13, 2018",https://store.steampowered.com/app/730310/?cc=us&l=english,User-selected full-game edition; no standalone US standard offer.
 KOEI TECMO,756590,Atelier Lydie & Suelle ~The Alchemists and the Mysterious Paintings~,no_US_purchase_offer,,"Mar 27, 2018",https://store.steampowered.com/app/756590/?cc=us&l=english,Original edition currently has no US store purchase option
-KOEI TECMO,831560,WARRIORS OROCHI 4,only_nonstandard_US_offers,,"Oct 15, 2018",https://store.steampowered.com/app/831560/?cc=us&l=english,Only alternate editions or trial; needs a version decision
+KOEI TECMO,831560,WARRIORS OROCHI 4,verified,426467,"Oct 15, 2018",https://store.steampowered.com/app/831560/?cc=us&l=english,User-selected Ultimate; no standalone US original edition.
 KOEI TECMO,872410,ROMANCE OF THE THREE KINGDOMS XIV,verified,275771,"Jan 15, 2020",https://store.steampowered.com/app/872410/?cc=us&l=english,Storefront standard option: ROMANCE OF THE THREE KINGDOMS XIV (English/Chinese/Japanese/Korean)
 KOEI TECMO,886820,Nelke & the Legendary Alchemists ~Ateliers of the New World~,verified,282121,"Mar 25, 2019",https://store.steampowered.com/app/886820/?cc=us&l=english,
 KOEI TECMO,936160,Atelier Rorona ~The Alchemist of Arland~ DX,verified,303781,"Dec 3, 2018",https://store.steampowered.com/app/936160/?cc=us&l=english,
@@ -143,14 +143,14 @@ KOEI TECMO,1325200,Nioh 2 – The Complete Edition,verified,511759,"Feb 5, 2021"
 KOEI TECMO,1336980,NOBUNAGA'S AMBITION: Awakening,verified,883015,"Jul 20, 2022",https://store.steampowered.com/app/1336980/?cc=us&l=english,Storefront standard option: NOBUNAGA'S AMBITION: Awakening (English/Japanese/Chinese)
 KOEI TECMO,1340990,Rise of the Ronin,verified,1207170,"Mar 10, 2025",https://store.steampowered.com/app/1340990/?cc=us&l=english,
 KOEI TECMO,1341200,DYNASTY WARRIORS 9 Empires,verified,650501,"Dec 22, 2021",https://store.steampowered.com/app/1341200/?cc=us&l=english,
-KOEI TECMO,1369760,NINJA GAIDEN 3: Razor's Edge [NINJA GAIDEN: Master Collection],collection_not_sold_separately,575623,"Jun 9, 2021",https://store.steampowered.com/app/1369760/?cc=us&l=english,Shares the NINJA GAIDEN: Master Collection package; not counted individually
+KOEI TECMO,1369760,NINJA GAIDEN 3: Razor's Edge [NINJA GAIDEN: Master Collection],counted_in_master_collection,575623,"Jun 9, 2021",https://store.steampowered.com/app/1369760/?cc=us&l=english,Shared package counted under AppID 1580780
 KOEI TECMO,1423600,BLUE REFLECTION: Second Light,verified,625295,"Nov 8, 2021",https://store.steampowered.com/app/1423600/?cc=us&l=english,
 KOEI TECMO,1448440,Wo Long: Fallen Dynasty,verified,794140,"Mar 3, 2023",https://store.steampowered.com/app/1448440/?cc=us&l=english,
 KOEI TECMO,1502970,Atelier Sophie: The Alchemist of the Mysterious Book DX,verified,529956,"Apr 21, 2021",https://store.steampowered.com/app/1502970/?cc=us&l=english,
 KOEI TECMO,1502980,Atelier Firis: The Alchemist and the Mysterious Journey DX,verified,529959,"Apr 21, 2021",https://store.steampowered.com/app/1502980/?cc=us&l=english,
 KOEI TECMO,1502990,Atelier Lydie & Suelle: The Alchemists and the Mysterious Paintings DX,verified,529962,"Apr 21, 2021",https://store.steampowered.com/app/1502990/?cc=us&l=english,
-KOEI TECMO,1580780,NINJA GAIDEN Σ [NINJA GAIDEN: Master Collection],collection_not_sold_separately,575623,"Jun 9, 2021",https://store.steampowered.com/app/1580780/?cc=us&l=english,Shares the NINJA GAIDEN: Master Collection package; not counted individually
-KOEI TECMO,1580790,NINJA GAIDEN Σ2 [NINJA GAIDEN: Master Collection],collection_not_sold_separately,575623,"Jun 9, 2021",https://store.steampowered.com/app/1580790/?cc=us&l=english,Shares the NINJA GAIDEN: Master Collection package; not counted individually
+KOEI TECMO,1580780,NINJA GAIDEN: Master Collection,verified,575623,"Jun 9, 2021",https://store.steampowered.com/app/1580780/?cc=us&l=english,"User-approved standard collection; counted once. Includes AppIDs 1369760, 1580780 and 1580790."
+KOEI TECMO,1580790,NINJA GAIDEN Σ2 [NINJA GAIDEN: Master Collection],counted_in_master_collection,575623,"Jun 9, 2021",https://store.steampowered.com/app/1580790/?cc=us&l=english,Shared package counted under AppID 1580780
 KOEI TECMO,1591530,SAMURAI WARRIORS 5,verified,563494,"Jul 26, 2021",https://store.steampowered.com/app/1591530/?cc=us&l=english,
 KOEI TECMO,1621310,Atelier Sophie 2: The Alchemist of the Mysterious Dream,verified,663443,"Feb 24, 2022",https://store.steampowered.com/app/1621310/?cc=us&l=english,
 KOEI TECMO,1716120,Monster Rancher 1 & 2 DX,verified,635693,"Dec 8, 2021",https://store.steampowered.com/app/1716120/?cc=us&l=english,
