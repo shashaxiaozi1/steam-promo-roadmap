@@ -1,0 +1,179 @@
+publisher,appid,game_name,status,package_id,steam_store_release_date,release_date_source,detail
+BETHESDA SOFTWORKS,1700,Arx Fatalis,verified,302,"Apr 3, 2007",https://store.steampowered.com/app/1700/?cc=us&l=english,
+BETHESDA SOFTWORKS,2200,Quake III Arena,verified,433,"Aug 3, 2007",https://store.steampowered.com/app/2200/?cc=us&l=english,
+BETHESDA SOFTWORKS,2210,Quake 4,verified,11033,"Aug 4, 2011",https://store.steampowered.com/app/2210/?cc=us&l=english,Standard storefront label: Quake IV
+BETHESDA SOFTWORKS,2270,Wolfenstein 3D,verified,416,"Aug 3, 2007",https://store.steampowered.com/app/2270/?cc=us&l=english,
+BETHESDA SOFTWORKS,2280,DOOM + DOOM II,verified,419,"Aug 3, 2007",https://store.steampowered.com/app/2280/?cc=us&l=english,
+BETHESDA SOFTWORKS,2310,Quake,verified,427,"Aug 3, 2007",https://store.steampowered.com/app/2310/?cc=us&l=english,
+BETHESDA SOFTWORKS,2320,Quake II,verified,430,"Aug 3, 2007",https://store.steampowered.com/app/2320/?cc=us&l=english,
+BETHESDA SOFTWORKS,9010,Return to Castle Wolfenstein,verified,6944,"Aug 3, 2007",https://store.steampowered.com/app/9010/?cc=us&l=english,
+BETHESDA SOFTWORKS,9180,Commander Keen,verified,415,"Aug 3, 2007",https://store.steampowered.com/app/9180/?cc=us&l=english,Steam sells Commander Keen as a single Complete Pack; counted once.
+BETHESDA SOFTWORKS,9200,RAGE,verified,12000,"Oct 3, 2011",https://store.steampowered.com/app/9200/?cc=us&l=english,
+BETHESDA SOFTWORKS,22300,Fallout 3,verified,1081,"Oct 28, 2008",https://store.steampowered.com/app/22300/?cc=us&l=english,
+BETHESDA SOFTWORKS,22310,Rogue Warrior,verified,2504,"Dec 1, 2009",https://store.steampowered.com/app/22310/?cc=us&l=english,
+BETHESDA SOFTWORKS,22320,The Elder Scrolls III: Morrowind® Game of the Year Edition,verified,1680,"Jun 16, 2009",https://store.steampowered.com/app/22320/?cc=us&l=english,Game of the Year Edition is the only full-game US purchase offer.
+BETHESDA SOFTWORKS,22330,The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009),verified,1678,"Jun 16, 2009",https://store.steampowered.com/app/22330/?cc=us&l=english,Game of the Year Edition is the cheapest complete US purchase option for the 2009 release; the Deluxe and the 2025 remaster have separate AppIDs.
+BETHESDA SOFTWORKS,22340,Call of Cthulhu®: Dark Corners of the Earth,verified,1681,"Jun 16, 2009",https://store.steampowered.com/app/22340/?cc=us&l=english,
+BETHESDA SOFTWORKS,22350,BRINK,not_paid_base_game,,"May 9, 2011",https://store.steampowered.com/app/22350/?cc=us&l=english,
+BETHESDA SOFTWORKS,22370,Fallout 3: Game of the Year Edition,counted_with_base_game,,"Dec 17, 2009",https://store.steampowered.com/app/22370/?cc=us&l=english,The independently purchasable Fallout 3 standard edition is tracked under AppID 22300.
+BETHESDA SOFTWORKS,22380,Fallout: New Vegas,verified,6442,"Oct 19, 2010",https://store.steampowered.com/app/22380/?cc=us&l=english,
+BETHESDA SOFTWORKS,22450,Hunted: The Demon’s Forge™,verified,8350,"May 30, 2011",https://store.steampowered.com/app/22450/?cc=us&l=english,
+BETHESDA SOFTWORKS,38400,Fallout: A Post Nuclear Role Playing Game,verified,45613,"Nov 1, 2015",https://store.steampowered.com/app/38400/?cc=us&l=english,Standard storefront label: Fallout
+BETHESDA SOFTWORKS,38410,Fallout 2: A Post Nuclear Role Playing Game,verified,45614,"Aug 19, 2009",https://store.steampowered.com/app/38410/?cc=us&l=english,Standard storefront label: Fallout 2
+BETHESDA SOFTWORKS,38420,Fallout Tactics: Brotherhood of Steel,verified,45612,"Aug 19, 2009",https://store.steampowered.com/app/38420/?cc=us&l=english,Standard storefront label: Fallout Tactics
+BETHESDA SOFTWORKS,201810,Wolfenstein: The New Order,verified,41691,"May 19, 2014",https://store.steampowered.com/app/201810/?cc=us&l=english,
+BETHESDA SOFTWORKS,205100,Dishonored,verified,17207,"Oct 8, 2012",https://store.steampowered.com/app/205100/?cc=us&l=english,
+BETHESDA SOFTWORKS,208200,DOOM 3,verified,17411,"Oct 15, 2012",https://store.steampowered.com/app/208200/?cc=us&l=english,
+BETHESDA SOFTWORKS,268050,The Evil Within,verified,53808,"Oct 13, 2014",https://store.steampowered.com/app/268050/?cc=us&l=english,
+BETHESDA SOFTWORKS,282440,Quake Live,verified,81943,"Sep 17, 2014",https://store.steampowered.com/app/282440/?cc=us&l=english,
+BETHESDA SOFTWORKS,306130,The Elder Scrolls® Online,verified,164609,"May 22, 2017",https://store.steampowered.com/app/306130/?cc=us&l=english,
+BETHESDA SOFTWORKS,350080,Wolfenstein: The Old Blood,verified,62499,"May 4, 2015",https://store.steampowered.com/app/350080/?cc=us&l=english,
+BETHESDA SOFTWORKS,377160,Fallout 4,verified,103387,"Nov 9, 2015",https://store.steampowered.com/app/377160/?cc=us&l=english,
+BETHESDA SOFTWORKS,379720,DOOM,verified,103396,"May 12, 2016",https://store.steampowered.com/app/379720/?cc=us&l=english,
+BETHESDA SOFTWORKS,403640,Dishonored 2,verified,111282,"Nov 11, 2016",https://store.steampowered.com/app/403640/?cc=us&l=english,
+BETHESDA SOFTWORKS,480490,Prey,verified,107520,"May 4, 2017",https://store.steampowered.com/app/480490/?cc=us&l=english,
+BETHESDA SOFTWORKS,489830,The Elder Scrolls V: Skyrim Special Edition,verified,110687,"Oct 27, 2016",https://store.steampowered.com/app/489830/?cc=us&l=english,Special Edition is an independent full-game US release; Anniversary add-ons are not tracked.
+BETHESDA SOFTWORKS,548570,RAGE 2,verified,135599,"May 13, 2019",https://store.steampowered.com/app/548570/?cc=us&l=english,
+BETHESDA SOFTWORKS,588430,Fallout Shelter,not_paid_base_game,,"Mar 29, 2017",https://store.steampowered.com/app/588430/?cc=us&l=english,
+BETHESDA SOFTWORKS,601430,The Evil Within 2,verified,189513,"Oct 12, 2017",https://store.steampowered.com/app/601430/?cc=us&l=english,
+BETHESDA SOFTWORKS,611500,Quake Champions,verified,1708574,"Aug 18, 2022",https://store.steampowered.com/app/611500/?cc=us&l=english,"Reintroduced as a paid Steam title on Sep 23, 2026; free legacy access is not a separate title."
+BETHESDA SOFTWORKS,611660,Fallout 4 VR,verified,163647,"Dec 11, 2017",https://store.steampowered.com/app/611660/?cc=us&l=english,
+BETHESDA SOFTWORKS,611670,The Elder Scrolls V: Skyrim VR,verified,163650,"Apr 2, 2018",https://store.steampowered.com/app/611670/?cc=us&l=english,
+BETHESDA SOFTWORKS,612880,Wolfenstein II: The New Colossus,verified,164072,"Oct 26, 2017",https://store.steampowered.com/app/612880/?cc=us&l=english,
+BETHESDA SOFTWORKS,614570,Dishonored®: Death of the Outsider™,verified,164694,"Sep 14, 2017",https://store.steampowered.com/app/614570/?cc=us&l=english,
+BETHESDA SOFTWORKS,650000,DOOM VFR,verified,182949,"Nov 30, 2017",https://store.steampowered.com/app/650000/?cc=us&l=english,
+BETHESDA SOFTWORKS,741820,Prey: Typhon Hunter,counted_with_base_game,,"Dec 11, 2018",https://store.steampowered.com/app/741820/?cc=us&l=english,Prey: Typhon Hunter is available through the Mooncrash expansion or Prey Deluxe; the standard Prey base game is tracked under AppID 480490.
+BETHESDA SOFTWORKS,782330,DOOM Eternal,verified,235874,"Mar 19, 2020",https://store.steampowered.com/app/782330/?cc=us&l=english,
+BETHESDA SOFTWORKS,900883,The Elder Scrolls IV: Oblivion® Game of the Year Edition Deluxe (2009),counted_with_base_game,,"Jun 16, 2009",https://store.steampowered.com/app/900883/?cc=us&l=english,The original Oblivion is tracked via its cheaper Game of the Year Edition (AppID 22330).
+BETHESDA SOFTWORKS,1056960,Wolfenstein: Youngblood,verified,353104,"Jul 25, 2019",https://store.steampowered.com/app/1056960/?cc=us&l=english,
+BETHESDA SOFTWORKS,1056970,Wolfenstein: Cyberpilot,verified,353012,"Jul 25, 2019",https://store.steampowered.com/app/1056970/?cc=us&l=english,
+BETHESDA SOFTWORKS,1098291,DOOM Eternal: The Ancient Gods Expansion Pack,standalone_expansion,,"Oct 20, 2020",https://store.steampowered.com/app/1098291/?cc=us&l=english,The Ancient Gods is a DOOM Eternal campaign expansion pack; the base game is tracked under AppID 782330.
+BETHESDA SOFTWORKS,1098292,DOOM Eternal: The Ancient Gods - Part One,standalone_expansion,,"Oct 20, 2020",https://store.steampowered.com/app/1098292/?cc=us&l=english,The Ancient Gods is a DOOM Eternal campaign expansion; the base game is tracked under AppID 782330.
+BETHESDA SOFTWORKS,1098293,DOOM Eternal: The Ancient Gods - Part Two,standalone_expansion,,"Mar 18, 2021",https://store.steampowered.com/app/1098293/?cc=us&l=english,The Ancient Gods is a DOOM Eternal campaign expansion; the base game is tracked under AppID 782330.
+BETHESDA SOFTWORKS,1148590,DOOM 64,verified,391329,"Mar 19, 2020",https://store.steampowered.com/app/1148590/?cc=us&l=english,
+BETHESDA SOFTWORKS,1151340,Fallout 76,verified,456623,"Apr 14, 2020",https://store.steampowered.com/app/1151340/?cc=us&l=english,
+BETHESDA SOFTWORKS,1252330,DEATHLOOP,verified,626137,"Sep 13, 2021",https://store.steampowered.com/app/1252330/?cc=us&l=english,
+BETHESDA SOFTWORKS,1294810,Redfall,verified,451696,"May 1, 2023",https://store.steampowered.com/app/1294810/?cc=us&l=english,
+BETHESDA SOFTWORKS,1475810,Ghostwire: Tokyo,verified,519716,"Mar 24, 2022",https://store.steampowered.com/app/1475810/?cc=us&l=english,
+BETHESDA SOFTWORKS,1716740,Starfield,verified,614726,"Sep 5, 2023",https://store.steampowered.com/app/1716740/?cc=us&l=english,
+BETHESDA SOFTWORKS,1812290,The Elder Scrolls: Arena,not_paid_base_game,,"Apr 26, 2022",https://store.steampowered.com/app/1812290/?cc=us&l=english,
+BETHESDA SOFTWORKS,1812390,The Elder Scrolls II: Daggerfall,not_paid_base_game,,"Apr 26, 2022",https://store.steampowered.com/app/1812390/?cc=us&l=english,
+BETHESDA SOFTWORKS,1812410,The Elder Scrolls Adventures: Redguard,verified,651663,"Apr 26, 2022",https://store.steampowered.com/app/1812410/?cc=us&l=english,
+BETHESDA SOFTWORKS,1812420,An Elder Scrolls Legend: Battlespire,verified,651666,"Apr 26, 2022",https://store.steampowered.com/app/1812420/?cc=us&l=english,
+BETHESDA SOFTWORKS,1817250,Ghostwire: Tokyo - Prelude,not_paid_base_game,,"Mar 8, 2022",https://store.steampowered.com/app/1817250/?cc=us&l=english,
+BETHESDA SOFTWORKS,1873030,Wolfenstein: Enemy Territory,not_paid_base_game,,"Apr 26, 2022",https://store.steampowered.com/app/1873030/?cc=us&l=english,
+BETHESDA SOFTWORKS,2545650,DOOM Eternal: idStudio,not_paid_base_game,,"Aug 8, 2024",https://store.steampowered.com/app/2545650/?cc=us&l=english,
+BETHESDA SOFTWORKS,2623190,The Elder Scrolls IV: Oblivion Remastered,verified,940933,"Apr 22, 2025",https://store.steampowered.com/app/2623190/?cc=us&l=english,
+BETHESDA SOFTWORKS,2677660,Indiana Jones and the Great Circle,verified,959247,"Dec 8, 2024",https://store.steampowered.com/app/2677660/?cc=us&l=english,
+BETHESDA SOFTWORKS,2832900,Indiana Jones and the Great Circle - Digital Artbook,related_product_or_legacy_app,,"Dec 8, 2024",https://store.steampowered.com/app/2832900/?cc=us&l=english,Digital artbook; not the Indiana Jones base game.
+BETHESDA SOFTWORKS,3017860,DOOM: The Dark Ages,verified,1083921,"May 14, 2025",https://store.steampowered.com/app/3017860/?cc=us&l=english,
+BETHESDA SOFTWORKS,3286930,Heretic + Hexen,verified,1164264,"Aug 7, 2025",https://store.steampowered.com/app/3286930/?cc=us&l=english,
+BETHESDA SOFTWORKS,72850,The Elder Scrolls V: Skyrim,verified,12248,"Nov 10, 2011",https://store.steampowered.com/app/72850/?cc=us&l=english,"The independently sold original 2011 release, accessible by direct Steam URL; Special Edition is a distinct release."
+XBOX GAME STUDIOS,26000,The Maw,verified,1441,"Mar 9, 2009",https://store.steampowered.com/app/26000/?cc=us&l=english,
+XBOX GAME STUDIOS,41900,The Bard's Tale ARPG: Remastered and Resnarkled,verified,2618,"Dec 11, 2009",https://store.steampowered.com/app/41900/?cc=us&l=english,
+XBOX GAME STUDIOS,105420,Ms. Splosion Man,verified,26576,"Apr 3, 2013",https://store.steampowered.com/app/105420/?cc=us&l=english,
+XBOX GAME STUDIOS,204030,Fable - The Lost Chapters,verified,13123,"Dec 19, 2011",https://store.steampowered.com/app/204030/?cc=us&l=english,
+XBOX GAME STUDIOS,205730,Insanely Twisted Shadow Planet,verified,14091,"Apr 17, 2012",https://store.steampowered.com/app/205730/?cc=us&l=english,
+XBOX GAME STUDIOS,211400,Deadlight,verified,17638,"Oct 25, 2012",https://store.steampowered.com/app/211400/?cc=us&l=english,
+XBOX GAME STUDIOS,214560,Mark of the Ninja,no_US_purchase_offer,,,https://store.steampowered.com/app/214560/?cc=us&l=english,The original game has no US purchase package; the paid option contains the Klei-published Remastered AppID 860950.
+XBOX GAME STUDIOS,221380,Age of Empires II (Retired),verified,50789,"Apr 9, 2013",https://store.steampowered.com/app/221380/?cc=us&l=english,"The 2013 version is labeled Retired because updates stopped; it still has a separate US purchase, apart from Definitive Edition."
+XBOX GAME STUDIOS,224040,LocoCycle,verified,35991,"Feb 14, 2014",https://store.steampowered.com/app/224040/?cc=us&l=english,
+XBOX GAME STUDIOS,236090,Dust: An Elysian Tail,verified,27968,"May 24, 2013",https://store.steampowered.com/app/236090/?cc=us&l=english,
+XBOX GAME STUDIOS,241540,State of Decay,no_US_purchase_offer,,"Nov 5, 2013",https://store.steampowered.com/app/241540/?cc=us&l=english,
+XBOX GAME STUDIOS,255390,Max: The Curse of Brotherhood,verified,31587,"May 21, 2014",https://store.steampowered.com/app/255390/?cc=us&l=english,
+XBOX GAME STUDIOS,261570,Ori and the Blind Forest,no_US_purchase_offer,,"Mar 10, 2015",https://store.steampowered.com/app/261570/?cc=us&l=english,
+XBOX GAME STUDIOS,266840,Age of Mythology: Extended Edition,verified,34974,"May 8, 2014",https://store.steampowered.com/app/266840/?cc=us&l=english,"Extended Edition is the older, independently sold release; Tale of the Dragon is an optional add-on."
+XBOX GAME STUDIOS,272270,Torment: Tides of Numenera,verified,36640,"Feb 27, 2017",https://store.steampowered.com/app/272270/?cc=us&l=english,
+XBOX GAME STUDIOS,277430,Halo: Spartan Assault,verified,37655,"Apr 4, 2014",https://store.steampowered.com/app/277430/?cc=us&l=english,
+XBOX GAME STUDIOS,287450,Rise of Nations: Extended Edition,verified,50791,"Jun 12, 2014",https://store.steampowered.com/app/287450/?cc=us&l=english,
+XBOX GAME STUDIOS,288470,Fable Anniversary,verified,40245,"Sep 12, 2014",https://store.steampowered.com/app/288470/?cc=us&l=english,
+XBOX GAME STUDIOS,291650,Pillars of Eternity,verified,220633,"Mar 26, 2015",https://store.steampowered.com/app/291650/?cc=us&l=english,Definitive Edition is the current complete US purchase option; the lower-priced White March Expansion Pass lacks the base game.
+XBOX GAME STUDIOS,314160,Microsoft Flight Simulator X: Steam Edition,verified,47668,"Dec 18, 2014",https://store.steampowered.com/app/314160/?cc=us&l=english,
+XBOX GAME STUDIOS,324140,Kalimba,verified,51197,"Apr 22, 2015",https://store.steampowered.com/app/324140/?cc=us&l=english,
+XBOX GAME STUDIOS,324570,Halo: Spartan Strike,verified,51373,"Apr 16, 2015",https://store.steampowered.com/app/324570/?cc=us&l=english,
+XBOX GAME STUDIOS,329430,State of Decay: YOSE,verified,61629,"Apr 27, 2015",https://store.steampowered.com/app/329430/?cc=us&l=english,Year-One Survival Edition is the current full-game US purchase option.
+XBOX GAME STUDIOS,387290,Ori and the Blind Forest: Definitive Edition,verified,73194,"Apr 27, 2016",https://store.steampowered.com/app/387290/?cc=us&l=english,
+XBOX GAME STUDIOS,414340,Hellblade: Senua's Sacrifice,verified,197048,"Aug 7, 2017",https://store.steampowered.com/app/414340/?cc=us&l=english,
+XBOX GAME STUDIOS,459220,Halo Wars: Definitive Edition,verified,99892,"Apr 20, 2017",https://store.steampowered.com/app/459220/?cc=us&l=english,
+XBOX GAME STUDIOS,474960,Quantum Break,verified,105558,"Sep 29, 2016",https://store.steampowered.com/app/474960/?cc=us&l=english,
+XBOX GAME STUDIOS,495420,State of Decay 2: Juggernaut Edition,verified,112870,"Mar 13, 2020",https://store.steampowered.com/app/495420/?cc=us&l=english,
+XBOX GAME STUDIOS,537450,ReCore: Definitive Edition,verified,131189,"Sep 14, 2018",https://store.steampowered.com/app/537450/?cc=us&l=english,
+XBOX GAME STUDIOS,560130,Pillars of Eternity II: Deadfire,verified,258525,"May 8, 2018",https://store.steampowered.com/app/560130/?cc=us&l=english,
+XBOX GAME STUDIOS,577940,Killer Instinct,not_paid_base_game,,"Sep 27, 2017",https://store.steampowered.com/app/577940/?cc=us&l=english,
+XBOX GAME STUDIOS,579490,RUSH: A Disney • PIXAR Adventure,verified,148386,"Sep 14, 2018",https://store.steampowered.com/app/579490/?cc=us&l=english,
+XBOX GAME STUDIOS,613880,Zoo Tycoon: Ultimate Animal Collection,verified,164445,"Sep 14, 2018",https://store.steampowered.com/app/613880/?cc=us&l=english,
+XBOX GAME STUDIOS,630610,Disneyland Adventures,verified,171583,"Sep 14, 2018",https://store.steampowered.com/app/630610/?cc=us&l=english,
+XBOX GAME STUDIOS,719040,Wasteland 3,verified,492793,"Aug 27, 2020",https://store.steampowered.com/app/719040/?cc=us&l=english,
+XBOX GAME STUDIOS,813780,Age of Empires II: Definitive Edition,verified,248721,"Nov 14, 2019",https://store.steampowered.com/app/813780/?cc=us&l=english,
+XBOX GAME STUDIOS,847360,Super Lucky's Tale,no_independent_consumer_offer,,"Sep 14, 2018",https://store.steampowered.com/app/847360/?cc=us&l=english,"The original is only included with New Super Lucky's Tale, AppID 1038300; no separately sold Xbox standard version."
+XBOX GAME STUDIOS,847370,Sunset Overdrive,verified,265462,"Nov 16, 2018",https://store.steampowered.com/app/847370/?cc=us&l=english,
+XBOX GAME STUDIOS,933110,Age of Empires III: Definitive Edition,verified,1672149,"Oct 15, 2020",https://store.steampowered.com/app/933110/?cc=us&l=english,"Track the paid full-game unlock, including the Base Game license; the free trial is not tracked."
+XBOX GAME STUDIOS,962130,Grounded,verified,314717,"Sep 27, 2022",https://store.steampowered.com/app/962130/?cc=us&l=english,
+XBOX GAME STUDIOS,976730,Halo: The Master Chief Collection,verified,376282,"Dec 3, 2019",https://store.steampowered.com/app/976730/?cc=us&l=english,
+XBOX GAME STUDIOS,1017900,Age of Empires: Definitive Edition,verified,337409,"Aug 19, 2019",https://store.steampowered.com/app/1017900/?cc=us&l=english,
+XBOX GAME STUDIOS,1057090,Ori and the Will of the Wisps,verified,353051,"Mar 10, 2020",https://store.steampowered.com/app/1057090/?cc=us&l=english,
+XBOX GAME STUDIOS,1091980,The Bard's Tale IV: Director's Cut,verified,388803,"Aug 27, 2019",https://store.steampowered.com/app/1091980/?cc=us&l=english,Standard storefront label: The Bard's Tale IV - Standard Edition
+XBOX GAME STUDIOS,1097840,Gears 5,verified,386493,"Sep 9, 2019",https://store.steampowered.com/app/1097840/?cc=us&l=english,
+XBOX GAME STUDIOS,1172620,Sea of Thieves: 2026 Edition,verified,401467,"Jun 3, 2020",https://store.steampowered.com/app/1172620/?cc=us&l=english,
+XBOX GAME STUDIOS,1180660,Tell Me Why,not_paid_base_game,,"Aug 27, 2020",https://store.steampowered.com/app/1180660/?cc=us&l=english,
+XBOX GAME STUDIOS,1184050,Gears Tactics,verified,407114,"Apr 28, 2020",https://store.steampowered.com/app/1184050/?cc=us&l=english,
+XBOX GAME STUDIOS,1189800,Bleeding Edge,verified,443529,"Mar 24, 2020",https://store.steampowered.com/app/1189800/?cc=us&l=english,
+XBOX GAME STUDIOS,1205520,Pentiment,verified,416316,"Nov 14, 2022",https://store.steampowered.com/app/1205520/?cc=us&l=english,
+XBOX GAME STUDIOS,1240440,Halo Infinite,not_paid_base_game,,"Nov 15, 2021",https://store.steampowered.com/app/1240440/?cc=us&l=english,
+XBOX GAME STUDIOS,1244950,Battletoads,verified,432020,"Aug 20, 2020",https://store.steampowered.com/app/1244950/?cc=us&l=english,
+XBOX GAME STUDIOS,1250410,Microsoft Flight Simulator (2020) 40th Anniversary Edition,verified,759287,"Aug 25, 2026",https://store.steampowered.com/app/1250410/?cc=us&l=english,Standard storefront label: Microsoft Flight Simulator (2020): 40th Anniversary Standard Edition
+XBOX GAME STUDIOS,1340720,State of Decay 3,awaiting_US_preorder_or_release,,To be announced,https://store.steampowered.com/app/1340720/?cc=us&l=english,
+XBOX GAME STUDIOS,1341820,As Dusk Falls,verified,469189,"Jul 19, 2022",https://store.steampowered.com/app/1341820/?cc=us&l=english,
+XBOX GAME STUDIOS,1449110,The Outer Worlds 2,verified,509844,"Oct 29, 2025",https://store.steampowered.com/app/1449110/?cc=us&l=english,
+XBOX GAME STUDIOS,1466860,Age of Empires IV: Anniversary Edition,verified,587467,"Oct 28, 2021",https://store.steampowered.com/app/1466860/?cc=us&l=english,Standard storefront label: Age of Empires IV
+XBOX GAME STUDIOS,1551360,Forza Horizon 5,verified,547831,"Nov 8, 2021",https://store.steampowered.com/app/1551360/?cc=us&l=english,
+XBOX GAME STUDIOS,1672970,Minecraft Dungeons,verified,594790,"Sep 22, 2021",https://store.steampowered.com/app/1672970/?cc=us&l=english,
+XBOX GAME STUDIOS,1912410,Minecraft Dungeons II,verified,688751,"Sep 29, 2026",https://store.steampowered.com/app/1912410/?cc=us&l=english,
+XBOX GAME STUDIOS,1920490,The Outer Worlds: Spacer's Choice Edition,verified,691801,"Mar 7, 2023",https://store.steampowered.com/app/1920490/?cc=us&l=english,Standalone paid enhanced release; Steam lists Xbox Game Studios as a co-publisher.
+XBOX GAME STUDIOS,1928870,Minecraft Legends,verified,694920,"Apr 18, 2023",https://store.steampowered.com/app/1928870/?cc=us&l=english,
+XBOX GAME STUDIOS,1934680,Age of Mythology: Retold,verified,697004,"Sep 4, 2024",https://store.steampowered.com/app/1934680/?cc=us&l=english,
+XBOX GAME STUDIOS,2021880,Ara History Untold: Anniversary Edition ,verified,1412534,"Sep 24, 2024",https://store.steampowered.com/app/2021880/?cc=us&l=english,
+XBOX GAME STUDIOS,2439280,Clockwork Revolution,awaiting_US_preorder_or_release,,2027,https://store.steampowered.com/app/2439280/?cc=us&l=english,
+XBOX GAME STUDIOS,2440510,Forza Motorsport,verified,878254,"Oct 9, 2023",https://store.steampowered.com/app/2440510/?cc=us&l=english,
+XBOX GAME STUDIOS,2457220,Avowed,verified,1162570,"Feb 18, 2025",https://store.steampowered.com/app/2457220/?cc=us&l=english,
+XBOX GAME STUDIOS,2458830,Towerborne,verified,884967,"Feb 26, 2026",https://store.steampowered.com/app/2458830/?cc=us&l=english,
+XBOX GAME STUDIOS,2461850,Hellblade II: Senua’s Saga,verified,886158,"May 21, 2024",https://store.steampowered.com/app/2461850/?cc=us&l=english,
+XBOX GAME STUDIOS,2483190,Forza Horizon 6,verified,950527,"May 18, 2026",https://store.steampowered.com/app/2483190/?cc=us&l=english,
+XBOX GAME STUDIOS,2523720,Gears of War: Reloaded,verified,907055,"Aug 26, 2025",https://store.steampowered.com/app/2523720/?cc=us&l=english,
+XBOX GAME STUDIOS,2537590,Microsoft Flight Simulator 2024,verified,1151186,"Nov 19, 2024",https://store.steampowered.com/app/2537590/?cc=us&l=english,
+XBOX GAME STUDIOS,2627260,NINJA GAIDEN 4,verified,942297,"Oct 20, 2025",https://store.steampowered.com/app/2627260/?cc=us&l=english,
+XBOX GAME STUDIOS,2661300,Grounded 2,verified,1341960,"Jul 29, 2025",https://store.steampowered.com/app/2661300/?cc=us&l=english,
+XBOX GAME STUDIOS,2769570,Fable,verified,990056,"Feb 23, 2027",https://store.steampowered.com/app/2769570/?cc=us&l=english,
+XBOX GAME STUDIOS,2783360,Age of Empires Mobile: PC Edition,not_paid_base_game,,"Jun 23, 2026",https://store.steampowered.com/app/2783360/?cc=us&l=english,
+XBOX GAME STUDIOS,2806050,Halo: Campaign Evolved,verified,1002097,"Jul 28, 2026",https://store.steampowered.com/app/2806050/?cc=us&l=english,
+XBOX GAME STUDIOS,3010850,Gears of War: E-Day,verified,1070943,"Oct 6, 2026",https://store.steampowered.com/app/3010850/?cc=us&l=english,
+XBOX GAME STUDIOS,3676410,Senua,awaiting_US_preorder_or_release,,Coming soon,https://store.steampowered.com/app/3676410/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,394510,HELLDIVERS™ Dive Harder Edition,verified,75704,"Dec 7, 2015",https://store.steampowered.com/app/394510/?cc=us&l=english,Current full-game US offer: HELLDIVERS™ Dive Harder Edition; included AppIDs are not counted separately.
+PLAYSTATION PUBLISHING LLC,417880,Everybody's Gone to the Rapture,verified,84445,"Apr 14, 2016",https://store.steampowered.com/app/417880/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,553850,HELLDIVERS™ 2,verified,137730,"Feb 8, 2024",https://store.steampowered.com/app/553850/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,1151640,Horizon Zero Dawn™ Complete Edition,no_independent_consumer_offer,,"Aug 7, 2020",https://store.steampowered.com/app/1151640/?cc=us&l=english,Only a commercial license is offered for the original in the US; the consumer Remastered edition has its own AppID 2561580.
+PLAYSTATION PUBLISHING LLC,1259420,Days Gone,verified,437418,"May 17, 2021",https://store.steampowered.com/app/1259420/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,1593500,God of War,verified,564166,"Jan 14, 2022",https://store.steampowered.com/app/1593500/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,1599660,Sackboy™: A Big Adventure,verified,566502,"Oct 27, 2022",https://store.steampowered.com/app/1599660/?cc=us&l=english,Use the first US storefront offer; package 791062 has the same content and USD pricing.
+PLAYSTATION PUBLISHING LLC,1649240,Returnal™,verified,586096,"Feb 15, 2023",https://store.steampowered.com/app/1649240/?cc=us&l=english,Use the first US storefront offer; package 834404 has the same content and USD pricing.
+PLAYSTATION PUBLISHING LLC,1659420,UNCHARTED™: Legacy of Thieves Collection,verified,589801,"Oct 19, 2022",https://store.steampowered.com/app/1659420/?cc=us&l=english,The US consumer purchase contains the two Uncharted games under one collection AppID; count it once.
+PLAYSTATION PUBLISHING LLC,1817070,Marvel’s Spider-Man Remastered,verified,653391,"Aug 12, 2022",https://store.steampowered.com/app/1817070/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,1817190,Marvel’s Spider-Man: Miles Morales,verified,653430,"Nov 18, 2022",https://store.steampowered.com/app/1817190/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,1888930,The Last of Us™ Part I,verified,829080,"Mar 28, 2023",https://store.steampowered.com/app/1888930/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,1895880,Ratchet & Clank: Rift Apart,verified,682842,"Jul 26, 2023",https://store.steampowered.com/app/1895880/?cc=us&l=english,Use the first US storefront offer; package 910734 has the same content and USD pricing.
+PLAYSTATION PUBLISHING LLC,2172010,Until Dawn™,verified,777584,"Oct 4, 2024",https://store.steampowered.com/app/2172010/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,2215430,Ghost of Tsushima DIRECTOR'S CUT,verified,1436422,"May 16, 2024",https://store.steampowered.com/app/2215430/?cc=us&l=english,Current full-game US offer: Ghost of Tsushima DIRECTOR'S CUT; included AppIDs are not counted separately.
+PLAYSTATION PUBLISHING LLC,2322010,God of War Ragnarök,verified,1070850,"Sep 19, 2024",https://store.steampowered.com/app/2322010/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,2420110,Horizon Forbidden West™ Complete Edition,verified,870993,"Mar 21, 2024",https://store.steampowered.com/app/2420110/?cc=us&l=english,Current full-game US offer: Horizon Forbidden West™ Complete Edition; included AppIDs are not counted separately.
+PLAYSTATION PUBLISHING LLC,2428810,LEGO® Horizon Adventures™,verified,873918,"Nov 14, 2024",https://store.steampowered.com/app/2428810/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,2531310,The Last of Us™ Part II Remastered,verified,1219787,"Apr 3, 2025",https://store.steampowered.com/app/2531310/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,2561580,Horizon Zero Dawn™ Remastered,verified,920004,"Oct 31, 2024",https://store.steampowered.com/app/2561580/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,2651280,Marvel's Spider-Man 2,verified,1219797,"Jan 30, 2025",https://store.steampowered.com/app/2651280/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,2698870,Midnight Murder Club,verified,966581,"Aug 14, 2025",https://store.steampowered.com/app/2698870/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,3280350,DEATH STRANDING 2: ON THE BEACH,verified,1454700,"Mar 19, 2026",https://store.steampowered.com/app/3280350/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,3355360,4:LOOP,awaiting_US_preorder_or_release,,Coming soon,https://store.steampowered.com/app/3355360/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,3378960,Lost Soul Aside™,verified,1195624,"Aug 28, 2025",https://store.steampowered.com/app/3378960/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,3485810,Kena: Scars of Kosmora,awaiting_US_preorder_or_release,,Coming soon,https://store.steampowered.com/app/3485810/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,3787240,MARVEL Tōkon: Fighting Souls,verified,1332306,"Aug 6, 2026",https://store.steampowered.com/app/3787240/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,4244910,Horizon Hunters Gathering,awaiting_US_preorder_or_release,,Coming soon,https://store.steampowered.com/app/4244910/?cc=us&l=english,
+PLAYSTATION PUBLISHING LLC,4810160,DABA Land of Water Scar,awaiting_US_preorder_or_release,,2027,https://store.steampowered.com/app/4810160/?cc=us&l=english,

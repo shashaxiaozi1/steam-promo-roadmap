@@ -35,6 +35,13 @@ PUBLISHERS = {
         "Activision (Excluding Japan and Asia)",
     )),
     "KRAFTON, INC.": ("krafton", "2026-11-10", ("KRAFTON, Inc.", "KRAFTON", "KRAFTON Inc.")),
+    "BETHESDA SOFTWORKS": ("bethesda_softworks", "2026-11-10", ("Bethesda Softworks", "Bethesda Softworks LLC")),
+    "XBOX GAME STUDIOS": ("xbox_game_studios", "2026-11-10", (
+        "Xbox Game Studios", "Microsoft Studios", "Microsoft Game Studios",
+    )),
+    "PLAYSTATION PUBLISHING LLC": ("playstation_publishing", "2026-11-10", (
+        "PlayStation Publishing LLC", "PlayStation PC LLC",
+    )),
 }
 
 PUBLISHER_CONFIG = {

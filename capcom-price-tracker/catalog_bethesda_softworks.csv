@@ -1,0 +1,57 @@
+publisher,appid,game_name,package_id,tracked_edition,steam_store_release_date,release_date_source,tracking_note
+BETHESDA SOFTWORKS,1700,Arx Fatalis,302,Base,"Apr 3, 2007",https://store.steampowered.com/app/1700/?cc=us&l=english,
+BETHESDA SOFTWORKS,2200,Quake III Arena,433,Base,"Aug 3, 2007",https://store.steampowered.com/app/2200/?cc=us&l=english,
+BETHESDA SOFTWORKS,2210,Quake 4,11033,Base,"Aug 4, 2011",https://store.steampowered.com/app/2210/?cc=us&l=english,Standard storefront label: Quake IV
+BETHESDA SOFTWORKS,2270,Wolfenstein 3D,416,Base,"Aug 3, 2007",https://store.steampowered.com/app/2270/?cc=us&l=english,
+BETHESDA SOFTWORKS,2280,DOOM + DOOM II,419,Base,"Aug 3, 2007",https://store.steampowered.com/app/2280/?cc=us&l=english,
+BETHESDA SOFTWORKS,2310,Quake,427,Base,"Aug 3, 2007",https://store.steampowered.com/app/2310/?cc=us&l=english,
+BETHESDA SOFTWORKS,2320,Quake II,430,Base,"Aug 3, 2007",https://store.steampowered.com/app/2320/?cc=us&l=english,
+BETHESDA SOFTWORKS,9010,Return to Castle Wolfenstein,6944,Base,"Aug 3, 2007",https://store.steampowered.com/app/9010/?cc=us&l=english,
+BETHESDA SOFTWORKS,9180,Commander Keen,415,Complete Pack,"Aug 3, 2007",https://store.steampowered.com/app/9180/?cc=us&l=english,Steam sells Commander Keen as a single Complete Pack; counted once.
+BETHESDA SOFTWORKS,9200,RAGE,12000,Base,"Oct 3, 2011",https://store.steampowered.com/app/9200/?cc=us&l=english,
+BETHESDA SOFTWORKS,22300,Fallout 3,1081,Base,"Oct 28, 2008",https://store.steampowered.com/app/22300/?cc=us&l=english,
+BETHESDA SOFTWORKS,22310,Rogue Warrior,2504,Base,"Dec 1, 2009",https://store.steampowered.com/app/22310/?cc=us&l=english,
+BETHESDA SOFTWORKS,22320,The Elder Scrolls III: Morrowind® Game of the Year Edition,1680,Game of the Year Edition,"Jun 16, 2009",https://store.steampowered.com/app/22320/?cc=us&l=english,Game of the Year Edition is the only full-game US purchase offer.
+BETHESDA SOFTWORKS,22330,The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009),1678,Game of the Year Edition,"Jun 16, 2009",https://store.steampowered.com/app/22330/?cc=us&l=english,Game of the Year Edition is the cheapest complete US purchase option for the 2009 release; the Deluxe and the 2025 remaster have separate AppIDs.
+BETHESDA SOFTWORKS,22340,Call of Cthulhu®: Dark Corners of the Earth,1681,Base,"Jun 16, 2009",https://store.steampowered.com/app/22340/?cc=us&l=english,
+BETHESDA SOFTWORKS,22380,Fallout: New Vegas,6442,Base,"Oct 19, 2010",https://store.steampowered.com/app/22380/?cc=us&l=english,
+BETHESDA SOFTWORKS,22450,Hunted: The Demon’s Forge™,8350,Base,"May 30, 2011",https://store.steampowered.com/app/22450/?cc=us&l=english,
+BETHESDA SOFTWORKS,38400,Fallout: A Post Nuclear Role Playing Game,45613,Base,"Nov 1, 2015",https://store.steampowered.com/app/38400/?cc=us&l=english,Standard storefront label: Fallout
+BETHESDA SOFTWORKS,38410,Fallout 2: A Post Nuclear Role Playing Game,45614,Base,"Aug 19, 2009",https://store.steampowered.com/app/38410/?cc=us&l=english,Standard storefront label: Fallout 2
+BETHESDA SOFTWORKS,38420,Fallout Tactics: Brotherhood of Steel,45612,Base,"Aug 19, 2009",https://store.steampowered.com/app/38420/?cc=us&l=english,Standard storefront label: Fallout Tactics
+BETHESDA SOFTWORKS,201810,Wolfenstein: The New Order,41691,Base,"May 19, 2014",https://store.steampowered.com/app/201810/?cc=us&l=english,
+BETHESDA SOFTWORKS,205100,Dishonored,17207,Base,"Oct 8, 2012",https://store.steampowered.com/app/205100/?cc=us&l=english,
+BETHESDA SOFTWORKS,208200,DOOM 3,17411,Base,"Oct 15, 2012",https://store.steampowered.com/app/208200/?cc=us&l=english,
+BETHESDA SOFTWORKS,268050,The Evil Within,53808,Base,"Oct 13, 2014",https://store.steampowered.com/app/268050/?cc=us&l=english,
+BETHESDA SOFTWORKS,282440,Quake Live,81943,Base,"Sep 17, 2014",https://store.steampowered.com/app/282440/?cc=us&l=english,
+BETHESDA SOFTWORKS,306130,The Elder Scrolls® Online,164609,Base,"May 22, 2017",https://store.steampowered.com/app/306130/?cc=us&l=english,
+BETHESDA SOFTWORKS,350080,Wolfenstein: The Old Blood,62499,Base,"May 4, 2015",https://store.steampowered.com/app/350080/?cc=us&l=english,
+BETHESDA SOFTWORKS,377160,Fallout 4,103387,Base,"Nov 9, 2015",https://store.steampowered.com/app/377160/?cc=us&l=english,
+BETHESDA SOFTWORKS,379720,DOOM,103396,Base,"May 12, 2016",https://store.steampowered.com/app/379720/?cc=us&l=english,
+BETHESDA SOFTWORKS,403640,Dishonored 2,111282,Base,"Nov 11, 2016",https://store.steampowered.com/app/403640/?cc=us&l=english,
+BETHESDA SOFTWORKS,480490,Prey,107520,Base,"May 4, 2017",https://store.steampowered.com/app/480490/?cc=us&l=english,
+BETHESDA SOFTWORKS,489830,The Elder Scrolls V: Skyrim Special Edition,110687,Special Edition,"Oct 27, 2016",https://store.steampowered.com/app/489830/?cc=us&l=english,Special Edition is an independent full-game US release; Anniversary add-ons are not tracked.
+BETHESDA SOFTWORKS,548570,RAGE 2,135599,Base,"May 13, 2019",https://store.steampowered.com/app/548570/?cc=us&l=english,
+BETHESDA SOFTWORKS,601430,The Evil Within 2,189513,Base,"Oct 12, 2017",https://store.steampowered.com/app/601430/?cc=us&l=english,
+BETHESDA SOFTWORKS,611500,Quake Champions,1708574,Base,"Aug 18, 2022",https://store.steampowered.com/app/611500/?cc=us&l=english,"Reintroduced as a paid Steam title on Sep 23, 2026; free legacy access is not a separate title."
+BETHESDA SOFTWORKS,611660,Fallout 4 VR,163647,Base,"Dec 11, 2017",https://store.steampowered.com/app/611660/?cc=us&l=english,
+BETHESDA SOFTWORKS,611670,The Elder Scrolls V: Skyrim VR,163650,Base,"Apr 2, 2018",https://store.steampowered.com/app/611670/?cc=us&l=english,
+BETHESDA SOFTWORKS,612880,Wolfenstein II: The New Colossus,164072,Base,"Oct 26, 2017",https://store.steampowered.com/app/612880/?cc=us&l=english,
+BETHESDA SOFTWORKS,614570,Dishonored®: Death of the Outsider™,164694,Base,"Sep 14, 2017",https://store.steampowered.com/app/614570/?cc=us&l=english,
+BETHESDA SOFTWORKS,650000,DOOM VFR,182949,Base,"Nov 30, 2017",https://store.steampowered.com/app/650000/?cc=us&l=english,
+BETHESDA SOFTWORKS,782330,DOOM Eternal,235874,Base,"Mar 19, 2020",https://store.steampowered.com/app/782330/?cc=us&l=english,
+BETHESDA SOFTWORKS,1056960,Wolfenstein: Youngblood,353104,Base,"Jul 25, 2019",https://store.steampowered.com/app/1056960/?cc=us&l=english,
+BETHESDA SOFTWORKS,1056970,Wolfenstein: Cyberpilot,353012,Base,"Jul 25, 2019",https://store.steampowered.com/app/1056970/?cc=us&l=english,
+BETHESDA SOFTWORKS,1148590,DOOM 64,391329,Base,"Mar 19, 2020",https://store.steampowered.com/app/1148590/?cc=us&l=english,
+BETHESDA SOFTWORKS,1151340,Fallout 76,456623,Base,"Apr 14, 2020",https://store.steampowered.com/app/1151340/?cc=us&l=english,
+BETHESDA SOFTWORKS,1252330,DEATHLOOP,626137,Base,"Sep 13, 2021",https://store.steampowered.com/app/1252330/?cc=us&l=english,
+BETHESDA SOFTWORKS,1294810,Redfall,451696,Base,"May 1, 2023",https://store.steampowered.com/app/1294810/?cc=us&l=english,
+BETHESDA SOFTWORKS,1475810,Ghostwire: Tokyo,519716,Base,"Mar 24, 2022",https://store.steampowered.com/app/1475810/?cc=us&l=english,
+BETHESDA SOFTWORKS,1716740,Starfield,614726,Base,"Sep 5, 2023",https://store.steampowered.com/app/1716740/?cc=us&l=english,
+BETHESDA SOFTWORKS,1812410,The Elder Scrolls Adventures: Redguard,651663,Base,"Apr 26, 2022",https://store.steampowered.com/app/1812410/?cc=us&l=english,
+BETHESDA SOFTWORKS,1812420,An Elder Scrolls Legend: Battlespire,651666,Base,"Apr 26, 2022",https://store.steampowered.com/app/1812420/?cc=us&l=english,
+BETHESDA SOFTWORKS,2623190,The Elder Scrolls IV: Oblivion Remastered,940933,Base,"Apr 22, 2025",https://store.steampowered.com/app/2623190/?cc=us&l=english,
+BETHESDA SOFTWORKS,2677660,Indiana Jones and the Great Circle,959247,Base,"Dec 8, 2024",https://store.steampowered.com/app/2677660/?cc=us&l=english,
+BETHESDA SOFTWORKS,3017860,DOOM: The Dark Ages,1083921,Base,"May 14, 2025",https://store.steampowered.com/app/3017860/?cc=us&l=english,
+BETHESDA SOFTWORKS,3286930,Heretic + Hexen,1164264,Base,"Aug 7, 2025",https://store.steampowered.com/app/3286930/?cc=us&l=english,
+BETHESDA SOFTWORKS,72850,The Elder Scrolls V: Skyrim,12248,Base,"Nov 10, 2011",https://store.steampowered.com/app/72850/?cc=us&l=english,"The independently sold original 2011 release, accessible by direct Steam URL; Special Edition is a distinct release."
