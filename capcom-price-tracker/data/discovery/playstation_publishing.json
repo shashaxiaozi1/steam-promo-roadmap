@@ -1,0 +1,68 @@
+{
+  "run_id": "20261110T084321Z",
+  "sources": {
+    "PlayStation Publishing LLC": 29,
+    "PlayStation PC LLC": 0
+  },
+  "appids_seen": 29,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 1151640,
+      "status": "review",
+      "game_name": "Horizon Zero Dawn™ Complete Edition",
+      "steam_publishers": [
+        "PlayStation Publishing LLC"
+      ],
+      "reason": "possible_regional_or_nonstandard_edition"
+    },
+    {
+      "appid": 3355360,
+      "status": "pending",
+      "game_name": "4:LOOP",
+      "steam_publishers": [
+        "PlayStation Publishing LLC"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 3485810,
+      "status": "pending",
+      "game_name": "Kena: Scars of Kosmora",
+      "steam_publishers": [
+        "PlayStation Publishing LLC"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 4244910,
+      "status": "pending",
+      "game_name": "Horizon Hunters Gathering",
+      "steam_publishers": [
+        "PlayStation Publishing LLC"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 4810160,
+      "status": "pending",
+      "game_name": "DABA Land of Water Scar",
+      "steam_publishers": [
+        "PlayStation Publishing LLC"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
