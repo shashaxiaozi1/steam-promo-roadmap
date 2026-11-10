@@ -4,7 +4,7 @@
 `catalog.csv` 为 CAPCOM，`catalog_bandai.csv` 为 BANDAI NAMCO，
 `catalog_konami.csv` 为 KONAMI，`catalog_koei_tecmo.csv` 为 KOEI TECMO，
 `catalog_sega.csv` 为 SEGA，`catalog_square_enix.csv` 为 SQUARE ENIX；
-本次新增 Paradox Interactive、Devolver Digital 和 Valve。完整映射见 `publisher_config.py`。
+第一批保留 Paradox Interactive 和 Valve；第二批加入 Focus Entertainment、2K、Rockstar Games 和 Warner Bros. Games。当前启用的发行商见 `publisher_config.py`。
 每次运行分别请求 Steam 商店的
 `packagedetails?packageids=...&cc=us&l=english`，记录**当时观察到的**美元原价、现价、折扣。
 不使用 Steam Web API Key。该商店接口没有公开的长期可用性承诺。
@@ -116,12 +116,13 @@ Power BI Desktop 的“刷新”可以先手动验证链路。历史 CSV 会随�
 
 | 批次 | 发行商 |
 |---|---|
-| 1 | Paradox Interactive、Devolver Digital、Valve |
-| 2 | Game Science、Larian Studios、semiwork、ConcernedApe |
-| 3 | CD PROJEKT RED、Studio Wildcard、Bungie、Behaviour Interactive Inc. |
-| 4 | Team17、Focus Entertainment、Deep Silver |
-| 5 | 2K、Rockstar Games、Warner Bros. Games |
-| 6 | Electronic Arts、Ubisoft、Activision、KRAFTON, Inc. |
-| 7 | Bethesda Softworks、Xbox Game Studios、PlayStation Publishing LLC |
+| 1 | Paradox Interactive、Valve |
+| 2 | Focus Entertainment、2K、Rockstar Games、Warner Bros. Games |
+| 3 | Electronic Arts、Ubisoft、Activision、KRAFTON, Inc. |
+| 4 | Bethesda Softworks、Xbox Game Studios、PlayStation Publishing LLC |
 
-2026-11-10 第一批核对了 270 个 Steam AppID，纳入 Paradox Interactive 72 款、Devolver Digital 140 款、Valve 18 款。纳入及排除理由见 `publisher_onboarding_west_batch1_20261110.csv`。后续批次是待核验清单，不会自动启动。
+2026-11-10 第一批核对了 270 个 Steam AppID，纳入 Paradox Interactive 72 款、Devolver Digital 140 款、Valve 18 款。Devolver Digital 随后按用户要求停采；原始核对表 `publisher_onboarding_west_batch1_20261110.csv` 与已有价格记录仍保留。
+
+第二批核对了 231 个 Steam AppID，纳入 Focus Entertainment 72 款、2K 79 款、Rockstar Games 13 款、Warner Bros. Games 51 款。详见 `publisher_onboarding_west_batch2_20261110.csv`。后续批次是待核验清单，不会自动启动。
+
+永久免费游玩（Free to Play）的本体不采价，也不进入促销率分母；付费本体限时降到零仍属于促销。
