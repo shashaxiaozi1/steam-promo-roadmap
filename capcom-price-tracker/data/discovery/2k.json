@@ -1,0 +1,35 @@
+{
+  "run_id": "20261110T072005Z",
+  "sources": {
+    "2K": 84,
+    "2K Games": 2,
+    "2K Games, Inc.": 0
+  },
+  "appids_seen": 86,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 2139090,
+      "status": "pending",
+      "game_name": "Project ETHOS",
+      "steam_publishers": [
+        "2K"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2315690,
+      "status": "review",
+      "game_name": "WWE 2K24",
+      "steam_publishers": [
+        "2K"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 7, 2024",
+      "reason": "older_or_undated_title_requires_review"
+    }
+  ]
+}
