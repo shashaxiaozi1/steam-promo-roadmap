@@ -23,6 +23,8 @@ PUBLISHER_CONFIG = {
     ), dt.date(2026, 11, 9)),
     "KONAMI": (("KONAMI",), dt.date(2026, 11, 10)),
     "KOEI TECMO": (("KOEI TECMO GAMES CO., LTD.",), dt.date(2026, 11, 10)),
+    "SEGA": (("SEGA",), dt.date(2026, 11, 10)),
+    "SQUARE ENIX": (("Square Enix",), dt.date(2026, 11, 10)),
 }
 PAGE_SIZE = 50
 MAX_RESULTS_PER_ALIAS = 500
@@ -91,12 +93,8 @@ def release_date(value: str) -> dt.date | None:
     return None
 
 
-def standard_options(app: dict, title: str) -> dict[int, int]:
-    target = name_key(title)
-    accepted = {target, target + "standard", target + "standardedition"}
-    if (app.get("release_date") or {}).get("coming_soon") is True:
-        accepted |= {name + "withprepurchasebonus" for name in accepted}
-    options: dict[int, int] = {}
+def paid_options(app: dict) -> dict[int, tuple[str, int]]:
+    options = {}
     for group in app.get("package_groups") or []:
         if not isinstance(group, dict):
             continue
@@ -109,12 +107,38 @@ def standard_options(app: dict, title: str) -> dict[int, int]:
             label = re.split(r"\s+-\s+\$", label, maxsplit=1)[0].strip()
             label = re.sub(r"^(?:pre[- ]?purchase|pre[- ]?order)\s+", "", label, flags=re.I)
             pid, cents = sub.get("packageid"), sub.get("price_in_cents_with_discount")
-            if (name_key(label) in accepted and type(pid) is int and pid > 0
-                    and type(cents) is int and cents > 0):
-                if pid in options and options[pid] != cents:
-                    raise DiscoveryError("conflicting_price_for_standard_option")
-                options[pid] = cents
+            if label and type(pid) is int and pid > 0 and type(cents) is int and cents >= 0:
+                if pid in options and options[pid] != (label, cents):
+                    raise DiscoveryError("conflicting_store_options_for_package")
+                options[pid] = (label, cents)
     return options
+
+
+def standard_options(app: dict, title: str) -> dict[int, int]:
+    target = name_key(title)
+    accepted = {target, target + "standard", target + "standardedition"}
+    if (app.get("release_date") or {}).get("coming_soon") is True:
+        accepted |= {name + "withprepurchasebonus" for name in accepted}
+    return {pid: cents for pid, (label, cents) in paid_options(app).items()
+            if name_key(label) in accepted}
+
+
+def edition_options(app: dict, title: str) -> list[dict]:
+    """Recognize full editions by their store label; unknown offers stay in review."""
+    target = name_key(title)
+    editions = []
+    for pid, (label, cents) in paid_options(app).items():
+        key = name_key(label)
+        tail = key.removeprefix(target).removesuffix("withprepurchasebonus")
+        if re.search(r"upgrade|seasonpass|soundtrack|artbook|trial|demo|additional|(?:weapon|costume|scenario)set|add(?:on|ons)|dlc", tail):
+            continue
+        if not key.startswith(target) or not (
+            re.fullmatch(r"(?:digital)?(?:deluxe|premium|ultimate|gold|complete|definitive|collector(?:s)?)(?:deluxe)?(?:edition)?", tail)
+            or (tail.endswith("edition") and tail not in ("standardedition", "baseedition"))
+        ):
+            return []
+        editions.append({"package_id": pid, "label": label, "store_option_price_cents": cents})
+    return editions
 
 
 def evaluate(appid: int, app: dict, decision: dict, publisher: str = "CAPCOM") -> dict | None:
@@ -151,10 +175,18 @@ def evaluate(appid: int, app: dict, decision: dict, publisher: str = "CAPCOM") -
     if not options and release["coming_soon"] and not app.get("package_groups") and not app.get("price_overview"):
         decision.update(status="pending", reason="awaiting_US_preorder_or_release")
         return None
-    if len(options) != 1:
+    if not options:
+        editions = edition_options(app, title)
+        if not editions:
+            raise DiscoveryError("standard_US_purchase_package_not_unique")
+        decision["edition_options"] = editions
+        decision["linked_dlc_appids"] = [x for x in (app.get("dlc") or ()) if type(x) is int]
+        pid = None  # selected after all edition packages have been verified
+    elif len(options) == 1:
+        pid, cents = next(iter(options.items()))
+        decision.update(package_id=pid, store_option_price_cents=cents)
+    else:
         raise DiscoveryError("standard_US_purchase_package_not_unique")
-    pid, cents = next(iter(options.items()))
-    decision.update(package_id=pid, store_option_price_cents=cents)
     return {
         "publisher": publisher, "appid": appid, "game_name": title,
         "package_id": pid, "tracked_edition": "Base",

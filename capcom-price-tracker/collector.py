@@ -26,6 +26,8 @@ PUBLISHER_FILES = {
     "BANDAI NAMCO": ("catalog_bandai.csv", "excluded_bandai.csv", "bandai_namco.json"),
     "KONAMI": ("catalog_konami.csv", "excluded_konami.csv", "konami.json"),
     "KOEI TECMO": ("catalog_koei_tecmo.csv", "excluded_koei_tecmo.csv", "koei_tecmo.json"),
+    "SEGA": ("catalog_sega.csv", "excluded_sega.csv", "sega.json"),
+    "SQUARE ENIX": ("catalog_square_enix.csv", "excluded_square_enix.csv", "square_enix.json"),
 }
 # First successful run after the one-time 49 → 73 reconciliation. Older
 # observations remain in snapshots.csv but do not re-enter the published series.
@@ -170,6 +172,44 @@ def parse_price(item: dict, response: dict, run_id: str) -> dict:
     }
 
 
+def choose_edition(item: dict, options: list[dict], fetch, app_request, run_id: str,
+                   *, linked_dlc=()) -> tuple[dict, dict]:
+    """Choose the lowest US list price among verifiable full-game editions."""
+    from availability import app_url
+
+    appid = int(item["appid"])
+    extras = {}
+    verified = []
+    for offer in options:
+        pid = offer["package_id"]
+        selected = {**item, "package_id": pid, "tracked_edition": offer["label"]}
+        response = fetch(pid)
+        row = parse_price(selected, response, run_id)
+        package = response["body"][str(pid)]["data"]
+        price = package["price"]
+        if price["initial"] <= 0 or price["final"] != offer["store_option_price_cents"]:
+            raise CollectionError("edition_offer_and_package_price_differ")
+        for extra in {app["id"] for app in package["apps"]} - {appid} - set(linked_dlc):
+            if extra not in extras:
+                extra_response = app_request(app_url(extra)) if app_request is not None else {}
+                entry = (extra_response.get("body") or {}).get(str(extra)) or {}
+                extras[extra] = (entry.get("data") or {}) if entry.get("success") is True else {}
+            extra_app = extras[extra]
+            if (extra_app.get("steam_appid") != extra or extra_app.get("type") != "dlc"
+                    or str((extra_app.get("fullgame") or {}).get("appid")) != str(appid)):
+                raise CollectionError("edition_package_contains_unverified_or_unrelated_apps")
+        verified.append((price["initial"], selected, row))
+    verified.sort(key=lambda x: x[0])
+    if not verified or (len(verified) > 1 and verified[0][0] == verified[1][0]):
+        raise CollectionError("cheapest_US_full_edition_not_unique")
+    cents, selected, row = verified[0]
+    selected["tracking_note"] = (
+        f"No standard US offer; cheapest verified full edition at US list price ${cents / 100:.2f}: "
+        f"{selected['tracked_edition']}"
+    )
+    return selected, row
+
+
 def atomic_csv(path: Path, fields: list[str], rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, name = tempfile.mkstemp(prefix=".tmp-", dir=path.parent, text=True)
@@ -227,7 +267,7 @@ def rollups(rows: list[dict]) -> tuple[list[dict], list[dict]]:
 
 def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_id: str | None = None,
             *, discover=None, catalog_path: Path | None = None,
-            report_start: str = REPORT_START_RUN_ID, availability_request=None) -> dict:
+            report_start: str = REPORT_START_RUN_ID, availability_request=None, edition_request=None) -> dict:
     if (discover is not None or availability_request is not None) and catalog_path is None:
         raise CollectionError("Catalog updates require a writable catalog path")
     publishers = {x["publisher"] for x in catalog}
@@ -287,21 +327,35 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
         used_apps = {int(x["appid"]) for x in catalog}
         with raw.open("a", encoding="utf-8") as f:
             for item, decision in proposed:
-                pid, appid = int(item["package_id"]), int(item["appid"])
-                if pid in used_packages or appid in used_apps:
+                appid = int(item["appid"])
+                if appid in used_apps or (item["package_id"] is not None and int(item["package_id"]) in used_packages):
                     decision.update(status="review", reason="package_or_app_already_tracked")
                     continue
-                response = fetch(pid)
-                f.write(json.dumps({"appid": appid, **response}, ensure_ascii=False) + "\n")
+                def fetch_candidate(pid):
+                    response = fetch(pid)
+                    f.write(json.dumps({"appid": appid, **response}, ensure_ascii=False) + "\n")
+                    return response
+
                 try:
-                    row = parse_price(item, response, run_id)
-                    package = response["body"][str(pid)]["data"]
-                    if {a.get("id") for a in package["apps"]} != {appid}:
-                        raise CollectionError("package_contains_other_apps")
-                    if package["price"]["final"] <= 0:
-                        raise CollectionError("no_positive_USD_purchase_price")
-                    if package["price"]["final"] != decision["store_option_price_cents"]:
-                        raise CollectionError("purchase_option_and_package_price_differ")
+                    if decision.get("edition_options"):
+                        item, row = choose_edition(item, decision["edition_options"], fetch_candidate, edition_request,
+                                                   run_id, linked_dlc=decision.get("linked_dlc_appids", ()))
+                        decision.update(package_id=item["package_id"], tracked_edition=item["tracked_edition"],
+                                        tracking_note=item["tracking_note"])
+                    else:
+                        pid = int(item["package_id"])
+                        response = fetch_candidate(pid)
+                        row = parse_price(item, response, run_id)
+                        package = response["body"][str(pid)]["data"]
+                        if {a.get("id") for a in package["apps"]} != {appid}:
+                            raise CollectionError("package_contains_other_apps")
+                        if package["price"]["initial"] <= 0:
+                            raise CollectionError("no_positive_USD_list_price")
+                        if package["price"]["final"] != decision["store_option_price_cents"]:
+                            raise CollectionError("purchase_option_and_package_price_differ")
+                    pid = int(item["package_id"])
+                    if pid in used_packages:
+                        raise CollectionError("package_or_app_already_tracked")
                     if row["date_jst"] != rows[0]["date_jst"]:
                         raise CollectionError("first_price_crossed_midnight_JST")
                 except (CollectionError, KeyError, TypeError, ValueError, AttributeError) as exc:
@@ -321,6 +375,8 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
         with catalog_path.open(newline="", encoding="utf-8-sig") as f:
             catalog_fields = next(csv.reader(f))
         catalog_fields = list(dict.fromkeys([*catalog_fields, "steam_store_release_date"]))
+        if any("tracking_note" in item for item in additions) and "tracking_note" not in catalog_fields:
+            catalog_fields.append("tracking_note")
         atomic_csv(catalog_path, catalog_fields, active + additions)
     if confirmed:
         write_json(state_path, state)
@@ -361,7 +417,8 @@ if __name__ == "__main__":
             discover = lambda known: scan(known | excluded, fetch_json, tracked_names=names, publisher=args.publisher)
         print(json.dumps(collect(catalog, args.output, discover=discover,
                                  catalog_path=catalog_path,
-                                 availability_request=fetch_json if args.audit_availability else None),
+                                 availability_request=fetch_json if args.audit_availability else None,
+                                 edition_request=fetch_json),
                          ensure_ascii=False))
     except CollectionError as exc:
         parser.exit(1, str(exc) + "\n")
