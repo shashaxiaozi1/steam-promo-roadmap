@@ -1,0 +1,19 @@
+publisher,appid,game_name,package_id,tracked_edition,steam_store_release_date,release_date_source,tracking_note
+VALVE,20,Team Fortress Classic,29,Base,"Apr 1, 1999",https://store.steampowered.com/app/20/?cc=us&l=english,
+VALVE,30,Day of Defeat,30,Base,"May 1, 2003",https://store.steampowered.com/app/30/?cc=us&l=english,
+VALVE,40,Deathmatch Classic,31,Base,"Jun 1, 2001",https://store.steampowered.com/app/40/?cc=us&l=english,
+VALVE,50,Half-Life: Opposing Force,32,Base,"Nov 1, 1999",https://store.steampowered.com/app/50/?cc=us&l=english,
+VALVE,60,Ricochet,33,Base,"Nov 1, 2000",https://store.steampowered.com/app/60/?cc=us&l=english,
+VALVE,70,Half-Life,34,Base,"Nov 19, 1998",https://store.steampowered.com/app/70/?cc=us&l=english,
+VALVE,80,Counter-Strike + Condition Zero,7,Collection,"Mar 1, 2004",https://store.steampowered.com/app/80/?cc=us&l=english,A single paid collection license; included AppIDs are not counted individually.
+VALVE,130,Half-Life: Blue Shift,35,Base,"Jun 1, 2001",https://store.steampowered.com/app/130/?cc=us&l=english,
+VALVE,220,Half-Life 2,36,Base,"Nov 16, 2004",https://store.steampowered.com/app/220/?cc=us&l=english,
+VALVE,240,Counter-Strike: Source,37,Base,"Nov 1, 2004",https://store.steampowered.com/app/240/?cc=us&l=english,
+VALVE,300,Day of Defeat: Source,25,Base,"Jul 12, 2010",https://store.steampowered.com/app/300/?cc=us&l=english,
+VALVE,360,Half-Life: Source + Deathmatch,38,Collection,"May 1, 2006",https://store.steampowered.com/app/360/?cc=us&l=english,A single paid collection license; included AppIDs are not counted individually.
+VALVE,400,Portal,515,Base,"Oct 10, 2007",https://store.steampowered.com/app/400/?cc=us&l=english,
+VALVE,500,Left 4 Dead,1053,Base,"Nov 17, 2008",https://store.steampowered.com/app/500/?cc=us&l=english,
+VALVE,550,Left 4 Dead 2,2481,Base,"Nov 16, 2009",https://store.steampowered.com/app/550/?cc=us&l=english,
+VALVE,620,Portal 2,7877,Base,"Apr 18, 2011",https://store.steampowered.com/app/620/?cc=us&l=english,
+VALVE,4000,Garry's Mod,218,Base,"Nov 29, 2006",https://store.steampowered.com/app/4000/?cc=us&l=english,
+VALVE,546560,Half-Life: Alyx,134870,Base,"Mar 23, 2020",https://store.steampowered.com/app/546560/?cc=us&l=english,

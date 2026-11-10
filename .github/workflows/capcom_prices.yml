@@ -8,6 +8,7 @@ on:
       - 'capcom-price-tracker/excluded*.csv'
       - 'capcom-price-tracker/collector.py'
       - 'capcom-price-tracker/discovery.py'
+      - 'capcom-price-tracker/publisher_config.py'
       - 'capcom-price-tracker/availability.py'
       - '.github/workflows/capcom_prices.yml'
       - '.github/workflows/steam_us_collect_publisher.yml'
@@ -25,56 +26,33 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  bandai:
+  plan:
     if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      publishers: ${{ steps.registry.outputs.publishers }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: registry
+        name: Read publisher registry
+        run: |
+          publishers=$(python3 capcom-price-tracker/publisher_config.py)
+          echo "publishers=$publishers" >> "$GITHUB_OUTPUT"
+
+  collect:
+    needs: plan
+    strategy:
+      # Every publisher starts on a fresh runner. Serialize publication of the
+      # shared Power BI files; a publisher failure must not cancel the others.
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.publishers) }}
     uses: ./.github/workflows/steam_us_collect_publisher.yml
     with:
-      publisher: BANDAI NAMCO
-      slug: bandai
-      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
-      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
-  capcom:
-    needs: bandai
-    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
-    uses: ./.github/workflows/steam_us_collect_publisher.yml
-    with:
-      publisher: CAPCOM
-      slug: capcom
-      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
-      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
-  konami:
-    needs: capcom
-    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
-    uses: ./.github/workflows/steam_us_collect_publisher.yml
-    with:
-      publisher: KONAMI
-      slug: konami
-      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
-      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
-  koei_tecmo:
-    needs: konami
-    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
-    uses: ./.github/workflows/steam_us_collect_publisher.yml
-    with:
-      publisher: KOEI TECMO
-      slug: koei-tecmo
-      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
-      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
-  sega:
-    needs: koei_tecmo
-    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
-    uses: ./.github/workflows/steam_us_collect_publisher.yml
-    with:
-      publisher: SEGA
-      slug: sega
-      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
-      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
-  square_enix:
-    needs: sega
-    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
-    uses: ./.github/workflows/steam_us_collect_publisher.yml
-    with:
-      publisher: SQUARE ENIX
-      slug: square-enix
+      publisher: ${{ matrix.publisher }}
+      slug: ${{ matrix.slug }}
       discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
       audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}

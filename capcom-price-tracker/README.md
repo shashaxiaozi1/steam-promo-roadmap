@@ -3,7 +3,9 @@
 本目录追踪经核验的 Steam 美国区游戏购买包：
 `catalog.csv` 为 CAPCOM，`catalog_bandai.csv` 为 BANDAI NAMCO，
 `catalog_konami.csv` 为 KONAMI，`catalog_koei_tecmo.csv` 为 KOEI TECMO，
-`catalog_sega.csv` 为 SEGA，`catalog_square_enix.csv` 为 SQUARE ENIX。每次运行分别请求 Steam 商店的
+`catalog_sega.csv` 为 SEGA，`catalog_square_enix.csv` 为 SQUARE ENIX；
+本次新增 Paradox Interactive、Devolver Digital 和 Valve。完整映射见 `publisher_config.py`。
+每次运行分别请求 Steam 商店的
 `packagedetails?packageids=...&cc=us&l=english`，记录**当时观察到的**美元原价、现价、折扣。
 不使用 Steam Web API Key。该商店接口没有公开的长期可用性承诺。
 
@@ -107,3 +109,19 @@ Power BI Desktop 的“刷新”可以先手动验证链路。历史 CSV 会随�
 - 按 Steam 商店的 Publisher 署名归属，署名含 `SEGA` 或 `Square Enix` 的作品分别纳入；仅为开发方或仅由其他发行方署名的作品不并入。审核来源是已有 AppID 与 Steam 美国区搜索结果。
 - 2026-11-10 首批核对了 126 个 SEGA 候选和 166 个 SQUARE ENIX 候选，分别纳入 107 和 146 个可验证的购买包。
 - 首批购买包、版本例外和暂不纳入的原因见 `publisher_onboarding_sega_square_enix_20261110.csv`，长期版本说明保存在各自的 catalog。
+
+## 后续发行商
+
+新增一家时，在 `publisher_config.py` 配置 Steam 发行署名、自动发现起点和文件名词干，并提交核验过的 catalog 与排除表。GitHub Actions 从同一份配置生成采价任务。每家用独立 runner，按顺序发布现有的 Power BI 数据表，避免覆盖其他发行商刚写入的数据。
+
+| 批次 | 发行商 |
+|---|---|
+| 1 | Paradox Interactive、Devolver Digital、Valve |
+| 2 | Game Science、Larian Studios、semiwork、ConcernedApe |
+| 3 | CD PROJEKT RED、Studio Wildcard、Bungie、Behaviour Interactive Inc. |
+| 4 | Team17、Focus Entertainment、Deep Silver |
+| 5 | 2K、Rockstar Games、Warner Bros. Games |
+| 6 | Electronic Arts、Ubisoft、Activision、KRAFTON, Inc. |
+| 7 | Bethesda Softworks、Xbox Game Studios、PlayStation Publishing LLC |
+
+2026-11-10 第一批核对了 270 个 Steam AppID，纳入 Paradox Interactive 72 款、Devolver Digital 140 款、Valve 18 款。纳入及排除理由见 `publisher_onboarding_west_batch1_20261110.csv`。后续批次是待核验清单，不会自动启动。
