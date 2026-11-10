@@ -19,8 +19,15 @@ PUBLISHERS = {
     "SEGA": ("sega", "2026-11-10", ("SEGA",)),
     "SQUARE ENIX": ("square_enix", "2026-11-10", ("Square Enix",)),
     "PARADOX INTERACTIVE": ("paradox_interactive", "2026-11-10", ("Paradox Interactive",)),
-    "DEVOLVER DIGITAL": ("devolver_digital", "2026-11-10", ("Devolver Digital",)),
     "VALVE": ("valve", "2026-11-10", ("Valve",)),
+    "FOCUS ENTERTAINMENT": ("focus_entertainment", "2026-11-10", (
+        "Focus Entertainment", "Focus Home Interactive", "Focus Entertainment Publishing",
+    )),
+    "2K": ("2k", "2026-11-10", ("2K", "2K Games", "2K Games, Inc.")),
+    "ROCKSTAR GAMES": ("rockstar_games", "2026-11-10", ("Rockstar Games", "Rockstar Games, Inc.")),
+    "WARNER BROS. GAMES": ("warner_bros_games", "2026-11-10", (
+        "Warner Bros. Games", "Warner Bros. Interactive Entertainment", "WB Games", "Warner Bros. Interactive",
+    )),
 }
 
 PUBLISHER_CONFIG = {

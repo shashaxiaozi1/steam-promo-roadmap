@@ -105,7 +105,8 @@ def standard_options(app: dict, title: str) -> dict[int, int]:
     target = name_key(title)
     accepted = {target, target + "standard", target + "standardedition"}
     if (app.get("release_date") or {}).get("coming_soon") is True:
-        accepted |= {name + "withprepurchasebonus" for name in accepted}
+        accepted |= {name + suffix for name in accepted
+                     for suffix in ("preorder", "prepurchase", "withprepurchasebonus")}
     return {pid: cents for pid, (label, cents) in paid_options(app).items()
             if name_key(label) in accepted}
 
