@@ -1,0 +1,88 @@
+{
+  "run_id": "20261110T065432Z",
+  "sources": {
+    "Paradox Interactive": 81
+  },
+  "appids_seen": 81,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 42920,
+      "status": "review",
+      "game_name": "The Kings' Crusade",
+      "steam_publishers": [],
+      "reason": "publisher_not_verified"
+    },
+    {
+      "appid": 73020,
+      "status": "review",
+      "game_name": "Majesty 2 Collection",
+      "steam_publishers": [
+        "Paradox Interactive"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Apr 19, 2011",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 349790,
+      "status": "review",
+      "game_name": "Galaxy of Pen & Paper +1",
+      "steam_publishers": [
+        "Paradox Interactive"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Jul 27, 2017",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 1257610,
+      "status": "pending",
+      "game_name": "Prison Architect 2",
+      "steam_publishers": [
+        "Paradox Interactive"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 1573550,
+      "status": "pending",
+      "game_name": "LEGO® Skylines",
+      "steam_publishers": [
+        "Paradox Interactive"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 1579420,
+      "status": "pending",
+      "game_name": "Guardians of the Wild Sky",
+      "steam_publishers": [
+        "Paradox Interactive",
+        "Paradox Arc"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 4920230,
+      "status": "pending",
+      "game_name": "Afterworld",
+      "steam_publishers": [
+        "Paradox Interactive"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
