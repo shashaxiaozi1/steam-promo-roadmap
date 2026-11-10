@@ -1,0 +1,79 @@
+{
+  "run_id": "20261110T023218Z",
+  "sources": {
+    "Square Enix": 159
+  },
+  "appids_seen": 159,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 8080,
+      "status": "review",
+      "game_name": "Kane and Lynch: Dead Men™",
+      "steam_publishers": [
+        "Square Enix"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Dec 13, 2007",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 8170,
+      "status": "review",
+      "game_name": "Battlestations Pacific",
+      "steam_publishers": [
+        "Square Enix"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "May 12, 2009",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 202170,
+      "status": "review",
+      "game_name": "Sleeping Dogs",
+      "steam_publishers": [
+        "Square Enix"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 306910,
+      "status": "pending",
+      "game_name": "Vaultbreakers",
+      "steam_publishers": [
+        "BetaDwarf",
+        "Square Enix"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 517630,
+      "status": "review",
+      "game_name": "Just Cause 4 Reloaded",
+      "steam_publishers": [
+        "Square Enix"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Dec 4, 2018",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 3216600,
+      "status": "pending",
+      "game_name": "KINGDOM HEARTS IV",
+      "steam_publishers": [
+        "Square Enix"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
