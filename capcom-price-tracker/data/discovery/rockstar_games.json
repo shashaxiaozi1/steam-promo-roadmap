@@ -1,0 +1,33 @@
+{
+  "run_id": "20261110T072202Z",
+  "sources": {
+    "Rockstar Games": 17,
+    "Rockstar Games, Inc.": 0
+  },
+  "appids_seen": 17,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 12220,
+      "status": "review",
+      "game_name": "Grand Theft Auto: Episodes from Liberty City",
+      "steam_publishers": [
+        "Rockstar Games"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Apr 12, 2010",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 3482260,
+      "status": "review",
+      "game_name": "GTA+",
+      "steam_publishers": [
+        "Rockstar Games"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Mar 4, 2025",
+      "reason": "older_or_undated_title_requires_review"
+    }
+  ]
+}
