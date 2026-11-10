@@ -1,0 +1,25 @@
+{
+  "run_id": "20261110T083738Z",
+  "sources": {
+    "Activision": 70,
+    "Activision Publishing": 0,
+    "Activision Publishing, Inc.": 0,
+    "Activision (Excluding Japan and Asia)": 1
+  },
+  "appids_seen": 71,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 4245560,
+      "status": "pending",
+      "game_name": "Spyro™: A Realm Beyond",
+      "steam_publishers": [
+        "Activision"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
