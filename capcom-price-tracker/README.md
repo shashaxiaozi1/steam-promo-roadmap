@@ -121,7 +121,7 @@ Power BI Desktop 的“刷新”可以先手动验证链路。历史 CSV 会随�
 | 3 | Electronic Arts、Ubisoft、Activision、KRAFTON, Inc. |
 | 4 | Bethesda Softworks、Xbox Game Studios、PlayStation Publishing LLC |
 
-2026-11-10 第一批核对了 270 个 Steam AppID，纳入 Paradox Interactive 72 款、Devolver Digital 140 款、Valve 18 款。Devolver Digital 随后按用户要求停采；原始核对表 `publisher_onboarding_west_batch1_20261110.csv` 与已有价格记录仍保留。
+第一批保留 Paradox Interactive 72 款、Valve 18 款，详见 `publisher_onboarding_west_batch1_20261110.csv`。
 
 第二批核对了 231 个 Steam AppID，纳入 Focus Entertainment 72 款、2K 79 款、Rockstar Games 13 款、Warner Bros. Games 51 款。详见 `publisher_onboarding_west_batch2_20261110.csv`。后续批次是待核验清单，不会自动启动。
 
