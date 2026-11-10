@@ -1,0 +1,33 @@
+{
+  "run_id": "20261110T065945Z",
+  "sources": {
+    "Valve": 31
+  },
+  "appids_seen": 31,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 320,
+      "status": "review",
+      "game_name": "Half-Life 2: Deathmatch",
+      "steam_publishers": [
+        "Valve"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Nov 1, 2004",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 1422450,
+      "status": "pending",
+      "game_name": "Deadlock",
+      "steam_publishers": [
+        "Valve"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
