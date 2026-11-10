@@ -1,0 +1,103 @@
+{
+  "run_id": "20261110T022941Z",
+  "sources": {
+    "SEGA": 126
+  },
+  "appids_seen": 126,
+  "errors": [],
+  "candidates": [
+    {
+      "appid": 4770,
+      "status": "review",
+      "game_name": "Rome: Total War™ - Alexander",
+      "steam_publishers": [
+        "SEGA"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Aug 28, 2007",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 10520,
+      "status": "review",
+      "game_name": "Beijing 2008™ - The Official Video Game of the Olympic Games",
+      "steam_publishers": [],
+      "reason": "publisher_not_verified"
+    },
+    {
+      "appid": 71340,
+      "status": "review",
+      "game_name": "Sonic Generations Collection",
+      "steam_publishers": [
+        "SEGA"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Nov 3, 2011",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 201270,
+      "status": "review",
+      "reason": "app_identity_not_verified"
+    },
+    {
+      "appid": 1088710,
+      "status": "review",
+      "game_name": "Yakuza 3 Remastered",
+      "steam_publishers": [
+        "SEGA"
+      ],
+      "coming_soon": false,
+      "steam_store_release_date": "Jan 28, 2021",
+      "reason": "older_or_undated_title_requires_review"
+    },
+    {
+      "appid": 2649560,
+      "status": "pending",
+      "game_name": "Persona 6",
+      "steam_publishers": [
+        "SEGA"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 2924540,
+      "status": "pending",
+      "game_name": "Crazy Taxi: World Tour",
+      "steam_publishers": [
+        "SEGA"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "2027",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 4199910,
+      "status": "pending",
+      "game_name": "Total War: WARHAMMER 40,000",
+      "steam_publishers": [
+        "SEGA"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "To be announced",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    },
+    {
+      "appid": 4665290,
+      "status": "pending",
+      "game_name": "Alien: Isolation 2",
+      "steam_publishers": [
+        "SEGA"
+      ],
+      "coming_soon": true,
+      "steam_store_release_date": "Coming soon",
+      "standard_package_ids": [],
+      "reason": "awaiting_US_preorder_or_release"
+    }
+  ]
+}
