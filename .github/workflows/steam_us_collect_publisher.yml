@@ -25,7 +25,7 @@ jobs:
     timeout-minutes: 25
     steps:
       # The publishers have separate runners. Start from the latest main
-      # so the second job picks up the first publisher's published rows.
+      # so each job picks up the rows already published by earlier jobs.
       - uses: actions/checkout@v4
         with:
           ref: main
@@ -63,7 +63,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add capcom-price-tracker/catalog.csv capcom-price-tracker/catalog_bandai.csv capcom-price-tracker/data
+          git add -u -- ':(glob)capcom-price-tracker/catalog*.csv'
+          git add -- capcom-price-tracker/data
           if ! git diff --cached --quiet; then
             git commit -m "data: update Steam US $PUBLISHER snapshots"
             git push

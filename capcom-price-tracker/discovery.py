@@ -21,6 +21,8 @@ PUBLISHER_CONFIG = {
         "Bandai Namco Entertainment ", "BANDAI NAMCO Entertainment ",
         "Bandai Namco Games Inc.", "Namco Bandai Games Inc.",
     ), dt.date(2026, 11, 9)),
+    "KONAMI": (("KONAMI",), dt.date(2026, 11, 10)),
+    "KOEI TECMO": (("KOEI TECMO GAMES CO., LTD.",), dt.date(2026, 11, 10)),
 }
 PAGE_SIZE = 50
 MAX_RESULTS_PER_ALIAS = 500
@@ -91,7 +93,9 @@ def release_date(value: str) -> dt.date | None:
 
 def standard_options(app: dict, title: str) -> dict[int, int]:
     target = name_key(title)
-    accepted = {target, target + "standardedition"}
+    accepted = {target, target + "standard", target + "standardedition"}
+    if (app.get("release_date") or {}).get("coming_soon") is True:
+        accepted |= {name + "withprepurchasebonus" for name in accepted}
     options: dict[int, int] = {}
     for group in app.get("package_groups") or []:
         if not isinstance(group, dict):

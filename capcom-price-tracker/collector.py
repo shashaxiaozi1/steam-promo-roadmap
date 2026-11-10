@@ -20,6 +20,13 @@ import urllib.request
 ROOT = Path(__file__).resolve().parent
 CATALOG = ROOT / "catalog.csv"
 DATA = ROOT / "data"
+# Existing filenames are kept so that the Actions outputs remain compatible.
+PUBLISHER_FILES = {
+    "CAPCOM": ("catalog.csv", "excluded.csv", "latest.json"),
+    "BANDAI NAMCO": ("catalog_bandai.csv", "excluded_bandai.csv", "bandai_namco.json"),
+    "KONAMI": ("catalog_konami.csv", "excluded_konami.csv", "konami.json"),
+    "KOEI TECMO": ("catalog_koei_tecmo.csv", "excluded_koei_tecmo.csv", "koei_tecmo.json"),
+}
 # First successful run after the one-time 49 → 73 reconciliation. Older
 # observations remain in snapshots.csv but do not re-enter the published series.
 REPORT_START_RUN_ID = "20261106T061310Z"
@@ -318,7 +325,7 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     if confirmed:
         write_json(state_path, state)
     if discovery_report is not None:
-        name = "latest.json" if publisher == "CAPCOM" else "bandai_namco.json"
+        name = PUBLISHER_FILES[publisher][2]
         write_json(output / "discovery" / name, {"run_id": run_id, **discovery_report})
     atomic_csv(snapshot, SNAPSHOT_FIELDS, rows)
     atomic_csv(output / "powerbi" / "snapshots.csv", SNAPSHOT_FIELDS, combined)
@@ -335,20 +342,20 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--catalog", type=Path)
     parser.add_argument("--output", type=Path, default=DATA)
-    parser.add_argument("--publisher", choices=("CAPCOM", "BANDAI NAMCO"), default="CAPCOM")
+    parser.add_argument("--publisher", choices=tuple(PUBLISHER_FILES), default="CAPCOM")
     parser.add_argument("--discover", action="store_true", help="Check Steam for eligible releases")
     parser.add_argument("--audit-availability", action="store_true", help="Check the active US purchase offers")
     args = parser.parse_args()
     try:
-        bandai = args.publisher == "BANDAI NAMCO"
-        catalog_path = args.catalog or (ROOT / "catalog_bandai.csv" if bandai else CATALOG)
+        catalog_name, excluded_name, _ = PUBLISHER_FILES[args.publisher]
+        catalog_path = args.catalog or ROOT / catalog_name
         catalog = load_catalog(catalog_path)
         if any(row["publisher"] != args.publisher for row in catalog):
             raise CollectionError("Catalog publisher does not match --publisher")
         discover = None
         if args.discover:
             from discovery import scan
-            excluded_path = ROOT / ("excluded_bandai.csv" if bandai else "excluded.csv")
+            excluded_path = ROOT / excluded_name
             excluded = {int(x["appid"]) for x in read_csv(excluded_path)}
             names = tuple(item["game_name"] for item in catalog)
             discover = lambda known: scan(known | excluded, fetch_json, tracked_names=names, publisher=args.publisher)

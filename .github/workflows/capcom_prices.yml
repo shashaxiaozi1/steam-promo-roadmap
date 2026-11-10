@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'capcom-price-tracker/catalog.csv'
-      - 'capcom-price-tracker/catalog_bandai.csv'
+      - 'capcom-price-tracker/catalog*.csv'
+      - 'capcom-price-tracker/excluded*.csv'
       - 'capcom-price-tracker/collector.py'
       - 'capcom-price-tracker/discovery.py'
       - 'capcom-price-tracker/availability.py'
@@ -40,5 +40,23 @@ jobs:
     with:
       publisher: CAPCOM
       slug: capcom
+      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
+      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
+  konami:
+    needs: capcom
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    uses: ./.github/workflows/steam_us_collect_publisher.yml
+    with:
+      publisher: KONAMI
+      slug: konami
+      discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
+      audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
+  koei_tecmo:
+    needs: konami
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    uses: ./.github/workflows/steam_us_collect_publisher.yml
+    with:
+      publisher: KOEI TECMO
+      slug: koei-tecmo
       discover: ${{ github.event_name != 'schedule' || github.event.schedule == '17 0 * * *' }}
       audit_availability: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '17 0 * * *' }}
