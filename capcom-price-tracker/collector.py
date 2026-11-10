@@ -16,19 +16,12 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from publisher_config import PUBLISHER_FILES
+
 
 ROOT = Path(__file__).resolve().parent
 CATALOG = ROOT / "catalog.csv"
 DATA = ROOT / "data"
-# Existing filenames are kept so that the Actions outputs remain compatible.
-PUBLISHER_FILES = {
-    "CAPCOM": ("catalog.csv", "excluded.csv", "latest.json"),
-    "BANDAI NAMCO": ("catalog_bandai.csv", "excluded_bandai.csv", "bandai_namco.json"),
-    "KONAMI": ("catalog_konami.csv", "excluded_konami.csv", "konami.json"),
-    "KOEI TECMO": ("catalog_koei_tecmo.csv", "excluded_koei_tecmo.csv", "koei_tecmo.json"),
-    "SEGA": ("catalog_sega.csv", "excluded_sega.csv", "sega.json"),
-    "SQUARE ENIX": ("catalog_square_enix.csv", "excluded_square_enix.csv", "square_enix.json"),
-}
 # First successful run after the one-time 49 → 73 reconciliation. Older
 # observations remain in snapshots.csv but do not re-enter the published series.
 REPORT_START_RUN_ID = "20261106T061310Z"

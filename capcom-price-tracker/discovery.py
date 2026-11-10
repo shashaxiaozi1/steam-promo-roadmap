@@ -9,23 +9,10 @@ import re
 import unicodedata
 from urllib.parse import urlencode, urlsplit
 
+from publisher_config import PUBLISHER_CONFIG
+
 
 STORE = "https://store.steampowered.com"
-PUBLISHER_ALIASES = ("Capcom", "CAPCOM Co., Ltd.", "Capcom U.S.A., Inc.")
-AUTO_RELEASE_FROM = dt.date(2026, 11, 6)
-PUBLISHER_CONFIG = {
-    "CAPCOM": (PUBLISHER_ALIASES, AUTO_RELEASE_FROM),
-    "BANDAI NAMCO": ((
-        "Bandai Namco Entertainment", "Bandai Namco Entertainment Inc.",
-        "BANDAI NAMCO Entertainment", "BANDAI NAMCO Entertainment Inc.",
-        "Bandai Namco Entertainment ", "BANDAI NAMCO Entertainment ",
-        "Bandai Namco Games Inc.", "Namco Bandai Games Inc.",
-    ), dt.date(2026, 11, 9)),
-    "KONAMI": (("KONAMI",), dt.date(2026, 11, 10)),
-    "KOEI TECMO": (("KOEI TECMO GAMES CO., LTD.",), dt.date(2026, 11, 10)),
-    "SEGA": (("SEGA",), dt.date(2026, 11, 10)),
-    "SQUARE ENIX": (("Square Enix",), dt.date(2026, 11, 10)),
-}
 PAGE_SIZE = 50
 MAX_RESULTS_PER_ALIAS = 500
 
