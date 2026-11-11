@@ -72,7 +72,7 @@ def read_state(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 
-def report_rows(rows: list[dict], output: Path, report_start: str, current_state: dict | None = None) -> list[dict]:
+def retirement_stops(output: Path, current_state: dict | None = None) -> dict:
     stops = {}
     states = [read_state(p) for p in (output / "lifecycle").glob("*.json")]
     if current_state is not None:
@@ -80,6 +80,11 @@ def report_rows(rows: list[dict], output: Path, report_start: str, current_state
     for state in states:
         for appid, entry in state.get("retired", {}).items():
             stops[(entry["catalog_entry"]["publisher"], appid)] = entry["effective_date_jst"]
+    return stops
+
+
+def report_rows(rows: list[dict], output: Path, report_start: str, current_state: dict | None = None) -> list[dict]:
+    stops = retirement_stops(output, current_state)
     return [x for x in rows if x["run_id"] >= report_start
             and x["date_jst"] < stops.get((x["publisher"], str(x["appid"])), "9999-12-31")]
 
@@ -242,6 +247,10 @@ def rollups(rows: list[dict]) -> tuple[list[dict], list[dict]]:
             "first_observed_utc": samples[0]["observed_at_utc"],
             "last_observed_utc": samples[-1]["observed_at_utc"],
         })
+    return games, publisher_rollups(games)
+
+
+def publisher_rollups(games: list[dict]) -> list[dict]:
     by_pub: dict[tuple, list[dict]] = {}
     for x in games:
         by_pub.setdefault((x["date_jst"], x["publisher"]), []).append(x)
@@ -255,7 +264,29 @@ def rollups(rows: list[dict]) -> tuple[list[dict], list[dict]]:
             "games_on_sale": on_sale, "sale_share": f"{on_sale / count:.6f}",
             "sample_count_min": min(samples), "sample_count_max": max(samples),
         })
-    return games, publishers
+    return publishers
+
+
+def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_START_RUN_ID,
+                  current_state: dict | None = None) -> tuple[list[dict], list[dict]]:
+    from price_history import merge_daily
+
+    live, _ = rollups(report_rows(rows, output, report_start, current_state))
+    historical = [row for path in sorted((output / "history").glob("*/daily_games.csv"))
+                  for row in read_csv(path)]
+    stops = retirement_stops(output, current_state)
+    historical = [x for x in historical if x["date_jst"] <
+                  stops.get((x["publisher"], str(x["appid"])), "9999-12-31")]
+    try:
+        games = [{field: row[field] for field in GAME_FIELDS}
+                 for row in merge_daily(live, historical)]
+    except ValueError as exc:
+        raise CollectionError(str(exc)) from exc
+    # Single-game backfills do not imply complete publisher coverage.
+    live_keys = {(x["date_jst"], x["publisher"], str(x["appid"])) for x in live}
+    pubs = publisher_rollups([x for x in games
+                             if (x["date_jst"], x["publisher"], str(x["appid"])) in live_keys])
+    return games, pubs
 
 
 def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_id: str | None = None,
@@ -363,7 +394,7 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     if confirmed:
         from availability import retire
         retire(state, confirmed)
-    games, pubs = rollups(report_rows(combined, output, report_start, state))
+    games, pubs = build_reports(combined, output, report_start, state)
     if additions or confirmed:
         with catalog_path.open(newline="", encoding="utf-8-sig") as f:
             catalog_fields = next(csv.reader(f))
