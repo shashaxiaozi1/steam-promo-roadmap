@@ -10,6 +10,8 @@ on:
       - 'capcom-price-tracker/discovery.py'
       - 'capcom-price-tracker/publisher_config.py'
       - 'capcom-price-tracker/availability.py'
+      - 'capcom-price-tracker/price_history.py'
+      - 'capcom-price-tracker/data/history/**'
       - '.github/workflows/capcom_prices.yml'
       - '.github/workflows/steam_us_collect_publisher.yml'
   workflow_dispatch:
