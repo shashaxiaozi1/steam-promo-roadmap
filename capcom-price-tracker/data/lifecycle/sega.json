@@ -5,5 +5,31 @@
   "unavailable": 0,
   "unknown": 0,
   "pending": {},
-  "retired": {}
+  "retired": {
+    "3551340": {
+      "effective_date_jst": "2026-11-12",
+      "first_unavailable_date_jst": "2026-11-12",
+      "retired_at_utc": "2026-11-11T19:49:24+00:00",
+      "confirmed_at_utc": "2026-11-12T05:25:11+00:00",
+      "retirement_time_is_exact": false,
+      "reason": "user_confirmed_US_delisting_after_successor_release",
+      "catalog_entry": {
+        "publisher": "SEGA",
+        "appid": "3551340",
+        "game_name": "Football Manager 26",
+        "package_id": "1253262",
+        "tracked_edition": "Base",
+        "steam_store_release_date": "Nov 4, 2025",
+        "release_date_source": "https://store.steampowered.com/app/3551340/?cc=us&l=english",
+        "tracking_note": ""
+      },
+      "evidence": {
+        "source": "user confirmation and first stored unsuccessful US package response",
+        "raw_path": "data/raw/20261111T194720Z.jsonl",
+        "package_id": "1253262",
+        "first_unavailable_observed_utc": "2026-11-11T19:49:24+00:00",
+        "note": "First observed unavailable timestamp is approximate; FM27 release time is not used as delisting time."
+      }
+    }
+  }
 }

@@ -22,10 +22,12 @@ def rebuild(output: Path = c.DATA) -> dict:
                 samples[k] = row
                 recovered += 1
     combined = sorted(samples.values(), key=lambda x: (x["run_id"], int(x["appid"])))
-    games, pubs = c.build_reports(combined, output)
+    games, pubs, coverage = c.build_reports(combined, output, include_coverage=True)
     c.atomic_csv(output / "powerbi" / "snapshots.csv", c.SNAPSHOT_FIELDS, combined)
     c.atomic_csv(output / "powerbi" / "daily_games.csv", c.GAME_FIELDS, games)
     c.atomic_csv(output / "powerbi" / "daily_publishers.csv", c.PUBLISHER_FIELDS, pubs)
+    from collection_coverage import FIELDS
+    c.atomic_csv(output / "powerbi" / "collection_coverage.csv", FIELDS, coverage)
     return dict(recovered_samples=recovered, game_days=len(games), publisher_days=len(pubs))
 
 

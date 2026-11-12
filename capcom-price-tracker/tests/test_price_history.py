@@ -4,6 +4,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).parents[1]))
 import collector as c
@@ -84,6 +85,27 @@ class HistoryTests(unittest.TestCase):
         self.assertEqual((merged[0]["sample_count"], merged[0]["is_on_sale_any"], merged[0]["max_discount_percent"]), (2, 1, 10))
         with self.assertRaises(ValueError):
             merge_daily([dict(live, package_id="20")], days)
+
+    def test_import_retired_master_accepts_past_history_without_reactivation(self):
+        import import_history
+        self.history([("2025-09-10 15:00:00", "9.00", "9.00"),
+                      ("2025-09-12 15:00:00", "10.00", "9.00")])
+        state = {"retired": {"1": {"catalog_entry": self.item, "effective_date_jst": "2025-09-12"}}}
+        c.write_json(c.lifecycle_path(self.root, "SEGA"), state)
+        master = c.mark_retired_entries([self.item], state)
+        catalog = self.root / "catalog.csv"
+        c.atomic_csv(catalog, list(master[0]), master)
+        original_catalog = catalog.read_bytes()
+        original_state = c.lifecycle_path(self.root, "SEGA").read_bytes()
+        args = ["import_history.py", "--input", str(self.root / "source.csv"),
+                "--catalog", str(catalog), "--appid", "1", "--currency", "USD",
+                "--source-timezone", "UTC", "--list-price-usd", "10.00", "--output", str(self.root)]
+        with patch.object(sys, "argv", args), patch("builtins.print"):
+            import_history.main()
+        self.assertEqual([r["date_jst"] for r in c.read_csv(self.root / "powerbi/daily_games.csv")], ["2025-09-11"])
+        self.assertEqual(catalog.read_bytes(), original_catalog)
+        self.assertEqual(c.lifecycle_path(self.root, "SEGA").read_bytes(), original_state)
+        self.assertTrue((self.root / "history/1/source.csv").exists())
 
     def test_retirement_filter_also_applies_to_imports(self):
         days, _, _ = self.history([

@@ -99,6 +99,25 @@ def load_catalog(path: Path = CATALOG) -> list[dict]:
     return items
 
 
+def active_catalog(items: list[dict], state: dict) -> list[dict]:
+    return [r for r in items if r.get("tracking_status", "active") in ("", "active")
+            and str(r["appid"]) not in state.get("retired", {})]
+
+
+def mark_retired_entries(items: list[dict], state: dict) -> list[dict]:
+    result = []
+    for row in items:
+        entry = state.get("retired", {}).get(str(row["appid"]))
+        if entry is None:
+            result.append(dict(row))
+        else:
+            result.append(dict(row, tracking_status="retired",
+                               retired_at_utc=entry.get("retired_at_utc") or "",
+                               retirement_effective_date_jst=entry["effective_date_jst"],
+                               retirement_reason=entry.get("reason", "confirmed_US_purchase_unavailable")))
+    return result
+
+
 def fetch_package(package_id: int) -> dict:
     url = "https://store.steampowered.com/api/packagedetails?" + urllib.parse.urlencode(
         {"packageids": package_id, "cc": "us", "l": "english"}
@@ -268,7 +287,7 @@ def publisher_rollups(games: list[dict]) -> list[dict]:
 
 
 def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_START_RUN_ID,
-                  current_state: dict | None = None) -> tuple[list[dict], list[dict]]:
+                  current_state: dict | None = None, *, include_coverage: bool = False):
     from price_history import merge_daily
 
     live, _ = rollups(report_rows(rows, output, report_start, current_state))
@@ -288,7 +307,19 @@ def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_STA
     live_keys = {(x["date_jst"], x["publisher"], str(x["appid"])) for x in live}
     pubs = publisher_rollups([x for x in games
                              if (x["date_jst"], x["publisher"], str(x["appid"])) in live_keys])
-    return games, pubs
+    from collection_coverage import build_coverage
+    coverage = build_coverage(live, output, report_start, stops, current_state)
+    by_key = {(p["date_jst"], p["publisher"]): p for p in pubs}
+    for record in coverage:
+        if record["is_complete"]:
+            continue
+        k = record["date_jst"], record["publisher"]
+        prior = by_key.get(k, {})
+        by_key[k] = dict(date_jst=k[0], publisher=k[1], games_monitored=record["expected_games"],
+                         games_on_sale="", sale_share="", sample_count_min=0,
+                         sample_count_max=prior.get("sample_count_max", 0))
+    pubs = [by_key[k] for k in sorted(by_key)]
+    return (games, pubs, coverage) if include_coverage else (games, pubs)
 
 
 def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_id: str | None = None,
@@ -302,55 +333,62 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     publisher = next(iter(publishers))
     state_path = lifecycle_path(output, publisher)
     state = read_state(state_path)
+    original_catalog = list(catalog)
+    catalog = active_catalog(catalog, state)
     run_id = run_id or dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     if not (len(run_id) == 16 and run_id.endswith("Z") and run_id[8] == "T"):
         raise CollectionError("Invalid run_id")
     snapshot = output / "snapshots" / (run_id + ".csv")
     if snapshot.exists():
         raise CollectionError(f"Run already exists: {run_id}")
+    def request_price(item):
+        try:
+            return fetch(int(item["package_id"]))
+        except (OSError, ValueError) as exc:
+            return {"package_id": int(item["package_id"]), "error": str(exc), "observed_at_utc": timestamp()}
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
-        responses = list(pool.map(lambda x: fetch(int(x["package_id"])), catalog))
+        responses = list(pool.map(request_price, catalog))
     raw = output / "raw" / (run_id + ".jsonl")
     raw.parent.mkdir(parents=True, exist_ok=True)
     with raw.open("x", encoding="utf-8") as f:
         for item, response in zip(catalog, responses):
             f.write(json.dumps({"appid": int(item["appid"]), **response}, ensure_ascii=False) + "\n")
     confirmed = []
+    run_date = dt.datetime.strptime(run_id, "%Y%m%dT%H%M%SZ").replace(tzinfo=dt.timezone.utc).astimezone(
+        dt.timezone(dt.timedelta(hours=9))).date().isoformat()
     if availability_request is not None:
-        from availability import JST, assess
-        run_date = dt.datetime.strptime(run_id, "%Y%m%dT%H%M%SZ").replace(tzinfo=dt.timezone.utc).astimezone(JST).date()
-        state, confirmed, checks = assess(catalog, responses, availability_request, state, run_date.isoformat())
+        from availability import assess
+        state, confirmed, checks = assess(catalog, responses, availability_request, state, run_date)
         with raw.open("a", encoding="utf-8") as f:
             for item, signal, response in checks:
                 if signal != "available":
                     f.write(json.dumps({"appid": int(item["appid"]), "availability_signal": signal,
                                         **response}, ensure_ascii=False) + "\n")
-        # Persist evidence even when a price failure prevents publishing this run.
+        # Persist availability evidence independently of individual price failures.
         write_json(state_path, state)
     removed = {int(x["appid"]) for x in confirmed}
-    active = [item for item in catalog if int(item["appid"]) not in removed]
     rows, errors = [], []
     for item, response in zip(catalog, responses):
-        if int(item["appid"]) in removed:
-            continue
         try:
             rows.append(parse_price(item, response, run_id))
         except (CollectionError, KeyError, TypeError) as exc:
-            errors.append(str(exc))
-    if errors:
-        raise CollectionError(f"Incomplete run ({len(errors)} errors); raw saved at {raw}: " + "; ".join(errors))
-    if len({row["date_jst"] for row in rows}) != 1:
+            if int(item["appid"]) not in removed:
+                errors.append({"appid": int(item["appid"]), "error": str(exc)})
+    if rows and len({row["date_jst"] for row in rows}) != 1:
         raise CollectionError(f"Run crossed midnight JST; raw saved at {raw}; retry for a full day")
+    if rows:
+        run_date = rows[0]["date_jst"]
     old = read_csv(output / "powerbi" / "snapshots.csv")
     if any(x["run_id"] == run_id for x in old):
         raise CollectionError(f"Run already in history: {run_id}")
     additions = []
     discovery_report = None
     if discover is not None:
-        known = {int(x["appid"]) for x in catalog} | {int(x) for x in state.get("retired", {})}
+        known = {int(x["appid"]) for x in original_catalog} | {int(x) for x in state.get("retired", {})}
         proposed, discovery_report = discover(known)
-        used_packages = {int(x["package_id"]) for x in catalog}
-        used_apps = {int(x["appid"]) for x in catalog}
+        used_packages = {int(x["package_id"]) for x in original_catalog}
+        used_apps = {int(x["appid"]) for x in original_catalog}
         with raw.open("a", encoding="utf-8") as f:
             for item, decision in proposed:
                 appid = int(item["appid"])
@@ -382,7 +420,7 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
                     pid = int(item["package_id"])
                     if pid in used_packages:
                         raise CollectionError("package_or_app_already_tracked")
-                    if row["date_jst"] != rows[0]["date_jst"]:
+                    if row["date_jst"] != run_date:
                         raise CollectionError("first_price_crossed_midnight_JST")
                 except (CollectionError, KeyError, TypeError, ValueError, AttributeError) as exc:
                     decision.update(status="review", reason=str(exc))
@@ -395,15 +433,24 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     combined = sorted(old + rows, key=lambda x: (x["run_id"], int(x["appid"])))
     if confirmed:
         from availability import retire
-        retire(state, confirmed)
-    games, pubs = build_reports(combined, output, report_start, state)
+        retire(state, confirmed, observations=combined)
+    status = {"run_id": run_id, "date_jst": run_date, "publisher": publisher,
+              "expected_appids": [int(x["appid"]) for x in catalog + additions],
+              "successful_appids": [int(x["appid"]) for x in rows], "errors": errors,
+              "status": "partial" if errors and rows else "failed" if errors else "complete"}
+    write_json(output / "collection_status" / (run_id + ".json"), status)
+    games, pubs, coverage = build_reports(combined, output, report_start, state, include_coverage=True)
     if additions or confirmed:
         with catalog_path.open(newline="", encoding="utf-8-sig") as f:
             catalog_fields = next(csv.reader(f))
         catalog_fields = list(dict.fromkeys([*catalog_fields, "steam_store_release_date"]))
         if any("tracking_note" in item for item in additions) and "tracking_note" not in catalog_fields:
             catalog_fields.append("tracking_note")
-        atomic_csv(catalog_path, catalog_fields, active + additions)
+        saved_catalog = mark_retired_entries(original_catalog + additions, state)
+        if confirmed:
+            catalog_fields = list(dict.fromkeys([*catalog_fields, "tracking_status", "retired_at_utc",
+                                                "retirement_effective_date_jst", "retirement_reason"]))
+        atomic_csv(catalog_path, catalog_fields, saved_catalog)
     if confirmed:
         write_json(state_path, state)
     if discovery_report is not None:
@@ -413,10 +460,13 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
     atomic_csv(output / "powerbi" / "snapshots.csv", SNAPSHOT_FIELDS, combined)
     atomic_csv(output / "powerbi" / "daily_games.csv", GAME_FIELDS, games)
     atomic_csv(output / "powerbi" / "daily_publishers.csv", PUBLISHER_FIELDS, pubs)
+    from collection_coverage import FIELDS
+    atomic_csv(output / "powerbi" / "collection_coverage.csv", FIELDS, coverage)
     return {"run_id": run_id, "rows": len(rows), "on_sale": sum(x["is_on_sale"] for x in rows),
             "raw": str(raw), "snapshot": str(snapshot), "history_rows": len(combined),
             "added_appids": [int(x["appid"]) for x in additions],
             "publisher": publisher, "retired_appids": sorted(removed),
+            "status": status["status"], "collection_errors": errors,
             "discovery_errors": (discovery_report or {}).get("errors", [])}
 
 
@@ -441,10 +491,14 @@ if __name__ == "__main__":
             excluded = {int(x["appid"]) for x in read_csv(excluded_path)}
             names = tuple(item["game_name"] for item in catalog)
             discover = lambda known: scan(known | excluded, fetch_json, tracked_names=names, publisher=args.publisher)
-        print(json.dumps(collect(catalog, args.output, discover=discover,
+        result = collect(catalog, args.output, discover=discover,
                                  catalog_path=catalog_path,
                                  availability_request=fetch_json if args.audit_availability else None,
-                                 edition_request=fetch_json),
-                         ensure_ascii=False))
+                                 edition_request=fetch_json)
+        print(json.dumps(result, ensure_ascii=False))
+        if result["status"] == "partial":
+            print(f"::warning::{args.publisher}: {len(result['collection_errors'])} games lack valid prices; see collection_status and coverage exports")
+        elif result["status"] == "failed":
+            parser.exit(1, "No valid prices collected; expected game coverage retained for review\n")
     except CollectionError as exc:
         parser.exit(1, str(exc) + "\n")

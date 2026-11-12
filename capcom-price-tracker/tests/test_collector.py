@@ -137,17 +137,32 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual({x["appid"]: x["status"] for x in report["candidates"]},
                          {3: "added", 4: "pending", 5: "review", 6: "review", 7: "review", 8: "added"})
 
-    def test_missing_package_does_not_publish_partial_heatmap(self):
+    def test_missing_package_preserves_valid_samples_and_blanks_incomplete_rate(self):
         def fetch(pid):
             r = response(pid, pid // 10, "2026-10-30T00:00:00+00:00")
             if pid == 20:
                 r["body"] = {"20": {"success": False}}
             return r
 
-        with self.assertRaises(collector.CollectionError):
-            collector.collect(self.catalog, self.data, fetch, "20261030T000000Z")
-        self.assertFalse((self.data / "powerbi/snapshots.csv").exists())
-        self.assertTrue((self.data / "raw/20261030T000000Z.jsonl").exists())
+        result = collector.collect(self.catalog, self.data, fetch, "20261107T000000Z")
+        self.assertEqual((result["status"], result["rows"]), ("partial", 1))
+        self.assertEqual([r["appid"] for r in collector.read_csv(self.data / "powerbi/daily_games.csv")], ["1"])
+        pub = collector.read_csv(self.data / "powerbi/daily_publishers.csv")[0]
+        self.assertEqual((pub["games_monitored"], pub["games_on_sale"], pub["sale_share"]), ("2", "", ""))
+        coverage = collector.read_csv(self.data / "powerbi/collection_coverage.csv")[0]
+        self.assertEqual((coverage["observed_games"], coverage["missing_appids"], coverage["status"]),
+                         ("1", "2", "incomplete"))
+        # An offline rebuild must not turn a partial publisher into a smaller denominator.
+        rebuild = load_module("rebuild_reports")
+        rebuild.rebuild(self.data)
+        self.assertEqual(collector.read_csv(self.data / "powerbi/daily_publishers.csv")[0], pub)
+        # A later valid observation on the same JST day resolves daily coverage.
+        collector.collect(self.catalog, self.data,
+                          lambda pid: response(pid, pid // 10, "2026-10-30T12:00:00+00:00", 0, 1000),
+                          "20261107T120000Z")
+        pub = collector.read_csv(self.data / "powerbi/daily_publishers.csv")[0]
+        self.assertEqual((pub["games_monitored"], pub["games_on_sale"], pub["sale_share"]),
+                         ("2", "1", "0.500000"))
 
     def test_fallback_uses_us_list_price_and_preserves_the_reason(self):
         path = self.data / "catalog.csv"
@@ -213,7 +228,7 @@ class CollectorTests(unittest.TestCase):
         with self.assertRaises(collector.CollectionError):
             collector.parse_price(self.catalog[0], r, "20261030T000000Z")
 
-    def test_confirmed_delisting_removes_active_row_and_preserves_history(self):
+    def test_confirmed_delisting_keeps_master_row_and_last_valid_day(self):
         path = self.data / "catalog.csv"
         collector.atomic_csv(path, list(self.catalog[0]), self.catalog)
 
@@ -241,12 +256,95 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(len(collector.load_catalog(path)), 2)
         result = run("2026-11-12")
         self.assertEqual(result["retired_appids"], [2])
-        self.assertEqual([x["appid"] for x in collector.load_catalog(path)], ["1"])
+        master = collector.load_catalog(path)
+        self.assertEqual([x["appid"] for x in master], ["1", "2"])
+        self.assertEqual(master[1]["tracking_status"], "retired")
         pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
-        self.assertEqual([x["games_monitored"] for x in pubs], ["2", "2", "2", "1"])
+        self.assertEqual([x["games_monitored"] for x in pubs], ["2", "2", "2", "2"])
         state = collector.read_state(collector.lifecycle_path(self.data, "CAPCOM"))
         self.assertEqual(state["retired"]["2"]["evidence"]["dates"], ["2026-11-09", "2026-11-11", "2026-11-12"])
-        self.assertEqual(state["retired"]["2"]["effective_date_jst"], "2026-11-12")
+        self.assertEqual(state["retired"]["2"]["effective_date_jst"], "2026-11-13")
+        self.assertFalse(state["retired"]["2"]["retirement_time_is_exact"])
+        history = (self.data / "snapshots/20261112T000000Z.csv").read_bytes()
+        requested = []
+        def active_only(pid):
+            requested.append(pid)
+            return response(pid, pid // 10, "2026-11-13T00:00:00+00:00")
+        collector.collect(master, self.data, active_only, "20261113T000000Z")
+        self.assertEqual(requested, [10])
+        self.assertEqual((self.data / "snapshots/20261112T000000Z.csv").read_bytes(), history)
+        pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
+        self.assertEqual([x["games_monitored"] for x in pubs], ["2", "2", "2", "2", "1"])
+
+    def test_persistent_unavailable_retires_from_first_failure_without_erasing_past(self):
+        path = self.data / "catalog.csv"
+        collector.atomic_csv(path, list(self.catalog[0]), self.catalog)
+        collector.collect(self.catalog, self.data,
+                          lambda pid: response(pid, pid // 10, "2026-11-08T00:00:00+00:00"),
+                          "20261108T000000Z")
+        for date in ("2026-11-09", "2026-11-10", "2026-11-11"):
+            stamp = date + "T00:00:00+00:00"
+            def fetch(pid):
+                if pid == 20:
+                    raise OSError("package unavailable")
+                return response(pid, 1, stamp)
+            def app(url):
+                aid = int(parse_qs(urlsplit(url).query)["appids"][0])
+                data = {"steam_appid": aid, "type": "game", "is_free": False,
+                        "release_date": {"coming_soon": False},
+                        "package_groups": [{"subs": [{"packageid": 10}]}] if aid == 1 else []}
+                return {"http_status": 200, "observed_at_utc": stamp,
+                        "body": {str(aid): {"success": True, "data": data}}}
+            result = collector.collect(collector.load_catalog(path), self.data, fetch,
+                                       date.replace("-", "") + "T000000Z",
+                                       catalog_path=path, availability_request=app)
+            pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
+            if date != "2026-11-11":
+                self.assertEqual(pubs[-1]["sale_share"], "")
+        self.assertEqual(result["retired_appids"], [2])
+        self.assertEqual([(r["games_monitored"], r["sale_share"]) for r in pubs],
+                         [("2", "1.000000"), ("1", "1.000000"), ("1", "1.000000"), ("1", "1.000000")])
+        retired = collector.read_state(collector.lifecycle_path(self.data, "CAPCOM"))["retired"]["2"]
+        self.assertEqual(retired["effective_date_jst"], "2026-11-09")
+        self.assertEqual(retired["retired_at_utc"], "2026-11-09T00:00:00+00:00")
+        self.assertEqual(retired["confirmed_at_utc"], "2026-11-11T00:00:00+00:00")
+        games = collector.read_csv(self.data / "powerbi/daily_games.csv")
+        self.assertEqual([r["date_jst"] for r in games if r["appid"] == "2"], ["2026-11-08"])
+
+    def test_total_outage_keeps_expected_denominator_and_other_publisher(self):
+        other = [{**self.catalog[0], "publisher": "SEGA", "appid": "3", "package_id": "30"}]
+        collector.collect(other, self.data,
+                          lambda pid: response(pid, 3, "2026-11-10T00:00:00+00:00"), "20261110T000000Z")
+        result = collector.collect(self.catalog, self.data, lambda pid: {"http_status": 429},
+                                   "20261110T010000Z")
+        self.assertEqual((result["status"], result["rows"]), ("failed", 0))
+        pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
+        self.assertEqual([(r["publisher"], r["games_monitored"], r["sale_share"]) for r in pubs],
+                         [("CAPCOM", "2", ""), ("SEGA", "1", "1.000000")])
+
+    def test_last_game_retired_no_requests_and_retired_history_can_still_display(self):
+        collector.collect(self.catalog[:1], self.data,
+                          lambda pid: response(pid, 1, "2026-11-10T00:00:00+00:00"), "20261110T000000Z")
+        state = {"retired": {"1": {"catalog_entry": self.catalog[0],
+                                 "first_unavailable_date_jst": "2026-11-11",
+                                 "effective_date_jst": "2026-11-11"}}}
+        collector.write_json(collector.lifecycle_path(self.data, "CAPCOM"), state)
+        master = collector.mark_retired_entries(self.catalog[:1], state)
+        def unexpected(pid):
+            self.fail("Retired package must never be requested")
+        result = collector.collect(master, self.data, unexpected, "20261111T000000Z")
+        self.assertEqual(result["rows"], 0)
+        pubs = collector.read_csv(self.data / "powerbi/daily_publishers.csv")
+        self.assertEqual([(r["games_monitored"], r["sale_share"]) for r in pubs], [("1", "1.000000"), ("0", "")])
+        games = collector.read_csv(self.data / "powerbi/daily_games.csv")
+        self.assertEqual([r["date_jst"] for r in games], ["2026-11-10"])
+        # Imported old dates also survive; dates at/after the retirement cutoff don't display.
+        old = dict(games[0], date_jst="2025-01-01", sample_count="0")
+        after = dict(old, date_jst="2026-11-12")
+        collector.atomic_csv(self.data / "history/1/daily_games.csv", collector.GAME_FIELDS, [old, after])
+        load_module("rebuild_reports").rebuild(self.data)
+        games = collector.read_csv(self.data / "powerbi/daily_games.csv")
+        self.assertEqual([r["date_jst"] for r in games], ["2025-01-01", "2026-11-10"])
 
     def test_alternate_offer_or_endpoint_error_is_not_delisting(self):
         from availability import purchase_signal
