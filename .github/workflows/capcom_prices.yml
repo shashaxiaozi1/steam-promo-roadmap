@@ -11,6 +11,8 @@ on:
       - 'capcom-price-tracker/publisher_config.py'
       - 'capcom-price-tracker/availability.py'
       - 'capcom-price-tracker/price_history.py'
+      - 'capcom-price-tracker/capcom_history.py'
+      - 'capcom-price-tracker/rebuild_reports.py'
       - 'capcom-price-tracker/data/history/**'
       - '.github/workflows/capcom_prices.yml'
       - '.github/workflows/steam_us_collect_publisher.yml'
@@ -32,11 +34,34 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     outputs:
       publishers: ${{ steps.registry.outputs.publishers }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Rebuild approved history before collecting prices
+        run: |
+          python3 capcom-price-tracker/rebuild_reports.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- capcom-price-tracker/data/powerbi
+          if ! git diff --cached --quiet; then
+            git commit -m "data: rebuild verified Steam price history"
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                break
+              fi
+              if [ "$attempt" -eq 3 ]; then exit 1; fi
+              git fetch origin main
+              if git merge-base --is-ancestor FETCH_HEAD HEAD; then exit 1; fi
+              if ! git rebase FETCH_HEAD; then
+                git rebase --abort
+                exit 1
+              fi
+            done
+          fi
       - id: registry
         name: Read publisher registry
         run: |

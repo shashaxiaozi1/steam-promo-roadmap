@@ -274,6 +274,8 @@ def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_STA
     live, _ = rollups(report_rows(rows, output, report_start, current_state))
     historical = [row for path in sorted((output / "history").glob("*/daily_games.csv"))
                   for row in read_csv(path)]
+    from capcom_history import load_history
+    historical.extend(load_history(output / "history" / "capcom"))
     stops = retirement_stops(output, current_state)
     historical = [x for x in historical if x["date_jst"] <
                   stops.get((x["publisher"], str(x["appid"])), "9999-12-31")]

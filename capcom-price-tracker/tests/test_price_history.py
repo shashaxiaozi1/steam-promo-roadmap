@@ -97,6 +97,55 @@ class HistoryTests(unittest.TestCase):
         self.assertEqual([x["date_jst"] for x in games], ["2025-09-11"])
         self.assertEqual(pubs, [])
 
+    def test_reviewed_start_and_unknown_zero_do_not_fabricate_free_promotions(self):
+        self.history([
+            ("2025-09-10 15:00:00", "9.00", "9.00"),
+            ("2025-09-11 15:00:00", "10.00", "9.00"),
+            ("2025-09-12 15:00:00", "0", ""),
+            ("2025-09-14 15:00:00", "10.00", "9.00"),
+            ("2025-09-15 15:00:00", "10.00", "9.00"),
+        ])
+        days, _, meta = reconstruct(self.root / "source.csv", self.item, "10.00",
+                                    coverage_start_utc="2025-09-11T15:00:00+00:00",
+                                    zero_price_is_unknown=True)
+        self.assertEqual([x["date_jst"] for x in days], ["2025-09-12", "2025-09-15"])
+        self.assertTrue(all(x["is_on_sale_any"] == 0 for x in days))
+        self.assertEqual(meta["zero_price_policy"], "unknown")
+
+    def test_offline_rebuild_recovers_samples_idempotently_and_rejects_conflicts(self):
+        from rebuild_reports import rebuild
+        row = dict(run_id="20261111T010000Z", observed_at_utc="2026-11-11T01:00:00+00:00",
+                   date_jst="2026-11-11", **self.item, currency="USD", list_price_usd="10.00",
+                   sale_price_usd="9.00", discount_percent="10", is_on_sale="1")
+        c.atomic_csv(self.root / "snapshots/20261111T010000Z.csv", c.SNAPSHOT_FIELDS, [row])
+        self.assertEqual(rebuild(self.root)["recovered_samples"], 1)
+        self.assertEqual(rebuild(self.root)["recovered_samples"], 0)
+        self.assertEqual(len(c.read_csv(self.root / "powerbi/snapshots.csv")), 1)
+        c.atomic_csv(self.root / "snapshots/20261111T010000Z.csv", c.SNAPSHOT_FIELDS,
+                     [dict(row, sale_price_usd="8.00")])
+        with self.assertRaises(c.CollectionError):
+            rebuild(self.root)
+
+    def test_capcom_manifest_checks_hash_and_ignores_unapproved_sources(self):
+        import hashlib
+        from capcom_history import load_history
+        days, _, meta = self.history([
+            ("2025-09-10 15:00:00", "9.00", "9.00"),
+            ("2025-09-11 15:00:00", "10.00", "9.00"),
+        ])
+        folder = self.root / "capcom"
+        (folder / "sources").mkdir(parents=True)
+        source = folder / "sources/1.csv"
+        source.write_bytes((self.root / "source.csv").read_bytes())
+        entry = dict(self.item, publisher="CAPCOM", status="approved", list_price_usd="10.00",
+                     source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
+                     coverage_start_utc="", imported_days=len(days), sale_days=meta["sale_days"])
+        c.atomic_csv(folder / "review.csv", list(entry), [entry, dict(entry, appid="2", status="review")])
+        self.assertEqual(len(load_history(folder)), len(days))
+        source.write_text("changed")
+        with self.assertRaisesRegex(ValueError, "changed after review"):
+            load_history(folder)
+
 
 if __name__ == "__main__":
     unittest.main()
