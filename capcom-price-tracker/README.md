@@ -57,6 +57,14 @@ Steam 官方发售公告修正日期。新增 24 款的 UTC 日期取自各游�
 
 ### 导入历史价格
 
+2026-11-12 核对后，CAPCOM 有效清单由 73 款增至 79 款，新增 Bionic Commando、Bionic Commando: Rearmed、Remember Me、Dungeons & Dragons: Chronicles of Mystara、DuckTales: Remastered 和 The Disney Afternoon Collection。均使用独立美元本体包，不使用多人份数包或跨游戏捆绑包。另 10 个美国区不可购 AppID 不加入；Devil fight（1251290）的发行主体未获确认，留在排除表等待人工核验。详见 `capcom_scope_review_20261112.csv`。
+
+用户提供的 79 份原始 CSV 保存于 `data/history/capcom/sources/`，原始字节及 SHA-256 可复核。
+`data/history/capcom/review.csv` 逐款记录导入状态与原因：42 款通过本轮固定基准价与价格区间核验，导入 91,070 条游戏日记录；37 款涉及永久改价、版本/章节切换或无法匹配整数折扣的价格，需要分段核验后再导入。
+已导入部分的零价格统一保留为未知区间，不当成免费购买或 100% 折扣；未确认的开头区间从首次明确原价的事件起才纳入。原始文件完整保留，不将未知时段补成未促销。
+这 42 款不是整个 CAPCOM 的完整历史，因此历史发行商参与率暂不发布；当前自动采价从新增 6 款首次有效样本日开始按 79 款计算，旧日期保持原观察口径。
+每轮 Actions 在采价前先运行 `rebuild_reports.py`，恢复已保存但尚未汇总的不可变快照并重建日表，价格采集继续完成后续观察。历史重建不需要额外请求 Steam。
+
 已导入 Football Manager 26（3551340）的 SteamDB 美国区原始导出。原文件、SHA-256、核验基准价、价格区间及每日覆盖边界保存于 `data/history/3551340/`。
 UTC 原始时间转换为日本时间，使用左闭右开区间；某个日本日期内只要有正时长的促销，就记为 1。
 本次覆盖 2025-09-11 00:00:03 至 2026-11-09 17:42:11 JST，425 个日期，其中 164 天有促销。最后一天仅覆盖到该时刻，不推算至今天。

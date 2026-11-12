@@ -25,7 +25,9 @@ def money(value: str) -> Decimal:
         raise ValueError("Invalid USD price") from exc
 
 
-def reconstruct(path: Path, item: dict, list_price_usd: str) -> tuple[list[dict], list[dict], dict]:
+def reconstruct(path: Path, item: dict, list_price_usd: str, *,
+                coverage_start_utc: str | None = None,
+                zero_price_is_unknown: bool = False) -> tuple[list[dict], list[dict], dict]:
     """Use explicit list price, UTC timestamps, and half-open [start,end) intervals.
 
     No value is carried beyond the last exported timestamp. A blank price at a
@@ -51,12 +53,19 @@ def reconstruct(path: Path, item: dict, list_price_usd: str) -> tuple[list[dict]
             blank_rows += 1
             continue
         price = money(text)
+        if zero_price_is_unknown and price == 0:
+            continue
         if price > baseline:
             raise ValueError("Observed price exceeds verified baseline; use a reviewed list-price timeline")
         if events[when] is not None and events[when] != price:
             raise ValueError("Conflicting prices at the same UTC timestamp")
         events[when] = price
     dates = sorted(events)
+    if coverage_start_utc:
+        start = dt.datetime.fromisoformat(coverage_start_utc.replace("Z", "+00:00"))
+        if start.tzinfo is None or start not in events:
+            raise ValueError("Reviewed coverage start must match a UTC source event")
+        dates = [x for x in dates if x >= start]
     if len(dates) < 2:
         raise ValueError("At least two timestamps are required to establish coverage")
     intervals, days, unknown_days = [], {}, set()
@@ -116,6 +125,8 @@ def reconstruct(path: Path, item: dict, list_price_usd: str) -> tuple[list[dict]
                 "sample_count": "0 indicates reconstructed history, not API snapshots",
                 "observation_fields": "Original source event timestamps contributing price evidence, not synthetic samples",
                 "publisher_rates": "Not published from partial per-game historical coverage"}
+    if zero_price_is_unknown:
+        metadata["zero_price_policy"] = "unknown"
     return list(days.values()), intervals, metadata
 
 

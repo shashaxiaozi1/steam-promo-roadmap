@@ -1,0 +1,18 @@
+appid,game_name,decision,package_id,list_price_usd,reason
+6550,Devil May Cry® 3 Special Edition,exclude_unavailable,,,No independent US purchase offer
+6570,Onimusha 3: Demon Siege,exclude_unavailable,,,No independent US purchase offer
+21600,Age of Booty™,exclude_unavailable,,,No independent US purchase offer
+21640,Flock!,exclude_unavailable,,,No independent US purchase offer
+21660,Street Fighter® IV,exclude_unavailable,,,No independent US purchase offer
+21670,Bionic Commando,add,1867,9.99,Verified independent US full-game purchase
+21680,Bionic Commando: Rearmed,add,1896,9.99,Verified independent US full-game purchase
+45700,Devil May Cry 4,exclude_unavailable,,,No independent US purchase offer
+45710,Dark Void™,exclude_unavailable,,,No independent US purchase offer
+45720,Lost Planet: Extreme Condition Colonies Edition,exclude_unavailable,,,No independent US purchase offer
+45730,Dark Void™ Zero,exclude_unavailable,,,No independent US purchase offer
+45750,Lost Planet® 2,exclude_unavailable,,,No independent US purchase offer
+228300,Remember Me,add,27234,29.99,Verified independent US full-game purchase
+229480,Dungeons & Dragons: Chronicles of Mystara,add,28459,14.99,Verified independent US full-game purchase
+237630,DuckTales: Remastered,add,29738,14.99,Verified independent US full-game purchase
+525040,The Disney Afternoon Collection,add,125287,19.99,Verified independent US full-game purchase
+1251290,Devil fight,review_publisher,,,Publisher identity not verified beyond storefront name
