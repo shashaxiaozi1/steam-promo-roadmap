@@ -21,11 +21,12 @@ def main():
     args = parser.parse_args()
     items = [x for x in c.load_catalog(args.catalog) if int(x["appid"]) == args.appid]
     if len(items) != 1:
-        parser.error("AppID must be in the active, verified tracking catalog")
+        parser.error("AppID must be in the verified master catalog")
     item = items[0]
-    if str(args.appid) in c.read_state(c.lifecycle_path(args.output, item["publisher"])).get("retired", {}):
-        parser.error("Retired AppID cannot be automatically reintroduced")
     days, intervals, manifest = reconstruct(args.input, item, args.list_price_usd)
+    retired = c.read_state(c.lifecycle_path(args.output, item["publisher"])).get("retired", {}).get(str(args.appid))
+    if retired and not any(day["date_jst"] < retired["effective_date_jst"] for day in days):
+        parser.error("Retired game import must contain coverage before retirement")
     payload = args.input.read_bytes()
     manifest.update(appid=args.appid, publisher=item["publisher"], game_name=item["game_name"],
                     package_id=int(item["package_id"]), tracked_edition=item["tracked_edition"],

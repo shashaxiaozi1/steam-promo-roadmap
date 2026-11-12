@@ -85,10 +85,12 @@ def assess(catalog: list[dict], responses: list[dict], request, state: dict, run
             dates = entry.get("dates", []) if entry.get("package_id") == str(item["package_id"]) else []
             # Preserve distinct observation dates; stale evidence does not accumulate.
             dates = [date for date in dates if dt.date.fromisoformat(date) >= today - dt.timedelta(days=4)]
+            first_observed = entry.get("first_unavailable_observed_utc") if dates else None
             if run_date not in dates:
                 dates.append(run_date)
             pending[key] = {"dates": sorted(dates), "package_id": str(item["package_id"]),
-                            "signal": signal, "last_checked_utc": response.get("observed_at_utc")}
+                            "signal": signal, "last_checked_utc": response.get("observed_at_utc"),
+                            "first_unavailable_observed_utc": first_observed or response.get("observed_at_utc")}
             if len(dates) >= CONFIRM_DAYS:
                 confirmed.append(item)
     summary = {
@@ -99,11 +101,23 @@ def assess(catalog: list[dict], responses: list[dict], request, state: dict, run
     return summary, confirmed, checks
 
 
-def retire(state: dict, items: list[dict]) -> None:
+def retire(state: dict, items: list[dict], *, observations=()) -> None:
     for item in items:
         key = str(item["appid"])
+        evidence = state["pending"].pop(key)
+        first_date = min(evidence.get("dates") or [state["date_jst"]])
+        observed_days = [r["date_jst"] for r in observations
+                         if str(r["appid"]) == key and r["publisher"] == item["publisher"]]
+        effective = dt.date.fromisoformat(first_date)
+        if observed_days:
+            effective = max(effective, dt.date.fromisoformat(max(observed_days)) + dt.timedelta(days=1))
         state["retired"][key] = {
-            "effective_date_jst": state["date_jst"],
+            "effective_date_jst": effective.isoformat(),
+            "first_unavailable_date_jst": first_date,
+            "retired_at_utc": evidence.get("first_unavailable_observed_utc"),
+            "confirmed_at_utc": evidence.get("last_checked_utc"),
+            "retirement_time_is_exact": False,
+            "reason": "confirmed_US_purchase_unavailable",
             "catalog_entry": item,
-            "evidence": state["pending"].pop(key),
+            "evidence": evidence,
         }
