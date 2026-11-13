@@ -44,7 +44,7 @@ def main():
     merge_daily(live, others + days)
     dest.mkdir(parents=True, exist_ok=True)
     (dest / "source.csv").write_bytes(payload)
-    c.atomic_csv(dest / "daily_games.csv", [*c.GAME_FIELDS, "coverage_start_utc", "coverage_end_utc_exclusive"], days)
+    c.atomic_csv(dest / "daily_games.csv", [*c.GAME_FIELDS, "coverage_start_utc", "coverage_end_utc_exclusive", "coverage_seconds"], days)
     c.atomic_csv(dest / "intervals.csv", list(intervals[0]), intervals)
     c.write_json(dest / "manifest.json", manifest)
     games, pubs = c.build_reports(rows, args.output)

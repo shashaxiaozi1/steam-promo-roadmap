@@ -1,0 +1,1293 @@
+{
+  "schema_version": 1,
+  "reviewed_on_jst": "2026-11-13",
+  "scope": "Current 79 tracked CAPCOM AppIDs; not all titles ever published by CAPCOM",
+  "edition_policy": "User permits complete base-game editions to continue by AppID across version changes; single chapters and cross-game bundle-only periods are excluded",
+  "inference": "Historical list prices are inferred from reviewed event transitions and recurring price ceilings. Original exports contain only Final price, not initial/list price or purchase package identity. No official historical discount or package identity is asserted.",
+  "price_rule": "Binary sale is final price below reviewed period baseline. max_discount_percent is rounded from price ratio and may differ from Steam advertised integer discounts.",
+  "zero_rule": "Zero and blank prices mean unknown; no interpolation beyond last source timestamp",
+  "games": {
+    "6510": {
+      "game_name": "Lost Planet: Extreme Condition",
+      "source_sha256": "2ef84b85178e699743b4105b99933026b0e00615c73639e31a301c9852eb6dbc",
+      "eligible_start_utc": "2007-06-26T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T07:03:54+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "21690": {
+      "game_name": "Resident Evil 5",
+      "source_sha256": "08f194aca17c584b10b4f07c08049bbef9c35a0d0483fbc1d29e8a49351970f7",
+      "eligible_start_utc": "2009-09-14T15:00:00+00:00",
+      "first_source_event_utc": "2012-09-25T17:23:10+00:00",
+      "historical_edition": "Historical full-game edition; user authorized original/current edition continuity",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "45740": {
+      "game_name": "Dead Rising 2",
+      "source_sha256": "cfaeefc71086eecb8951ed4f694dee81edbc99c2fe2336d999c5eee852c8bad4",
+      "eligible_start_utc": "2010-09-27T15:00:00+00:00",
+      "first_source_event_utc": "2012-10-29T17:23:10+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:45+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "45760": {
+      "game_name": "Ultra Street Fighter IV",
+      "source_sha256": "11f99e0692acf7e8516104d1e921904e0762ab46b36a77cf275686d7660db327",
+      "eligible_start_utc": "2012-11-22T14:23:32+00:00",
+      "first_source_event_utc": "2012-11-22T14:23:32+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:45+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "45770": {
+      "game_name": "Dead Rising 2: Off the Record",
+      "source_sha256": "8b580fe14e26200af5cd00a9a571760643188565b1e69a526d8183ab7491ac69",
+      "eligible_start_utc": "2011-10-11T15:00:00+00:00",
+      "first_source_event_utc": "2012-12-19T18:26:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:45+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2015-03-17T16:40:04+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "220440": {
+      "game_name": "DmC: Devil May Cry",
+      "source_sha256": "172b48e03b257687243e760e331078c06111fe67eebd990cb14b1c60f26f8045",
+      "eligible_start_utc": "2013-01-23T15:00:00+00:00",
+      "first_source_event_utc": "2013-05-30T17:26:09+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2015-05-13T18:10:12+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "221040": {
+      "game_name": "Resident Evil 6",
+      "source_sha256": "c51e85cc2047420adaa7d74cd5aa47e03269d2ddc966d423716659878a148716",
+      "eligible_start_utc": "2013-03-21T15:00:00+00:00",
+      "first_source_event_utc": "2013-07-12T01:06:10+00:00",
+      "historical_edition": "Historical full-game edition; user authorized original/current edition continuity",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2015-06-11T17:18:49+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2024-02-07T01:30:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "222480": {
+      "game_name": "Resident Evil Revelations",
+      "source_sha256": "81119b5b1b3b81c44d445f74f3441c816b0d94d7d01ba2a1468a3868b855d3bd",
+      "eligible_start_utc": "2013-05-19T15:00:00+00:00",
+      "first_source_event_utc": "2013-07-25T15:40:44+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2015-05-13T23:55:05+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2024-02-07T01:10:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "226720": {
+      "game_name": "Lost Planet 3",
+      "source_sha256": "9022108a22599cc853c39ec5832bd0d6438c3949b980fa5d49b5f403615090ea",
+      "eligible_start_utc": "2013-08-04T13:58:49+00:00",
+      "first_source_event_utc": "2013-08-04T13:58:49+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-08-04T13:58:49+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2015-02-17T17:25:05+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "235210": {
+      "game_name": "STRIDER",
+      "source_sha256": "946af94a81e7e7b007a235de6f244ba342e821ea440f104a6ccf3f1e8e2bdfc9",
+      "eligible_start_utc": "2014-02-06T05:32:57+00:00",
+      "first_source_event_utc": "2014-02-06T05:32:57+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2014-02-06T05:32:57+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "254700": {
+      "game_name": "Resident Evil 4 (2005)",
+      "source_sha256": "9be021234fed60c8c562794a5150f2c0a66590283c779e1e44797b1de0126b8f",
+      "eligible_start_utc": "2014-01-23T05:32:53+00:00",
+      "first_source_event_utc": "2014-01-23T05:32:53+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2014-01-23T05:32:53+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "265550": {
+      "game_name": "Dead Rising 3 Apocalypse Edition",
+      "source_sha256": "815ed06d08e598818d800066c5db651d80c2f0fa8a9a001c9c883f636569ac74",
+      "eligible_start_utc": "2014-06-19T19:00:02+00:00",
+      "first_source_event_utc": "2014-06-19T19:00:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2014-06-19T19:00:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2016-08-18T03:20:08+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "287290": {
+      "game_name": "Resident Evil Revelations 2",
+      "source_sha256": "09bc623f88539514560768dec3445842f3f9b76edb01dc489f6e715840798928",
+      "eligible_start_utc": "2015-01-27T17:15:02+00:00",
+      "first_source_event_utc": "2015-01-27T17:15:02+00:00",
+      "historical_edition": "Full-season preorder / later full-game offer; Episode One period excluded",
+      "periods": [
+        {
+          "start_utc": "2015-01-27T17:15:02+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2015-02-25T05:00:07+00:00",
+          "list_price_usd": null,
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2024-12-17T18:10:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "304240": {
+      "game_name": "Resident Evil",
+      "source_sha256": "f8f2a63c95e4e0cd224528fa2418b3c0dc3d18d6a5e98ac847d87cc5818542a6",
+      "eligible_start_utc": "2015-01-10T08:10:18+00:00",
+      "first_source_event_utc": "2015-01-10T08:10:18+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2015-01-10T08:10:18+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "329050": {
+      "game_name": "Devil May Cry 4 Special Edition",
+      "source_sha256": "61a6534574dcdf5ecba3719f042731e956a8a2f08b94b21a5b498cffc16c00b2",
+      "eligible_start_utc": "2015-05-13T02:00:35+00:00",
+      "first_source_event_utc": "2015-05-13T02:00:35+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2015-05-13T02:00:35+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "339340": {
+      "game_name": "Resident Evil 0",
+      "source_sha256": "de0cc0af5bd9261405fd8886d9f44728449c1a59b8eba588bb57428245fb9688",
+      "eligible_start_utc": "2015-12-08T18:00:05+00:00",
+      "first_source_event_utc": "2015-12-08T18:00:05+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2015-12-08T18:00:05+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "357190": {
+      "game_name": "ULTIMATE MARVEL VS. CAPCOM 3",
+      "source_sha256": "109165929ec7901b3eaac6c3fe0aa163e64094ef4caf25dd75fe13dea7abe244",
+      "eligible_start_utc": "2017-02-07T05:00:03+00:00",
+      "first_source_event_utc": "2017-02-07T05:00:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2017-02-07T05:00:03+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "363440": {
+      "game_name": "Mega Man Legacy Collection",
+      "source_sha256": "c8a5549fd49b5c2e9ac5519aa3c36bc0d5d2399ae62eab5a1b2bb0033664baf0",
+      "eligible_start_utc": "2015-08-24T15:00:00+00:00",
+      "first_source_event_utc": "2015-08-25T04:00:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2015-08-25T04:00:03+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "367500": {
+      "game_name": "Dragon's Dogma: Dark Arisen",
+      "source_sha256": "258d02d5ece288d95439509f70d9e71813a597ddfc83c82665915f1d0ce5ef3b",
+      "eligible_start_utc": "2015-12-17T18:25:06+00:00",
+      "first_source_event_utc": "2015-12-17T18:25:06+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2015-12-17T18:25:06+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "390340": {
+      "game_name": "Umbrella Corps",
+      "source_sha256": "a00a8370d0e9279f3bc4a8262078099bebe278dd300a76e571bd17063c562b77",
+      "eligible_start_utc": "2016-05-24T03:00:04+00:00",
+      "first_source_event_utc": "2016-05-24T03:00:04+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2016-05-24T03:00:04+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2018-07-11T15:10:28+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "418370": {
+      "game_name": "Resident Evil 7 Biohazard",
+      "source_sha256": "09bc489f5993bf7bc890fc39d2305db7748d416676fa01c84fb121567c9e782c",
+      "eligible_start_utc": "2016-11-01T17:10:18+00:00",
+      "first_source_event_utc": "2016-11-01T17:10:18+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2016-11-01T17:10:18+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2017-12-12T08:11:09+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2022-05-18T07:05:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "427190": {
+      "game_name": "Dead Rising",
+      "source_sha256": "445bd118a45b8f4233c5dc5e933f8933ec4969f0aebb0db0cce1d1fdda380a4c",
+      "eligible_start_utc": "2016-08-09T15:10:16+00:00",
+      "first_source_event_utc": "2016-08-09T15:10:16+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2016-08-09T15:10:16+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2024-06-26T01:00:05+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "493840": {
+      "game_name": "Marvel vs. Capcom: Infinite",
+      "source_sha256": "fd2b1f27ce8f40d3dd7a8c97ee1a6d47579e5ed2418e61765cae9d1bc1af6b63",
+      "eligible_start_utc": "2017-04-25T16:10:11+00:00",
+      "first_source_event_utc": "2017-04-25T16:10:11+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2017-04-25T16:10:11+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2018-02-28T01:00:17+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "495050": {
+      "game_name": "Mega Man Legacy Collection 2",
+      "source_sha256": "580aafaec25ddcafe8b103b01dc3612e295f3048db1038f9a96b3c86d348428f",
+      "eligible_start_utc": "2017-07-11T16:10:12+00:00",
+      "first_source_event_utc": "2017-07-11T16:10:12+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2017-07-11T16:10:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "543460": {
+      "game_name": "Dead Rising 4",
+      "source_sha256": "2e7217d7af5546d9c39b31bcb5db575dc8056ad2b245fc5846475c0bded0c99d",
+      "eligible_start_utc": "2017-02-22T17:00:14+00:00",
+      "first_source_event_utc": "2017-02-22T17:00:14+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2017-02-22T17:00:14+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2018-01-23T19:40:07+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2018-06-07T08:10:45+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "582010": {
+      "game_name": "Monster Hunter: World",
+      "source_sha256": "1c8ca7b996ff63318ae9debaca7d8ddf6b21371d606aaed6d6719049da68f893",
+      "eligible_start_utc": "2018-07-09T15:50:15+00:00",
+      "first_source_event_utc": "2018-07-09T15:50:15+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-07-09T15:50:15+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2020-01-09T17:00:09+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "586200": {
+      "game_name": "Street Fighter 30th Anniversary Collection",
+      "source_sha256": "fbf919cc8e14c97955b7321eafa6bee219177af91e38b3e936dc91504ca93fbf",
+      "eligible_start_utc": "2018-03-20T16:10:12+00:00",
+      "first_source_event_utc": "2018-03-20T16:10:12+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-03-20T16:10:12+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2020-08-04T16:05:41+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "587620": {
+      "game_name": "Okami HD",
+      "source_sha256": "2a3b3d9fca010952f45b2651689763436e95872a89551a12a196d61a2f5ef46e",
+      "eligible_start_utc": "2017-11-14T18:00:12+00:00",
+      "first_source_event_utc": "2017-11-14T18:00:12+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2017-11-14T18:00:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "601150": {
+      "game_name": "Devil May Cry 5",
+      "source_sha256": "7bdc5c5926971f4c7dcbdae41067dcb73231c746982f672d5624c4dbf1eadd38",
+      "eligible_start_utc": "2018-09-20T16:10:08+00:00",
+      "first_source_event_utc": "2018-09-20T16:10:08+00:00",
+      "historical_edition": "Historical full-game edition; user authorized original/current edition continuity",
+      "periods": [
+        {
+          "start_utc": "2018-09-20T16:10:08+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2020-11-10T00:15:04+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2021-09-01T00:00:07+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "631510": {
+      "game_name": "Devil May Cry HD Collection",
+      "source_sha256": "3ba0a5d7049284fb10c3d3435f435a91b723aaee780767d36ff0550fbdd9ca2d",
+      "eligible_start_utc": "2018-02-13T18:10:21+00:00",
+      "first_source_event_utc": "2018-02-13T18:10:21+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-02-13T18:10:21+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "742300": {
+      "game_name": "Mega Man 11",
+      "source_sha256": "d9c32bb014c699cbaea67e33bbc8ebe4525466c1532386de215fcb485e29f987",
+      "eligible_start_utc": "2018-05-29T17:20:36+00:00",
+      "first_source_event_utc": "2018-05-29T17:20:36+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-05-29T17:20:36+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "743890": {
+      "game_name": "Mega Man X Legacy Collection",
+      "source_sha256": "f2dea2681591f5396d6129b95f2a51f93eacd561e909f5ba202ce9904c0dcf3c",
+      "eligible_start_utc": "2018-07-24T15:00:00+00:00",
+      "first_source_event_utc": "2018-07-24T16:00:13+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-07-24T16:00:13+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "743900": {
+      "game_name": "Mega Man X Legacy Collection 2",
+      "source_sha256": "51e7f31e95da5e97b828dc7091de1c9858228bcd737482d6aa9901f26a292b3f",
+      "eligible_start_utc": "2018-07-24T15:00:00+00:00",
+      "first_source_event_utc": "2018-07-24T16:00:13+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-07-24T16:00:13+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "761600": {
+      "game_name": "Onimusha: Warlords",
+      "source_sha256": "1b49af507428cb098915fbe5282dfb9cfe1b270050b1efbf95f357e4c6cb80c9",
+      "eligible_start_utc": "2018-11-14T17:20:33+00:00",
+      "first_source_event_utc": "2018-11-14T17:20:33+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-11-14T17:20:33+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "787480": {
+      "game_name": "Phoenix Wright: Ace Attorney Trilogy",
+      "source_sha256": "071473102552701e4b082d32b981ba2f4948bc1ba0844b5914569c63ee32b77e",
+      "eligible_start_utc": "2019-02-27T17:20:08+00:00",
+      "first_source_event_utc": "2019-02-27T17:20:08+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2019-02-27T17:20:08+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "883710": {
+      "game_name": "Resident Evil 2",
+      "source_sha256": "0471b4e9a3e6d93e7a1bdf28747ec28fd44161334d0b5f53d05fb6c553c5b03c",
+      "eligible_start_utc": "2018-06-22T00:32:28+00:00",
+      "first_source_event_utc": "2018-06-22T00:32:28+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-06-22T00:32:28+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2020-02-25T16:10:28+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "885150": {
+      "game_name": "Capcom Beat 'Em Up Bundle",
+      "source_sha256": "66c433df4c5d6395647fdf7b3d6db39ed00f22793011e0dd8ceba001fcc99fe7",
+      "eligible_start_utc": "2018-10-10T15:00:00+00:00",
+      "first_source_event_utc": "2018-10-10T17:10:04+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2018-10-10T17:10:04+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "952060": {
+      "game_name": "Resident Evil 3",
+      "source_sha256": "b0b589522574c952999e01274cd0dd1edd750a1f6d8d89e3ad23839bed33d4a1",
+      "eligible_start_utc": "2019-12-18T00:00:03+00:00",
+      "first_source_event_utc": "2019-12-18T00:00:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2019-12-18T00:00:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2022-02-14T03:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "999020": {
+      "game_name": "Mega Man Zero/ZX Legacy Collection",
+      "source_sha256": "a81dd0b26c8fadfff28c7888b3f146a7816d59054167155bcd1a7d9bc02f01ab",
+      "eligible_start_utc": "2020-02-25T15:00:00+00:00",
+      "first_source_event_utc": "2020-02-25T18:30:06+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2020-02-25T18:30:06+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1158850": {
+      "game_name": "The Great Ace Attorney Chronicles",
+      "source_sha256": "debbc0772a8f75f5256466be7d28818582a67ecf4f12c576fb2e3e234d12f6f1",
+      "eligible_start_utc": "2021-07-26T15:00:00+00:00",
+      "first_source_event_utc": "2021-07-27T04:00:05+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2021-09-01T17:06:08+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1196590": {
+      "game_name": "Resident Evil Village",
+      "source_sha256": "9c8a1017dfdc5a843eb923ee61cb4531ece07c9af62ddc1dd325d3aeb5c69ef0",
+      "eligible_start_utc": "2021-01-21T23:50:06+00:00",
+      "first_source_event_utc": "2021-01-21T23:50:06+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2022-01-20T19:30:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2022-07-22T00:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1277400": {
+      "game_name": "Monster Hunter Stories 2: Wings of Ruin",
+      "source_sha256": "62e649de4c8bc6fac5e4ebde6312408dfb0ac1c7a4acc9ad6d82b70d3188f211",
+      "eligible_start_utc": "2021-04-23T01:05:03+00:00",
+      "first_source_event_utc": "2021-04-23T01:05:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2021-04-23T01:05:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2023-02-16T08:05:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1286320": {
+      "game_name": "Exoprimal",
+      "source_sha256": "d97d723e71122ddad8127e6d9a68930ae68949e027f342fdb3c6a73c10ceed4f",
+      "eligible_start_utc": "2023-03-09T22:05:02+00:00",
+      "first_source_event_utc": "2023-03-09T22:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2023-03-09T22:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1364780": {
+      "game_name": "Street Fighter™ 6",
+      "source_sha256": "6277d3304bfd5f7bb8df1ba17d06264526469ad201ed7c8a6e5a3fde6cd4e28e",
+      "eligible_start_utc": "2022-12-09T01:05:02+00:00",
+      "first_source_event_utc": "2022-12-09T01:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2022-12-09T01:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2025-04-24T02:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1375400": {
+      "game_name": "Ghosts 'n Goblins Resurrection",
+      "source_sha256": "e5abbbc66eadbd736974fc6057023c137bcada1120a58485a4e2847be0278ce0",
+      "eligible_start_utc": "2021-04-26T17:05:12+00:00",
+      "first_source_event_utc": "2021-04-26T17:05:12+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2021-04-26T17:05:12+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1446780": {
+      "game_name": "MONSTER HUNTER RISE",
+      "source_sha256": "e1fb1d3b9d223c4374be20d4e5c9f8dd0e2c38d98a7129a0d4f2e24f9ccbc02b",
+      "eligible_start_utc": "2021-09-30T13:55:12+00:00",
+      "first_source_event_utc": "2021-09-30T13:55:12+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2021-09-30T13:55:12+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2022-10-12T07:01:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1685750": {
+      "game_name": "Capcom Fighting Collection",
+      "source_sha256": "f9c886dd86a5823c30f81e45f6c68bde1bb4fa0608e0054cfab977548dad98b8",
+      "eligible_start_utc": "2022-04-11T15:05:03+00:00",
+      "first_source_event_utc": "2022-04-11T15:05:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2022-04-11T15:05:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2025-05-16T00:05:04+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1798010": {
+      "game_name": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "source_sha256": "d49e833d33a766a47624f4b50eab181a1031ec2f1606630c9555feb322ae19eb",
+      "eligible_start_utc": "2023-04-13T15:00:00+00:00",
+      "first_source_event_utc": "2022-12-14T00:10:06+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2023-04-14T04:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1798020": {
+      "game_name": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "source_sha256": "49d66b5537f5fa9740e0f48b80af82746d74bd92c985fe7e24d1cb58c412ce39",
+      "eligible_start_utc": "2023-04-13T15:00:00+00:00",
+      "first_source_event_utc": "2022-12-14T00:10:06+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2023-04-14T04:30:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "1967430": {
+      "game_name": "Ghost Trick: Phantom Detective",
+      "source_sha256": "76316f706bb731ee96b0332e24da8f495a5d67acc13ddfae21ce461a33a0fd66",
+      "eligible_start_utc": "2023-03-09T22:05:02+00:00",
+      "first_source_event_utc": "2023-03-09T22:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2023-03-09T22:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2050650": {
+      "game_name": "Resident Evil 4",
+      "source_sha256": "4a7450b01bf1f27aac5ba529b91447dbb2a9246e247fa5476ac1b9061927264a",
+      "eligible_start_utc": "2022-10-20T23:05:02+00:00",
+      "first_source_event_utc": "2022-10-20T23:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2022-10-20T23:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2024-02-09T05:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2054970": {
+      "game_name": "Dragon's Dogma 2",
+      "source_sha256": "4a221ff4fd28975079c401cbf699360babe15a7ba460d96903446c027ae7314f",
+      "eligible_start_utc": "2023-11-28T21:40:03+00:00",
+      "first_source_event_utc": "2023-11-28T21:40:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2023-11-28T21:40:03+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2026-06-25T00:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2183650": {
+      "game_name": "MEGA MAN X DiVE Offline",
+      "source_sha256": "63f2a47aca0979c2e69b07b5e2a98cad23d583c704f1f7f84ccfb3b219b9a371",
+      "eligible_start_utc": "2023-08-18T01:10:02+00:00",
+      "first_source_event_utc": "2023-08-18T01:10:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2023-08-18T01:10:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2187220": {
+      "game_name": "Apollo Justice: Ace Attorney Trilogy",
+      "source_sha256": "09a52c603e35ffc8e45860f17c0d04952eed157c16280ee97a3460ae724c2fc4",
+      "eligible_start_utc": "2023-11-30T00:05:02+00:00",
+      "first_source_event_utc": "2023-11-30T00:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2023-11-30T00:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2246340": {
+      "game_name": "Monster Hunter Wilds",
+      "source_sha256": "0f8c3a5e8e8730d41e56d2016383b29d77c0ea24aa2115a455162512fb2afb0c",
+      "eligible_start_utc": "2024-09-25T01:00:02+00:00",
+      "first_source_event_utc": "2024-09-25T01:00:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2024-09-25T01:00:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2026-08-04T00:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2356560": {
+      "game_name": "Monster Hunter Stories",
+      "source_sha256": "33445735654be603ed2e1feb4f4bf9fc72ada72088d87e2c03c41cc1924c2b4d",
+      "eligible_start_utc": "2024-04-25T01:05:02+00:00",
+      "first_source_event_utc": "2024-04-25T01:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2024-04-25T01:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2400430": {
+      "game_name": "Capcom Fighting Collection 2",
+      "source_sha256": "01501f6c6b4b6b20a45093d87fd51a286e3f00d25c950c7488793811572d9831",
+      "eligible_start_utc": "2025-02-05T01:00:03+00:00",
+      "first_source_event_utc": "2025-02-05T01:00:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2025-02-05T01:00:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2401970": {
+      "game_name": "Ace Attorney Investigations Collection",
+      "source_sha256": "104c303980fe26adb3e5df8a8dc5fe596cab5efe830b757ac83450db61bbd28b",
+      "eligible_start_utc": "2024-06-18T15:05:01+00:00",
+      "first_source_event_utc": "2024-06-18T15:05:01+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2024-06-18T15:05:01+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2510710": {
+      "game_name": "Kunitsu-Gami: Path of the Goddess",
+      "source_sha256": "4b4ba7275a6c09d8ebaa0a12c93f6f015e3fa4e531c08fbc9d8acd183917e351",
+      "eligible_start_utc": "2024-06-07T23:05:01+00:00",
+      "first_source_event_utc": "2024-06-07T23:05:01+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2024-06-07T23:05:01+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2025-04-02T14:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2527390": {
+      "game_name": "Dead Rising Deluxe Remaster",
+      "source_sha256": "cd46ee928492d610d451739fe225e52714ae079bf5b3e8829ae9f69dc5a3c0c7",
+      "eligible_start_utc": "2024-07-01T22:05:02+00:00",
+      "first_source_event_utc": "2024-07-01T22:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2024-07-01T22:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2634890": {
+      "game_name": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+      "source_sha256": "ff97a4626290488d2d8c9edd93fc0a4472f8a7d3c9c1bf1bfd1048a21e8646e0",
+      "eligible_start_utc": "2024-08-27T15:05:02+00:00",
+      "first_source_event_utc": "2024-08-27T15:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2024-08-27T15:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2638890": {
+      "game_name": "Onimusha: Way of the Sword",
+      "source_sha256": "80b57d0b276e048131cd49757e3ef13b4ea6d5c5574160e5a6c869d38a37b036",
+      "eligible_start_utc": "2026-06-03T01:00:03+00:00",
+      "first_source_event_utc": "2026-06-03T01:00:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2026-06-03T01:00:03+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "2852190": {
+      "game_name": "Monster Hunter Stories 3: Twisted Reflection",
+      "source_sha256": "8b96fca425a98168d940c1635fac13410c640e3d7ac33e7320aab22f7d0b7909",
+      "eligible_start_utc": "2025-10-31T08:05:02+00:00",
+      "first_source_event_utc": "2025-10-31T08:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2025-10-31T08:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "3046600": {
+      "game_name": "Onimusha 2: Samurai's Destiny",
+      "source_sha256": "2f8edf53f1ae74a5cc72027672920b0f51306cbc37be28dbc07309032212fbec",
+      "eligible_start_utc": "2025-02-13T00:05:02+00:00",
+      "first_source_event_utc": "2025-02-13T00:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2025-02-13T00:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "3357650": {
+      "game_name": "PRAGMATA",
+      "source_sha256": "adf1406aaf35ec0bde8806773dae6fad9057140ff23a0a91b525114f4ddd0a15",
+      "eligible_start_utc": "2025-12-12T00:55:03+00:00",
+      "first_source_event_utc": "2025-12-12T00:55:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2025-12-12T00:55:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "3500390": {
+      "game_name": "Mega Man Star Force Legacy Collection",
+      "source_sha256": "53346a486a4c8732a88618558ed1549a88c97b880b161cec238394561916048b",
+      "eligible_start_utc": "2025-12-17T08:05:01+00:00",
+      "first_source_event_utc": "2025-12-17T08:05:01+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2025-12-17T08:05:01+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "3764200": {
+      "game_name": "Resident Evil Requiem",
+      "source_sha256": "17483a79a05ca597fbffd72d9dbfa9315643894198bed2775dee889f0b478e22",
+      "eligible_start_utc": "2025-10-29T22:05:03+00:00",
+      "first_source_event_utc": "2025-10-29T22:05:03+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2025-10-29T22:05:03+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "4249100": {
+      "game_name": "Resident Evil (1996)",
+      "source_sha256": "cd8f6ccec6fd4de8de36e17711d02c59a3069f92b05ac5ad925c39fe93739d18",
+      "eligible_start_utc": "2026-04-01T15:00:00+00:00",
+      "first_source_event_utc": "2026-04-02T00:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2026-04-02T00:05:02+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed bounded launch discount followed by verified recurring $9.99 full price; inference from supplied source, not Historical Low"
+        }
+      ]
+    },
+    "4249110": {
+      "game_name": "Resident Evil 2 (1998)",
+      "source_sha256": "93a034fc4156534ad21e68af2bff4ca3810ddef38168e8703c2484bd0ec8f30b",
+      "eligible_start_utc": "2026-04-01T15:00:00+00:00",
+      "first_source_event_utc": "2026-04-02T00:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2026-04-02T00:05:02+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed bounded launch discount followed by verified recurring $9.99 full price; inference from supplied source, not Historical Low"
+        }
+      ]
+    },
+    "4249120": {
+      "game_name": "Resident Evil 3 Nemesis (1999)",
+      "source_sha256": "19592dcc061842a25e61f800d28bc988f268c9b95d626aa6dc8ecc594a41f524",
+      "eligible_start_utc": "2026-04-01T15:00:00+00:00",
+      "first_source_event_utc": "2026-04-02T00:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2026-04-02T00:05:02+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed bounded launch discount followed by verified recurring $9.99 full price; inference from supplied source, not Historical Low"
+        }
+      ]
+    },
+    "4249130": {
+      "game_name": "Dino Crisis",
+      "source_sha256": "54fbb79bf24f043c25abdce61b44921b044b01d3705062625c19d24629be6279",
+      "eligible_start_utc": "2026-02-12T15:00:00+00:00",
+      "first_source_event_utc": "2026-02-13T01:00:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2026-02-13T01:00:02+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "4249140": {
+      "game_name": "Dino Crisis 2",
+      "source_sha256": "8f4d5f5ba9446344207ab15630676c2b0151136b3e604467b905a18a9a02f2ed",
+      "eligible_start_utc": "2026-02-12T15:00:00+00:00",
+      "first_source_event_utc": "2026-02-13T01:00:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2026-02-13T01:00:02+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "4249150": {
+      "game_name": "Breath of Fire IV",
+      "source_sha256": "836d899adc7882a2e2e56f196f979f54972455c9d3fb569c38a1b11f31d43307",
+      "eligible_start_utc": "2026-04-01T15:00:00+00:00",
+      "first_source_event_utc": "2026-04-02T00:05:02+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2026-04-02T00:05:02+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed bounded launch discount followed by verified recurring $9.99 full price; inference from supplied source, not Historical Low"
+        }
+      ]
+    },
+    "21670": {
+      "game_name": "Bionic Commando",
+      "source_sha256": "e11013134a23fcdacaeb1ad929d837a66eee6b311f2115359c50f4e357f6398c",
+      "eligible_start_utc": "2009-07-28T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-25T22:48:22+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "21680": {
+      "game_name": "Bionic Commando: Rearmed",
+      "source_sha256": "1611f3acf76add288f322ffb046db48aeb852150b2917864365aef15f6f8f5a7",
+      "eligible_start_utc": "2009-07-28T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T07:03:54+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "228300": {
+      "game_name": "Remember Me",
+      "source_sha256": "a669ac91b81f475c4731c78fa6307f6a19d80f1643bb754f17143260ea578a48",
+      "eligible_start_utc": "2013-06-03T15:00:00+00:00",
+      "first_source_event_utc": "2013-07-11T19:06:34+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        },
+        {
+          "start_utc": "2014-03-18T18:37:05+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "229480": {
+      "game_name": "Dungeons & Dragons: Chronicles of Mystara",
+      "source_sha256": "217e97c71af2c52bcb0cb224996077f3e40b19e51154e7e5638eb2425bb4887a",
+      "eligible_start_utc": "2013-06-18T15:00:00+00:00",
+      "first_source_event_utc": "2013-07-25T15:40:44+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    },
+    "237630": {
+      "game_name": "DuckTales: Remastered",
+      "source_sha256": "5b43619d48294a1b4a939626170808bcecf21cb6708b15621b412ce5dc40d902",
+      "eligible_start_utc": "2013-08-03T04:40:34+00:00",
+      "first_source_event_utc": "2013-08-03T04:40:34+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2013-08-03T04:40:34+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ],
+      "unavailable_periods": [
+        {
+          "start_utc": "2019-08-10T04:20:03+00:00",
+          "end_utc_exclusive": "2020-03-03T18:04:20+00:00",
+          "basis": "Publisher confirms temporary Steam delisting and return; source zero/positive events bound observed interval, exact removal time unknown",
+          "sources": [
+            "https://news.capcomusa.com/capkel/blog/2019/08/06/pick-up-ducktales-remastered-on-sale-now-before-it-leaves-digital-storefronts-starting-august-8th",
+            "source.csv: first restored positive price at 2020-03-03T18:04:20+00:00"
+          ]
+        }
+      ]
+    },
+    "525040": {
+      "game_name": "The Disney Afternoon Collection",
+      "source_sha256": "376afdc6edd3657bf11eeb1dd0daabd99fef70123874edfc4403e633e1cc5345",
+      "eligible_start_utc": "2017-03-24T08:10:12+00:00",
+      "first_source_event_utc": "2017-03-24T08:10:12+00:00",
+      "historical_edition": "Historical full-game App price; historical package ID unverified",
+      "periods": [
+        {
+          "start_utc": "2017-03-24T08:10:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source-event transition and recurring full-price plateaus; inferred, not an official price-change announcement"
+        }
+      ]
+    }
+  }
+}
