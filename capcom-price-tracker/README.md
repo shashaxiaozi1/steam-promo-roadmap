@@ -97,6 +97,14 @@ python capcom-price-tracker/import_history.py \
 
 相同文件重复执行不会重复增加记录。已有 AppID 的不同历史文件须先复核覆盖范围，再决定替换方式。
 
+## KONAMI 历史补算（2026-11-13）
+
+已导入上传的 55 个源文件：53 款现有付费本体全部齐备，额外 2 个不独立销售的合集附属内容保留原始文件、排除统计。还原 101,380 个游戏日；永久改价按分段基准处理，《合金装备》单作的合集预购期不重复计算。历史基准与折扣率是源事件推定，未冒充官方历史折扣字段。
+
+KONAMI 历史整体参与率接入原有 Power BI 地址，2026-02-07 至 2026-11-13 连续完整。更早仍缺 39 段、907 个游戏日（主要为 2013 年前稀疏价格、零价、1 美分异常及首发日边界），对应 253 个发行商日期留空。详见 [补算报告](KONAMI_HISTORY_BACKFILL_20261113.md) 和 [`data/powerbi/konami_historical_coverage_gaps.csv`](data/powerbi/konami_historical_coverage_gaps.csv)。
+
+审核计划和 55 个原始 CSV 保存在 `data/history/konami/`。每次重建自动核验 SHA-256 并还原历史，后续自动采价继续合并；原有 CAPCOM 审计文件保留，新审计文件使用 `konami_` 前缀。
+
 ## 运行与验证
 
 ```bash

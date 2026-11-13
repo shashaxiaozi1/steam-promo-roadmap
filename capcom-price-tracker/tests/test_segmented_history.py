@@ -7,7 +7,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).parents[1]))
 import collector as c
-from capcom_history import publisher_history
+from capcom_history import publisher_history, load_details, export_prefix
 from price_history import reconstruct
 
 
@@ -117,6 +117,64 @@ class SegmentedHistoryTests(unittest.TestCase):
                                               {'1': dict(unknown_intervals=[])}, records)
         self.assertEqual((pubs[-1]['games_monitored'], pubs[-1]['sale_share']), (2, ''))
         self.assertEqual(coverage[-1]['observed_games'], 1)
+
+    def test_other_publishers_cannot_supply_missing_konami_price_or_retire_its_games(self):
+        plan = {a: dict(game_name=a, eligible_start_utc='2025-01-01T15:00:00+00:00',
+                         first_source_event_utc='2025-01-01T15:00:00+00:00') for a in ('1', '2')}
+        rows = [dict(self.item, publisher=p, appid=a, date_jst='2025-01-02',
+                     is_on_sale_any=1, sample_count=1, first_observed_utc='2025-01-02T01:00:00+00:00')
+                for p, a in [('KONAMI', '1'), ('CAPCOM', '2')]]
+        args = (rows, rows, self.root, {('CAPCOM', '1'): '2025-01-01'}, plan,
+                {a: dict(unknown_intervals=[]) for a in plan})
+        pubs, coverage, _ = publisher_history(*args, publisher='KONAMI')
+        self.assertEqual((pubs[0]['publisher'], pubs[0]['games_monitored'], pubs[0]['sale_share']),
+                         ('KONAMI', 2, ''))
+        self.assertEqual(coverage[0]['missing_appids'], '2')
+
+    def test_standalone_opening_does_not_inherit_collection_unknown_hours(self):
+        path = self.root / 'source.csv'
+        c.atomic_csv(path, ['DateTime', 'Final price'], [
+            dict(DateTime='2025-01-01 00:00:00', **{'Final price': '59.99'}),
+            dict(DateTime='2025-01-02 07:00:00', **{'Final price': '19.99'}),
+            dict(DateTime='2025-01-03 15:00:00', **{'Final price': '19.99'})])
+        start = '2025-01-02T07:00:00+00:00'
+        item = dict(self.item, publisher='KONAMI')
+        days, _, meta = reconstruct(path, item, '19.99', coverage_start_utc=start,
+                                   reviewed_periods=[dict(start_utc=start, list_price_usd='19.99')])
+        plan = {'1': dict(game_name='One', eligible_start_utc=start, first_source_event_utc=start)}
+        pubs, _, gaps = publisher_history(days, [], self.root, {}, plan, {'1': meta}, publisher='KONAMI')
+        self.assertEqual(pubs[0]['sale_share'], '0.000000')
+        self.assertEqual(pubs[0]['games_monitored'], 1)
+        self.assertEqual(gaps, [])
+
+    def test_konami_exports_cannot_overwrite_legacy_capcom_audits(self):
+        import hashlib
+        import json
+        folder = self.root / 'history' / 'konami'
+        (folder / 'sources').mkdir(parents=True)
+        source = folder / 'sources/1.csv'
+        c.atomic_csv(source, ['DateTime', 'Final price'], [
+            dict(DateTime='2025-01-01 15:00:00', **{'Final price': '19.99'}),
+            dict(DateTime='2025-01-02 15:00:00', **{'Final price': '19.99'})])
+        item = dict(self.item, publisher='KONAMI')
+        periods = [dict(start_utc='2025-01-01T15:00:00+00:00', list_price_usd='19.99')]
+        days, _, meta = reconstruct(source, item, '19.99', reviewed_periods=periods)
+        digest = hashlib.sha256(source.read_bytes()).hexdigest()
+        entry = dict(item, status='approved', source_sha256=digest, list_price_usd='19.99',
+                     coverage_start_utc=meta['coverage_start_utc'], imported_days=len(days), sale_days=0)
+        c.atomic_csv(folder / 'review.csv', list(entry), [entry])
+        (folder / 'reviewed_periods.json').write_text(json.dumps({'games': {'1': dict(source_sha256=digest, periods=periods)}}))
+        exports = self.root / 'powerbi'
+        exports.mkdir()
+        legacy = exports / 'historical_price_intervals.csv'
+        legacy.write_text('unchanged CAPCOM audit\n')
+        loaded, _, _ = load_details(folder, 'KONAMI')
+        self.assertEqual(len(loaded), 1)
+        self.assertTrue((exports / 'konami_historical_price_intervals.csv').exists())
+        self.assertEqual(legacy.read_text(), 'unchanged CAPCOM audit\n')
+        self.assertEqual(export_prefix('CAPCOM', self.root / 'capcom'), '')
+        with self.assertRaisesRegex(ValueError, 'wrong publisher'):
+            load_details(folder, 'CAPCOM')
 
 
 if __name__ == '__main__':

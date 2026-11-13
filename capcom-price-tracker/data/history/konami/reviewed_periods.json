@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "reviewed_on_jst": "2026-11-13",
+  "scope": "Current 53 independently purchasable paid KONAMI AppIDs, including available paid preorders; not all KONAMI games ever published",
+  "supplied_files": 55,
+  "excluded_appids": [
+    "2131680",
+    "2306740"
+  ],
+  "inference": "Final price exports do not identify original list prices or purchase packages. Historical baselines are inferred from reviewed transitions and recurring ceilings and cross-checked against current pinned-package API prices. Fractional discounts are estimates, not asserted advertised Steam discounts.",
+  "edition_policy": "Complete base-game editions may continue by AppID. Collection-only preorders and non-independently-sold bonus content do not count as individual games.",
+  "zero_rule": "Zero/blank prices are unknown; no extrapolation after the final timestamp. A duplicate terminal blank is not a zero-price event.",
+  "day_rule": "Positive-duration sale evidence confirms a JST sale day. A negative historical day requires coverage of the full eligible day; valid API observation follows the existing sampling rule.",
+  "games": {
+    "19000": {
+      "game_name": "Silent Hill Homecoming",
+      "source_sha256": "189bcfe2b3643f55317edd1da593a016b0a919b29e2a9500cde461446da8933f",
+      "original_filename": "19000_Silent_Hill_Homecoming_US.csv",
+      "eligible_start_utc": "2008-11-05T15:00:00+00:00",
+      "first_source_event_utc": "2012-12-20T20:22:57+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:45+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "No reliable complete price coverage before July 25 2013 source transition; older sparse opening value excluded"
+    },
+    "19020": {
+      "game_name": "Puzzle Chronicles",
+      "source_sha256": "7ce7db6116a95a0d77b8df10d023c30437836e535116b045b2415c8e5b0b59d5",
+      "original_filename": "19020_Puzzle_Chronicles_US.csv",
+      "eligible_start_utc": "2010-04-20T15:00:00+00:00",
+      "first_source_event_utc": "2012-12-20T20:24:56+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:45+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "No reliable complete price coverage before July 25 2013 source transition; older sparse opening value excluded"
+    },
+    "19030": {
+      "game_name": "Rocket Knight",
+      "source_sha256": "f03b7be52d336db81d37929ec831d48a64b374bd608277f1a996ac0b841d61c2",
+      "original_filename": "19030_Rocket_Knight_US.csv",
+      "eligible_start_utc": "2010-05-10T15:00:00+00:00",
+      "first_source_event_utc": "2012-12-20T20:22:58+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:45+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "No reliable complete price coverage before July 25 2013 source transition; older sparse opening value excluded"
+    },
+    "19080": {
+      "game_name": "Biozone",
+      "source_sha256": "75c89250bb05ecc933f1728e7b4fafcec7dc73eb504f85a154bed6568b7ce379",
+      "original_filename": "19080_Biozone_US.csv",
+      "eligible_start_utc": "2010-05-06T15:00:00+00:00",
+      "first_source_event_utc": "2012-12-20T20:25:01+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:45+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "No reliable complete price coverage before July 25 2013 source transition; older sparse opening value excluded"
+    },
+    "234080": {
+      "game_name": "Castlevania: Lords of Shadow – Ultimate Edition",
+      "source_sha256": "ac9bf748efdf6b19532f2df99e8a4785b474301429e4ff06aae7102c01288e12",
+      "original_filename": "234080_Castlevania_Lords_of_Shadow_-_Ultimate_Edition_US.csv",
+      "eligible_start_utc": "2013-08-04T13:49:04+00:00",
+      "first_source_event_utc": "2013-08-04T13:49:04+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2013-08-04T13:49:04+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "235460": {
+      "game_name": "METAL GEAR RISING: REVENGEANCE",
+      "source_sha256": "ef586ee008e914da47abe6ae2be693f61435b90b2d9eee16261ad522d26c957e",
+      "original_filename": "235460_METAL_GEAR_RISING_REVENGEANCE_US.csv",
+      "eligible_start_utc": "2013-12-19T18:29:04+00:00",
+      "first_source_event_utc": "2013-12-19T18:29:04+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2013-12-19T18:29:04+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "239250": {
+      "game_name": "Castlevania: Lords of Shadow 2",
+      "source_sha256": "e738e7c55d5d9fb03b99b7a3eb94a053ad60c928ce8e389df9359aa9c2c3e1b4",
+      "original_filename": "239250_Castlevania_Lords_of_Shadow_2_US.csv",
+      "eligible_start_utc": "2014-02-11T18:26:05+00:00",
+      "first_source_event_utc": "2014-02-11T18:26:05+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2014-02-11T18:26:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2014-07-30T04:40:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "282530": {
+      "game_name": "Castlevania: Lords of Shadow – Mirror of Fate HD",
+      "source_sha256": "111a4e9ff7e3a32b8f070473beea4e0fdb81029986df66dd32490574ca2030f2",
+      "original_filename": "282530_Castlevania_Lords_of_Shadow_–_Mirror_of_Fate_HD_US.csv",
+      "eligible_start_utc": "2014-03-24T16:44:38+00:00",
+      "first_source_event_utc": "2014-03-24T16:44:38+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2014-03-24T16:44:38+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "287700": {
+      "game_name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+      "source_sha256": "cc6d41ee14e4ab1bda294c674a9575e17cb1a2a159235317a7322c1b456436b8",
+      "original_filename": "287700_METAL_GEAR_SOLID_V_THE_PHANTOM_PAIN_US.csv",
+      "eligible_start_utc": "2015-08-03T17:00:03+00:00",
+      "first_source_event_utc": "2015-08-03T17:00:03+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2015-08-03T17:00:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2016-05-17T08:46:39+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2017-04-15T07:39:09+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "311340": {
+      "game_name": "METAL GEAR SOLID V: GROUND ZEROES",
+      "source_sha256": "a405bf5bbdbc78094c13f48a366e538303de1e2eb6de7f746089f21cb6097381",
+      "original_filename": "311340_METAL_GEAR_SOLID_V_GROUND_ZEROES_US.csv",
+      "eligible_start_utc": "2014-12-17T15:00:00+00:00",
+      "first_source_event_utc": "2014-12-18T17:51:38+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2014-12-18T17:51:38+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "480650": {
+      "game_name": "Yu-Gi-Oh! Legacy of the Duelist",
+      "source_sha256": "e19127d190bdf9408ca77b058d91202f22349acbb3420bf69978cd89b44a3d24",
+      "original_filename": "480650_Yu-Gi-Oh!_Legacy_of_the_Duelist_US.csv",
+      "eligible_start_utc": "2016-12-06T15:00:00+00:00",
+      "first_source_event_utc": "2016-12-07T18:04:55+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2016-12-07T18:04:55+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "543900": {
+      "game_name": "METAL GEAR SURVIVE",
+      "source_sha256": "70655c9b4d8643fa07f2d6c9acd6030c62110fb9378d234dd9204a3d4c0c9781",
+      "original_filename": "543900_METAL_GEAR_SURVIVE_US.csv",
+      "eligible_start_utc": "2018-01-16T17:20:09+00:00",
+      "first_source_event_utc": "2018-01-16T17:20:09+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2018-01-16T17:20:09+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2018-09-28T14:40:24+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "605800": {
+      "game_name": "Skelattack",
+      "source_sha256": "24f013955bfb7b5346f0b859e42d45490ef2ffef27d4daf33645bd4c2215484c",
+      "original_filename": "605800_Skelattack_US.csv",
+      "eligible_start_utc": "2020-06-01T15:00:00+00:00",
+      "first_source_event_utc": "2020-06-02T15:10:05+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2020-06-02T15:10:05+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "650510": {
+      "game_name": "ZONE OF THE ENDERS THE 2nd RUNNER : M∀RS / アヌビス ゾーン・オブ・エンダーズ : マーズ",
+      "source_sha256": "bba4effa6c648534b2544a2b1352442aa212fb4918bbeea162cfeb26d1cfddd2",
+      "original_filename": "650510_ZONE_OF_THE_ENDERS_THE_2nd_RUNNER_MARS_ANUBIS_ZONE_OF_THE_ENDERS_MARS_US.csv",
+      "eligible_start_utc": "2018-05-15T17:10:17+00:00",
+      "first_source_event_utc": "2018-05-15T17:10:17+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2018-05-15T17:10:17+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "702700": {
+      "game_name": "Super Bomberman R",
+      "source_sha256": "23dd3a3f01eb8df3c14964108a5a3a29a3887c7f08a32f737e7d417704ec1077",
+      "original_filename": "702700_Super_Bomberman_R_US.csv",
+      "eligible_start_utc": "2018-03-15T17:10:09+00:00",
+      "first_source_event_utc": "2018-03-15T17:10:09+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2018-03-15T17:10:09+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1018000": {
+      "game_name": "Arcade Classics Anniversary Collection",
+      "source_sha256": "0318540cbc5dbd61822ae9c147b9a6dc22ba8096e580a6d6bb944ad5a16f8781",
+      "original_filename": "1018000_Arcade_Classics_Anniversary_Collection_US.csv",
+      "eligible_start_utc": "2019-04-17T15:00:00+00:00",
+      "first_source_event_utc": "2019-04-18T17:20:11+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2019-04-18T17:20:11+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1018010": {
+      "game_name": "Castlevania Anniversary Collection",
+      "source_sha256": "d62d093526fce804aedc71708f2e83d35c3052b140c7aaf3f6391f6948a7cade",
+      "original_filename": "1018010_Castlevania_Anniversary_Collection_US.csv",
+      "eligible_start_utc": "2019-05-15T15:00:00+00:00",
+      "first_source_event_utc": "2019-05-16T17:23:32+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2019-05-16T17:23:32+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1018020": {
+      "game_name": "Contra Anniversary Collection",
+      "source_sha256": "8994c00d12da3d401ea86921ce47f461de7afb14546199a6f8933c6247d19ae9",
+      "original_filename": "1018020_Contra_Anniversary_Collection_US.csv",
+      "eligible_start_utc": "2019-06-10T15:00:00+00:00",
+      "first_source_event_utc": "2019-06-11T17:09:40+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2019-06-11T17:09:40+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1020540": {
+      "game_name": "CONTRA: ROGUE CORPS",
+      "source_sha256": "91ecde98f8f70dcfabed1ec009f8015ae8857618f03180613125bcc25f6bf507",
+      "original_filename": "1020540_CONTRA_ROGUE_CORPS_US.csv",
+      "eligible_start_utc": "2019-08-20T17:10:24+00:00",
+      "first_source_event_utc": "2019-08-20T17:10:24+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2019-08-20T17:10:24+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2023-09-26T00:05:02+00:00",
+          "list_price_usd": null,
+          "basis": "One-cent near-full-price anomaly: no verified discount"
+        },
+        {
+          "start_utc": "2023-09-26T17:02:18+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2024-05-06T17:22:55+00:00",
+          "list_price_usd": null,
+          "basis": "One-cent near-full-price anomaly: no verified discount"
+        },
+        {
+          "start_utc": "2024-05-07T17:02:08+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2024-07-11T17:29:30+00:00",
+          "list_price_usd": null,
+          "basis": "One-cent near-full-price anomaly: no verified discount"
+        },
+        {
+          "start_utc": "2024-07-12T17:02:22+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2024-10-07T17:23:56+00:00",
+          "list_price_usd": null,
+          "basis": "One-cent near-full-price anomaly: no verified discount"
+        },
+        {
+          "start_utc": "2024-10-08T15:15:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2024-12-04T18:29:44+00:00",
+          "list_price_usd": null,
+          "basis": "One-cent near-full-price anomaly: no verified discount"
+        },
+        {
+          "start_utc": "2024-12-05T18:02:20+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2025-12-08T18:11:23+00:00",
+          "list_price_usd": null,
+          "basis": "One-cent near-full-price anomaly: no verified discount"
+        },
+        {
+          "start_utc": "2025-12-09T18:02:40+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1150640": {
+      "game_name": "Yu-Gi-Oh! Legacy of the Duelist : Link Evolution",
+      "source_sha256": "65d587467b79d3f36f64067e691132f0025108e3803d0fe412d0dd60ad6a4fd5",
+      "original_filename": "1150640_Yu-Gi-Oh!_Legacy_of_the_Duelist_Link_Evolution_US.csv",
+      "eligible_start_utc": "2020-03-23T15:00:00+00:00",
+      "first_source_event_utc": "2020-03-24T19:10:08+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2020-03-24T19:10:08+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1248080": {
+      "game_name": "CYGNI: All Guns Blazing",
+      "source_sha256": "86f1025b695407bcf42c6af5ff411b36f832b2afdcf7715a2a1ee77d66665de0",
+      "original_filename": "1248080_CYGNI_US.csv",
+      "eligible_start_utc": "2024-06-08T16:10:02+00:00",
+      "first_source_event_utc": "2024-06-08T16:10:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2024-06-08T16:10:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1323470": {
+      "game_name": "GetsuFumaDen: Undying Moon",
+      "source_sha256": "2139732e122884a38c9178fcd61f518ea6cf733bf6cbb6955091f09167861821",
+      "original_filename": "1323470_GetsuFumaDen_Undying_Moon_US.csv",
+      "eligible_start_utc": "2021-05-13T17:06:36+00:00",
+      "first_source_event_utc": "2021-05-13T17:06:36+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2021-05-13T17:06:36+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "Includes paid Early Access from first positive source event in May 2021, preceding the final-release date"
+    },
+    "1552550": {
+      "game_name": "Castlevania Advance Collection",
+      "source_sha256": "63afdaf474ded581db1794a9d83cdaea1d4becdd83a91fd5a3ac2993c8f55c21",
+      "original_filename": "1552550_Castlevania_Advance_Collection_US.csv",
+      "eligible_start_utc": "2021-09-22T15:00:00+00:00",
+      "first_source_event_utc": "2021-09-24T01:05:12+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2021-09-24T01:05:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1636440": {
+      "game_name": "SILENT HILL: Townfall",
+      "source_sha256": "a07a737ce727db8328f76886cac08011bce150fdd42bf36face7081f1547e74d",
+      "original_filename": "1636440_SILENT_HILL_Townfall_US.csv",
+      "eligible_start_utc": "2026-06-03T01:00:03+00:00",
+      "first_source_event_utc": "2026-06-03T01:00:03+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2026-06-03T01:00:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1647200": {
+      "game_name": "BEAT ARENA",
+      "source_sha256": "c1749efd13a9f620bafee323df644fd1d3188f6c2325edf722de3b2ea77d388c",
+      "original_filename": "1647200_BEAT_ARENA_US.csv",
+      "eligible_start_utc": "2021-09-08T15:00:00+00:00",
+      "first_source_event_utc": "2021-09-10T00:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2021-09-10T00:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1659600": {
+      "game_name": "Teenage Mutant Ninja Turtles: The Cowabunga Collection",
+      "source_sha256": "038758f70796b4351005878b14ae90103340d041d6ba7af8902312c6116e5156",
+      "original_filename": "1659600_Teenage_Mutant_Ninja_Turtles_The_Cowabunga_Collection_US.csv",
+      "eligible_start_utc": "2022-08-29T15:00:00+00:00",
+      "first_source_event_utc": "2022-08-30T17:10:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2022-08-30T17:10:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1715980": {
+      "game_name": "Bail or Jail(OBAKEIDORO!)",
+      "source_sha256": "d2db3aa1568f8de6d4b50dfbd882b56b3f0f823eaedf7dcb575c18cd5a6abd89",
+      "original_filename": "1715980_Bail_or_Jail_US.csv",
+      "eligible_start_utc": "2022-07-19T15:00:00+00:00",
+      "first_source_event_utc": "2022-07-21T00:05:01+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2022-07-21T00:05:01+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1812560": {
+      "game_name": "SUPER CRAZY RHYTHM CASTLE",
+      "source_sha256": "190b94f469d0e085aadb3d69149cb446ecfc7e7c02d2b35a9e83a1a007ce9b66",
+      "original_filename": "1812560_SUPER_CRAZY_RHYTHM_CASTLE_US.csv",
+      "eligible_start_utc": "2023-09-14T16:10:03+00:00",
+      "first_source_event_utc": "2023-09-14T16:10:03+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2023-09-14T16:10:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2024-11-18T07:50:01+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1880610": {
+      "game_name": "Deliver At All Costs",
+      "source_sha256": "6d1efd28c08b18098633a9379888e6f938f2b272c796e7cf235217bd9638b7e9",
+      "original_filename": "1880610_Deliver_At_All_Costs_US.csv",
+      "eligible_start_utc": "2025-03-20T00:20:02+00:00",
+      "first_source_event_utc": "2025-03-20T00:20:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2025-03-20T00:20:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1913740": {
+      "game_name": "SUPER BOMBERMAN R 2",
+      "source_sha256": "0867cb48cd0e7b9c18654522e410d890241db1c4950d90d1c5618257cf65cbd0",
+      "original_filename": "1913740_SUPER_BOMBERMAN_R2_US.csv",
+      "eligible_start_utc": "2023-09-12T15:00:00+00:00",
+      "first_source_event_utc": "2023-09-13T15:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2023-09-13T15:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "1932640": {
+      "game_name": "Suikoden I&II HD Remaster Gate Rune and Dunan Unification Wars",
+      "source_sha256": "830011cc918e3ccddf0f6949fefb5aef2138c25f0e31a57b8dfc0224c0d05bcb",
+      "original_filename": "1932640_Suikoden_I&II_HD_Remaster_Gate_Rune_and_Dunan_Unification_Wars_US.csv",
+      "eligible_start_utc": "2024-08-27T15:10:02+00:00",
+      "first_source_event_utc": "2024-08-27T15:10:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2024-08-27T15:10:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2124490": {
+      "game_name": "SILENT HILL 2",
+      "source_sha256": "5c21b0c9d78363de921d064943eee838b2de8ebdf3cc98ec538d3465dd793b46",
+      "original_filename": "2124490_SILENT_HILL_2_US.csv",
+      "eligible_start_utc": "2024-05-30T22:50:02+00:00",
+      "first_source_event_utc": "2024-05-30T22:50:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2024-05-30T22:50:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2131630": {
+      "game_name": "METAL GEAR SOLID - Master Collection Version",
+      "source_sha256": "f1d775ac483850032c3fc3bc2551809e6a71fcb74bfb88b4b033c7d7da746730",
+      "original_filename": "2131630_METAL_GEAR_SOLID_-_Master_Collection_Version_US.csv",
+      "eligible_start_utc": "2023-10-24T07:10:02+00:00",
+      "first_source_event_utc": "2023-06-28T01:00:05+00:00",
+      "historical_edition": "Independent full-game price from standalone sale; earlier collection-only preorder excluded",
+      "periods": [
+        {
+          "start_utc": "2023-10-24T07:10:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "Earlier $59.99/$49.99 shared collection price is not a standalone price or discount; no individual-game denominator before independent sale",
+      "reference_sources": [
+        "https://www.konami.com/games/us/en/topics/2230/"
+      ]
+    },
+    "2131640": {
+      "game_name": "METAL GEAR SOLID 2: Sons of Liberty - Master Collection Version",
+      "source_sha256": "a4f096d4ec4fa4f5ddcf2fe5fc13bd27e9d2c9a240e1d4951a911bf3d8dcc75b",
+      "original_filename": "2131640_METAL_GEAR_SOLID_2_Sons_of_Liberty_-_Master_Collection_Version_US.csv",
+      "eligible_start_utc": "2023-10-24T07:10:02+00:00",
+      "first_source_event_utc": "2023-06-28T01:00:05+00:00",
+      "historical_edition": "Independent full-game price from standalone sale; earlier collection-only preorder excluded",
+      "periods": [
+        {
+          "start_utc": "2023-10-24T07:10:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "Earlier $59.99/$49.99 shared collection price is not a standalone price or discount; no individual-game denominator before independent sale",
+      "reference_sources": [
+        "https://www.konami.com/games/us/en/topics/2230/"
+      ]
+    },
+    "2131650": {
+      "game_name": "METAL GEAR SOLID 3: Snake Eater - Master Collection Version",
+      "source_sha256": "6bae64ab175c10c01b8d2b5e3006c0d3da07e41573cb381b8d0cbbbf42e6facc",
+      "original_filename": "2131650_METAL_GEAR_SOLID_3_Snake_Eater_-_Master_Collection_Version_US.csv",
+      "eligible_start_utc": "2023-10-24T07:15:02+00:00",
+      "first_source_event_utc": "2023-06-28T01:00:05+00:00",
+      "historical_edition": "Independent full-game price from standalone sale; earlier collection-only preorder excluded",
+      "periods": [
+        {
+          "start_utc": "2023-10-24T07:15:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "Earlier $59.99/$49.99 shared collection price is not a standalone price or discount; no individual-game denominator before independent sale",
+      "reference_sources": [
+        "https://www.konami.com/games/us/en/topics/2230/"
+      ]
+    },
+    "2235020": {
+      "game_name": "Contra: Operation Galuga",
+      "source_sha256": "89223e3c1c4f34058e57d63adb410cb4f4c9b2d008082608cb1baca96f58ed6a",
+      "original_filename": "2235020_Contra_Operation_Galuga_US.csv",
+      "eligible_start_utc": "2024-03-11T15:00:00+00:00",
+      "first_source_event_utc": "2024-03-12T07:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2024-03-12T07:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2369900": {
+      "game_name": "Castlevania Dominus Collection",
+      "source_sha256": "8407982adb4a83c94208fa415d4f7c4f0a14973a6dbe0f75f63a32c0981ded56",
+      "original_filename": "2369900_Castlevania_Dominus_Collection_US.csv",
+      "eligible_start_utc": "2024-08-26T15:00:00+00:00",
+      "first_source_event_utc": "2024-08-27T15:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2024-08-27T15:05:02+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2417610": {
+      "game_name": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "source_sha256": "d150a4c53789cbe561022e6a817d034960a762fbbab9d5f803b231d5ededa28f",
+      "original_filename": "2417610_METAL_GEAR_SOLID_Δ_SNAKE_EATER_US.csv",
+      "eligible_start_utc": "2025-02-12T23:05:02+00:00",
+      "first_source_event_utc": "2025-02-12T23:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2025-02-12T23:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-08-13T07:05:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2492660": {
+      "game_name": "METAL GEAR SOLID: Peace Walker - Master Collection Version",
+      "source_sha256": "75f03c24f5c7ff385b13b161dad5da8f5a97a2dcc2ffd90ff7aa64342ee4ac5e",
+      "original_filename": "2492660_METAL_GEAR_SOLID_Peace_Walker_-_Master_Collection_Version_US.csv",
+      "eligible_start_utc": "2026-08-27T13:05:02+00:00",
+      "first_source_event_utc": "2026-07-23T02:45:02+00:00",
+      "historical_edition": "Independent full-game price from standalone sale; earlier collection-only preorder excluded",
+      "periods": [
+        {
+          "start_utc": "2026-08-27T13:05:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "Earlier $59.99/$49.99 shared collection price is not a standalone price or discount; no individual-game denominator before independent sale",
+      "reference_sources": [
+        "https://www.konami.com/mg/mc2/us/en/"
+      ]
+    },
+    "2492670": {
+      "game_name": "METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version",
+      "source_sha256": "6ffebccafa012f4ce31424b4952f8bc72e1652dae337cbb6d8a10b1132818564",
+      "original_filename": "2492670_METAL_GEAR_SOLID_4_Guns_of_the_Patriots_-_Master_Collection_Version_US.csv",
+      "eligible_start_utc": "2026-08-27T13:05:02+00:00",
+      "first_source_event_utc": "2026-07-23T02:45:02+00:00",
+      "historical_edition": "Independent full-game price from standalone sale; earlier collection-only preorder excluded",
+      "periods": [
+        {
+          "start_utc": "2026-08-27T13:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ],
+      "scope_note": "Earlier $59.99/$49.99 shared collection price is not a standalone price or discount; no individual-game denominator before independent sale",
+      "reference_sources": [
+        "https://www.konami.com/mg/mc2/us/en/"
+      ]
+    },
+    "2728190": {
+      "game_name": "Rocket Knight Adventures: Re-Sparked",
+      "source_sha256": "97c839d6bb1f09527b799733064f6237a6df08fbbe659d28b8d0e92951331241",
+      "original_filename": "2728190_Rocket_Knight_Adventures_Re-Sparked_US.csv",
+      "eligible_start_utc": "2024-05-16T17:10:02+00:00",
+      "first_source_event_utc": "2024-05-16T17:10:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2024-05-16T17:10:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2728200": {
+      "game_name": "Ninja Five-O",
+      "source_sha256": "0039b2ffd651f4229b0052b60f1984fd86226ab476e6cf584a387bfb22918bf6",
+      "original_filename": "2728200_Ninja_Five-O_US.csv",
+      "eligible_start_utc": "2025-01-22T01:00:03+00:00",
+      "first_source_event_utc": "2025-01-22T01:00:03+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2025-01-22T01:00:03+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2897590": {
+      "game_name": "GRADIUS ORIGINS",
+      "source_sha256": "f7face797d6471459fa3773853a3c7477f412ba4ad6f28c7abb7076c1c3b1f45",
+      "original_filename": "2897590_GRADIUS_origin_collection_US.csv",
+      "eligible_start_utc": "2025-03-27T15:40:03+00:00",
+      "first_source_event_utc": "2025-03-27T15:40:03+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2025-03-27T15:40:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2947440": {
+      "game_name": "SILENT HILL f",
+      "source_sha256": "f6b3a3ac9fd7c8e9a90b356073a6d164c497f8bc6217aba68ed383863d6ccdcd",
+      "original_filename": "2947440_SILENT_HILL_f_US.csv",
+      "eligible_start_utc": "2025-06-04T23:05:02+00:00",
+      "first_source_event_utc": "2025-06-04T23:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2025-06-04T23:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "2989180": {
+      "game_name": "Darwin's Paradox!",
+      "source_sha256": "ca9f2b551fa824619f344f0c864a3db73be33b21456ecf634e520bbca207a926",
+      "original_filename": "2989180_Darwin's_Paradox_US.csv",
+      "eligible_start_utc": "2026-02-12T23:30:02+00:00",
+      "first_source_event_utc": "2026-02-12T23:30:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2026-02-12T23:30:02+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "3013550": {
+      "game_name": "Yu-Gi-Oh! EARLY DAYS COLLECTION",
+      "source_sha256": "304554d89ce52be3ff48ea54a6b7532b8bcc084253cf184ba6591104bbaf42a0",
+      "original_filename": "3013550_Yu-Gi-Oh!_EARLY_DAYS_COLLECTION_US.csv",
+      "eligible_start_utc": "2025-02-26T15:00:00+00:00",
+      "first_source_event_utc": "2025-02-27T14:05:03+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2025-02-27T14:05:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "3125750": {
+      "game_name": "EDENS ZERO",
+      "source_sha256": "6ee1258dec97de35ddd23faf4769d3cf6f482320471cb193ac68a40329094328",
+      "original_filename": "3125750_EDENS_ZERO_US.csv",
+      "eligible_start_utc": "2025-03-26T01:00:04+00:00",
+      "first_source_event_utc": "2025-03-26T01:00:04+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2025-03-26T01:00:04+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "3756010": {
+      "game_name": "SUPER BOMBERMAN COLLECTION",
+      "source_sha256": "b33d15f1f45c03705bcda4886b70f8bbeafc378cba0e541ab2ed536424733ea1",
+      "original_filename": "3756010_SUPER_BOMBERMAN_COLLECTION_US.csv",
+      "eligible_start_utc": "2026-02-04T15:00:00+00:00",
+      "first_source_event_utc": "2026-02-05T15:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2026-02-05T15:05:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "3859630": {
+      "game_name": "METAL GEAR SOLID: MASTER COLLECTION Vol.2",
+      "source_sha256": "46558172c75f04c9589fae249f8d2ecbfe5387916f9a52dfbd3e629d535ad716",
+      "original_filename": "3859630_METAL_GEAR_SOLID_MASTER_COLLECTION_Vol.2_US.csv",
+      "eligible_start_utc": "2026-02-13T00:05:02+00:00",
+      "first_source_event_utc": "2026-02-13T00:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2026-02-13T00:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "3907350": {
+      "game_name": "The Prince of Tennis Sweet School Festival ~♡-40 and more...~",
+      "source_sha256": "772c0846a41e154bc5f988bbb771655c2add355df5c5fcdaf17ed05afa1adf85",
+      "original_filename": "3907350_The_Prince_of_Tennis_Sweet_School_Festival_~♡-40_and_more...~_US.csv",
+      "eligible_start_utc": "2026-04-16T02:05:01+00:00",
+      "first_source_event_utc": "2026-04-16T02:05:01+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2026-04-16T02:05:01+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "3907380": {
+      "game_name": "The Prince of Tennis Doki Doki Survival ~eternal passion! Tie break ♡ game~",
+      "source_sha256": "d4f54fddfd7ceb6500f3961a7911362f324fffbe533de14fa11b6252af53b87a",
+      "original_filename": "3907380_The_Prince_of_Tennis_Doki_Doki_Survival_~eternal_passion!_Tie_break_♡_game~_US.csv",
+      "eligible_start_utc": "2026-04-16T02:05:01+00:00",
+      "first_source_event_utc": "2026-04-16T02:05:01+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2026-04-16T02:05:01+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "4231820": {
+      "game_name": "Castlevania: Belmont's Curse",
+      "source_sha256": "24f96bc5623d5605968d6b5f2e78896492761534f07db0b5e60bf680c2a65939",
+      "original_filename": "4231820_Castlevania_Belmont's_Curse_US.csv",
+      "eligible_start_utc": "2026-06-07T19:05:02+00:00",
+      "first_source_event_utc": "2026-06-07T19:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2026-06-07T19:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    },
+    "4416300": {
+      "game_name": "Yu-Gi-Oh! TAG FORCE GX",
+      "source_sha256": "42bd7227dc3790d94f142bc197c062c1dede397d54972c5cd704a9e5bdfa76d3",
+      "original_filename": "4416300_Yu-Gi-Oh!_Tag_Force_GX_US.csv",
+      "eligible_start_utc": "2026-09-09T15:05:02+00:00",
+      "first_source_event_utc": "2026-09-09T15:05:02+00:00",
+      "historical_edition": "Historical complete base-game App price; historical purchase package unverified",
+      "periods": [
+        {
+          "start_utc": "2026-09-09T15:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transitions and recurring full-price plateaus, checked against current pinned-package list price; inferred historical baseline"
+        }
+      ]
+    }
+  }
+}

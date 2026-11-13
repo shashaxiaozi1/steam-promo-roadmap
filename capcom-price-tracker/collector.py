@@ -293,20 +293,25 @@ def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_STA
     live, _ = rollups(report_rows(rows, output, report_start, current_state))
     historical = [row for path in sorted((output / "history").glob("*/daily_games.csv"))
                   for row in read_csv(path)]
-    from capcom_history import load_details, publisher_history
-    capcom_folder = output / "history" / "capcom"
-    capcom_days, history_plans, history_metadata = load_details(capcom_folder)
-    if history_plans:
+    from capcom_history import load_details, publisher_history, export_prefix
+    from publisher_config import PUBLISHERS
+    reviewed = []
+    for publisher, (stem, _, _) in PUBLISHERS.items():
+        folder = output / 'history' / stem
+        publisher_days, history_plans, history_metadata = load_details(folder, publisher)
+        if not history_plans:
+            continue
+        reviewed.append((publisher, folder, history_plans, history_metadata))
         first_live = {}
         for row in live:
-            if row['publisher'] == 'CAPCOM':
+            if row['publisher'] == publisher:
                 aid = str(row['appid'])
                 first_live[aid] = min(first_live.get(aid, row['date_jst']), row['date_jst'])
-        for row in capcom_days:
+        for row in publisher_days:
             if row['date_jst'] < first_live.get(str(row['appid']), '9999-12-31'):
                 row['package_id'] = ''
                 row['tracked_edition'] = history_plans[str(row['appid'])]['historical_edition']
-    historical.extend(capcom_days)
+        historical.extend(publisher_days)
     stops = retirement_stops(output, current_state)
     historical = [x for x in historical if x["date_jst"] <
                   stops.get((x["publisher"], str(x["appid"])), "9999-12-31")]
@@ -331,14 +336,14 @@ def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_STA
                          games_on_sale="", sale_share="", sample_count_min=0,
                          sample_count_max=prior.get("sample_count_max", 0))
     pubs = [by_key[k] for k in sorted(by_key)]
-    history_pubs, history_coverage, gaps = publisher_history(
-        merged_days, live, capcom_folder, stops, history_plans, history_metadata, coverage)
-    if history_plans:
-        pubs = sorted([p for p in pubs if p['publisher'] != 'CAPCOM'] + history_pubs,
+    for publisher, folder, history_plans, history_metadata in reviewed:
+        history_pubs, history_coverage, gaps = publisher_history(
+            merged_days, live, folder, stops, history_plans, history_metadata, coverage, publisher=publisher)
+        pubs = sorted([p for p in pubs if p['publisher'] != publisher] + history_pubs,
                       key=lambda p: (p['date_jst'], p['publisher']))
-        coverage = sorted([p for p in coverage if p['publisher'] != 'CAPCOM'] + history_coverage,
+        coverage = sorted([p for p in coverage if p['publisher'] != publisher] + history_coverage,
                           key=lambda p: (p['date_jst'], p['publisher']))
-        atomic_csv(output / 'powerbi' / 'historical_coverage_gaps.csv',
+        atomic_csv(output / 'powerbi' / (export_prefix(publisher, folder) + 'historical_coverage_gaps.csv'),
                    ['appid', 'game_name', 'start_date_jst', 'end_date_jst', 'days', 'reason'], gaps)
     return (games, pubs, coverage) if include_coverage else (games, pubs)
 
