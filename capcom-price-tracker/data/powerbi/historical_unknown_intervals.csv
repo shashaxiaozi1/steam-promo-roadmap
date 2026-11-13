@@ -1,0 +1,235 @@
+appid,game_name,start_utc,end_utc_exclusive,reason
+6510,Lost Planet: Extreme Condition,2012-11-22T07:03:54+00:00,2013-07-25T15:40:44+00:00,edition_or_opening_baseline_unknown
+21690,Resident Evil 5,2012-09-25T17:23:10+00:00,2013-07-13T17:46:26+00:00,edition_or_opening_baseline_unknown
+21690,Resident Evil 5,2013-07-13T17:46:26+00:00,2013-07-15T17:46:04+00:00,edition_or_opening_baseline_unknown
+21690,Resident Evil 5,2013-07-15T17:46:04+00:00,2013-07-18T17:26:20+00:00,edition_or_opening_baseline_unknown
+21690,Resident Evil 5,2013-07-18T17:26:20+00:00,2013-07-19T01:26:14+00:00,edition_or_opening_baseline_unknown
+21690,Resident Evil 5,2013-07-19T01:26:14+00:00,2013-07-25T15:40:44+00:00,edition_or_opening_baseline_unknown
+21690,Resident Evil 5,2015-03-26T16:55:07+00:00,2015-03-26T17:00:04+00:00,price_above_reviewed_baseline
+21690,Resident Evil 5,2015-03-26T17:00:04+00:00,2015-03-26T17:15:03+00:00,price_above_reviewed_baseline
+21690,Resident Evil 5,2024-02-07T01:05:02+00:00,2024-02-07T01:10:02+00:00,price_above_reviewed_baseline
+21690,Resident Evil 5,2024-02-07T01:10:02+00:00,2024-02-07T01:30:02+00:00,missing_or_zero_price
+45740,Dead Rising 2,2012-10-29T17:23:10+00:00,2012-12-20T20:22:58+00:00,edition_or_opening_baseline_unknown
+45740,Dead Rising 2,2012-12-20T20:22:58+00:00,2013-03-04T21:06:07+00:00,edition_or_opening_baseline_unknown
+45740,Dead Rising 2,2013-03-04T21:06:07+00:00,2013-07-25T15:40:45+00:00,edition_or_opening_baseline_unknown
+45760,Ultra Street Fighter IV,2012-11-22T14:23:32+00:00,2012-12-23T19:11:21+00:00,edition_or_opening_baseline_unknown
+45760,Ultra Street Fighter IV,2012-12-23T19:11:21+00:00,2012-12-27T20:22:13+00:00,edition_or_opening_baseline_unknown
+45760,Ultra Street Fighter IV,2012-12-27T20:22:13+00:00,2013-06-30T17:26:10+00:00,edition_or_opening_baseline_unknown
+45760,Ultra Street Fighter IV,2013-06-30T17:26:10+00:00,2013-07-11T19:09:41+00:00,edition_or_opening_baseline_unknown
+45760,Ultra Street Fighter IV,2013-07-11T19:09:41+00:00,2013-07-25T15:40:45+00:00,edition_or_opening_baseline_unknown
+45770,Dead Rising 2: Off the Record,2012-12-19T18:26:03+00:00,2013-03-04T21:06:07+00:00,edition_or_opening_baseline_unknown
+45770,Dead Rising 2: Off the Record,2013-03-04T21:06:07+00:00,2013-07-25T15:40:45+00:00,edition_or_opening_baseline_unknown
+45770,Dead Rising 2: Off the Record,2021-06-24T19:03:26+00:00,2021-06-25T06:09:39+00:00,missing_or_zero_price
+220440,DmC: Devil May Cry,2013-05-30T17:26:09+00:00,2013-07-11T21:46:19+00:00,edition_or_opening_baseline_unknown
+220440,DmC: Devil May Cry,2013-07-11T21:46:19+00:00,2013-07-16T17:46:10+00:00,edition_or_opening_baseline_unknown
+220440,DmC: Devil May Cry,2013-07-16T17:46:10+00:00,2013-07-18T17:26:20+00:00,edition_or_opening_baseline_unknown
+220440,DmC: Devil May Cry,2013-07-18T17:26:20+00:00,2013-07-25T15:40:44+00:00,edition_or_opening_baseline_unknown
+220440,DmC: Devil May Cry,2022-10-14T17:01:29+00:00,2022-10-15T06:01:10+00:00,price_above_reviewed_baseline
+221040,Resident Evil 6,2013-07-12T01:06:10+00:00,2013-07-13T17:46:26+00:00,edition_or_opening_baseline_unknown
+221040,Resident Evil 6,2013-07-13T17:46:26+00:00,2013-07-15T17:26:07+00:00,edition_or_opening_baseline_unknown
+221040,Resident Evil 6,2013-07-15T17:26:07+00:00,2013-07-18T17:26:20+00:00,edition_or_opening_baseline_unknown
+221040,Resident Evil 6,2013-07-18T17:26:20+00:00,2013-07-19T01:26:14+00:00,edition_or_opening_baseline_unknown
+221040,Resident Evil 6,2013-07-19T01:26:14+00:00,2013-07-25T15:40:44+00:00,edition_or_opening_baseline_unknown
+221040,Resident Evil 6,2023-04-12T17:01:21+00:00,2023-04-12T17:51:05+00:00,price_above_reviewed_baseline
+221040,Resident Evil 6,2024-02-07T01:10:02+00:00,2024-02-07T01:30:02+00:00,missing_or_zero_price
+226720,Lost Planet 3,2022-10-14T17:01:29+00:00,2022-10-14T18:05:11+00:00,price_above_reviewed_baseline
+226720,Lost Planet 3,2022-10-17T17:21:26+00:00,2022-10-17T18:25:17+00:00,price_above_reviewed_baseline
+287290,Resident Evil Revelations 2,2015-02-25T05:00:07+00:00,2015-05-14T17:05:21+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-05-14T17:05:21+00:00,2015-05-20T08:39:26+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-05-20T08:39:26+00:00,2015-06-11T18:32:14+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-06-11T18:32:14+00:00,2015-06-22T17:36:25+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-06-22T17:36:25+00:00,2015-10-29T17:16:54+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-10-29T17:16:54+00:00,2015-11-02T18:17:51+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-11-02T18:17:51+00:00,2015-11-25T19:07:44+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-11-25T19:07:44+00:00,2015-12-01T18:23:11+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-12-01T18:23:11+00:00,2015-12-22T20:02:06+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2015-12-22T20:02:06+00:00,2016-01-04T18:43:06+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-01-04T18:43:06+00:00,2016-03-22T17:10:18+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-03-22T17:10:18+00:00,2016-03-29T17:10:48+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-03-29T17:10:48+00:00,2016-06-14T17:10:37+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-06-14T17:10:37+00:00,2016-06-17T17:10:35+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-06-17T17:10:35+00:00,2016-06-23T21:04:01+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-06-23T21:04:01+00:00,2016-07-04T17:39:39+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-07-04T17:39:39+00:00,2016-08-18T17:00:28+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-08-18T17:00:28+00:00,2016-08-22T17:12:52+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-08-22T17:12:52+00:00,2016-10-28T19:04:23+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-10-28T19:04:23+00:00,2016-11-02T08:33:42+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-11-02T08:33:42+00:00,2016-11-23T21:54:25+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-11-23T21:54:25+00:00,2016-11-30T12:00:45+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-11-30T12:00:45+00:00,2016-12-19T18:13:50+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2016-12-19T18:13:50+00:00,2017-01-02T18:18:17+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-01-02T18:18:17+00:00,2017-03-23T17:21:19+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-03-23T17:21:19+00:00,2017-03-27T17:22:54+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-03-27T17:22:54+00:00,2017-06-22T21:25:00+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-06-22T21:25:00+00:00,2017-07-05T17:32:50+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-07-05T17:32:50+00:00,2017-08-17T17:09:52+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-08-17T17:09:52+00:00,2017-08-17T17:12:29+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-08-17T17:12:29+00:00,2017-08-17T17:13:30+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-08-17T17:13:30+00:00,2017-08-21T17:20:47+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-08-21T17:20:47+00:00,2017-10-26T21:04:53+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-10-26T21:04:53+00:00,2017-11-01T17:29:22+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-11-01T17:29:22+00:00,2017-11-22T18:08:27+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-11-22T18:08:27+00:00,2017-11-28T19:47:07+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-11-28T19:47:07+00:00,2017-12-21T18:08:20+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2017-12-21T18:08:20+00:00,2018-01-04T18:41:12+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-01-04T18:41:12+00:00,2018-06-21T17:31:53+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-06-21T17:31:53+00:00,2018-07-05T17:20:58+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-07-05T17:20:58+00:00,2018-09-19T17:10:38+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-09-19T17:10:38+00:00,2018-09-24T21:21:53+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-09-24T21:21:53+00:00,2018-10-29T17:16:06+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-10-29T17:16:06+00:00,2018-11-01T17:29:07+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-11-01T17:29:07+00:00,2018-11-21T18:54:14+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-11-21T18:54:14+00:00,2018-11-27T20:44:51+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-11-27T20:44:51+00:00,2018-12-20T20:20:35+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2018-12-20T20:20:35+00:00,2019-01-07T20:50:11+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-01-07T20:50:11+00:00,2019-04-25T17:11:09+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-04-25T17:11:09+00:00,2019-05-06T17:22:02+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-05-06T17:22:02+00:00,2019-06-25T17:44:52+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-06-25T17:44:52+00:00,2019-07-09T18:00:37+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-07-09T18:00:37+00:00,2019-09-10T17:11:03+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-09-10T17:11:03+00:00,2019-09-13T17:12:03+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-09-13T17:12:03+00:00,2019-10-28T17:19:03+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-10-28T17:19:03+00:00,2019-11-01T17:19:50+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-11-01T17:19:50+00:00,2019-11-26T18:09:25+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-11-26T18:09:25+00:00,2019-12-03T18:12:38+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-12-03T18:12:38+00:00,2019-12-19T18:05:36+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2019-12-19T18:05:36+00:00,2020-01-02T18:14:43+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-01-02T18:14:43+00:00,2020-01-23T18:12:20+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-01-23T18:12:20+00:00,2020-01-27T19:24:50+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-01-27T19:24:50+00:00,2020-02-11T18:03:28+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-02-11T18:03:28+00:00,2020-02-17T18:19:24+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-02-17T18:19:24+00:00,2020-03-19T17:22:43+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-03-19T17:22:43+00:00,2020-03-31T18:15:21+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-03-31T18:15:21+00:00,2020-04-30T17:05:58+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-04-30T17:05:58+00:00,2020-05-06T17:01:12+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-05-06T17:01:12+00:00,2020-06-04T17:08:26+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-06-04T17:08:26+00:00,2020-06-15T17:04:58+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-06-15T17:04:58+00:00,2020-06-25T17:13:54+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-06-25T17:13:54+00:00,2020-07-09T18:12:46+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-07-09T18:12:46+00:00,2020-09-17T17:07:00+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-09-17T17:07:00+00:00,2020-09-21T17:03:13+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-09-21T17:03:13+00:00,2020-09-24T17:07:11+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-09-24T17:07:11+00:00,2020-09-28T17:17:35+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-09-28T17:17:35+00:00,2020-10-29T17:04:11+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-10-29T17:04:11+00:00,2020-11-02T18:28:05+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-11-02T18:28:05+00:00,2020-11-25T18:08:28+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-11-25T18:08:28+00:00,2020-12-01T18:19:40+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-12-01T18:19:40+00:00,2020-12-22T18:14:22+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2020-12-22T18:14:22+00:00,2021-01-05T18:45:00+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-01-05T18:45:00+00:00,2021-01-21T18:05:09+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-01-21T18:05:09+00:00,2021-01-25T18:25:39+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-01-25T18:25:39+00:00,2021-02-11T18:08:22+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-02-11T18:08:22+00:00,2021-02-15T19:13:49+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-02-15T19:13:49+00:00,2021-04-13T17:05:16+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-04-13T17:05:16+00:00,2021-04-20T17:05:34+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-04-20T17:05:34+00:00,2021-06-24T17:33:49+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-06-24T17:33:49+00:00,2021-07-21T17:06:53+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-07-21T17:06:53+00:00,2021-10-20T17:05:18+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-10-20T17:05:18+00:00,2021-11-01T17:28:15+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-11-01T17:28:15+00:00,2021-11-24T18:07:45+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-11-24T18:07:45+00:00,2021-12-01T18:21:36+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-12-01T18:21:36+00:00,2021-12-22T18:01:46+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2021-12-22T18:01:46+00:00,2022-01-05T18:20:17+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-01-05T18:20:17+00:00,2022-01-27T18:21:38+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-01-27T18:21:38+00:00,2022-02-03T18:21:39+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-02-03T18:21:39+00:00,2022-02-28T18:21:33+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-02-28T18:21:33+00:00,2022-03-21T17:21:29+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-03-21T17:21:29+00:00,2022-04-25T17:01:28+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-04-25T17:01:28+00:00,2022-05-02T17:21:29+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-05-02T17:21:29+00:00,2022-05-31T17:05:04+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-05-31T17:05:04+00:00,2022-06-12T17:01:27+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-06-12T17:01:27+00:00,2022-06-23T17:23:46+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-06-23T17:23:46+00:00,2022-06-23T17:33:35+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-06-23T17:33:35+00:00,2022-07-07T17:21:40+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-07-07T17:21:40+00:00,2022-07-13T17:01:25+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-07-13T17:01:25+00:00,2022-07-26T17:01:26+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-07-26T17:01:26+00:00,2022-09-08T17:01:31+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-09-08T17:01:31+00:00,2022-09-19T17:21:31+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-09-19T17:21:31+00:00,2022-10-19T17:01:29+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-10-19T17:01:29+00:00,2022-11-01T17:21:30+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-11-01T17:21:30+00:00,2022-11-22T18:08:47+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-11-22T18:08:47+00:00,2022-11-29T18:21:40+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-11-29T18:21:40+00:00,2022-12-08T18:01:29+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-12-08T18:01:29+00:00,2022-12-14T18:01:28+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-12-14T18:01:28+00:00,2022-12-22T18:08:32+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2022-12-22T18:08:32+00:00,2023-01-05T18:21:48+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-01-05T18:21:48+00:00,2023-01-19T18:20:05+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-01-19T18:20:05+00:00,2023-01-31T18:01:28+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-01-31T18:01:28+00:00,2023-03-03T18:01:28+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-03-03T18:01:28+00:00,2023-03-23T17:21:34+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-03-23T17:21:34+00:00,2023-04-24T17:21:31+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-04-24T17:21:31+00:00,2023-05-07T17:01:23+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-05-07T17:01:23+00:00,2023-06-06T17:01:23+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-06-06T17:01:23+00:00,2023-06-20T17:01:23+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-06-20T17:01:23+00:00,2023-06-29T17:25:31+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-06-29T17:25:31+00:00,2023-07-13T17:21:36+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-07-13T17:21:36+00:00,2023-07-24T17:21:26+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-07-24T17:21:26+00:00,2023-08-07T17:21:25+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-08-07T17:21:25+00:00,2023-10-25T17:01:21+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-10-25T17:01:21+00:00,2023-11-07T17:05:02+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-11-07T17:05:02+00:00,2023-11-21T18:08:46+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-11-21T18:08:46+00:00,2023-11-28T18:26:41+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-11-28T18:26:41+00:00,2023-12-07T18:01:26+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2023-12-07T18:01:26+00:00,2024-01-04T18:27:00+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-01-04T18:27:00+00:00,2024-01-24T18:01:22+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-01-24T18:01:22+00:00,2024-01-30T18:01:24+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-01-30T18:01:24+00:00,2024-02-29T18:01:24+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-02-29T18:01:24+00:00,2024-03-21T17:26:44+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-03-21T17:26:44+00:00,2024-04-15T17:21:30+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-04-15T17:21:30+00:00,2024-04-29T17:21:28+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-04-29T17:21:28+00:00,2024-06-07T17:01:24+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-06-07T17:01:24+00:00,2024-06-21T17:01:25+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-06-21T17:01:25+00:00,2024-06-27T17:50:00+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-06-27T17:50:00+00:00,2024-07-11T17:26:43+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-07-11T17:26:43+00:00,2024-07-22T17:21:30+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-07-22T17:21:30+00:00,2024-08-05T17:21:32+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-08-05T17:21:32+00:00,2024-09-16T17:27:49+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-09-16T17:27:49+00:00,2024-09-29T17:01:29+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-09-29T17:01:29+00:00,2024-10-29T17:01:26+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-10-29T17:01:26+00:00,2024-11-12T17:05:01+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-11-12T17:05:01+00:00,2024-11-27T18:20:56+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-11-27T18:20:56+00:00,2024-12-04T18:26:43+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-12-04T18:26:43+00:00,2024-12-12T18:01:27+00:00,edition_or_opening_baseline_unknown
+287290,Resident Evil Revelations 2,2024-12-12T18:01:27+00:00,2024-12-17T18:10:03+00:00,edition_or_opening_baseline_unknown
+304240,Resident Evil,2023-04-12T17:01:29+00:00,2023-04-12T17:51:59+00:00,price_above_reviewed_baseline
+418370,Resident Evil 7 Biohazard,2022-05-24T23:01:03+00:00,2022-05-25T03:01:02+00:00,price_above_reviewed_baseline
+493840,Marvel vs. Capcom: Infinite,2022-10-14T17:01:48+00:00,2022-10-14T18:05:12+00:00,price_above_reviewed_baseline
+493840,Marvel vs. Capcom: Infinite,2022-10-17T17:21:51+00:00,2022-10-17T18:25:08+00:00,price_above_reviewed_baseline
+495050,Mega Man Legacy Collection 2,2017-08-08T16:00:05+00:00,2017-08-08T16:10:14+00:00,missing_or_zero_price
+586200,Street Fighter 30th Anniversary Collection,2019-06-25T20:25:05+00:00,2019-06-26T06:30:46+00:00,missing_or_zero_price
+586200,Street Fighter 30th Anniversary Collection,2022-06-24T17:01:56+00:00,2022-06-24T18:05:10+00:00,price_above_reviewed_baseline
+587620,Okami HD,2022-10-18T22:10:02+00:00,2022-10-19T06:01:46+00:00,missing_or_zero_price
+601150,Devil May Cry 5,2019-10-03T17:30:16+00:00,2020-11-10T00:15:04+00:00,missing_or_zero_price
+952060,Resident Evil 3,2020-03-25T23:10:06+00:00,2020-03-25T23:30:03+00:00,missing_or_zero_price
+1158850,The Great Ace Attorney Chronicles,2021-07-27T04:00:05+00:00,2021-09-01T17:06:08+00:00,edition_or_opening_baseline_unknown
+1158850,The Great Ace Attorney Chronicles,2022-10-17T17:22:59+00:00,2022-10-17T18:25:20+00:00,price_above_reviewed_baseline
+1196590,Resident Evil Village,2021-01-21T23:50:06+00:00,2021-10-20T17:05:40+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2021-10-20T17:05:40+00:00,2021-11-01T17:53:39+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2021-11-01T17:53:39+00:00,2021-11-24T18:09:57+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2021-11-24T18:09:57+00:00,2021-12-01T18:20:54+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2021-12-01T18:20:54+00:00,2021-12-08T18:20:04+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2021-12-08T18:20:04+00:00,2021-12-13T18:02:51+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2021-12-13T18:02:51+00:00,2021-12-22T18:10:20+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2021-12-22T18:10:20+00:00,2021-12-22T18:13:15+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2021-12-22T18:13:15+00:00,2022-01-05T18:28:25+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2022-01-05T18:28:25+00:00,2022-01-20T19:30:03+00:00,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2022-05-03T23:25:22+00:00,2022-05-04T03:20:03+00:00,price_above_reviewed_baseline
+1196590,Resident Evil Village,2022-09-20T23:20:06+00:00,2022-09-21T03:10:02+00:00,missing_or_zero_price
+1446780,MONSTER HUNTER RISE,2022-05-03T23:45:02+00:00,2022-05-04T04:20:02+00:00,missing_or_zero_price
+1685750,Capcom Fighting Collection,2022-06-24T17:03:09+00:00,2022-06-24T18:05:10+00:00,price_above_reviewed_baseline
+1798010,Mega Man Battle Network Legacy Collection Vol. 1,2022-12-14T00:10:06+00:00,2022-12-17T07:01:51+00:00,edition_or_opening_baseline_unknown
+1798010,Mega Man Battle Network Legacy Collection Vol. 1,2022-12-17T07:01:51+00:00,2023-04-14T04:05:02+00:00,edition_or_opening_baseline_unknown
+1798020,Mega Man Battle Network Legacy Collection Vol. 2,2022-12-14T00:10:06+00:00,2022-12-17T07:01:51+00:00,edition_or_opening_baseline_unknown
+1798020,Mega Man Battle Network Legacy Collection Vol. 2,2022-12-17T07:01:51+00:00,2023-04-14T04:05:02+00:00,edition_or_opening_baseline_unknown
+1798020,Mega Man Battle Network Legacy Collection Vol. 2,2023-04-14T04:05:02+00:00,2023-04-14T04:30:02+00:00,edition_or_opening_baseline_unknown
+2054970,Dragon's Dogma 2,2024-06-27T18:50:11+00:00,2024-07-18T00:35:02+00:00,missing_or_zero_price
+21670,Bionic Commando,2012-11-25T22:48:22+00:00,2013-07-11T19:06:32+00:00,edition_or_opening_baseline_unknown
+21670,Bionic Commando,2013-07-11T19:06:32+00:00,2013-07-25T15:40:44+00:00,edition_or_opening_baseline_unknown
+21680,Bionic Commando: Rearmed,2012-11-22T07:03:54+00:00,2013-07-11T19:06:32+00:00,edition_or_opening_baseline_unknown
+21680,Bionic Commando: Rearmed,2013-07-11T19:06:32+00:00,2013-07-25T15:40:44+00:00,edition_or_opening_baseline_unknown
+21680,Bionic Commando: Rearmed,2022-10-14T17:01:23+00:00,2022-10-14T18:05:12+00:00,price_above_reviewed_baseline
+21680,Bionic Commando: Rearmed,2022-10-17T17:21:24+00:00,2022-10-17T18:25:14+00:00,price_above_reviewed_baseline
+228300,Remember Me,2013-07-11T19:06:34+00:00,2013-07-14T17:26:15+00:00,edition_or_opening_baseline_unknown
+228300,Remember Me,2013-07-14T17:26:15+00:00,2013-07-16T17:46:10+00:00,edition_or_opening_baseline_unknown
+228300,Remember Me,2013-07-16T17:46:10+00:00,2013-07-25T15:40:44+00:00,edition_or_opening_baseline_unknown
+237630,DuckTales: Remastered,2019-08-10T04:20:03+00:00,2020-03-03T18:04:20+00:00,missing_or_zero_price

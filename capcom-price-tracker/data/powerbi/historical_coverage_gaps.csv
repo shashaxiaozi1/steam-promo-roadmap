@@ -1,0 +1,55 @@
+appid,game_name,start_date_jst,end_date_jst,days,reason
+6510,Lost Planet: Extreme Condition,2012-09-26,2012-11-21,57,no_price_coverage
+6510,Lost Planet: Extreme Condition,2012-11-22,2013-07-26,247,edition_or_opening_baseline_unknown
+21670,Bionic Commando,2012-09-26,2012-11-25,61,no_price_coverage
+21670,Bionic Commando,2012-11-26,2013-07-26,243,edition_or_opening_baseline_unknown
+21680,Bionic Commando: Rearmed,2012-09-26,2012-11-21,57,no_price_coverage
+21680,Bionic Commando: Rearmed,2012-11-22,2013-07-26,247,edition_or_opening_baseline_unknown
+21680,Bionic Commando: Rearmed,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+21680,Bionic Commando: Rearmed,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+21690,Resident Evil 5,2012-09-26,2013-07-26,304,edition_or_opening_baseline_unknown
+21690,Resident Evil 5,2024-02-07,2024-02-07,1,price_above_reviewed_baseline
+45740,Dead Rising 2,2012-09-26,2012-10-29,34,no_price_coverage
+45740,Dead Rising 2,2012-10-30,2013-07-26,270,edition_or_opening_baseline_unknown
+45760,Ultra Street Fighter IV,2012-11-22,2013-07-26,247,edition_or_opening_baseline_unknown
+45770,Dead Rising 2: Off the Record,2012-09-26,2012-12-19,85,no_price_coverage
+45770,Dead Rising 2: Off the Record,2012-12-20,2013-07-26,219,edition_or_opening_baseline_unknown
+220440,DmC: Devil May Cry,2013-01-24,2013-05-30,127,no_price_coverage
+220440,DmC: Devil May Cry,2013-05-31,2013-07-26,57,edition_or_opening_baseline_unknown
+220440,DmC: Devil May Cry,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+221040,Resident Evil 6,2013-03-22,2013-07-11,112,no_price_coverage
+221040,Resident Evil 6,2013-07-12,2013-07-26,15,edition_or_opening_baseline_unknown
+221040,Resident Evil 6,2023-04-13,2023-04-13,1,price_above_reviewed_baseline
+221040,Resident Evil 6,2024-02-07,2024-02-07,1,missing_or_zero_price
+222480,Resident Evil Revelations,2013-05-20,2013-07-25,67,no_price_coverage
+222480,Resident Evil Revelations,2013-07-26,2013-07-26,1,partial_day_without_sale_evidence
+226720,Lost Planet 3,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+226720,Lost Planet 3,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+228300,Remember Me,2013-06-04,2013-07-11,38,no_price_coverage
+228300,Remember Me,2013-07-12,2013-07-26,15,edition_or_opening_baseline_unknown
+229480,Dungeons & Dragons: Chronicles of Mystara,2013-06-19,2013-07-25,37,no_price_coverage
+229480,Dungeons & Dragons: Chronicles of Mystara,2013-07-26,2013-07-26,1,partial_day_without_sale_evidence
+237630,DuckTales: Remastered,2020-03-04,2020-03-04,1,missing_or_zero_price
+287290,Resident Evil Revelations 2,2015-02-25,2024-12-17,3584,edition_or_opening_baseline_unknown
+304240,Resident Evil,2023-04-13,2023-04-13,1,price_above_reviewed_baseline
+363440,Mega Man Legacy Collection,2015-08-25,2015-08-25,1,partial_day_without_sale_evidence
+418370,Resident Evil 7 Biohazard,2022-05-25,2022-05-25,1,price_above_reviewed_baseline
+493840,Marvel vs. Capcom: Infinite,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+493840,Marvel vs. Capcom: Infinite,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+495050,Mega Man Legacy Collection 2,2017-08-09,2017-08-09,1,missing_or_zero_price
+587620,Okami HD,2022-10-19,2022-10-19,1,missing_or_zero_price
+601150,Devil May Cry 5,2019-10-05,2020-11-10,403,missing_or_zero_price
+743890,Mega Man X Legacy Collection,2018-07-25,2018-07-25,1,partial_day_without_sale_evidence
+743900,Mega Man X Legacy Collection 2,2018-07-25,2018-07-25,1,partial_day_without_sale_evidence
+885150,Capcom Beat 'Em Up Bundle,2018-10-11,2018-10-11,1,partial_day_without_sale_evidence
+952060,Resident Evil 3,2020-03-26,2020-03-26,1,missing_or_zero_price
+999020,Mega Man Zero/ZX Legacy Collection,2020-02-26,2020-02-26,1,partial_day_without_sale_evidence
+1158850,The Great Ace Attorney Chronicles,2021-07-27,2021-09-02,38,edition_or_opening_baseline_unknown
+1158850,The Great Ace Attorney Chronicles,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+1196590,Resident Evil Village,2021-01-22,2022-01-21,365,edition_or_opening_baseline_unknown
+1196590,Resident Evil Village,2022-05-04,2022-05-04,1,price_above_reviewed_baseline
+1196590,Resident Evil Village,2022-09-21,2022-09-21,1,missing_or_zero_price
+1685750,Capcom Fighting Collection,2022-06-25,2022-06-25,1,price_above_reviewed_baseline
+1798010,Mega Man Battle Network Legacy Collection Vol. 1,2023-04-14,2023-04-14,1,edition_or_opening_baseline_unknown
+1798020,Mega Man Battle Network Legacy Collection Vol. 2,2023-04-14,2023-04-14,1,edition_or_opening_baseline_unknown
+2054970,Dragon's Dogma 2,2024-06-28,2024-07-17,20,missing_or_zero_price
