@@ -94,6 +94,30 @@ class SegmentedHistoryTests(unittest.TestCase):
         self.assertEqual((pubs[0]['games_monitored'], pubs[0]['sale_share']), (2, '1.000000'))
         self.assertEqual(coverage[0]['is_complete'], 1)
 
+    def test_all_failed_day_after_last_game_record_is_retained(self):
+        plan = {'1': dict(game_name='One', eligible_start_utc='2025-01-01T15:00:00+00:00',
+                          first_source_event_utc='2025-01-01T15:00:00+00:00')}
+        row = dict(self.item, date_jst='2025-01-02', is_on_sale_any=0, sample_count=1,
+                   first_observed_utc='2025-01-02T01:00:00+00:00')
+        records = [dict(date_jst='2025-01-03', publisher='CAPCOM', missing_appids='1;2')]
+        pubs, coverage, gaps = publisher_history([row], [row], self.root, {}, plan,
+                                                   {'1': dict(unknown_intervals=[])}, records)
+        self.assertEqual((pubs[-1]['date_jst'], pubs[-1]['games_monitored'], pubs[-1]['sale_share']),
+                         ('2025-01-03', 2, ''))
+        self.assertEqual(coverage[-1]['missing_appids'], '1;2')
+        self.assertNotIn('2', plan)  # Scope construction must not mutate source plans.
+
+    def test_failed_new_game_does_not_shrink_same_day_publisher_denominator(self):
+        plan = {'1': dict(game_name='One', eligible_start_utc='2025-01-01T15:00:00+00:00',
+                          first_source_event_utc='2025-01-01T15:00:00+00:00')}
+        row = dict(self.item, date_jst='2025-01-02', is_on_sale_any=1, sample_count=1,
+                   first_observed_utc='2025-01-02T01:00:00+00:00')
+        records = [dict(date_jst='2025-01-02', publisher='CAPCOM', missing_appids='2')]
+        pubs, coverage, _ = publisher_history([row], [row], self.root, {}, plan,
+                                              {'1': dict(unknown_intervals=[])}, records)
+        self.assertEqual((pubs[-1]['games_monitored'], pubs[-1]['sale_share']), (2, ''))
+        self.assertEqual(coverage[-1]['observed_games'], 1)
+
 
 if __name__ == '__main__':
     unittest.main()

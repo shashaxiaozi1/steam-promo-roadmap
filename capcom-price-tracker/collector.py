@@ -332,7 +332,7 @@ def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_STA
                          sample_count_max=prior.get("sample_count_max", 0))
     pubs = [by_key[k] for k in sorted(by_key)]
     history_pubs, history_coverage, gaps = publisher_history(
-        merged_days, live, capcom_folder, stops, history_plans, history_metadata)
+        merged_days, live, capcom_folder, stops, history_plans, history_metadata, coverage)
     if history_plans:
         pubs = sorted([p for p in pubs if p['publisher'] != 'CAPCOM'] + history_pubs,
                       key=lambda p: (p['date_jst'], p['publisher']))

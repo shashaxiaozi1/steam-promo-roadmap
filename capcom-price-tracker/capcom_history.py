@@ -56,7 +56,7 @@ def load_history(folder: Path) -> list[dict]:
     return load_details(folder)[0]
 
 
-def publisher_history(games, live, folder, stops, plans, metadata):
+def publisher_history(games, live, folder, stops, plans, metadata, collection_records=()):
     """Use the entire reviewed scope in the denominator, including missing games.
 
     Historical full-game editions can change by AppID. A discounted interval
@@ -65,7 +65,7 @@ def publisher_history(games, live, folder, stops, plans, metadata):
     """
     if not plans:
         return [], [], []
-    plans = dict(plans)
+    plans = {aid: dict(plan) for aid, plan in plans.items()}
     metadata = dict(metadata)
     # Newly discovered titles do not yet have a historical source manifest.
     # Preserve their automatic first-observation eligibility in future rebuilds.
@@ -77,9 +77,21 @@ def publisher_history(games, live, folder, stops, plans, metadata):
             plans[aid] = dict(game_name=row['game_name'], eligible_start_utc=observed,
                               first_source_event_utc=observed)
             metadata[aid] = dict(unknown_intervals=[])
+    # Failed collections still define expected availability. In particular, a
+    # newly catalogued game with no valid price must not vanish from this scope.
+    records = [r for r in collection_records if r['publisher'] == 'CAPCOM']
+    for record in records:
+        observed = dt.datetime.combine(dt.date.fromisoformat(record['date_jst']), dt.time(), JST).astimezone(UTC).isoformat()
+        for aid in filter(None, record['missing_appids'].split(';')):
+            if aid not in plans:
+                plans[aid] = dict(game_name=f'AppID {aid}', eligible_start_utc=observed,
+                                 first_source_event_utc=observed)
+                metadata[aid] = dict(unknown_intervals=[])
+            else:
+                plans[aid]['eligible_start_utc'] = min(plans[aid]['eligible_start_utc'], observed)
     evidence = {(r['date_jst'], str(r['appid'])): r for r in games if r['publisher'] == 'CAPCOM'}
     live_keys = {(r['date_jst'], str(r['appid'])) for r in live if r['publisher'] == 'CAPCOM'}
-    ends = [r['date_jst'] for r in games if r['publisher'] == 'CAPCOM']
+    ends = [r['date_jst'] for r in games if r['publisher'] == 'CAPCOM'] + [r['date_jst'] for r in records]
     if not ends:
         return [], [], []
     day = min(dt.datetime.fromisoformat(p['eligible_start_utc']).astimezone(JST).date()
