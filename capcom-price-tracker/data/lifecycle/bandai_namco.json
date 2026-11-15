@@ -1,9 +1,9 @@
 {
-  "date_jst": "2026-11-14",
+  "date_jst": "2026-11-15",
   "safe_to_confirm": true,
-  "available": 125,
+  "available": 127,
   "unavailable": 0,
-  "unknown": 2,
+  "unknown": 0,
   "pending": {},
   "retired": {}
 }
