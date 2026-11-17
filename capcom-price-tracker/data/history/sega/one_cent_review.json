@@ -1,0 +1,62 @@
+[
+  {
+    "appid": "1316910",
+    "game_name": "Super Monkey Ball Banana Mania",
+    "start_utc": "2026-05-29T11:25:02+00:00",
+    "end_utc_exclusive": "2026-06-04T17:05:48+00:00",
+    "source_price_usd": "29.98",
+    "baseline_usd": "29.99",
+    "duration_hours": 149.67944444444444,
+    "api_observations": 0,
+    "api_states": [],
+    "treatment": "User explicitly instructed: one-cent differences count as no promotion regardless of duration; original price preserved"
+  },
+  {
+    "appid": "1649080",
+    "game_name": "Two Point Campus",
+    "start_utc": "2024-04-25T17:04:09+00:00",
+    "end_utc_exclusive": "2024-05-06T17:24:08+00:00",
+    "source_price_usd": "29.98",
+    "baseline_usd": "29.99",
+    "duration_hours": 264.3330555555556,
+    "api_observations": 0,
+    "api_states": [],
+    "treatment": "User explicitly instructed: one-cent differences count as no promotion regardless of duration; original price preserved"
+  },
+  {
+    "appid": "3717330",
+    "game_name": "Yakuza Kiwami",
+    "start_utc": "2026-11-02T18:23:21+00:00",
+    "end_utc_exclusive": "2026-11-11T18:21:54+00:00",
+    "source_price_usd": "19.98",
+    "baseline_usd": "19.99",
+    "duration_hours": 215.97583333333333,
+    "api_observations": 9,
+    "api_states": [
+      [
+        "19.99",
+        "19.99",
+        "0"
+      ]
+    ],
+    "treatment": "User explicitly instructed: one-cent differences count as no promotion regardless of duration; original price preserved"
+  },
+  {
+    "appid": "3717340",
+    "game_name": "Yakuza Kiwami 2",
+    "start_utc": "2026-11-02T18:23:21+00:00",
+    "end_utc_exclusive": "2026-11-11T18:21:54+00:00",
+    "source_price_usd": "19.98",
+    "baseline_usd": "19.99",
+    "duration_hours": 215.97583333333333,
+    "api_observations": 9,
+    "api_states": [
+      [
+        "19.99",
+        "19.99",
+        "0"
+      ]
+    ],
+    "treatment": "User explicitly instructed: one-cent differences count as no promotion regardless of duration; original price preserved"
+  }
+]

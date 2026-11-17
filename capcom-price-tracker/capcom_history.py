@@ -39,8 +39,11 @@ def load_details(folder: Path, publisher='CAPCOM'):
             raise ValueError(f'Price-period plan does not match source manifest: {aid}')
         days, priced, meta = reconstruct(source, entry, entry["list_price_usd"],
                                     coverage_start_utc=entry["coverage_start_utc"] or None,
+                                    coverage_end_utc=plans.get(str(aid), {}).get('eligible_end_utc'),
                                     zero_price_is_unknown=True,
-                                    reviewed_periods=plans.get(str(aid), {}).get('periods'))
+                                    reviewed_periods=plans.get(str(aid), {}).get('periods'),
+                                    reviewed_price_overrides=plans.get(str(aid), {}).get('price_overrides'),
+                                    sale_price_tolerance_usd=plans.get(str(aid), {}).get('sale_price_tolerance_usd', '0.00'))
         if len(days) != int(entry["imported_days"]) or meta["sale_days"] != int(entry["sale_days"]):
             raise ValueError(f"History coverage differs from approval manifest: {aid}")
         output.extend(days)
@@ -121,10 +124,11 @@ def publisher_history(games, live, folder, stops, plans, metadata, collection_re
             if start >= next_midnight or date >= stops.get((publisher, aid), '9999-12-31'):
                 continue
             row = evidence.get((date, aid))
-            required = (next_midnight - max(start, midnight)).total_seconds()
+            finish = min(next_midnight, dt.datetime.fromisoformat(plan['eligible_end_utc'])) if plan.get('eligible_end_utc') else next_midnight
+            required = (finish - max(start, midnight)).total_seconds()
             for period in plan.get('unavailable_periods', []):
                 a = max(start, midnight, dt.datetime.fromisoformat(period['start_utc']))
-                b = min(next_midnight, dt.datetime.fromisoformat(period['end_utc_exclusive']))
+                b = min(finish, dt.datetime.fromisoformat(period['end_utc_exclusive']))
                 required -= max(0, (b - a).total_seconds())
             if required <= 0:
                 if aid in opened:

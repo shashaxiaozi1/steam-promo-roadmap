@@ -1,0 +1,2159 @@
+{
+  "schema_version": 1,
+  "reviewed_on_jst": "2026-11-17",
+  "scope": "104 currently purchasable SEGA AppIDs plus retired FM26 and 2 historical standalone titles; 107 historical game identities. Not all SEGA games ever published.",
+  "uploaded_files": 110,
+  "reused_prior_sources": 1,
+  "excluded_appids": [
+    "4560",
+    "9340",
+    "20540",
+    "494790"
+  ],
+  "edition_policy": "User permits complete base-game edition continuity by AppID. Historical standalone titles exit scope at observed collection-only price transition; unrelated games are not merged.",
+  "inference": "Final price exports lack official list-price and package identity fields. Historical baselines and brief anomaly corrections are explicit reviewed inferences, not claimed official historical discounts. Original bytes and SHA-256 are preserved.",
+  "zero_rule": "Zero/blank unknown unless independent delisting evidence supports denominator exclusion; no extension beyond final source time.",
+  "one_cent_policy": "User explicitly instructed that a one-cent difference below reviewed full price means no promotion, regardless of duration. Original prices are retained. Brief high-price spikes require identical baseline immediately before/after and explicit audit overrides.",
+  "games": {
+    "4700": {
+      "game_name": "Total War: MEDIEVAL II – Definitive Edition",
+      "source_sha256": "ddbeefaadd8c2e9e5cbad9c4d36d917e30edaedaf6348e8009a060d7199badb6",
+      "original_filename": "4700_Total_War_MEDIEVAL_II_-_Definitive_Edition_US.csv",
+      "eligible_start_utc": "2006-11-14T15:00:00+00:00",
+      "first_source_event_utc": "2012-09-27T17:03:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2014-10-03T04:30:29+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2018-11-20T15:20:11+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-09-01T09:05:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "10460": {
+      "game_name": "The Club™",
+      "source_sha256": "e0f89eb257646042e00b506bedc5b274a6a0d15cfcf3037aa01c21c7c62a101e",
+      "original_filename": "10460_The_Club_US.csv",
+      "eligible_start_utc": "2008-02-19T15:00:00+00:00",
+      "first_source_event_utc": "2012-10-29T17:23:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "10500": {
+      "game_name": "Total War: EMPIRE – Definitive Edition",
+      "source_sha256": "1e3dcc04f101db6642a19632bd9350883100b455f40ab6cda96a339d48f4b607",
+      "original_filename": "10500_Total_War_EMPIRE_-_Definitive_Edition_US.csv",
+      "eligible_start_utc": "2009-03-03T15:00:00+00:00",
+      "first_source_event_utc": "2012-09-27T17:23:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2014-05-16T04:30:19+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2018-11-20T15:20:11+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-09-01T09:05:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "10680": {
+      "game_name": "Aliens vs. Predator™",
+      "source_sha256": "b7ccde28b0596b2585ac454d2bc166e8cadfd54069c2b1a6d7145ff71eda39bd",
+      "original_filename": "10680_Aliens_vs._Predator_US.csv",
+      "eligible_start_utc": "2010-02-15T15:00:00+00:00",
+      "first_source_event_utc": "2012-10-15T17:23:14+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-10-13T17:20:11+00:00",
+          "source_price_usd": "23.99",
+          "effective_price_usd": "14.99",
+          "basis": "User permits ignoring brief price anomalies; 45658s spike above reviewed standard price, identical 14.99 source prices before/after. Inference, not a historical API observation."
+        },
+        {
+          "start_utc": "2022-10-17T17:21:23+00:00",
+          "source_price_usd": "23.99",
+          "effective_price_usd": "14.99",
+          "basis": "User permits ignoring brief price anomalies; 3831s spike above reviewed standard price, identical 14.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "22230": {
+      "game_name": "Rock of Ages",
+      "source_sha256": "01c3bf0a7c51b3f87ffbde17c329ab14daa8ed2cef40673561f154093b403403",
+      "original_filename": "22230_Rock_of_Ages_US.csv",
+      "eligible_start_utc": "2011-09-06T15:00:00+00:00",
+      "first_source_event_utc": "2012-10-25T17:03:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "34010": {
+      "game_name": "Alpha Protocol™",
+      "source_sha256": "608435cca4e2d164633f795153e90ae5df7c80b4702c5c9b06872ee0539d2781",
+      "original_filename": "34010_Alpha_Protocol_US.csv",
+      "eligible_start_utc": "2010-05-31T15:00:00+00:00",
+      "first_source_event_utc": "2012-10-19T17:23:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2024-06-27T15:30:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "unavailable_periods": [
+        {
+          "start_utc": "2019-06-19T14:20:14+00:00",
+          "end_utc_exclusive": "2024-06-27T15:30:02+00:00",
+          "basis": "SEGA delisting statement quoted in contemporary report; supplied zero/positive events bound observed unavailability. Exact storefront removal time unknown.",
+          "sources": [
+            "https://www.gamespot.com/articles/one-of-my-favorite-games-has-been-removed-from-ste/1100-6467916/",
+            "supplied source.csv"
+          ]
+        }
+      ]
+    },
+    "34030": {
+      "game_name": "Total War: NAPOLEON – Definitive Edition",
+      "source_sha256": "4d1b10e7938d101d85f38b6d847281b368304e2b8acd476af24ac7d631717e37",
+      "original_filename": "34030_Total_War_NAPOLEON_-_Definitive_Edition_US.csv",
+      "eligible_start_utc": "2010-02-24T15:00:00+00:00",
+      "first_source_event_utc": "2012-09-27T17:23:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2015-11-02T16:00:30+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2018-11-20T15:20:12+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-09-01T09:05:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "34190": {
+      "game_name": "Sonic & SEGA All-Stars Racing",
+      "source_sha256": "2088d42fac1d1e4c57eedf2b2938d704ff015e9d56bfd1aadedaef8935c297a0",
+      "original_filename": "34190_Sonic_and_SEGA_All_Stars_Racing_US.csv",
+      "eligible_start_utc": "2010-03-02T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T07:03:50+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2014-05-28T04:30:03+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "49540": {
+      "game_name": "Aliens: Colonial Marines Collection",
+      "source_sha256": "1343d92b2cee1df5f53352dcea7d1d59df307e027fac0c13feee807ec95ec446",
+      "original_filename": "49540_Aliens_Colonial_Marines_US.csv",
+      "eligible_start_utc": "2012-04-30T15:00:00+00:00",
+      "first_source_event_utc": "2013-03-19T16:26:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2013-08-02T04:40:38+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2014-08-01T04:40:02+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2016-09-07T16:30:10+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "71250": {
+      "game_name": "Sonic Adventure DX",
+      "source_sha256": "bf8018eda05e672aa2dd54f80298af6ccad880f81d1bd786114dd9de7b70cf78",
+      "original_filename": "71250_Sonic_Adventure_DX_US.csv",
+      "eligible_start_utc": "2011-03-03T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T14:23:31+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "8.95",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2014-06-19T19:00:02+00:00",
+          "list_price_usd": "7.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "71340": {
+      "game_name": "Sonic Generations Collection",
+      "source_sha256": "a15522b7ebf5bde2407c05cb97900ff9974a7c4e616f087d511470c3366f58dd",
+      "original_filename": "71340_Sonic_Generations_US.csv",
+      "eligible_start_utc": "2011-11-02T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-25T22:48:14+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2016-07-04T18:50:32+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "eligible_end_utc": "2024-09-09T15:35:02+00:00",
+      "scope_note": "Historical standalone-sale period only. Source-observed transition to cross-game bundle offers bounds the end; not an asserted exact delisting timestamp. Later prices, including 209.55, are excluded.",
+      "reference_sources": [
+        "https://store.steampowered.com/app/71340/"
+      ]
+    },
+    "99300": {
+      "game_name": "Renegade Ops",
+      "source_sha256": "caeef7178af78abab4eede68a85f9fba41257f2202e9c3ae4273814079bc9fc7",
+      "original_filename": "99300_Renegade_Ops_US.csv",
+      "eligible_start_utc": "2011-10-25T15:00:00+00:00",
+      "first_source_event_utc": "2012-09-22T17:23:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:45+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2014-06-19T19:00:03+00:00",
+          "list_price_usd": "15.00",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2015-11-02T16:00:44+00:00",
+          "list_price_usd": "16.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2015-12-10T08:10:24+00:00",
+          "list_price_usd": "15.00",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-10-14T17:01:27+00:00",
+          "source_price_usd": "16.99",
+          "effective_price_usd": "15.00",
+          "basis": "User permits ignoring brief price anomalies; 3825s spike above reviewed standard price, identical 15.00 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "202530": {
+      "game_name": "Sonic the Hedgehog 4 - Episode I",
+      "source_sha256": "5643cd0be050af402a0eead4cc1050484857226446299e7454750f1284059d39",
+      "original_filename": "202530_SONIC_THE_HEDGEHOG_4_Episode_I_US.csv",
+      "eligible_start_utc": "2012-01-18T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T14:23:32+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "203650": {
+      "game_name": "Sonic the Hedgehog 4 - Episode II",
+      "source_sha256": "49fafc7be6f59a1b9393f683272d205ded1d5363cf71f75bc0af57287f2e8c79",
+      "original_filename": "203650_SONIC_THE_HEDGEHOG_4_Episode_II_US.csv",
+      "eligible_start_utc": "2012-05-14T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T14:23:44+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2016-07-04T18:50:23+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "203750": {
+      "game_name": "Binary Domain",
+      "source_sha256": "1a6fa65558bc6e273a3a9e68b10b5d067c231e0fe1782790449a445b7e823d3e",
+      "original_filename": "203750_Binary_Domain_US.csv",
+      "eligible_start_utc": "2012-04-26T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T14:23:36+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2013-09-18T20:14:35+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2015-11-02T17:15:45+00:00",
+          "list_price_usd": "15.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2015-12-08T19:25:12+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-10-14T17:01:29+00:00",
+          "source_price_usd": "15.99",
+          "effective_price_usd": "14.99",
+          "basis": "User permits ignoring brief price anomalies; 3822s spike above reviewed standard price, identical 14.99 source prices before/after. Inference, not a historical API observation."
+        },
+        {
+          "start_utc": "2022-10-17T17:21:26+00:00",
+          "source_price_usd": "15.99",
+          "effective_price_usd": "14.99",
+          "basis": "User permits ignoring brief price anomalies; 3831s spike above reviewed standard price, identical 14.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "205230": {
+      "game_name": "Hell Yeah! Wrath of the Dead Rabbit",
+      "source_sha256": "7c82e9b834397d85ccb08b1df887b3fe336d816ad4023f98e5bb91d6aa5a7fc8",
+      "original_filename": "205230_Hell_Yeah!_US.csv",
+      "eligible_start_utc": "2012-10-02T15:00:00+00:00",
+      "first_source_event_utc": "2012-10-29T17:23:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-10-14T17:01:29+00:00",
+          "source_price_usd": "19.49",
+          "effective_price_usd": "14.99",
+          "basis": "User permits ignoring brief price anomalies; 3822s spike above reviewed standard price, identical 14.99 source prices before/after. Inference, not a historical API observation."
+        },
+        {
+          "start_utc": "2022-10-17T17:21:27+00:00",
+          "source_price_usd": "19.49",
+          "effective_price_usd": "14.99",
+          "basis": "User permits ignoring brief price anomalies; 3830s spike above reviewed standard price, identical 14.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "211160": {
+      "game_name": "Viking: Battle for Asgard",
+      "source_sha256": "86eebb5240e84cc9107e5896a70ea7d314a539e9e619ad75fcc434f6523d82c4",
+      "original_filename": "211160_Viking_Battle_for_Asgard_US.csv",
+      "eligible_start_utc": "2012-10-16T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T14:23:30+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "212480": {
+      "game_name": "Sonic & All-Stars Racing Transformed Collection",
+      "source_sha256": "c62569c65526b5c6dc48d18fe3fbafd2e27bd14187c7912aee808e67672b0f74",
+      "original_filename": "212480_Sonic_&_All-Stars_Racing_Transformed_Collection_US.csv",
+      "eligible_start_utc": "2013-01-10T20:26:06+00:00",
+      "first_source_event_utc": "2013-01-10T20:26:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2013-08-06T04:40:14+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "213610": {
+      "game_name": "Sonic Adventure 2",
+      "source_sha256": "c0d68e2fb0dccc69c750e68673a22f6fcc77610af49d63f92b762d76dcb438e3",
+      "original_filename": "213610_Sonic_Adventure™_2_US.csv",
+      "eligible_start_utc": "2012-11-18T15:00:00+00:00",
+      "first_source_event_utc": "2012-12-20T20:23:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "214490": {
+      "game_name": "Alien: Isolation",
+      "source_sha256": "3df8c096bf8ef22a2958f3ba02d9d1e2df6270d8d94298feb331380c25338a5c",
+      "original_filename": "214490_Alien_Isolation_US.csv",
+      "eligible_start_utc": "2014-07-10T04:30:04+00:00",
+      "first_source_event_utc": "2014-07-10T04:30:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-07-10T04:30:04+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2016-07-04T18:51:56+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "214950": {
+      "game_name": "Total War: ROME II - Emperor Edition",
+      "source_sha256": "664b636fa607d364127e12d30fb3b2c6717078b55b3e3d3b5805bcf1be458c02",
+      "original_filename": "214950_Total_War_ROME_II_-_Emperor_Edition_US.csv",
+      "eligible_start_utc": "2013-08-04T13:58:49+00:00",
+      "first_source_event_utc": "2013-08-04T13:58:49+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-08-04T13:58:49+00:00",
+          "list_price_usd": "59.95",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2019-08-22T15:20:22+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-09-01T09:05:03+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "215690": {
+      "game_name": "Zeno Clash 2",
+      "source_sha256": "fd6627632e74a2cb26c661edef88f8440d1861fc3c07b6f5fe7b229be61d3177",
+      "original_filename": "215690_Zeno_Clash_2_US.csv",
+      "eligible_start_utc": "2013-04-01T20:26:10+00:00",
+      "first_source_event_utc": "2013-04-01T20:26:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2013-12-23T12:39:42+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-10-13T17:20:11+00:00",
+          "source_price_usd": "24.99",
+          "effective_price_usd": "14.99",
+          "basis": "User permits ignoring brief price anomalies; 45662s spike above reviewed standard price, identical 14.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "227600": {
+      "game_name": "Castle of Illusion",
+      "source_sha256": "0e37d79670e69598e252a443bd9b603514f2f8c18c846891d195fa7cbcb6bbd4",
+      "original_filename": "227600_Castle_of_Illusion_US.csv",
+      "eligible_start_utc": "2013-09-03T15:00:00+00:00",
+      "first_source_event_utc": "2013-09-18T20:14:35+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-09-18T20:14:35+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "unavailable_periods": [
+        {
+          "start_utc": "2016-09-02T17:10:49+00:00",
+          "end_utc_exclusive": "2017-03-30T15:00:32+00:00",
+          "basis": "SEGA delisting statement quoted in contemporary report; supplied zero/positive events bound observed unavailability. Exact storefront removal time unknown.",
+          "sources": [
+            "https://www.gamespot.com/articles/todays-your-last-chance-to-buy-castle-of-illusions/1100-6443247/",
+            "supplied source.csv"
+          ]
+        }
+      ]
+    },
+    "246580": {
+      "game_name": "The Typing of The Dead: Overkill",
+      "source_sha256": "e823953765616b3a0ffc29ec95e3d8c0ca25f803be6ed6aaceab8678b78afead",
+      "original_filename": "246580_The_Typing_of_The_Dead_Overkill_US.csv",
+      "eligible_start_utc": "2013-10-28T15:00:00+00:00",
+      "first_source_event_utc": "2013-10-29T17:20:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-10-29T17:20:07+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-06-24T17:01:28+00:00",
+          "source_price_usd": "25.99",
+          "effective_price_usd": "19.99",
+          "basis": "User permits ignoring brief price anomalies; 3820s spike above reviewed standard price, identical 19.99 source prices before/after. Inference, not a historical API observation."
+        },
+        {
+          "start_utc": "2022-10-14T17:01:26+00:00",
+          "source_price_usd": "25.99",
+          "effective_price_usd": "19.99",
+          "basis": "User permits ignoring brief price anomalies; 3825s spike above reviewed standard price, identical 19.99 source prices before/after. Inference, not a historical API observation."
+        },
+        {
+          "start_utc": "2022-10-17T17:21:28+00:00",
+          "source_price_usd": "25.99",
+          "effective_price_usd": "19.99",
+          "basis": "User permits ignoring brief price anomalies; 3829s spike above reviewed standard price, identical 19.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "255070": {
+      "game_name": "Abyss Odyssey",
+      "source_sha256": "2fb00b7186b96225b52a3adf66250e015c7ba656eb00c5fe9713be975116c62e",
+      "original_filename": "255070_Abyss_Odyssey_US.csv",
+      "eligible_start_utc": "2014-06-18T16:44:15+00:00",
+      "first_source_event_utc": "2014-06-18T16:44:15+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-06-18T16:44:15+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "294860": {
+      "game_name": "Valkyria Chronicles™",
+      "source_sha256": "8ec381a965e2a8ad531acf5e24930999c1e40e268fbe612b391d47226e9cc6f6",
+      "original_filename": "294860_Valkyria_Chronicles™_US.csv",
+      "eligible_start_utc": "2014-10-30T17:18:03+00:00",
+      "first_source_event_utc": "2014-10-30T17:18:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-10-30T17:18:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "301120": {
+      "game_name": "Eastside Hockey Manager",
+      "source_sha256": "f8093c81f7741ff60e9680d117dcc52b7f231fb25e0a1b2c20518eb02582fa03",
+      "original_filename": "301120_Eastside_Hockey_Manager_US.csv",
+      "eligible_start_utc": "2015-03-26T17:30:06+00:00",
+      "first_source_event_utc": "2015-03-26T17:30:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-03-26T17:30:06+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2015-12-01T19:13:05+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "scope_note": "Paid Early Access included at $14.99, followed by $19.99 full-release baseline."
+    },
+    "325610": {
+      "game_name": "Total War: ATTILA",
+      "source_sha256": "ff580092e9b43226b2de18fbd7ca009a622828ec1806092e1851b6bdc551cfa0",
+      "original_filename": "325610_Total_War_ATTILA_US.csv",
+      "eligible_start_utc": "2014-11-25T05:20:48+00:00",
+      "first_source_event_utc": "2014-11-25T05:20:48+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-11-25T05:20:48+00:00",
+          "list_price_usd": "44.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-09-01T09:05:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "329440": {
+      "game_name": "Sonic Lost World",
+      "source_sha256": "3a8f33ea3abe2e685ad540daa7cfab2a8c0dd263ede527313364375e26418447",
+      "original_filename": "329440_Sonic_Lost_World_US.csv",
+      "eligible_start_utc": "2015-10-06T15:50:07+00:00",
+      "first_source_event_utc": "2015-10-06T15:50:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-10-06T15:50:07+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "341870": {
+      "game_name": "TEMBO THE BADASS ELEPHANT",
+      "source_sha256": "8422445a529abe34b408d835cdc63a5151acdab4e6cc82e15a9dfbf7e2250c27",
+      "original_filename": "341870_Tembo_The_Badass_Elephant_US.csv",
+      "eligible_start_utc": "2015-07-03T17:00:05+00:00",
+      "first_source_event_utc": "2015-07-03T17:00:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-07-03T17:00:05+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "345240": {
+      "game_name": "SHOGUN: Total War™ - Collection",
+      "source_sha256": "1cb18a587def7f068e943d2edfd2750e2f49f3c03784220b63dbd8ac7b3b232f",
+      "original_filename": "345240_SHOGUN_Total_War™_-_Collection_US.csv",
+      "eligible_start_utc": "2015-06-24T15:00:00+00:00",
+      "first_source_event_utc": "2015-06-25T17:00:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-06-25T17:00:03+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "345260": {
+      "game_name": "Medieval: Total War™ - Collection",
+      "source_sha256": "895544db2ad5d900cb73c5ab1e68d2d4f8bb1e0320b3b890b9c5d759990c7120",
+      "original_filename": "345260_MEDIEVAL_Total_War™_-_Gold_Edition_US.csv",
+      "eligible_start_utc": "2015-06-24T15:00:00+00:00",
+      "first_source_event_utc": "2015-06-25T17:00:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-06-25T17:00:03+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "353700": {
+      "game_name": "The Deadly Tower of Monsters",
+      "source_sha256": "c55115edd8e0c215ba4834e82464e5366f15e183d80f5a86a5b503e75559a212",
+      "original_filename": "353700_The_Deadly_Tower_of_Monsters_US.csv",
+      "eligible_start_utc": "2016-01-18T15:00:00+00:00",
+      "first_source_event_utc": "2016-01-19T18:12:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-01-19T18:12:04+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "364360": {
+      "game_name": "Total War: WARHAMMER",
+      "source_sha256": "2c142084154f7872bbfcff6f567686d8603217e37924aa1efdb8e853ea269427",
+      "original_filename": "364360_Total_War_WARHAMMER_US.csv",
+      "eligible_start_utc": "2015-10-22T14:10:04+00:00",
+      "first_source_event_utc": "2015-10-22T14:10:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-10-22T14:10:04+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "434460": {
+      "game_name": "Rock of Ages 2: Bigger & Boulder™",
+      "source_sha256": "7b4a517baaaa9e5f0d99c51c348d017bb1b4d47620e31a796284a3de2ab37bb0",
+      "original_filename": "434460_Rock_of_Ages_2_US.csv",
+      "eligible_start_utc": "2017-08-27T15:00:00+00:00",
+      "first_source_event_utc": "2017-08-28T17:12:39+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-28T17:12:39+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "460790": {
+      "game_name": "Bayonetta",
+      "source_sha256": "f0425a4c10d1c64e507483ea6a193b46c1a59505ccb2785dd0207ebdf0617848",
+      "original_filename": "460790_Bayonetta_US.csv",
+      "eligible_start_utc": "2017-04-10T15:00:00+00:00",
+      "first_source_event_utc": "2017-04-11T14:50:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-04-11T14:50:09+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "460810": {
+      "game_name": "Vanquish",
+      "source_sha256": "669fc5e3e904e204b2b034fffcdcaddabe24fafa189228399cb38bfe68772f9b",
+      "original_filename": "460810_Vanquish_US.csv",
+      "eligible_start_utc": "2017-05-10T15:10:12+00:00",
+      "first_source_event_utc": "2017-05-10T15:10:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-05-10T15:10:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "535930": {
+      "game_name": "Two Point Hospital",
+      "source_sha256": "71c6d8fcbbf5c988b6a9fbdfe0381409fea9ca2c22404130b4ada7ea22c3b6c9",
+      "original_filename": "535930_Two_Point_Hospital_US.csv",
+      "eligible_start_utc": "2018-07-18T14:30:10+00:00",
+      "first_source_event_utc": "2018-07-18T14:30:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-07-18T14:30:10+00:00",
+          "list_price_usd": "34.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2023-02-01T17:00:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "546050": {
+      "game_name": "Puyo Puyo™Tetris®",
+      "source_sha256": "5c7412eab09ce4b9c4126f4a28a252009d3ac98ad39ea3f873321eaa5a5b8530",
+      "original_filename": "546050_Puyo_Puyo™Tetris®_US.csv",
+      "eligible_start_utc": "2018-02-06T15:30:05+00:00",
+      "first_source_event_utc": "2018-02-06T15:30:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-02-06T15:30:05+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "584400": {
+      "game_name": "Sonic Mania",
+      "source_sha256": "3dc67dd0c5e65c555d8df56b6e22ae54beff0244f460cd9f205e1ebf894c9aa4",
+      "original_filename": "584400_Sonic_Mania_US.csv",
+      "eligible_start_utc": "2017-05-30T15:10:19+00:00",
+      "first_source_event_utc": "2017-05-30T15:10:19+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-05-30T15:10:19+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "594570": {
+      "game_name": "Total War: WARHAMMER II",
+      "source_sha256": "d19a9b6af397f5bdd8d1e4fe23a1ef37c12f612663c8fbb693ba2d7ecc6daf66",
+      "original_filename": "594570_Total_War_WARHAMMER_II_US.csv",
+      "eligible_start_utc": "2017-06-12T14:00:03+00:00",
+      "first_source_event_utc": "2017-06-12T14:00:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-06-12T14:00:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "637100": {
+      "game_name": "Sonic Forces",
+      "source_sha256": "dd7dfe34a9affa66fa0cd3ee48eabf819845c37189c87d32630657044095a68d",
+      "original_filename": "637100_Sonic_Forces_US.csv",
+      "eligible_start_utc": "2017-09-21T15:00:06+00:00",
+      "first_source_event_utc": "2017-09-21T15:00:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-09-21T15:00:06+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "712100": {
+      "game_name": "A Total War Saga: THRONES OF BRITANNIA",
+      "source_sha256": "0878669f1f5f58fe4a1645eadd565c853f8850e7d6ef606442d1deca6bfb6cd9",
+      "original_filename": "712100_A_Total_War_Saga_THRONES_OF_BRITANNIA_US.csv",
+      "eligible_start_utc": "2018-02-01T15:10:04+00:00",
+      "first_source_event_utc": "2018-02-01T15:10:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-02-01T15:10:04+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-09-01T09:05:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "758330": {
+      "game_name": "Shenmue I & II",
+      "source_sha256": "d70ff8e5d98b978cab6d83a243757d3e0e5dee1a8e9b04ca90d0eb311fe932ed",
+      "original_filename": "758330_Shenmue_I_&_II_US.csv",
+      "eligible_start_utc": "2018-07-03T14:00:16+00:00",
+      "first_source_event_utc": "2018-07-03T14:00:16+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-07-03T14:00:16+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "779340": {
+      "game_name": "Total War: THREE KINGDOMS",
+      "source_sha256": "43faba071eebdb2acadbffc73b3c2dde399a4e7faf72ee70c0125de4b7053ea2",
+      "original_filename": "779340_Total_War_THREE_KINGDOMS_US.csv",
+      "eligible_start_utc": "2018-09-27T14:10:28+00:00",
+      "first_source_event_utc": "2018-09-27T14:10:28+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-09-27T14:10:28+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-05-15T09:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "785260": {
+      "game_name": "Team Sonic Racing™",
+      "source_sha256": "6b30ab99dd3f4a7c1d7bf79eeab08eb760714e5c7a65d5fb136a2a2392e8b327",
+      "original_filename": "785260_Team_Sonic_Racing™_US.csv",
+      "eligible_start_utc": "2019-05-20T15:00:00+00:00",
+      "first_source_event_utc": "2019-05-21T14:10:15+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-05-21T14:10:15+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "790820": {
+      "game_name": "Valkyria Chronicles 4 Complete Edition",
+      "source_sha256": "a6bc37d9a236235611448dcc2e95342b0edcbf316399075e2179fc0ed3e1b228",
+      "original_filename": "790820_Valkyria_Chronicles_4_Complete_Edition_US.csv",
+      "eligible_start_utc": "2018-08-07T15:10:03+00:00",
+      "first_source_event_utc": "2018-08-07T15:10:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-08-07T15:10:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2019-07-11T16:10:09+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2019-11-06T17:20:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "809890": {
+      "game_name": "Shining Resonance Refrain",
+      "source_sha256": "b7a2498aa13acff45e8a1ce48023de5315f674afe662447acbaa1822ffee191b",
+      "original_filename": "809890_Shining_Resonance_Refrain_US.csv",
+      "eligible_start_utc": "2018-05-22T16:40:17+00:00",
+      "first_source_event_utc": "2018-05-22T16:40:17+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-05-22T16:40:17+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2019-09-26T15:40:34+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "834800": {
+      "game_name": "SolSeraph",
+      "source_sha256": "11435914b572bbbaa8d3f92b48af27101be345794c4709a2ba609f98edb6e365",
+      "original_filename": "834800_SolSeraph_US.csv",
+      "eligible_start_utc": "2019-07-09T15:00:00+00:00",
+      "first_source_event_utc": "2019-07-10T14:10:15+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-07-10T14:10:15+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "885970": {
+      "game_name": "Total War: ROME REMASTERED",
+      "source_sha256": "9bf6287c79ac8a7381d15cefd9ee6d05d7f6de2269366a74ef242c64cff7ff46",
+      "original_filename": "885970_Total_War_ROME_REMASTERED_US.csv",
+      "eligible_start_utc": "2021-03-25T15:05:20+00:00",
+      "first_source_event_utc": "2021-03-25T15:05:20+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-03-25T15:05:20+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "893180": {
+      "game_name": "Catherine Classic",
+      "source_sha256": "d2b2f62e27e3d0ea813c53b5510757ab53b24fe611ece05a3ad7a4a9a6d320e4",
+      "original_filename": "893180_Catherine_Classic_US.csv",
+      "eligible_start_utc": "2019-01-09T15:00:00+00:00",
+      "first_source_event_utc": "2019-01-10T14:59:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-01-10T14:59:09+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "971620": {
+      "game_name": "Puyo Puyo Champions",
+      "source_sha256": "0137d6aa23bd6056473e7c486e1996dbcb3926ba673c83357a707d519e907163",
+      "original_filename": "971620_Puyo_Puyo_Champions_US.csv",
+      "eligible_start_utc": "2019-05-05T15:00:00+00:00",
+      "first_source_event_utc": "2019-05-07T04:10:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-05-07T04:10:09+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1061730": {
+      "game_name": "Super Monkey Ball: Banana Blitz HD",
+      "source_sha256": "455bd5a86ae1b86e87a069c14681de1b3e7360e75bcbd799a14db764b6fa9a5a",
+      "original_filename": "1061730_Super_Monkey_Ball_Banana_Blitz_HD_US.csv",
+      "eligible_start_utc": "2019-12-04T15:10:11+00:00",
+      "first_source_event_utc": "2019-12-04T15:10:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-12-04T15:10:11+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1088710": {
+      "game_name": "Yakuza 3 Remastered",
+      "source_sha256": "a8f0a6ee2dbf5a6dd849e40fa4594ecf13ce0a5664933f19f6fb18d10bae91fb",
+      "original_filename": "1088710_Yakuza_3_Remastered_US.csv",
+      "eligible_start_utc": "2021-01-27T15:00:00+00:00",
+      "first_source_event_utc": "2021-01-28T15:05:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-01-28T15:05:07+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "eligible_end_utc": "2026-02-11T15:05:02+00:00",
+      "scope_note": "Historical standalone-sale period only. Source-observed transition to cross-game bundle offers bounds the end; not an asserted exact delisting timestamp. Later prices, including 209.55, are excluded.",
+      "reference_sources": [
+        "https://store.steampowered.com/app/1088710/"
+      ]
+    },
+    "1099410": {
+      "game_name": "A Total War Saga: TROY",
+      "source_sha256": "6df44a5b3c54b9c9c7cabb40a0f202e917a7ba8681502a8da611024726313135",
+      "original_filename": "1099410_A_Total_War_Saga_TROY_US.csv",
+      "eligible_start_utc": "2021-09-01T15:00:00+00:00",
+      "first_source_event_utc": "2021-09-02T14:20:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-09-02T14:20:09+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2025-08-27T09:45:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-09-01T09:05:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1105500": {
+      "game_name": "Yakuza 4 Remastered",
+      "source_sha256": "0a19b184544b49619654ff7ca3247a9487088cc4a803059d3bd42605d1c3483f",
+      "original_filename": "1105500_Yakuza_4_Remastered_US.csv",
+      "eligible_start_utc": "2021-01-27T15:00:00+00:00",
+      "first_source_event_utc": "2021-01-28T17:05:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-01-28T17:05:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1105510": {
+      "game_name": "Yakuza 5 Remastered",
+      "source_sha256": "d0b1a9f01cc072052e02d089eab3b7a86cf7483a179ae897390783548ab65fb2",
+      "original_filename": "1105510_Yakuza_5_Remastered_US.csv",
+      "eligible_start_utc": "2021-01-27T15:00:00+00:00",
+      "first_source_event_utc": "2021-01-28T15:05:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-01-28T15:05:04+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1113000": {
+      "game_name": "Persona 4 Golden",
+      "source_sha256": "d240530cd4c9d52c73205d7a8b1cf1ea4230c1d355d52d14703647b444b1cac0",
+      "original_filename": "1113000_Persona_4_Golden_US.csv",
+      "eligible_start_utc": "2020-06-12T15:00:00+00:00",
+      "first_source_event_utc": "2020-06-13T17:55:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-06-13T17:55:07+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1142710": {
+      "game_name": "Total War: WARHAMMER III",
+      "source_sha256": "817ce5313d98279b94b84c501634ffe110174b38c057163c7d0df9eacaf9549a",
+      "original_filename": "1142710_Total_War_WARHAMMER_III_US.csv",
+      "eligible_start_utc": "2021-02-03T15:05:06+00:00",
+      "first_source_event_utc": "2021-02-03T15:05:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-02-03T15:05:06+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1235140": {
+      "game_name": "Yakuza: Like a Dragon",
+      "source_sha256": "3b4e17c5262579e81401d1821efd048f29fc5ff140fb7e7d137905eb91c7ce62",
+      "original_filename": "1235140_Yakuza_Like_a_Dragon_US.csv",
+      "eligible_start_utc": "2020-07-22T15:10:07+00:00",
+      "first_source_event_utc": "2020-07-22T15:10:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-07-22T15:10:07+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2024-07-25T15:00:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1237320": {
+      "game_name": "Sonic Frontiers",
+      "source_sha256": "853fa752a049c8ce9209f2789a9fe09b12fb6583b47b0c55d73675cd039b2432",
+      "original_filename": "1237320_Sonic_Frontiers_US.csv",
+      "eligible_start_utc": "2022-08-23T19:05:01+00:00",
+      "first_source_event_utc": "2022-08-23T19:05:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-08-23T19:05:01+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-05-07T17:06:34+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1259790": {
+      "game_name": "Puyo Puyo™ Tetris® 2",
+      "source_sha256": "171165991bc8be57138906d310d789691a64224d3fdcab06f43a5b71dd93f231",
+      "original_filename": "1259790_Puyo_Puyo™_Tetris®_2_US.csv",
+      "eligible_start_utc": "2021-03-04T17:00:07+00:00",
+      "first_source_event_utc": "2021-03-04T17:00:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-03-04T17:00:07+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2025-06-17T11:35:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1316910": {
+      "game_name": "Super Monkey Ball Banana Mania",
+      "source_sha256": "bc880e9038c1650eac2377e0a8b43b445435283c1066430f1299a6c02ad2de55",
+      "original_filename": "1316910_Super_Monkey_Ball_Banana_Mania_US.csv",
+      "eligible_start_utc": "2021-07-28T17:00:05+00:00",
+      "first_source_event_utc": "2021-07-28T17:00:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-07-28T17:00:05+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-10-13T17:20:15+00:00",
+          "source_price_usd": "39.99",
+          "effective_price_usd": "29.99",
+          "basis": "User permits ignoring brief price anomalies; 45719s spike above reviewed standard price, identical 29.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "1382330": {
+      "game_name": "Persona® 5 Strikers",
+      "source_sha256": "79de9af76020c1d2407bda7a78bfa1555b3153d93d4da70e4214cebb00d559bd",
+      "original_filename": "1382330_Persona_5_Strikers_US.csv",
+      "eligible_start_utc": "2020-12-11T00:00:05+00:00",
+      "first_source_event_utc": "2020-12-11T00:00:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-12-11T00:00:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2021-02-19T03:00:05+00:00",
+          "source_price_usd": "69.99",
+          "effective_price_usd": "59.99",
+          "basis": "User permits ignoring brief price anomalies; 1803s spike above reviewed standard price, identical 59.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "1388590": {
+      "game_name": "Yakuza 6: The Song of Life",
+      "source_sha256": "5ddd5bfa1f4ceb6b17f9cc9cbcceed5da9bf612198641b4fd080743f077017a2",
+      "original_filename": "1388590_Yakuza_6_The_Song_of_Life_US.csv",
+      "eligible_start_utc": "2021-03-24T15:00:00+00:00",
+      "first_source_event_utc": "2021-03-25T16:05:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-03-25T16:05:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1413480": {
+      "game_name": "Shin Megami Tensei III Nocturne HD Remaster",
+      "source_sha256": "21fb6e92d92128e243973820fced32ec07643eeb48c52d436f78a20fc11c89b3",
+      "original_filename": "1413480_Shin_Megami_Tensei_III_Nocturne_HD_Remaster_US.csv",
+      "eligible_start_utc": "2021-03-19T21:05:05+00:00",
+      "first_source_event_utc": "2021-03-19T21:05:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-03-19T21:05:05+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2021-05-21T02:05:03+00:00",
+          "source_price_usd": "69.99",
+          "effective_price_usd": "49.99",
+          "basis": "User permits ignoring brief price anomalies; 1501s spike above reviewed standard price, identical 49.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "1490890": {
+      "game_name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "source_sha256": "ecf184bec0d45cef13135301e57cffafa75836536c6d5fba75f68b4dee6d58a3",
+      "original_filename": "1490890_Demon_Slayer_-Kimetsu_no_Yaiba-_The_Hinokami_Chronicles_US.csv",
+      "eligible_start_utc": "2021-07-12T16:05:06+00:00",
+      "first_source_event_utc": "2021-07-12T16:05:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-10-15T16:00:16+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-10-17T17:23:31+00:00",
+          "source_price_usd": "69.99",
+          "effective_price_usd": "59.99",
+          "basis": "User permits ignoring brief price anomalies; 3714s spike above reviewed standard price, identical 59.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ],
+      "scope_note": "Opening $69.99 offer edition unverified; begin usable standard-price evidence at $59.99 event, without calling the edition change a discount."
+    },
+    "1602010": {
+      "game_name": "Persona 4 Arena Ultimax",
+      "source_sha256": "c57458095c2c08033eff44bba7d18e3fc42fd359ff7b6085254c44ef41b7aaa8",
+      "original_filename": "1602010_Persona_4_Arena_Ultimax_US.csv",
+      "eligible_start_utc": "2021-12-10T01:05:02+00:00",
+      "first_source_event_utc": "2021-12-10T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-12-10T01:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1649080": {
+      "game_name": "Two Point Campus",
+      "source_sha256": "2e8d8022c8fb8d1bdf3b8cb024282f75bd363b18a3f880e11f7532f83c05c93d",
+      "original_filename": "1649080_Two_Point_Campus_US.csv",
+      "eligible_start_utc": "2022-01-27T15:00:03+00:00",
+      "first_source_event_utc": "2022-01-27T15:00:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-01-27T15:00:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2023-05-19T09:00:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1687950": {
+      "game_name": "Persona 5 Royal",
+      "source_sha256": "8c56aa8fc5c158957a69a87c59a8888e1e4a0902bd9bdfdd302bb71a575664fc",
+      "original_filename": "1687950_Persona_5_Royal_US.csv",
+      "eligible_start_utc": "2022-10-19T15:00:00+00:00",
+      "first_source_event_utc": "2022-10-21T04:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-10-21T04:05:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1761390": {
+      "game_name": "Hatsune Miku: Project DIVA Mega Mix+",
+      "source_sha256": "9967f254d8e91680da67735c356f44ac8015f332a2f60bc3d0cf45e26029e282",
+      "original_filename": "1761390_Hatsune_Miku_Project_DIVA_Mega_Mix+_US.csv",
+      "eligible_start_utc": "2022-05-25T15:00:00+00:00",
+      "first_source_event_utc": "2022-05-26T16:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-05-26T16:05:02+00:00",
+          "list_price_usd": "39.39",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1777620": {
+      "game_name": "Soul Hackers 2",
+      "source_sha256": "2507ecdc8a3e407587ed3c7d2389a93db36587ec52559ff729620aaca7c4d81d",
+      "original_filename": "1777620_Soul_Hackers_2_US.csv",
+      "eligible_start_utc": "2022-06-09T18:05:02+00:00",
+      "first_source_event_utc": "2022-06-09T18:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-06-09T18:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1794960": {
+      "game_name": "Sonic Origins",
+      "source_sha256": "22cede1ae366cd81a42fcfe96264f94f3315038ce7030f8de687c14da15acc6d",
+      "original_filename": "1794960_Sonic_Origins_US.csv",
+      "eligible_start_utc": "2022-04-20T16:30:03+00:00",
+      "first_source_event_utc": "2022-04-20T16:30:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-04-20T16:30:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2023-06-23T04:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1805480": {
+      "game_name": "Like a Dragon: Ishin!",
+      "source_sha256": "654d32ff1e25c34cf6dbda89aff153fbfdb82bd6a8896dbab835fec2a18e342f",
+      "original_filename": "1805480_Like_a_Dragon_Ishin!_US.csv",
+      "eligible_start_utc": "2022-09-14T14:15:02+00:00",
+      "first_source_event_utc": "2022-09-14T14:15:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-09-14T14:15:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-05-14T17:07:40+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2022-10-14T17:03:33+00:00",
+          "source_price_usd": "69.99",
+          "effective_price_usd": "59.99",
+          "basis": "User permits ignoring brief price anomalies; 3694s spike above reviewed standard price, identical 59.99 source prices before/after. Inference, not a historical API observation."
+        },
+        {
+          "start_utc": "2022-10-17T17:24:02+00:00",
+          "source_price_usd": "69.99",
+          "effective_price_usd": "59.99",
+          "basis": "User permits ignoring brief price anomalies; 3682s spike above reviewed standard price, identical 59.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "1809700": {
+      "game_name": "Persona 3 Portable",
+      "source_sha256": "1be9d4b6de5e6453ad4b957f46ff32e5aa4d9390f39526a06e004462727627d0",
+      "original_filename": "1809700_Persona_3_Portable_US.csv",
+      "eligible_start_utc": "2023-01-17T15:00:00+00:00",
+      "first_source_event_utc": "2023-01-19T05:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-01-19T05:05:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1810820": {
+      "game_name": "Etrian Odyssey III HD",
+      "source_sha256": "f5bdfc56d7ad21c84598e33fa147e598a502fc3f4b5678d43b1bb4b7ef9d4995",
+      "original_filename": "1810820_Etrian_Odyssey_III_HD_US.csv",
+      "eligible_start_utc": "2023-02-08T23:05:02+00:00",
+      "first_source_event_utc": "2023-02-08T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-02-08T23:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1868170": {
+      "game_name": "Etrian Odyssey II HD",
+      "source_sha256": "7cb3f0874a5d40d134c7a29ed29c965bc3b9e7930d5f9806e4a8a5eb76e3f0a2",
+      "original_filename": "1868170_Etrian_Odyssey_II_HD_US.csv",
+      "eligible_start_utc": "2023-02-08T23:05:02+00:00",
+      "first_source_event_utc": "2023-02-08T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-02-08T23:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1868180": {
+      "game_name": "Etrian Odyssey HD",
+      "source_sha256": "168f613f774cd98ac154347a9720a0f97c3380c17b5796f863cd4b59c94c1a3a",
+      "original_filename": "1868180_Etrian_Odyssey_HD_US.csv",
+      "eligible_start_utc": "2023-02-08T23:05:02+00:00",
+      "first_source_event_utc": "2023-02-08T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-02-08T23:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1875830": {
+      "game_name": "Shin Megami Tensei V: Vengeance",
+      "source_sha256": "262a5104b95b75a2b6fb57ec0cbcfc7de03f13cca504ce2dea7d318e99821655",
+      "original_filename": "1875830_Shin_Megami_Tensei_V_Vengeance_US.csv",
+      "eligible_start_utc": "2024-02-27T16:00:01+00:00",
+      "first_source_event_utc": "2024-02-27T16:00:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-02-27T16:00:01+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1937780": {
+      "game_name": "Total War: PHARAOH",
+      "source_sha256": "554c1fc08e7d99cef3de073593167455e255cbe27111e7485033c260b410ad52",
+      "original_filename": "1937780_Total_War_PHARAOH_US.csv",
+      "eligible_start_utc": "2023-05-23T15:05:03+00:00",
+      "first_source_event_utc": "2023-05-23T15:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-05-23T15:05:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2023-12-14T17:00:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-09-01T09:05:03+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2022670": {
+      "game_name": "SONIC SUPERSTARS",
+      "source_sha256": "3a6e3992192b40a32b95e5aecbc0e617b1338cb4db3fa8c346de7bb12090f514",
+      "original_filename": "2022670_Sonic_Superstars_US.csv",
+      "eligible_start_utc": "2023-08-22T20:05:02+00:00",
+      "first_source_event_utc": "2023-08-22T20:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-08-22T20:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-05-14T17:08:15+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2055290": {
+      "game_name": "Sonic Colors: Ultimate",
+      "source_sha256": "72f82b980bd876044bb9985295e19e2baf4ac6fd8557281e169dca1efdab2db1",
+      "original_filename": "2055290_Sonic_Colors_Ultimate_US.csv",
+      "eligible_start_utc": "2023-02-05T15:00:00+00:00",
+      "first_source_event_utc": "2023-02-06T18:25:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-02-06T18:25:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2058180": {
+      "game_name": "Judgment",
+      "source_sha256": "9ee373b73a34c0521d0272e1824b9178e15d4f50efa1163c167d92afd7ec3b2f",
+      "original_filename": "2058180_Judgment_US.csv",
+      "eligible_start_utc": "2022-09-13T15:00:00+00:00",
+      "first_source_event_utc": "2022-09-14T13:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-09-14T13:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2058190": {
+      "game_name": "Lost Judgment",
+      "source_sha256": "5081b1448d0aac701f7765304bc316a21b1e15fc386638e11ed85e82d7cdf1c1",
+      "original_filename": "2058190_Lost_Judgment_US.csv",
+      "eligible_start_utc": "2022-09-13T15:00:00+00:00",
+      "first_source_event_utc": "2022-09-14T13:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-09-14T13:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-05-14T17:08:15+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2072450": {
+      "game_name": "Like a Dragon: Infinite Wealth",
+      "source_sha256": "b136ccfa306882181e23fc3660e95b2e3d69a3d4d2637874e9eeb13704d0f1d6",
+      "original_filename": "2072450_Like_a_Dragon_Infinite_Wealth_US.csv",
+      "eligible_start_utc": "2023-09-20T04:05:02+00:00",
+      "first_source_event_utc": "2023-09-20T04:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-09-20T04:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2161700": {
+      "game_name": "Persona 3 Reload",
+      "source_sha256": "f5b1377f8b23616a4705b919a02017d988dd2f7f2323c4518e487024e2114998",
+      "original_filename": "2161700_Persona_3_Reload_US.csv",
+      "eligible_start_utc": "2023-08-23T14:10:02+00:00",
+      "first_source_event_utc": "2023-08-23T14:10:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-08-23T14:10:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2025-10-23T14:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2185060": {
+      "game_name": "Two Point Museum",
+      "source_sha256": "130df957c5f28778ebda6493222a26f9dace54b20525446c5c4a513ef467c4f6",
+      "original_filename": "2185060_Two_Point_Museum_US.csv",
+      "eligible_start_utc": "2024-09-19T14:00:01+00:00",
+      "first_source_event_utc": "2024-09-19T14:00:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-09-19T14:00:01+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2254740": {
+      "game_name": "Persona 5 Tactica",
+      "source_sha256": "4f246d4f8588af6a82be94ed48fce5ad5dc3f90fc92515e8167c73a476c764c8",
+      "original_filename": "2254740_Persona_5_Tactica_US.csv",
+      "eligible_start_utc": "2023-06-21T15:05:02+00:00",
+      "first_source_event_utc": "2023-06-21T15:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-06-21T15:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2288350": {
+      "game_name": "RAIDOU Remastered: The Mystery of the Soulless Army",
+      "source_sha256": "80070311d2e75d1492b575a52e35a15faa92af435faf88fd3da9e85dd82ad1ee",
+      "original_filename": "2288350_RAIDOU_Remastered_The_Mystery_of_the_Soulless_Army_US.csv",
+      "eligible_start_utc": "2025-03-27T15:00:04+00:00",
+      "first_source_event_utc": "2025-03-27T15:00:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-03-27T15:00:04+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2361770": {
+      "game_name": "SHINOBI: Art of Vengeance",
+      "source_sha256": "0a69cd5ff05d5b5521bcb8f3b3bed02d913dd168901d02337e4ac409bfe02496",
+      "original_filename": "2361770_SHINOBI_Art_of_Vengeance_US.csv",
+      "eligible_start_utc": "2025-02-12T23:05:02+00:00",
+      "first_source_event_utc": "2025-02-12T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-02-12T23:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2375550": {
+      "game_name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+      "source_sha256": "57ff64e35a7b7518624b8fd8b6466f393540c3d7d1eaee9c36335f7dac921985",
+      "original_filename": "2375550_Like_a_Dragon_Gaiden_The_Man_Who_Erased_His_Name_US.csv",
+      "eligible_start_utc": "2023-06-08T21:05:02+00:00",
+      "first_source_event_utc": "2023-06-08T21:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-06-08T21:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2424110": {
+      "game_name": "Demon Slayer -Kimetsu no Yaiba- Sweep the Board!",
+      "source_sha256": "46edbb39b45b3e013ea320acb21b1f677fefb2694bec6d9c4cbecd901dbb1b13",
+      "original_filename": "2424110_Demon_Slayer_-Kimetsu_no_Yaiba-_Sweep_the_Board!_US.csv",
+      "eligible_start_utc": "2024-05-15T16:00:02+00:00",
+      "first_source_event_utc": "2024-05-15T16:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-05-15T16:00:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2486820": {
+      "game_name": "Sonic Racing: CrossWorlds",
+      "source_sha256": "8bf90c1356e5e8b6c4a8b5e6065cc683ffd6845908aa4cbb00727a2c1bf157e9",
+      "original_filename": "2486820_Sonic_Racing_CrossWorlds_US.csv",
+      "eligible_start_utc": "2025-06-06T23:05:02+00:00",
+      "first_source_event_utc": "2025-06-06T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-06-06T23:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-10-09T17:10:13+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2513280": {
+      "game_name": "SONIC X SHADOW GENERATIONS",
+      "source_sha256": "1e1581fecca40bcb063170da6bbe32326bca4a24a481eaaa80db207483c3b6e5",
+      "original_filename": "2513280_SONIC_X_SHADOW_GENERATIONS_US.csv",
+      "eligible_start_utc": "2024-06-07T23:00:02+00:00",
+      "first_source_event_utc": "2024-06-07T23:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-06-07T23:00:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "price_overrides": [
+        {
+          "start_utc": "2024-10-25T04:00:02+00:00",
+          "source_price_usd": "59.99",
+          "effective_price_usd": "49.99",
+          "basis": "User permits ignoring brief price anomalies; 300s spike above reviewed standard price, identical 49.99 source prices before/after. Inference, not a historical API observation."
+        }
+      ]
+    },
+    "2679460": {
+      "game_name": "Metaphor: ReFantazio",
+      "source_sha256": "4be71d994fd86938750639b3970911099688cfa5b7786c41453dc34ea15d3c20",
+      "original_filename": "2679460_Metaphor_ReFantazio_US.csv",
+      "eligible_start_utc": "2024-06-07T22:00:01+00:00",
+      "first_source_event_utc": "2024-06-07T22:00:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-06-07T22:00:01+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-11-12T18:10:48+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2928600": {
+      "game_name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "source_sha256": "f52a444b6dc670a6bc4891b4dda953f395ae649ad48aff71e86d4b735436bbb0",
+      "original_filename": "2928600_Demon_Slayer_-Kimetsu_no_Yaiba-_The_Hinokami_Chronicles_2_US.csv",
+      "eligible_start_utc": "2025-03-03T17:05:05+00:00",
+      "first_source_event_utc": "2025-03-03T17:05:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-03-03T17:05:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        },
+        {
+          "start_utc": "2026-10-12T17:22:01+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2963950": {
+      "game_name": "Persona 4 Revival ",
+      "source_sha256": "23b3435a8ecc67daa868372a704d6bb38e0a57ad3a1b87dea776d61e3712b955",
+      "original_filename": "2963950_Persona_4_Revival_US.csv",
+      "eligible_start_utc": "2026-06-08T16:30:03+00:00",
+      "first_source_event_utc": "2026-06-08T16:30:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-06-08T16:30:03+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2988580": {
+      "game_name": "Yakuza 0 Director's Cut",
+      "source_sha256": "1c2f263553b23d0b93e806d902cd88f414d1d7be12da7b59e7fa3366dc6652a3",
+      "original_filename": "2988580_Yakuza_0_Director's_Cut_US.csv",
+      "eligible_start_utc": "2025-12-07T15:00:00+00:00",
+      "first_source_event_utc": "2025-12-08T17:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-12-08T17:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3061810": {
+      "game_name": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "source_sha256": "feea344317715f2c82f6d5e1c0264e7556ec342c35ce77f35a1c29d83c10826a",
+      "original_filename": "3061810_Like_a_Dragon_Pirate_Yakuza_in_Hawaii_US.csv",
+      "eligible_start_utc": "2024-09-20T11:29:23+00:00",
+      "first_source_event_utc": "2024-09-20T11:29:23+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-09-20T11:29:23+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3112260": {
+      "game_name": " Virtua Fighter 5 R.E.V.O. World Stage",
+      "source_sha256": "10fe7ae47c7c1869769f4b50f4a8be204f5952aa36e69ed7fb35173f563eb29b",
+      "original_filename": "3112260_Virtua_Fighter_5_R.E.V.O._World_Stage_US.csv",
+      "eligible_start_utc": "2024-12-13T05:05:02+00:00",
+      "first_source_event_utc": "2024-12-13T05:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-12-13T05:05:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3169520": {
+      "game_name": "Warhammer 40,000: Space Marine - Master Crafted Edition",
+      "source_sha256": "d98988816b926b03debcc5f82080849e5f56d13d18a5eed1ca9199c168bb12c7",
+      "original_filename": "3169520_Space_Marine_Master_Crafted_Edition_US.csv",
+      "eligible_start_utc": "2025-06-09T15:00:00+00:00",
+      "first_source_event_utc": "2025-06-10T14:00:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-06-10T14:00:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3551340": {
+      "game_name": "Football Manager 26",
+      "source_sha256": "b1d7b888510784f943f648115cf4dd3ff35afcd00233f2daaa81c2bbeb5e1adc",
+      "original_filename": "source.csv",
+      "eligible_start_utc": "2025-09-10T15:00:03+00:00",
+      "first_source_event_utc": "2025-09-10T15:00:03+00:00",
+      "historical_edition": "Base",
+      "periods": [
+        {
+          "start_utc": "2025-09-10T15:00:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "historical_package_id": "1253262",
+      "scope_note": "Reuse original independently verified FM26 source and $59.99 baseline; preserve original provenance. Legacy standalone import is superseded for rollup only, files untouched."
+    },
+    "3717330": {
+      "game_name": "Yakuza Kiwami",
+      "source_sha256": "a88c56819884374c9295fd3decd620fe8f6e35854232331e3580c517af434209",
+      "original_filename": "3717330_Yakuza_Kiwami_US.csv",
+      "eligible_start_utc": "2025-12-10T15:00:00+00:00",
+      "first_source_event_utc": "2025-12-11T19:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-12-11T19:05:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3717340": {
+      "game_name": "Yakuza Kiwami 2",
+      "source_sha256": "526627e38a3db187450aa4f6d1e6bd7ac918f8e66573421d143c06fd4d567c34",
+      "original_filename": "3717340_Yakuza_Kiwami_2_US.csv",
+      "eligible_start_utc": "2025-12-10T15:00:00+00:00",
+      "first_source_event_utc": "2025-12-11T19:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-12-11T19:05:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3937550": {
+      "game_name": "Yakuza Kiwami 3 & Dark Ties",
+      "source_sha256": "8cd4acc87a86da0d3b81e74dc18eb7bd9dc210e8c74b92a0734db78173807485",
+      "original_filename": "3937550_Yakuza_Kiwami_3_&_Dark_Ties_US.csv",
+      "eligible_start_utc": "2025-09-24T04:05:01+00:00",
+      "first_source_event_utc": "2025-09-24T04:05:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-09-24T04:05:01+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "4260840": {
+      "game_name": "STRANGER THAN HEAVEN",
+      "source_sha256": "e258f904e921ff786e48bf462d0babf33b48b996653147a21fdaed0cab362df7",
+      "original_filename": "4260840_STRANGER_THAN_HEAVEN_US.csv",
+      "eligible_start_utc": "2026-06-05T22:05:03+00:00",
+      "first_source_event_utc": "2026-06-05T22:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-06-05T22:05:03+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "4530370": {
+      "game_name": "Football Manager 27",
+      "source_sha256": "74042e2690ee7d712a4720282f2f2ab68c370faefa8d0d3543f2abf6786e70da",
+      "original_filename": "4530370_Football_Manager_27_US.csv",
+      "eligible_start_utc": "2026-10-29T18:20:03+00:00",
+      "first_source_event_utc": "2026-10-29T18:20:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-10-29T18:20:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Reviewed source transition and recurring full-price plateau; current pinned-package USD price checked; inferred historical baseline"
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    }
+  }
+}

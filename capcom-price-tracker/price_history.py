@@ -27,8 +27,11 @@ def money(value: str) -> Decimal:
 
 def reconstruct(path: Path, item: dict, list_price_usd: str, *,
                 coverage_start_utc: str | None = None,
+                coverage_end_utc: str | None = None,
                 zero_price_is_unknown: bool = False,
-                reviewed_periods: list[dict] | None = None) -> tuple[list[dict], list[dict], dict]:
+                reviewed_periods: list[dict] | None = None,
+                reviewed_price_overrides: list[dict] | None = None,
+                sale_price_tolerance_usd: str = '0.00') -> tuple[list[dict], list[dict], dict]:
     """Use explicit list price, UTC timestamps, and half-open [start,end) intervals.
 
     No value is carried beyond the last exported timestamp. A blank price at a
@@ -38,6 +41,9 @@ def reconstruct(path: Path, item: dict, list_price_usd: str, *,
     baseline = money(list_price_usd)
     if baseline <= 0:
         raise ValueError("A positive, independently verified list price is required")
+    tolerance = money(sale_price_tolerance_usd)
+    if tolerance > Decimal('0.01'):
+        raise ValueError('Sale-price tolerance cannot exceed the explicitly reviewed one-cent policy')
     with path.open(encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
         if not {"DateTime", "Final price"}.issubset(reader.fieldnames or []):
@@ -61,12 +67,31 @@ def reconstruct(path: Path, item: dict, list_price_usd: str, *,
         if events[when] is not None and events[when] != price:
             raise ValueError("Conflicting prices at the same UTC timestamp")
         events[when] = price
+    corrections = []
+    for override in reviewed_price_overrides or []:
+        when = dt.datetime.fromisoformat(override['start_utc'].replace('Z', '+00:00'))
+        original = money(override['source_price_usd'])
+        effective = money(override['effective_price_usd'])
+        if when.tzinfo is None or when not in events or events[when] != original:
+            raise ValueError('Reviewed correction must match an original priced source event')
+        if any(r['start_utc'] == stamp(when) for r in corrections):
+            raise ValueError('Duplicate reviewed price correction')
+        if not override.get('basis') or effective <= 0:
+            raise ValueError('Reviewed corrections need a positive price and an explicit basis')
+        corrections.append(dict(start_utc=stamp(when), source_price_usd=f'{original:.2f}',
+                                effective_price_usd=f'{effective:.2f}', basis=override['basis']))
+        events[when] = effective
     dates = sorted(events)
     if coverage_start_utc:
         start = dt.datetime.fromisoformat(coverage_start_utc.replace("Z", "+00:00"))
         if start.tzinfo is None or start not in events:
             raise ValueError("Reviewed coverage start must match a UTC source event")
         dates = [x for x in dates if x >= start]
+    if coverage_end_utc:
+        end = dt.datetime.fromisoformat(coverage_end_utc.replace('Z', '+00:00'))
+        if end.tzinfo is None or end not in events:
+            raise ValueError('Reviewed coverage end must match a UTC source event')
+        dates = [x for x in dates if x <= end]
     if len(dates) < 2:
         raise ValueError("At least two timestamps are required to establish coverage")
     periods = []
@@ -102,7 +127,10 @@ def reconstruct(path: Path, item: dict, list_price_usd: str, *,
                 day += dt.timedelta(days=1)
             continue
         percent = int((100 * (active_baseline - price) / active_baseline).quantize(Decimal("1"), rounding=ROUND_HALF_UP))
-        if price < active_baseline and percent == 0:
+        within_tolerance = 0 < active_baseline - price <= tolerance
+        if within_tolerance:
+            percent = 0
+        if price < active_baseline and percent == 0 and not within_tolerance:
             raise ValueError("Price below baseline is too small to identify an integer Steam discount")
         expected = (active_baseline * (100 - percent) / 100).quantize(Decimal("0.01"))
         if reviewed_periods is None and abs(expected - price) > Decimal("0.01"):
@@ -157,6 +185,10 @@ def reconstruct(path: Path, item: dict, list_price_usd: str, *,
     if reviewed_periods is not None:
         metadata['list_price_basis'] = 'Reviewed source-event price periods; inferred historical baselines, not advertised list-price metadata'
         metadata['publisher_rates'] = 'Whole-scope denominator; publish exact rate only when every eligible title has usable sale-day evidence'
+    if corrections:
+        metadata['reviewed_price_overrides'] = corrections
+    if tolerance:
+        metadata['sale_price_tolerance_usd'] = f'{tolerance:.2f}'
     return list(days.values()), intervals, metadata
 
 

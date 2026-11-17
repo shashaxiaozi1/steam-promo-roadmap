@@ -300,6 +300,7 @@ def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_STA
         folder = output / 'history' / stem
         publisher_days, history_plans, history_metadata = load_details(folder, publisher)
         if not history_plans:
+            historical.extend(publisher_days)
             continue
         reviewed.append((publisher, folder, history_plans, history_metadata))
         first_live = {}
@@ -309,8 +310,12 @@ def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_STA
                 first_live[aid] = min(first_live.get(aid, row['date_jst']), row['date_jst'])
         for row in publisher_days:
             if row['date_jst'] < first_live.get(str(row['appid']), '9999-12-31'):
-                row['package_id'] = ''
+                row['package_id'] = history_plans[str(row['appid'])].get('historical_package_id', '')
                 row['tracked_edition'] = history_plans[str(row['appid'])]['historical_edition']
+        # A reviewed publisher import can supersede an earlier standalone import
+        # (FM26). Keep the original files but merge each AppID's history once.
+        historical = [row for row in historical if not
+                      (row['publisher'] == publisher and str(row['appid']) in history_plans)]
         historical.extend(publisher_days)
     stops = retirement_stops(output, current_state)
     historical = [x for x in historical if x["date_jst"] <
