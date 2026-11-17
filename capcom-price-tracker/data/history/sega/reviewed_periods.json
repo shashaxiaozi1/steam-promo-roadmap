@@ -2059,8 +2059,8 @@
     },
     "3551340": {
       "game_name": "Football Manager 26",
-      "source_sha256": "b1d7b888510784f943f648115cf4dd3ff35afcd00233f2daaa81c2bbeb5e1adc",
-      "original_filename": "source.csv",
+      "source_sha256": "d9b71f6a5883c755f21a84ab6eb943d581b00d053fb00d81a11b32816f4af0a9",
+      "original_filename": "steamdb_chart_3551340 (1).csv",
       "eligible_start_utc": "2025-09-10T15:00:03+00:00",
       "first_source_event_utc": "2025-09-10T15:00:03+00:00",
       "historical_edition": "Base",
@@ -2073,7 +2073,20 @@
       ],
       "sale_price_tolerance_usd": "0.01",
       "historical_package_id": "1253262",
-      "scope_note": "Reuse original independently verified FM26 source and $59.99 baseline; preserve original provenance. Legacy standalone import is superseded for rollup only, files untouched."
+      "scope_note": "Reuse original independently verified FM26 source and $59.99 baseline; preserve original provenance. Legacy standalone import is superseded for rollup only, files untouched.",
+      "source_updated_on_jst": "2026-11-17",
+      "prior_source_versions": [
+        {
+          "source_sha256": "b1d7b888510784f943f648115cf4dd3ff35afcd00233f2daaa81c2bbeb5e1adc",
+          "archived_source": "../3551340/source.csv",
+          "coverage_end_utc_exclusive": "2026-11-09T08:42:11+00:00"
+        }
+      ],
+      "additional_unavailability_evidence": {
+        "first_zero_price_observed_utc": "2026-11-11T16:10:01+00:00",
+        "first_zero_price_observed_jst": "2026-11-12T01:10:01+09:00",
+        "interpretation": "Supplied chart observation, not an asserted exact delisting timestamp. Consistent with existing 2026-11-12 JST denominator retirement; zero prices remain unknown, never a 100% discount."
+      }
     },
     "3717330": {
       "game_name": "Yakuza Kiwami",
