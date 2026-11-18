@@ -1,0 +1,22 @@
+name: Audit Bandai Namco US storefront
+
+on:
+  pull_request:
+    paths:
+      - '.github/audits/bandai_namco_us.py'
+      - '.github/workflows/bandai_namco_us_audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read public Steam metadata and verify USD packages
+        run: python3 .github/audits/bandai_namco_us.py
