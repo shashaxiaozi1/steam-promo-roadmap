@@ -145,6 +145,17 @@ Power Query 把第一行提升为标题；`date_jst` 设为日期，`appid` 和 
    背景色条件格式：0 为浅灰、100 为深红；在此页加 `daily_games[publisher]` 切片器。
 
 如需表格显示当天是否促销，也可在游戏层使用 `is_on_sale_any`。两层的日期均按日本时间分组。
+
+### 追加光荣特库摩逐款历史
+
+发行商热力图继续刷新 `daily_publishers.csv`。逐款查询由原来的 `daily_games.csv` 和新增的
+`daily_games_koei_tecmo_history.csv` 组成。后者收录光荣缺少实际采样的历史日期。每个发行商的
+同一 AppID、日期组合只出现一次，已采样的日期仍在前一文件中。
+
+在 Power BI 的 **转换数据** 中选中现有逐款查询，从 [daily_games_combined.pq](daily_games_combined.pq)
+复制 M 代码到 **高级编辑器**，保留原查询名称，然后 **关闭并应用**。若查询已经包含自定义步骤，保留
+这些步骤，只把读取单个 CSV 的部分改为读取并追加两个来源。逐款矩阵和发行商切片器继续使用原查询。
+
 Power BI Service 发布之后，仍需在语义模型中单独配置**计划刷新**；GitHub 更新 CSV 不会主动推送到报表。
 Power BI Desktop 的“刷新”可以先手动验证链路。历史 CSV 会随采样增加；此 MVP 暂不做两年滚动窗口或三日合并。
 

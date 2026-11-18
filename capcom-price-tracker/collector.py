@@ -241,6 +241,22 @@ def atomic_csv(path: Path, fields: list[str], rows: list[dict]) -> None:
             os.unlink(name)
 
 
+def write_daily_games(output: Path, games: list[dict]) -> None:
+    """Keep sampled days in the existing feed and export unsampled KOEI TECMO history separately."""
+    primary = []
+    koei_history = []
+    for row in games:
+        if row["publisher"] == "KOEI TECMO" and int(row["sample_count"]) == 0:
+            koei_history.append(row)
+        else:
+            primary.append(row)
+    directory = output / "powerbi"
+    atomic_csv(directory / "daily_games.csv", GAME_FIELDS, primary)
+    history_path = directory / "daily_games_koei_tecmo_history.csv"
+    if koei_history or history_path.exists():
+        atomic_csv(history_path, GAME_FIELDS, koei_history)
+
+
 def read_csv(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -489,7 +505,7 @@ def collect(catalog: list[dict], output: Path = DATA, fetch=fetch_package, run_i
         write_json(output / "discovery" / name, {"run_id": run_id, **discovery_report})
     atomic_csv(snapshot, SNAPSHOT_FIELDS, rows)
     atomic_csv(output / "powerbi" / "snapshots.csv", SNAPSHOT_FIELDS, combined)
-    atomic_csv(output / "powerbi" / "daily_games.csv", GAME_FIELDS, games)
+    write_daily_games(output, games)
     atomic_csv(output / "powerbi" / "daily_publishers.csv", PUBLISHER_FIELDS, pubs)
     from collection_coverage import FIELDS
     atomic_csv(output / "powerbi" / "collection_coverage.csv", FIELDS, coverage)

@@ -1,0 +1,1711 @@
+{
+  "schema_version": 1,
+  "reviewed_on_jst": "2026-11-18",
+  "scope": "110 tracked KOEI TECMO AppIDs, including available paid preorders.",
+  "mixed_file_excluded": {
+    "filename": "1502990_SolSeraph_US.csv",
+    "actual_appid": "834800",
+    "publisher": "SEGA",
+    "source_sha256": "d5ab36817d907a499f3887866ab8d02ea489a0891ccfa8728bbfe41ffdd116a1"
+  },
+  "excluded_component_appids": [
+    "1369760",
+    "1580790"
+  ],
+  "inference": "Historical full prices inferred from source transitions and recurrent prices, checked against pinned US packages. Historical Low is not used as a baseline.",
+  "zero_rule": "Zero and unknown prices remain missing. History is bounded by exported events.",
+  "games": {
+    "252230": {
+      "game_name": "YAIBA: NINJA GAIDEN Z",
+      "source_sha256": "5b0c6bb683c9108237a907f6f7b5243e6e11d8e0467509ff3c937ff9033c8b8d",
+      "original_filename": "252230_YAIBA_NINJA_GAIDEN_Z_US.csv",
+      "eligible_start_utc": "2014-03-11T05:52:05+00:00",
+      "first_source_event_utc": "2014-03-11T05:52:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-03-11T05:52:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Repeated regular price before the observed change."
+        },
+        {
+          "start_utc": "2014-06-26T04:32:21+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Observed transition to a persistent regular price matching the pinned package."
+        }
+      ]
+    },
+    "278080": {
+      "game_name": "DYNASTY WARRIORS 8: Xtreme Legends Complete Edition",
+      "source_sha256": "dffc02f60670e35790fd65dcc37fdf9c13f5687985dc984ae2924febce89f5c0",
+      "original_filename": "278080_DYNASTY_WARRIORS_8_Xtreme_Legends_Complete_Edition_US.csv",
+      "eligible_start_utc": "2014-05-12T15:00:00+00:00",
+      "first_source_event_utc": "2014-05-14T04:30:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-05-14T04:30:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "292990": {
+      "game_name": "NOBUNAGA'S AMBITION: Souzou",
+      "source_sha256": "86a443d2ae099c1f2a6569789aa0185615eaef4ec3dd46bd7a2d60fe05273116",
+      "original_filename": "292990_NOBUNAGA'S_AMBITION_Souzou_US.csv",
+      "eligible_start_utc": "2014-08-26T15:00:00+00:00",
+      "first_source_event_utc": "2014-08-28T04:30:32+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-08-28T04:30:32+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Repeated regular price before the observed change."
+        },
+        {
+          "start_utc": "2016-01-05T16:50:19+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Observed transition to a persistent regular price matching the pinned package."
+        }
+      ]
+    },
+    "322520": {
+      "game_name": "DYNASTY WARRIORS 8 Empires",
+      "source_sha256": "9fdec7c5a2d018128fec3e80467d427545df8c183509c31361dfe8ec45580e0e",
+      "original_filename": "322520_Dynasty_Warriors_8_Empires_US.csv",
+      "eligible_start_utc": "2015-02-25T15:00:00+00:00",
+      "first_source_event_utc": "2015-02-27T01:00:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-02-27T01:00:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "348470": {
+      "game_name": "SAMURAI WARRIORS 4-II",
+      "source_sha256": "eecd9ffe3ea81d2253ec5280c98ff389b98d16232f2cd9015de36076fe831c80",
+      "original_filename": "348470_SAMURAI_WARRIORS_4-II_US.csv",
+      "eligible_start_utc": "2015-09-01T17:00:05+00:00",
+      "first_source_event_utc": "2015-09-01T17:00:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-09-01T17:00:05+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "350310": {
+      "game_name": "BLADESTORM: Nightmare",
+      "source_sha256": "0bd54be0f974b3c8edd02677f9b533dca31163c99c0102b3150049a39821fc8c",
+      "original_filename": "350310_BLADESTORM_Nightmare_US.csv",
+      "eligible_start_utc": "2015-05-27T15:00:00+00:00",
+      "first_source_event_utc": "2015-05-30T08:26:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-05-30T08:26:01+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "363090": {
+      "game_name": "NOBUNAGA'S AMBITION: Kakushin with Power Up Kit",
+      "source_sha256": "40975041532d17c7d50092be533d2c9e267661eb83eade9d8e825481aafa8414",
+      "original_filename": "363090_NOBUNAGA'S_AMBITION_Kakushin_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2015-06-24T15:00:00+00:00",
+      "first_source_event_utc": "2015-06-26T01:05:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-06-26T01:05:05+00:00",
+          "list_price_usd": "54.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "363110": {
+      "game_name": "NOBUNAGA'S AMBITION: Tendou with Power Up Kit",
+      "source_sha256": "2884f7c7e3c4e28e878e2c1c0a588048b99732ec6a3e50a5e7eb54b3d8c2b422",
+      "original_filename": "363110_NOBUNAGA'S_AMBITION_Tendou_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2015-06-24T15:00:00+00:00",
+      "first_source_event_utc": "2015-06-26T01:10:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-06-26T01:10:04+00:00",
+          "list_price_usd": "54.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "363130": {
+      "game_name": "Toukiden: Kiwami",
+      "source_sha256": "d383939202c3171dbf7e5d36f5406caf8bad284eda17d8f9044768af8dbce1b2",
+      "original_filename": "363130_Toukiden_Kiwami_US.csv",
+      "eligible_start_utc": "2015-06-12T17:05:10+00:00",
+      "first_source_event_utc": "2015-06-12T17:05:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-06-12T17:05:10+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "363150": {
+      "game_name": "Romance of the Three Kingdoms XIII",
+      "source_sha256": "431d9839b1075ec0da49a2ddc4d43a7c2b77cd81f515bc765575d40515f466f7",
+      "original_filename": "363150_Romance_of_the_Three_Kingdoms_XIII_US.csv",
+      "eligible_start_utc": "2016-01-26T15:00:00+00:00",
+      "first_source_event_utc": "2016-01-28T01:10:43+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-01-28T01:10:43+00:00",
+          "list_price_usd": null,
+          "basis": "Opening 89.99 offer edition is unverified."
+        },
+        {
+          "start_utc": "2016-06-16T01:10:10+00:00",
+          "list_price_usd": "59.99",
+          "basis": "First observed continuing regular price matching the pinned package."
+        }
+      ]
+    },
+    "370730": {
+      "game_name": "NOBUNAGA'S AMBITION: Tenshouki with Power Up Kit HD Version",
+      "source_sha256": "245bca697a7a35ff5e2e86ba4c418748ca744131c064c2cd9b17371fbf618e5a",
+      "original_filename": "370730_NOBUNAGA'S_AMBITION_Tenshouki_with_Power_Up_Kit_HD_Version_US.csv",
+      "eligible_start_utc": "2015-11-10T15:00:00+00:00",
+      "first_source_event_utc": "2015-11-11T15:58:25+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-11-11T15:58:25+00:00",
+          "list_price_usd": "54.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "375450": {
+      "game_name": "NOBUNAGA'S AMBITION: Sphere of Influence - Ascension",
+      "source_sha256": "13d9abc172094a540187172882062504b98e808b67d0af640b8aa6ce838bf624",
+      "original_filename": "375450_NOBUNAGA'S_AMBITION_Sphere_of_Influence_-_Ascension_US.csv",
+      "eligible_start_utc": "2016-03-22T15:00:00+00:00",
+      "first_source_event_utc": "2016-07-28T08:20:45+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-07-28T08:20:45+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "392470": {
+      "game_name": "NOBUNAGA'S AMBITION: Sphere of Influence",
+      "source_sha256": "c32ca85c5992effbf1d9c78924955afa2c73a93b341ecefecf7bbf9da3a4f1ca",
+      "original_filename": "392470_NOBUNAGA'S_AMBITION_Sphere_of_Influence_US.csv",
+      "eligible_start_utc": "2015-08-31T15:00:00+00:00",
+      "first_source_event_utc": "2015-09-01T16:55:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-09-01T16:55:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "401890": {
+      "game_name": "ARSLAN: THE WARRIORS OF LEGEND",
+      "source_sha256": "f29557a3d90c8514c37e6843a314a396727db271450baba3939fc8c4fbef5e72",
+      "original_filename": "401890_ARSLAN_THE_WARRIORS_OF_LEGEND_US.csv",
+      "eligible_start_utc": "2016-02-08T15:00:00+00:00",
+      "first_source_event_utc": "2016-02-09T17:00:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-02-09T17:00:07+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "449800": {
+      "game_name": "Attack on Titan / A.O.T. Wings of Freedom",
+      "source_sha256": "03e759a1cc714d9f71f0cca9414fc5d1898c4d7367d6a9858ba55f046514b638",
+      "original_filename": "449800_Attack_on_Titan_A.O.T._Wings_of_Freedom_US.csv",
+      "eligible_start_utc": "2016-08-25T15:00:00+00:00",
+      "first_source_event_utc": "2016-08-26T08:40:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-08-26T08:40:10+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Repeated regular price before the observed change."
+        },
+        {
+          "start_utc": "2023-04-27T01:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Observed transition to a persistent regular price matching the pinned package."
+        }
+      ]
+    },
+    "485510": {
+      "game_name": "Nioh: Complete Edition",
+      "source_sha256": "46cd23e7ec99ceb7794b27004604eb898908ed6f04903995ef16cfdc145daf96",
+      "original_filename": "485510_Nioh_Complete_Edition_US.csv",
+      "eligible_start_utc": "2017-11-06T15:00:00+00:00",
+      "first_source_event_utc": "2017-11-07T11:50:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-11-07T11:50:09+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "502280": {
+      "game_name": "BERSERK and the Band of the Hawk",
+      "source_sha256": "73d1ae505b56181be34c56fb1cf882c79091d9f75dabbd8c5b3088bb3cbd1beb",
+      "original_filename": "502280_BERSERK_and_the_Band_of_the_Hawk_US.csv",
+      "eligible_start_utc": "2017-02-14T21:00:07+00:00",
+      "first_source_event_utc": "2017-02-14T21:00:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-02-14T21:00:07+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521650": {
+      "game_name": "Genghis Khan",
+      "source_sha256": "93a2008872a78e120418d00bf9e3ec395a05cf4cecbecce4845f87ac453b75bd",
+      "original_filename": "521650_Genghis_Khan_US.csv",
+      "eligible_start_utc": "2017-01-23T15:00:00+00:00",
+      "first_source_event_utc": "2017-01-24T23:30:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-01-24T23:30:07+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521660": {
+      "game_name": "NOBUNAGA'S AMBITION: Zenkokuban",
+      "source_sha256": "2fa3183e86007bba021ec8961f26db7d85083a86b0a20147584df8a1dd17cb97",
+      "original_filename": "521660_NOBUNAGA'S_AMBITION_Zenkokuban_US.csv",
+      "eligible_start_utc": "2017-01-23T15:00:00+00:00",
+      "first_source_event_utc": "2017-01-24T23:30:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-01-24T23:30:07+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521670": {
+      "game_name": "Romance of the Three Kingdoms",
+      "source_sha256": "fec2808c575534e89b6a056ef7bff4554830d382a7a6a5a30f5c8e8d9979a177",
+      "original_filename": "521670_Romance_of_the_Three_Kingdoms_US.csv",
+      "eligible_start_utc": "2016-12-12T15:00:00+00:00",
+      "first_source_event_utc": "2016-12-14T00:51:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-12-14T00:51:02+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521680": {
+      "game_name": "Bandit Kings of Ancient China",
+      "source_sha256": "ba582af776c185537ce14ed6138b70374d401aab91e2799774e5a14f2190a315",
+      "original_filename": "521680_Bandit_Kings_of_Ancient_China_US.csv",
+      "eligible_start_utc": "2017-02-20T15:00:00+00:00",
+      "first_source_event_utc": "2017-02-22T00:10:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-02-22T00:10:09+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521690": {
+      "game_name": "Romance of the Three Kingdoms II",
+      "source_sha256": "90fe4eff3f69ca0e65cdaa6b75b3cbf54694452f200d9925106d26cfcc692517",
+      "original_filename": "521690_Romance_of_the_Three_Kingdoms_II_US.csv",
+      "eligible_start_utc": "2017-01-23T15:00:00+00:00",
+      "first_source_event_utc": "2017-01-24T23:30:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-01-24T23:30:07+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521700": {
+      "game_name": "NOBUNAGA'S AMBITION: Sengoku Gunyuuden",
+      "source_sha256": "a7a05047d94cebfb26c05c265b5ad4ee93db71de29b5bf78d18fab76c6644633",
+      "original_filename": "521700_NOBUNAGA'S_AMBITION_Sengoku_Gunyuuden_US.csv",
+      "eligible_start_utc": "2017-02-20T15:00:00+00:00",
+      "first_source_event_utc": "2017-02-22T00:10:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-02-22T00:10:11+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521710": {
+      "game_name": "Romance of the Three Kingdoms III",
+      "source_sha256": "fb9b22c98e92d1ed430581a4cf96702cf793b61839fe67ad72a72adb824cefa9",
+      "original_filename": "521710_Romance_of_the_Three_Kingdoms_III_US.csv",
+      "eligible_start_utc": "2017-02-20T15:00:00+00:00",
+      "first_source_event_utc": "2017-02-22T00:10:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-02-22T00:10:10+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521720": {
+      "game_name": "Uncharted Waters",
+      "source_sha256": "54e7c8760b9a486e56a2cf5b6cae7164c7cfeb4b2ffa714c86d105fa2e3ae1e3",
+      "original_filename": "521720_Uncharted_Waters_US.csv",
+      "eligible_start_utc": "2017-04-17T15:00:00+00:00",
+      "first_source_event_utc": "2017-04-18T23:50:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-04-18T23:50:06+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521730": {
+      "game_name": "Romance of the Three Kingdoms IV with Power Up Kit",
+      "source_sha256": "176cf5106a266589ff2b11b97f25e3fe34cf731636abad329a16473b48aa9c47",
+      "original_filename": "521730_Romance_of_the_Three_Kingdoms_IV_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-03-20T15:00:00+00:00",
+      "first_source_event_utc": "2017-03-22T00:00:14+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-03-22T00:00:14+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521740": {
+      "game_name": "NOBUNAGA'S AMBITION: Bushou Fuunroku",
+      "source_sha256": "f2ec5058cb132c43500703bb4cb733262ad80e4c31c2e1d30be8c048b892e9cc",
+      "original_filename": "521740_NOBUNAGA'S_AMBITION_Bushou_Fuunroku_US.csv",
+      "eligible_start_utc": "2017-03-20T15:00:00+00:00",
+      "first_source_event_utc": "2017-03-22T00:00:13+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-03-22T00:00:13+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521750": {
+      "game_name": "Romance of the Three Kingdoms V with Power Up Kit",
+      "source_sha256": "532d753161e3ac5216e6fd6615872208e1b5b33ce601463d82ef560eaa376fd2",
+      "original_filename": "521750_Romance_of_the_Three_Kingdoms_V_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-04-17T15:00:00+00:00",
+      "first_source_event_utc": "2017-04-18T23:50:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-04-18T23:50:08+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "521760": {
+      "game_name": "Taiko Risshiden",
+      "source_sha256": "d808d2dd37a60c3f4793fa17b1a0c3c7930b9307e4d734ec50bd56ba97f4121a",
+      "original_filename": "521760_Taiko_Risshiden_US.csv",
+      "eligible_start_utc": "2017-04-17T15:00:00+00:00",
+      "first_source_event_utc": "2017-04-18T23:50:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-04-18T23:50:07+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "527280": {
+      "game_name": "Nights of Azure",
+      "source_sha256": "c6b2e622a7d8e0378f484c29632a7a1e5aa522a1c5dcaec190e5eae9bd0ae684",
+      "original_filename": "527280_Nights_of_Azure_US.csv",
+      "eligible_start_utc": "2017-01-27T01:00:07+00:00",
+      "first_source_event_utc": "2017-01-27T01:00:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-01-27T01:00:07+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "544990": {
+      "game_name": "NOBUNAGA'S AMBITION",
+      "source_sha256": "83b08ba8b19e7daf7e6d7797b639a491decd3c3dde3999b03c67bc71062ad95e",
+      "original_filename": "544990_NOBUNAGA'S_AMBITION_US.csv",
+      "eligible_start_utc": "2016-12-12T15:00:00+00:00",
+      "first_source_event_utc": "2016-12-14T01:52:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-12-14T01:52:03+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "545000": {
+      "game_name": "Aoki Ookami to Shiroki Mejika",
+      "source_sha256": "598a4b471cd303d988c01f299824a448f36a5cb12b31405d23f990f58d1ef9de",
+      "original_filename": "545000_Aoki_Ookami_to_Shiroki_Mejika_US.csv",
+      "eligible_start_utc": "2016-12-12T15:00:00+00:00",
+      "first_source_event_utc": "2016-12-14T02:14:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-12-14T02:14:06+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "545010": {
+      "game_name": "Ishin no Arashi",
+      "source_sha256": "53a0a74e81f1786f85f995bb61e7ae02d4d3bef932a019ac134bdb564f1d8400",
+      "original_filename": "545010_Ishin_no_Arashi_US.csv",
+      "eligible_start_utc": "2017-03-20T15:00:00+00:00",
+      "first_source_event_utc": "2017-03-22T00:00:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-03-22T00:00:09+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "551730": {
+      "game_name": "Toukiden 2",
+      "source_sha256": "2af6b6ae6707f76a5e4309ed641624678bd40182898db650fd59b3a60aab76e4",
+      "original_filename": "551730_Toukiden_2_US.csv",
+      "eligible_start_utc": "2017-03-07T18:11:11+00:00",
+      "first_source_event_utc": "2017-03-07T18:11:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-03-07T18:11:11+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "595740": {
+      "game_name": "SAMURAI WARRIORS: Spirit of Sanada",
+      "source_sha256": "026393bf096309bd2f04ef5711f5ad9d3fd32f11e250b1a42d9ce463e3bcb0a5",
+      "original_filename": "595740_SAMURAI_WARRIORS_Spirit_of_Sanada_US.csv",
+      "eligible_start_utc": "2017-05-16T16:50:06+00:00",
+      "first_source_event_utc": "2017-05-16T16:50:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-05-16T16:50:06+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "601050": {
+      "game_name": "Attack on Titan 2 - A.O.T.2",
+      "source_sha256": "d24de796af35edb501f6662c68c1ca05936a03a7e1d434c5be06fd0d22c77e69",
+      "original_filename": "601050_Attack_on_Titan_2_-_A.O.T.2_US.csv",
+      "eligible_start_utc": "2018-03-15T01:00:08+00:00",
+      "first_source_event_utc": "2018-03-15T01:00:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-03-15T01:00:08+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Repeated regular price before the observed change."
+        },
+        {
+          "start_utc": "2023-04-27T01:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Observed transition to a persistent regular price matching the pinned package."
+        }
+      ]
+    },
+    "610190": {
+      "game_name": "WARRIORS ALL-STARS",
+      "source_sha256": "164c2049af21cb03ad727dd7f926e21395d98d33efa3ae2360d6636e5ac3b2cd",
+      "original_filename": "610190_WARRIORS_ALL-STARS_US.csv",
+      "eligible_start_utc": "2017-08-28T15:00:00+00:00",
+      "first_source_event_utc": "2017-08-30T00:50:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-30T00:50:10+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628020": {
+      "game_name": "Romance of the Three Kingdoms VI with Power Up Kit",
+      "source_sha256": "1c378131e5d5a6bad335778f516f030adbd83e5196a87fae9276f55e4898bbb6",
+      "original_filename": "628020_Romance_of_the_Three_Kingdoms_VI_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-06-26T15:00:00+00:00",
+      "first_source_event_utc": "2017-06-28T00:00:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-06-28T00:00:07+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628030": {
+      "game_name": "Romance of the Three Kingdoms VII with Power Up Kit",
+      "source_sha256": "cbd623e3de8d918387b365b3d2f36724389f4a33388b25e9c343475cdd96dc1e",
+      "original_filename": "628030_Romance_of_the_Three_Kingdoms_VII_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-07-24T15:00:00+00:00",
+      "first_source_event_utc": "2017-07-25T23:10:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-07-25T23:10:06+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628040": {
+      "game_name": "Romance of the Three Kingdoms VIII with Power Up Kit",
+      "source_sha256": "6b048a36b0dc31cf8b719ff00e9a8518c05ba1924e0b2caf6f0034209cb906f7",
+      "original_filename": "628040_Romance_of_the_Three_Kingdoms_VIII_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-08-28T15:00:00+00:00",
+      "first_source_event_utc": "2017-08-30T01:10:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-30T01:10:11+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628050": {
+      "game_name": "Romance of the Three Kingdoms IX with Power Up Kit",
+      "source_sha256": "9b2854acf77d38833badce01bfcda3975ab43e217d144e74d9f6f6a045cd74a6",
+      "original_filename": "628050_Romance_of_the_Three_Kingdoms_IX_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-10-16T15:00:00+00:00",
+      "first_source_event_utc": "2017-10-18T01:50:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-10-18T01:50:07+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628060": {
+      "game_name": "Romance of the Three Kingdoms X with Power Up Kit",
+      "source_sha256": "e25b848e42d1847509344503713db77241712b09df16a86d8dafcd516be889b3",
+      "original_filename": "628060_Romance_of_the_Three_Kingdoms_X_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-12-04T15:00:00+00:00",
+      "first_source_event_utc": "2017-12-06T01:50:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-12-06T01:50:08+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628070": {
+      "game_name": "Romance of the Three Kingdoms XI with Power Up Kit",
+      "source_sha256": "3bf36f7a38fefcdfdfc410ead11bde190be30acd626b961f85dabe1655f32f8f",
+      "original_filename": "628070_Romance_of_the_Three_Kingdoms_XI_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2018-01-15T15:00:00+00:00",
+      "first_source_event_utc": "2018-01-17T01:10:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-01-17T01:10:08+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628080": {
+      "game_name": "Romance of the Three Kingdoms XII with Power Up Kit",
+      "source_sha256": "0dd68bce30fb4bfb6205b7ee9dc4ba15bc612f761fbdcca15d2a9fb1714c1161",
+      "original_filename": "628080_Romance_of_the_Three_Kingdoms_XII_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2018-01-15T15:00:00+00:00",
+      "first_source_event_utc": "2018-01-17T01:10:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-01-17T01:10:07+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628090": {
+      "game_name": "NOBUNAGA'S AMBITION: Haouden with Power Up Kit",
+      "source_sha256": "ffdb8f873ff6b4d253d6dd4e8e759963799d5dd3f1a4828f7155964d4363b9eb",
+      "original_filename": "628090_NOBUNAGA'S_AMBITION_Haouden_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-06-26T15:00:00+00:00",
+      "first_source_event_utc": "2017-06-27T23:50:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-06-27T23:50:09+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628100": {
+      "game_name": "NOBUNAGA’S AMBITION: Shouseiroku with Power Up Kit",
+      "source_sha256": "f15b60598f20536dea11b482f6c0c0480a0e4ce1666dcf44212992c8fbcf520e",
+      "original_filename": "628100_NOBUNAGA’S_AMBITION_Shouseiroku_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-07-24T15:00:00+00:00",
+      "first_source_event_utc": "2017-07-25T23:10:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-07-25T23:10:08+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628110": {
+      "game_name": "NOBUNAGA'S AMBITION: Reppuden with Power Up Kit",
+      "source_sha256": "1c6a1e281e7d97cbc2782433c532c25dea5898205155f68fa6c8c6fc132c9cc7",
+      "original_filename": "628110_NOBUNAGA'S_AMBITION_Reppuden_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-08-28T15:00:00+00:00",
+      "first_source_event_utc": "2017-08-30T01:10:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-30T01:10:10+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628120": {
+      "game_name": "NOBUNAGA'S AMBITION: Ranseiki with Power Up Kit",
+      "source_sha256": "e4a1fd4196ba7fa89b7720b60b334ab2cad6e679c414dff95fddda65777ba7b5",
+      "original_filename": "628120_NOBUNAGA'S_AMBITION_Ranseiki_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-10-16T15:00:00+00:00",
+      "first_source_event_utc": "2017-10-18T01:40:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-10-18T01:40:04+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628130": {
+      "game_name": "NOBUNAGA'S AMBITION: Soutenroku with Power Up Kit",
+      "source_sha256": "4251db1c6ad2d868610e090b91607d0e00d6ac4ef6108f3babbf46fd52aac166",
+      "original_filename": "628130_NOBUNAGA'S_AMBITION_Soutenroku_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2017-12-04T15:00:00+00:00",
+      "first_source_event_utc": "2017-12-06T01:50:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-12-06T01:50:07+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628140": {
+      "game_name": "NOBUNAGA'S AMBITION: Tenkasousei with Power Up Kit",
+      "source_sha256": "784182b5226453df1bfc57760b6906309085287426e9463f48b2a9382a27a4bb",
+      "original_filename": "628140_NOBUNAGA'S_AMBITION_Tenkasousei_with_Power_Up_Kit_US.csv",
+      "eligible_start_utc": "2018-01-15T15:00:00+00:00",
+      "first_source_event_utc": "2018-01-17T01:10:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-01-17T01:10:08+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628150": {
+      "game_name": "Sangokushi Eiketsuden",
+      "source_sha256": "fa582d8b3dd0bef10be7d1a4196e674906119af7482e5e0e2143c501ae0a5457",
+      "original_filename": "628150_Sangokushi_Eiketsuden_US.csv",
+      "eligible_start_utc": "2017-08-28T15:00:00+00:00",
+      "first_source_event_utc": "2017-08-30T01:10:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-30T01:10:12+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628160": {
+      "game_name": "Genghis Khan II: Clan of the Gray Wolf",
+      "source_sha256": "8718bb352e82080993ee9e37d71fe9d3bd7c20f58bc3610c840ae6726af6fd05",
+      "original_filename": "628160_Genghis_Khan_II_Clan_of_the_Gray_Wolf_US.csv",
+      "eligible_start_utc": "2017-06-26T15:00:00+00:00",
+      "first_source_event_utc": "2017-06-27T23:50:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-06-27T23:50:09+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628170": {
+      "game_name": "Uncharted Waters II",
+      "source_sha256": "9609d61d3c9a66bcae3b9b85e72582938d2aa9192a7884f6087222526e054c64",
+      "original_filename": "628170_Uncharted_Waters_II_US.csv",
+      "eligible_start_utc": "2017-10-16T15:00:00+00:00",
+      "first_source_event_utc": "2017-10-18T01:40:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-10-18T01:40:05+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628180": {
+      "game_name": "Winning Post",
+      "source_sha256": "5d9438d97c238306c89a2652068a181009644a20d201c21c7468cfe36938a7e9",
+      "original_filename": "628180_Winning_Post_US.csv",
+      "eligible_start_utc": "2017-07-24T15:00:00+00:00",
+      "first_source_event_utc": "2017-07-25T23:10:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-07-25T23:10:08+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "628890": {
+      "game_name": "NOBUNAGA'S AMBITION: Taishi",
+      "source_sha256": "f1e2f4a02c927498c24916b8cbe7f06d25438cfbc14c444aab85b8dd14975fae",
+      "original_filename": "628890_NOBUNAGA'S_AMBITION_Taishi_US.csv",
+      "eligible_start_utc": "2017-11-28T15:00:00+00:00",
+      "first_source_event_utc": "2018-01-17T19:50:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-01-17T19:50:06+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "636570": {
+      "game_name": "Nights of Azure 2: Bride of the New Moon",
+      "source_sha256": "3d078e1853dc65bd021b08814f28c63dd58bc0e2bd39fab359a1f0b8f0e6bec7",
+      "original_filename": "636570_Nights_of_Azure_2_Bride_of_the_New_Moon_US.csv",
+      "eligible_start_utc": "2017-10-23T15:00:00+00:00",
+      "first_source_event_utc": "2017-10-24T07:20:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-10-24T07:20:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "658260": {
+      "game_name": "BLUE REFLECTION",
+      "source_sha256": "05521a54885862f0041bf12c390cae532ad386c9df52868dfd079d545ee578a1",
+      "original_filename": "658260_BLUE_REFLECTION_US.csv",
+      "eligible_start_utc": "2017-09-25T15:00:00+00:00",
+      "first_source_event_utc": "2017-09-26T08:30:37+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-09-26T08:30:37+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "724310": {
+      "game_name": "Kawanakajima no Kassen",
+      "source_sha256": "fa5bcca23e482ed9e73bc9402c0052c706749a50cd4f9e90d4b4c7e0f3b8b86b",
+      "original_filename": "724310_Kawanakajima_no_Kassen_US.csv",
+      "eligible_start_utc": "2017-12-04T15:00:00+00:00",
+      "first_source_event_utc": "2017-12-06T01:40:13+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-12-06T01:40:13+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "730310": {
+      "game_name": "DYNASTY WARRIORS 9",
+      "source_sha256": "2ea4a750771d634011156838b92ed7c6fc14deaad12a1d3e8171803725049202",
+      "original_filename": "730310_DYNASTY_WARRIORS_9_US.csv",
+      "eligible_start_utc": "2018-02-12T15:00:00+00:00",
+      "first_source_event_utc": "2018-02-13T08:20:39+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-02-13T08:20:39+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Repeated regular price before the observed change."
+        },
+        {
+          "start_utc": "2019-12-05T01:10:52+00:00",
+          "list_price_usd": "44.99",
+          "basis": "Observed transition to a persistent regular price matching the pinned package."
+        }
+      ]
+    },
+    "831560": {
+      "game_name": "WARRIORS OROCHI 4",
+      "source_sha256": "df3d99b70f9040f962217b56b3c5bc08cadbf178c30d88d55b7e454cd838f6a8",
+      "original_filename": "831560_WARRIORS_OROCHI_4_US.csv",
+      "eligible_start_utc": "2018-10-14T15:00:00+00:00",
+      "first_source_event_utc": "2018-10-16T07:00:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-10-16T07:00:07+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "872410": {
+      "game_name": "ROMANCE OF THE THREE KINGDOMS XIV",
+      "source_sha256": "7e9f82347bef7f3042c6d790a02be1c6b07ce554fb8ca346d6e6bae950de5570",
+      "original_filename": "872410_ROMANCE_OF_THE_THREE_KINGDOMS_XIV_US.csv",
+      "eligible_start_utc": "2020-01-09T01:10:05+00:00",
+      "first_source_event_utc": "2020-01-09T01:10:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-01-09T01:10:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "886820": {
+      "game_name": "Nelke & the Legendary Alchemists ~Ateliers of the New World~",
+      "source_sha256": "157d69c98958dd0d718a3dae897076f7fdfdfb315cdd664b37aca1e5d838049a",
+      "original_filename": "886820_Nelke_&_the_Legendary_Alchemists_~Ateliers_of_the_New_World~_US.csv",
+      "eligible_start_utc": "2019-03-24T15:00:00+00:00",
+      "first_source_event_utc": "2019-03-26T07:20:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-03-26T07:20:04+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "936160": {
+      "game_name": "Atelier Rorona ~The Alchemist of Arland~ DX",
+      "source_sha256": "6399af01e1789c5bdbdf6c5ad06bdc69e0a08f0153f7a7135ae9a890842e78cc",
+      "original_filename": "936160_Atelier_Rorona_~The_Alchemist_of_Arland~_DX_US.csv",
+      "eligible_start_utc": "2018-12-02T15:00:00+00:00",
+      "first_source_event_utc": "2018-12-12T02:30:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-12-12T02:30:10+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "936180": {
+      "game_name": "Atelier Totori ~The Adventurer of Arland~ DX",
+      "source_sha256": "b12abc926aa181a33b259ee971a8f66e50304eb3cb8945e1c2f0bb7c3f71d615",
+      "original_filename": "936180_Atelier_Totori_~The_Adventurer_of_Arland~_DX_US.csv",
+      "eligible_start_utc": "2018-12-02T15:00:00+00:00",
+      "first_source_event_utc": "2018-12-12T02:30:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-12-12T02:30:10+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "936190": {
+      "game_name": "Atelier Meruru ~The Apprentice of Arland~ DX",
+      "source_sha256": "ff0f2b89a5f683945aeab0c1fcb746829109632adbc35df7d0ec9a4ba639ce1e",
+      "original_filename": "936190_Atelier_Meruru_~The_Apprentice_of_Arland~_DX_US.csv",
+      "eligible_start_utc": "2018-12-02T15:00:00+00:00",
+      "first_source_event_utc": "2018-12-12T02:30:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-12-12T02:30:10+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "968790": {
+      "game_name": "DYNASTY WARRIORS 7: Xtreme Legends Definitive Edition",
+      "source_sha256": "480c370f754712229c8ca8fefebcc32dfc2ab07a7dc4eac018b1ffd67220550d",
+      "original_filename": "968790_DYNASTY_WARRIORS_7_Xtreme_Legends_Definitive_Edition_US.csv",
+      "eligible_start_utc": "2018-12-04T15:00:00+00:00",
+      "first_source_event_utc": "2018-12-06T08:20:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-12-06T08:20:09+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1045620": {
+      "game_name": "Atelier Lulua ~The Scion of Arland~",
+      "source_sha256": "ef872c416d529b5d11e9f756bf239b22c8bb96b08a0957cbd5e8093a4fc01b8c",
+      "original_filename": "1045620_Atelier_Lulua_~The_Scion_of_Arland~_US.csv",
+      "eligible_start_utc": "2019-05-19T15:00:00+00:00",
+      "first_source_event_utc": "2019-05-21T07:10:20+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-05-21T07:10:20+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1152300": {
+      "game_name": "Atelier Ayesha: The Alchemist of Dusk DX",
+      "source_sha256": "8d66896a4d07883210c85f4fc6024c4eb8c2ce7c261f6237cb579e626d6eeb0c",
+      "original_filename": "1152300_Atelier_Ayesha_The_Alchemist_of_Dusk_DX_US.csv",
+      "eligible_start_utc": "2020-01-13T15:00:00+00:00",
+      "first_source_event_utc": "2020-01-14T08:10:17+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-01-14T08:10:17+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1152310": {
+      "game_name": "Atelier Escha & Logy: Alchemists of the Dusk Sky DX",
+      "source_sha256": "0700fb9623629fecb3680d0b725caae112d53dffd1d4f6bf6921c6c835e84328",
+      "original_filename": "1152310_Atelier_Escha_&_Logy_Alchemists_of_the_Dusk_Sky_DX_US.csv",
+      "eligible_start_utc": "2020-01-13T15:00:00+00:00",
+      "first_source_event_utc": "2020-01-14T08:10:17+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-01-14T08:10:17+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1152320": {
+      "game_name": "Atelier Shallie: Alchemists of the Dusk Sea DX",
+      "source_sha256": "f7df2fba3729bd01382d3bd321011a9a28f396199abf29d1c0ebd9f6943adb45",
+      "original_filename": "1152320_Atelier_Shallie_Alchemists_of_the_Dusk_Sea_DX_US.csv",
+      "eligible_start_utc": "2020-01-13T15:00:00+00:00",
+      "first_source_event_utc": "2020-01-14T08:10:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-01-14T08:10:05+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1191260": {
+      "game_name": "Touken Ranbu Warriors",
+      "source_sha256": "00905c6417e3ee77b9f08783b284b813898c3784d63423a8df561f4a839e5a28",
+      "original_filename": "1191260_Touken_Ranbu_Warriors_US.csv",
+      "eligible_start_utc": "2022-05-17T01:05:02+00:00",
+      "first_source_event_utc": "2022-05-17T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-05-17T01:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1233260": {
+      "game_name": "FAIRY TAIL",
+      "source_sha256": "94ca2be4bc007bc47edf1618097e91326441e64ba009bde407b6a77e8d7a7c8f",
+      "original_filename": "1233260_FAIRY_TAIL_US.csv",
+      "eligible_start_utc": "2020-06-23T01:20:06+00:00",
+      "first_source_event_utc": "2020-06-23T01:20:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-06-23T01:20:06+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1325200": {
+      "game_name": "Nioh 2 – The Complete Edition",
+      "source_sha256": "ea084694b7e46376547ad1db9063ae410e5e5f57e5a672c7add46573a1e0d638",
+      "original_filename": "1325200_Nioh_2_–_The_Complete_Edition_US.csv",
+      "eligible_start_utc": "2020-11-13T14:05:06+00:00",
+      "first_source_event_utc": "2020-11-13T14:05:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-11-13T14:05:06+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1336980": {
+      "game_name": "NOBUNAGA'S AMBITION: Awakening",
+      "source_sha256": "799a48c7ab59ff28c95893432eb9f45e3d51da584cb3134b50e6116c59aea961",
+      "original_filename": "1336980_NOBUNAGA'S_AMBITION_Awakening_US.csv",
+      "eligible_start_utc": "2022-07-19T15:00:00+00:00",
+      "first_source_event_utc": "2023-06-22T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-06-22T01:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1340990": {
+      "game_name": "Rise of the Ronin",
+      "source_sha256": "ff6c586f5b3d824a442645364b93ebf591e2b66f47fb0928f5173a14f694d46d",
+      "original_filename": "1340990_Rise_of_the_Ronin_US.csv",
+      "eligible_start_utc": "2025-01-27T13:05:03+00:00",
+      "first_source_event_utc": "2025-01-27T13:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-01-27T13:05:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1341200": {
+      "game_name": "DYNASTY WARRIORS 9 Empires",
+      "source_sha256": "34f1240237b01c754e1a7606d59915adedcefa6a4562fc98cc4be5000056c49e",
+      "original_filename": "1341200_DYNASTY_WARRIORS_9_Empires_US.csv",
+      "eligible_start_utc": "2021-11-19T01:10:02+00:00",
+      "first_source_event_utc": "2021-11-19T01:10:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-11-19T01:10:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1423600": {
+      "game_name": "BLUE REFLECTION: Second Light",
+      "source_sha256": "785217b43189edf5681f6f82653d410a8d83232c36865f99840222903ebe46df",
+      "original_filename": "1423600_BLUE_REFLECTION_Second_Light_US.csv",
+      "eligible_start_utc": "2021-10-01T01:10:19+00:00",
+      "first_source_event_utc": "2021-10-01T01:10:19+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-10-01T01:10:19+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1448440": {
+      "game_name": "Wo Long: Fallen Dynasty",
+      "source_sha256": "7456025c3283f222ad5792373a13e3e11d5417afa75bb596f9c20308b44629ed",
+      "original_filename": "1448440_Wo_Long_Fallen_Dynasty_US.csv",
+      "eligible_start_utc": "2022-12-14T11:05:02+00:00",
+      "first_source_event_utc": "2022-12-14T11:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-12-14T11:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Repeated regular price before the observed change."
+        },
+        {
+          "start_utc": "2024-08-20T01:05:01+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Observed transition to a persistent regular price matching the pinned package."
+        }
+      ]
+    },
+    "1502970": {
+      "game_name": "Atelier Sophie: The Alchemist of the Mysterious Book DX",
+      "source_sha256": "7c7729fa6de822908c8243fb375aa63960729fb7550d5ddbea169a079a2b7f13",
+      "original_filename": "1502970_Atelier_Sophie_The_Alchemist_of_the_Mysterious_Book_DX_US.csv",
+      "eligible_start_utc": "2021-04-20T15:00:00+00:00",
+      "first_source_event_utc": "2021-04-22T01:05:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-04-22T01:05:05+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1502980": {
+      "game_name": "Atelier Firis: The Alchemist and the Mysterious Journey DX",
+      "source_sha256": "4108cf455bd248af23f547d37a8d507866c0571ca2e95aef5450da466ff99a3d",
+      "original_filename": "1502980_Atelier_Firis_The_Alchemist_and_the_Mysterious_Journey_DX_US.csv",
+      "eligible_start_utc": "2021-04-20T15:00:00+00:00",
+      "first_source_event_utc": "2021-04-22T01:05:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-04-22T01:05:04+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1502990": {
+      "game_name": "Atelier Lydie & Suelle: The Alchemists and the Mysterious Paintings DX",
+      "source_sha256": "1197ee2945b8dddf92dd11aeb9f7b4ae2daae5fdd9946b061aaaa1989b67cfd4",
+      "original_filename": "steamdb_chart_1502990.csv",
+      "eligible_start_utc": "2021-04-20T15:00:00+00:00",
+      "first_source_event_utc": "2021-04-22T01:05:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-04-22T01:05:05+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ],
+      "scope_note": "The corrected Lydie & Suelle DX export replaced the mislabeled SolSeraph file from the batch."
+    },
+    "1580780": {
+      "game_name": "NINJA GAIDEN: Master Collection",
+      "source_sha256": "abf0fe0ad543eaa2897315aa6c675ac0332eb9484b037f6c8bb3cbb7f3358474",
+      "original_filename": "1580780_NINJA_GAIDEN_Σ_[NINJA_GAIDEN_Master_Collection]_US.csv",
+      "eligible_start_utc": "2021-06-08T15:00:00+00:00",
+      "first_source_event_utc": "2021-06-10T01:05:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-06-10T01:05:07+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ],
+      "scope_note": "Represents one complete Master Collection purchase; AppIDs 1369760 and 1580790 are components."
+    },
+    "1591530": {
+      "game_name": "SAMURAI WARRIORS 5",
+      "source_sha256": "f733a0506a45eebfbc8cdde4964858134f4945161e39f7d832b3b61effc8f1ee",
+      "original_filename": "1591530_SAMURAI_WARRIORS_5_US.csv",
+      "eligible_start_utc": "2021-06-24T01:10:05+00:00",
+      "first_source_event_utc": "2021-06-24T01:10:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-06-24T01:10:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1621310": {
+      "game_name": "Atelier Sophie 2: The Alchemist of the Mysterious Dream",
+      "source_sha256": "0c485f07204da267a8af77a02955562326c3efa1cde0d59bb4f238f83d944474",
+      "original_filename": "1621310_Atelier_Sophie_2_The_Alchemist_of_the_Mysterious_Dream_US.csv",
+      "eligible_start_utc": "2022-01-27T01:00:02+00:00",
+      "first_source_event_utc": "2022-01-27T01:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-01-27T01:00:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1716120": {
+      "game_name": "Monster Rancher 1 & 2 DX",
+      "source_sha256": "000b0198e387efe4082b495f5b151c884f076f8ca3ef473f69cb4be420f06862",
+      "original_filename": "1716120_Monster_Rancher_1_&_2_DX_US.csv",
+      "eligible_start_utc": "2021-11-19T01:10:02+00:00",
+      "first_source_event_utc": "2021-11-19T01:10:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-11-19T01:10:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1732190": {
+      "game_name": "FATAL FRAME / PROJECT ZERO: Maiden of Black Water",
+      "source_sha256": "9678ddb32951ab512a2969b9fff44a1dc1c41b6b62934c7aa9c7b90ddede7405",
+      "original_filename": "1732190_FATAL_FRAME_PROJECT_ZERO_Maiden_of_Black_Water_US.csv",
+      "eligible_start_utc": "2021-10-01T01:05:12+00:00",
+      "first_source_event_utc": "2021-10-01T01:05:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-10-01T01:05:12+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1879330": {
+      "game_name": "WARRIORS OROCHI 3 Ultimate Definitive Edition",
+      "source_sha256": "1657865312edf1023873c57482a5615b793c78e98d3228d28a9e4e6becc4f1c8",
+      "original_filename": "1879330_WARRIORS_OROCHI_3_Ultimate_Definitive_Edition_US.csv",
+      "eligible_start_utc": "2022-07-11T15:00:00+00:00",
+      "first_source_event_utc": "2022-07-12T13:05:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-07-12T13:05:01+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "1902690": {
+      "game_name": "Fate/Samurai Remnant",
+      "source_sha256": "04e82733293a541cb81dc482a5bae283a67f59833eb455403e28533a5e4f4b35",
+      "original_filename": "1902690_Fate_Samurai_Remnant_US.csv",
+      "eligible_start_utc": "2023-07-26T01:05:02+00:00",
+      "first_source_event_utc": "2023-07-26T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-07-26T01:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Repeated regular price before the observed change."
+        },
+        {
+          "start_utc": "2025-09-16T01:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Observed transition to a persistent regular price matching the pinned package."
+        }
+      ]
+    },
+    "2130460": {
+      "game_name": "FATAL FRAME / PROJECT ZERO: Mask of the Lunar Eclipse",
+      "source_sha256": "acc6a56458e8aaf030a8a7914a20587c27d3c5c9ca67087ed45c6a1a93458a73",
+      "original_filename": "2130460_FATAL_FRAME_PROJECT_ZERO_Mask_of_the_Lunar_Eclipse_US.csv",
+      "eligible_start_utc": "2023-02-09T01:05:02+00:00",
+      "first_source_event_utc": "2023-02-09T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-02-09T01:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "2138090": {
+      "game_name": "Atelier Marie Remake: The Alchemist of Salburg",
+      "source_sha256": "1b7d615151a3690bd4297d120d082e5b4a7de55a5b20c2cd031a351a71093d71",
+      "original_filename": "2138090_Atelier_Marie_Remake_The_Alchemist_of_Salburg_US.csv",
+      "eligible_start_utc": "2023-04-19T15:10:02+00:00",
+      "first_source_event_utc": "2023-04-19T15:10:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-04-19T15:10:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "2288150": {
+      "game_name": "ROMANCE OF THE THREE KINGDOMS 8 REMAKE",
+      "source_sha256": "895b0fb4667f2bacbf3b0d5790cd044c95d62fe648853b2c7edf0852e412d9c4",
+      "original_filename": "2288150_ROMANCE_OF_THE_THREE_KINGDOMS_8_REMAKE_US.csv",
+      "eligible_start_utc": "2024-09-26T01:05:01+00:00",
+      "first_source_event_utc": "2024-09-26T01:05:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-09-26T01:05:01+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "2384580": {
+      "game_name": "DYNASTY WARRIORS: ORIGINS",
+      "source_sha256": "04a00754eb03098de0e29f8eeac6fb02d997bc28df713b377fe7cfb6f616975e",
+      "original_filename": "2384580_DYNASTY_WARRIORS_ORIGINS_US.csv",
+      "eligible_start_utc": "2024-11-22T01:05:02+00:00",
+      "first_source_event_utc": "2024-11-22T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-11-22T01:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "2719200": {
+      "game_name": "SAMURAI WARRIORS 4 DX",
+      "source_sha256": "d186c32e4712d5cbff2d4fa7c806788e17bdaeb3fd8ffea74c46139db0f6e1e3",
+      "original_filename": "2719200_SAMURAI_WARRIORS_4_DX_US.csv",
+      "eligible_start_utc": "2024-05-12T15:00:00+00:00",
+      "first_source_event_utc": "2024-05-14T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-05-14T01:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "2916700": {
+      "game_name": "Attack on Titan 3 / A.O.T. 3",
+      "source_sha256": "240ecb89842b2b2dfeb9bb7f4151f72240ca031ca858873be5401fb253619b20",
+      "original_filename": "2916700_Attack_on_Titan_3_A.O.T._3_US.csv",
+      "eligible_start_utc": "2026-08-03T15:05:03+00:00",
+      "first_source_event_utc": "2026-08-03T15:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-08-03T15:05:03+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3002850": {
+      "game_name": "FAIRY TAIL 2",
+      "source_sha256": "2347d3704a3170fa70c9930350b976dbca087975c3b244dff59dac0fd542aeaf",
+      "original_filename": "3002850_FAIRY_TAIL_2_US.csv",
+      "eligible_start_utc": "2024-10-29T01:05:02+00:00",
+      "first_source_event_utc": "2024-10-29T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-10-29T01:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3123410": {
+      "game_name": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
+      "source_sha256": "fbe89e138d94c88aabf0cd61ce2c8d11048e06ad6a91ce94d312b37c996d5b83",
+      "original_filename": "3123410_Atelier_Yumia_The_Alchemist_of_Memories_&_the_Envisioned_Land_US.csv",
+      "eligible_start_utc": "2025-02-21T01:05:03+00:00",
+      "first_source_event_utc": "2025-02-21T01:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-02-21T01:05:03+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3178350": {
+      "game_name": "WARRIORS: Abyss",
+      "source_sha256": "1950413f4efb33f536faf713554b346c5ac3afd52eb8d1dc7fc16c36bbed810e",
+      "original_filename": "3178350_WARRIORS_Abyss_US.csv",
+      "eligible_start_utc": "2025-02-11T15:00:00+00:00",
+      "first_source_event_utc": "2025-02-12T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-02-12T23:05:02+00:00",
+          "list_price_usd": "24.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3259600": {
+      "game_name": "Atelier Resleriana: The Red Alchemist & the White Guardian",
+      "source_sha256": "76b48c15780c3daae65f9d2ddcfcb5d2f084e3d8c1ce72ea0c02e1793458e7dd",
+      "original_filename": "3259600_Atelier_Resleriana_The_Red_Alchemist_&_the_White_Guardian_US.csv",
+      "eligible_start_utc": "2025-08-29T01:05:02+00:00",
+      "first_source_event_utc": "2025-08-29T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-08-29T01:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3287520": {
+      "game_name": "NINJA GAIDEN 2 Black",
+      "source_sha256": "ac8099ac9d162fc466b1f80442788835d8e6baaabce473e463160ca7e1769748",
+      "original_filename": "3287520_NINJA_GAIDEN_2_Black_US.csv",
+      "eligible_start_utc": "2025-01-22T15:00:00+00:00",
+      "first_source_event_utc": "2025-01-23T19:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-01-23T19:05:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3365030": {
+      "game_name": "Atelier Ryza: Ever Darkness & the Secret Hideout DX",
+      "source_sha256": "5497a4b073c126a25e29d19eeac19c6413bd2ac42b18d4fe7ef294b089f35312",
+      "original_filename": "3365030_Atelier_Ryza_Ever_Darkness_&_the_Secret_Hideout_DX_US.csv",
+      "eligible_start_utc": "2025-10-15T01:05:02+00:00",
+      "first_source_event_utc": "2025-10-15T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-10-15T01:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3365040": {
+      "game_name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
+      "source_sha256": "3f1b5e9fc9e85724755ab09a49e39cacbcf3d52b00c010bf67d4ab85289c53a7",
+      "original_filename": "3365040_Atelier_Ryza_2_Lost_Legends_&_the_Secret_Fairy_DX_US.csv",
+      "eligible_start_utc": "2025-10-15T01:05:02+00:00",
+      "first_source_event_utc": "2025-10-15T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-10-15T01:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3365050": {
+      "game_name": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
+      "source_sha256": "79c18ef68e02ed85225341d3be78c9cf49693fd4a62725f3d5228fc1621dfaf4",
+      "original_filename": "3365050_Atelier_Ryza_3_Alchemist_of_the_End_&_the_Secret_Key_DX_US.csv",
+      "eligible_start_utc": "2025-10-15T01:05:02+00:00",
+      "first_source_event_utc": "2025-10-15T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-10-15T01:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3681010": {
+      "game_name": "Nioh 3",
+      "source_sha256": "2021969e0220e9531651650444446dfd10444bbbc7e86b08dfb4db7cb93469ca",
+      "original_filename": "3681010_Nioh_3_US.csv",
+      "eligible_start_utc": "2025-09-24T23:15:02+00:00",
+      "first_source_event_utc": "2025-09-24T23:15:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-09-24T23:15:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3825390": {
+      "game_name": "BLUE REFLECTION Quartet",
+      "source_sha256": "f0df1d88f39c4d7b55c33179c06f90d986df448cc69d98d5f6372411c6450009",
+      "original_filename": "3825390_BLUE_REFLECTION_Quartet_US.csv",
+      "eligible_start_utc": "2026-06-22T01:05:01+00:00",
+      "first_source_event_utc": "2026-06-22T01:05:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-06-22T01:05:01+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3841510": {
+      "game_name": "DYNASTY WARRIORS 3: Complete Edition Remastered",
+      "source_sha256": "d339e2f61a2490ab9b7806de8069d783949684716fb9617e5abb8db6756de5bd",
+      "original_filename": "3841510_DYNASTY_WARRIORS_3_Complete_Edition_Remastered_US.csv",
+      "eligible_start_utc": "2026-06-03T01:00:13+00:00",
+      "first_source_event_utc": "2026-06-03T01:00:13+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-06-03T01:00:13+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "3920610": {
+      "game_name": "FATAL FRAME II: Crimson Butterfly REMAKE",
+      "source_sha256": "22316777f980abeb7b455ca16d7c9a0592e936e97ff234fbbbd410c8560224c2",
+      "original_filename": "3920610_FATAL_FRAME_II_Crimson_Butterfly_REMAKE_US.csv",
+      "eligible_start_utc": "2025-11-12T01:00:12+00:00",
+      "first_source_event_utc": "2025-11-12T01:00:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-11-12T01:00:12+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "4144680": {
+      "game_name": "DEAD OR ALIVE 6 Last Round",
+      "source_sha256": "af177b36dc51c5b9b1d8e493ff4ee8bd6693efba8e59a9d809930d2611251984",
+      "original_filename": "4144680_DEAD_OR_ALIVE_6_Last_Round_US.csv",
+      "eligible_start_utc": "2026-02-13T00:35:02+00:00",
+      "first_source_event_utc": "2026-02-13T00:35:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-02-13T00:35:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "4507990": {
+      "game_name": "Wo Long 2: Wings of Ember",
+      "source_sha256": "2f86bbb182aabcf9a542466d94767ced0f3b99d678ce05d2aada90d9e1ae91e6",
+      "original_filename": "4507990_Wo_Long_2_Wings_of_Ember_US.csv",
+      "eligible_start_utc": "2026-09-16T01:05:12+00:00",
+      "first_source_event_utc": "2026-09-16T01:05:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-09-16T01:05:12+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "4532500": {
+      "game_name": "Atelier Karia: The Night Kingdom & the Guide of Memories",
+      "source_sha256": "3b32754981c322b1fbebb31ccb7789187adef2d57a933806ee18a8fd24f34b8b",
+      "original_filename": "4532500_Atelier_Karia_The_Night_Kingdom_&_the_Guide_of_Memories_US.csv",
+      "eligible_start_utc": "2026-11-09T01:05:02+00:00",
+      "first_source_event_utc": "2026-11-09T01:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-11-09T01:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    },
+    "4905780": {
+      "game_name": "The Apothecary Diaries: The False Imperial Brother",
+      "source_sha256": "9a9a559740342292900a77a425932c07fbbacd521e7fab7b614296c690b886bf",
+      "original_filename": "4905780_The_Apothecary_Diaries_The_False_Imperial_Brother_US.csv",
+      "eligible_start_utc": "2026-10-22T01:05:03+00:00",
+      "first_source_event_utc": "2026-10-22T01:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-10-22T01:05:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Pinned US package list price checked against repeated prices in the export."
+        }
+      ]
+    }
+  }
+}

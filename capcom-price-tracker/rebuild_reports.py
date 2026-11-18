@@ -24,7 +24,7 @@ def rebuild(output: Path = c.DATA) -> dict:
     combined = sorted(samples.values(), key=lambda x: (x["run_id"], int(x["appid"])))
     games, pubs, coverage = c.build_reports(combined, output, include_coverage=True)
     c.atomic_csv(output / "powerbi" / "snapshots.csv", c.SNAPSHOT_FIELDS, combined)
-    c.atomic_csv(output / "powerbi" / "daily_games.csv", c.GAME_FIELDS, games)
+    c.write_daily_games(output, games)
     c.atomic_csv(output / "powerbi" / "daily_publishers.csv", c.PUBLISHER_FIELDS, pubs)
     from collection_coverage import FIELDS
     c.atomic_csv(output / "powerbi" / "collection_coverage.csv", FIELDS, coverage)
