@@ -1,0 +1,146 @@
+appid,game_name,start_date_jst,end_date_jst,days,reason
+278080,DYNASTY WARRIORS 8: Xtreme Legends Complete Edition,2014-05-13,2014-05-13,1,no_price_coverage
+278080,DYNASTY WARRIORS 8: Xtreme Legends Complete Edition,2014-05-14,2014-05-14,1,partial_day_without_sale_evidence
+292990,NOBUNAGA'S AMBITION: Souzou,2014-08-27,2014-08-27,1,no_price_coverage
+292990,NOBUNAGA'S AMBITION: Souzou,2014-08-28,2014-08-28,1,partial_day_without_sale_evidence
+292990,NOBUNAGA'S AMBITION: Souzou,2022-06-24,2022-06-25,2,price_above_reviewed_baseline
+292990,NOBUNAGA'S AMBITION: Souzou,2022-06-30,2022-06-30,1,price_above_reviewed_baseline
+322520,DYNASTY WARRIORS 8 Empires,2015-02-26,2015-02-26,1,no_price_coverage
+322520,DYNASTY WARRIORS 8 Empires,2015-02-27,2015-02-27,1,partial_day_without_sale_evidence
+350310,BLADESTORM: Nightmare,2015-05-28,2015-05-29,2,no_price_coverage
+350310,BLADESTORM: Nightmare,2015-05-30,2015-05-30,1,partial_day_without_sale_evidence
+350310,BLADESTORM: Nightmare,2022-05-25,2022-05-25,1,missing_or_zero_price
+363090,NOBUNAGA'S AMBITION: Kakushin with Power Up Kit,2015-06-25,2015-06-25,1,no_price_coverage
+363090,NOBUNAGA'S AMBITION: Kakushin with Power Up Kit,2015-06-26,2015-06-26,1,partial_day_without_sale_evidence
+363110,NOBUNAGA'S AMBITION: Tendou with Power Up Kit,2015-06-25,2015-06-25,1,no_price_coverage
+363110,NOBUNAGA'S AMBITION: Tendou with Power Up Kit,2015-06-26,2015-06-26,1,partial_day_without_sale_evidence
+363150,Romance of the Three Kingdoms XIII,2016-01-27,2016-01-27,1,no_price_coverage
+363150,Romance of the Three Kingdoms XIII,2016-01-28,2016-06-16,141,edition_or_opening_baseline_unknown
+363150,Romance of the Three Kingdoms XIII,2023-04-13,2023-04-13,1,price_above_reviewed_baseline
+370730,NOBUNAGA'S AMBITION: Tenshouki with Power Up Kit HD Version,2015-11-11,2015-11-11,1,no_price_coverage
+370730,NOBUNAGA'S AMBITION: Tenshouki with Power Up Kit HD Version,2015-11-12,2015-11-12,1,partial_day_without_sale_evidence
+375450,NOBUNAGA'S AMBITION: Sphere of Influence - Ascension,2016-03-23,2016-07-27,127,no_price_coverage
+375450,NOBUNAGA'S AMBITION: Sphere of Influence - Ascension,2016-07-28,2016-07-28,1,partial_day_without_sale_evidence
+392470,NOBUNAGA'S AMBITION: Sphere of Influence,2015-09-01,2015-09-01,1,no_price_coverage
+401890,ARSLAN: THE WARRIORS OF LEGEND,2016-02-09,2016-02-09,1,no_price_coverage
+449800,Attack on Titan / A.O.T. Wings of Freedom,2016-08-26,2016-08-26,1,partial_day_without_sale_evidence
+485510,Nioh: Complete Edition,2017-11-07,2017-11-07,1,partial_day_without_sale_evidence
+521650,Genghis Khan,2017-01-24,2017-01-24,1,no_price_coverage
+521650,Genghis Khan,2017-01-25,2017-01-25,1,partial_day_without_sale_evidence
+521660,NOBUNAGA'S AMBITION: Zenkokuban,2017-01-24,2017-01-24,1,no_price_coverage
+521660,NOBUNAGA'S AMBITION: Zenkokuban,2017-01-25,2017-01-25,1,partial_day_without_sale_evidence
+521670,Romance of the Three Kingdoms,2016-12-13,2016-12-13,1,no_price_coverage
+521670,Romance of the Three Kingdoms,2016-12-14,2016-12-14,1,partial_day_without_sale_evidence
+521680,Bandit Kings of Ancient China,2017-02-21,2017-02-21,1,no_price_coverage
+521680,Bandit Kings of Ancient China,2017-02-22,2017-02-22,1,partial_day_without_sale_evidence
+521690,Romance of the Three Kingdoms II,2017-01-24,2017-01-24,1,no_price_coverage
+521690,Romance of the Three Kingdoms II,2017-01-25,2017-01-25,1,partial_day_without_sale_evidence
+521700,NOBUNAGA'S AMBITION: Sengoku Gunyuuden,2017-02-21,2017-02-21,1,no_price_coverage
+521700,NOBUNAGA'S AMBITION: Sengoku Gunyuuden,2017-02-22,2017-02-22,1,partial_day_without_sale_evidence
+521710,Romance of the Three Kingdoms III,2017-02-21,2017-02-21,1,no_price_coverage
+521710,Romance of the Three Kingdoms III,2017-02-22,2017-02-22,1,partial_day_without_sale_evidence
+521720,Uncharted Waters,2017-04-18,2017-04-18,1,no_price_coverage
+521720,Uncharted Waters,2017-04-19,2017-04-19,1,partial_day_without_sale_evidence
+521730,Romance of the Three Kingdoms IV with Power Up Kit,2017-03-21,2017-03-21,1,no_price_coverage
+521730,Romance of the Three Kingdoms IV with Power Up Kit,2017-03-22,2017-03-22,1,partial_day_without_sale_evidence
+521740,NOBUNAGA'S AMBITION: Bushou Fuunroku,2017-03-21,2017-03-21,1,no_price_coverage
+521740,NOBUNAGA'S AMBITION: Bushou Fuunroku,2017-03-22,2017-03-22,1,partial_day_without_sale_evidence
+521750,Romance of the Three Kingdoms V with Power Up Kit,2017-04-18,2017-04-18,1,no_price_coverage
+521750,Romance of the Three Kingdoms V with Power Up Kit,2017-04-19,2017-04-19,1,partial_day_without_sale_evidence
+521760,Taiko Risshiden,2017-04-18,2017-04-18,1,no_price_coverage
+521760,Taiko Risshiden,2017-04-19,2017-04-19,1,partial_day_without_sale_evidence
+544990,NOBUNAGA'S AMBITION,2016-12-13,2016-12-13,1,no_price_coverage
+544990,NOBUNAGA'S AMBITION,2016-12-14,2016-12-14,1,partial_day_without_sale_evidence
+545000,Aoki Ookami to Shiroki Mejika,2016-12-13,2016-12-13,1,no_price_coverage
+545000,Aoki Ookami to Shiroki Mejika,2016-12-14,2016-12-14,1,partial_day_without_sale_evidence
+545010,Ishin no Arashi,2017-03-21,2017-03-21,1,no_price_coverage
+545010,Ishin no Arashi,2017-03-22,2017-03-22,1,partial_day_without_sale_evidence
+601050,Attack on Titan 2 - A.O.T.2,2019-07-05,2019-07-05,1,missing_or_zero_price
+601050,Attack on Titan 2 - A.O.T.2,2019-08-03,2019-08-06,4,missing_or_zero_price
+610190,WARRIORS ALL-STARS,2017-08-29,2017-08-29,1,no_price_coverage
+610190,WARRIORS ALL-STARS,2022-05-25,2022-05-25,1,missing_or_zero_price
+628020,Romance of the Three Kingdoms VI with Power Up Kit,2017-06-27,2017-06-27,1,no_price_coverage
+628020,Romance of the Three Kingdoms VI with Power Up Kit,2017-06-28,2017-06-28,1,partial_day_without_sale_evidence
+628030,Romance of the Three Kingdoms VII with Power Up Kit,2017-07-25,2017-07-25,1,no_price_coverage
+628030,Romance of the Three Kingdoms VII with Power Up Kit,2017-07-26,2017-07-26,1,partial_day_without_sale_evidence
+628040,Romance of the Three Kingdoms VIII with Power Up Kit,2017-08-29,2017-08-29,1,no_price_coverage
+628040,Romance of the Three Kingdoms VIII with Power Up Kit,2017-08-30,2017-08-30,1,partial_day_without_sale_evidence
+628050,Romance of the Three Kingdoms IX with Power Up Kit,2017-10-17,2017-10-17,1,no_price_coverage
+628050,Romance of the Three Kingdoms IX with Power Up Kit,2017-10-18,2017-10-18,1,partial_day_without_sale_evidence
+628060,Romance of the Three Kingdoms X with Power Up Kit,2017-12-05,2017-12-05,1,no_price_coverage
+628060,Romance of the Three Kingdoms X with Power Up Kit,2017-12-06,2017-12-06,1,partial_day_without_sale_evidence
+628070,Romance of the Three Kingdoms XI with Power Up Kit,2018-01-16,2018-01-16,1,no_price_coverage
+628070,Romance of the Three Kingdoms XI with Power Up Kit,2018-01-17,2018-01-17,1,partial_day_without_sale_evidence
+628080,Romance of the Three Kingdoms XII with Power Up Kit,2018-01-16,2018-01-16,1,no_price_coverage
+628080,Romance of the Three Kingdoms XII with Power Up Kit,2018-01-17,2018-01-17,1,partial_day_without_sale_evidence
+628090,NOBUNAGA'S AMBITION: Haouden with Power Up Kit,2017-06-27,2017-06-27,1,no_price_coverage
+628090,NOBUNAGA'S AMBITION: Haouden with Power Up Kit,2017-06-28,2017-06-28,1,partial_day_without_sale_evidence
+628100,NOBUNAGA’S AMBITION: Shouseiroku with Power Up Kit,2017-07-25,2017-07-25,1,no_price_coverage
+628100,NOBUNAGA’S AMBITION: Shouseiroku with Power Up Kit,2017-07-26,2017-07-26,1,partial_day_without_sale_evidence
+628110,NOBUNAGA'S AMBITION: Reppuden with Power Up Kit,2017-08-29,2017-08-29,1,no_price_coverage
+628110,NOBUNAGA'S AMBITION: Reppuden with Power Up Kit,2017-08-30,2017-08-30,1,partial_day_without_sale_evidence
+628120,NOBUNAGA'S AMBITION: Ranseiki with Power Up Kit,2017-10-17,2017-10-17,1,no_price_coverage
+628120,NOBUNAGA'S AMBITION: Ranseiki with Power Up Kit,2017-10-18,2017-10-18,1,partial_day_without_sale_evidence
+628130,NOBUNAGA'S AMBITION: Soutenroku with Power Up Kit,2017-12-05,2017-12-05,1,no_price_coverage
+628130,NOBUNAGA'S AMBITION: Soutenroku with Power Up Kit,2017-12-06,2017-12-06,1,partial_day_without_sale_evidence
+628140,NOBUNAGA'S AMBITION: Tenkasousei with Power Up Kit,2018-01-16,2018-01-16,1,no_price_coverage
+628140,NOBUNAGA'S AMBITION: Tenkasousei with Power Up Kit,2018-01-17,2018-01-17,1,partial_day_without_sale_evidence
+628150,Sangokushi Eiketsuden,2017-08-29,2017-08-29,1,no_price_coverage
+628150,Sangokushi Eiketsuden,2017-08-30,2017-08-30,1,partial_day_without_sale_evidence
+628160,Genghis Khan II: Clan of the Gray Wolf,2017-06-27,2017-06-27,1,no_price_coverage
+628160,Genghis Khan II: Clan of the Gray Wolf,2017-06-28,2017-06-28,1,partial_day_without_sale_evidence
+628170,Uncharted Waters II,2017-10-17,2017-10-17,1,no_price_coverage
+628170,Uncharted Waters II,2017-10-18,2017-10-18,1,partial_day_without_sale_evidence
+628180,Winning Post,2017-07-25,2017-07-25,1,no_price_coverage
+628180,Winning Post,2017-07-26,2017-07-26,1,partial_day_without_sale_evidence
+628890,NOBUNAGA'S AMBITION: Taishi,2017-11-29,2018-01-17,50,no_price_coverage
+628890,NOBUNAGA'S AMBITION: Taishi,2018-01-18,2018-01-18,1,partial_day_without_sale_evidence
+628890,NOBUNAGA'S AMBITION: Taishi,2019-02-15,2019-02-15,1,missing_or_zero_price
+658260,BLUE REFLECTION,2017-09-26,2017-09-26,1,partial_day_without_sale_evidence
+724310,Kawanakajima no Kassen,2017-12-05,2017-12-05,1,no_price_coverage
+724310,Kawanakajima no Kassen,2017-12-06,2017-12-06,1,partial_day_without_sale_evidence
+730310,DYNASTY WARRIORS 9,2020-12-23,2020-12-23,1,price_above_reviewed_baseline
+831560,WARRIORS OROCHI 4,2018-10-15,2018-10-15,1,no_price_coverage
+831560,WARRIORS OROCHI 4,2022-06-25,2022-06-25,1,price_above_reviewed_baseline
+831560,WARRIORS OROCHI 4,2022-06-30,2022-06-30,1,price_above_reviewed_baseline
+886820,Nelke & the Legendary Alchemists ~Ateliers of the New World~,2019-03-25,2019-03-25,1,no_price_coverage
+936160,Atelier Rorona ~The Alchemist of Arland~ DX,2018-12-03,2018-12-11,9,no_price_coverage
+936160,Atelier Rorona ~The Alchemist of Arland~ DX,2018-12-12,2018-12-12,1,partial_day_without_sale_evidence
+936180,Atelier Totori ~The Adventurer of Arland~ DX,2018-12-03,2018-12-11,9,no_price_coverage
+936180,Atelier Totori ~The Adventurer of Arland~ DX,2018-12-12,2018-12-12,1,partial_day_without_sale_evidence
+936190,Atelier Meruru ~The Apprentice of Arland~ DX,2018-12-03,2018-12-11,9,no_price_coverage
+936190,Atelier Meruru ~The Apprentice of Arland~ DX,2018-12-12,2018-12-12,1,partial_day_without_sale_evidence
+968790,DYNASTY WARRIORS 7: Xtreme Legends Definitive Edition,2018-12-05,2018-12-05,1,no_price_coverage
+968790,DYNASTY WARRIORS 7: Xtreme Legends Definitive Edition,2022-05-25,2022-05-25,1,missing_or_zero_price
+1045620,Atelier Lulua ~The Scion of Arland~,2019-05-20,2019-05-20,1,no_price_coverage
+1045620,Atelier Lulua ~The Scion of Arland~,2022-06-25,2022-06-25,1,price_above_reviewed_baseline
+1045620,Atelier Lulua ~The Scion of Arland~,2022-06-30,2022-06-30,1,price_above_reviewed_baseline
+1045620,Atelier Lulua ~The Scion of Arland~,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+1045620,Atelier Lulua ~The Scion of Arland~,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+1191260,Touken Ranbu Warriors,2022-05-25,2022-05-25,1,price_above_reviewed_baseline
+1233260,FAIRY TAIL,2020-07-30,2020-07-30,1,missing_or_zero_price
+1233260,FAIRY TAIL,2022-06-17,2022-06-17,1,price_above_reviewed_baseline
+1233260,FAIRY TAIL,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+1336980,NOBUNAGA'S AMBITION: Awakening,2022-07-20,2023-06-21,337,no_price_coverage
+1336980,NOBUNAGA'S AMBITION: Awakening,2023-06-22,2023-06-22,1,partial_day_without_sale_evidence
+1502970,Atelier Sophie: The Alchemist of the Mysterious Book DX,2021-04-21,2021-04-21,1,no_price_coverage
+1502980,Atelier Firis: The Alchemist and the Mysterious Journey DX,2021-04-21,2021-04-21,1,no_price_coverage
+1502980,Atelier Firis: The Alchemist and the Mysterious Journey DX,2022-10-13,2022-10-13,1,missing_or_zero_price
+1502990,Atelier Lydie & Suelle: The Alchemists and the Mysterious Paintings DX,2021-04-21,2021-04-21,1,no_price_coverage
+1580780,NINJA GAIDEN: Master Collection,2021-06-09,2021-06-09,1,no_price_coverage
+1591530,SAMURAI WARRIORS 5,2021-07-27,2021-07-27,1,missing_or_zero_price
+1621310,Atelier Sophie 2: The Alchemist of the Mysterious Dream,2022-02-25,2022-02-25,1,price_above_reviewed_baseline
+1732190,FATAL FRAME / PROJECT ZERO: Maiden of Black Water,2021-12-22,2021-12-22,1,price_above_reviewed_baseline
+1732190,FATAL FRAME / PROJECT ZERO: Maiden of Black Water,2023-04-13,2023-04-13,1,price_above_reviewed_baseline
+1879330,WARRIORS OROCHI 3 Ultimate Definitive Edition,2022-07-12,2022-07-12,1,partial_day_without_sale_evidence
+1902690,Fate/Samurai Remnant,2023-09-29,2023-09-29,1,missing_or_zero_price
+2719200,SAMURAI WARRIORS 4 DX,2024-05-13,2024-05-13,1,no_price_coverage
+2719200,SAMURAI WARRIORS 4 DX,2024-05-14,2024-05-14,1,partial_day_without_sale_evidence
+3123410,Atelier Yumia: The Alchemist of Memories & the Envisioned Land,2025-03-21,2025-03-21,1,missing_or_zero_price
+3178350,WARRIORS: Abyss,2025-02-12,2025-02-12,1,no_price_coverage
+3178350,WARRIORS: Abyss,2025-02-13,2025-02-13,1,partial_day_without_sale_evidence
+3178350,WARRIORS: Abyss,2025-03-18,2025-03-18,1,price_above_reviewed_baseline
+3287520,NINJA GAIDEN 2 Black,2025-01-23,2025-01-23,1,no_price_coverage
+3287520,NINJA GAIDEN 2 Black,2025-01-24,2025-01-24,1,partial_day_without_sale_evidence
+4144680,DEAD OR ALIVE 6 Last Round,2026-04-14,2026-04-17,4,missing_or_zero_price
+4144680,DEAD OR ALIVE 6 Last Round,2026-06-25,2026-06-25,1,missing_or_zero_price
