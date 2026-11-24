@@ -1,0 +1,49 @@
+appid,game_name,start_utc,end_utc_exclusive,reason
+202310,Ridge Racer™ Unbounded,2014-06-16T17:15:04+00:00,2014-06-18T04:30:03+00:00,price_above_reviewed_baseline
+202310,Ridge Racer™ Unbounded,2022-10-17T17:21:26+00:00,2022-10-17T18:25:17+00:00,price_above_reviewed_baseline
+236450,PAC-MAN™ Championship Edition DX+,2023-04-12T17:01:21+00:00,2023-04-12T17:51:05+00:00,price_above_reviewed_baseline
+323470,DRAGON BALL XENOVERSE,2022-01-05T18:20:30+00:00,2022-01-05T18:57:14+00:00,price_above_reviewed_baseline
+323470,DRAGON BALL XENOVERSE,2022-10-14T17:01:35+00:00,2022-10-14T18:05:09+00:00,price_above_reviewed_baseline
+323470,DRAGON BALL XENOVERSE,2022-10-17T17:21:36+00:00,2022-10-17T18:25:18+00:00,price_above_reviewed_baseline
+372360,Tales of Symphonia,2016-02-05T00:30:36+00:00,2016-02-05T00:40:26+00:00,missing_or_zero_price
+389730,TEKKEN 7,2018-11-05T18:00:19+00:00,2018-11-06T20:07:51+00:00,price_above_reviewed_baseline
+389730,TEKKEN 7,2018-11-06T20:30:22+00:00,2018-11-06T23:42:17+00:00,price_above_reviewed_baseline
+389730,TEKKEN 7,2022-10-14T17:01:40+00:00,2022-10-14T18:05:09+00:00,price_above_reviewed_baseline
+403400,ARCADE GAME SERIES: DIG DUG,2022-10-17T17:21:45+00:00,2022-10-17T18:25:18+00:00,price_above_reviewed_baseline
+403430,ARCADE GAME SERIES: GALAGA,2022-10-14T17:01:42+00:00,2022-10-14T18:05:09+00:00,price_above_reviewed_baseline
+403430,ARCADE GAME SERIES: GALAGA,2022-10-17T17:21:45+00:00,2022-10-17T18:25:18+00:00,price_above_reviewed_baseline
+425220,One Piece Burning Blood,2022-10-17T17:21:47+00:00,2022-10-17T18:25:08+00:00,price_above_reviewed_baseline
+429660,Tales of Berseria™,2017-01-26T23:00:07+00:00,2017-01-26T23:10:12+00:00,missing_or_zero_price
+502500,ACE COMBAT™ 7: SKIES UNKNOWN,2018-09-18T19:30:13+00:00,2018-09-19T17:11:06+00:00,missing_or_zero_price
+544750,SOULCALIBUR VI,2022-10-17T18:25:11+00:00,2022-10-18T06:00:56+00:00,missing_or_zero_price
+571720,One Piece: Unlimited World Red - Deluxe Edition,2022-07-05T19:01:03+00:00,2022-07-05T22:10:03+00:00,missing_or_zero_price
+633230,NARUTO TO BORUTO: SHINOBI STRIKER,2018-11-05T19:00:13+00:00,2018-11-06T19:20:19+00:00,price_above_reviewed_baseline
+633230,NARUTO TO BORUTO: SHINOBI STRIKER,2022-08-31T19:01:02+00:00,2022-09-01T06:00:49+00:00,price_above_reviewed_baseline
+678960,CODE VEIN,2022-10-14T17:02:04+00:00,2022-10-14T18:05:12+00:00,price_above_reviewed_baseline
+710470,Little Witch Academia: Chamber of Time,2019-10-31T14:00:04+00:00,2019-11-05T17:30:19+00:00,missing_or_zero_price
+738540,Tales of Vesperia: Definitive Edition,2019-01-10T23:30:11+00:00,2019-01-11T00:20:09+00:00,missing_or_zero_price
+738540,Tales of Vesperia: Definitive Edition,2022-10-13T17:20:12+00:00,2022-10-13T19:01:02+00:00,missing_or_zero_price
+748360,MY HERO ONE'S JUSTICE,2018-10-19T08:13:55+00:00,2018-10-19T08:57:51+00:00,missing_or_zero_price
+755500,ONE PIECE World Seeker,2022-10-14T17:02:08+00:00,2022-10-14T18:05:12+00:00,price_above_reviewed_baseline
+755500,ONE PIECE World Seeker,2022-10-17T17:22:20+00:00,2022-10-17T18:25:09+00:00,price_above_reviewed_baseline
+756530,TOKYO GHOUL:re [CALL to EXIST],2022-05-03T23:25:22+00:00,2022-05-04T06:02:06+00:00,missing_or_zero_price
+756530,TOKYO GHOUL:re [CALL to EXIST],2022-08-31T19:01:02+00:00,2022-09-01T03:05:01+00:00,missing_or_zero_price
+756530,TOKYO GHOUL:re [CALL to EXIST],2022-10-12T19:01:02+00:00,2022-10-13T01:20:04+00:00,missing_or_zero_price
+775500,SCARLET NEXUS,2021-06-24T22:00:08+00:00,2021-06-24T22:05:06+00:00,price_above_reviewed_baseline
+798460,Ni no Kuni Wrath of the White Witch™ Remastered,2022-05-03T23:25:22+00:00,2022-05-04T06:02:08+00:00,missing_or_zero_price
+824550,SD GUNDAM BATTLE ALLIANCE,2022-06-24T17:02:12+00:00,2022-06-24T18:05:10+00:00,price_above_reviewed_baseline
+871980,Digimon Survive,2022-08-31T19:01:02+00:00,2022-09-01T06:00:58+00:00,missing_or_zero_price
+898750,Super Robot Wars 30,2021-12-21T23:05:02+00:00,2021-12-21T23:15:06+00:00,missing_or_zero_price
+1089090,ONE PIECE: PIRATE WARRIORS 4,2020-03-26T23:10:04+00:00,2020-03-26T23:30:03+00:00,missing_or_zero_price
+1089090,ONE PIECE: PIRATE WARRIORS 4,2022-10-14T17:02:31+00:00,2022-10-14T18:05:12+00:00,price_above_reviewed_baseline
+1089090,ONE PIECE: PIRATE WARRIORS 4,2022-10-17T17:22:51+00:00,2022-10-17T18:25:09+00:00,price_above_reviewed_baseline
+1163550,Captain Tsubasa: Rise of New Champions,2021-11-24T18:04:27+00:00,2021-11-24T18:09:52+00:00,price_above_reviewed_baseline
+1245620,ELDEN RING,2022-02-24T23:05:02+00:00,2022-02-24T23:10:02+00:00,missing_or_zero_price
+1276760,DRAGON BALL: THE BREAKERS,2023-04-12T16:45:02+00:00,2023-04-12T18:00:03+00:00,missing_or_zero_price
+1392860,Little Nightmares III,2025-09-17T20:10:02+00:00,2025-09-17T20:20:02+00:00,missing_or_zero_price
+1392860,Little Nightmares III,2025-10-09T22:00:02+00:00,2025-10-09T22:10:01+00:00,missing_or_zero_price
+1392860,Little Nightmares III,2025-10-09T22:15:02+00:00,2025-10-09T22:50:03+00:00,missing_or_zero_price
+1492730,DORAEMON STORY OF SEASONS: Friends of the Great Kingdom,2022-10-17T17:23:31+00:00,2022-10-17T18:25:25+00:00,price_above_reviewed_baseline
+1730700,We Love Katamari REROLL+ Royal Reverie,2023-06-01T22:00:02+00:00,2023-06-01T22:05:02+00:00,price_above_reviewed_baseline
+2288630,Taiko no Tatsujin: Rhythm Festival,2024-11-06T23:05:02+00:00,2024-11-06T23:10:02+00:00,missing_or_zero_price
+2362060,CODE VEIN II,2026-01-26T23:05:02+00:00,2026-01-26T23:20:02+00:00,missing_or_zero_price

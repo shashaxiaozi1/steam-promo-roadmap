@@ -1,0 +1,121 @@
+appid,game_name,start_date_jst,end_date_jst,days,reason
+202310,Ridge Racer™ Unbounded,2012-11-22,2012-11-22,1,partial_day_without_sale_evidence
+202310,Ridge Racer™ Unbounded,2014-06-18,2014-06-18,1,price_above_reviewed_baseline
+212410,Inversion™,2012-11-22,2012-11-25,4,no_price_coverage
+212410,Inversion™,2012-11-26,2012-11-26,1,partial_day_without_sale_evidence
+234670,NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst HD,2013-10-24,2013-10-25,2,no_price_coverage
+234670,NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst HD,2013-10-26,2013-10-26,1,partial_day_without_sale_evidence
+236450,PAC-MAN™ Championship Edition DX+,2023-04-13,2023-04-13,1,price_above_reviewed_baseline
+236490,Hexodius,2013-06-21,2013-07-25,35,no_price_coverage
+236490,Hexodius,2013-07-26,2013-07-26,1,partial_day_without_sale_evidence
+245280,ENSLAVED™: Odyssey to the West™ Premium Edition,2013-10-24,2013-10-25,2,no_price_coverage
+245280,ENSLAVED™: Odyssey to the West™ Premium Edition,2013-10-26,2013-10-26,1,partial_day_without_sale_evidence
+264540,Platformines,2014-03-28,2014-03-28,1,no_price_coverage
+264540,Platformines,2014-03-29,2014-03-29,1,partial_day_without_sale_evidence
+316240,Professional Lumberjack 2015,2015-03-05,2015-03-05,1,no_price_coverage
+316240,Professional Lumberjack 2015,2015-03-06,2015-03-06,1,partial_day_without_sale_evidence
+323470,DRAGON BALL XENOVERSE,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+323470,DRAGON BALL XENOVERSE,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+335300,DARK SOULS™ II: Scholar of the First Sin,2015-04-01,2015-04-01,1,no_price_coverage
+335300,DARK SOULS™ II: Scholar of the First Sin,2015-04-02,2015-04-02,1,partial_day_without_sale_evidence
+372360,Tales of Symphonia,2016-02-05,2016-02-05,1,missing_or_zero_price
+389730,TEKKEN 7,2018-11-07,2018-11-07,1,price_above_reviewed_baseline
+389730,TEKKEN 7,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+394160,ARCADE GAME SERIES: PAC-MAN,2016-04-19,2016-04-19,1,no_price_coverage
+394160,ARCADE GAME SERIES: PAC-MAN,2016-04-20,2016-04-20,1,partial_day_without_sale_evidence
+403400,ARCADE GAME SERIES: DIG DUG,2016-04-19,2016-04-19,1,no_price_coverage
+403400,ARCADE GAME SERIES: DIG DUG,2016-04-20,2016-04-20,1,partial_day_without_sale_evidence
+403410,ARCADE GAME SERIES: Ms. PAC-MAN,2016-04-19,2016-04-19,1,no_price_coverage
+403410,ARCADE GAME SERIES: Ms. PAC-MAN,2016-04-20,2016-04-20,1,partial_day_without_sale_evidence
+403430,ARCADE GAME SERIES: GALAGA,2016-04-19,2016-04-19,1,no_price_coverage
+403430,ARCADE GAME SERIES: GALAGA,2016-04-20,2016-04-20,1,partial_day_without_sale_evidence
+429660,Tales of Berseria™,2017-01-27,2017-01-27,1,missing_or_zero_price
+441380,PAC-MAN™ CHAMPIONSHIP EDITION 2,2016-09-13,2016-09-13,1,partial_day_without_sale_evidence
+455400,PAC-MAN 256,2016-06-21,2016-06-21,1,no_price_coverage
+455400,PAC-MAN 256,2016-06-22,2016-06-22,1,partial_day_without_sale_evidence
+495140,NARUTO: Ultimate Ninja STORM,2017-08-25,2017-08-25,1,no_price_coverage
+495140,NARUTO: Ultimate Ninja STORM,2017-08-26,2017-08-26,1,partial_day_without_sale_evidence
+502500,ACE COMBAT™ 7: SKIES UNKNOWN,2018-09-19,2018-09-20,2,missing_or_zero_price
+525480,.hack//G.U. Last Recode,2017-11-03,2017-11-03,1,no_price_coverage
+525480,.hack//G.U. Last Recode,2017-11-04,2017-11-04,1,partial_day_without_sale_evidence
+543870,NARUTO SHIPPUDEN: Ultimate Ninja STORM 2,2017-08-25,2017-08-25,1,no_price_coverage
+543870,NARUTO SHIPPUDEN: Ultimate Ninja STORM 2,2017-08-26,2017-08-26,1,partial_day_without_sale_evidence
+570940,DARK SOULS™: REMASTERED,2018-05-23,2018-05-23,1,no_price_coverage
+570940,DARK SOULS™: REMASTERED,2018-05-24,2018-05-24,1,partial_day_without_sale_evidence
+571720,One Piece: Unlimited World Red - Deluxe Edition,2017-08-25,2017-08-25,1,partial_day_without_sale_evidence
+607880,Accel World VS. Sword Art Online Deluxe Edition,2017-09-12,2017-09-12,1,partial_day_without_sale_evidence
+607890,Sword Art Online: Hollow Realization Deluxe Edition,2017-10-27,2017-10-27,1,partial_day_without_sale_evidence
+633230,NARUTO TO BORUTO: SHINOBI STRIKER,2018-11-07,2018-11-07,1,price_above_reviewed_baseline
+633230,NARUTO TO BORUTO: SHINOBI STRIKER,2022-09-01,2022-09-01,1,price_above_reviewed_baseline
+638650,Sword Art Online Re: Hollow Fragment,2018-08-20,2018-08-20,1,no_price_coverage
+638650,Sword Art Online Re: Hollow Fragment,2018-08-21,2018-08-21,1,partial_day_without_sale_evidence
+710470,Little Witch Academia: Chamber of Time,2018-05-15,2018-05-15,1,no_price_coverage
+710470,Little Witch Academia: Chamber of Time,2018-05-16,2018-05-16,1,partial_day_without_sale_evidence
+710470,Little Witch Academia: Chamber of Time,2019-11-06,2019-11-06,1,missing_or_zero_price
+714080,BLACK CLOVER: QUARTET KNIGHTS,2018-09-13,2018-09-13,1,no_price_coverage
+714080,BLACK CLOVER: QUARTET KNIGHTS,2018-09-14,2018-09-14,1,partial_day_without_sale_evidence
+738530,New Gundam Breaker,2018-09-24,2018-09-24,1,no_price_coverage
+738530,New Gundam Breaker,2018-09-25,2018-09-25,1,partial_day_without_sale_evidence
+738540,Tales of Vesperia: Definitive Edition,2019-01-11,2019-01-11,1,missing_or_zero_price
+748360,MY HERO ONE'S JUSTICE,2018-10-19,2018-10-19,1,missing_or_zero_price
+755500,ONE PIECE World Seeker,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+755500,ONE PIECE World Seeker,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+756530,TOKYO GHOUL:re [CALL to EXIST],2019-11-14,2019-11-14,1,no_price_coverage
+756530,TOKYO GHOUL:re [CALL to EXIST],2019-11-15,2019-11-15,1,partial_day_without_sale_evidence
+756530,TOKYO GHOUL:re [CALL to EXIST],2022-05-04,2022-05-04,1,missing_or_zero_price
+775500,SCARLET NEXUS,2021-06-25,2021-06-25,1,price_above_reviewed_baseline
+798460,Ni no Kuni Wrath of the White Witch™ Remastered,2022-05-04,2022-05-04,1,missing_or_zero_price
+798510,SUPER DRAGON BALL HEROES WORLD MISSION,2019-04-04,2019-04-04,1,no_price_coverage
+798510,SUPER DRAGON BALL HEROES WORLD MISSION,2019-04-05,2019-04-05,1,partial_day_without_sale_evidence
+824550,SD GUNDAM BATTLE ALLIANCE,2022-06-25,2022-06-25,1,price_above_reviewed_baseline
+840720,Sword Art Online: Lost Song,2018-11-12,2018-11-12,1,no_price_coverage
+840720,Sword Art Online: Lost Song,2018-11-13,2018-11-13,1,partial_day_without_sale_evidence
+848350,Katamari Damacy REROLL,2018-12-06,2018-12-06,1,no_price_coverage
+848350,Katamari Damacy REROLL,2018-12-07,2018-12-07,1,partial_day_without_sale_evidence
+871980,Digimon Survive,2022-07-28,2022-07-28,1,no_price_coverage
+871980,Digimon Survive,2022-07-29,2022-07-29,1,partial_day_without_sale_evidence
+871980,Digimon Survive,2022-09-01,2022-09-01,1,missing_or_zero_price
+898750,Super Robot Wars 30,2021-12-22,2021-12-22,1,missing_or_zero_price
+899440,GOD EATER 3,2019-02-07,2019-02-07,1,no_price_coverage
+899440,GOD EATER 3,2019-02-08,2019-02-08,1,partial_day_without_sale_evidence
+965230,DORAEMON  STORY OF SEASONS,2019-10-10,2019-10-10,1,no_price_coverage
+965230,DORAEMON  STORY OF SEASONS,2019-10-11,2019-10-11,1,partial_day_without_sale_evidence
+1042550,Digimon Story Cyber Sleuth: Complete Edition,2019-10-17,2019-10-17,1,no_price_coverage
+1042550,Digimon Story Cyber Sleuth: Complete Edition,2019-10-18,2019-10-18,1,partial_day_without_sale_evidence
+1089090,ONE PIECE: PIRATE WARRIORS 4,2020-03-27,2020-03-27,1,missing_or_zero_price
+1089090,ONE PIECE: PIRATE WARRIORS 4,2022-10-15,2022-10-15,1,price_above_reviewed_baseline
+1089090,ONE PIECE: PIRATE WARRIORS 4,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+1126750,Mr. DRILLER DrillLand,2020-06-24,2020-06-24,1,no_price_coverage
+1126750,Mr. DRILLER DrillLand,2020-06-25,2020-06-25,1,partial_day_without_sale_evidence
+1245620,ELDEN RING,2022-02-25,2022-02-25,1,missing_or_zero_price
+1250250,NAMCO MUSEUM ARCHIVES Vol 1,2020-06-17,2020-06-17,1,no_price_coverage
+1250250,NAMCO MUSEUM ARCHIVES Vol 1,2020-06-18,2020-06-18,1,partial_day_without_sale_evidence
+1254620,NAMCO MUSEUM ARCHIVES Vol 2,2020-06-17,2020-06-17,1,no_price_coverage
+1254620,NAMCO MUSEUM ARCHIVES Vol 2,2020-06-18,2020-06-18,1,partial_day_without_sale_evidence
+1276760,DRAGON BALL: THE BREAKERS,2023-04-13,2023-04-13,1,missing_or_zero_price
+1392860,Little Nightmares III,2025-09-18,2025-09-18,1,missing_or_zero_price
+1392860,Little Nightmares III,2025-10-10,2025-10-10,1,missing_or_zero_price
+1492730,DORAEMON STORY OF SEASONS: Friends of the Great Kingdom,2022-10-18,2022-10-18,1,price_above_reviewed_baseline
+1530160,Digimon World: Next Order,2023-02-21,2023-02-21,1,no_price_coverage
+1530160,Digimon World: Next Order,2023-02-22,2023-02-22,1,partial_day_without_sale_evidence
+1730680,Klonoa Phantasy Reverie Series,2022-07-07,2022-07-07,1,no_price_coverage
+1730680,Klonoa Phantasy Reverie Series,2022-07-08,2022-07-08,1,partial_day_without_sale_evidence
+1730700,We Love Katamari REROLL+ Royal Reverie,2023-06-01,2023-06-01,1,no_price_coverage
+1730700,We Love Katamari REROLL+ Royal Reverie,2023-06-02,2023-06-02,1,price_above_reviewed_baseline
+1859470,PAC-MAN WORLD Re-PAC,2022-08-25,2022-08-25,1,no_price_coverage
+1859470,PAC-MAN WORLD Re-PAC,2022-08-26,2022-08-26,1,partial_day_without_sale_evidence
+2146170,Baten Kaitos I & II HD Remaster,2024-06-17,2024-06-17,1,no_price_coverage
+2170370,SPY×ANYA: Operation Memories,2024-06-27,2024-06-27,1,no_price_coverage
+2170370,SPY×ANYA: Operation Memories,2024-06-28,2024-06-28,1,partial_day_without_sale_evidence
+2213190,DEATH NOTE Killer Within,2024-11-05,2024-11-05,1,no_price_coverage
+2213190,DEATH NOTE Killer Within,2024-11-06,2024-11-06,1,partial_day_without_sale_evidence
+2288630,Taiko no Tatsujin: Rhythm Festival,2024-11-07,2024-11-07,1,missing_or_zero_price
+2362060,CODE VEIN II,2026-01-27,2026-01-27,1,missing_or_zero_price
+2383200,PATAPON 1+2 REPLAY,2025-07-10,2025-07-10,1,no_price_coverage
+2383200,PATAPON 1+2 REPLAY,2025-07-11,2025-07-11,1,partial_day_without_sale_evidence
+2482940,Little Nightmares VR: Altered Echoes,2026-04-23,2026-04-23,1,no_price_coverage
+2482940,Little Nightmares VR: Altered Echoes,2026-04-24,2026-04-24,1,partial_day_without_sale_evidence
+3004100,FREEDOM WARS Remastered,2025-01-09,2025-01-09,1,no_price_coverage
+3004100,FREEDOM WARS Remastered,2025-01-10,2025-01-10,1,partial_day_without_sale_evidence
+3470960,Tales of Eternia Remastered,2026-10-15,2026-10-15,1,no_price_coverage
+3470960,Tales of Eternia Remastered,2026-10-16,2026-10-16,1,partial_day_without_sale_evidence
