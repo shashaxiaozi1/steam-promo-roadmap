@@ -146,10 +146,10 @@ Power Query 把第一行提升为标题；`date_jst` 设为日期，`appid` 和 
 
 如需表格显示当天是否促销，也可在游戏层使用 `is_on_sale_any`。两层的日期均按日本时间分组。
 
-### 追加光荣特库摩逐款历史
+### 追加光荣特库摩和万代南梦宫逐款历史
 
 发行商热力图继续刷新 `daily_publishers.csv`。逐款查询由原来的 `daily_games.csv` 和新增的
-`daily_games_koei_tecmo_history.csv` 组成。后者收录光荣缺少实际采样的历史日期。每个发行商的
+`daily_games_koei_tecmo_history.csv` 组成。后者收录光荣特库摩和万代南梦宫缺少实际采样的历史日期，沿用原文件名以兼容现有查询。每个发行商的
 同一 AppID、日期组合只出现一次，已采样的日期仍在前一文件中。
 
 在 Power BI 的 **转换数据** 中选中现有逐款查询，从 [daily_games_combined.pq](daily_games_combined.pq)

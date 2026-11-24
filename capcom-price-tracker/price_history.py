@@ -31,6 +31,7 @@ def reconstruct(path: Path, item: dict, list_price_usd: str, *,
                 zero_price_is_unknown: bool = False,
                 reviewed_periods: list[dict] | None = None,
                 reviewed_price_overrides: list[dict] | None = None,
+                confirmed_free_offer_starts: list[str] | None = None,
                 sale_price_tolerance_usd: str = '0.00') -> tuple[list[dict], list[dict], dict]:
     """Use explicit list price, UTC timestamps, and half-open [start,end) intervals.
 
@@ -51,6 +52,7 @@ def reconstruct(path: Path, item: dict, list_price_usd: str, *,
         raw = list(reader)
     events = {}
     blank_rows = 0
+    unverified_free_offers = set(confirmed_free_offer_starts or [])
     for row in raw:
         when = dt.datetime.strptime(row["DateTime"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=UTC)
         if when not in events:
@@ -60,13 +62,18 @@ def reconstruct(path: Path, item: dict, list_price_usd: str, *,
             blank_rows += 1
             continue
         price = money(text)
-        if zero_price_is_unknown and price == 0:
+        free_offer = stamp(when) in unverified_free_offers and price == 0
+        if free_offer:
+            unverified_free_offers.remove(stamp(when))
+        if zero_price_is_unknown and price == 0 and not free_offer:
             continue
         if price > baseline and reviewed_periods is None:
             raise ValueError("Observed price exceeds verified baseline; use a reviewed list-price timeline")
         if events[when] is not None and events[when] != price:
             raise ValueError("Conflicting prices at the same UTC timestamp")
         events[when] = price
+    if unverified_free_offers:
+        raise ValueError("A confirmed free offer must match a zero-price source event")
     corrections = []
     for override in reviewed_price_overrides or []:
         when = dt.datetime.fromisoformat(override['start_utc'].replace('Z', '+00:00'))

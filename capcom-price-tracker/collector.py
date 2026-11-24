@@ -242,19 +242,20 @@ def atomic_csv(path: Path, fields: list[str], rows: list[dict]) -> None:
 
 
 def write_daily_games(output: Path, games: list[dict]) -> None:
-    """Keep sampled days in the existing feed and export unsampled KOEI TECMO history separately."""
+    """Keep sampled days in the primary feed and reuse the linked history feed."""
     primary = []
-    koei_history = []
+    publisher_history = []
     for row in games:
-        if row["publisher"] == "KOEI TECMO" and int(row["sample_count"]) == 0:
-            koei_history.append(row)
+        if row["publisher"] in {"KOEI TECMO", "BANDAI NAMCO"} and int(row["sample_count"]) == 0:
+            publisher_history.append(row)
         else:
             primary.append(row)
     directory = output / "powerbi"
     atomic_csv(directory / "daily_games.csv", GAME_FIELDS, primary)
+    # Keep the original filename for Power BI clients already using this feed.
     history_path = directory / "daily_games_koei_tecmo_history.csv"
-    if koei_history or history_path.exists():
-        atomic_csv(history_path, GAME_FIELDS, koei_history)
+    if publisher_history or history_path.exists():
+        atomic_csv(history_path, GAME_FIELDS, publisher_history)
 
 
 def read_csv(path: Path) -> list[dict]:
@@ -326,8 +327,13 @@ def build_reports(rows: list[dict], output: Path, report_start: str = REPORT_STA
                 first_live[aid] = min(first_live.get(aid, row['date_jst']), row['date_jst'])
         for row in publisher_days:
             if row['date_jst'] < first_live.get(str(row['appid']), '9999-12-31'):
-                row['package_id'] = history_plans[str(row['appid'])].get('historical_package_id', '')
-                row['tracked_edition'] = history_plans[str(row['appid'])]['historical_edition']
+                plan = history_plans[str(row['appid'])]
+                row['package_id'] = plan.get('historical_package_id', '')
+                row['tracked_edition'] = plan['historical_edition']
+                for era in plan.get('historical_edition_periods', []):
+                    if era['start_utc'] <= row['last_observed_utc']:
+                        row['package_id'] = era.get('package_id', '')
+                        row['tracked_edition'] = era['tracked_edition']
         # A reviewed publisher import can supersede an earlier standalone import
         # (FM26). Keep the original files but merge each AppID's history once.
         historical = [row for row in historical if not

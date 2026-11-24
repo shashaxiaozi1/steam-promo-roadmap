@@ -1,0 +1,2250 @@
+{
+  "schema_version": 1,
+  "reviewed_on_jst": "2026-11-24",
+  "publisher": "BANDAI NAMCO",
+  "excluded_upload": {
+    "appid": "1368130",
+    "filename": "1368130_Park_Beyond_US.csv",
+    "publisher": "Bandai Namco Europe S.A.S.",
+    "sha256": "11ecfafd0b6021e6c073c4d72d3380bc2fab401ecebc2d230fcc623df1c44e9a"
+  },
+  "scope": "127 tracked Bandai Namco AppIDs and their paid US store or preorder offers.",
+  "inference": "Historical price baselines use sustained or recurring undiscounted levels. Gaps and unverified zero prices are unknown.",
+  "games": {
+    "202310": {
+      "game_name": "Ridge Racer™ Unbounded",
+      "source_sha256": "66a6162f74a65a7f1d5ce6449a868f9105de24bcc99b5e39c3d8cabbb0485053",
+      "original_filename": "202310_Ridge_Racer™_Unbounded_US.csv",
+      "eligible_start_utc": "2012-03-28T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-22T14:23:33+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2012-11-22T14:23:33+00:00",
+          "list_price_usd": "14.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        },
+        {
+          "start_utc": "2014-03-08T05:40:02+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "212410": {
+      "game_name": "Inversion™",
+      "source_sha256": "506252795a6f9bd48f44c91fffdb6d5941fe7dccfb5e491a178a9a00cc8076e8",
+      "original_filename": "212410_Inversion™_US.csv",
+      "eligible_start_utc": "2012-07-25T15:00:00+00:00",
+      "first_source_event_utc": "2012-11-25T22:48:18+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2012-11-25T22:48:18+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2014-03-08T05:40:03+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "234670": {
+      "game_name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst HD",
+      "source_sha256": "be547ba84956e9fbb3161d9284f03b899e9ab581e70f7dd1f247326130c88150",
+      "original_filename": "234670_NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_3_Full_Burst_US.csv",
+      "eligible_start_utc": "2013-10-23T15:00:00+00:00",
+      "first_source_event_utc": "2013-10-26T04:40:13+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-10-26T04:40:13+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2014-07-22T04:40:03+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        },
+        {
+          "start_utc": "2017-08-22T16:20:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "236430": {
+      "game_name": "DARK SOULS™ II",
+      "source_sha256": "88c85deb073a1cd487de13484c21ea95c8dd4c4b0a661aff4604e7e0cd8f9f5d",
+      "original_filename": "236430_DARK_SOULS™_II_US.csv",
+      "eligible_start_utc": "2014-03-07T05:40:03+00:00",
+      "first_source_event_utc": "2014-03-07T05:40:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-03-07T05:40:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2014-08-26T04:30:27+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "scope_note": "This AppID chart includes the original offer and later DX9 Bundle. Use separate regular prices but leave historical package IDs blank because the exact package switch cannot be established."
+    },
+    "236450": {
+      "game_name": "PAC-MAN™ Championship Edition DX+",
+      "source_sha256": "d7a17c90158d09fb2d48fa5474727f72651a511fc39a2546ca9317e1102f64ff",
+      "original_filename": "236450_PAC-MAN_Championship_Edition_DX+_US.csv",
+      "eligible_start_utc": "2013-08-11T04:40:13+00:00",
+      "first_source_event_utc": "2013-08-11T04:40:13+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-08-11T04:40:13+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "236490": {
+      "game_name": "Hexodius",
+      "source_sha256": "b421a33b08758e4800b4851706c9d4aa1a3daee4a40743511be377d85b008dcf",
+      "original_filename": "236490_Hexodius_US.csv",
+      "eligible_start_utc": "2013-06-20T15:00:00+00:00",
+      "first_source_event_utc": "2013-07-25T15:40:44+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-07-25T15:40:44+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "245280": {
+      "game_name": "ENSLAVED™: Odyssey to the West™ Premium Edition",
+      "source_sha256": "7796c443b70ef2b9694a5f899217d8a261f1a84c64aae4f9bbedf061d5f88406",
+      "original_filename": "245280_ENSLAVED™_Odyssey_to_the_West™_Premium_Edition_US.csv",
+      "eligible_start_utc": "2013-10-23T15:00:00+00:00",
+      "first_source_event_utc": "2013-10-26T04:40:13+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2013-10-26T04:40:13+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "264540": {
+      "game_name": "Platformines",
+      "source_sha256": "f1efe39b95d8a7b219cd0b7315c7ade07cb180d0cc6ac073d18d9b76c87ecc97",
+      "original_filename": "264540_Platformines_US.csv",
+      "eligible_start_utc": "2014-03-27T15:00:00+00:00",
+      "first_source_event_utc": "2014-03-29T13:31:44+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-03-29T13:31:44+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2022-06-10T21:25:02+00:00",
+          "list_price_usd": "0.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "272510": {
+      "game_name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution",
+      "source_sha256": "319d0f8766402118683dee775af8ae345d4eff187d0f29d5ff20b44ddb23ef33",
+      "original_filename": "272510_NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_Revolution_US.csv",
+      "eligible_start_utc": "2014-08-08T06:18:03+00:00",
+      "first_source_event_utc": "2014-08-08T06:18:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-08-08T06:18:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2016-01-27T08:32:26+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "299950": {
+      "game_name": "GET EVEN",
+      "source_sha256": "fa6e1ec3a523e7fdb3e885308159114d2b200bfcccc8c7cd8a1659323d9414bd",
+      "original_filename": "299950_GET_EVEN_US.csv",
+      "eligible_start_utc": "2017-05-02T21:31:45+00:00",
+      "first_source_event_utc": "2017-05-02T21:31:45+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-05-02T21:31:45+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "316240": {
+      "game_name": "Professional Lumberjack 2015",
+      "source_sha256": "e5912191aa86eb198b8e720203875f17de22510fcfa7e1542f00aba05f120df1",
+      "original_filename": "316240_Professional_Lumberjack_2015_US.csv",
+      "eligible_start_utc": "2015-03-04T15:00:00+00:00",
+      "first_source_event_utc": "2015-03-05T23:00:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-03-05T23:00:04+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "323470": {
+      "game_name": "DRAGON BALL XENOVERSE",
+      "source_sha256": "c66c33f7ce8ce22c243148304d5f6fc6618e56542620222bd447b1950e545536",
+      "original_filename": "323470_DRAGON_BALL_XENOVERSE_US.csv",
+      "eligible_start_utc": "2014-11-15T05:20:50+00:00",
+      "first_source_event_utc": "2014-11-15T05:20:50+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2014-11-15T05:20:50+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2016-11-14T18:31:52+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "331600": {
+      "game_name": "One Piece Pirate Warriors 3",
+      "source_sha256": "03db832421a615ef7ea3470c8e0fcdc0f26ec65c732aa06fde37e049f97d6d4d",
+      "original_filename": "331600_ONE_PIECE_PIRATE_WARRIORS_3_US.csv",
+      "eligible_start_utc": "2015-07-09T18:25:04+00:00",
+      "first_source_event_utc": "2015-07-09T18:25:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-07-09T18:25:04+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2016-11-14T18:31:34+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "335300": {
+      "game_name": "DARK SOULS™ II: Scholar of the First Sin",
+      "source_sha256": "8716082ec540e24d2ec639976a75055377f3d796758c2de90d48f7147333170f",
+      "original_filename": "335300_DARK_SOULS™_II_Scholar_of_the_First_Sin_US.csv",
+      "eligible_start_utc": "2015-03-31T15:00:00+00:00",
+      "first_source_event_utc": "2015-04-01T22:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-04-01T22:05:03+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2017-10-06T11:35:20+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "349040": {
+      "game_name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+      "source_sha256": "c93cf85fa4f67841d98cfb973d867f5a5dac861725aea8d05b9a8bb85667d2c0",
+      "original_filename": "349040_NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_4_US.csv",
+      "eligible_start_utc": "2015-11-17T22:00:08+00:00",
+      "first_source_event_utc": "2015-11-17T22:00:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-11-17T22:00:08+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2017-02-02T23:10:12+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        },
+        {
+          "start_utc": "2023-09-15T17:35:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "351970": {
+      "game_name": "Tales of Zestiria",
+      "source_sha256": "5aa0ab45eadb2a35725343175425027cad14b95b1c3722ea8dfe6a260c72fe13",
+      "original_filename": "351970_Tales_of_Zestiria_US.csv",
+      "eligible_start_utc": "2015-07-02T07:00:02+00:00",
+      "first_source_event_utc": "2015-07-02T07:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2015-07-02T07:00:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "372360": {
+      "game_name": "Tales of Symphonia",
+      "source_sha256": "fabecbacce0e7f6dc3e0f20ade2670baaf60d00897453b517d08b5dbaa074f0f",
+      "original_filename": "372360_Tales_of_Symphonia_US.csv",
+      "eligible_start_utc": "2016-01-26T23:30:22+00:00",
+      "first_source_event_utc": "2016-01-26T23:30:22+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-01-26T23:30:22+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "374320": {
+      "game_name": "DARK SOULS™ III",
+      "source_sha256": "c520104ecac19656b84c5da6979aa964f2b49ac7cc26d4dff296a2a0a62e1ace",
+      "original_filename": "steamdb_chart_374320.csv",
+      "eligible_start_utc": "2016-02-15T23:40:11+00:00",
+      "first_source_event_utc": "2016-02-15T23:40:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-02-15T23:40:11+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "389730": {
+      "game_name": "TEKKEN 7",
+      "source_sha256": "bd18f38471609a8acb960e940ab5a8e0a5a18ae7c8e5fa58090d55dbe2139a8c",
+      "original_filename": "389730_TEKKEN_7_US.csv",
+      "eligible_start_utc": "2017-01-23T17:20:13+00:00",
+      "first_source_event_utc": "2017-01-23T17:20:13+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-01-23T17:20:13+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2018-09-05T23:40:55+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "394160": {
+      "game_name": "ARCADE GAME SERIES: PAC-MAN",
+      "source_sha256": "e1eb5ec641d28572d2dad0e845bfc834c67b918eec6c4c534f8344d87de1937c",
+      "original_filename": "394160_ARCADE_GAME_SERIES_PAC-MAN_US.csv",
+      "eligible_start_utc": "2016-04-18T15:00:00+00:00",
+      "first_source_event_utc": "2016-04-19T22:10:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-04-19T22:10:12+00:00",
+          "list_price_usd": "3.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "403400": {
+      "game_name": "ARCADE GAME SERIES: DIG DUG",
+      "source_sha256": "24f60139fa354414038905c9ef671dea649c3ea50f37cdf393726534d772f154",
+      "original_filename": "403400_ARCADE_GAME_SERIES_DIG_DUG_US.csv",
+      "eligible_start_utc": "2016-04-18T15:00:00+00:00",
+      "first_source_event_utc": "2016-04-19T22:10:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-04-19T22:10:12+00:00",
+          "list_price_usd": "3.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "403410": {
+      "game_name": "ARCADE GAME SERIES: Ms. PAC-MAN",
+      "source_sha256": "4b2aa22c0ae3d8a5c2f912afc4b244b49f55cad25d55dea05f1d7dc893d45d56",
+      "original_filename": "403410_ARCADE_GAME_SERIES_Ms._PAC-MAN_US.csv",
+      "eligible_start_utc": "2016-04-18T15:00:00+00:00",
+      "first_source_event_utc": "2016-04-19T22:10:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-04-19T22:10:12+00:00",
+          "list_price_usd": "3.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "403430": {
+      "game_name": "ARCADE GAME SERIES: GALAGA",
+      "source_sha256": "52aab459bfd900501386eeb990647af644646f6615e41e37d27f5754542f2dff",
+      "original_filename": "403430_ARCADE_GAME_SERIES_GALAGA_US.csv",
+      "eligible_start_utc": "2016-04-18T15:00:00+00:00",
+      "first_source_event_utc": "2016-04-19T22:10:13+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-04-19T22:10:13+00:00",
+          "list_price_usd": "3.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "424840": {
+      "game_name": "Little Nightmares",
+      "source_sha256": "f965b7c482610503b64100751b6d14b6850b099f6fb0ae1a83fc92d3054a25dc",
+      "original_filename": "424840_Little_Nightmares_US.csv",
+      "eligible_start_utc": "2017-01-17T17:10:10+00:00",
+      "first_source_event_utc": "2017-01-17T17:10:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-01-17T17:10:10+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "confirmed_free_offer_starts": [
+        "2021-05-28T17:45:05+00:00"
+      ],
+      "free_offer_source": "https://www.videogameschronicle.com/news/little-nightmares-is-currently-free-to-keep-on-steam/"
+    },
+    "425220": {
+      "game_name": "One Piece Burning Blood",
+      "source_sha256": "9615a14bd7e500d1f92726d76a9543ae6cff5b7d1b3afa34953a387131b7c66e",
+      "original_filename": "425220_ONE_PIECE_BURNING_BLOOD_US.csv",
+      "eligible_start_utc": "2016-08-03T22:10:10+00:00",
+      "first_source_event_utc": "2016-08-03T22:10:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-08-03T22:10:10+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "429660": {
+      "game_name": "Tales of Berseria™",
+      "source_sha256": "7e8e80c6e735dd44b74c1ec27eb0f55f48bce0e3b7aa3ad0e033f72fcb51070c",
+      "original_filename": "429660_Tales_of_Berseria_US.csv",
+      "eligible_start_utc": "2016-12-06T16:30:10+00:00",
+      "first_source_event_utc": "2016-12-06T16:30:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-12-06T16:30:10+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "438490": {
+      "game_name": "GOD EATER 2 Rage Burst",
+      "source_sha256": "2d3b10c3e01bcd6a0571a507c0d494a7e2a77e940a16d1b10ac8b5f6d7e63f00",
+      "original_filename": "438490_GOD_EATER_2_Rage_Burst_US.csv",
+      "eligible_start_utc": "2016-07-19T21:10:09+00:00",
+      "first_source_event_utc": "2016-07-19T21:10:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-07-19T21:10:09+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "441380": {
+      "game_name": "PAC-MAN™ CHAMPIONSHIP EDITION 2",
+      "source_sha256": "b787fad85c814af82545d0e8c13b1e5eee0ab2c14c23681d4417b17229e23c18",
+      "original_filename": "441380_PAC-MAN™_CHAMPIONSHIP_EDITION_2_US.csv",
+      "eligible_start_utc": "2016-09-12T15:00:00+00:00",
+      "first_source_event_utc": "2016-09-13T08:41:33+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-09-13T08:41:33+00:00",
+          "list_price_usd": "12.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "confirmed_free_offer_starts": [
+        "2020-04-24T17:23:02+00:00"
+      ],
+      "free_offer_source": "https://en.bandainamcoent.eu/news/bandai-namco-entertainment-inc-deliver-more-fun-everyone-home"
+    },
+    "454650": {
+      "game_name": "DRAGON BALL XENOVERSE 2",
+      "source_sha256": "02600080940b58995785555da171c76e186717152c97266e7e682d06f206ce78",
+      "original_filename": "454650_DRAGON_BALL_XENOVERSE_2_US.csv",
+      "eligible_start_utc": "2016-08-15T21:40:05+00:00",
+      "first_source_event_utc": "2016-08-15T21:40:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-08-15T21:40:05+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2023-10-11T22:00:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "455400": {
+      "game_name": "PAC-MAN 256",
+      "source_sha256": "c96880252e28f541231499bdb0977ecd8486105cfdc35b176bd1c66e74de440a",
+      "original_filename": "455400_PAC-MAN_256_US.csv",
+      "eligible_start_utc": "2016-06-20T15:00:00+00:00",
+      "first_source_event_utc": "2016-06-21T15:20:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2016-06-21T15:20:08+00:00",
+          "list_price_usd": "4.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "495140": {
+      "game_name": "NARUTO: Ultimate Ninja STORM",
+      "source_sha256": "f40fed1588c842a2ac41ded567f68a1ec3d6b576b87dfd1f079a6e959c2776b6",
+      "original_filename": "495140_NARUTO_Ultimate_Ninja_STORM_US.csv",
+      "eligible_start_utc": "2017-08-24T15:00:00+00:00",
+      "first_source_event_utc": "2017-08-25T15:30:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-25T15:30:11+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "502500": {
+      "game_name": "ACE COMBAT™ 7: SKIES UNKNOWN",
+      "source_sha256": "38574ceefcf684b6a0a9a822dd34f601eff81982a810fb8b6b66e1eabe46e90a",
+      "original_filename": "502500_ACE_COMBAT™7_SKIES_UNKNOWN_US.csv",
+      "eligible_start_utc": "2018-09-18T19:20:06+00:00",
+      "first_source_event_utc": "2018-09-18T19:20:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-09-18T19:20:06+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "525480": {
+      "game_name": ".hack//G.U. Last Recode",
+      "source_sha256": "18ae21ed3e3f98954bc14a495ee9275af95fd40b4f1668fc6a6233658682692e",
+      "original_filename": "525480_hack_G.U._Last_Recode_US.csv",
+      "eligible_start_utc": "2017-11-02T15:00:00+00:00",
+      "first_source_event_utc": "2017-11-03T17:10:21+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-11-03T17:10:21+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "543870": {
+      "game_name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 2",
+      "source_sha256": "ff0c5d1d1a1036da13626447802ffeb0fbd4d3b21aad0fed38216260c9c85384",
+      "original_filename": "543870_NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_2_US.csv",
+      "eligible_start_utc": "2017-08-24T15:00:00+00:00",
+      "first_source_event_utc": "2017-08-25T15:30:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-25T15:30:10+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "544750": {
+      "game_name": "SOULCALIBUR VI",
+      "source_sha256": "cb8862f78857bf54b594990e291ea1bcf144dc2df2b2909b839e9354a570c96f",
+      "original_filename": "544750_SOULCALIBUR_VI_US.csv",
+      "eligible_start_utc": "2018-08-20T22:10:12+00:00",
+      "first_source_event_utc": "2018-08-20T22:10:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-08-20T22:10:12+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "570940": {
+      "game_name": "DARK SOULS™: REMASTERED",
+      "source_sha256": "17c13eee18ee156e6e3da380975d01889e4e919f92f50639a39722ebd5803789",
+      "original_filename": "570940_DARK_SOULS™_REMASTERED_US.csv",
+      "eligible_start_utc": "2018-05-22T15:00:00+00:00",
+      "first_source_event_utc": "2018-05-23T23:00:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-05-23T23:00:10+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "571720": {
+      "game_name": "One Piece: Unlimited World Red - Deluxe Edition",
+      "source_sha256": "61356181333cd2c55bfee5ae119294a28235e0d3998910080485081915f0a34a",
+      "original_filename": "571720_One_Piece_Unlimited_World_Red_-_Deluxe_Edition_US.csv",
+      "eligible_start_utc": "2017-08-24T15:00:00+00:00",
+      "first_source_event_utc": "2017-08-25T08:10:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-25T08:10:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "589360": {
+      "game_name": "Ni no Kuni™ II: Revenant Kingdom",
+      "source_sha256": "d3bb52f0ad91beffa17cbe4994061cdea32fa159cf58fa3c332eba446c303c51",
+      "original_filename": "589360_Ni_no_Kuni™_II_Revenant_Kingdom_US.csv",
+      "eligible_start_utc": "2017-08-08T22:20:10+00:00",
+      "first_source_event_utc": "2017-08-08T22:20:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-08-08T22:20:10+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "607880": {
+      "game_name": "Accel World VS. Sword Art Online Deluxe Edition",
+      "source_sha256": "3741a11d26bf80aa165c6d4fd4154ac8feaeadd309d58295e9c3e66a412708d7",
+      "original_filename": "607880_Accel_World_VS._Sword_Art_Online_Deluxe_Edition_US.csv",
+      "eligible_start_utc": "2017-09-11T15:00:00+00:00",
+      "first_source_event_utc": "2017-09-12T08:20:29+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-09-12T08:20:29+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2026-03-25T21:55:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "607890": {
+      "game_name": "Sword Art Online: Hollow Realization Deluxe Edition",
+      "source_sha256": "2210b21174c4b84ab212e0d7831118401dd1cf3e834eae788e7d237582bdb874",
+      "original_filename": "607890_Sword_Art_Online_Hollow_Realization_Deluxe_Edition_US.csv",
+      "eligible_start_utc": "2017-10-26T15:00:00+00:00",
+      "first_source_event_utc": "2017-10-27T08:20:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-10-27T08:20:12+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2026-03-25T22:00:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "626690": {
+      "game_name": "Sword Art Online: Fatal Bullet",
+      "source_sha256": "f306742c0a87b02aa73fbd06f33d03fbb4f1095a227aac14d14d57b7aa95be6e",
+      "original_filename": "626690_Sword_Art_Online_Fatal_Bullet_US.csv",
+      "eligible_start_utc": "2018-01-09T18:00:06+00:00",
+      "first_source_event_utc": "2018-01-09T18:00:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-01-09T18:00:06+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2019-01-16T15:40:25+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        },
+        {
+          "start_utc": "2026-03-25T21:55:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "633230": {
+      "game_name": "NARUTO TO BORUTO: SHINOBI STRIKER",
+      "source_sha256": "e92c3371a4da1ac242dcf40c78147135665c14c6e6a60269aafc2bdb35317faa",
+      "original_filename": "633230_NARUTO_TO_BORUTO_SHINOBI_STRIKER_US.csv",
+      "eligible_start_utc": "2018-07-17T00:00:07+00:00",
+      "first_source_event_utc": "2018-07-17T00:00:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-07-17T00:00:07+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2023-07-07T18:50:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "638650": {
+      "game_name": "Sword Art Online Re: Hollow Fragment",
+      "source_sha256": "abb8f9cc37a821fb492426d3b0cf2f7b29cebf23fee38c26efec48ba7fbb4d6e",
+      "original_filename": "638650_Sword_Art_Online_Re_Hollow_Fragment_US.csv",
+      "eligible_start_utc": "2018-08-19T15:00:00+00:00",
+      "first_source_event_utc": "2018-08-20T22:10:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-08-20T22:10:12+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "678950": {
+      "game_name": "DRAGON BALL FighterZ",
+      "source_sha256": "efeca7a84d5623cb6842d64edae63d4a9b48665dfa1526b211830acf1872c9e5",
+      "original_filename": "678950_DRAGON_BALL_FighterZ_US.csv",
+      "eligible_start_utc": "2017-10-23T17:00:04+00:00",
+      "first_source_event_utc": "2017-10-23T17:00:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2017-10-23T17:00:04+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "678960": {
+      "game_name": "CODE VEIN",
+      "source_sha256": "ed6c74ec4816404d0a24af9d4b652e12abc8b75f5847998d045cb3a3520b986a",
+      "original_filename": "678960_CODE_VEIN_US.csv",
+      "eligible_start_utc": "2019-07-02T17:10:11+00:00",
+      "first_source_event_utc": "2019-07-02T17:10:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-07-02T17:10:11+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "710470": {
+      "game_name": "Little Witch Academia: Chamber of Time",
+      "source_sha256": "9dbea7ab168a22c810a1c4b9ed19fb396e085c25f9565b8bf19ab93e99b9056e",
+      "original_filename": "710470_Little_Witch_Academia_Chamber_of_Time_US.csv",
+      "eligible_start_utc": "2018-05-14T15:00:00+00:00",
+      "first_source_event_utc": "2018-05-15T17:10:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-05-15T17:10:10+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "unavailable_periods": [
+        {
+          "start_utc": "2019-10-31T14:00:04+00:00",
+          "end_utc_exclusive": "2019-11-05T17:30:19+00:00",
+          "basis": "Steam temporarily delisted the game. The two source events bound observed unavailability.",
+          "sources": [
+            "https://www.gematsu.com/2019/11/little-witch-academia-chamber-of-time-relisted-on-steam-following-abrupt-delisting"
+          ]
+        }
+      ]
+    },
+    "714080": {
+      "game_name": "BLACK CLOVER: QUARTET KNIGHTS",
+      "source_sha256": "62d63160cece921ee3107cb241461540971f5558180ce70368bc481e959be606",
+      "original_filename": "714080_BLACK_CLOVER_QUARTET_KNIGHTS_US.csv",
+      "eligible_start_utc": "2018-09-12T15:00:00+00:00",
+      "first_source_event_utc": "2018-09-13T22:10:16+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-09-13T22:10:16+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "728530": {
+      "game_name": "SD GUNDAM G GENERATION CROSS RAYS",
+      "source_sha256": "a68c50fbbff5399f937674509f80a8cd48028f717bd6cf534868ee9911ed792c",
+      "original_filename": "728530_SD_GUNDAM_G_GENERATION_CROSS_RAYS_US.csv",
+      "eligible_start_utc": "2019-10-23T22:10:04+00:00",
+      "first_source_event_utc": "2019-10-23T22:10:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-10-23T22:10:04+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2024-01-24T23:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "738530": {
+      "game_name": "New Gundam Breaker",
+      "source_sha256": "36093b9dcc0c7985e77b594915a834d2cb16c80ddc9278646a349410f7989d39",
+      "original_filename": "738530_New_Gundam_Breaker_US.csv",
+      "eligible_start_utc": "2018-09-23T15:00:00+00:00",
+      "first_source_event_utc": "2018-09-24T22:00:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-09-24T22:00:08+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "738540": {
+      "game_name": "Tales of Vesperia: Definitive Edition",
+      "source_sha256": "0423948358a1d4657e0ed9d47de4ca4695ab7949bd814c0e12ee4b006f365e33",
+      "original_filename": "738540_Tales_of_Vesperia_Definitive_Edition_US.csv",
+      "eligible_start_utc": "2018-12-04T00:00:11+00:00",
+      "first_source_event_utc": "2018-12-04T00:00:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-12-04T00:00:11+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "740130": {
+      "game_name": "Tales of ARISE",
+      "source_sha256": "5edbbc1f5a1ffe3bbc3c5adfc227c0576193c9b47f221f8016fff647aa6ed614",
+      "original_filename": "740130_Tales_of_ARISE_US.csv",
+      "eligible_start_utc": "2021-04-22T15:05:14+00:00",
+      "first_source_event_utc": "2021-04-22T15:05:14+00:00",
+      "historical_edition": "Base",
+      "periods": [
+        {
+          "start_utc": "2021-04-22T15:05:14+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2023-09-20T01:00:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        },
+        {
+          "start_utc": "2026-02-05T23:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01",
+      "historical_package_id": "216713",
+      "historical_edition_periods": [
+        {
+          "start_utc": "2026-02-05T23:05:02+00:00",
+          "tracked_edition": "Beyond the Dawn Edition",
+          "package_id": "954140"
+        }
+      ],
+      "version_source": "https://steamdb.info/app/740130/subs/"
+    },
+    "748360": {
+      "game_name": "MY HERO ONE'S JUSTICE",
+      "source_sha256": "a952688f0ad752d96a6c4c8ea656e5aadb20b8081436d58097948510e46cee21",
+      "original_filename": "748360_MY_HERO_ONE'S_JUSTICE_US.csv",
+      "eligible_start_utc": "2018-08-28T16:20:08+00:00",
+      "first_source_event_utc": "2018-08-28T16:20:08+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-08-28T16:20:08+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2023-09-28T16:20:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "755500": {
+      "game_name": "ONE PIECE World Seeker",
+      "source_sha256": "0455202ef5cbf0cf310c06ff1d0760e50627791dc2ad4d38315440cc1299c05b",
+      "original_filename": "755500_ONE_PIECE_World_Seeker_US.csv",
+      "eligible_start_utc": "2019-02-19T17:20:09+00:00",
+      "first_source_event_utc": "2019-02-19T17:20:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-02-19T17:20:09+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "756530": {
+      "game_name": "TOKYO GHOUL:re [CALL to EXIST]",
+      "source_sha256": "7b602112584467693371ed262239717755b664e95cc098235946982e86d43b55",
+      "original_filename": "756530_TOKYO_GHOUL：re_[CALL_to_EXIST]_US.csv",
+      "eligible_start_utc": "2019-11-13T15:00:00+00:00",
+      "first_source_event_utc": "2019-11-14T23:10:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-11-14T23:10:06+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "775500": {
+      "game_name": "SCARLET NEXUS",
+      "source_sha256": "c59cbe9212d893c20dcc599517105e04bfe71d93066b171d7eec9a3fec7aeb57",
+      "original_filename": "775500_SCARLET_NEXUS_US.csv",
+      "eligible_start_utc": "2021-03-18T23:10:05+00:00",
+      "first_source_event_utc": "2021-03-18T23:10:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-03-18T23:10:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "798460": {
+      "game_name": "Ni no Kuni Wrath of the White Witch™ Remastered",
+      "source_sha256": "6094226392547e807d21a5bb3069c65d1a3deb193ec6ef3cbe34f901b8bce3a0",
+      "original_filename": "798460_Ni_no_Kuni_Wrath_of_the_White_Witch™_Remastered_US.csv",
+      "eligible_start_utc": "2019-09-04T22:30:07+00:00",
+      "first_source_event_utc": "2019-09-04T22:30:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-09-04T22:30:07+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "798510": {
+      "game_name": "SUPER DRAGON BALL HEROES WORLD MISSION",
+      "source_sha256": "8e7ee4a11d7981918b5dfdda35892e1f0aee541829d706ec1d0603cf0e33eaee",
+      "original_filename": "798510_SUPER_DRAGON_BALL_HEROES_WORLD_MISSION_US.csv",
+      "eligible_start_utc": "2019-04-03T15:00:00+00:00",
+      "first_source_event_utc": "2019-04-04T22:10:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-04-04T22:10:12+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "814000": {
+      "game_name": "ONE PIECE ODYSSEY",
+      "source_sha256": "de5e03f5664bf69c7e3f7246cb2d5bf2781ff748cc1007696644b6648d3b713a",
+      "original_filename": "814000_ONE_PIECE_ODYSSEY_US.csv",
+      "eligible_start_utc": "2022-09-15T15:20:01+00:00",
+      "first_source_event_utc": "2022-09-15T15:20:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-09-15T15:20:01+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2025-02-06T18:01:31+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "824550": {
+      "game_name": "SD GUNDAM BATTLE ALLIANCE",
+      "source_sha256": "e774fc79bcc75013c12544fe6336fb2d50831d4580dab348367247d7ade8b42a",
+      "original_filename": "824550_SD_GUNDAM_BATTLE_ALLIANCE_US.csv",
+      "eligible_start_utc": "2022-05-26T22:10:01+00:00",
+      "first_source_event_utc": "2022-05-26T22:10:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-05-26T22:10:01+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "840720": {
+      "game_name": "Sword Art Online: Lost Song",
+      "source_sha256": "a1b3fb24bfa9253efd62ddf415a3defb9c073db3e737ef6fa8a23469be6aac3a",
+      "original_filename": "840720_Sword_Art_Online_Lost_Song_US.csv",
+      "eligible_start_utc": "2018-11-11T15:00:00+00:00",
+      "first_source_event_utc": "2018-11-12T23:20:11+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-11-12T23:20:11+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "848350": {
+      "game_name": "Katamari Damacy REROLL",
+      "source_sha256": "50a08e90e7c448b8e21c1fe54a2b1c73fab8164d75d3a945345cfaeb0a7e9de2",
+      "original_filename": "848350_Katamari_Damacy_REROLL_US.csv",
+      "eligible_start_utc": "2018-12-05T15:00:00+00:00",
+      "first_source_event_utc": "2018-12-06T23:30:09+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2018-12-06T23:30:09+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "851850": {
+      "game_name": "DRAGON BALL Z: KAKAROT",
+      "source_sha256": "57fe096cfefcbfc76694542d65c60a929812b13a4997f0162aa58c4e8f98dd5a",
+      "original_filename": "851850_DRAGON_BALL_Z_KAKAROT_US.csv",
+      "eligible_start_utc": "2019-09-12T01:14:45+00:00",
+      "first_source_event_utc": "2019-09-12T01:14:45+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-09-12T01:14:45+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2025-07-16T22:05:03+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "860510": {
+      "game_name": "Little Nightmares II",
+      "source_sha256": "aad0a7401be757e24684a6733db2291408e4cf8aa46cecaf5c52d971ed70bcfb",
+      "original_filename": "860510_Little_Nightmares_II_US.csv",
+      "eligible_start_utc": "2020-12-09T16:10:04+00:00",
+      "first_source_event_utc": "2020-12-09T16:10:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-12-09T16:10:04+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "871980": {
+      "game_name": "Digimon Survive",
+      "source_sha256": "315a7bcbbd2adb0a30bce95646d7b561a90ccd7ae9e0b5037e5a7d3438e0317b",
+      "original_filename": "871980_Digimon_Survive_US.csv",
+      "eligible_start_utc": "2022-07-27T15:00:00+00:00",
+      "first_source_event_utc": "2022-07-28T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-07-28T23:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "898750": {
+      "game_name": "Super Robot Wars 30",
+      "source_sha256": "5aabe1d3b7faf6c382e7426deeed1483c72e572b589e3c38289b7015e150923c",
+      "original_filename": "898750_Super_Robot_Wars_30_US.csv",
+      "eligible_start_utc": "2021-07-13T22:20:04+00:00",
+      "first_source_event_utc": "2021-07-13T22:20:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-07-13T22:20:04+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "899440": {
+      "game_name": "GOD EATER 3",
+      "source_sha256": "2793b77e1ec85267940ae0506f4b25b59e3cee00245d65f9bd4cdfa64cf62562",
+      "original_filename": "899440_GOD_EATER_3_US.csv",
+      "eligible_start_utc": "2019-02-06T15:00:00+00:00",
+      "first_source_event_utc": "2019-02-07T23:20:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-02-07T23:20:10+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "965230": {
+      "game_name": "DORAEMON  STORY OF SEASONS",
+      "source_sha256": "f603e58a79953052cf2ba183605431132ee661a84cf1fc88d8ad8e7ca48ffcb7",
+      "original_filename": "965230_DORAEMON_STORY_OF_SEASONS_US.csv",
+      "eligible_start_utc": "2019-10-09T15:00:00+00:00",
+      "first_source_event_utc": "2019-10-10T22:10:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-10-10T22:10:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "991560": {
+      "game_name": "ONE PUNCH MAN: A HERO NOBODY KNOWS",
+      "source_sha256": "1e34d7961f61d0316c28511ad1c370c2f8b3daa2c8d4b6995125a703fcc5d0b0",
+      "original_filename": "991560_ONE_PUNCH_MAN_A_HERO_NOBODY_KNOWS_US.csv",
+      "eligible_start_utc": "2020-01-20T23:10:05+00:00",
+      "first_source_event_utc": "2020-01-20T23:10:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-01-20T23:10:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1009290": {
+      "game_name": "SWORD ART ONLINE Alicization Lycoris",
+      "source_sha256": "59a4d40d89ffdca615ea44d1168557284e57a279679e79a2438c9cb3a2161955",
+      "original_filename": "1009290_SWORD_ART_ONLINE_Alicization_Lycoris_US.csv",
+      "eligible_start_utc": "2020-03-22T23:10:05+00:00",
+      "first_source_event_utc": "2020-03-22T23:10:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-03-22T23:10:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2026-03-25T21:55:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1020790": {
+      "game_name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+      "source_sha256": "00a2ee961650cf466e78122a419d24b8226690cdb8b20aa356fc0636deec3ba9",
+      "original_filename": "1020790_NARUTO_X_BORUTO_Ultimate_Ninja_STORM_CONNECTIONS_US.csv",
+      "eligible_start_utc": "2023-09-27T01:00:06+00:00",
+      "first_source_event_utc": "2023-09-27T01:00:06+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-09-27T01:00:06+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1042550": {
+      "game_name": "Digimon Story Cyber Sleuth: Complete Edition",
+      "source_sha256": "2fd90188849535e17ea0c5d2b61c475901ed1f9a2becf943482534ff41ed70d0",
+      "original_filename": "1042550_Digimon_Story_Cyber_Sleuth_Complete_Edition_US.csv",
+      "eligible_start_utc": "2019-10-16T15:00:00+00:00",
+      "first_source_event_utc": "2019-10-17T22:10:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2019-10-17T22:10:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1058450": {
+      "game_name": "MY HERO ONE'S JUSTICE 2",
+      "source_sha256": "e9dff86b92a2b8c79bf9d9d36c90aace02ce5b02296f098c273b2e31033302a6",
+      "original_filename": "1058450_MY_HERO_ONE'S_JUSTICE_2_US.csv",
+      "eligible_start_utc": "2020-01-28T03:01:18+00:00",
+      "first_source_event_utc": "2020-01-28T03:01:18+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-01-28T03:01:18+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2023-09-28T15:50:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1089090": {
+      "game_name": "ONE PIECE: PIRATE WARRIORS 4",
+      "source_sha256": "e52ded9deab149b86474bd70bae0d81302aaeaff768b9208b8f84def0bc2176f",
+      "original_filename": "1089090_ONE_PIECE_PIRATE_WARRIORS_4_US.csv",
+      "eligible_start_utc": "2020-01-20T23:20:05+00:00",
+      "first_source_event_utc": "2020-01-20T23:20:05+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-01-20T23:20:05+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2023-09-14T17:20:04+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1126750": {
+      "game_name": "Mr. DRILLER DrillLand",
+      "source_sha256": "b9fa06c67b9a106beec63f441b03a0d8f51548c36b32324f8ae220d44ac47d38",
+      "original_filename": "1126750_Mr._DRILLER_DrillLand_US.csv",
+      "eligible_start_utc": "2020-06-23T15:00:00+00:00",
+      "first_source_event_utc": "2020-06-24T22:10:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-06-24T22:10:04+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1163550": {
+      "game_name": "Captain Tsubasa: Rise of New Champions",
+      "source_sha256": "c3aa573892b841d12448d1fa3f7d4e34f7fd1100033d3a9fc2a4a1ad68db1e89",
+      "original_filename": "1163550_Captain_Tsubasa_-_Rise_of_New_Champions_US.csv",
+      "eligible_start_utc": "2020-07-30T16:05:12+00:00",
+      "first_source_event_utc": "2020-07-30T16:05:12+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-07-30T16:05:12+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2023-09-15T16:35:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1245480": {
+      "game_name": "SYNDUALITY Echo of Ada",
+      "source_sha256": "11605c5f723b18a15dd370634c37715ac620dfa68e7672490d48afe95effa1d6",
+      "original_filename": "1245480_SYNDUALITY_Echo_of_Ada_US.csv",
+      "eligible_start_utc": "2024-09-26T11:20:02+00:00",
+      "first_source_event_utc": "2024-09-26T11:20:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-09-26T11:20:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1245620": {
+      "game_name": "ELDEN RING",
+      "source_sha256": "d2e6979a3823ed560ee5193e9b350a55c52123740c3f3a7f15077b0cbdf3ac82",
+      "original_filename": "1245620_ELDEN_RING_US.csv",
+      "eligible_start_utc": "2021-11-04T14:05:15+00:00",
+      "first_source_event_utc": "2021-11-04T14:05:15+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2021-11-04T14:05:15+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1250250": {
+      "game_name": "NAMCO MUSEUM ARCHIVES Vol 1",
+      "source_sha256": "6c634c9418417e62f7bec8cd6bfcd67195dad08798e330e0d013db0bb47ec6c8",
+      "original_filename": "1250250_NAMCO_MUSEUM_ARCHIVES_Vol_1_US.csv",
+      "eligible_start_utc": "2020-06-16T15:00:00+00:00",
+      "first_source_event_utc": "2020-06-17T22:10:17+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-06-17T22:10:17+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1254620": {
+      "game_name": "NAMCO MUSEUM ARCHIVES Vol 2",
+      "source_sha256": "824e5422c38a8014a416a8d46ca7b6afaf9a019a8d4d4d399bc40d2bce492875",
+      "original_filename": "1254620_NAMCO_MUSEUM_ARCHIVES_Vol_2_US.csv",
+      "eligible_start_utc": "2020-06-16T15:00:00+00:00",
+      "first_source_event_utc": "2020-06-17T22:10:16+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2020-06-17T22:10:16+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1276760": {
+      "game_name": "DRAGON BALL: THE BREAKERS",
+      "source_sha256": "7f34ee20147ba61f31b64d7ae4589e4fa471cf98df2b658f422989a7d195ca4a",
+      "original_filename": "1276760_DRAGON_BALL_THE_BREAKERS_US.csv",
+      "eligible_start_utc": "2022-08-02T17:10:01+00:00",
+      "first_source_event_utc": "2022-08-02T17:10:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-08-02T17:10:01+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1372110": {
+      "game_name": "JoJo's Bizarre Adventure: All-Star Battle R",
+      "source_sha256": "ded2af0ef74e365e60337d1e4dfa84c5a45b3c55c642b20ea13887639fe9eea1",
+      "original_filename": "1372110_JoJo's_Bizarre_Adventure_All-Star_Battle_R_US.csv",
+      "eligible_start_utc": "2022-05-26T22:05:01+00:00",
+      "first_source_event_utc": "2022-05-26T22:05:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-05-26T22:05:01+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1392860": {
+      "game_name": "Little Nightmares III",
+      "source_sha256": "6fba3ff932399ba2c7a0ebe900c53314b355b5563909de5fbc78f54eb7f5bcd5",
+      "original_filename": "1392860_Little_Nightmares_III_US.csv",
+      "eligible_start_utc": "2025-06-24T19:10:01+00:00",
+      "first_source_event_utc": "2025-06-24T19:10:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-06-24T19:10:01+00:00",
+          "list_price_usd": "39.97",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2025-10-09T22:10:01+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1477940": {
+      "game_name": "Unknown 9: Awakening",
+      "source_sha256": "75690a9c5d6270564549b4340304fa8f1e5ac40934dd370a3a51f65e53908861",
+      "original_filename": "1477940_Unknown_9_Awakening_US.csv",
+      "eligible_start_utc": "2024-08-20T18:05:03+00:00",
+      "first_source_event_utc": "2024-08-20T18:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-08-20T18:05:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2025-10-07T18:24:29+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1492730": {
+      "game_name": "DORAEMON STORY OF SEASONS: Friends of the Great Kingdom",
+      "source_sha256": "fb117b22a605e6aa5fde4626d5e7f4f8cc209c0138047f01603992e15f4e7650",
+      "original_filename": "1492730_DORAEMON_STORY_OF_SEASONS_Friends_of_the_Great_Kingdom_US.csv",
+      "eligible_start_utc": "2022-08-31T22:10:02+00:00",
+      "first_source_event_utc": "2022-08-31T22:10:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-08-31T22:10:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1530160": {
+      "game_name": "Digimon World: Next Order",
+      "source_sha256": "2d905d0a5a5ad242d79d424de791ab9127d3fb0d59603b6cd0bbdf29172c1834",
+      "original_filename": "1530160_Digimon_World_Next_Order_US.csv",
+      "eligible_start_utc": "2023-02-20T15:00:00+00:00",
+      "first_source_event_utc": "2023-02-21T23:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-02-21T23:00:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1566880": {
+      "game_name": "SWORD ART ONLINE Last Recollection",
+      "source_sha256": "49091a72ff529530812dbea540d6d700d311d8e455ce60752dc4561c285e7c7c",
+      "original_filename": "1566880_SWORD_ART_ONLINE_Last_Recollection_US.csv",
+      "eligible_start_utc": "2023-06-29T22:10:02+00:00",
+      "first_source_event_utc": "2023-06-29T22:10:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-06-29T22:10:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1665130": {
+      "game_name": "PAC-MAN MUSEUM+",
+      "source_sha256": "119cef176fc1f93ff1cb0f1fb6bff5a8c2b2c8901fbd47750d29a46207c4507d",
+      "original_filename": "1665130_PAC-MAN_MUSEUM+_US.csv",
+      "eligible_start_utc": "2022-05-26T22:25:02+00:00",
+      "first_source_event_utc": "2022-05-26T22:25:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-05-26T22:25:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1672500": {
+      "game_name": "GUNDAM BREAKER 4",
+      "source_sha256": "bf6da9cb8e5a6da8767d398cf36e5ae324fb6713deb83921be33145713eaae60",
+      "original_filename": "1672500_GUNDAM_BREAKER_4_US.csv",
+      "eligible_start_utc": "2024-05-08T22:05:02+00:00",
+      "first_source_event_utc": "2024-05-08T22:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-05-08T22:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1689620": {
+      "game_name": "BLEACH Rebirth of Souls",
+      "source_sha256": "3027046f3b841ff41b5397bdcef04a5dcb0b46df15169c1ebc028e5ca49fc4d2",
+      "original_filename": "1689620_BLEACH_Rebirth_of_Souls_US.csv",
+      "eligible_start_utc": "2024-12-04T15:05:03+00:00",
+      "first_source_event_utc": "2024-12-04T15:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-12-04T15:05:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1730680": {
+      "game_name": "Klonoa Phantasy Reverie Series",
+      "source_sha256": "b08efc8afd47604d0f33b6bf344f4132582b78576fc5e6dc6851f2d4a39fd1bf",
+      "original_filename": "1730680_Klonoa_Phantasy_Reverie_Series_US.csv",
+      "eligible_start_utc": "2022-07-06T15:00:00+00:00",
+      "first_source_event_utc": "2022-07-08T01:55:07+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-07-08T01:55:07+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1730700": {
+      "game_name": "We Love Katamari REROLL+ Royal Reverie",
+      "source_sha256": "7b145b2c1f2b19329b9462c856b38b9160aa0357b740bbc653f138720899286e",
+      "original_filename": "1730700_We_Love_Katamari_REROLL+_Royal_Reverie_US.csv",
+      "eligible_start_utc": "2023-05-31T15:00:00+00:00",
+      "first_source_event_utc": "2023-06-01T22:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-06-01T22:00:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1778820": {
+      "game_name": "TEKKEN 8",
+      "source_sha256": "034c0b437f5c67ce12cd06d91d0d6a35c333a900c4f7ac828de836c649c76180",
+      "original_filename": "1778820_TEKKEN_8_US.csv",
+      "eligible_start_utc": "2023-08-22T20:10:02+00:00",
+      "first_source_event_utc": "2023-08-22T20:10:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-08-22T20:10:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2025-04-14T17:21:11+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        },
+        {
+          "start_utc": "2026-04-22T22:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1790600": {
+      "game_name": "DRAGON BALL: Sparking! ZERO",
+      "source_sha256": "6c297432a3d020b3c2a928c5d47edd08989f14dfc31c76d748604a78f92e5142",
+      "original_filename": "1790600_DRAGON_BALL_Sparking!_ZERO_US.csv",
+      "eligible_start_utc": "2024-06-07T23:10:01+00:00",
+      "first_source_event_utc": "2024-06-07T23:10:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-06-07T23:10:01+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        },
+        {
+          "start_utc": "2026-07-29T23:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Source event starts a sustained regular-price regime."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1857740": {
+      "game_name": "MOBILE SUIT GUNDAM SEED BATTLE DESTINY REMASTERED",
+      "source_sha256": "87f23fed0eea8984f6306f02f233b3a2d79e4a0444ad574399df12a08fef92b0",
+      "original_filename": "1857740_MOBILE_SUIT_GUNDAM_SEED_BATTLE_DESTINY_REMASTERED_US.csv",
+      "eligible_start_utc": "2025-02-13T23:05:02+00:00",
+      "first_source_event_utc": "2025-02-13T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-02-13T23:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1858630": {
+      "game_name": "SWORD ART ONLINE Fractured Daydream",
+      "source_sha256": "516bc53af013171ef3c37e0b6d8172f428c039c884a7349f909800abb7de492f",
+      "original_filename": "1858630_SWORD_ART_ONLINE_Fractured_Daydream_US.csv",
+      "eligible_start_utc": "2024-07-03T01:00:04+00:00",
+      "first_source_event_utc": "2024-07-03T01:00:04+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-07-03T01:00:04+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1859430": {
+      "game_name": "Shadow Labyrinth",
+      "source_sha256": "b237c777a1e4a7dc4dc804f263f708f54b813284f08299743ce149e4ebb342d1",
+      "original_filename": "1859430_Shadow_Labyrinth_US.csv",
+      "eligible_start_utc": "2025-03-27T15:03:10+00:00",
+      "first_source_event_utc": "2025-03-27T15:03:10+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-03-27T15:03:10+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1859470": {
+      "game_name": "PAC-MAN WORLD Re-PAC",
+      "source_sha256": "403f54eb2a347accf834169ab0bdd7594f945e5a9e76fbdc1a7fdf1b1c9de2ef",
+      "original_filename": "1859470_PAC-MAN_WORLD_Re-PAC_US.csv",
+      "eligible_start_utc": "2022-08-24T15:00:00+00:00",
+      "first_source_event_utc": "2022-08-25T22:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2022-08-25T22:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1877020": {
+      "game_name": "Jujutsu Kaisen Cursed Clash",
+      "source_sha256": "4c74c56b138d095da3359a705224d1e4d6876a2c7a792010d033f9029cee3b86",
+      "original_filename": "1877020_Jujutsu_Kaisen_Cursed_Clash_US.csv",
+      "eligible_start_utc": "2023-10-11T14:05:02+00:00",
+      "first_source_event_utc": "2023-10-11T14:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-10-11T14:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1880620": {
+      "game_name": "Once Upon A KATAMARI",
+      "source_sha256": "559d1f699754eea8348d773474e5978b992f91697910ed4af03930d333397b46",
+      "original_filename": "1880620_Once_Upon_A_KATAMARI_US.csv",
+      "eligible_start_utc": "2025-07-31T22:05:03+00:00",
+      "first_source_event_utc": "2025-07-31T22:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-07-31T22:05:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1888160": {
+      "game_name": "ARMORED CORE™ VI FIRES OF RUBICON™",
+      "source_sha256": "aadee55dd42b542f332df759006560b230e7b8c91a16bc749cbd5970b4a2db44",
+      "original_filename": "1888160_ARMORED_CORE™_VI_FIRES_OF_RUBICON™_US.csv",
+      "eligible_start_utc": "2023-04-27T14:05:03+00:00",
+      "first_source_event_utc": "2023-04-27T14:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2023-04-27T14:05:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1909950": {
+      "game_name": "SUPER ROBOT WARS Y",
+      "source_sha256": "d686a66b222ad9c1f5641c4abb58786f25b9d66241e4d3b0bc139850ee28504c",
+      "original_filename": "1909950_SUPER_ROBOT_WARS_Y_US.csv",
+      "eligible_start_utc": "2025-04-21T22:05:03+00:00",
+      "first_source_event_utc": "2025-04-21T22:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-04-21T22:05:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1910090": {
+      "game_name": "Towa and the Guardians of the Sacred Tree",
+      "source_sha256": "84938c6aeeff7384cd15b304c06b35794ba57cf25595eac2ae26e553c63e2fdd",
+      "original_filename": "1910090_Towa_and_the_Guardians_of_the_Sacred_Tree_US.csv",
+      "eligible_start_utc": "2025-06-06T22:20:02+00:00",
+      "first_source_event_utc": "2025-06-06T22:20:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-06-06T22:20:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1963680": {
+      "game_name": "GUNDAM ROGUE ORBIT",
+      "source_sha256": "2fbb7b05d554f0011e8b5e5b169ed3dd7d6204bfde02d5ab1fb923b5a06ee890",
+      "original_filename": "1963680_GUNDAM_ROGUE_ORBIT_US.csv",
+      "eligible_start_utc": "2026-09-03T14:05:03+00:00",
+      "first_source_event_utc": "2026-09-03T14:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-09-03T14:05:03+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1979440": {
+      "game_name": "SAND LAND",
+      "source_sha256": "967cb8cd8ced149dd3afd01018d0a05bc4511a3abf8905d5af0b17d3de193b04",
+      "original_filename": "1979440_SAND_LAND_US.csv",
+      "eligible_start_utc": "2024-01-11T23:05:02+00:00",
+      "first_source_event_utc": "2024-01-11T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-01-11T23:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "1984270": {
+      "game_name": "Digimon Story Time Stranger",
+      "source_sha256": "bbe365063431f19db9ad1b26e0450ab60948d824c34b2043d70f1f74131e77b6",
+      "original_filename": "1984270_Digimon_Story_Time_Stranger_US.csv",
+      "eligible_start_utc": "2025-06-18T22:05:02+00:00",
+      "first_source_event_utc": "2025-06-18T22:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-06-18T22:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2146170": {
+      "game_name": "Baten Kaitos I & II HD Remaster",
+      "source_sha256": "98d330af8954ae12f6bc3f798ed388832a386f2b2d4141c1ba7528db009c98cb",
+      "original_filename": "2146170_Baten_Kaitos_I_&_II_HD_Remaster_US.csv",
+      "eligible_start_utc": "2024-06-16T15:00:00+00:00",
+      "first_source_event_utc": "2024-06-17T22:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-06-17T22:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2170370": {
+      "game_name": "SPY×ANYA: Operation Memories",
+      "source_sha256": "d87cd2d18b1d5295f1d33a95f1a1eae313139506581d8ef450ecf81e47aac333",
+      "original_filename": "2170370_SPY×ANYA_Operation_Memories_US.csv",
+      "eligible_start_utc": "2024-06-26T15:00:00+00:00",
+      "first_source_event_utc": "2024-06-27T22:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-06-27T22:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2172910": {
+      "game_name": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "source_sha256": "0bd15e6f3132d9407a16b5477a342e92406df41a968aeaec699379135d898cf8",
+      "original_filename": "2172910_CAPTAIN_TSUBASA_2_WORLD_FIGHTERS_US.csv",
+      "eligible_start_utc": "2026-05-13T01:00:02+00:00",
+      "first_source_event_utc": "2026-05-13T01:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-05-13T01:00:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2197680": {
+      "game_name": "That Time I Got Reincarnated as a Slime ISEKAI Chronicles",
+      "source_sha256": "224006d0e849f4210a9e0be5e138bd081d2376c809f51b0b89d9392fe5b5a578",
+      "original_filename": "2197680_That_Time_I_Got_Reincarnated_as_a_Slime_ISEKAI_Chronicles_US.csv",
+      "eligible_start_utc": "2024-05-29T01:00:03+00:00",
+      "first_source_event_utc": "2024-05-29T01:00:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-05-29T01:00:03+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2213190": {
+      "game_name": "DEATH NOTE Killer Within",
+      "source_sha256": "4966e6f1dba1ef3b09c0b75e5b1ab2132cbd4e2dadb81f7d2b9662de0143a2d0",
+      "original_filename": "2213190_DEATH_NOTE_Killer_Within_US.csv",
+      "eligible_start_utc": "2024-11-04T15:00:00+00:00",
+      "first_source_event_utc": "2024-11-05T17:05:01+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-11-05T17:05:01+00:00",
+          "list_price_usd": "9.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2244210": {
+      "game_name": "Echoes of Aincrad",
+      "source_sha256": "bed729e33ae6460ed4e753425a438569dabf2e19fe2e5d3d463b0216ce1c4090",
+      "original_filename": "2244210_Echoes_of_Aincrad_US.csv",
+      "eligible_start_utc": "2026-03-05T23:05:02+00:00",
+      "first_source_event_utc": "2026-03-05T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-03-05T23:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2246670": {
+      "game_name": "Tales of Xillia Remastered",
+      "source_sha256": "ed97a2ed17b5416c0c6a25606e798c812d547f3bd0ed6b425f7b90d7dad3ed78",
+      "original_filename": "2246670_Tales_of_Xillia_Remastered_US.csv",
+      "eligible_start_utc": "2025-09-03T22:05:03+00:00",
+      "first_source_event_utc": "2025-09-03T22:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-09-03T22:05:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2288340": {
+      "game_name": "ACE COMBAT 8: WINGS OF THEVE",
+      "source_sha256": "b8323205dacf220b9841393c5898b46eea8afc0490f3d74ec8f91010b7ea5bd2",
+      "original_filename": "2288340_ACE_COMBAT_8_WINGS_OF_THEVE_US.csv",
+      "eligible_start_utc": "2026-06-03T01:00:22+00:00",
+      "first_source_event_utc": "2026-06-03T01:00:22+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-06-03T01:00:22+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2288630": {
+      "game_name": "Taiko no Tatsujin: Rhythm Festival",
+      "source_sha256": "a3ff5b89396df5b1084f0f6d7afaee57e252d56dddd2e153b607b3e464c7dee2",
+      "original_filename": "2288630_Taiko_no_Tatsujin_Rhythm_Festival_US.csv",
+      "eligible_start_utc": "2024-08-26T22:05:02+00:00",
+      "first_source_event_utc": "2024-08-26T22:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-08-26T22:05:02+00:00",
+          "list_price_usd": "49.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2324290": {
+      "game_name": "PAC-MAN WORLD 2 Re-PAC",
+      "source_sha256": "1b797336babf3efab6c3b7968425dbf978e698c37d023e242b338fdd53fc6695",
+      "original_filename": "2324290_PAC-MAN_WORLD_2_Re-PAC_US.csv",
+      "eligible_start_utc": "2025-07-31T22:05:03+00:00",
+      "first_source_event_utc": "2025-07-31T22:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-07-31T22:05:03+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2331020": {
+      "game_name": "Tales of Berseria Remastered",
+      "source_sha256": "3c5ab9243e8e0784564fbb35ff69fec3a1798b0f18657c49d002dafa002e23fc",
+      "original_filename": "2331020_Tales_of_Berseria_Remastered_US.csv",
+      "eligible_start_utc": "2025-11-19T17:05:03+00:00",
+      "first_source_event_utc": "2025-11-19T17:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-11-19T17:05:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2362050": {
+      "game_name": "MY HERO ACADEMIA: All’s Justice",
+      "source_sha256": "c15e96e1ffc48473203b50a8b16e740e2c68753dade67b86032d9447d59b73a7",
+      "original_filename": "2362050_MY_HERO_ACADEMIA_All’s_Justice_US.csv",
+      "eligible_start_utc": "2025-09-30T15:05:02+00:00",
+      "first_source_event_utc": "2025-09-30T15:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-09-30T15:05:02+00:00",
+          "list_price_usd": "59.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2362060": {
+      "game_name": "CODE VEIN II",
+      "source_sha256": "1046048ee44c9d4d55226ae505fab3d5af449202abaa04b28f22856f2de351cd",
+      "original_filename": "2362060_CODE_VEIN_II_US.csv",
+      "eligible_start_utc": "2025-09-24T23:15:02+00:00",
+      "first_source_event_utc": "2025-09-24T23:15:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-09-24T23:15:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2383200": {
+      "game_name": "PATAPON 1+2 REPLAY",
+      "source_sha256": "05b572ff7920794ea5715a2a9f7e1ac805e19e67300b465638d28f12c417a14c",
+      "original_filename": "2383200_PATAPON_1+2_REPLAY_US.csv",
+      "eligible_start_utc": "2025-07-09T15:00:00+00:00",
+      "first_source_event_utc": "2025-07-10T23:45:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-07-10T23:45:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2482940": {
+      "game_name": "Little Nightmares VR: Altered Echoes",
+      "source_sha256": "4836b6fa02ebd986c6b97162750ef58f2ce500fc39799f07724178c1356202ca",
+      "original_filename": "2482940_Little_Nightmares_VR_Altered_Echoes_US.csv",
+      "eligible_start_utc": "2026-04-22T15:00:00+00:00",
+      "first_source_event_utc": "2026-04-23T22:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-04-23T22:05:02+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2530980": {
+      "game_name": "Tales of Graces f Remastered",
+      "source_sha256": "d80eb3b4ad831a3e820017baefdca8a6d8c19bfe39bed94d6f5ac89dc775acee",
+      "original_filename": "2530980_Tales_of_Graces_f_Remastered_US.csv",
+      "eligible_start_utc": "2024-10-30T01:00:02+00:00",
+      "first_source_event_utc": "2024-10-30T01:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2024-10-30T01:00:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2622380": {
+      "game_name": "ELDEN RING NIGHTREIGN",
+      "source_sha256": "51219aaaa946ee6534709ace4d667bdfb8a8ff5133e2d894e72f8541290a439e",
+      "original_filename": "2622380_ELDEN_RING_NIGHTREIGN_US.csv",
+      "eligible_start_utc": "2025-02-12T14:05:03+00:00",
+      "first_source_event_utc": "2025-02-12T14:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-02-12T14:05:03+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "2730810": {
+      "game_name": "EVERYBODY'S GOLF HOT SHOTS",
+      "source_sha256": "be695faa697b36265e9b842fd688dd66f654e12c00012438608933cb0e14a335",
+      "original_filename": "2730810_EVERYBODY'S_GOLF_HOT_SHOTS_US.csv",
+      "eligible_start_utc": "2025-06-25T01:00:02+00:00",
+      "first_source_event_utc": "2025-06-25T01:00:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-06-25T01:00:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3004100": {
+      "game_name": "FREEDOM WARS Remastered",
+      "source_sha256": "c00ffe51fe819f845bb3cd84b3b95ff6995b65317a73c4b862103e66eca6de13",
+      "original_filename": "3004100_FREEDOM_WARS_Remastered_US.csv",
+      "eligible_start_utc": "2025-01-08T15:00:00+00:00",
+      "first_source_event_utc": "2025-01-09T23:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2025-01-09T23:05:02+00:00",
+          "list_price_usd": "39.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3470960": {
+      "game_name": "Tales of Eternia Remastered",
+      "source_sha256": "7029ce6dffe8e819425e9d459a2dc85b557a226784d10f9c45d0e4264d1518ae",
+      "original_filename": "3470960_Tales_of_Eternia_Remastered_US.csv",
+      "eligible_start_utc": "2026-10-14T15:00:00+00:00",
+      "first_source_event_utc": "2026-10-15T22:05:03+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-10-15T22:05:03+00:00",
+          "list_price_usd": "29.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3751260": {
+      "game_name": "The Blood of Dawnwalker",
+      "source_sha256": "66faa5cd87329e997e0f8976a3759e7717e8a56c800a8bd008bb067135e846dd",
+      "original_filename": "3751260_The_Blood_of_Dawnwalker_US.csv",
+      "eligible_start_utc": "2026-04-28T16:05:02+00:00",
+      "first_source_event_utc": "2026-04-28T16:05:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-04-28T16:05:02+00:00",
+          "list_price_usd": "69.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    },
+    "3905010": {
+      "game_name": "ONE PIECE: Grand Gourmet",
+      "source_sha256": "3a20d02ea1ff8f8fb7c6c3d07e961db853d3ad0c6ebc392a9a7763e281a47e11",
+      "original_filename": "3905010_ONE_PIECE_Grand_Gourmet_US.csv",
+      "eligible_start_utc": "2026-06-09T14:20:02+00:00",
+      "first_source_event_utc": "2026-06-09T14:20:02+00:00",
+      "historical_edition": "Historical full game",
+      "periods": [
+        {
+          "start_utc": "2026-06-09T14:20:02+00:00",
+          "list_price_usd": "19.99",
+          "basis": "Regular USD price inferred from the source, checked against the pinned package when unchanged."
+        }
+      ],
+      "sale_price_tolerance_usd": "0.01"
+    }
+  }
+}

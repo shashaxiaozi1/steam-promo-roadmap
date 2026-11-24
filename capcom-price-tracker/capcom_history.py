@@ -43,6 +43,7 @@ def load_details(folder: Path, publisher='CAPCOM'):
                                     zero_price_is_unknown=True,
                                     reviewed_periods=plans.get(str(aid), {}).get('periods'),
                                     reviewed_price_overrides=plans.get(str(aid), {}).get('price_overrides'),
+                                    confirmed_free_offer_starts=plans.get(str(aid), {}).get('confirmed_free_offer_starts'),
                                     sale_price_tolerance_usd=plans.get(str(aid), {}).get('sale_price_tolerance_usd', '0.00'))
         if len(days) != int(entry["imported_days"]) or meta["sale_days"] != int(entry["sale_days"]):
             raise ValueError(f"History coverage differs from approval manifest: {aid}")
