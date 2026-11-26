@@ -1,0 +1,115 @@
+observed_at_utc,date_jst,appid,game_name,currency,list_price_usd,sale_price_usd,discount_percent,price_source,status
+2026-11-26T13:25:39+00:00,2026-11-26,105600,Terraria,USD,9.99,9.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:40+00:00,2026-11-26,108600,Project Zomboid,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:41+00:00,2026-11-26,221100,DayZ,USD,49.99,49.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:42+00:00,2026-11-26,227300,Euro Truck Simulator 2,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:44+00:00,2026-11-26,250900,The Binding of Isaac: Rebirth,USD,14.99,14.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:45+00:00,2026-11-26,251570,7 Days to Die,USD,44.99,44.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:46+00:00,2026-11-26,252490,Rust,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:47+00:00,2026-11-26,261550,Mount & Blade II: Bannerlord,USD,49.99,49.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:49+00:00,2026-11-26,264710,Subnautica,USD,29.99,29.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:50+00:00,2026-11-26,266410,iRacing,USD,11.59,11.59,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:51+00:00,2026-11-26,270880,American Truck Simulator,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:52+00:00,2026-11-26,275850,No Man's Sky,USD,59.99,59.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:54+00:00,2026-11-26,284160,BeamNG.drive,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:55+00:00,2026-11-26,294100,RimWorld,USD,34.99,34.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:56+00:00,2026-11-26,312520,Rain World,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:57+00:00,2026-11-26,322330,Don't Starve Together,USD,14.99,14.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:25:59+00:00,2026-11-26,346110,ARK: Survival Evolved,USD,14.99,14.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:00+00:00,2026-11-26,381210,Dead by Daylight,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:01+00:00,2026-11-26,413150,Stardew Valley,USD,14.99,14.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:02+00:00,2026-11-26,431960,Wallpaper Engine,USD,4.99,4.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:04+00:00,2026-11-26,457140,Oxygen Not Included,USD,24.99,7.49,70,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:05+00:00,2026-11-26,477160,Human Fall Flat,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:06+00:00,2026-11-26,513710,SCUM,USD,44.99,44.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:07+00:00,2026-11-26,526870,Satisfactory,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:09+00:00,2026-11-26,534380,Dying Light 2 Stay Human: Reloaded Edition,USD,59.99,59.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:10+00:00,2026-11-26,582660,Black Desert,USD,9.99,0.99,90,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:11+00:00,2026-11-26,588650,Dead Cells,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:12+00:00,2026-11-26,594650,Hunt: Showdown 1896,USD,39.99,13.99,65,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:14+00:00,2026-11-26,646570,Slay the Spire,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:15+00:00,2026-11-26,648800,Raft,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:16+00:00,2026-11-26,673750,Super Bunny Man,USD,14.99,8.99,40,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:17+00:00,2026-11-26,703080,Planet Zoo,USD,54.99,16.49,70,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:19+00:00,2026-11-26,728880,Overcooked! 2,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:20+00:00,2026-11-26,739630,Phasmophobia,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:21+00:00,2026-11-26,815370,Green Hell,USD,27.99,2.79,90,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:22+00:00,2026-11-26,880940,Pummel Party,USD,14.99,14.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:24+00:00,2026-11-26,881020,Granblue Fantasy: Relink,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:25+00:00,2026-11-26,960170,DJMAX RESPECT V,USD,49.99,49.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:26+00:00,2026-11-26,1144200,Ready or Not,USD,49.99,24.99,50,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:27+00:00,2026-11-26,1149460,ICARUS,USD,37.49,37.49,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:29+00:00,2026-11-26,1203620,Enshrouded,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:30+00:00,2026-11-26,1222140,Detroit: Become Human,USD,39.99,3.99,90,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:31+00:00,2026-11-26,1260320,Party Animals,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:32+00:00,2026-11-26,1289670,EA Play,USD,5.99,0.99,83,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:34+00:00,2026-11-26,1304930,The Outlast Trials,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:35+00:00,2026-11-26,1326470,Sons Of The Forest,USD,29.99,29.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:36+00:00,2026-11-26,1361210,"Warhammer 40,000: Darktide",USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:37+00:00,2026-11-26,1371980,No Rest for the Wicked,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:39+00:00,2026-11-26,1384160,GUILTY GEAR -STRIVE-,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:40+00:00,2026-11-26,1401590,Disney Dreamlight Valley,USD,39.99,23.99,40,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:41+00:00,2026-11-26,1431300,SAND: Raiders of Sophie,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:42+00:00,2026-11-26,1466060,Tainted Grail: The Fall of Avalon,USD,44.99,44.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:44+00:00,2026-11-26,1478500,Big Walk,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:45+00:00,2026-11-26,1488490,Nivalis Nights,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:46+00:00,2026-11-26,1621690,Core Keeper,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:47+00:00,2026-11-26,1623730,Palworld,USD,29.99,29.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:49+00:00,2026-11-26,1671210,DELTARUNE,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:50+00:00,2026-11-26,1808500,ARC Raiders,USD,39.99,19.99,50,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:51+00:00,2026-11-26,1863430,Dragonkin: The Banished,USD,24.99,12.49,50,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:52+00:00,2026-11-26,1867240,WARDOGS,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:54+00:00,2026-11-26,1868140,DAVE THE DIVER,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:55+00:00,2026-11-26,1876890,Wandering Sword,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:56+00:00,2026-11-26,1903340,Clair Obscur: Expedition 33,USD,49.99,49.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:26:57+00:00,2026-11-26,1938090,Call of Duty®,,,,,steam_us_appdetails_price_overview,no_valid_us_storefront_price
+2026-11-26T13:26:59+00:00,2026-11-26,1943950,Escape the Backrooms,USD,9.99,9.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:00+00:00,2026-11-26,1962700,Subnautica 2,USD,29.99,29.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:01+00:00,2026-11-26,2111630,JR EAST Train Simulator,USD,22.99,22.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:02+00:00,2026-11-26,2178480,Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island,USD,39.99,39.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:04+00:00,2026-11-26,2190220,Touhou Danmaku Kagura Phantasia Lost,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:05+00:00,2026-11-26,2253100,Everwind,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:06+00:00,2026-11-26,2291060,EARTH DEFENSE FORCE 6,USD,59.99,59.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:07+00:00,2026-11-26,2300320,Farming Simulator 25,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:09+00:00,2026-11-26,2344520,Diablo® IV,USD,49.99,49.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:10+00:00,2026-11-26,2358720,Black Myth: Wukong,USD,59.99,59.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:11+00:00,2026-11-26,2399830,ARK: Survival Ascended,USD,44.99,44.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:12+00:00,2026-11-26,2406770,Bodycam,USD,33.32,33.32,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:14+00:00,2026-11-26,2567870,Chained Together,USD,4.99,4.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:15+00:00,2026-11-26,2592160,Dispatch,USD,29.99,29.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:16+00:00,2026-11-26,2694490,Path of Exile 2,,,,,steam_us_appdetails_price_overview,no_valid_us_storefront_price
+2026-11-26T13:27:17+00:00,2026-11-26,2744880,Climber Animals: Together,USD,3.99,2.67,33,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:19+00:00,2026-11-26,2754380,The Roottrees are Dead,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:20+00:00,2026-11-26,2799860,INAZUMA ELEVEN: Victory Road,USD,69.99,69.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:21+00:00,2026-11-26,2868840,Slay the Spire 2,USD,24.99,19.99,20,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:22+00:00,2026-11-26,2968420,PowerWash Simulator 2,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:24+00:00,2026-11-26,2993780,FANTASY LIFE i: The Girl Who Steals Time,USD,59.99,59.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:25+00:00,2026-11-26,3008130,Dying Light: The Beast,USD,59.99,59.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:26+00:00,2026-11-26,3041230,Windrose,USD,29.99,29.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:27+00:00,2026-11-26,3065800,Marathon,USD,59.99,26.99,55,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:29+00:00,2026-11-26,3101040,Magical Girl Witch Trials,USD,29.99,23.99,20,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:30+00:00,2026-11-26,3105440,Heroes of Might and Magic: Olden Era,USD,39.99,29.59,26,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:31+00:00,2026-11-26,3164500,Schedule I,USD,19.99,19.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:32+00:00,2026-11-26,3167020,Escape From Duckov,USD,17.99,13.49,25,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:34+00:00,2026-11-26,3241660,R.E.P.O.,USD,9.99,9.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:35+00:00,2026-11-26,3321460,Crimson Desert Enhanced,USD,69.99,55.99,20,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:36+00:00,2026-11-26,3375780,Trails in the Sky 1st Chapter,USD,59.99,59.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:37+00:00,2026-11-26,3443820,BUNNY GARDEN 2,USD,24.99,24.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:39+00:00,2026-11-26,3489700,Stellar Blade™,USD,59.99,40.19,33,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:40+00:00,2026-11-26,3527290,PEAK,USD,7.99,7.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:41+00:00,2026-11-26,3576350,"Sex, Secrets & Used Tech",USD,16.99,16.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:42+00:00,2026-11-26,3711590,Train45,USD,10.99,10.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:44+00:00,2026-11-26,3722330,Shift At Midnight,USD,9.99,9.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:45+00:00,2026-11-26,3768760,007 First Light,USD,69.99,34.99,50,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:46+00:00,2026-11-26,3892270,Gamble With Your Friends,USD,7.99,7.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:47+00:00,2026-11-26,3932890,Escape from Tarkov,USD,49.99,49.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:49+00:00,2026-11-26,3934250,Village in the Shade,USD,49.99,49.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:50+00:00,2026-11-26,3949040,RV There Yet?,USD,7.99,7.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:51+00:00,2026-11-26,4001890,How to Fish,USD,7.99,7.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:52+00:00,2026-11-26,4019220,Dressmaker,USD,14.99,11.99,20,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:54+00:00,2026-11-26,4108000,Machine Party,USD,7.99,7.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:55+00:00,2026-11-26,4115450,Phantom Blade Zero,USD,59.99,59.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:56+00:00,2026-11-26,4128580,BidKing,USD,2.99,2.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:57+00:00,2026-11-26,4164790,Survival Log,USD,10.99,10.99,0,steam_us_appdetails_price_overview,ok
+2026-11-26T13:27:59+00:00,2026-11-26,4656000,BOMBANANA!,USD,7.99,4.79,40,steam_us_appdetails_price_overview,ok
+2026-11-26T13:28:00+00:00,2026-11-26,4704690,MECCHA CHAMELEON,USD,5.99,5.99,0,steam_us_appdetails_price_overview,ok
